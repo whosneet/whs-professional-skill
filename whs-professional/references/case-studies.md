@@ -17,7 +17,11 @@ coroner — not the case alone.
 6. [Dreamworld Thunder River Rapids Ride (25 October 2016)](#6-dreamworld)
 7. [Whakaari / White Island Eruption (9 December 2019)](#7-whakaari)
 8. [Grenfell Tower Fire (14 June 2017)](#8-grenfell-tower)
-9. [Citation and Use Guidance](#9-citation-and-use-guidance)
+9. [Costa Concordia Grounding (13 January 2012)](#9-costa-concordia)
+10. [Ranger Uranium Mine — Recurring Releases (ongoing)](#10-ranger-uranium-mine)
+11. [Bhopal Methyl Isocyanate Disaster (2-3 December 1984)](#11-bhopal)
+12. [Beirut Port Explosion (4 August 2020)](#12-beirut-port)
+13. [Citation and Use Guidance](#13-citation-and-use-guidance)
 
 ---
 
@@ -853,6 +857,278 @@ plant; Pike River's ventilation inadequacy does not generalise to
 office work. The systemic lessons (multi-PCBU coordination,
 indicator failure, regulator capacity) do generalise. The technical
 specifics typically do not.
+
+---
+
+## 9. Costa Concordia Grounding (13 January 2012)
+
+### Site and operational context
+Costa Cruises (Carnival group) operated the Costa Concordia, a 290-m cruise
+ship carrying 4,229 passengers and crew. Routine Mediterranean itinerary
+including passage near Giglio Island, Italy.
+
+### Sequence of events
+The Captain (Francesco Schettino) directed an unauthorised "salute" deviation
+from the planned route to bring the ship close to Giglio. The ship struck
+submerged rocks at approximately 21:42 local time, tearing a 70-m gash in the
+hull. The ship lost propulsion and steerage, drifted, and grounded on its
+side adjacent to the island. 32 people died; 64 were injured. Evacuation was
+delayed and disorganised; the Captain left the ship while passengers and crew
+remained aboard.
+
+### Contributing factors
+| Factor type | Specific finding |
+|---|---|
+| Individual decision | Captain's deviation from planned route; unauthorised manoeuvre at speed close to land |
+| Command culture | Master-on-bridge authority not effectively challenged by junior officers; route deviation tolerated as cultural norm |
+| Navigation systems | Bridge navigation systems showed risk but were not actively used; reliance on visual navigation in coastal waters |
+| Emergency response | Evacuation order delayed by ~1 hour after grounding; ship listing made conventional evacuation impossible |
+| Lifeboat capacity and design | Lifeboats on the high side could not be launched; the evacuation system assumed level vessel |
+| Crew training | Multi-national crew with variable evacuation training; language barriers in emergency |
+| Regulatory framework | Cruise vessel safety regulation under IMO SOLAS framework — adequate on paper but compliance verification weak |
+
+### Regulatory outcome
+- Italian court convicted Captain Schettino of multiple manslaughter, causing
+  shipwreck, and abandoning ship — 16-year prison sentence
+- Costa Cruises fined and paid significant compensation
+- IMO updates to passenger ship safety regulations (lifeboat capacity,
+  evacuation drills, master authority and reporting)
+- The case is now standard material in maritime command training
+
+### Analytical framing
+A clear individual decision triggered the event, but the systemic factors
+(challenge of authority, evacuation system design, language barriers, the
+"salute" practice as normalised deviation) were the conditions under which
+that decision became consequential. Reason's organisational accident model
+applies — the Captain's act was the active failure; the latent conditions
+were institutional.
+
+### AU/NZ practice lessons
+- Cruise industry oversight under AMSA Navigation Act and IMO frameworks
+- Master authority on AU-flagged vessels under Navigation Act 2012 + Marine
+  Orders — bridge resource management (BRM) training now embedded
+- Passenger vessel evacuation requirements significantly tightened post-Concordia
+- Cross-reference `sector-regimes.md` §3 maritime
+
+### Suggested use
+Training material for command authority and challenge; case study for
+emergency response in environments where conventional evacuation is
+compromised; illustration of normalised deviation building to catastrophic
+event.
+
+---
+
+## 10. Ranger Uranium Mine — Recurring Releases (ongoing)
+
+### Site and operational context
+Ranger Mine is an open-pit uranium mine in the Northern Territory, operated
+by Energy Resources of Australia (ERA, majority-owned by Rio Tinto). Located
+within Kakadu National Park, surrounded by but excised from the World
+Heritage Area. Operating from 1981; mining ceased January 2021; rehabilitation
+in progress.
+
+### Pattern of events
+Multiple documented contamination releases across the operational life,
+including:
+- **December 2013** — leach tank rupture; approximately 1.4 ML of acidic
+  slurry containing uranium ore released; some material reached drainage to
+  Magela Creek floodplain
+- **Numerous smaller releases** over the operational period, documented in
+  the Supervising Scientist Branch annual reports
+- **Ongoing seepage** from tailings storage facilities monitored throughout
+  operations
+
+### Contributing factors
+| Factor type | Specific finding |
+|---|---|
+| Equipment integrity | Aged process plant; tanks beyond original design life |
+| Management of change | Process modifications without commensurate integrity assessment |
+| Independent oversight | Supervising Scientist Branch (Cth) maintained independent monitoring; reports drove regulatory attention |
+| Indigenous engagement | Mirarr Traditional Owners' opposition to mining and the relationship of mining to country |
+| Closure planning | Late initiation of rehabilitation planning relative to operational life; complex closure requirements |
+
+### Regulatory outcome
+- Each incident generated regulator engagement and corrective action
+- Ranger Mine operated under a unique regulatory framework: Atomic Energy
+  Act + Environment Protection (Alligator Rivers Region) Act + NT WHS Act +
+  Aboriginal Land Rights (Northern Territory) Act
+- Closure and rehabilitation now subject to specific Ranger Project Area
+  rehabilitation framework (RPARC)
+- Indigenous co-design of closure outcomes (Gundjeihmi Aboriginal
+  Corporation representing Mirarr)
+
+### Analytical framing
+Ranger illustrates that contamination events are typically not isolated —
+they are the visible expression of underlying integrity, management of
+change, and oversight systems. Hopkins' analysis of process industry
+accidents (cross-reference §3 Texas City) applies: most major releases
+are preceded by smaller-release precursors and degraded control patterns.
+
+The site also illustrates the WHS-environment-Indigenous land intersection
+(cross-reference `environment.md`, `diversity-inclusion.md` §1, and
+`sector-regimes.md` §2).
+
+### AU/NZ practice lessons
+- Process integrity for ageing assets — risk-based inspection becomes more
+  important as plant ages
+- Independent oversight matters — the Supervising Scientist role was a
+  documented driver of incident transparency
+- Closure planning needs to start before operations end — and needs
+  Indigenous consultation embedded
+- The cost of inadequate closure is multi-generational
+
+### Suggested use
+Operational training for process integrity management; closure planning
+content; case study for the intersection of WHS, environment, and Indigenous
+land use; example of independent oversight value.
+
+---
+
+## 11. Bhopal Methyl Isocyanate Disaster (2-3 December 1984)
+
+### Site and operational context
+Union Carbide India Limited operated a pesticide plant in Bhopal, Madhya
+Pradesh, India, producing carbaryl (Sevin). The process used methyl
+isocyanate (MIC) — an extremely toxic intermediate — stored in three large
+tanks. Plant in operational decline; staffing reduced; safety systems
+degraded.
+
+### Sequence of events
+On the night of 2 December 1984, water entered MIC storage tank E610.
+Reaction produced runaway exothermic and pressure conditions. MIC released
+into the atmosphere over Bhopal city for approximately 2 hours. Multiple
+safety systems (vent gas scrubber, flare tower, refrigeration system) were
+non-functional, undersized, or bypassed. Wind carried the toxic cloud over
+densely populated areas.
+
+Approximately 3,800 people died within days; estimates of total mortality
+range from 8,000 to 25,000+ over subsequent decades. 500,000+ people
+exposed; ongoing health effects documented across generations.
+
+### Contributing factors
+| Factor type | Specific finding |
+|---|---|
+| Plant design | Multiple safety system failures (scrubber, flare, refrigeration); siting near densely populated area; large MIC inventory |
+| Maintenance | Refrigeration system disabled to save costs; scrubber undersized for catastrophic release; flare offline for maintenance |
+| Operating discipline | Standard operating procedures not followed; staffing cuts reduced operator coverage; alarm response degraded |
+| Cost cutting | Plant in financial distress; maintenance budgets cut; experienced operators leaving |
+| Process safety | No formal HAZOP or quantitative risk assessment; emergency response plan inadequate |
+| Community planning | No emergency evacuation plan for surrounding population; no warning system |
+| Regulatory | Indian regulatory framework lacked specific process safety provisions; oversight capacity limited |
+| Corporate accountability | Parent company (Union Carbide Corporation, US) distanced from operational decisions; eventual settlement vs prosecution dispute |
+
+### Regulatory outcome
+- Union Carbide settled with Indian government for USD $470M (1989) — widely
+  regarded as inadequate
+- Criminal proceedings against Union Carbide executives; CEO Warren Anderson
+  charged but never extradited from US (died 2014)
+- Indian Environment Protection Act 1986 enacted post-disaster
+- International CCPS founded 1985 in direct response to Bhopal
+- Process safety as a discipline crystallised globally post-Bhopal
+- ISO/IEC standards for functional safety developed in subsequent decades
+
+### Analytical framing
+Bhopal is the foundational case for modern process safety management. It
+demonstrates that catastrophic releases are not technical failures alone —
+they are organisational failures expressed through technical systems. The
+combination of plant design, maintenance discipline, operating culture,
+cost-cutting pressure, and regulatory weakness created conditions in which
+a foreseeable initiating event (water ingress) became uncontrollable.
+
+Hopkins' work on process safety (Longford, Texas City, Macondo) is in direct
+intellectual lineage with Bhopal — the same systemic mechanism, scaled.
+
+### AU/NZ practice lessons
+- MHF regulation framework (cross-reference `hazards.md` §7) is the direct
+  legislative descendant of post-Bhopal global thinking
+- Process Safety Management (cross-reference §8 above) crystallised
+  internationally
+- The siting of hazardous facilities near populated areas now subject to
+  consequence-based assessment
+- Community emergency planning around MHF sites is mandated
+- The principle that cost-cutting on safety systems produces catastrophic
+  exposure is the foundation of modern process safety governance
+
+### Suggested use
+Foundational training material for process safety; case study for the
+relationship between organisational decline and safety degradation;
+illustration of the human cost of inadequate safety management; cross-
+reference for any board paper on MHF or process safety investment.
+
+---
+
+## 12. Beirut Port Explosion (4 August 2020)
+
+### Site and operational context
+Beirut Port operated under the Lebanese government. Hangar 12 stored
+2,750 tonnes of ammonium nitrate confiscated from a ship (MV Rhosus) in
+2013 and stored without secure containment, segregation from incompatible
+materials, or monitoring.
+
+### Sequence of events
+On 4 August 2020 at approximately 18:08 local time, a fire began in Hangar
+12 (origin under investigation — possibly hot work, possibly fireworks
+also stored at the site). The fire detonated the ammonium nitrate stockpile.
+The explosion was one of the largest non-nuclear explosions in history,
+estimated equivalent to 1.1 kilotons TNT. Approximately 218 people killed,
+7,000 injured, 300,000 made homeless; estimated USD $15B damage; widespread
+infrastructure destruction.
+
+### Contributing factors
+| Factor type | Specific finding |
+|---|---|
+| Storage management | 2,750 tonnes of AN stored for 6+ years without segregation, ventilation, secure containment |
+| Regulatory oversight | Multiple Lebanese government departments aware of the hazard; no department took action; documented bureaucratic warnings ignored over 6 years |
+| Custodial chain | Original shipowner (MV Rhosus) abandoned the cargo; legal custody disputed; effective custody unclear |
+| Co-storage | Fireworks stored adjacent to AN — incompatible materials; ignition source proximity |
+| Initiating event | Hot work or accidental ignition (under investigation) triggered the fire |
+| Emergency response | First responders entered without knowledge of the AN stockpile; many killed in the subsequent detonation |
+| Governance | Lebanese governance crisis context; corruption; institutional dysfunction |
+
+### Regulatory outcome
+- Lebanese investigation ongoing (subject to political interference)
+- No conclusive accountability outcome at the level of senior officials
+- International investigations by Human Rights Watch, FBI (limited scope),
+  and journalist investigations
+- Renewed international attention to AN storage regulation
+- IMO and UN-level work on dangerous goods storage at port facilities
+
+### Analytical framing
+Beirut is a case of regulatory and institutional failure rather than
+operational accident. Multiple government departments had knowledge of the
+hazard over 6 years; bureaucratic dysfunction prevented any department from
+acting. The Hopkins / Reason analytical framing applies: latent conditions
+accumulated; eventually a foreseeable initiating event encountered the
+accumulated hazard with catastrophic result.
+
+Compare to Texas City (cross-reference §3): the operational issues were
+known; the political/managerial conditions prevented action; eventually the
+foreseeable event occurred.
+
+### AU/NZ practice lessons
+- AN storage in AU is regulated under MHF framework (Schedule 15 thresholds
+  apply); storage above 50 tonnes triggers MHF
+- Dangerous goods regulation at ports (AMSA + state DG regulators)
+- Custodial chain for abandoned hazardous cargo — legislation exists in AU
+  for AMSA to act; Beirut illustrates the consequence of regulatory inaction
+- Emergency response planning must include knowledge of stored hazards —
+  first responder safety
+- The institutional pattern of "everyone knew but no one was responsible"
+  is the foundational governance failure — board accountability for known
+  hazards is the modern WHS lesson
+
+### Suggested use
+Case study for governance failure; the costs of regulatory paralysis;
+illustration of why officer due diligence (cross-reference `legislation.md`
+§6) must drive action on known hazards, not just acknowledge them; emergency
+response planning content.
+
+---
+
+## 13. Citation and Use Guidance
+
+*(Section was previously §9 — content unchanged below; renumbered to reflect
+new cases above.)*
 
 ### The Dekker test
 

@@ -10,6 +10,13 @@
 5. [ICAM Report Template](#5-icam-report-template)
 6. [Common Investigation Pitfalls & Cognitive Biases](#6-common-pitfalls)
 7. [Corrective Action Framework](#7-corrective-action-framework)
+8. [PEEPO Question Bank](#8-peepo-question-bank)
+9. [Witness Interview Technique](#9-witness-interview-technique)
+10. [Witness Statement Format and Admissibility](#10-witness-statement-format-and-admissibility)
+11. [ICAM Variants — BHP, IOGP, Safety Wise](#11-icam-variants--bhp-iogp-safety-wise)
+12. [AcciMap Methodology](#12-accimap-methodology)
+13. [Bowtie Worked Example](#13-bowtie-worked-example)
+14. [Legal Privilege Management During Investigation](#14-legal-privilege-management-during-investigation)
 
 > For organisation-specific incident classification thresholds, notification
 > chains, investigation requirements by severity, and incident management
@@ -478,3 +485,620 @@ must verify:
 1. The action was implemented as intended
 2. The contributing factor has been addressed
 3. No new hazards were introduced by the control
+
+---
+
+## 8. PEEPO Question Bank
+
+The PEEPO categories (People, Environment, Equipment, Procedures, Organisation)
+provide the structure for systematic information gathering. The categories are
+useful only if they generate real conversations — concrete questions below.
+Adapt phrasing to the witness, but cover the substance.
+
+### People — questions to ask the people involved
+
+- "Walk me through what you were doing from the start of your shift."
+- "Tell me what you were thinking when [the critical moment] happened."
+- "How long have you been doing this task? When was the last time?"
+- "What training did you receive for this task? When was the last refresher?"
+- "Did you have any concerns about the task before starting? Did you raise them?"
+- "Was there anyone supervising the work? What was their role?"
+- "Were you working alone, or with others? How did communication work?"
+- "How were you feeling that day? Sleep, health, anything that was on your mind?"
+- "What does normal practice for this task look like — what would you usually do?"
+- "What was different about today compared to other days you've done this work?"
+
+### People — questions to ask witnesses (not directly involved)
+
+- "Tell me what you saw, in your own words."
+- "Where were you positioned when this happened? Could you see the work?"
+- "What was the work area like — busy, quiet, normal?"
+- "Did anything seem unusual before the event?"
+- "Did you notice anyone behaving in a way that was concerning beforehand?"
+- "Have you seen this kind of issue happen before — even if it didn't lead to harm?"
+
+### Environment
+
+- "What were the conditions on the day — weather, temperature, humidity?"
+- "What was the lighting like at the location?"
+- "Was there noise that could have affected communication or alarms?"
+- "What was the state of the work surface — clean, wet, contaminated, unstable?"
+- "Was the work area uncluttered, or was there housekeeping pressure?"
+- "Was the work area shared with other activities — vehicles, other trades, public?"
+- "Did the environment change during the work — weather turned, traffic increased?"
+- "Were there any unusual smells or atmospheric conditions?"
+
+### Equipment
+
+- "What plant and equipment was involved in the task?"
+- "When was the last inspection of the equipment? Where are those records?"
+- "Was any of the equipment damaged, modified, or showing wear before the event?"
+- "Did the equipment behave as expected — or was anything unusual?"
+- "Was the right equipment available for the task — or were workarounds used?"
+- "Were any guards, interlocks, or safety devices bypassed or out of service?"
+- "Were tools in date for calibration? Were test instruments verified?"
+- "Was the equipment fit for purpose in this work environment?"
+
+### Procedures
+
+- "What procedure, SWMS, or instruction governed this task?"
+- "Was it available at the workplace? Was it accessible when you needed it?"
+- "When was the procedure last reviewed? Who reviewed it?"
+- "Did the procedure cover the actual task as it was performed — or were there
+  steps not in the procedure?"
+- "If the procedure didn't cover something, how did you work it out?"
+- "What does your normal practice differ from the written procedure — and why?"
+- "Have you seen the procedure followed exactly recently — or are there
+  consistent variations?"
+- "Was there pressure to deviate from the procedure for time or commercial reasons?"
+
+### Organisation
+
+- "How does the organisation communicate safety expectations on this task?"
+- "What does your supervisor or manager say about how this work should be done?"
+- "How would you describe production pressure on this team in the period
+  leading up to the event?"
+- "What happens when workers raise concerns or report hazards? Have you done
+  that recently — what was the response?"
+- "Are there enough resources — time, people, equipment, training — to do the
+  work safely?"
+- "Have similar events happened before in this team or operation? What happened
+  with the lessons?"
+- "How would you describe the safety culture in this work group? Is it safe to
+  speak up?"
+- "Is there anything you'd change about how this work is organised if you had
+  the authority?"
+
+### Cross-cutting probes (useful in any category)
+
+- "Tell me more about that." (silence, allow elaboration)
+- "What did that look like in practice?"
+- "Help me understand — I want to make sure I've got this right."
+- "What would you have needed to do this differently?"
+- "If a new person started today and did this task, what would you tell them?"
+- "What does 'going well' look like for this task on a normal day?"
+
+### Anti-patterns — questions to avoid
+
+- "Did you follow the procedure?" — yes/no, closes conversation, invites
+  defensiveness
+- "Why did you do X?" — invites justification, primes defensiveness
+- Leading questions ("So the supervisor wasn't there, was that the problem?")
+- Multiple questions stacked together
+- Questions that contain the answer
+
+---
+
+## 9. Witness Interview Technique
+
+ICAM and any incident investigation depends on the quality of witness
+information. Interview technique is a discrete competency — the same person
+can be a good investigator and a poor interviewer if they have not been
+trained or coached in the craft.
+
+### The PEACE model
+
+PEACE is the UK police interview framework (developed 1992 in response to
+documented coercion in the previous regime). It is now the international
+default for fact-finding interviews and is widely adopted in regulatory and
+WHS investigation.
+
+| Stage | What it is | What it looks like |
+|---|---|---|
+| **P** Plan and Prepare | Read the file; identify topics; sequence questions; anticipate sensitivities; plan logistics (location, support person, recording) | 30+ minutes for any substantive interview |
+| **E** Engage and Explain | Introductions; explain purpose, process, recording, voluntariness, support person; build rapport before substance | 5-10 minutes |
+| **A** Account, Clarify, Challenge | Free recall first ("walk me through it"); then probe; clarify; challenge inconsistencies last and gently | 60-80% of interview time |
+| **C** Closure | Summarise key points back; check understanding; invite anything else; explain next steps | 5 minutes |
+| **E** Evaluate | Review for completeness; identify follow-up; reflect on technique | After interview |
+
+### Cognitive interviewing — key techniques
+
+Developed by Fisher and Geiselman (1992) to improve recall accuracy. Effective
+for witnesses to events where memory is fragmentary or distressed.
+
+- **Free recall** — let the witness tell the whole story uninterrupted before
+  any probing
+- **Context reinstatement** — ask the witness to mentally place themselves
+  back at the scene; describe surroundings, sounds, smells, feelings before
+  the event
+- **Multiple recalls** — ask the witness to recall the event from a different
+  perspective (e.g., what would a person standing across the room have seen?)
+- **Reverse order recall** — work backward through the event; can surface
+  details not captured in forward recall
+- **Change perspective** — ask "if you were the supervisor, what would you
+  have seen?"
+
+### Fact-finding vs disciplinary interviews — the critical distinction
+
+A fact-finding interview seeks to understand what happened. A disciplinary
+interview seeks to test whether a worker has breached a rule. The two require
+different procedural protections, different witnesses, and different documents.
+
+**If the interview may inform disciplinary action, the worker must know that
+in advance.** Otherwise the interview is compromised both ethically and
+procedurally:
+- Worker rights to representation differ (HSR, union, support person, legal
+  representation depending on jurisdiction and process)
+- The principle against self-incrimination applies (worker cannot be compelled
+  to answer questions whose answers may incriminate them — Fair Work Act and
+  case law)
+- ICAM evidence may not be admissible in disciplinary process if procedural
+  fairness was not afforded
+- The Just Culture distinction (Reason; cross-reference frameworks.md §12) is
+  the operative principle — investigation for learning, disciplinary for
+  accountability, with explicit procedural separation
+
+### Interview logistics
+
+- **Location** — quiet, private, neutral; not the worker's manager's office
+- **Support person** — offered as a right (HSR, union, family member, friend,
+  legal representative depending on jurisdiction); document the offer and
+  the choice
+- **Recording** — increasingly the default; explain why (accuracy, dispute
+  resolution); two-recorder redundancy for serious matters; written record
+  produced from recording
+- **Timing** — promptly after the event for memory accuracy; not within
+  hours where the worker is in shock or fatigued; not in the middle of a
+  shift if it can be avoided
+- **Sequence of interviews** — eyewitnesses first, supervisors next, then
+  area or operational management; senior leadership and officers later;
+  avoid cross-contamination of accounts
+- **Duration** — 60-90 minutes is the productive maximum; longer requires
+  breaks; very long interviews are coercive and the resulting evidence is
+  weaker
+- **Note-taking** — record without filtering; verbatim where the words
+  matter; flag where you're paraphrasing
+
+### Common interviewing failures
+
+- Interrupting free recall
+- Asking leading questions
+- Closing prematurely (failure to invite anything else)
+- Confronting inconsistencies aggressively rather than gently exploring them
+- Discussing the case in the presence of the witness before interview begins
+- Conducting investigation interviews under disciplinary framing without
+  notice
+- Failing to document the offer of a support person
+- Interviewing multiple witnesses together
+- Interviewing the most senior or authoritative witness first (they then
+  set the narrative for subsequent witnesses)
+
+---
+
+## 10. Witness Statement Format and Admissibility
+
+A witness statement is a written record of what the witness has said. It may
+become part of formal investigation records, regulator submissions, coronial
+brief, or court evidence. Its form and process affect its admissibility and
+weight.
+
+### Format
+
+A well-formed witness statement contains:
+
+- **Identification** — full name, role, age (or DOB), employer, contact
+  details, signature, date
+- **Capacity** — the witness's connection to the event (eg, "I was working
+  on Aisle 14 conducting stocktake from 14:05 until the incident at 14:22")
+- **Source of knowledge** — what the witness saw, heard, did personally;
+  not opinion, not what others told them (hearsay) unless explicitly framed
+- **Chronological account** — events in time order; specific times where
+  known; "approximately" where memory is approximate
+- **Verbatim quotes** — direct speech captured in quotes; reported speech
+  in paraphrase
+- **Acknowledgements at the end** — "This statement is true and correct to
+  the best of my knowledge"; signed and dated; pages numbered and initialled
+- **Investigator details** — name and role of person taking the statement;
+  date; location
+
+### What makes a statement admissible
+
+- **Voluntariness** — given without coercion, threat, inducement, or
+  oppression; the worker understood that they could decline to answer
+  questions or withdraw at any time
+- **Procedural fairness** — opportunity to have a support person; chance to
+  review and correct the statement; reasonable time to consider; not
+  conducted under undue pressure
+- **Accuracy** — the statement reflects what the witness said, not what the
+  investigator interpreted; verbatim where it matters
+- **Contemporaneity** — taken as close to the event as practicable; gap
+  between event and statement noted
+
+### What weakens or invalidates a statement
+
+- Coercion or threat (express or implied)
+- Inducement (express or implied promise of leniency, employment, payment)
+- Worker not informed of the purpose of the interview
+- Statement is the investigator's reconstruction rather than the witness's words
+- Worker not given opportunity to review and correct before signing
+- Statement taken when worker was clearly distressed, intoxicated, or
+  cognitively impaired
+- Multiple workers interviewed together influencing each other's accounts
+- Worker not informed they could decline to answer self-incriminating questions
+
+### Statement vs interview recording
+
+Some investigations record interviews and prepare statements from the
+recording; others record interviews and rely on the recording itself. Either
+is defensible if properly handled, but:
+
+- A statement prepared from recording should be reviewed and signed by the
+  witness
+- A recording without a statement is less convenient as evidence but is
+  often the more accurate record
+- Statements that look more polished than the witness's own speech raise
+  questions — preserve the witness's voice
+
+### Coronial and prosecution context
+
+Witness statements taken in a WHS investigation may be requested in coronial
+inquests or prosecutions. They may be admissible directly or as the basis
+for later sworn evidence. **The standard for a WHS investigation statement
+should be the standard for a coronial brief** — that's the safest assumption.
+
+---
+
+## 11. ICAM Variants — BHP, IOGP, Safety Wise
+
+ICAM is not a single methodology; the term covers a family of related
+approaches with subtle but operationally significant differences. Confusion
+arises when an organisation says it uses "ICAM" without specifying which
+variant — different investigators arrive at different conclusions because
+they are applying different frameworks.
+
+### Common core
+
+All ICAM variants share:
+- Systemic orientation (Reason's organisational accident model)
+- Workshop-style analysis with multi-disciplinary team
+- Mapping factors at the level of Absent/Failed Defences → Individual/Team
+  Actions → Task/Environmental Conditions → Organisational Factors
+- Corrective actions mapped to contributing factors rather than to symptoms
+
+### BHP ICAM
+
+The original (1990s). Developed for the mining industry. Emphasises:
+- A strict bottom-up workshop discipline
+- Distinction between contributory factors (closer to the event) and root
+  causes (organisational factors)
+- The Cause Pathway diagram as the central deliverable
+- Strong corrective action framework with effectiveness verification
+
+### IOGP ICAM
+
+Adopted by the International Association of Oil & Gas Producers. Adds:
+- Integration with bowtie analysis (use bowtie to identify the controls that
+  failed, then ICAM to understand why)
+- Specific consideration of process safety in addition to personal safety
+- Tighter integration with high-reliability organisation thinking (Weick,
+  Sutcliffe)
+- Greater emphasis on absent defences as well as failed defences
+
+### Safety Wise ICAM
+
+The most commonly taught variant in Australia (Safety Wise Solutions is a
+training provider). Variations:
+- Slightly different terminology (Latent Hazards instead of Latent Conditions
+  in some materials)
+- Strong emphasis on the investigator's facilitation role
+- 5-day Lead Investigator certification widely held in AU
+- Pre-loaded into many AU organisations' incident management procedures
+
+### Practical implication
+
+When advising on or conducting an investigation:
+- Confirm which ICAM variant the organisation uses (it's usually documented
+  in the Incident Management Procedure)
+- Where investigators have been trained in different variants, agree
+  terminology upfront in the workshop
+- For cross-organisation investigations (e.g., contractor and client),
+  reconcile variants explicitly
+- The differences are smaller than the surface terminology suggests — but
+  not zero
+
+---
+
+## 12. AcciMap Methodology
+
+Developed by Jens Rasmussen (1997) and refined by Paul Salmon and others.
+AcciMap is a hierarchical accident causation analysis that maps factors
+across multiple levels of the socio-technical system, including levels
+above the organisation (regulator, government, industry).
+
+### When to use AcciMap
+
+AcciMap is more useful than ICAM when:
+- The accident involves multiple organisations (operator, contractor,
+  regulator, association)
+- Regulatory failure is potentially implicated
+- The system has multiple PCBUs with overlapping duties (cross-reference
+  legislation.md §4)
+- A royal commission or major inquiry is anticipated
+- The lessons are intended to drive industry-wide or regulatory change
+
+### The six AcciMap levels (Rasmussen)
+
+1. **Government policy and budgeting** — legislation, funding allocations,
+   national priorities
+2. **Regulatory bodies and associations** — regulator capacity, industry
+   self-regulation, standard setting
+3. **Company management and planning** — corporate strategy, resource
+   allocation, governance
+4. **Technical and operational management** — management of operations,
+   supervision, work design
+5. **Physical processes and actor activities** — the work itself, frontline
+   actions, immediate environment
+6. **Equipment and surroundings** — plant, materials, physical environment
+
+### Method
+
+1. Establish a chronological account of the accident (similar to ICAM
+   sequence of events)
+2. For each contributing factor identified, place it at the appropriate
+   level
+3. Map the connections between factors (factor at level 2 enabled factor
+   at level 4)
+4. Identify factors that span multiple levels (these are typically the most
+   important systemic findings)
+5. Recommendations target the highest defensible level (the level at which
+   change has the most leverage)
+
+### Output
+
+A hierarchical diagram with factors at each level connected to enable a
+visual reading of the accident's systemic anatomy. The diagram itself is
+the deliverable — typically prepared in workshops over several days.
+
+### AcciMap vs ICAM — when to use which
+
+| Use ICAM when | Use AcciMap when |
+|---|---|
+| Investigation is internal to one organisation | Investigation crosses organisations or includes regulator |
+| Operational lessons are the primary output | Systemic or industry-level lessons are anticipated |
+| 5-day workshop is feasible | Longer engagement is acceptable (typically 2-4 weeks) |
+| Findings will inform corrective actions in the organisation | Findings may inform royal commission, regulatory reform |
+| The accident is operational | The accident has industry-wide pattern implications (e.g., Pike River, Longford) |
+
+Hopkins' analyses of Longford, Texas City, and Macondo are AcciMap-like in
+their treatment of regulatory and corporate levels even when not formally
+using the method.
+
+---
+
+## 13. Bowtie Worked Example
+
+### Purpose of this section
+
+§4 above describes bowtie analysis at the structural level. This section
+walks through a worked example to make the method concrete.
+
+### Worked example: Working at height — fall from height during rooftop
+maintenance
+
+**Top event**: Worker falls from height during rooftop maintenance work
+
+**Threats (left side — what could cause the top event)**:
+
+1. Anchor point fails during use
+2. Worker unrestrained at edge (no fall protection in place)
+3. Edge protection breached and not reinstated
+4. Worker overreaches beyond safe positioning
+5. Worker disoriented (fatigue, medical event, weather)
+
+**Prevention barriers (left side — controls preventing the top event)**:
+
+For each threat, the barriers that should prevent it:
+
+| Threat | Prevention barriers |
+|---|---|
+| Anchor fails | Engineering certification of anchors; annual inspection and tagging; pre-use visual check; load testing |
+| Worker unrestrained | Procedure mandating restraint/arrest connection before approaching edge; supervision; buddy check |
+| Edge protection breached | Procedure requiring immediate reinstatement; supervisor verification; site-specific induction |
+| Worker overreaches | Work positioning training; task design (bring work to worker rather than worker to edge); reach-pole equipment |
+| Worker disoriented | Fitness for work check; fatigue management; medical pre-screening for rooftop work; weather hold criteria |
+
+**Consequences (right side — what happens if the top event occurs)**:
+
+1. Fatal fall to ground / lower level
+2. Serious injury (fracture, head injury) survivable
+3. Suspension trauma if arrested in harness
+4. Minor injury / no injury
+
+**Mitigation barriers (right side — controls reducing severity)**:
+
+| Consequence | Mitigation barriers |
+|---|---|
+| Fatal fall | Fall arrest system that catches before strike; fall clearance calculation ensures clearance to strike |
+| Serious injury | Fall arrest equipment correctly fitted to limit deceleration forces; rescue arrives quickly; first aid on site; medical evacuation plan |
+| Suspension trauma | Trauma straps deployed by worker; rescue plan rehearsed and equipment present; rescue within 5-15 minutes |
+| Minor injury | First aid; return to work assessment; root cause investigation regardless of outcome |
+
+**Degradation factors (controls that can degrade barriers)**:
+
+| Barrier | Degradation factor | Control on degradation |
+|---|---|---|
+| Anchor certification | Time since last inspection > schedule | Anchor register with overdue alert; planned inspection cadence |
+| Restraint procedure | Production pressure to skip steps | Supervisor monitoring; toolbox talks; reporting of pressure to skip controls |
+| Edge protection | Material movement requiring temporary breach | Procedure requiring immediate reinstatement; physical removable section design |
+| Rescue plan | Plan not rehearsed; rescuers absent | Quarterly rescue drill; rescue capability verified before work commences |
+
+**How to read the bowtie**
+
+A bowtie tells a story: "If [threat] occurs, our [prevention barriers] should
+stop it. If they all fail and we have the [top event], our [mitigation
+barriers] should reduce the harm. The barriers themselves can be degraded by
+[degradation factors] — and we have controls on those too."
+
+The exercise of building a bowtie reveals where controls are absent (gaps in
+the columns) and where controls are weak (single barriers vs layered).
+
+### Use in practice
+
+- Critical risk management (cross-reference frameworks.md §7) — bowtie per
+  critical risk
+- Pre-task risk assessment for high-energy work
+- Post-incident analysis (which barriers failed?)
+- Board reporting (visual representation of critical risk control posture)
+- SWMS development (controls table is the bowtie's prevention column)
+
+---
+
+## 14. Legal Privilege Management During Investigation
+
+### Why this matters
+
+WHS investigations can become evidence in coronial inquests, prosecutions,
+civil litigation, regulator enforcement, and disciplinary proceedings.
+What is investigated, by whom, for what purpose, and how it is documented
+determines whether the investigation is protected by legal privilege —
+and whether protected material remains protected.
+
+Getting this wrong is consequential: privileged material accidentally
+disclosed may lose privilege permanently; non-privileged material treated
+as if privileged exposes the organisation to adverse inferences and orders.
+
+### Types of legal privilege relevant to WHS
+
+**Legal advice privilege** — protects communications between client and legal
+adviser for the dominant purpose of obtaining or giving legal advice.
+
+**Litigation privilege** — protects communications and material prepared for
+the dominant purpose of contemplated or pending litigation, including
+regulator prosecution and coronial inquest.
+
+**Without prejudice** — communications made in genuine attempt to settle a
+dispute; not the same as privilege but a related protection.
+
+**Public interest immunity** — government investigations may attract this
+where disclosure would be contrary to public interest; rarely available to
+private organisations.
+
+### The dominant purpose test (Esso v FCT, 1999)
+
+The High Court in *Esso Australia Resources Ltd v Federal Commissioner of
+Taxation* (1999) established the dominant purpose test for litigation
+privilege in AU:
+
+> "The dominant purpose of a document is the one purpose which is dominant
+> over any other; not necessarily the only purpose."
+
+For an investigation to attract litigation privilege:
+- Litigation must be reasonably anticipated (not merely possible)
+- The dominant purpose of the investigation must be obtaining legal advice
+  or preparing for that litigation
+- This purpose must exist from the outset of the investigation
+
+Investigations for operational learning are not privileged. Investigations
+for legal defence preparation may be. Mixed-purpose investigations are not
+privileged — the dominant purpose test fails.
+
+### How privilege is established
+
+The legal team (internal counsel and/or external solicitors) commissions
+the investigation:
+
+- A written engagement letter from legal to the investigator (internal or
+  external) stating the dominant purpose is to provide legal advice and
+  prepare for anticipated litigation
+- The investigator reports to legal, not to operations
+- Drafts circulate within the legal-privileged circle only
+- Reference to the investigation in non-privileged communications is minimal
+  and careful
+- The final report is provided to legal; legal then provides advice to the
+  organisation
+
+### How privilege is lost
+
+- Sharing privileged material outside the privileged circle (waiver)
+- Referring to the substance of privileged material in non-privileged
+  communications (waiver by reference)
+- Disclosing privileged material to a regulator (issue waiver — disclosure
+  for one purpose waives for all)
+- Producing the privileged material in a different proceeding (subject matter
+  waiver in some circumstances)
+- Operating the investigation as a mixed-purpose exercise (privilege never
+  attached)
+
+### The parallel-investigation model
+
+For serious incidents where both operational learning and litigation
+preparation are needed:
+
+1. **Operational ICAM** — for learning; not privileged; followed normally;
+   produces lessons learned, alerts, system improvements
+2. **Legal-led investigation** — commissioned by legal, dominant purpose
+   legal advice/litigation; privileged; produces legal advice and
+   defence preparation
+
+The two investigations run in parallel; the operational ICAM does not
+substitute for the legal investigation, and vice versa. Communication between
+the two must be carefully managed to avoid contamination.
+
+### Common errors
+
+- Engaging an investigator without an engagement letter from legal — the
+  investigation defaults to non-privileged
+- "Marking" the report "Privileged and Confidential" without the substantive
+  framework — this provides no protection
+- Sharing draft privileged reports with operations management — waiver
+- Discussing the privileged investigation findings in WHS team meetings —
+  waiver
+- Producing the privileged report to the regulator "voluntarily" thinking
+  it will help — issue waiver and substantive risk
+- Using the privileged investigation to inform disciplinary action against
+  the worker — issue waiver and procedural fairness issues
+
+### When privilege is appropriate
+
+- Fatality or serious injury where prosecution is foreseeable
+- Industrial manslaughter investigation
+- Regulator enforcement action contemplated
+- Civil litigation likely (contractor, third party, employee)
+- High-profile incident with potential coronial inquest
+
+### When privilege is not appropriate
+
+- Routine HiPo investigations
+- Operational learning from minor incidents
+- Investigations where the organisation will share findings publicly (alerts,
+  bulletins, industry forums)
+- Cases where the regulator has already attended and obtained evidence
+  directly
+
+### Practical implication for the WHS function
+
+The WHS function typically conducts operational investigations and is
+typically not the holder of privilege. The decision to run a parallel
+privileged investigation is taken by legal in consultation with the WHS
+function. The WHS function's role:
+
+- Recognise early when a serious incident may require privileged
+  investigation in parallel
+- Notify legal promptly (and document the notification)
+- Conduct the operational ICAM with awareness that documents may be
+  produced in proceedings (write with the regulator and coroner in mind)
+- Avoid contaminating the privileged investigation by sharing material
+  inappropriately
+- Understand that privileged investigation findings may not be available to
+  drive corrective action in the same way as operational ICAM findings —
+  the operational investigation must stand on its own for that purpose

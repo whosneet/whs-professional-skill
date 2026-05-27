@@ -390,3 +390,182 @@ See `references/frameworks.md` §13 for full treatment.
 | **Run-off liability** | Long-tail of workers comp and disease claims that may emerge years after acquisition. |
 | **Latent disease exposure** | Historical exposure (asbestos, silica, chemicals) that may produce claims decades later. |
 | **W&I** | Warranties and Indemnities — contractual mechanisms for allocating WHS-related transaction risk. |
+
+---
+
+## Occupational Hygiene
+
+See `references/specialist-topics.md` §1 and `references/legislation.md` §14.
+
+| Term | Meaning |
+|---|---|
+| **AIOH** | Australian Institute of Occupational Hygienists — professional body. |
+| **COH** | Certified Occupational Hygienist (AIOH certification). |
+| **ROH** | Recognised Occupational Hygienist (AIOH certification — entry tier). |
+| **NIOSH** | US National Institute for Occupational Safety and Health — sampling methods widely adopted (e.g., NIOSH 0500 for total dust, 0600 for respirable dust). |
+| **AS 3640** | Workplace atmospheres — Method for sampling and gravimetric determination of inhalable dust. |
+| **AS 3853** | Health and safety in welding and allied processes — Sampling of airborne particles. |
+| **WES** | Workplace Exposure Standard — airborne concentration limit for an airborne contaminant. |
+| **TWA** | Time-Weighted Average — typically 8-hour exposure. |
+| **STEL** | Short-Term Exposure Limit — typically 15-minute TWA. |
+| **BEI** | Biological Exposure Index — measurement of substance in worker's biological samples. |
+| **TLV** | Threshold Limit Value — ACGIH (US) exposure recommendation; international default where no AU WES. |
+| **MDHS** | Methods for the Determination of Hazardous Substances (UK HSE). |
+| **CISM** | Critical Incident Stress Management — structured intervention post-traumatic event. |
+| **MHFA** | Mental Health First Aid — accredited 2-day course; community and workplace variants. |
+
+---
+
+## Modern Slavery, ESG and Reporting
+
+See `references/specialist-topics.md` §3, §4.
+
+| Term | Meaning |
+|---|---|
+| **MSA** | Modern Slavery Act 2018 (Cth) — supply chain human rights due diligence; $100M consolidated revenue threshold. |
+| **MSS** | Modern Slavery Statement — mandatory annual disclosure under MSA; Board-signed; on public register. |
+| **NSW MSA** | Modern Slavery Act 2018 (NSW) — state-level legislation; Anti-Slavery Commissioner. |
+| **ESG** | Environmental, Social, Governance — sustainability framework. |
+| **GRI** | Global Reporting Initiative — sustainability reporting standards. |
+| **GRI 403** | Occupational Health and Safety reporting standard (2018) — disclosures 403-1 through 403-10. |
+| **SASB** | Sustainability Accounting Standards Board — sector-specific sustainability metrics. |
+| **TCFD** | Task Force on Climate-related Financial Disclosures. |
+| **ISSB** | International Sustainability Standards Board. |
+| **AASB S1 / S2** | AU Accounting Standards Board sustainability standards (climate-related from 1 Jan 2025 for Group 1). |
+| **SLO** | Social Licence to Operate — the implicit community/societal agreement to operate. |
+
+---
+
+## Insurance
+
+See `references/specialist-topics.md` §5.
+
+| Term | Meaning |
+|---|---|
+| **PL** | Public Liability — third-party injury/damage cover. |
+| **PI** | Professional Indemnity — advisory negligence cover. |
+| **D&O** | Directors and Officers — personal liability cover for officers; significantly reshaped by industrial manslaughter. |
+| **EIL** | Environmental Impairment Liability — pollution/contamination cover. |
+| **Side A / B / C** | D&O coverage layers — A protects officers when company can't indemnify; B reimburses company indemnification; C covers entity for securities claims. |
+| **Captive** | Captive insurer — wholly-owned insurance subsidiary; used by large groups for self-insurance with reinsurance backing. |
+
+---
+
+## Whistleblower
+
+See `references/whistleblower.md`.
+
+| Term | Meaning |
+|---|---|
+| **Corporations Act Pt 9.4AAA** | Principal AU corporate whistleblower regime (effective 1 July 2019 in current form). |
+| **PIDA** | Public Interest Disclosure Act 2013 (Cth) — Cth public sector whistleblower regime. |
+| **PID** | Public Interest Disclosure (also: state PID Acts). |
+| **Eligible whistleblower** | Defined class under Corporations Act s 1317AAA — current/former officer, employee, contractor, supplier, associate, or relative. |
+| **Disclosable matter** | Misconduct, improper state of affairs, contravention, danger to public — including WHS danger (s 1317AA). |
+| **Eligible recipient** | Officer, senior manager, auditor, actuary, regulator, authorised reporter (s 1317AAC). |
+
+---
+
+## Indigenous / Cultural Heritage
+
+See `references/diversity-inclusion.md` §1.
+
+| Term | Meaning |
+|---|---|
+| **AHIP** | Aboriginal Heritage Impact Permit (NSW — National Parks and Wildlife Act 1974). |
+| **CHMP** | Cultural Heritage Management Plan (VIC — Aboriginal Heritage Act 2006). |
+| **NTA** | Native Title Act 1993 (Cth). |
+| **ILUA** | Indigenous Land Use Agreement — under NTA. |
+| **RAP** | Reconciliation Action Plan — organisational commitment framework under Reconciliation Australia. |
+| **Cultural load** | Disproportionate burden carried by First Nations workers as advisors, advocates, intermediaries on cultural matters. |
+| **Sorry Business** | Period of mourning and ceremonial obligations following death in an Aboriginal community; recognised leave provision. |
+
+---
+
+## Disability and Accessibility
+
+See `references/diversity-inclusion.md` §2, §3.
+
+| Term | Meaning |
+|---|---|
+| **DDA** | Disability Discrimination Act 1992 (Cth). |
+| **Reasonable adjustment** | Modification to enable participation; statutory duty under DDA + WHS. |
+| **AND** | Australian Network on Disability — peak inclusion body. |
+| **JobAccess** | Federal program providing reasonable adjustment funding (Cth Dept of Employment). |
+| **Neurodivergent** | Cognitive variation including autism spectrum, ADHD, dyslexia, dyspraxia, Tourette's. |
+| **NAATI** | National Accreditation Authority for Translators and Interpreters. |
+| **CALD** | Culturally and Linguistically Diverse. |
+| **WGEA** | Workplace Gender Equality Agency. |
+
+---
+
+## Strategy, Function, Crisis
+
+See `references/strategy-function.md`.
+
+| Term | Meaning |
+|---|---|
+| **RACI** | Responsible, Accountable, Consulted, Informed — role-clarity matrix. |
+| **WHSBP** | WHS Business Partner — embedded role within a business unit. |
+| **CMT** | Crisis Management Team — corporate-level response distinct from emergency response. |
+| **CISM** | Critical Incident Stress Management. |
+| **Family liaison** | Discipline of supporting families of seriously injured / deceased workers; specialist role. |
+| **Goodhart's Law** | "When a measure becomes a target, it ceases to be a good measure" — applied to safety metrics. |
+
+---
+
+## AS/NZS Standards Index
+
+Frequently cited Australian / NZ standards in this skill. Where a standard
+appears repeatedly, the canonical entry is here.
+
+| Standard | Subject |
+|---|---|
+| **AS/NZS 1269** (series) | Occupational noise management |
+| **AS/NZS 1270** | Hearing protectors |
+| **AS/NZS 1336** | Eye and face protection — welding |
+| **AS/NZS 1418** (series) | Cranes, hoists and winches |
+| **AS/NZS 1576** (series) | Scaffolding |
+| **AS/NZS 1680** | Interior and workplace lighting |
+| **AS/NZS 1715** | Selection, use and maintenance of respiratory protective equipment |
+| **AS/NZS 1716** | Respiratory protective devices |
+| **AS/NZS 1885.1** | Workplace injury and disease recording standard (AU recordability) |
+| **AS/NZS 1891** (series) | Industrial fall-arrest systems and devices |
+| **AS/NZS 1940** | Storage and handling of flammable and combustible liquids |
+| **AS/NZS 2243.3** | Safety in laboratories — Microbiological safety and containment (PC1–PC4) |
+| **AS 2359** | Industrial trucks |
+| **AS 2550** (series) | Cranes — Safe use |
+| **AS 2601** | Demolition of structures |
+| **AS 2670** (parts) | Mechanical vibration and shock — Whole-body vibration |
+| **AS 2675** | Workplace first aid kits |
+| **AS 2763** | Vibration and shock — Hand-transmitted vibration |
+| **AS 2865** | Confined spaces |
+| **AS/NZS 3000** | Wiring Rules |
+| **AS/NZS 3012** | Electrical installations — Construction and demolition sites |
+| **AS 3640** | Workplace atmospheres — Inhalable dust sampling |
+| **AS/NZS 3760** | In-service safety inspection and testing of electrical equipment |
+| **AS 3780** | Storage and handling of corrosive substances |
+| **AS/NZS 3798** | Earthworks for commercial and residential developments |
+| **AS 3853** | Welding — Sampling airborne particles |
+| **AS/NZS 4024** (series) | Safety of machinery |
+| **AS 4081** | Storage and handling of toxic substances |
+| **AS 4326** | Storage and handling of oxidising agents |
+| **AS 4332** | Storage and handling of gases in cylinders |
+| **AS/NZS 4801** | OH&S management systems (superseded by ISO 45001 but legacy references persist) |
+| **AS/NZS 4836** | Safe working on or near low-voltage electrical installations |
+| **AS 4839** | Safe operation of dry abrasive blasting; safety in welding |
+| **AS/NZS 4979** | Storage tanks for petroleum (FRP) |
+| **AS/NZS 4994** (parts) | Edge protection systems |
+| **AS 3745** | Planning for emergencies in facilities |
+| **AS 1216** | Workplace hazard pictograms and class labels |
+| **AS 1674** (parts) | Safety in welding and allied processes — Fire / Electrical |
+| **AS 1851** | Routine service of fire protection systems and equipment |
+| **AS/NZS 4775** | Emergency eyewash and shower equipment |
+| **AS/NZS 60079** (series) | Hazardous area classification and equipment |
+| **AS/NZS ISO 31000** | Risk management — Principles and guidelines |
+| **AS/NZS ISO 45001** | Occupational health and safety management systems |
+| **ISO 14001** | Environmental management systems |
+| **ISO 19011** | Auditing management systems |
+| **ISO 12100** | Safety of machinery — General principles (parent of AS 4024) |
+| **IEC 61511** | Functional safety — Safety instrumented systems for the process industry |
+| **API 754** | Process safety performance indicators (refining and petrochemical) |

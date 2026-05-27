@@ -26,6 +26,10 @@ specific hazard category rather than a general legislative question.
 16. [Plant Safety and Machine Guarding](#16-plant-safety-and-machine-guarding)
 17. [Manual Tasks and Ergonomics](#17-manual-tasks-and-ergonomics)
 18. [Fatigue and Fitness for Work](#18-fatigue-and-fitness-for-work)
+19. [Crane Lifts and Rigging](#19-crane-lifts-and-rigging)
+20. [Demolition](#20-demolition)
+21. [Excavation and Trench Shoring](#21-excavation-and-trench-shoring)
+22. [Hot Work](#22-hot-work)
 
 ---
 
@@ -1208,6 +1212,385 @@ Models support roster design; not a substitute for individual self-assessment.
   equivalent applies; fatigue management plan is required
 - Pre-shift fitness for work systems (apps, peer check) supplement but do not
   replace roster design
+
+---
+
+---
+
+## 19. Crane Lifts and Rigging
+
+### Standards framework
+- AS 1418 series — Cranes, hoists and winches (1418.1 general, 1418.5 mobile,
+  1418.18 crane runways, etc.)
+- AS 2550 series — Cranes — Safe use
+- AS 1418.5 and AS 2550.5 — Mobile cranes specifically
+- Model WHS Reg 81–118 + Schedule 4 — HRWL classes
+- AS 4991 — Lifting devices
+
+### Critical lift vs routine lift
+
+A **critical lift** requires a documented lift study and engineered rigging
+plan in addition to a SWMS. Triggers (varies by organisation; defensible
+defaults):
+
+- Lift load >75% of crane chart capacity
+- Lift over occupied areas (people, infrastructure, plant)
+- Lift through confined or congested spaces
+- Tandem (multi-crane) lifts
+- Lifts of fragile, irregular, or unstable loads
+- Lifts requiring crane setup on non-standard surfaces (slopes, soft ground)
+- Lifts near energised electrical lines (within Safe Approach Distance — see
+  AS 3007 / state regulation)
+- Lifts during marginal weather conditions
+
+### HRWL classes for crane and lifting work
+
+| Class | Scope |
+|---|---|
+| **DG** Dogger | Slinging loads; direction of crane via standardised signals |
+| **RB** Basic rigger | Movement of equipment; static lines; safety nets and harness systems; perimeter safety screens |
+| **RI** Intermediate rigger | Rigger basic + cantilever decks, hoists and mast climbers, demolition rigging, dual-load lifts |
+| **RA** Advanced rigger | Rigger intermediate + tilt panels, multi-pole rigging, gin pole rigging |
+| **C0** | Slewing mobile crane <20 t |
+| **C1** | Slewing mobile crane <60 t |
+| **C2** | Slewing mobile crane <100 t |
+| **C6** | Slewing mobile crane >100 t |
+| **CN** | Non-slewing mobile crane >3 t |
+| **CV** | Vehicle-loading crane >10 t/m |
+| **CT** | Tower crane |
+| **CB** | Bridge / gantry crane |
+
+### Rigging plan content
+
+A documented rigging plan for a critical lift includes:
+- Load weight, dimensions, lift points
+- Centre of gravity and rigging configuration (slings, spreader bars, chains,
+  shackles) with WLL (Working Load Limit) for each component
+- Crane selection (chart capacity at the radius and configuration required)
+- Site layout (crane position, load pickup, set-down location, swing radius,
+  exclusion zone)
+- Wind speed limits (typical 10 m/s for mobile crane; lower for taller booms;
+  per crane chart and OEM)
+- Communication protocol (radio channel, dogger position, signal protocol)
+- Stop-work criteria (weather, load instability, equipment fault)
+
+### Exclusion zones
+
+- Standard practice: exclusion under and around the load during the lift
+- Minimum 2× the height of the load for falling-object exclusion
+- Larger for tall lifts (calculate based on possible swing trajectory)
+- Marked physically (bollards, barriers, signage); not just verbal
+- Monitored continuously — exclusion zone breach is the highest-frequency
+  pre-incident pattern
+
+### Pre-lift checks (every lift)
+
+- Daily crane pre-start record completed
+- Ground conditions verified (outrigger mats, slope, bearing capacity)
+- Rigging gear inspected, in date, rated for the load (visual + tag check)
+- Lift plan briefed to all participants
+- Communication tested
+- Weather within limits
+- Exclusion zone established
+- Stop-work authority briefed (any participant can stop the lift)
+
+### Common failure modes
+- Wind speed not checked or exceeded during the lift
+- Rigging gear over-rated for the application (e.g., chain sling used at
+  edge angle reducing WLL not accounted for)
+- Crane outriggers on inadequate ground bearing
+- Exclusion zone breached for "just a moment" while load suspended
+- Lift over an occupied area without proper planning
+- Communication failure between dogger and operator
+- Lift exceeded chart capacity at the radius required
+
+### Practical implications for FM / contract portfolios
+- Critical lift events on FM contracts: HVAC unit replacement, generator
+  installation, structural element replacement — these are not "routine"
+- Lift over an occupied building requires building occupant consultation
+  and evacuation protocol
+- Pre-mobilisation review should include site-specific lift constraints
+- Crane company prequalification — verify operator HRWL, insurance, lifting
+  gear inspection regime
+
+---
+
+## 20. Demolition
+
+### Standards framework
+- AS 2601:2001 — *The demolition of structures*
+- AS 4254 (asbestos in demolition) — cross-ref §3
+- AS 1216 (hazard signage) — cross-ref §13
+- Model WHS Reg 291 item 3 (demolition of load-bearing structures is HRCW)
+- State-specific demolition licensing (NSW, VIC, QLD have specific schemes)
+
+### Pre-demolition engineering survey
+
+Mandatory before any structural demolition. The survey documents:
+
+- Structure type, age, construction (typically architect/engineer's drawings
+  if available; site survey if not)
+- Load paths and structural dependencies (what supports what)
+- Hazardous materials present (asbestos register; lead paint; PCB; mercury
+  fluorescent tubes; refrigerant gases; contaminated soil from prior use)
+- Services to be isolated (electrical, gas, water, telecommunications,
+  fire systems)
+- Adjacent structure interfaces (party walls, shared services, structural
+  attachment)
+- Environmental considerations (heritage, asbestos in roofing, lead paint,
+  PCB ballasts)
+
+The engineer signs off the demolition methodology before work commences. The
+WHS Management Plan references the survey.
+
+### Demolition methodologies
+
+| Method | Application | Hazards |
+|---|---|---|
+| **Manual top-down** | Heritage-sensitive; restricted access; selective removal | Falls from height; manual handling; sustained exposure; dust |
+| **Mechanical top-down** | Multi-storey commercial; tower buildings | Vibration; dust; structural surprise; falling debris |
+| **Controlled collapse** | Open sites with adequate space | Exclusion zones; dust; debris travel; vibration |
+| **Implosion** | Rare in AU (used in mining and specialised contexts) | Explosive licensing; precise engineering; specialist contractors |
+| **Decommissioning** | Industrial plant — chemical, petroleum, nuclear | Process residues; isolation; specialist methodology |
+
+### Hazardous materials management in demolition
+
+- Asbestos: licensed removal (Class A friable; Class B >10 m² non-friable);
+  cross-ref §3
+- Lead paint: scraping/sanding generates lead dust; respiratory protection;
+  waste classification
+- PCB: in pre-1980 transformers and capacitors; specialist disposal
+- Engineered stone benchtops in legacy fit-outs: cross-ref §1; legacy work
+  notification framework
+- Treated timber: CCA, creosote treatment; waste classification and disposal
+- Refrigerant gases: pumpdown and recovery; HFC handling; Refrigerant
+  Handling Licence (RHL) required
+
+### Stability and structural support during demolition
+
+- Each demolition stage analysed for stability of remaining structure
+- Temporary propping or shoring as needed
+- Wall and floor cuts planned to avoid uncontrolled collapse
+- Engineer review at significant transition points
+- Stop-work criteria if unexpected structural behaviour (cracking, deflection,
+  sound)
+
+### Exclusion zones
+
+- Inside the work area: dust, falling debris, struck-by from plant
+- Outside the work area: site boundary, public access, adjacent buildings
+- Vertical exclusion: scaffolding, hoarding, debris netting
+- Marked physically and supervised
+- Adjacent occupant management (building occupants, neighbours, pedestrians)
+
+### Dust suppression
+
+- Water suppression at the source of cutting/breaking
+- Atmospheric monitoring near the work zone and at site boundary
+- Specific monitoring for asbestos (cross-ref §3) and RCS (cross-ref §2)
+- Respiratory protection for workers (P2/P3 depending on substance)
+
+### Common failure modes
+- Engineering survey not done or not updated for structural change
+- Asbestos disturbed without prior identification
+- Adjacent buildings damaged by vibration or settlement
+- Services not isolated before disturbance
+- Workers entering exclusion zones for "just a moment"
+- Plant operating on unstable demolition debris
+
+### Practical implications for FM / contract portfolios
+- Refurbishment contracts often involve partial demolition without full
+  demolition methodology applied
+- Asbestos register currency is critical before any disturbance
+- Hazardous materials disposal cost can dwarf the demolition cost; budget
+  accordingly
+- Vibration monitoring may be required for heritage-listed adjacent buildings
+- Public communication for visible demolition in occupied precincts
+
+---
+
+## 21. Excavation and Trench Shoring
+
+### Standards framework
+- AS 2865 (confined spaces) — applies if the excavation is a confined space;
+  cross-ref §11
+- Model WHS Reg 305 — excavation work HRCW
+- SWA *Excavation Work* Code of Practice (2018)
+- AS 4744.1 series — Demolition (related)
+- WorkSafe guidance per jurisdiction
+
+### Service location before excavation
+
+Mandatory before any excavation. Dial Before You Dig (DBYD —
+www.byda.com.au) provides service location data from utility owners.
+Process:
+
+1. DBYD request submitted (online; minimum 2 business days before excavation)
+2. Plans received from each affected utility (electricity, gas, water,
+   sewerage, telecommunications, fuel)
+3. Site walkover with plans — identify markers, ducts, manholes
+4. Locator service for unmarked services (electromagnetic, ground-penetrating
+   radar) where the work is near services
+5. Pothole exposure (carefully dig down) to confirm location before
+   mechanical excavation
+
+### Cave-in prevention
+
+The model regulation triggers SWMS at >1.5 m depth, but **cave-in risk
+exists at lower depths in unstable soils**. Soil classification (per AS
+3798):
+
+| Soil class | Description | Cave-in risk |
+|---|---|---|
+| Stable rock | Solid mineral with no cracks | Low |
+| Type A | Stable cohesive soil — clay loam, silty clay | Moderate; benching effective |
+| Type B | Less stable — silt loam, low-strength clay | High; shoring recommended |
+| Type C | Unstable — sand, gravel, saturated soils | High; shoring mandatory |
+
+### Cave-in prevention methods
+
+| Method | Application |
+|---|---|
+| **Benching** | Stable cohesive soils; multi-step cut with horizontal levels |
+| **Battering** | Sloped sides of excavation at angle of repose (typically 1:1 for stable, 1.5:1 for less stable, 2:1 for unstable) |
+| **Shoring (timber)** | Traditional; rarely used now in commercial work |
+| **Shoring (hydraulic / pneumatic)** | Standard for trench work; lightweight aluminium or steel |
+| **Trench boxes / shields** | Pre-fabricated; worker enters within the box; soil retained by box |
+| **Sheet piling** | Driven steel sheets; large excavations, water table |
+| **Soldier piles + lagging** | Deeper or larger excavations |
+
+### Atmospheric monitoring
+
+Excavations can develop hazardous atmospheres:
+- Oxygen depletion (decomposing organic matter; rusting steel)
+- Methane (sewers, landfill, decomposition)
+- Hydrogen sulphide (sewers, anaerobic decomposition)
+- Carbon monoxide (running equipment in enclosed pits)
+
+Test before entry; continuous monitoring during work in excavations >1.5 m
+or where contamination is suspected.
+
+### Edge protection and access
+
+- Edge protection (barriers, fencing) for excavations >1.5 m deep
+- Spoil placed >1 m from edge (load on edge causes cave-in)
+- Ladders or ramps for access; positioned within 25 ft (7.6 m) of any worker
+- No worker may be left in an excavation without access route maintained
+- Plant interface — minimum 5 m from edge for tracked plant (varies by soil
+  and load)
+
+### Weather considerations
+
+- Heavy rainfall destabilises walls; review excavation after significant
+  rain
+- Frost cycles affect soil stability
+- High wind can blow loose material; hoarding may be required
+- Lightning protocols for steel sheet piling
+
+### Common failure modes
+- DBYD not done or not respected
+- Mechanical excavation without potholing to confirm services
+- Cave-in in marginally classified soil (assumed Type A, actually Type B)
+- Spoil heap loading the edge
+- Shoring removed or shifted to accommodate other work
+- Worker accessing excavation without ladder during plant operation
+
+### Practical implications for FM / contract portfolios
+- Civil maintenance contracts (paving, drainage, service connection) routinely
+  involve excavation
+- Service strike incidents — gas, electrical, fibre optic — have high
+  consequence; service location regime cannot be shortcut
+- Confined space classification may apply (cross-ref §11); separate permit
+  requirements
+- Plant fatalities from cave-in are typically not reported as confined
+  space deaths but they share the same dynamic
+
+---
+
+## 22. Hot Work
+
+### Definition
+Hot work generates ignition sources from open flame, sparks, or high heat:
+welding (all types), cutting (oxy-fuel, plasma, abrasive), grinding,
+soldering, brazing, hot riveting, thawing pipes. Distinguishes from
+non-hot-work maintenance.
+
+### Standards framework
+- AS 1674.1 — Safety in welding and allied processes — Fire precautions
+- AS 1674.2 — Safety in welding and allied processes — Electrical
+- AS/NZS 1336 — Eye and face protection — welding
+- AS 4839 — Safety in welding
+- Permit-to-work for hot work in non-routine locations (cross-ref
+  `inspections-audits-permits.md` §4)
+
+### Hot work permit
+
+Required for hot work outside dedicated welding bays in:
+- Areas with combustible materials present
+- Confined spaces (cross-ref §11)
+- Process plant
+- Buildings with combustible cladding (cross-ref Grenfell context in
+  `case-studies.md`)
+- Outdoor sites with vegetation fire risk
+- Petroleum, chemical, or flammable goods storage
+
+### Pre-work preparation
+
+1. Combustible materials removed within 11 m (default per AS 1674.1) or
+   protected with non-combustible covers; greater distances for high-risk
+   work
+2. Atmospheric testing for flammable atmospheres (LEL <10% — cross-ref
+   §11); for hot work in confined spaces or on closed vessels containing
+   flammable residues
+3. Fire watch designated — competent worker, not the welder, equipped with
+   extinguishers, monitoring during work and for 30-60 minutes after
+4. Extinguishers and water positioned at the work area
+5. Emergency egress path verified
+6. Permit issued with conditions (time-limited; reissue required if
+   conditions change)
+
+### Welding-specific hazards
+
+| Hazard | Control |
+|---|---|
+| **UV radiation** | Helmet with shade rating appropriate to current (DIN/EN 379); barriers to protect adjacent workers ("arc eye") |
+| **Welding fume** | Local exhaust ventilation (LEV); manganese as the critical exposure — WES 1 mg/m³ reduced from 5 in 2024; respiratory protection where LEV inadequate |
+| **Spatter and slag** | Fire-resistant clothing; gauntlets; eye protection; spatter screens around the work; clear debris from below |
+| **Confined space welding** | LEV + atmospheric monitoring (LEL, O2, fume); standby; rescue plan; cross-ref §11 |
+| **Electric shock (electric arc welding)** | Isolation; RCD where required; voltage reduction devices on stick welders; cross-ref §10 |
+| **Compressed gas (oxy-fuel)** | Cylinder restraint; flashback arrestors; hose inspection; segregation in storage |
+| **Hot work on closed vessels** | Pre-purge with inert gas; never weld on full or recently-emptied flammable container; specialist methodology |
+
+### Fire watch duties
+
+- Position to see all areas where sparks could land
+- Equipment: appropriate extinguisher (typically dry chemical for combustibles;
+  CO2 for electrical; water mist for some — match to hazard)
+- Authority to stop work
+- Continuous presence during work
+- 30-60 minute monitoring period after work ends (slag can smoulder)
+- Final inspection before leaving the area
+
+### Common failure modes
+- Hot work permit not issued where required ("just a quick weld")
+- Combustibles assumed cleared, not verified
+- Fire watch delegated to the welder
+- Fire watch leaves at end of welding without the post-work monitoring period
+- Atmospheric testing skipped for confined space welding
+- Slag dropped through floor openings starting fire below
+- Welding on closed vessels (e.g., 200 L drums) without purging — explosions
+  are documented in this scenario
+
+### Practical implications for FM / contract portfolios
+- Refurbishment contracts often require ad-hoc welding/cutting in non-bay
+  locations — permit discipline matters
+- Building services upgrades (HVAC, plumbing) involve hot work in occupied
+  buildings — coordination with occupants critical
+- Fire detection systems may need to be isolated locally (to prevent
+  nuisance alarms) but isolation procedures must not compromise the
+  building's overall fire protection
+- The post-work monitoring period is the single most-overlooked control;
+  documented timing and sign-off enforces it
 
 ---
 

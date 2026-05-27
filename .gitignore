@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Packaged skill artefacts
+*.skill
+*.zip
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment / secrets
+.env
+.env.local
+*.local
+
+# Python (if utility scripts added)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node (if any tooling added)
+node_modules/
+
+# OS noise
+Thumbs.db
+desktop.ini

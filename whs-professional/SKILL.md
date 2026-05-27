@@ -110,7 +110,22 @@ load `references/company.md` alongside the generic file(s).
 | **Mandatory WHS training requirements by jurisdiction** (HSR, white card, HRWL, supervisor competency) | `references/legislation.md` §11 |
 | **Volunteer and unpaid worker coverage** under WHS Act / HSWA | `references/legislation.md` §12 |
 | **International framework comparison** (ILO, US OSHA, UK HSE, EU OSH) | `references/legislation.md` §13 |
-| **WHS in M&A and due diligence** (pre-acquisition assessment, red flags, integration) | `references/frameworks.md` §13 |
+| **WHS in M&A and due diligence** (pre-acquisition assessment, red flags, integration) | `references/frameworks.md` §13 (including sector overlays — mining, healthcare, construction) |
+| **WHS strategy, function design, budget economics, leadership development, crisis management** | `references/strategy-function.md` |
+| **Occupational hygiene, workplace mental health programs, Modern Slavery Act, ESG/WHS, insurance** | `references/specialist-topics.md` |
+| **Indigenous workforce, reasonable adjustments, neurodivergent accommodation, multi-language communication, gendered violence depth** | `references/diversity-inclusion.md` |
+| **WHS in procurement, supplier evaluation, tender response, contractor performance management** | `references/whs-procurement.md` |
+| **Whistleblower protections** (Corporations Act Part 9.4AAA, PIDA, state PID Acts, WHS reporting intersection) | `references/whistleblower.md` |
+| **Everyday case studies for training and ICAM calibration** (forklift, manual handling, psychosocial, electrical, slip/trip, chemical, fatigue) | `references/case-studies-everyday.md` |
+| **Workplace Exposure Standards (WES) for common substances** | `references/legislation.md` §14 |
+| **Codes of Practice key requirements summary** | `references/legislation.md` §15 |
+| **State legislation deep-detail** (VIC OHS Act 2004 + variations by state) | `references/legislation.md` §16 |
+| **PEEPO question bank, witness interview technique (PEACE), witness statement admissibility** | `references/investigation.md` §8–§10 |
+| **ICAM variants comparison, AcciMap methodology, bowtie worked example, legal privilege management** | `references/investigation.md` §11–§14 |
+| **High-risk activity playbooks** (crane lifts, demolition, excavation, hot work) | `references/hazards.md` §19–§22 |
+| **Additional sectors** (petrochemical, telecommunications, agriculture, hospitality, education, retail) | `references/sector-regimes.md` §8–§13 |
+| **Additional case studies** (Costa Concordia, Ranger Uranium, Bhopal, Beirut Port) | `references/case-studies.md` §9–§12 |
+| **Strategic and governance templates** (risk register, bowtie, WHS strategy, RACI, annual plan, officer briefing, site walk, annual report, AHRC evidence map, PTW, claim review, hazard report) | `references/output-templates.md` §11–§22 |
 | General WHS advice (catch-all) | `references/legislation.md` + `references/frameworks.md` |
 
 If the task spans multiple types, load all relevant reference files.
@@ -219,6 +234,14 @@ ISO 31000 or the organisation's existing matrix. Map controls to the hierarchy e
 ---
 
 ## 6. Safety II / HOP / Forge Works Integration
+
+> **Skill positioning**: This skill takes an explicit Safety II / HOP / Forge
+> Works-aligned position. Where the skill makes a judgement call on a contested
+> topic (e.g., behavioural-based safety, maturity ladders as scorecards, the
+> Heinrich pyramid, TRIFR as a proxy for system performance), it takes the New
+> View position with named-thinker citations. This is a deliberate framing
+> choice — alternative frames exist and are valid in their contexts, but the
+> skill is consistent and explicit about the lens it applies.
 
 When the task involves learning from incidents, program design, or worker engagement,
 integrate Safety II, Human and Organisational Performance (HOP), and Forge Works
@@ -479,6 +502,39 @@ Load these files as needed based on the routing table in Section 1:
   maturity assessment frameworks (Hudson, DuPont Bradley, IOGP, Heinrich
   critique); safety culture vs climate measurement (Edmondson, Reason,
   NOSACQ, survey design principles)
+- **`references/strategy-function.md`** — WHS strategy development
+  (multi-year roadmap, capability uplift, beyond-TRIFR objectives);
+  WHS function design (org chart by org size, RACI, in-house vs outsourced,
+  advisor ratios); WHS budget and economics (visible vs hidden cost, ROI
+  approaches, business case structure); WHS leadership selection and
+  development (chartered status pathway); crisis management distinct
+  from emergency response (CMT, family liaison, coronial process, media,
+  legal privilege)
+- **`references/specialist-topics.md`** — Occupational hygiene practice
+  (AIOH credentials, sampling methods, exposure assessment); workplace
+  mental health programs (beyond psychosocial regs — MHFA, peer support,
+  EAP design); Modern Slavery Act 2018 supply chain due diligence; ESG and
+  WHS intersection (GRI 403, SASB, TCFD/ISSB); insurance arrangements
+  (PI, PL, D&O, cyber)
+- **`references/diversity-inclusion.md`** — Indigenous workforce
+  considerations (cultural load, cultural heritage on Country, Sorry
+  Business); reasonable adjustments for disability (DDA + WHS intersection);
+  neurodivergent worker accommodation; multi-language safety communication
+  (translation governance, pictographic standards); gendered violence at
+  work depth (third-party harassment, hybrid equity)
+- **`references/whs-procurement.md`** — WHS in the procurement process;
+  buyer-side WHS evaluation (prequalification platforms, criteria,
+  high-risk categories); WHS in tender response (supplier side);
+  Modern Slavery DD overlap; ongoing contractor performance management
+- **`references/whistleblower.md`** — Whistleblower protections and WHS
+  reporting intersection: Corporations Act 2001 Part 9.4AAA (eligible
+  whistleblower, disclosable matter, protections); Public Interest
+  Disclosure Act 2013 (Cth); state PID Acts; design of reporting paths
+  that capture statutory protection
+- **`references/case-studies-everyday.md`** — Worked everyday incidents
+  for training and ICAM calibration: forklift HiPo, manual handling MSI,
+  psychosocial complaint, electrical near-miss, slip-trip-fall, chemical
+  decant spill, fatigue-related vehicle incident
 
 A worked-examples directory (`examples/`) sits alongside `references/` with
 realised outputs (safety alert, toolbox talk, advisory note, ICAM exec
