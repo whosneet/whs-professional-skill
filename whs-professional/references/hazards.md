@@ -16,6 +16,16 @@ specific hazard category rather than a general legislative question.
 6. [Working in Heat / Heat Stress](#6-working-in-heat)
 7. [Major Hazard Facilities (MHF)](#7-major-hazard-facilities)
 8. [High-Risk Construction Work — 18 Categories](#8-high-risk-construction-work-categories)
+9. [Working at Height](#9-working-at-height)
+10. [Electrical Safety, Isolation and LOTO](#10-electrical-safety-isolation-and-loto)
+11. [Confined Space Entry](#11-confined-space-entry)
+12. [Mobile Plant and Pedestrian Interface](#12-mobile-plant-and-pedestrian-interface)
+13. [Hazardous Chemicals — Operational Detail](#13-hazardous-chemicals--operational-detail)
+14. [Noise](#14-noise)
+15. [Hand-Arm and Whole-Body Vibration](#15-hand-arm-and-whole-body-vibration)
+16. [Plant Safety and Machine Guarding](#16-plant-safety-and-machine-guarding)
+17. [Manual Tasks and Ergonomics](#17-manual-tasks-and-ergonomics)
+18. [Fatigue and Fitness for Work](#18-fatigue-and-fitness-for-work)
 
 ---
 
@@ -397,3 +407,810 @@ the work in the WHSMP.
 > Jurisdictional note: some states have added categories (e.g. WA includes
 > additional electrical work scopes). Always check state-specific regulations
 > when scoping HRCW.
+
+---
+
+## 9. Working at Height
+
+### Regulatory basis
+Model WHS Reg 78 — risk of fall must be managed where a person could fall any distance
+and be injured. The 2-metre threshold in Reg 291 triggers HRCW + SWMS, but the duty to
+manage fall risk applies at any height where injury is foreseeable. Codes: SWA
+*Managing the Risk of Falls at Workplaces*; AS/NZS 1891 series (fall arrest systems);
+AS/NZS 4994 (edge protection); AS/NZS 1576 (scaffolding).
+
+### Hierarchy for work at height
+| Order | Approach | Examples |
+|---|---|---|
+| 1 | Work at ground level | Pre-fabrication; mast climbers assembled at ground |
+| 2 | Passive fall protection | Guardrails, scaffolding, EWPs, perimeter screens, MEWPs |
+| 3 | Work positioning | Travel restraint systems, work positioning belts |
+| 4 | Fall arrest | Full-body harness + lanyard + anchor; arrests after fall begins |
+| 5 | Administrative | Procedures, training, supervision — supports but does not substitute |
+
+### Fall restraint vs fall arrest — critical distinction
+- **Restraint**: lanyard length prevents the worker reaching the fall edge; no fall occurs
+- **Arrest**: catches the worker after a fall begins; fall forces are experienced;
+  suspension trauma risk requires rescue plan
+
+Default to restraint where feasible. Arrest is a higher-consequence backup, not equivalent.
+
+### Anchor points
+- Single user: 15 kN ultimate (AS/NZS 1891.4)
+- Two users on shared anchor: 21 kN
+- Engineer-certified for the specific application — not all "rated" anchors are
+  certified for fall arrest
+- Visual inspection before each use; documented inspection annually
+- Anchor certification register should be maintained for FM / building portfolios
+
+### Edge protection (AS/NZS 4994)
+- Top rail 900–1100 mm above the surface
+- Mid rail between top rail and toe board
+- Toe board (kickboard) ≥ 150 mm to prevent objects falling
+- Load-tested rails; gaps for material movement must be reinstated immediately after use
+  — this is the highest-frequency fall pathway on construction sites
+
+### Scaffold and EWP competency
+| HRWL class | Scope |
+|---|---|
+| Basic scaffolding (SB) | Working platform ≤ 4 m above ground |
+| Intermediate scaffolding (SI) | Any height; suspended; cantilevered; mast climbing |
+| Advanced scaffolding (SA) | Hung; spur; tube-and-coupler; complex configurations |
+| Boom-type EWP (WP) | Boom-type EWP with boom length ≥ 11 m |
+
+Scissor lifts and boom-type EWPs <11 m do not require HRWL but require induction and
+familiarisation with the specific machine.
+
+### Fall clearance calculation
+Required clearance below the work surface to a hard strike:
+
+`lanyard length + deceleration distance (~1.2 m) + harness stretch (~0.4 m) +
+worker D-ring to feet (~1.5 m) + safety margin (1.0 m)`
+
+A 2 m lanyard typically requires ~6 m clearance. If clearance is insufficient, fall
+arrest is not the appropriate control — use restraint or passive protection. Self-
+retracting lifelines (SRLs) reduce required clearance because deceleration begins
+immediately, but require their own clearance calculation per the OEM data.
+
+### Suspension trauma and rescue
+A worker arrested in a harness can develop suspension trauma (orthostatic shock) within
+5–15 minutes. Self-rescue or assisted rescue must be planned and rehearsed before work
+commences — "call 000" is not a rescue plan in remote work or non-emergency-service-
+proximate sites. Trauma straps allow the worker to relieve leg pressure on the harness
+while awaiting rescue.
+
+### Common failure modes
+- Anchor selected by visual judgement rather than engineer certification
+- Lanyard length insufficient for available fall clearance
+- No rescue plan documented or rehearsed
+- Edge protection breached for material movement and not reinstated
+- Harness fit not checked; D-ring out of position
+- Mobile EWP operated on unstable ground; failure to deploy outriggers
+
+### Practical implications for FM / contract portfolios
+- Roof access for FM work (HVAC, antennas, gutters) often involves unrated or
+  inadequately certified anchors — anchor certification register is a baseline
+- Building maintenance contracts must specify the anchor certification regime
+- Subcontractor management — verify fall arrest competency and rescue capability
+  before engagement, not after deployment
+- Building owners (PCBU with management or control of workplace) have anchor
+  certification duty; tenants/contractors often inherit unaudited systems
+
+---
+
+## 10. Electrical Safety, Isolation and LOTO
+
+### Standards framework
+- AS/NZS 3000:2018 — *Wiring Rules*
+- AS/NZS 4836 — *Safe working on or near low-voltage electrical installations*
+- AS/NZS 3760 / AS/NZS 3012 — test and tag, construction-site electrical
+- State Electrical Safety Acts (e.g., QLD Electrical Safety Act 2002, NSW Electricity
+  Supply Act 1995) impose duties on electrical workers, employers, and persons in
+  control of workplaces in addition to the WHS Act
+
+### De-energise as default
+Energised work is permitted only where there is no other reasonably practicable way to
+do the work (model WHS Reg 158). Requires written justification, risk assessment by a
+competent person, and additional controls (insulated tools, PPE rated for arc flash,
+working space, second person). The duty to consider de-energisation first is
+regulatory, not preference.
+
+### Six-step isolation procedure
+1. **Notify** — affected workers, supervisors, control room, downstream consumers
+2. **Identify** — confirm correct circuit, panel, equipment from drawings + on-plant labels
+3. **De-energise** — operate the isolation device (CB, switch, disconnector)
+4. **Isolate (lockout)** — apply personal lock and tag at the isolation point
+5. **Verify (test for dead)** — three-point test using a verified instrument: test on
+   a known live source > test the isolation point > test on a known live source again
+6. **Earth** — where required (HV, capacitors, induced voltage, overhead lines nearby)
+
+### Personal locks and group lockouts
+- Each worker applies their own personal lock and tag
+- A worker's lock can only be removed by that worker; procedures for removal of an
+  absent worker's lock must be formally authorised and documented (typically requires
+  supervisor sign-off plus attempted contact with the worker plus physical area check)
+- Group lockouts use a lockbox: the system isolation key is locked in the box; each
+  worker applies a personal lock to the box; the system cannot be re-energised until
+  all personal locks are removed
+
+### Stored energy — not just electrical
+Isolation procedures must address all energy types present:
+- Capacitors (discharge time per OEM, sometimes 30+ minutes)
+- Springs (compressed/extended)
+- Hydraulic and pneumatic accumulators
+- Thermal (steam, hot fluids, hot surfaces)
+- Gravity (raised loads, vehicle hoists, stored materials)
+- Residual rotational energy (flywheels, motors with high inertia)
+- Chemical (reactive substances; battery banks)
+
+### Residual current devices (RCDs)
+- Type A minimum for general single-phase circuits
+- Type B for circuits feeding variable-speed drives or rectifiers (Type A misses
+  DC residual current)
+- Push-test monthly (operator-level); full operational test 6-monthly or annually
+  per AS/NZS 3760 (general) or AS/NZS 3012 (construction)
+- Required for portable equipment on construction sites, damp areas, and (in most
+  jurisdictions) for all hire equipment
+
+### Common failure modes
+- Test-for-dead instrument not verified before use — false-negative "dead" reading
+- Isolation device labelling unclear or incorrect circuit isolated
+- Stored energy (capacitors, hydraulics, gravity) not addressed in the isolation
+- Lock removed by other than the applying worker without authorised removal procedure
+- "Routine" energised work performed without the written justification required by
+  Reg 158
+- Energised work on switchboards without arc-flash PPE rated for the available
+  fault current
+
+### Practical implications for FM / contract portfolios
+- Switchboard upgrades and panel work — engaged contractor LOTO must integrate with
+  site permits and existing isolations
+- Building wiring is often non-compliant with current AS/NZS 3000 (legacy installations)
+  — risk assessment required before energised work
+- HV (>1000 V) work requires additional competency (HV switching authorisations, EWP
+  for overhead lines) and is typically not within general electrical contractor scope
+- Test-and-tag program required for portable appliances on most workplaces; cadence
+  varies by environment (3-month construction, 12-month office)
+
+---
+
+## 11. Confined Space Entry
+
+### Regulatory basis
+Model WHS Regs Part 4.3 (Confined Spaces). AS 2865:2009 *Confined spaces*. SWA Code of
+Practice *Confined Spaces*.
+
+### Confined space — definition (Reg 5 model)
+A space that is:
+- Enclosed or partially enclosed
+- Not designed or intended primarily to be occupied by a person
+- Designed or intended to be at normal atmospheric pressure while occupied
+- Has a risk to health and safety from atmosphere, contaminants, engulfment, or unsafe
+  oxygen levels
+
+Common examples: tanks, vessels, pits, sumps, sewers, manholes, silos, ducts,
+unventilated enclosures.
+
+### Pre-entry sequence
+1. Identify the space as confined and register it
+2. Signage and physical entry barriers
+3. Isolate sources of energy and substance ingress (LOTO, blanking, blinding)
+4. Atmospheric test before entry; continuous monitoring during entry
+5. Written entry permit (Reg 67); reissued if conditions change
+6. Standby person at entry point; communication maintained
+7. Rescue arrangements in place before entry
+
+### Atmospheric thresholds
+| Parameter | Acceptable range |
+|---|---|
+| Oxygen | 19.5–23.5% v/v |
+| Lower explosive limit (LEL) | <10% of LEL for any flammable gas/vapour |
+| Hydrogen sulphide (H2S) | <10 ppm STEL (15-min); evacuate at >10 ppm |
+| Carbon monoxide (CO) | <30 ppm STEL |
+
+Other contaminants tested as relevant to the space's history and contents.
+
+### Atmospheric testing — instrument and method
+- Four-gas detector minimum (O2, LEL, H2S, CO); add specific sensors as needed
+- Calibration: annual factory calibration; bump test before each use; daily zero
+  check; periodic full calibration per OEM
+- Test sequence: test the breathing zone, then progressively into the space; sample at
+  top, middle, bottom (gas stratification — heavier-than-air sinks)
+- Continuous monitoring during entry, not just pre-entry
+
+### Standby person
+- Outside the space; in continuous communication with entrant
+- Never enters under any circumstances (single largest cause of multiple-fatality
+  confined space incidents — standby attempts entry rescue)
+- Authorised to summon rescue and to instruct entrant to exit
+
+### Rescue arrangements
+- **Non-entry rescue first** — tripod + winch + retrieval harness allows rescue
+  without rescuer entry. Plan and equipment in place before entry.
+- **Entry rescue** — only by trained confined space rescue team with SCBA; tower of
+  control with separate rescue standby
+- Rescue plan documented, equipment present, rescuers competent, rescue time
+  consistent with hazard (oxygen-deficient atmosphere: rescue within minutes, not
+  the response time of emergency services)
+
+### Common failure modes
+- Standby person leaves post for "just a minute"
+- Standby person attempts entry to rescue collapsed entrant
+- Atmospheric monitoring stopped after initial test (atmospheric drift not detected)
+- Permit not reissued after change in conditions (e.g., welding introducing combustion
+  byproducts; weather change altering atmospheric conditions)
+- Rescue plan exists in document but not equipment or trained people on site
+
+### Practical implications for FM / contract portfolios
+- Building services confined spaces (lift shafts, plant rooms, cooling towers, pump
+  pits) often under-identified; site survey and register is the baseline
+- Subcontractor confined space competency must be verified — both entrant training
+  and rescue arrangements
+- Sewerage and stormwater contracts have ongoing confined space exposure with
+  variable atmospheric history — pre-entry testing is the operative control
+
+---
+
+## 12. Mobile Plant and Pedestrian Interface
+
+### Standards framework
+- AS 2359 series — industrial trucks (forklifts and similar)
+- AS 4324 — mobile equipment for surface mining (broadly applied)
+- ISO 3691 — industrial truck safety requirements
+- AS 1418 series — cranes, hoists and winches
+
+### Separation hierarchy
+| Order | Approach | Notes |
+|---|---|---|
+| 1 | Eliminate need for pedestrians | Automate the task; reroute foot traffic |
+| 2 | Physical separation by distance | Separate pedestrian/plant entries; large exclusion zones |
+| 3 | Physical barriers | Bollards, kerbs, fencing, designated walkways |
+| 4 | Engineering controls on plant | Proximity sensors, AVAS (audible vehicle alarm), reverse cameras |
+| 5 | Administrative | Exclusion zones, spotters, traffic management plans, eye contact rule |
+| 6 | PPE | High-visibility clothing — visibility aid only, not a separation control |
+
+### Blind spot management
+- Identify blind spots for each plant type (forklift: left rear; large vehicles:
+  immediate front, near-side rear)
+- Visibility aids: mirrors (convex + flat), reverse cameras, 360° camera systems
+- Operator preference: forward-facing travel where load permits; load-trailing
+  travel where load obscures forward view
+
+### Reverse alarms
+- Standard reverse alarms (constant tone) — high false-alarm rate in noisy environments;
+  workers desensitised
+- Smart alarms / broadband white noise — directional, less penetrating beyond plant
+  area, lower alarm fatigue
+- Travel alarms (forward + reverse) for high-risk site environments
+
+### Spotter / banksperson role
+- Trained for the specific plant type
+- Dedicated to the plant being directed — no other duties during operation
+- Visible to the operator at all times (positive eye contact before plant moves)
+- Standardised hand signals (AS 2550 for cranes)
+- Common failure: spotter assigned multiple tasks; spotter outside the operator's
+  line of sight; spotter inexperienced
+
+### Traffic management plans
+- One-way circuits where layout permits
+- Separate pedestrian and plant entries
+- Designated drop-off zones for deliveries
+- Speed limits enforced (5 km/h in pedestrian areas typical)
+- Line-of-sight rules at intersections; mirrors at blind corners
+- Lighting at night-work or low-visibility locations
+
+### Operator HRWL classes
+| Class | Scope |
+|---|---|
+| LF | Forklift (counterbalance + reach) |
+| LO | Order picking forklift |
+| C0 | Slewing mobile crane <20 t |
+| C1 | Slewing mobile crane >20 t |
+| C2 | Slewing mobile crane >60 t |
+| C6 | Slewing mobile crane >100 t |
+| CN | Non-slewing mobile crane >3 t |
+
+Plus EWP classes (WP), vehicle-loading crane (CV), and dogger (DG) / rigger (RB/RI/RA) for load attachment.
+
+### Common failure modes
+- Spotter assigned multiple tasks during plant operation
+- Pedestrian shortcuts through plant operating areas (driven by layout, not behaviour)
+- Reverse alarms disabled or ignored due to alarm fatigue
+- Operator visibility obscured by load; no spotter
+- Ad-hoc exclusion zones marked with tape rather than physical barriers
+- Plant operating beyond design envelope (capacity, slope, ground bearing)
+
+### Practical implications for FM / contract portfolios
+- Loading docks and goods receiving areas are the highest-frequency interface
+- Multi-tenanted sites — coordinate traffic management across multiple PCBUs
+- Delivery vehicle interfaces often outside the FM contract scope but within the
+  workplace; consultation and coordination duty applies
+- Battery-electric plant introduces new hazards (silent operation) and replaces
+  others (combustion emissions in enclosed spaces)
+
+---
+
+## 13. Hazardous Chemicals — Operational Detail
+
+This section covers operational chemical management beyond Major Hazard Facilities
+(see §7). MHF coverage is limited to facilities exceeding Schedule 15 threshold
+quantities — but the principles below apply to any workplace with hazardous chemicals.
+
+### Classification — GHS
+The Globally Harmonised System of Classification and Labelling of Chemicals classifies
+hazards in three categories:
+- **Physical** — explosives, flammables, oxidisers, gases under pressure, corrosive to metals
+- **Health** — acute toxicity, skin/eye damage, sensitisers, carcinogens, mutagens,
+  reproductive toxicants, STOT (single or repeated exposure), aspiration hazards
+- **Environmental** — aquatic toxicity, ozone-depleting
+
+Australia adopted GHS Rev 7 from 1 January 2021 (transition completed). Labels and SDS
+must use GHS pictograms, signal words, hazard statements (H-codes), and precautionary
+statements (P-codes).
+
+### Schedule 11 (placard) and Schedule 14 (manifest) quantities
+Model WHS Regulations:
+- **Schedule 11** — placard quantities; trigger requirement to display hazard placards
+  at the workplace if total chemical quantity exceeds the listed threshold
+- **Schedule 14** — manifest quantities (higher thresholds); trigger requirement to
+  prepare a manifest of hazardous chemicals + site plan and provide to emergency
+  services. Also triggers notification to the regulator
+
+### Placarding and storage standards
+| Standard | Subject |
+|---|---|
+| AS 1216 | Workplace hazard pictograms and class labels |
+| AS 1940 | Storage and handling of flammable and combustible liquids |
+| AS 3780 | Storage and handling of corrosive substances |
+| AS 4326 | Storage and handling of oxidising agents |
+| AS 4332 | Storage and handling of gases in cylinders |
+| AS/NZS 4081 | Storage and handling of toxic substances |
+
+### Safety Data Sheets (SDS)
+- Current version (revised at minimum every 5 years; sooner if hazard information changes)
+- Available at point of use, in English
+- 16-section format per GHS
+- Workers trained to access and use SDS information
+
+### Segregation
+Incompatible chemicals must be segregated by distance, barrier, or both. Common
+incompatibilities to avoid:
+- Oxidisers + flammables/combustibles
+- Acids + bases
+- Water-reactive substances + aqueous chemicals
+- Cyanides + acids (releases HCN)
+- Reactive sulphides + acids (releases H2S)
+
+Manufacturers' SDS Section 7 (handling and storage) provides specific segregation
+guidance.
+
+### Decanting controls
+- Bunded decanting area; spill response equipment immediately accessible
+- Earthing/bonding for flammable liquids to prevent static spark
+- Secondary container must be labelled (chemical name + key hazards + decant date +
+  decanter); no unlabelled containers
+- Ventilation appropriate to the chemical (extraction for volatiles; PPE-only
+  is not sufficient for solvents)
+
+### Bulk storage
+- Bunding capacity ≥ 110% of largest container volume + 25% rainfall capture (open
+  bunds) per AS 1940; specific calculations for AS 3780 and AS 4326
+- Bund integrity: regular inspection; bund drainage controlled with closed valve;
+  bunded area free from non-bund-rated penetrations
+- Tank inspections per AS/NZS 1692 (steel tanks for flammable liquids) or AS 4979
+  (FRP tanks)
+
+### Empty containers
+Residual hazards remain until the container is decontaminated. "Empty" drums and IBCs:
+- Continue to carry the labelled hazard until cleaned
+- Must not be cut, welded, or heat-treated without decontamination (vapour explosion
+  risk for flammable residues)
+- Recycling/disposal via licensed waste contractor where residue cannot be removed
+
+### Common failure modes
+- SDS not current; not accessible at point of use
+- Segregation matrix not applied in storage (oxidisers next to flammables)
+- Decanting without bunding or labelled secondary containers
+- Manifest not prepared or not provided to emergency services for Schedule 14 sites
+- Workers untrained in GHS pictograms and SDS use
+
+### Practical implications for FM / contract portfolios
+- Cleaning chemical inventories often exceed placard thresholds when aggregated
+  across a portfolio site
+- Maintenance workshops — paint, solvents, oils, batteries — frequently exceed
+  Schedule 11 thresholds; manifest may apply
+- Laboratory and healthcare sites have additional Sch 11/14 obligations
+- Procurement: substitution to lower-hazard chemicals during specification reduces
+  ongoing control burden
+
+---
+
+## 14. Noise
+
+### Regulatory basis
+Model WHS Regs 56–58. SWA Code of Practice *Managing Noise and Preventing Hearing
+Loss*. AS/NZS 1269 series (noise management at work, hearing protectors, audiometric
+testing).
+
+### Exposure standards
+- **8-hour equivalent**: LAeq,8h = 85 dB(A)
+- **Peak**: LC,peak = 140 dB(C)
+
+These are exposure limits, not target levels. SFAIRP requires reduction below the
+limit where reasonably practicable.
+
+### Halving rule
+Sound energy doubles for every 3 dB increase in LAeq. So:
+- 88 dB(A) → 4 hours permitted exposure
+- 91 dB(A) → 2 hours
+- 94 dB(A) → 1 hour
+- 97 dB(A) → 30 minutes
+- 100 dB(A) → 15 minutes
+
+This is the "exchange rate" of 3 dB. Some legacy standards use 5 dB exchange rate
+(US OSHA); the AU/NZ standard is 3 dB.
+
+### Hierarchy of noise controls
+| Level | Application |
+|---|---|
+| Elimination | Remove the noise source; redesign the process |
+| Substitution | Replace plant with quieter equivalent (lower-noise compressors, mufflers) |
+| Engineering | Acoustic enclosure, silencer, damping, distance from source, acoustic absorbing surfaces |
+| Administrative | Job rotation, exposure time limits, signage, hearing conservation program |
+| PPE | Hearing protection (last resort; only effective if worn correctly 100% of exposure) |
+
+### Hearing protection — classification
+AS/NZS 1270 classifies hearing protectors by SLC80 (Sound Level Conversion at 80th
+percentile) into classes 1–5:
+- Class 1: SLC80 10–13 dB
+- Class 2: SLC80 14–17 dB
+- Class 3: SLC80 18–21 dB
+- Class 4: SLC80 22–25 dB
+- Class 5: SLC80 ≥ 26 dB
+
+Higher class = more attenuation. Over-protection (selecting Class 5 for 88 dB
+exposure) impairs communication and situational awareness — match the class to the
+exposure with a margin, not maximum attenuation.
+
+### Audiometric testing
+Required for workers regularly exposed above LAeq,8h 85 dB or LC,peak 140 dB (Reg 58).
+- Baseline within 3 months of starting exposed work
+- Subsequent tests at least every 2 years
+- More frequently for high-exposure roles
+- Standard Threshold Shift (STS) detection triggers review of controls and
+  individual exposure
+- Results provided to the worker; aggregate data informs program effectiveness
+
+### Noise exposure assessment
+- Competent person (occupational hygienist or trained noise assessor)
+- Calibrated sound level meter for area noise; dosimeter for personal exposure over a shift
+- Sample multiple representative tasks, not just steady-state operations
+- Document methodology, instrument calibration, exposure calculations
+- Reassess on significant change (new plant, process change, layout change)
+
+### Common failure modes
+- PPE-only treatment for sustained exposure (workers don't wear protection 100% of
+  the time; effective attenuation drops sharply with partial wear)
+- Communication-critical roles assigned over-protection, leading to PPE removal
+- Audiometric testing not done; STS missed
+- Peak noise (LC,peak) not assessed — impulse noise from hammering, drop hammers,
+  firearm discharge can cause acute injury below the 8-hour exposure threshold
+
+### Practical implications for FM / contract portfolios
+- Plant rooms, workshops, generator areas often exceed exposure thresholds
+- Contractor noise (concrete cutting, jackhammering) creates exposure for adjacent
+  workers, tenants, and the public — consultation and coordination duty applies
+- Building services upgrade projects can introduce sustained noise into previously
+  quiet workspaces — manage as a change
+
+---
+
+## 15. Hand-Arm and Whole-Body Vibration
+
+### Standards
+- AS 2670.1 — *Mechanical vibration and shock — Evaluation of human exposure to
+  whole-body vibration*
+- AS 2763 — *Vibration and shock — Hand-transmitted vibration*
+- ISO 5349 (hand-arm); ISO 2631 (whole-body)
+
+### Exposure values — A(8) daily exposure
+The exposure metric is A(8), the equivalent continuous acceleration over an 8-hour
+day. The widely-adopted EU action and limit values are used in AU/NZ practice:
+
+| Type | Exposure Action Value (EAV) | Exposure Limit Value (ELV) |
+|---|---|---|
+| Hand-arm vibration (HAV) | 2.5 m/s² | 5.0 m/s² |
+| Whole-body vibration (WBV) | 0.5 m/s² | 1.15 m/s² |
+
+EAV — trigger for risk assessment, health surveillance, control review.
+ELV — must not be exceeded.
+
+### Common HAV tools and indicative vibration
+| Tool | Indicative A(8) per hour of use |
+|---|---|
+| Chainsaw | 4–8 m/s² |
+| Jackhammer / breaker | 8–25 m/s² |
+| Angle grinder | 4–8 m/s² |
+| Impact wrench | 3–9 m/s² |
+| Rotary hammer drill | 6–25 m/s² |
+| Plate compactor | 5–15 m/s² |
+
+Use manufacturer-declared values; verify against in-situ measurement where exposure
+is at risk of exceeding EAV.
+
+### HAV health effects
+- **HAVS** (Hand-Arm Vibration Syndrome) — vascular (vibration white finger), neurological
+  (numbness, tingling), musculoskeletal (grip weakness)
+- Carpal tunnel syndrome (associated)
+- Permanent at later stages; early-stage symptoms reversible if exposure ceases
+
+### WBV health effects
+- Lumbar spine injury (intervertebral disc damage)
+- Chronic back pain
+- Fatigue and impaired vigilance (driving safety)
+- Motion sickness (low-frequency)
+
+### Controls
+- Tool selection — lower-vibration models, anti-vibration handles, balanced tools
+- Maintenance — worn bits, blunt chains, unbalanced cutting wheels all increase vibration
+- Reduce grip force where possible (heavy gloves can increase required grip force)
+- Job rotation — limit individual exposure time per shift
+- Anti-vibration gloves: limited effectiveness for HAV; not a primary control
+- WBV — seat suspension systems for vehicles and plant; speed/route management for
+  off-road operations
+
+### Health surveillance
+For HAV: pre-employment and periodic assessment for workers with sustained exposure
+near or above EAV. Symptom questionnaire + clinical examination. Refer for specialist
+assessment if symptoms develop.
+
+### Practical implications for FM / contract portfolios
+- Grounds maintenance (chainsaws, brushcutters, mowers) — HAV exposure can exceed
+  EAV in a single half-day shift
+- Concrete maintenance (cutting, breaking) — both HAV and WBV
+- Plant operators (loaders, dozers, trucks) — WBV is the dominant exposure
+- Tool register with vibration data supports informed selection at procurement
+
+---
+
+## 16. Plant Safety and Machine Guarding
+
+### Standards framework
+AS 4024 series — *Safety of machinery* — the foundational machine safety standard family
+adopted from ISO 12100 / EN ISO 13849. Covers risk assessment, fixed and movable
+guards, interlocks, presence-sensing devices, control system reliability, emergency
+stop, and specific machine-type requirements.
+
+### Plant — definition (Reg 5 model)
+Includes any machinery, equipment, appliance, container, implement, tool, or component
+of those. Wide definition — includes plant from hand tools through to fixed industrial
+machinery and mobile plant.
+
+### Guard types
+| Guard type | Use case |
+|---|---|
+| Fixed | Permanent, requires tool to remove; for hazards always present |
+| Interlocked | Stops machine when guard opens; for tasks requiring access (set-up, cleaning) |
+| Adjustable | Repositionable by operator within fixed limits; for varying workpiece sizes |
+| Self-adjusting | Moves with the workpiece (e.g., circular saw guard) |
+| Perimeter (cell) | Fence around a hazard zone; access via interlocked gate |
+
+### Presence-sensing devices
+- Light curtains (Type 2 or Type 4 per IEC 61496)
+- Pressure-sensitive mats
+- Laser scanners (2D / 3D)
+- Vision-based systems
+
+Categorised by safety integrity level — must match the hazard severity. Test daily
+where used.
+
+### Plant risk assessment (Reg 207)
+Required before first use of plant and on significant change. Considers:
+- Hazards from intended use
+- Hazards from foreseeable misuse
+- Hazards from cleaning, maintenance, set-up
+- Compatibility with the workplace and other plant
+- Operator competency requirements
+
+Documented; reviewed when plant or use changes; available at the workplace.
+
+### Plant registration (Reg 268–270 + Schedule 5)
+Specified plant requires design registration and/or item registration with the
+regulator. Common registrable plant:
+
+| Plant type | Registration |
+|---|---|
+| Pressure vessels (>250 kPa) | Design + item |
+| Cranes (>10 m total length / >50 m height) | Item |
+| Lifts and escalators | Item |
+| Mobile cranes (>10 t lifting capacity) | Item |
+| EWPs (>11 m boom) | Item |
+| Concrete placing booms | Item |
+| Industrial tractors | Item |
+
+Registration is jurisdiction-specific; consult relevant regulator.
+
+### Maintenance and inspection regime
+- Pre-start (operator) — visual and functional check before each use
+- Periodic (competent person) — per OEM / standard; documented
+- Statutory (licensed inspector) — registrable plant; per regulation
+- Modification — non-OEM modifications require engineering assessment and re-registration
+
+### Common failure modes
+- Interlocks bypassed (taped, jumpered) for production reasons
+- Guards removed for cleaning and not reinstated
+- Non-OEM modifications affect plant safety system without assessment
+- Plant operated beyond design limits (load, speed, environment)
+- E-stop accessibility compromised (blocked, faulty, untested)
+- Pre-start checks not done; faults not reported
+
+### Practical implications for FM / contract portfolios
+- Building services plant (chillers, boilers, generators, pumps) is registrable
+  plant under many configurations — confirm registration status at handover
+- Inherited plant from prior contractors may have undocumented modifications
+- Workshop plant (welders, grinders, drill presses) frequently has guards
+  modified or removed
+- Procurement specification should require AS 4024 compliance and OEM safety files
+
+---
+
+## 17. Manual Tasks and Ergonomics
+
+### Regulatory basis
+Model WHS Regs 60 (hazardous manual tasks). SWA Code of Practice *Hazardous Manual
+Tasks* (2018).
+
+### Hazardous manual task — definition (Reg 60)
+Activity requiring use of force, sustained or awkward posture, repetitive movement,
+or exposure to vibration; or involving handling of unstable, unbalanced, or hard-to-
+grasp loads. **No prescribed weight limit** — the often-cited 16–25 kg figures are
+not in the regulations.
+
+### Risk factors
+- **Force**: high force exertion; sudden or jerky movements
+- **Posture**: bending or twisting >30°; overhead reach; sustained postures (>30 seconds)
+- **Movement**: repetitive (>2 minutes continuous or >50% of work cycle); long duration
+  without recovery
+- **Duration**: long-duration exposure to any of the above
+- **Vibration**: cross-reference §15 (HAV and WBV)
+- **Environment**: heat, cold, lighting, working surface, confined work area
+
+### Assessment tools
+| Tool | Application |
+|---|---|
+| MAC (Manual Handling Assessment Chart) | UK HSE tool; widely used in AU for lifting, carrying, team handling |
+| ART (Assessment of Repetitive Tasks) | Upper-limb repetitive task assessment |
+| RAPP (Risk Assessment of Pushing and Pulling) | Force exertion for pushing/pulling |
+| REBA / RULA | Postural assessment; clinical/research applications |
+| NIOSH Lifting Equation | US tool; physiologically grounded; useful for benchmark calculations |
+
+### Control hierarchy applied to manual tasks
+| Level | Application |
+|---|---|
+| Elimination | Eliminate the task (e.g., gravity feed, mechanisation) |
+| Substitution | Lower-force or lower-frequency alternative |
+| Engineering | Mechanical aids: hoists, lifters, vacuum lifts, jib cranes, height-adjustable benches |
+| Administrative | Job rotation, team lifts, training in technique, work scheduling |
+| PPE | Limited role — gloves, knee pads; not a primary control |
+
+### Office and screen-based work
+- Workstation set-up: monitor top at eye level; elbows at desk height; feet supported
+- Seating: lumbar support; adjustable height; armrests
+- Sit-stand rotation: 20-8-2 (sit 20 min, stand 8 min, move 2 min) — approximate
+  guidance
+- Lighting: task lighting + ambient; minimise screen glare
+- Mouse and keyboard placement: shoulders relaxed; wrists neutral
+- Long-screen exposure: 20-20-20 (every 20 min, look 20 ft away, 20 sec) for visual
+  fatigue
+
+### Workplace assessment role
+Workplace assessments for symptomatic workers typically conducted by occupational
+therapist or qualified ergonomist. Outcomes feed equipment changes, work design
+adjustments, or referral for medical assessment.
+
+### Common failure modes
+- Assuming "manual handling training" is a control — training alone, without
+  workplace redesign, has limited durable effect
+- Weight-limit policies treated as compliance ceiling (workers continue to perform
+  the task; weight reduction doesn't address posture, frequency, force)
+- Workstation assessments conducted once and not reviewed when role or equipment
+  changes
+- Repetitive task risk factors not assessed (manual handling is over-emphasised
+  relative to repetitive strain)
+
+### Practical implications for FM / contract portfolios
+- Cleaning contracts have high repetitive task and force exposure (mopping, vacuuming,
+  waste collection) — mechanisation reduces risk and turnover
+- Grounds maintenance — sustained postures, force, vibration
+- Office relocations / fit-outs — manual handling exposure for installation crews
+- Healthcare and aged-care services — patient handling is the dominant exposure;
+  no-lift policies + ceiling hoists are the standard
+
+---
+
+## 18. Fatigue and Fitness for Work
+
+### Regulatory basis
+No prescribed fatigue exposure limit in the WHS Regulations — managed under the
+primary PCBU duty (s 19 model / s 36 HSWA) and the worker duty (s 28 model). Specific
+regimes apply to heavy vehicle drivers (HVNL), rail (RSNL), aviation (CASR), and
+mining (state-specific).
+
+### Heavy Vehicle National Law (HVNL)
+Applies to heavy vehicle drivers (>12 t GVM or fatigue-regulated combinations) across
+all states except WA + NT (which have separate but similar regimes). Three accreditation
+tiers:
+- **Standard hours**: 12 hours work in any 24, 14 hours work in any 24 with rest
+- **Basic Fatigue Management (BFM)**: up to 14 work hours in 24 with additional rest
+- **Advanced Fatigue Management (AFM)**: bespoke schedules approved by NHVR with
+  comprehensive fatigue management system
+
+### Fatigue risk factors
+| Factor | Mechanism |
+|---|---|
+| Time of day | Circadian low: 2–6 am, 1–3 pm (post-lunch dip) |
+| Time on task | Cumulative fatigue across a shift |
+| Sleep debt | Inadequate prior sleep over multiple nights; 4 nights of <6 hr ≈ functional impairment equivalent to 0.08 BAC |
+| Shift rotation pattern | Forward rotation (day > afternoon > night) lower-risk than backward |
+| Extended shifts | >12 hr shifts substantially increase incident risk |
+| Sleep disorders | Sleep apnoea, insomnia — assessable in pre-employment medicals for safety-critical roles |
+
+### Fatigue prediction models
+- **FAID** (Fatigue Audit InterDyne) — score-based; used in rail, aviation, mining
+- **SAFTE** — biomathematical model
+- **PVT** (Psychomotor Vigilance Task) — measurement of current alertness, not
+  prediction
+Models support roster design; not a substitute for individual self-assessment.
+
+### Shift work — design principles
+- Forward rotation (day > afternoon > night) easier on circadian system
+- 8-hour shifts lower-risk than 12-hour shifts for fatigue accumulation
+- 12-hour shifts have offsetting benefits (fewer commutes, longer recovery between
+  rosters) — net risk depends on context
+- Quick changeovers (<11 hr off between shifts) compound fatigue rapidly
+- Compressed rosters (e.g., 7 nights on / 7 off) require recovery sleep planning
+
+### Sleep debt and recovery
+- 7–9 hours sleep required for adult full recovery
+- Recovery from significant sleep debt: typically 2 full nights of unrestricted sleep
+- Single "catch-up" sleep does not eliminate cognitive deficit
+- Caffeine masks subjective fatigue without restoring cognitive function
+
+### Fatigue management plan elements
+- Work scheduling consistent with fatigue science
+- Journey management for drive-in/drive-out workers
+- Rest facilities — quiet, dark, appropriate temperature, secure
+- Fatigue training (workers + supervisors + schedulers)
+- Self-report and peer-report mechanism without consequence
+- Post-incident fatigue assessment
+- Fatigue-related KPIs (incidents in last hour of shift; days lost due to fatigue)
+
+### Fitness for work — beyond fatigue
+- Pre-employment medical for safety-critical roles
+- Periodic medicals (typically annually for high-risk roles)
+- Post-incident fitness for work assessment
+- Return-to-work assessment after extended absence
+- D&A (cross-reference §5)
+- Medication impact (sedating prescriptions; declared use)
+
+### Common failure modes
+- Production schedules set first; fatigue assessed after
+- Self-report mechanisms not used due to perceived performance impact
+- Long-distance commuting after shift not factored into fatigue exposure
+- "Voluntary" overtime that is functionally mandatory
+- Sleep environment at camp accommodation inadequate
+
+### Practical implications for FM / contract portfolios
+- Night shift cleaning and maintenance contracts — high fatigue exposure;
+  schedule design is the primary control
+- Defence base services, hospital, aged care — sustained 24/7 operations
+- Driver-operator roles (security patrols, mobile maintenance) — HVNL or
+  equivalent applies; fatigue management plan is required
+- Pre-shift fitness for work systems (apps, peer check) supplement but do not
+  replace roster design
+
+---
+
+> For organisation-specific critical risk taxonomy, control standards, and
+> verification cadence applicable to these hazards, load `references/company.md`.
+

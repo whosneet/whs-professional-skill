@@ -98,6 +98,11 @@ load `references/company.md` alongside the generic file(s).
 | **WHS data analytics**, KPIs, dashboards, intelligence packs, Power BI | `references/analytics.md` + `references/company.md` (for systems) |
 | **Zero Harm program design**, campaigns, gamification, facilitator frameworks | `references/programs.md` + `references/company.md` (for named programs) |
 | **WHS governance & assurance**, template suites, PMO, audit frameworks | `references/frameworks.md` + `references/company.md` (for template numbering) |
+| **Environmental WHS / EHS**, EPA notification, ISO 14001, dangerous goods, spills, contamination, waste, emissions | `references/environment.md` + `references/company.md` (for environmental consequence ratings) |
+| **Workers compensation, RTW, premium impact, IMEs, suitable employment, psychological injury claims** | `references/compensation-rtw.md` + `references/company.md` (for scheme + RTW capability) |
+| **Workplace inspections, WHS audits (ISO 19011 / ISO 45001), permit-to-work systems, pre-task risk tools** | `references/inspections-audits-permits.md` + `references/company.md` (for permit types + audit programme) |
+| **Officer due diligence operational toolkit** (briefings, safety walks, evidence packs) | `references/legislation.md` §6 |
+| **NZ-specific tasks** (HSWA, WorkSafe NZ, ACC, WEPR, Pike River context, geothermal/Whakaari) | `references/legislation.md` §3 (expanded coverage) |
 | General WHS advice (catch-all) | `references/legislation.md` + `references/frameworks.md` |
 
 If the task spans multiple types, load all relevant reference files.
@@ -136,7 +141,7 @@ misdirection.
 - **TAS** — WHS Act 2012 (TAS); Industrial Manslaughter from 11 Sept 2024
 - **ACT** — WHS Act 2011 (ACT); Industrial Manslaughter via 2022 amendment
 - **NT** — WHS (National Uniform Legislation) Act 2011; Industrial Manslaughter since 1 Feb 2020
-- **NZ** — Health and Safety at Work Act 2015 (HSWA), with WorkSafe NZ as regulator
+- **NZ** — Health and Safety at Work Act 2015 (HSWA), with WorkSafe NZ as regulator; ACC scheme for injury compensation; WEPR Regulations 2016 for worker engagement; Pike River royal commission shaped HSWA structure (see `legislation.md` §3 for full NZ treatment)
 - **Commonwealth** — WHS Act 2011 (Cth) + Industrial Manslaughter (Criminal Code) since 1 July 2024
 
 If jurisdiction is ambiguous, state assumptions clearly and note where state/territory
@@ -428,3 +433,24 @@ Load these files as needed based on the routing table in Section 1:
   18 categories of high-risk construction work
 - **`references/glossary.md`** — Acronyms, abbreviations, and frequently used
   WHS terminology. Load when the user is new to WHS or asks what a term means.
+- **`references/environment.md`** — Environmental (the E in EHS): AU/NZ regulatory
+  framework (EPBC, NGER, NPI, state EPA Acts, RMA), ISO 14001:2015 clause map,
+  environmental aspects/impacts, EPA notification thresholds, hazardous chemicals
+  and dangerous goods storage, spill response, contamination assessment, waste
+  hierarchy, emissions and discharge licensing, biodiversity and Aboriginal
+  heritage, climate-WHS intersection
+- **`references/compensation-rtw.md`** — Workers compensation across AU
+  state schemes (icare, WorkSafe VIC, WorkCover QLD, RTWSA, etc.) and NZ ACC;
+  claim lifecycle, provisional liability, premium mechanics, IMEs, suitable
+  employment, RTW coordinator role, psychological injury claims, journey
+  claim coverage, presumptive provisions, common manager-level traps
+- **`references/inspections-audits-permits.md`** — Workplace inspection
+  program design; WHS audit methodology (ISO 19011, first/second/third party,
+  finding classification); permit-to-work systems (hot work, confined space,
+  height, isolation, excavation, electrical); pre-task / point-of-work risk
+  assessment tools (Take 5, SLAM, STAR, JSEA, SWMS)
+
+A worked-examples directory (`examples/`) sits alongside `references/` with
+realised outputs (safety alert, toolbox talk, advisory note, ICAM exec
+summary, board paper extract, HiPo intelligence pack) to calibrate the
+expected voice and depth of common deliverables.

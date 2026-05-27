@@ -6,11 +6,13 @@
 1. [Safety Alert](#1-safety-alert)
 2. [Toolbox Talk](#2-toolbox-talk)
 3. [WHS Advisory Note](#3-whs-advisory-note)
-4. [Incident Notification (Internal)](#4-incident-notification-internal)
-5. [Safe Work Method Statement (SWMS)](#5-safe-work-method-statement-swms)
-6. [WHS Policy Template](#6-whs-policy-template)
-7. [WHS Procedure Template](#7-whs-procedure-template)
-8. [Contractor WHS Requirements Brief](#8-contractor-whs-requirements-brief)
+4. [Preliminary Internal Incident Notification (PIIN)](#4-preliminary-internal-incident-notification-piin)
+5. [Alert vs Bulletin — When to Use Which](#5-alert-vs-bulletin--when-to-use-which)
+6. [Incident Investigation Report — Standard](#6-incident-investigation-report--standard)
+7. [Safe Work Method Statement (SWMS)](#7-safe-work-method-statement-swms)
+8. [WHS Policy Template](#8-whs-policy-template)
+9. [WHS Procedure Template](#9-whs-procedure-template)
+10. [Contractor WHS Requirements Brief](#10-contractor-whs-requirements-brief)
 
 ---
 
@@ -400,7 +402,7 @@ Optional manual sign-off if the system is not immediately accessible:
 
 ---
 
-## 5. Safe Work Method Statement (SWMS)
+## 7. Safe Work Method Statement (SWMS)
 
 ### Purpose
 Required for high-risk construction work (defined in model WHS Reg 291); strongly
@@ -432,7 +434,7 @@ controls for a specific task.
 
 ---
 
-## 6. WHS Policy Template
+## 8. WHS Policy Template
 
 ### Purpose
 High-level commitment statement. Sets intent and assigns accountability.
@@ -478,7 +480,7 @@ to the business, legislation, or following a serious incident.
 
 ---
 
-## 7. WHS Procedure Template
+## 9. WHS Procedure Template
 
 ### Purpose
 Detailed instructions for performing a specific WHS activity consistently and safely.
@@ -500,7 +502,7 @@ More detailed than policy; less task-specific than a SWMS.
 
 ---
 
-## 8. Contractor WHS Requirements Brief
+## 10. Contractor WHS Requirements Brief
 
 ### Purpose
 Communicates minimum WHS requirements to a contractor before or at contract commencement.

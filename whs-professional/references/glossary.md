@@ -140,3 +140,111 @@ Load this file when the user is new to WHS or asks what a term means.
 
 > Your organisation may use different abbreviations — see `company.md` for your
 > specific document numbering convention.
+
+---
+
+## Environment (EHS)
+
+| Term | Meaning |
+|---|---|
+| **EHS** | Environment, Health and Safety — integrated discipline covering WHS plus environmental management. |
+| **EMS** | Environmental Management System — typically ISO 14001 aligned. |
+| **ISO 14001** | International environmental management system standard (2015). |
+| **EPBC Act** | Environment Protection and Biodiversity Conservation Act 1999 (Cth) — matters of national environmental significance; controlled actions. |
+| **NGER** | National Greenhouse and Energy Reporting (Act 2007) — Scope 1, 2, and 3 emissions reporting. |
+| **NPI** | National Pollutant Inventory — annual public-domain reporting of substance emissions. |
+| **NEPM** | National Environment Protection Measure — Council-set environmental standard (e.g., ASC NEPM for contamination). |
+| **EPA** | Environment Protection Authority (varies by state — NSW, VIC, SA, TAS, ACT, NT have EPAs; QLD uses DES; WA uses DWER). |
+| **GED** | General Environmental Duty — overarching duty in VIC, QLD, SA, NT environmental Acts to take reasonably practicable measures to avoid harm. |
+| **EPL** | Environment Protection Licence — issued by state EPA for scheduled premises or activities. |
+| **RMA** | Resource Management Act 1991 (NZ) — primary NZ environmental statute. |
+| **HSNO** | Hazardous Substances and New Organisms Act 1996 (NZ) — administered by EPA NZ. |
+| **NZ ETS** | New Zealand Emissions Trading Scheme — under Climate Change Response Act 2002. |
+| **ASC NEPM** | Assessment of Site Contamination NEPM (2013) — staged contamination assessment framework. |
+| **ADG Code** | Australian Dangerous Goods Code (7.9 current) — DG classification, packaging, marking, transport. |
+| **GHS** | Globally Harmonised System of Classification and Labelling of Chemicals (Rev 7 adopted in AU 1 Jan 2021). |
+| **AHIP** | Aboriginal Heritage Impact Permit (NSW — National Parks and Wildlife Act). |
+| **CHMP** | Cultural Heritage Management Plan (VIC — Aboriginal Heritage Act 2006). |
+
+---
+
+## Workers Compensation & RTW
+
+| Term | Meaning |
+|---|---|
+| **WC** | Workers compensation — statutory injury compensation scheme. |
+| **icare** | Insurance & Care NSW — public corporation; insurer of last resort for NSW workers compensation. |
+| **SIRA** | State Insurance Regulatory Authority — NSW workers compensation regulator. |
+| **WIM Act** | Workplace Injury Management and Workers Compensation Act 1998 (NSW). |
+| **WIRC Act** | Workplace Injury Rehabilitation and Compensation Act 2013 (VIC). |
+| **WCRA** | Workers' Compensation and Rehabilitation Act 2003 (QLD). |
+| **SRC Act** | Safety, Rehabilitation and Compensation Act 1988 (Cth) — Comcare scheme. |
+| **ACC** | Accident Compensation Corporation (NZ) — no-fault universal injury cover scheme. |
+| **IME** | Independent Medical Examination — insurer-commissioned assessment of capacity, treatment, causation. |
+| **MMI** | Maximum Medical Improvement — point at which further treatment is unlikely to materially improve outcome. |
+| **RTW** | Return to Work — process of returning an injured worker to work. |
+| **RTWC** | Return to Work Coordinator — accredited role required in NSW (and QLD for employers above thresholds). |
+| **Suitable employment** | Statutory concept of work appropriate to a worker's post-injury capacity, skills, and location. |
+| **Premium impact** | Effect of claims on employer's workers compensation premium via experience rating. |
+| **Presumptive provision** | Statutory presumption that a defined condition is work-related (e.g., firefighter cancer, silicosis, PTSD for first responders). |
+| **Journey claim** | Workers compensation for injury during commute to/from work — coverage varies by state. |
+
+---
+
+## Audit, Inspection & Permits
+
+| Term | Meaning |
+|---|---|
+| **ISO 19011** | International standard for auditing management systems (2018). |
+| **NC** | Non-conformity — failure to meet a defined requirement, classified Major or Minor. |
+| **OFI** | Opportunity for Improvement — audit finding that is not a non-conformity. |
+| **First-party audit** | Internal audit conducted by the organisation on itself (ISO 45001 9.2 requirement). |
+| **Second-party audit** | Audit conducted by an interested party (typically client auditing contractor). |
+| **Third-party audit** | Independent audit by accredited certification body (for ISO certification). |
+| **PTW** | Permit to Work — formal authorisation for high-risk or non-routine work. |
+| **LOTO** | Lockout-Tagout — energy isolation procedure for plant maintenance. |
+| **JSEA / JHA** | Job Safety and Environmental Analysis / Job Hazard Analysis. |
+| **SWMS** | Safe Work Method Statement — mandatory for HRCW (model WHS Reg 297–299). |
+| **Take 5** | Pre-start mental safety check, typically 5 questions on a card. |
+| **SLAM** | Stop, Look, Assess, Manage — pre-task brief. |
+| **STAR** | Stop, Think, Act, Review — point-of-work hazard check. |
+| **MAC** | Manual Handling Assessment Chart — UK HSE manual handling assessment tool, widely used in AU. |
+| **ART** | Assessment of Repetitive Tasks — upper-limb repetitive task assessment tool. |
+
+---
+
+## Hazard-Specific
+
+| Term | Meaning |
+|---|---|
+| **EAV** | Exposure Action Value (vibration) — trigger for risk assessment and surveillance. |
+| **ELV** | Exposure Limit Value (vibration) — must not be exceeded. |
+| **HAV** | Hand-Arm Vibration — exposure from hand-held vibrating tools. |
+| **WBV** | Whole-Body Vibration — exposure transmitted through seat or feet from plant/vehicles. |
+| **HAVS** | Hand-Arm Vibration Syndrome — vascular, neurological, musculoskeletal effects of HAV. |
+| **SLC80** | Sound Level Conversion at 80th percentile — hearing protector class metric (AS/NZS 1270). |
+| **STS** | Standard Threshold Shift — audiometric change indicating noise-induced hearing change. |
+| **LAeq** | A-weighted equivalent continuous sound level — 8-hour exposure benchmark. |
+| **LC,peak** | C-weighted peak sound pressure level — instantaneous peak benchmark. |
+| **WBGT** | Wet Bulb Globe Temperature — heat exposure assessment index. |
+| **FAID** | Fatigue Audit InterDyne — score-based fatigue prediction model used in rail, aviation, mining. |
+| **HVNL** | Heavy Vehicle National Law — prescribed work/rest hours for heavy vehicle drivers. |
+
+---
+
+## NZ-Specific
+
+| Term | Meaning |
+|---|---|
+| **HSWA** | Health and Safety at Work Act 2015 (NZ) — primary NZ workplace H&S statute. |
+| **WorkSafe NZ** | NZ regulator under HSWA. |
+| **ACC** | Accident Compensation Corporation — NZ no-fault injury cover scheme. |
+| **WEPR** | Worker Engagement, Participation and Representation Regulations 2016 (NZ). |
+| **ACoP** | Approved Code of Practice (NZ) — compliance creates presumption of SFAIRP. |
+| **CHASNZ** | Construction Health and Safety NZ — industry leadership body. |
+| **FISC** | Forest Industry Safety Council (NZ). |
+| **NZECP 34** | NZ Electrical Code of Practice. |
+| **MNZ** | Maritime New Zealand — maritime safety regulator. |
+| **CAA NZ** | Civil Aviation Authority of New Zealand. |
+| **GRWM Regs** | Health and Safety at Work (General Risk and Workplace Management) Regulations 2016 (NZ). |
+| **Pike River** | Pike River Coal Mine disaster (19 November 2010, 29 deaths) — drove HSWA reform. |
