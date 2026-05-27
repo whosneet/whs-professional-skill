@@ -15,6 +15,7 @@
 10. [Worker Engagement and Participation](#10-worker-engagement--participation)
 11. [Forge Works Blueprint](#11-forge-works-blueprint)
 12. [Safety Science — Named Thinkers](#12-safety-science--named-thinkers)
+13. [WHS in M&A and Due Diligence](#13-whs-in-ma-and-due-diligence)
 
 > For organisation-specific risk frameworks (matrix values, likelihood criteria,
 > consequence ratings, HIRAC hierarchies, risk acceptance authorities), load
@@ -646,3 +647,112 @@ shows." Use sparingly — one or two named citations per document is typically
 enough to establish evidentiary grounding without becoming academic. For internal
 training, programs, and facilitator materials, the same names function as a
 shorthand for established legitimacy.
+
+---
+
+## 13. WHS in M&A and Due Diligence
+
+### Why WHS due diligence matters in transactions
+
+WHS exposure travels with the asset. An acquirer inherits:
+
+- Open workers compensation claims and the long-tail of claim run-off liability
+  (psychological injury claims and chronic disease claims are the highest-value
+  latent exposures)
+- Open notifiable incidents and active regulator investigations
+- Live improvement, prohibition, or non-disturbance notices
+- Ongoing prosecutions or enforceable undertakings
+- Industrial manslaughter exposure for events that occurred under prior
+  ownership — most jurisdictions have no limitation period for industrial
+  manslaughter
+- Latent disease exposure (asbestos, silica, chemical) — claims may emerge
+  decades post-exposure
+- Contingent liabilities from contractor and supplier arrangements
+
+WHS due diligence findings inform deal pricing, warranties and indemnities,
+completion conditions, and post-acquisition integration priorities.
+
+### Pre-acquisition WHS assessment scope
+
+| Domain | Source documents to request |
+|---|---|
+| Notifiable incidents | Incident management system extract (3–5 years); regulator notification register |
+| Prosecutions and notices | Court records (publicly available); regulator correspondence; enforceable undertakings register |
+| Workers compensation | Premium history and claims experience (3–5 years); high-cost claims register; open psychological injury claims (cross-reference `compensation-rtw.md`) |
+| Active regulatory engagement | Inspector visit records; current open notices; regulator correspondence (last 12 months) |
+| WHS management system | ISO 45001 certification or audit reports; latest internal audit findings; corrective action register |
+| Critical risk management | Critical risk register; CCV records; HiPo investigations |
+| Latent disease exposure | Historical exposure to asbestos, silica, chemicals; health surveillance records |
+| Officer due diligence | Officer briefing minutes; due diligence records (cross-reference `legislation.md` §6) |
+| Contractor and supplier WHS | Contractor management system records; prequalification register |
+| Training and competency | Training matrix; HRWL register; current statutory training records (cross-reference `legislation.md` §11) |
+| Environmental exposure | EPA notices; contaminated land assessments; environmental licences (cross-reference `environment.md`) |
+
+### Red flags
+
+| Red flag | Implication |
+|---|---|
+| Open Category 1 or 2 prosecution | Material financial liability; reputational; potential officer exposure |
+| Active industrial manslaughter investigation | Highest-tier exposure; deal structure may need carve-out |
+| Pattern of HiPos not investigated to closure | Systemic WHS failure; expensive integration |
+| Workers comp premium >2× industry rate | Premium impact persists post-acquisition |
+| No ISO 45001 / equivalent certification or recent audit | WHS management system maturity unknown; integration cost likely higher |
+| High proportion of open vs closed corrective actions | System discipline weakness, not just isolated events |
+| Recent senior WHS leader departure | Often indicates underlying issues acquirer hasn't yet surfaced |
+| Significant asbestos / silica / chemical exposure history without active health surveillance | Latent disease exposure; potentially uncosted liability |
+| Significant volunteer / contractor workforce without integrated WHS arrangements | Hidden duty exposure |
+| Significant contaminated land or environmental licence breach history | EHS contingent liability beyond WHS |
+
+### Deal structuring implications
+
+- **Asset deal vs share deal** — asset deals may leave some WHS liability with
+  the vendor (e.g., pre-acquisition workers comp claims) depending on
+  transaction terms; share deals transfer the entity including all liabilities
+- **Warranties and indemnities** — WHS-specific warranties typically cover
+  compliance with legislation, absence of undisclosed incidents/notices, and
+  accuracy of disclosed documents; indemnities may cover specified known
+  matters (e.g., open prosecution)
+- **Completion conditions** — material WHS findings may be addressed
+  pre-completion (e.g., remediation of an open prohibition notice) or as
+  completion adjustments
+- **Officer due diligence post-acquisition** — incoming officers inherit the
+  duty from the date they become officers; pre-acquisition non-compliance is
+  part of the evidentiary picture if a subsequent event occurs
+
+### Integration planning
+
+Post-acquisition WHS integration typically focuses on:
+
+1. **Immediate (Day 1)** — ensure all critical controls remain active during
+   the transition; communicate any changes in notification chains; integrate
+   incident reporting
+2. **30–90 days** — align the acquired entity's WHS management system to the
+   acquirer's standards; identify gaps; prioritise high-risk gaps for closure
+3. **6–12 months** — integrate critical risk taxonomy and CCV programme; align
+   training and competency frameworks; consolidate workers compensation
+   arrangements
+4. **12–18 months** — integration into the acquirer's governance and assurance
+   cadence; close ISO 45001 certification gaps; align officer due diligence
+   regime
+
+### Common errors in WHS M&A
+
+- Treating WHS due diligence as a compliance checklist rather than a risk
+  assessment
+- Relying solely on the data room — site visits, interviews, and inspector
+  engagement reveal more than documents
+- Underestimating latent disease and psychological injury claim trajectories
+- Assuming current WHS culture transfers cleanly under new ownership (it
+  rarely does; cultural integration is a 2–3 year programme)
+- Inadequate transition planning for critical control accountability during the
+  ownership change — accountability gaps in the first 30 days are a documented
+  pattern in post-acquisition incidents
+
+### When this section is most relevant
+
+Pre-acquisition due diligence; post-acquisition integration planning; board
+papers on WHS exposure in a proposed transaction; divestment preparation (the
+seller has reciprocal interest in clean documentation).
+
+> For organisation-specific WHS due diligence checklists and integration
+> playbooks, load `references/company.md`.

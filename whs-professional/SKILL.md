@@ -103,6 +103,14 @@ load `references/company.md` alongside the generic file(s).
 | **Workplace inspections, WHS audits (ISO 19011 / ISO 45001), permit-to-work systems, pre-task risk tools** | `references/inspections-audits-permits.md` + `references/company.md` (for permit types + audit programme) |
 | **Officer due diligence operational toolkit** (briefings, safety walks, evidence packs) | `references/legislation.md` §6 |
 | **NZ-specific tasks** (HSWA, WorkSafe NZ, ACC, WEPR, Pike River context, geothermal/Whakaari) | `references/legislation.md` §3 (expanded coverage) |
+| **Case studies for board papers, training, alerts** (Longford, Texas City, Macondo, Pike River, Dreamworld, Whakaari, Grenfell) | `references/case-studies.md` |
+| **Sector-specific regimes** (mining, maritime, aviation, rail, healthcare biosafety, defence) | `references/sector-regimes.md` + `references/company.md` (for sector accreditations / statutory roles) |
+| **First aid, emergency preparedness, lone working, working from home / hybrid** | `references/workplace-controls.md` + `references/company.md` (for first aider register, ECO membership, WFH policy) |
+| **Behavioural-based safety, maturity assessment frameworks, culture and climate measurement** | `references/capability-culture.md` + `references/company.md` (for culture survey instruments / named programmes) |
+| **Mandatory WHS training requirements by jurisdiction** (HSR, white card, HRWL, supervisor competency) | `references/legislation.md` §11 |
+| **Volunteer and unpaid worker coverage** under WHS Act / HSWA | `references/legislation.md` §12 |
+| **International framework comparison** (ILO, US OSHA, UK HSE, EU OSH) | `references/legislation.md` §13 |
+| **WHS in M&A and due diligence** (pre-acquisition assessment, red flags, integration) | `references/frameworks.md` §13 |
 | General WHS advice (catch-all) | `references/legislation.md` + `references/frameworks.md` |
 
 If the task spans multiple types, load all relevant reference files.
@@ -449,6 +457,28 @@ Load these files as needed based on the routing table in Section 1:
   finding classification); permit-to-work systems (hot work, confined space,
   height, isolation, excavation, electrical); pre-task / point-of-work risk
   assessment tools (Take 5, SLAM, STAR, JSEA, SWMS)
+- **`references/case-studies.md`** — Worked summaries of seven landmark
+  cases (Esso Longford 1998, BP Texas City 2005, Deepwater Horizon 2010,
+  Pike River 2010, Dreamworld 2016, Whakaari/White Island 2019, Grenfell
+  Tower 2017) with named-thinker analytical framing; guidance on using
+  case studies in board papers, training, and safety alerts
+- **`references/sector-regimes.md`** — Sector-specific regulatory regimes
+  that sit outside or alongside the WHS Act: mining (NSW/QLD/WA/SA Acts),
+  maritime (AMSA, Navigation Act, NOPSEMA, Maritime NZ), aviation (CASA,
+  CASR), rail (ONRSR, RSNL), healthcare biosafety (AS/NZS 2243.3, PC
+  levels, infection control, radiation), defence (DSM, DEFGRAM, explosive
+  ordnance)
+- **`references/workplace-controls.md`** — Universal everyday workplace
+  controls: first aid (Code, AS 2675, ratios, HLTAID units, AED),
+  emergency preparedness and evacuation (AS 3745, ECO, drills, business
+  continuity distinction), lone working / remote work, working from home /
+  hybrid arrangements (PCBU duty for home workplace, Right to Disconnect,
+  FDV intersection)
+- **`references/capability-culture.md`** — Behavioural-based safety
+  (origins, design, critiques from Dekker/Hopkins/Provan, evidence base);
+  maturity assessment frameworks (Hudson, DuPont Bradley, IOGP, Heinrich
+  critique); safety culture vs climate measurement (Edmondson, Reason,
+  NOSACQ, survey design principles)
 
 A worked-examples directory (`examples/`) sits alongside `references/` with
 realised outputs (safety alert, toolbox talk, advisory note, ICAM exec

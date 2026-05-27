@@ -226,6 +226,18 @@ whs-professional/                  # The Claude skill folder
     │                              #   provisions
     ├── inspections-audits-permits.md  # Workplace inspections, ISO 19011 audits,
     │                              #   permit-to-work systems, pre-task tools
+    ├── case-studies.md            # Worked summaries: Longford, Texas City,
+    │                              #   Macondo, Pike River, Dreamworld, Whakaari,
+    │                              #   Grenfell; named-thinker framing; usage
+    ├── sector-regimes.md          # Mining, maritime, aviation, rail, healthcare
+    │                              #   biosafety, defence — sector-specific regimes
+    │                              #   that sit alongside or outside the WHS Act
+    ├── workplace-controls.md      # First aid, emergency prep / evacuation,
+    │                              #   lone working / remote work, working from
+    │                              #   home / hybrid (Right to Disconnect, FDV)
+    ├── capability-culture.md      # Behavioural-based safety (with critiques),
+    │                              #   maturity frameworks (Hudson, Bradley, IOGP),
+    │                              #   culture vs climate measurement
     ├── output-templates.md        # Safety alert, toolbox talk, advisory note,
     │                              #   investigation report templates
     ├── analytics.md               # KPIs, dashboards, Power BI patterns, board
@@ -305,33 +317,31 @@ This skill is not endorsed by or affiliated with Forge Works.
 These topics are not currently covered (or only lightly covered) and represent
 opportunities for community contribution:
 
-- **First aid in the workplace** — coverage of model Code of Practice, first
-  aider ratios, kit content, training requirements
-- **Lone working / remote work** — risk assessment frameworks, communication
-  protocols, monitoring approaches
-- **Working from home / hybrid arrangements** — emerging area; PCBU duties
-  for the home workplace, psychosocial dimension
-- **Emergency preparedness & evacuation** — fire, evacuation, business
-  continuity intersection with WHS
-- **Mandatory WHS training requirements** by jurisdiction (manual handling,
-  HSR training, supervisor competency, etc.)
-- **Sector-specific regimes** — mining (Resources Safety NSW/QLD; Mine Safety
-  and Inspection Acts), maritime, aviation, rail (separate from WHS Act);
-  healthcare biosafety (PC2/PC3, infection control); defence-specific
-- **Volunteer & unpaid worker coverage** — scope under WHS Act
-- **Behavioural-based safety programs** — design principles, critiques,
-  evidence base for and against
-- **Maturity assessment frameworks** — Hudson cultural ladder, DuPont Bradley
-  curve, IOGP standard
-- **Case study library** — Longford, Texas City, Deepwater Horizon, Pike River,
-  Dreamworld for illustrative use in board papers and training
-- **WHS in M&A / due diligence** — assessing WHS exposure during acquisition
-- **International framework references** — ILO conventions, OSHA (US), HSE
-  (UK) for global comparability
+- **Sector deepening** — coverage of additional sector-specific regimes
+  beyond those in `sector-regimes.md` (e.g., petrochemical-specific, telecoms
+  / electrical line work, agriculture sub-sectors)
+- **Mandatory WHS training register** — fully indexed register of all units
+  of competency by role and jurisdiction (currently summarised in
+  `legislation.md` §11)
+- **Case study expansion** — additional cases beyond the seven in
+  `case-studies.md` (e.g., Costa Concordia, Ranger Uranium Mine, Chernobyl,
+  Bhopal, Beirut port explosion)
+- **WHS in M&A — sector-specific** — extension of `frameworks.md` §13 with
+  sector overlays (mining acquisitions; healthcare; construction)
+- **Multi-language safety communication** — frameworks for linguistically
+  diverse workforces; pictographic alerts; translation governance
+- **Indigenous workforce considerations** — cultural load, cultural heritage
+  on Country, culturally informed safety practice
+- **Reasonable adjustments and neurodivergent worker accommodations** —
+  WHS-positive framing of disability inclusion
+- **Whistleblower protections** — PIDA and Corporations Act whistleblower
+  regime intersection with WHS reporting
+- **WHS in procurement and tender response** — buyer-side WHS evaluation;
+  supplier WHS warranties; tender response WHS sections
 
 ### Recently added (May 2026 update)
-The following topics were previously listed as gaps and have been added to the
-skill:
+The following topics were previously listed as gaps and have all been added
+to the skill:
 
 - ✓ Environmental / EHS chapter (`references/environment.md`)
 - ✓ Workers compensation and RTW across AU + NZ (`references/compensation-rtw.md`)
@@ -342,6 +352,20 @@ skill:
   confined space, mobile plant, hazardous chemicals, noise, vibration, plant
   safety, manual tasks, and fatigue (`references/hazards.md` §9–§18)
 - ✓ Worked examples folder (`examples/`)
+- ✓ Case study library — Longford, Texas City, Macondo, Pike River,
+  Dreamworld, Whakaari, Grenfell (`references/case-studies.md`)
+- ✓ Sector-specific regimes — mining, maritime, aviation, rail, healthcare
+  biosafety, defence (`references/sector-regimes.md`)
+- ✓ First aid, emergency preparedness, lone working, working from home /
+  hybrid arrangements (`references/workplace-controls.md`)
+- ✓ Behavioural-based safety, maturity frameworks, culture / climate
+  measurement (`references/capability-culture.md`)
+- ✓ Mandatory WHS training requirements by jurisdiction
+  (`references/legislation.md` §11)
+- ✓ Volunteer and unpaid worker coverage (`references/legislation.md` §12)
+- ✓ International framework references — ILO, OSHA, HSE, EU
+  (`references/legislation.md` §13)
+- ✓ WHS in M&A and due diligence (`references/frameworks.md` §13)
 
 ---
 
