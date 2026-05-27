@@ -192,16 +192,40 @@ for each section and where to find the information inside your organisation.
 ```
 whs-professional/                  # The Claude skill folder
 ├── SKILL.md                       # Skill entry point + routing table
+├── examples/                      # Worked realised outputs (calibration material)
+│   ├── README.md
+│   ├── 01-safety-alert-electrical-near-miss.md
+│   ├── 02-toolbox-talk-working-at-height.md
+│   ├── 03-whs-advisory-note-respect-at-work-positive-duty.md
+│   ├── 04-icam-executive-summary-forklift-near-miss.md
+│   ├── 05-board-paper-extract-hipo-intelligence.md
+│   └── 06-hipo-intelligence-pack-page.md
 └── references/
     ├── company.md                 # ★ Your organisation's context (edit this)
-    ├── legislation.md             # AU/NZ WHS legislation, industrial manslaughter,
-    │                              #   inspector playbook, Respect@Work
+    ├── legislation.md             # AU/NZ WHS legislation incl. expanded NZ
+    │                              #   coverage (HSWA, ACC, WEPR, Pike River,
+    │                              #   geothermal, NZ industrial manslaughter);
+    │                              #   industrial manslaughter, inspector playbook,
+    │                              #   Respect@Work, officer due diligence toolkit
     ├── frameworks.md              # ISO 45001, SFAIRP, Safety II/HOP/Forge Works,
     │                              #   named safety science thinkers
     ├── investigation.md           # ICAM, 5-Why, bowtie, contributing factors,
     │                              #   cognitive biases
-    ├── hazards.md                 # Engineered stone, RCS, asbestos, construction
-    │                              #   WHS, D&A, heat, MHF
+    ├── hazards.md                 # Engineered stone, RCS, asbestos, construction,
+    │                              #   D&A, heat, MHF, height, electrical/LOTO,
+    │                              #   confined space, mobile plant, hazardous
+    │                              #   chemicals, noise, vibration, plant safety,
+    │                              #   manual tasks, fatigue
+    ├── environment.md             # EHS environmental chapter — AU/NZ regulators,
+    │                              #   ISO 14001, EPA notification, dangerous goods,
+    │                              #   spills, waste, emissions, biodiversity,
+    │                              #   heritage, climate-WHS intersection
+    ├── compensation-rtw.md        # Workers comp across AU schemes + NZ ACC,
+    │                              #   premium mechanics, IMEs, suitable employment,
+    │                              #   RTW coordinator, psych claims, presumptive
+    │                              #   provisions
+    ├── inspections-audits-permits.md  # Workplace inspections, ISO 19011 audits,
+    │                              #   permit-to-work systems, pre-task tools
     ├── output-templates.md        # Safety alert, toolbox talk, advisory note,
     │                              #   investigation report templates
     ├── analytics.md               # KPIs, dashboards, Power BI patterns, board
@@ -289,18 +313,35 @@ opportunities for community contribution:
   for the home workplace, psychosocial dimension
 - **Emergency preparedness & evacuation** — fire, evacuation, business
   continuity intersection with WHS
-- **Worker compensation & return-to-work** — beyond the brief psychosocial
-  treatment currently in `legislation.md`
 - **Mandatory WHS training requirements** by jurisdiction (manual handling,
   HSR training, supervisor competency, etc.)
-- **Audit methodology** — depth beyond the current ISO 45001 clause map
 - **Sector-specific regimes** — mining (Resources Safety NSW/QLD; Mine Safety
-  and Inspection Acts), maritime, aviation, rail (separate from WHS Act)
+  and Inspection Acts), maritime, aviation, rail (separate from WHS Act);
+  healthcare biosafety (PC2/PC3, infection control); defence-specific
 - **Volunteer & unpaid worker coverage** — scope under WHS Act
-- **NZ as a first-class jurisdiction** — the skill currently leads with AU
-  and treats NZ as an addendum; full parity would benefit NZ practitioners
+- **Behavioural-based safety programs** — design principles, critiques,
+  evidence base for and against
+- **Maturity assessment frameworks** — Hudson cultural ladder, DuPont Bradley
+  curve, IOGP standard
+- **Case study library** — Longford, Texas City, Deepwater Horizon, Pike River,
+  Dreamworld for illustrative use in board papers and training
+- **WHS in M&A / due diligence** — assessing WHS exposure during acquisition
 - **International framework references** — ILO conventions, OSHA (US), HSE
   (UK) for global comparability
+
+### Recently added (May 2026 update)
+The following topics were previously listed as gaps and have been added to the
+skill:
+
+- ✓ Environmental / EHS chapter (`references/environment.md`)
+- ✓ Workers compensation and RTW across AU + NZ (`references/compensation-rtw.md`)
+- ✓ Workplace inspections, audits, and permit-to-work (`references/inspections-audits-permits.md`)
+- ✓ NZ as a first-class jurisdiction (expanded in `references/legislation.md` §3)
+- ✓ Operational officer due diligence toolkit (`references/legislation.md` §6)
+- ✓ Hazard-specific operational frameworks for height, electrical/LOTO,
+  confined space, mobile plant, hazardous chemicals, noise, vibration, plant
+  safety, manual tasks, and fatigue (`references/hazards.md` §9–§18)
+- ✓ Worked examples folder (`examples/`)
 
 ---
 

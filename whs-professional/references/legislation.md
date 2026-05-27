@@ -167,6 +167,205 @@ structure, SFAIRP standard (termed "so far as is reasonably practicable").
 of SFAIRP compliance. Non-compliance does not automatically mean a breach but shifts the
 evidentiary burden.
 
+### 3.1 ACC scheme — interaction with HSWA
+
+The Accident Compensation Corporation (ACC) scheme is a no-fault universal injury cover
+scheme, separate from but closely linked to the HSWA framework. It is administered under
+the Accident Compensation Act 2001.
+
+**Levy structure** — funded through four accounts:
+- **Work Account** — Work levy paid by employers, calculated on liable earnings × industry
+  classification levy rate. Industry rates reflect historical claims experience by sector.
+- **Earners' Account** — Earners' levy paid by employees through PAYE on earnings.
+- **Motor Vehicle Account** — funded through vehicle registration and petrol levies; covers
+  motor vehicle injuries including journey claims.
+- **Non-Earners' Account** — Crown-funded; covers non-earners and pre-employment injuries.
+
+**Experience Rating Programme** — applies to employers with levy >NZD $10,000. Claims
+experience over a defined window (typically 3 years lagged) drives levy adjustments up or
+down. Genuine WHS performance improvement reduces levy over time; spike in serious claims
+materially increases it.
+
+**Workplace Safety Discount** — small employers (<NZD $546,000 liable payroll, eligible
+industries) can apply for a 10% Work levy discount through participation in approved safety
+management programmes (third-party assessed).
+
+**Common law restriction** — s 317 ACC Act 2001 ("the ACC bar") removes the right to sue
+for compensatory damages for personal injury covered by ACC. Exemplary damages remain
+available in narrow circumstances (gross negligence).
+
+**Practical implication for WHS managers**: an unsafe workplace pays for itself through
+levy increases over time, not through litigation. ACC + HSWA together create a different
+incentive structure than the AU WC + WHS combination — WHS performance improvement is the
+direct lever on levy cost.
+
+### 3.2 Worker Engagement, Participation and Representation (WEPR) Regulations 2016
+
+Made under HSWA s 60. Define when worker participation practices must be in place and how
+elected representation operates.
+
+**PCBU duty (s 58–60 HSWA)**: every PCBU must have worker participation practices that
+provide reasonable opportunities for workers to participate effectively in improving WHS
+on an ongoing basis.
+
+**HSR election triggers** (WEPR reg 5–8):
+- Any worker request (in workplaces of any size if high-risk industry)
+- PCBU has 30+ workers and any worker requests
+- Mandatory in high-risk sectors regardless of size (defined in Schedule 1)
+
+**HSR functions and powers (HSWA s 73)**:
+- Represent workers in WHS matters with the PCBU
+- Investigate worker complaints
+- Monitor PCBU compliance with WHS duties
+- Issue Provisional Improvement Notices (PINs) — after completion of approved training
+- Direct workers to cease unsafe work (s 83) — after attempted issue resolution unless
+  immediate serious risk
+
+**HSR training**: minimum 2-day NZQA-approved course (Unit Standard 29315 or equivalent).
+PCBU must allow paid time off for training and reasonable expenses.
+
+**Health and Safety Committees (HSCs)** — established on worker request (5+ workers) or
+PCBU initiative. Mixed membership; recommend improvements; consult on changes. Not a
+substitute for HSRs.
+
+**Issue resolution** — WEPR reg 16 sets out the default process where parties have not
+agreed an alternative: HSR/worker raises issue → PCBU attempts to resolve → escalation to
+inspector if unresolved.
+
+### 3.3 Key Approved Codes of Practice (ACoPs)
+
+WorkSafe NZ publishes ACoPs under HSWA s 222. Compliance creates a presumption of SFAIRP
+compliance (s 226). Selected high-use ACoPs:
+
+| ACoP | Subject |
+|---|---|
+| Working at Heights (2012, currently under review) | Fall prevention hierarchy; scaffold, EWPs, fall arrest |
+| Safety in Excavation and Shafts | Trench and shaft work; cave-in prevention |
+| Forest Operations (Approved by Minister) | Tree felling, log haulage, breaking out |
+| Safe Use of Agrichemicals (NZS 8409) | Handling, storage, application, PPE |
+| NZECP 34 Electrical Code of Practice | Electrical safety; low and high voltage |
+| Demolition | Structural assessment, hazardous materials, exclusion zones |
+| Management and Removal of Asbestos (2016) | Identification, control, removal licensing |
+
+### 3.4 NZ high-fatality sectors and WorkSafe NZ focus areas
+
+NZ's fatality profile is concentrated in primary industries — substantially different from
+AU's. WorkSafe NZ aligns sector strategies accordingly.
+
+| Sector | Risk profile | Lead body |
+|---|---|---|
+| Agriculture | Highest fatality rate per FTE in NZ; quad bike rollovers and farm vehicle incidents historically dominate; Safer Farms programme | Safer Farms (industry-led) |
+| Forestry | Significant fatality count for workforce size; tree felling, breaking out, log truck operations | FISC (Forest Industry Safety Council) |
+| Construction | Largest absolute fatality count; falls from height, mobile plant, struck by | CHASNZ (Construction Health and Safety NZ) |
+| Mining and Quarrying | Separate Major Hazard regime under HSE (Mining Operations and Quarrying Operations) Regulations 2016; statutory mine manager and worker representation requirements | High Hazards Unit, WorkSafe NZ |
+| Fishing | High-risk industry; vessel safety + Maritime NZ overlap | Maritime NZ (primary) + WorkSafe |
+
+### 3.5 Adventure activities and specialist regimes
+
+- **Adventure Activities Regulations 2016** — operators providing adventure activities
+  (rafting, bungy, jet boating, climbing guiding, caving) must register with WorkSafe NZ
+  and be safety-audited by an approved external auditor every 3 years.
+- **Maritime sector**: Maritime NZ regulates under the Maritime Transport Act 1994.
+  Where workers are on board ship, maritime rules generally apply; HSWA may apply to
+  port/shore-side workplaces.
+- **Aviation**: Civil Aviation Authority (CAA) regulates under the Civil Aviation Act
+  1990 and CAR Part 100-series rules. HSWA applies to non-aviation aspects of aviation
+  workplaces.
+- **Hazardous Substances and New Organisms Act 1996 (HSNO)** — administered by EPA NZ.
+  Workplace use of hazardous substances is now primarily under HSWA + Health and Safety
+  at Work (Hazardous Substances) Regulations 2017; HSNO governs approval and labelling
+  upstream of the workplace.
+
+### 3.6 Geothermal and natural hazard context
+
+NZ's North Island geothermal zone and broader seismic/volcanic environment create hazards
+not present in most AU workplaces.
+
+- **Geothermal**: H2S exposure (toxic at >10 ppm, life-threatening >300 ppm), ground
+  instability, thermal water and steam burns, silica scaling in plant. WorkSafe NZ has
+  dedicated geothermal guidance.
+- **Volcanic and seismic risk**: ongoing exposure across multiple regions. The Whakaari /
+  White Island eruption (9 December 2019, 22 deaths) and the subsequent WorkSafe NZ
+  prosecution of tour operators is a landmark case on PCBU duty to assess
+  catastrophic-but-low-probability hazards. Convictions and reparations followed; the
+  case reshaped industry practice on volcanic hazard risk assessment.
+- **Civil Defence Emergency Management Act 2002** intersection — workplaces must integrate
+  with regional CDEM plans for major events.
+
+**Practical implication**: workplaces operating in geothermal, volcanic, or seismic-active
+zones must explicitly address these hazards in risk assessments and emergency plans, not
+treat them as background environmental conditions.
+
+### 3.7 Pike River and HSWA reform context
+
+The Pike River Coal Mine explosion on 19 November 2010 killed 29 workers. The Royal
+Commission report (2012) found systemic regulatory and operational failure: the regulator
+(then Department of Labour) lacked technical capacity to oversee underground mining; the
+operator had inadequate ventilation, methane monitoring, and emergency egress; warning
+signals had been ignored.
+
+The Commission's findings drove the Independent Taskforce on Workplace Health and Safety
+(2013), which recommended substantial regulatory and structural reform. **HSWA 2015 was
+the legislative response** — substantially modelled on AU harmonised WHS law, with
+strengthened officer duties (s 44), explicit worker participation requirements (Part 3),
+and a dedicated regulator (WorkSafe NZ, established 2013).
+
+**Practical implication for officers**: HSWA's emphasis on officer due diligence
+(s 44) and worker engagement reflects Pike River findings directly. Officers in NZ
+operate under a regime that was designed in response to a corporate governance failure;
+the evidentiary expectation on officer activity is consequently high.
+
+### 3.8 NZ industrial manslaughter status
+
+HSWA does not contain a discrete industrial manslaughter offence — a deliberate choice
+during the 2015 Act's design.
+
+**Manslaughter via gross negligence** is available under the Crimes Act 1961 (s 150A
+duty of persons in charge of dangerous things; s 156 duty of persons doing dangerous
+acts; s 160 culpable homicide / manslaughter). The legal threshold for gross negligence
+manslaughter is high — a major departure from the standard of care a reasonable person
+would exercise.
+
+**Law Commission review** — has periodically considered the absence of a discrete WHS
+manslaughter offence. As of 2024-25 the position remains that HSWA Category 1 (s 47)
+plus Crimes Act manslaughter is the available framework.
+
+**Cf. AU**: most AU jurisdictions now have a discrete industrial manslaughter offence
+with maximum penalties of $13M–$20M and 20–25 years imprisonment. NZ does not.
+
+**Practical implication for officers**: Crimes Act gross negligence manslaughter is
+available but the prosecutorial threshold is materially higher than for AU industrial
+manslaughter offences. HSWA Category 1 (reckless conduct, exposure to risk of death or
+serious injury) is the more commonly used charge for serious failures causing death.
+
+### 3.9 WorkSafe NZ enforcement and penalty levels
+
+WorkSafe NZ is the primary regulator under HSWA. Maritime NZ, CAA, and EPA NZ regulate
+specialist sectors.
+
+**Enforcement notice types** (HSWA s 175–209):
+
+| Notice | HSWA section | Practical scope |
+|---|---|---|
+| Improvement notice (Form W3) | s 191 | Comply with stated remediation by specified date; appeal within 7 days to WorkSafe NZ |
+| Prohibition notice (Form W4) | s 195 | Cease specified activity immediately until risk remediated; appeal within 7 days |
+| Infringement notice | s 162 + Schedule (Health and Safety at Work (Infringement Offences and Fees) Regulations 2016) | Instant fine for defined offences; up to NZD $1,000 individual / $4,000 PCBU per offence |
+| Non-disturbance notice | s 198 | Preserve incident scene; restricted entry until inspector permits |
+
+**Maximum penalties** (HSWA s 47–49, as at January 2025, in NZD):
+
+| Offence Category | Individual | Officer / PCBU |
+|---|---|---|
+| Category 1 — reckless conduct exposing to risk of death or serious injury (s 47) | Up to NZD $300,000 / 5 years imprisonment | Up to NZD $3,000,000 |
+| Category 2 — failure exposing to risk of death or serious injury (s 48) | Up to NZD $150,000 | Up to NZD $1,500,000 |
+| Category 3 — failure to comply with duty (s 49) | Up to NZD $50,000 | Up to NZD $500,000 |
+
+(Figures in NZD; subject to HSWA s 48-49 indexation and statutory review.)
+
+**Enforceable undertakings** are available under HSWA s 123 as an alternative to
+prosecution for Category 2 and Category 3 offences (not Category 1). The undertaking
+requires demonstrable WHS outcomes proportionate to the conduct.
+
 ---
 
 ## 4. Key Duties in Detail
@@ -267,6 +466,11 @@ Notify WorkSafe NZ as soon as practicable by phone; written notification follows
 
 ## 6. Enforcement & Penalties
 
+> **Currency note**: Penalty quanta below are indexed and revised. Figures shown
+> reflect rates as at January 2025. Validate against current jurisdiction
+> publications before relying on specific dollar figures — penalty unit values
+> in most jurisdictions are increased annually each July.
+
 ### AU Penalty Structure (Model WHS Act — penalty units vary by jurisdiction)
 Category 1 (reckless conduct — highest): Individual up to $300,000 / 5 years imprisonment;
 PCBU / officer up to $3,000,000
@@ -291,6 +495,11 @@ PCBU: Up to NZD $3,000,000 for failure causing death or serious injury
 Individual: Up to NZD $600,000 / 5 years imprisonment (category 1 equivalent)
 
 ### Industrial Manslaughter / Workplace Manslaughter
+
+> **Currency note**: Maximum penalties below are statutory caps as at
+> January 2025. Many jurisdictions index annually; some figures are subject
+> to periodic statutory review. Validate against the current Act before
+> relying on specific figures.
 
 Industrial manslaughter is a discrete criminal offence — separate from and significantly
 more serious than Category 1 WHS offences. It applies where a PCBU or officer is grossly
@@ -334,6 +543,103 @@ prosecutors will assemble. Practical implications:
 - Treat HiPo events and Category 1 close calls with the same investigative depth
   as actual fatalities — they are the data that informs whether the system was
   trending toward a foreseeable death
+
+### Operational tools for officer due diligence
+
+This section translates the s 27 (model) / s 44 (HSWA) due diligence duty into
+operational tools — not just principles. The framing throughout: the evidentiary
+picture a prosecutor assembles is built from documented activity, not from intent
+or from the officer's mental model of compliance.
+
+**The distinction between officer activity and officer-evidenced activity**
+
+An officer who attends a briefing but leaves no record of attending, what was
+discussed, or what they asked has not generated due diligence evidence. Treat
+every due diligence activity as both an act of compliance and a record-generation
+exercise. Diary entries, sign-on sheets, minute extracts, annotated decks, and
+follow-up emails are the artefacts a prosecutor will request.
+
+**Officer briefing — recommended template**
+
+| Element | Content |
+|---|---|
+| Briefing context | Date, attendees (officers + WHS leader + presenters), period covered |
+| WHS performance summary | Lagging metrics (TRIFR, LTIFR, HiPo rate) with rolling 12m trend vs prior period |
+| HiPo intelligence | Count, critical risk distribution, investigation status, named themes |
+| Critical control status | CCV completion rate, degraded controls flagged, escalations triggered |
+| Significant incidents | Notifiable incidents, regulator engagement, prosecutions, enforceable undertakings |
+| Regulatory environment | New or amended codes, legislative changes, enforcement focus areas |
+| Decisions requested | Resource approvals, policy endorsements, priority direction |
+| Officer questions and challenges | Recorded verbatim — demonstrates engagement, not just attendance |
+| Actions assigned | Owner, due date, follow-up mechanism, link to incident system or governance register |
+
+Minute the briefing, distribute to attendees, store in the governance repository
+with restricted access. The minutes are part of the evidence pack.
+
+**Director-level safety walk format**
+
+- Frequency: quarterly minimum for active officers; monthly for executive-tier
+  officers with operational accountability
+- Pre-brief: site overview, current critical risks at that location, any active
+  issues or recent incidents
+- On-site: walk the operation (not just the boardroom or office); speak with
+  frontline workers; observe critical control adherence in action
+- What to look at: critical control verification in real conditions, hazard
+  reports register, recent corrective actions and their physical evidence, PPE
+  compliance in non-observed work, supervisor presence and behaviour
+- What to ask: "What's the worst thing that could go wrong here?" "What's
+  stopping it?" "What would make this safer?" "What stops you raising a hazard?"
+- Post-walk: documented observations, photos with permission, items raised +
+  commitments made + follow-up dates
+- Record in the same system used for HSR/inspector visits — these are governance
+  artefacts, not personal notes
+
+**Officer due diligence calendar — mapped to s 27 / s 44 elements**
+
+Activities to maintain on a rolling 12-month cadence. Quarterly minimum for
+each element; more frequent for high-exposure officers or post-incident periods.
+
+| s 27 / s 44 element | Quarterly activities (minimum) |
+|---|---|
+| 1. Keep WHS knowledge current | Briefing on regulatory changes; attendance at industry or regulator forum; review of one named-thinker work or recent case study |
+| 2. Understand operations and hazards | Quarterly officer briefing; site walks at varying locations; CRO presentation on one critical risk |
+| 3. Ensure resources and processes | Review WHS function budget vs plan; review CCV plan vs activity; sign-off on annual WHS plan |
+| 4. Receive and act on WHS information | Quarterly HiPo intelligence review; sign-off on incident-specific actions; oversight of corrective action close-out rate |
+| 5. Processes for compliance | Review ISO 45001 audit findings; sign-off on legislative register currency; review of regulator engagement log |
+| 6. Verify resources and processes are being used | CCV observation reports reviewed; named challenge of an assurance assertion; site walk findings followed through |
+
+**Evidence pack structure**
+
+For each officer, maintain a personal due diligence file (digital, version
+controlled, restricted access) containing:
+
+- Briefing decks attended, with annotations and questions asked
+- Site walk records, photos, and follow-up correspondence
+- Decision memos signed off, with documented rationale (especially deferred or
+  declined WHS investments — these are the highest-risk items if a fatality
+  follows)
+- Training and CPD records
+- Correspondence with the WHS function on substantive matters
+- Annual personal statement (short — 1–2 pages) summarising what the officer
+  did, learned, and decided this year; reviewed with the board chair or another
+  officer; signed and dated
+
+Retention period: minimum 7 years; longer for industrial manslaughter exposure
+where most jurisdictions impose no limitation period on prosecution. Treat the
+file as a governance record, not as personal correspondence.
+
+**The two failure modes to design out**
+
+1. *Officer activity without evidence* — the officer did everything required but
+   left no documented trail. In prosecution, this becomes "the officer says they
+   did X but the records show no X." Defensibility is materially weaker.
+2. *Officer evidence without activity* — the officer signed minutes and ticked
+   attendance but did not engage substantively. The artefacts exist but the
+   underlying due diligence does not. Inspectors and worker witnesses can
+   surface this gap quickly.
+
+The objective is genuine activity with deliberate record generation. The WHS
+function's role is to make the second easy so the first is sustainable.
 
 ---
 
