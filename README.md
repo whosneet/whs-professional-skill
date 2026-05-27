@@ -238,8 +238,28 @@ whs-professional/                  # The Claude skill folder
     ├── capability-culture.md      # Behavioural-based safety (with critiques),
     │                              #   maturity frameworks (Hudson, Bradley, IOGP),
     │                              #   culture vs climate measurement
+    ├── strategy-function.md       # WHS strategy, function design, budget
+    │                              #   economics, leadership, crisis management
+    ├── specialist-topics.md       # Occupational hygiene, workplace mental
+    │                              #   health programs, Modern Slavery Act,
+    │                              #   ESG/WHS, insurance arrangements
+    ├── diversity-inclusion.md     # Indigenous workforce, reasonable
+    │                              #   adjustments, neurodivergent, multi-
+    │                              #   language, gendered violence depth
+    ├── whs-procurement.md         # WHS in procurement, supplier evaluation,
+    │                              #   tender response, contractor management,
+    │                              #   Modern Slavery DD overlap
+    ├── whistleblower.md           # Corporations Act 9.4AAA, PIDA, state PID
+    │                              #   Acts, WHS reporting intersection
+    ├── case-studies-everyday.md   # Forklift, manual handling, psychosocial,
+    │                              #   electrical, slip/trip, chemical, fatigue
+    │                              #   — everyday cases for training and ICAM
     ├── output-templates.md        # Safety alert, toolbox talk, advisory note,
-    │                              #   investigation report templates
+    │                              #   investigation report, risk register,
+    │                              #   bowtie, WHS strategy, RACI, annual plan,
+    │                              #   officer briefing, site walk, annual
+    │                              #   report, AHRC evidence map, PTW, claim
+    │                              #   review, hazard report templates
     ├── analytics.md               # KPIs, dashboards, Power BI patterns, board
     │                              #   intelligence pack structure
     ├── programs.md                # Program design, gamification, facilitator
@@ -251,6 +271,8 @@ ADAPTING.md                        # Detailed walkthrough for adapting company.m
 DISCLAIMER.md                      # Legal disclaimer (no legal advice etc.)
 CONTRIBUTING.md                    # How to contribute
 LICENSE                            # Licence terms
+CHANGELOG.md                       # Version history of the skill
+.gitignore                         # Git ignore patterns (artefacts, IDE noise)
 ```
 
 ---
@@ -317,27 +339,26 @@ This skill is not endorsed by or affiliated with Forge Works.
 These topics are not currently covered (or only lightly covered) and represent
 opportunities for community contribution:
 
-- **Sector deepening** — coverage of additional sector-specific regimes
-  beyond those in `sector-regimes.md` (e.g., petrochemical-specific, telecoms
-  / electrical line work, agriculture sub-sectors)
-- **Mandatory WHS training register** — fully indexed register of all units
-  of competency by role and jurisdiction (currently summarised in
-  `legislation.md` §11)
-- **Case study expansion** — additional cases beyond the seven in
-  `case-studies.md` (e.g., Costa Concordia, Ranger Uranium Mine, Chernobyl,
-  Bhopal, Beirut port explosion)
-- **WHS in M&A — sector-specific** — extension of `frameworks.md` §13 with
-  sector overlays (mining acquisitions; healthcare; construction)
-- **Multi-language safety communication** — frameworks for linguistically
-  diverse workforces; pictographic alerts; translation governance
-- **Indigenous workforce considerations** — cultural load, cultural heritage
-  on Country, culturally informed safety practice
-- **Reasonable adjustments and neurodivergent worker accommodations** —
-  WHS-positive framing of disability inclusion
-- **Whistleblower protections** — PIDA and Corporations Act whistleblower
-  regime intersection with WHS reporting
-- **WHS in procurement and tender response** — buyer-side WHS evaluation;
-  supplier WHS warranties; tender response WHS sections
+- **Additional case study expansion** — Chernobyl, Three Mile Island,
+  Wittenoom asbestos, Lacrosse Tower cladding fire, Cave Creek (NZ);
+  additional sector-specific catastrophes
+- **Sector deepening v2** — petrochemical-specific operational depth
+  (HAZOP/LOPA worked examples); telecoms electrical line work;
+  hospitality sub-sectors (clubs, gambling, festivals); aged care
+  workforce-specific (in addition to current healthcare coverage)
+- **AI safety and WHS** — emerging area: AI in WHS analytics, bias risks
+  in predictive safety, computer vision for guarding, wearables for
+  fatigue and proximity, drones for inspection
+- **Continuous improvement methodology for WHS** — Lean, Six Sigma,
+  Theory of Constraints applied to safety improvement programmes
+- **WHS in procurement v2** — sector-specific overlays (resources tender
+  WHS sections, construction tender WHS sections, government tender WHS
+  sections)
+- **Multi-tenant company.md framework** — formal mechanism for
+  consultants to maintain configurations across multiple clients
+  (currently documented as a workaround in ADAPTING.md)
+- **Utility scripts** — executable calculators for penalty unit values,
+  frequency rate calculations, jurisdiction lookups
 
 ### Recently added (May 2026 update)
 The following topics were previously listed as gaps and have all been added
@@ -366,6 +387,51 @@ to the skill:
 - ✓ International framework references — ILO, OSHA, HSE, EU
   (`references/legislation.md` §13)
 - ✓ WHS in M&A and due diligence (`references/frameworks.md` §13)
+
+### Recently added (v1.3 — May 2026 strategic / specialist round)
+
+- ✓ Investigation craft deepening — PEEPO question bank, witness interview
+  technique (PEACE, cognitive interviewing), witness statement admissibility,
+  ICAM variants comparison, AcciMap methodology, bowtie worked example,
+  legal privilege management (`references/investigation.md` §8–§14)
+- ✓ Workplace Exposure Standards table for common substances
+  (`references/legislation.md` §14)
+- ✓ Codes of Practice key requirements summary
+  (`references/legislation.md` §15)
+- ✓ State legislation deepening — VIC OHS Act 2004 + variations
+  (`references/legislation.md` §16)
+- ✓ High-risk activity playbooks — crane lifts and rigging, demolition,
+  excavation and trench shoring, hot work (`references/hazards.md` §19–§22)
+- ✓ M&A sector overlays — mining, healthcare, construction
+  (`references/frameworks.md` §13)
+- ✓ WHS strategy, function design, budget economics, leadership development,
+  crisis management distinct from emergency response
+  (`references/strategy-function.md`)
+- ✓ Occupational hygiene practice, workplace mental health programs beyond
+  psychosocial regs, Modern Slavery Act 2018, ESG and WHS intersection,
+  insurance arrangements (`references/specialist-topics.md`)
+- ✓ Indigenous workforce considerations, reasonable adjustments,
+  neurodivergent accommodation, multi-language safety communication,
+  gendered violence depth (`references/diversity-inclusion.md`)
+- ✓ WHS in procurement and tender response, contractor performance
+  management, Modern Slavery DD overlap (`references/whs-procurement.md`)
+- ✓ Whistleblower protections — Corporations Act 9.4AAA, PIDA, state PID
+  Acts (`references/whistleblower.md`)
+- ✓ Everyday case studies — forklift, manual handling, psychosocial,
+  electrical, slip-trip-fall, chemical decant, fatigue
+  (`references/case-studies-everyday.md`)
+- ✓ Additional catastrophe cases — Costa Concordia, Ranger Uranium, Bhopal,
+  Beirut Port (`references/case-studies.md` §9–§12)
+- ✓ Additional sectors — petrochemical, telecommunications, agriculture,
+  hospitality, education, retail (`references/sector-regimes.md` §8–§13)
+- ✓ Strategic and governance templates — risk register, bowtie, WHS
+  strategy, RACI, annual plan, officer briefing, site walk, annual
+  report, AHRC evidence map, PTW, claim review, hazard report
+  (`references/output-templates.md` §11–§22)
+- ✓ Repo hygiene — `.gitignore`, `CHANGELOG.md` with formal version
+  history
+- ✓ Safety II / HOP / Forge Works positioning made explicit
+  (`SKILL.md` §6)
 
 ---
 

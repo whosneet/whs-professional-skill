@@ -16,6 +16,9 @@
 11. [Mandatory WHS Training Requirements](#11-mandatory-whs-training-requirements)
 12. [Volunteer and Unpaid Worker Coverage](#12-volunteer-and-unpaid-worker-coverage)
 13. [International Framework References](#13-international-framework-references)
+14. [Workplace Exposure Standards (WES) Reference Table](#14-workplace-exposure-standards-wes-reference-table)
+15. [Codes of Practice — Key Requirements Summary](#15-codes-of-practice--key-requirements-summary)
+16. [State and Territory Variations — Deeper Detail](#16-state-and-territory-variations--deeper-detail)
 
 ---
 
@@ -1131,3 +1134,344 @@ provide context.
   prescriptive standards — the more rigorous prevails as the working standard
 - Industrial manslaughter exposure for AU/NZ operations should be specifically
   briefed to overseas officers; the duty does not depend on physical presence
+
+---
+
+## 14. Workplace Exposure Standards (WES) Reference Table
+
+### Regulatory basis
+Workplace Exposure Standards are set by Safe Work Australia and adopted into
+model WHS Regulations (Reg 50). PCBUs must ensure no worker is exposed to a
+substance above the WES. WES are health-based — exposure below the WES does
+not guarantee no health effect, particularly for substances with no threshold
+(e.g., RCS). Cost is not a defence to exceeding a WES; the duty is absolute.
+
+### Exposure measurement types
+- **TWA (Time-Weighted Average)** — average exposure over an 8-hour working
+  day; the most common WES
+- **STEL (Short-Term Exposure Limit)** — typically a 15-minute TWA; not to
+  be exceeded
+- **Peak** — instantaneous concentration not to be exceeded; for highly
+  reactive or irritant substances
+- **Carcinogen designation** — Cat 1A or 1B carcinogen substances require
+  exposure to be ALARP, not just below WES
+
+### Common substance WES values (as at January 2025)
+
+> Always validate against the current SWA *Workplace Exposure Standards for
+> Airborne Contaminants* publication. Values below are indicative.
+
+| Substance | TWA (8-hr) | STEL (15-min) | Peak | Notes |
+|---|---|---|---|---|
+| Carbon monoxide (CO) | 30 ppm | — | 200 ppm | Combustion; vehicle exhaust |
+| Nitrogen dioxide (NO2) | 3 ppm | 5 ppm | — | Combustion; welding |
+| Ozone (O3) | 0.1 ppm | 0.3 ppm | — | Photocopier; welding; arc work |
+| Sulphur dioxide (SO2) | 2 ppm | 5 ppm | — | Combustion; volcanic activity |
+| Hydrogen sulphide (H2S) | 10 ppm | 15 ppm | — | Sewers; gas wells; decomposition |
+| Ammonia (NH3) | 25 ppm | 35 ppm | — | Refrigeration; agriculture; cleaning |
+| Formaldehyde (HCHO) | — | — | 1 ppm | Cat 1A carcinogen — Peak only; ALARP |
+| Isocyanates (TDI, MDI as -NCO) | 0.02 mg/m³ | 0.07 mg/m³ | — | 2-pack paints, polyurethane foam; respiratory sensitiser |
+| Welding fume (as Mn) | 1 mg/m³ | — | — | Reduced from 5 mg/m³ in 2024; Cat 1 neurotoxin |
+| Welding fume (not otherwise classified) | 5 mg/m³ | — | — | General total inhalable fume |
+| Lead (inorganic, as Pb) | 0.05 mg/m³ | — | — | Health monitoring mandatory under Reg 415 |
+| Mercury (inorganic) | 0.025 mg/m³ | — | — | Skin notation — dermal absorption |
+| Respirable crystalline silica (RCS) | 0.05 mg/m³ | — | — | Reduced from 0.1 in 2020; no threshold — ALARP (cross-ref `hazards.md` §2) |
+| Respirable coal dust | 1.5 mg/m³ | — | — | NSW mines 1.5; QLD coal 1.0 |
+| Total inhalable dust (nuisance, where no specific WES) | 10 mg/m³ | — | — | Default for unclassified dust |
+| Respirable dust (nuisance, where no specific WES) | 3 mg/m³ | — | — | Default for respirable fraction |
+| Asbestos (all forms, fibres/mL) | 0.1 fibres/mL | — | — | Membrane filter method; banned substance — manage existing only |
+| Benzene | 1 ppm | — | — | Cat 1A carcinogen — ALARP |
+| Toluene | 50 ppm | 150 ppm | — | Solvent |
+| Xylene (isomers) | 80 ppm | 150 ppm | — | Solvent; skin notation |
+| Acetone | 500 ppm | 1000 ppm | — | Solvent |
+| Methyl ethyl ketone (MEK) | 150 ppm | 300 ppm | — | Solvent |
+| Diesel particulate matter (as elemental carbon) | 0.05 mg/m³ | — | — | Underground mining focus; Cat 1 carcinogen |
+
+### Adjustments for non-standard work patterns
+The standard WES assumes 8-hour day, 5-day week. For extended shifts (10-, 12-,
+14-hour) or compressed rosters, the WES must be adjusted downward using a
+recognised method (Brief & Scala or OSHA approach). This is commonly missed
+in mining, healthcare, and emergency services where 12-hour shifts are routine.
+
+### Notation flags
+- **Skin** — dermal absorption is a significant exposure route; PPE/control
+  must address skin contact, not just inhalation
+- **Sen** — respiratory or skin sensitiser; exposure may cause sensitisation
+  even at low levels
+- **Cat 1A / 1B** — IARC Class 1 carcinogen designations; exposure ALARP
+
+### Practical implications
+- WES is a ceiling, not a target — design controls to achieve well below WES
+- Air monitoring strategy must match exposure pattern (TWA vs STEL vs Peak)
+- Sampling must be representative (worst-case task, worst-case shift, worst-case
+  position); a single sample is rarely defensible
+- Cross-reference biological monitoring (BEI, biological exposure index) for
+  substances with significant dermal or systemic absorption
+- For substances with no AU WES, consult ACGIH TLVs as the international
+  default reference
+
+---
+
+## 15. Codes of Practice — Key Requirements Summary
+
+Each model Code of Practice issued by Safe Work Australia translates the
+general PCBU duty into practical implementation. Compliance with an approved
+Code is admissible in court as evidence of compliance (or as evidence of
+breach where Code provisions are not followed without justification).
+
+The summary below covers the operational requirements of priority Codes. Full
+Code text is available at safeworkaustralia.gov.au.
+
+### Managing the Work Environment and Facilities (2018)
+Workspace allowance, lighting (AS 1680), ventilation, air conditioning,
+temperature, drinking water, eating facilities, change rooms, toilets (per
+worker count), first aid (cross-ref `workplace-controls.md` §1), seating.
+
+### How to Manage Work Health and Safety Risks (2018)
+The risk management process: identify hazards, assess risks, implement
+controls (hierarchy), review and revise. Documentation expectation
+proportionate to risk. Consultation duty embedded throughout.
+
+### Hazardous Manual Tasks (2018)
+Identification of hazardous manual tasks (cross-ref `hazards.md` §17); risk
+assessment using a validated tool (MAC, ART, RAPP); control hierarchy applied;
+no prescribed weight limit; training combined with workplace redesign as the
+operative control.
+
+### Managing Noise and Preventing Hearing Loss at Work (2024)
+WES enforcement (cross-ref §14 above); noise exposure assessment;
+audiometric testing for workers regularly exposed >85 dB(A) (8-hour TWA);
+hearing protection class selection (AS/NZS 1270); engineering controls
+prioritised; hearing conservation program structure.
+
+### Managing the Risk of Falls at Workplaces (2018, under review)
+Fall risk identified at any height; hierarchy applied (cross-ref `hazards.md`
+§9); anchor certification regime; rescue plan documented and rehearsed; edge
+protection standard (AS/NZS 4994).
+
+### Construction Work (2018)
+Principal Contractor duties; WHS Management Plan (Reg 309); HRCW
+identification (the 18 categories — cross-ref `hazards.md` §8); SWMS for
+HRCW; site induction; consultation, cooperation, coordination (3Cs).
+
+### Excavation Work (2018)
+Service location before excavation (DBYD; cross-ref `hazards.md` §11
+confined space when relevant); cave-in prevention (benching, battering,
+shoring) for excavations >1.5m; atmospheric testing for confined spaces;
+edge protection; exclusion zones; emergency plan.
+
+### Confined Spaces (2018)
+Identification; entry permit; atmospheric testing (O2 19.5–23.5%, LEL <10%);
+continuous monitoring during entry; standby person; rescue plan; cross-ref
+`hazards.md` §11 for full operational depth.
+
+### Hazardous Chemicals in the Workplace (2018)
+Inventory and manifest (Schedule 11 placard quantities, Schedule 14 manifest
+quantities — cross-ref `hazards.md` §13); SDS access; GHS labelling;
+segregation; emergency response; health monitoring for prescribed substances
+(Reg 415–438); ventilation; PPE.
+
+### Managing Electrical Risks in the Workplace (2018)
+De-energise as default (Reg 158); risk assessment for energised work;
+isolation procedures (cross-ref `hazards.md` §10); RCDs for portable
+equipment and construction sites; AS/NZS 3000 compliance; testing and
+tagging (AS/NZS 3760 / AS/NZS 3012); arc flash assessment for high-fault
+environments.
+
+### First Aid in the Workplace (2019)
+Cross-ref `workplace-controls.md` §1 for full operational coverage. Risk
+assessment for first aid; ratios; kit content (AS 2675); training (HLTAID
+units); review of arrangements.
+
+### Managing the Risks of Plant in the Workplace (2018)
+Plant risk assessment before procurement and use; guarding (AS 4024
+series); presence-sensing; isolation procedures; maintenance regime;
+plant registration where Schedule 5 applies; operator competency (HRWL
+where required); cross-ref `hazards.md` §16.
+
+### How to Manage and Control Asbestos in the Workplace (2018)
+Asbestos register; Asbestos Management Plan; air monitoring for friable
+work and clearance; licensed removal (Class A friable; Class B >10 m²
+non-friable); health monitoring for asbestos workers; notification of
+friable removal 5 days prior; cross-ref `hazards.md` §3.
+
+### Managing the Risk of Respirable Crystalline Silica from Construction and Other Workplaces (2024)
+HRCSW definition; Silica Risk Control Plan; health monitoring (chest
+imaging, respiratory function); air monitoring; SWA-approved training
+package; review every 5 years and on change; cross-ref `hazards.md` §2.
+
+### Managing Psychosocial Hazards at Work (2022)
+Psychosocial hazard categories (cross-ref §9 above); risk management
+process applied; hierarchy of controls adapted for psychosocial; PCBU
+duty cannot be discharged through EAP alone; consultation duty extends
+to psychosocial hazards; review cadence proportionate to risk.
+
+### Work Health and Safety Consultation, Cooperation and Coordination (2018)
+The 3Cs duty for overlapping PCBUs; consultation with workers (s 47); HSR
+election (Reg 21); workplace inspections; the duty to consult is
+substantive, not procedural.
+
+### Managing the Risks of Working in Heat (2024)
+Heat illness spectrum (cross-ref `hazards.md` §6); WBGT-based work-rest
+cycles; acclimatisation (7–14 days); hydration; PPE selection (cooling
+vests where appropriate); worker monitoring; emergency response for heat
+stroke (notifiable serious injury).
+
+### Sexual and Gender-Based Harassment (2024)
+Implementation of the s 47C SDA positive duty via the WHS framework
+(cross-ref §9 above); the seven AHRC standards; risk-based approach;
+trauma-informed support and response; intersection with Fair Work Act
+and Sex Discrimination Act.
+
+---
+
+## 16. State and Territory Variations — Deeper Detail
+
+The model WHS Act is the baseline; each jurisdiction's enactment has
+material variations. The summary below covers divergences that materially
+affect practice beyond the §2 high-level overview.
+
+### Victoria — Occupational Health and Safety Act 2004
+
+VIC remains outside the WHS harmonisation; structural and operational
+differences persist.
+
+**Terminology**: Employer / employee retained (not PCBU / worker).
+**Primary duty**: s 21 — "so far as is reasonably practicable" — same
+practical standard as model WHS Act s 19, different wording.
+
+**Specific duties beyond model law**:
+- s 21(2)(a) plant and substances safe and properly maintained
+- s 21(2)(b) safe systems of work
+- s 21(2)(c) information, instruction, training, supervision
+- s 21(2)(d) workplace safe and without risks
+- s 21(2)(e) **adequate facilities for welfare** — explicit
+- s 21(2)(f) **monitoring of conditions** — explicit
+- s 21(2)(g) **information in appropriate languages** — explicit
+
+**Workplace Manslaughter** (s 39C, in force 1 July 2020): negligent conduct
+by a body corporate (or its officer) causing the death of an employee or
+member of the public. Max penalty: $19.8M body corporate; 25 years individual.
+
+**Labour hire host duty** (s 21A, March 2022): host employers owe the same
+OHS duty to labour hire workers as to direct employees.
+
+**Insurance prohibition** (s 154A, September 2022): insuring against OHS
+fines or penalties is a criminal offence.
+
+**HSR powers**: substantial — PIN issue (s 60), direct cessation of work
+(s 74), training (5-day approved); broadly equivalent to model law but
+under different procedural provisions.
+
+**Inspector powers**: Improvement Notices (s 111), Prohibition Notices
+(s 112), Non-disturbance Notices (s 113). WorkSafe Victoria publishes
+guidance and conducts inspections.
+
+**Notable case law**:
+- *DPP v Robinson* (2023) — first Workplace Manslaughter conviction
+  (LH Holdings)
+- *DPP v Acquatec* (2021) — corporate Workplace Manslaughter prosecution
+
+### South Australia — WHS Act 2012 (SA)
+
+Substantially aligned with model law. Notable variations:
+- **Industrial Manslaughter** added by 2024 amendment; in force from late 2024;
+  $18M body corporate, 20 years individual
+- **Mining**: Mines and Works Inspection Act 1920 retained alongside WHS Act
+- **Independent regulator structure**: SafeWork SA (within Attorney-General's
+  Department), separate from ReturnToWorkSA which manages workers comp
+- **Volunteer agencies**: SA has specific provisions for emergency volunteer
+  services (CFS, SES) with modified application of WHS duties
+
+### Tasmania — WHS Act 2012 (Tas)
+
+Aligned with model law. Notable variations:
+- **Industrial Manslaughter** in force 11 September 2024 (Workplace Health
+  and Safety Amendment); maximum penalties under review
+- **Marine industries** (fishing, aquaculture) significant employment base;
+  Marine and Safety Authority Tasmania (MAST) regulates vessel safety
+  alongside WorkSafe Tasmania
+- **Forestry**: Forest Practices Authority regulates code-of-practice
+  compliance for forestry operations alongside WHS Act
+
+### Australian Capital Territory — WHS Act 2011 (ACT)
+
+Aligned with model law. Notable variations:
+- **Industrial Manslaughter** via WHS Act 2011 amendment (2022); penalties
+  $16.5M body corporate (indexed), 20 years individual; **also** Crimes
+  Act 1900 (ACT) industrial manslaughter offence (2004 — among first AU
+  jurisdictions)
+- **Comcare jurisdiction** — many ACT-based PCBUs are Cth entities covered
+  by Comcare; the ACT WHS Act applies to ACT-domiciled non-Cth employers
+- **Construction Industry Long Service Leave Authority** — additional
+  regulatory engagement for construction sector
+
+### Northern Territory — Work Health and Safety (National Uniform Legislation) Act 2011
+
+Aligned with model law. Notable variations:
+- **Industrial Manslaughter** in force 1 February 2020 — among earliest in AU
+- **Mining**: Mining Management Act 2001 (NT) overlay for mining operations
+- **Remote work prevalence**: NT WorkSafe has specific guidance on remote
+  and isolated work given the geography (cross-ref `workplace-controls.md`
+  §3)
+- **Defence and resources sectors**: significant employer concentration;
+  intersection with Comcare and resource-specific regulation
+
+### Western Australia — WHS Act 2020 (Late Adopter)
+
+Commenced 31 March 2022 — WA's late harmonisation creates ongoing transition
+considerations:
+- **Pre-existing 1984 OSH Act case law** persists in some interpretation
+  contexts; practitioners transitioning from the 1984 Act should validate
+  current position
+- **Mining regulation**: WHS (Mines) Regulations 2022 sit under the WHS Act
+  2020; previously the Mine Safety and Inspection Act 1994 regime —
+  significant structural change for mining-services contractors
+- **DMIRS** as regulator covers WHS, mining, and petroleum/geothermal
+- **Industrial Manslaughter** (s 30A WHS Act 2020): Crime Tier 1 (gross
+  negligence) $10M body corporate / 20 years individual; Crime Tier 2
+  (negligence) $5M / 10 years
+- **WA penalty structure**: among the highest in AU at the Category 1 level
+
+### Queensland — WHS Act 2011 (QLD)
+
+Aligned with model law. Notable variations:
+- **Industrial Manslaughter** (s 34C, in force 2017) — first AU jurisdiction;
+  $13.7M body corporate / 20 years individual
+- **Coal mining and quarrying** under separate regimes (Coal Mining Safety
+  and Health Act 1999; Mining and Quarrying Safety and Health Act 1999) —
+  cross-ref `sector-regimes.md` §2
+- **Electrical Safety Act 2002** overlays WHS Act for electrical work
+- **Office of Industrial Relations** within DJAG oversees WHS, workers
+  comp, electrical safety
+- **Mandatory RTW Coordinator** for employers >$1.5M premium or >20 workers
+  (cross-ref `compensation-rtw.md` §9)
+
+### New South Wales — WHS Act 2011 (NSW)
+
+Aligned with model law. Notable variations:
+- **Industrial Manslaughter** (s 34C, in force 16 September 2024) — most
+  recent major addition; $20M body corporate (highest in AU) / 25 years
+  individual
+- **Mining**: WHS (Mines and Petroleum Sites) Act 2013 + WHS (MPS)
+  Regulation 2014 — cross-ref `sector-regimes.md` §2
+- **Construction**: WHS Regulation 2017 has additional NSW-specific
+  construction provisions
+- **SafeWork NSW** within the Department of Customer Service
+- **icare** (insurer of last resort) for workers comp — cross-ref
+  `compensation-rtw.md` §3
+- **Self-insurers** prominent (Coles, Woolworths, Downer, councils, etc.)
+- **HSR cessation power** explicit in NSW; well-tested case law
+
+### Practical implications across jurisdictions
+
+For multi-jurisdiction operations:
+- Maintain a jurisdictional register of WHS obligations with PCBU duty,
+  industrial manslaughter exposure, mining/construction overlays, workers
+  compensation scheme
+- Train officers on each jurisdiction they have decision-making influence
+  over (s 27 / s 44 due diligence is per-jurisdiction)
+- Track significant case law in each jurisdiction (different jurisdictions
+  develop different SFAIRP interpretations through case law)
+- Standardise on the most stringent state's requirements where practicable —
+  it's typically cheaper than tracking jurisdictional differences operationally

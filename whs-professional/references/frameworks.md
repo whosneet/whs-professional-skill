@@ -748,6 +748,74 @@ Post-acquisition WHS integration typically focuses on:
   ownership change — accountability gaps in the first 30 days are a documented
   pattern in post-acquisition incidents
 
+### Sector-specific M&A overlays
+
+The general due diligence framework above applies to all acquisitions.
+Certain sectors carry heightened WHS exposure that requires sector-specific
+attention during due diligence and integration.
+
+#### Mining sector overlay
+
+Additional documents and considerations:
+- **Tailings dam liability** — post-Brumadinho (Vale, Brazil, 2019), tailings
+  dam integrity is a board-level concern. Request: dam safety reviews,
+  geotechnical reports, third-party assessments per the Global Industry
+  Standard on Tailings Management (GISTM, 2020)
+- **Legacy mine sites** — open shafts, methane accumulation, water ingress,
+  abandoned plant; rehabilitation bonds and historic liabilities
+- **Statutory roles** — Site Senior Executive (SSE), Underground Mine Manager,
+  Ventilation Officer; these positions transfer with the entity; competency
+  and currency verification
+- **Worker exposure registers** — silica (cross-ref `hazards.md` §2),
+  diesel particulate matter, RCS, RCD; cumulative exposure data for
+  presumptive claims (cross-ref `compensation-rtw.md` §12)
+- **Indigenous land use agreements** — cross-ref `diversity-inclusion.md`
+  §1; native title obligations transfer
+- **Mining-specific regulator engagement** — Resources Safety NSW, RSHQ
+  (QLD), DMIRS (WA); cross-ref `sector-regimes.md` §2
+
+#### Healthcare sector overlay
+
+Additional considerations:
+- **Latent claim trajectory** — needlestick injuries, infectious disease
+  exposure (COVID, hepatitis, TB); presumptive provisions for healthcare
+  workers in some jurisdictions
+- **Patient handling MSI** — healthcare has the highest workers comp MSI
+  claim cost per FTE in most state schemes; assess the no-lift policy
+  status, hoist availability, training compliance
+- **Aggression and violence claims** — ED, mental health, aged care
+  particularly; trend analysis and program response
+- **Regulatory licensing** — radiation, gene technology (OGTR), drugs and
+  poisons; licence currency and transfer
+- **PC2/PC3 facilities** — registration with relevant regulator;
+  certification currency; cross-ref `sector-regimes.md` §5
+- **Sentinel events** — coronial findings; open investigations; root cause
+  analysis history
+- **Aged care intersection with Aged Care Quality and Safety Commission**
+  for residential aged care facilities
+
+#### Construction sector overlay
+
+Additional considerations:
+- **Open Principal Contractor liability** — projects under acquired entity's
+  PC appointment; WHS Management Plan status; HRCW SWMS register currency
+- **Subcontractor management arrangements** — prequalification platform
+  (Rapid Global, Cm3, Avetta — cross-ref `whs-procurement.md` §2);
+  open contracts; performance data
+- **Project pipeline review** — projects in tender; recently awarded; mid-
+  delivery; close-out — each phase has different WHS risk
+- **HRCW register** — the 18 HRCW categories (cross-ref `hazards.md` §8);
+  ongoing SWMS compliance; recent regulator inspections
+- **Latent disease exposure** — asbestos (pre-2004 buildings), silica
+  (post-2024 reduced WES), engineered stone (legacy work post-ban —
+  cross-ref `hazards.md` §1); workforce exposure history
+- **Construction industry-specific compliance** — General Construction
+  Induction (white card) currency, HRWL register, scaffold certification
+  (cross-ref `legislation.md` §11)
+- **Building certifier and product disclosure** — post-Grenfell context;
+  combustible cladding remediation; product compliance for installed
+  materials (cross-ref `case-studies.md` Grenfell)
+
 ### When this section is most relevant
 
 Pre-acquisition due diligence; post-acquisition integration planning; board

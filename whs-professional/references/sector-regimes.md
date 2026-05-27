@@ -21,7 +21,13 @@ task involves a sector with its own regulatory framework.
 5. [Rail](#5-rail)
 6. [Healthcare Biosafety and Clinical WHS](#6-healthcare-biosafety-and-clinical-whs)
 7. [Defence](#7-defence)
-8. [Cross-Sector Themes](#8-cross-sector-themes)
+8. [Petrochemical and Downstream Operations](#8-petrochemical-and-downstream-operations)
+9. [Telecommunications](#9-telecommunications)
+10. [Agriculture and Pastoral](#10-agriculture-and-pastoral)
+11. [Hospitality](#11-hospitality)
+12. [Education](#12-education)
+13. [Retail](#13-retail)
+14. [Cross-Sector Themes](#14-cross-sector-themes)
 
 ---
 
@@ -1249,7 +1255,410 @@ Before finalising any sector-specific WHS output, confirm:
 - [ ] Australian English spelling checked
 - [ ] No safety clichés or filler phrases; direct and action-oriented
 
-### 8.5 Practical implications for cross-sector practitioners
+---
+
+## 8. Petrochemical and Downstream Operations
+
+The petrochemical sector includes refining, gas processing, petrochemical
+manufacture, fuel distribution, and downstream storage. Major Hazard Facility
+(MHF) regulation (cross-reference `hazards.md` §7) applies above threshold
+quantities, but operational practice is shaped by sector-specific frameworks
+that apply across all scales.
+
+### Regulatory framework
+- **OPGGS Act 2006** (Cth) + NOPSEMA for offshore (cross-ref §3)
+- **MHF Regulations** under state WHS — Schedule 15 substance thresholds
+- **State EPA licensing** for emissions, discharges, contaminated land
+- **State Dangerous Goods Acts** for storage and transport
+- **Process Safety**: not separately regulated in AU, but practitioner
+  expectation is alignment with API/CCPS frameworks
+
+### Process safety vs personal safety distinction
+
+Texas City (cross-reference `case-studies.md` §3) embedded this distinction
+in modern petrochemical practice. Personal safety metrics (TRIFR, LTIFR) are
+poor predictors of process safety performance — major-accident risk is
+driven by integrity of containment, not individual injury rates.
+
+| Personal safety | Process safety |
+|---|---|
+| Worker injury frequency | Loss of containment events |
+| PPE compliance | Pressure vessel integrity |
+| Slip/trip/fall | Relief valve operability |
+| Manual handling | Safety Instrumented System (SIS) availability |
+
+### Standards and frameworks
+- **API 754** (Process Safety Performance Indicators for the Refining and
+  Petrochemical Industries) — Tier 1 (loss of primary containment), Tier 2
+  (LOPC of lesser consequence), Tier 3 (challenges to safety systems),
+  Tier 4 (operating discipline). Used as the international metric framework.
+- **CCPS** (Center for Chemical Process Safety) Risk-Based Process Safety
+  20 elements — voluntary but widely adopted
+- **IEC 61511** — Functional safety (SIS) for the process industry
+- **AS/NZS 60079** series — Hazardous area classification and equipment
+  (Zone 0/1/2 for gas; Zone 20/21/22 for dust)
+- **API 581** — Risk-based inspection methodology
+
+### Specific hazards beyond general MHF coverage
+- **Hydrocarbon release** — loss of containment from piping, vessels, flanges,
+  pump seals; the dominant initiating event in process incidents
+- **Fire and explosion** — vapour cloud, flash fire, jet fire, BLEVE
+  (Boiling Liquid Expanding Vapour Explosion)
+- **Toxic gas release** — H2S in sour service, mercury in some streams,
+  ammonia in fertiliser/refrigeration
+- **High pressure and high temperature** — operating envelope discipline;
+  thermal runaway
+- **Hot work** in process areas — cross-reference `hazards.md` §22; permit
+  discipline is the operative control
+- **Pyrophoric materials** — iron sulfide in vessels; auto-ignition risk
+  during shutdown
+
+### Operational disciplines
+
+- **Management of Change (MOC)** — every modification of process, equipment,
+  procedure, or organisation reviewed for safety impact; pre-startup safety
+  review (PSSR) before recommissioning
+- **Mechanical integrity** — inspection, testing, maintenance regime for
+  containment systems; risk-based inspection (RBI) for pressure equipment;
+  asset integrity for ageing assets
+- **Emergency response** — site emergency response team, mutual aid,
+  community notification, NOPSEMA / EPA / WHS regulator coordination
+- **Operator training and certification** — DCS operator competency,
+  permit-to-work issuer competency, hot work training
+
+### Practical implications
+- Process safety metric reporting alongside personal safety in board packs
+  (cross-reference `analytics.md` §7)
+- Process Hazard Analysis (HAZOP, LOPA, What-If) cadence — typically
+  3-5 yearly for the whole unit; immediately for significant change
+- The distinction between MHF (regulated) and "non-MHF but process hazard"
+  matters in tender response and insurance pricing
+- Contractor coordination on process sites is high-risk — TLA (Texas City)
+  was a contractor-on-shutdown issue
+
+---
+
+## 9. Telecommunications
+
+The telecommunications sector has one of the highest fatality rates per worker
+internationally, dominated by working at height on towers, electrical contact,
+and confined space.
+
+### Regulatory framework
+- **WHS Act** applies primarily; no separate sector Act
+- **Radiocommunications Act 1992** (Cth) + **ACMA** (Australian Communications
+  and Media Authority) regulates spectrum, infrastructure
+- **ARPANSA** (Australian Radiation Protection and Nuclear Safety Agency)
+  publishes **RPS S-1** (Radiation Protection Standard for Maximum Exposure
+  Levels to Radiofrequency Fields)
+- **Telecommunications Act 1997** — carrier powers and immunities for
+  infrastructure work
+- **AS/NZS 3835** series — Working at height on telecommunications structures
+- **AS/NZS 4853** — Electrical hazards on metallic pipelines (relevant for
+  telecoms cabling near pipelines)
+
+### Specific hazards
+- **Working at height on towers** — cross-ref `hazards.md` §9; tower
+  climbing is high-frequency exposure with distinct rescue challenges
+  (limited rescue routes; long suspension time)
+- **RF exposure** — ARPANSA RPS S-1 sets exposure limits (varies by
+  frequency, occupational vs general public); risk assessment required
+  before close-approach work on active antennas; rigger LOTO of transmission
+  may be needed
+- **Electrical hazards** — induction from nearby high-voltage lines;
+  battery banks (50V+ DC) at base stations; lightning protection systems
+- **Confined space** — antenna pits, underground equipment rooms,
+  microwave radomes (atmospheric and thermal hazards in summer)
+- **Lone working at remote sites** — cross-ref `workplace-controls.md` §3;
+  rooftop sites in CBD; mountaintop sites with no road access
+- **Lightning** — tower workers must descend immediately on lightning
+  warning; protocols vary by carrier
+
+### Operator structure in AU
+- **Carriers** — Telstra, Optus, TPG, Vocus operate physical infrastructure
+- **Tower companies** — Axicom, Indara, ATC own and lease tower
+  infrastructure to carriers
+- **Service contractors** — third-party tower riggers, antenna installers,
+  electrical contractors deliver the work
+- **Subcontractor chains** common — WHS coordination across multiple PCBUs
+  is the operative challenge
+
+### Practical implications
+- Tower rigger competency is a specialist combination (HRWL rigging classes
+  + tower-specific training); verify before engagement
+- RF assessment must be done before any close-approach work; the assumption
+  that "the antenna's off" is unsafe — multiple carriers' antennas typically
+  share a tower
+- Rescue plan must address tower-specific recovery (not all fire and rescue
+  services have tower rescue capability)
+- Energy isolation of base station equipment requires carrier coordination
+- Site access often requires multiple authorisations (land owner, local
+  council if applicable, carrier, tower company)
+
+---
+
+## 10. Agriculture and Pastoral
+
+Highest fatality rate per FTE of any AU industry sector. Workforce
+characteristics — family farms, small enterprises, lone working, mechanisation,
+long hours — create distinct WHS challenges.
+
+### Regulatory framework
+- **WHS Act** applies (with exemptions for very small operations in some
+  jurisdictions)
+- **Agricultural and Veterinary Chemicals Code Act 1994** (Cth) + APVMA
+  (Australian Pesticides and Veterinary Medicines Authority) — registers
+  chemicals
+- State **agvet chemical use** legislation (NSW Pesticides Act 1999; VIC
+  Agricultural and Veterinary Chemicals (Control of Use) Act 1992) —
+  governs application
+- **Quad bike standards** — ACCC Consumer Goods (Quad Bikes) Safety
+  Standard 2019 (post-NSW Coroner's recommendations); ROPS (rollover
+  protective structures) mandatory on new quad bikes since 11 October 2021
+- **Workers Compensation** — sector-specific schemes in some states
+  (e.g., GIO Agribusiness in NSW)
+
+### Specific hazards
+- **Quad bikes and SSVs** — the single largest fatality cause; rollover,
+  pedestrian impact, head injury; helmet use and crush protection central
+- **Tractor rollover** — ROPS retrofit programs; older tractors without
+  ROPS still in widespread use
+- **Agrichemicals** — exposure during application; respiratory and dermal;
+  organophosphate poisoning historically; reproductive toxicity
+- **Livestock handling** — kick, crush, gore; cattle yard design; horse-
+  related (high incidence on equine operations)
+- **Sun exposure** — skin cancer is the dominant occupational illness;
+  cross-reference `environment.md` (climate-WHS intersection)
+- **Working alone in remote locations** — cross-reference `workplace-controls.md`
+  §3; rescue time can be hours
+- **Machinery entanglement** — augers, PTOs (power take-offs), balers,
+  silage equipment
+- **Confined space** — silos (oxygen depletion, grain engulfment), tanks,
+  pits
+- **Heat stress** — outdoor work in extreme conditions; cross-reference
+  `hazards.md` §6
+- **Mental health** — drought, isolation, financial stress; significantly
+  elevated suicide rate
+
+### Practical implications
+- Family farm enterprises — many are not formally PCBUs of multiple workers;
+  s 5(8) volunteer association test rarely applies (paid family members =
+  workers)
+- Engaging contractors (shearers, harvest crews, fencers) — WHS coordination
+  in remote and seasonal work
+- Sector-specific bodies — National Farmers' Federation, state farming
+  organisations, AgVet authorities, Workplace Health and Safety Queensland
+  agriculture team
+- Rural worker dispute resolution — Fair Work Commission Pastoral Award has
+  specific WHS-relevant provisions
+- Training providers — Primary Industries Training Council, TAFE rural
+  programs; rural-specific HRWL and chemical handler accreditations
+- Mental health support — Beyond Blue, Lifeline, Rural Adversity Mental
+  Health Program (RAMHP) integration
+
+---
+
+## 11. Hospitality
+
+Distinct workforce demographics (young, casual, transient, multilingual) and
+operating context (long hours, alcohol, late trading) shape WHS profile.
+
+### Regulatory framework
+- **WHS Act** applies
+- **Food Standards Code** + state Food Acts (NSW Food Act 2003; VIC Food
+  Act 1984) — food safety is separate from WHS but shares hazard ground
+- **Liquor licensing** — state-specific (NSW Liquor Act 2007; VIC Liquor
+  Control Reform Act 1998) — Responsible Service of Alcohol (RSA)
+  certification for service staff
+- **Restaurant and Catering Industry Award 2020** + **Hospitality Industry
+  (General) Award 2020** — Fair Work Act instruments with WHS-relevant
+  provisions (rosters, breaks, junior pay)
+
+### Specific hazards
+- **Slips, trips, falls** — wet kitchen floors, beverage spills, grease,
+  steam condensate; cross-reference `case-studies-everyday.md` §5
+- **Knife and food prep injuries** — laceration, puncture; cumulative MSI
+  from prep work
+- **Hot surfaces and oil** — burns from cooking surfaces, deep fryer oil
+  splash, steam scald
+- **Cleaning chemicals** — acid/alkali contact, chlorine bleach (mixing
+  with acids generates chlorine gas), surface degreasers; cross-reference
+  `hazards.md` §13
+- **Manual handling** — kegs, crates, bain-marie transfer, table set-up;
+  cross-reference `hazards.md` §17
+- **Worker violence** — intoxicated patron aggression; venue-on-staff;
+  domestic spillover at family-run venues
+- **Working alone** — late-trading venue closures; small-format venues;
+  cross-reference `workplace-controls.md` §3
+- **Sun exposure** — outdoor service (beer gardens, beach cafés)
+- **Sexual harassment** — chef culture, customer harassment, junior staff
+  vulnerability; cross-reference `legislation.md` §9
+- **Hours of work and fatigue** — late finishes, split shifts, double
+  weekends; cross-reference `hazards.md` §18
+
+### Young worker considerations
+
+Hospitality has the highest proportion of under-25 workers in AU.
+- Statutory minimum employment age (state-specific; 13–15 with restrictions)
+- Restrictions on hours of work for under-18s
+- Restrictions on tasks (typically no fryers, no slicers, no late hours)
+- Modified induction and supervision expectations
+- Higher hazard report likelihood with poor supervision
+
+### Practical implications
+- Casual workforce + high turnover → induction must be efficient and
+  effective; reliance on experienced co-workers is the operative training
+  in most venues
+- Multi-language workforce — cross-reference `diversity-inclusion.md` §4
+- Lone closing is a high-risk pattern; consider buddy systems, panic
+  alarms, late-night transport assistance
+- Sexual harassment proactive duty (cross-ref `legislation.md` §9) — RSA
+  staff facing customer harassment is a particular concern
+
+---
+
+## 12. Education
+
+Distinct PCBU duty profile (workers + students + visitors), specific hazards
+across age groups, and intersection with child protection.
+
+### Regulatory framework
+- **WHS Act** applies — students are "other persons" under s 19(2); duty to
+  ensure their safety
+- **Child Wellbeing and Safety legislation** — state-specific Reportable
+  Conduct schemes (NSW Children's Guardian Act 2019; VIC Reportable Conduct
+  Scheme; QLD Education and Care Services Act 2013) — mandatory reporting
+  intersection
+- **Education Acts** (state-specific) — schools and TAFE governance
+- **Higher Education Standards Framework** (TEQSA) — university quality
+  + safety
+- **Education and Care Services National Regulations 2012** — early
+  childhood
+- **National Quality Framework** (ACECQA) — early childhood quality
+- **Working with Children Checks** — state-specific (NSW WWCC, VIC WWCC,
+  QLD Blue Card) — mandatory for staff with child contact
+
+### Specific hazards
+- **Chemicals in science labs** — particularly senior secondary and
+  university; reagent storage, fume cupboards, eye/safety showers; PC2
+  upwards in research (cross-reference §6)
+- **Physical education and sport** — sprains, fractures, head injury;
+  contact sport concussion management (post-Storm and other concussion
+  litigation context)
+- **Excursions and outdoor education** — risk assessment for off-site
+  activities; water, climbing, camp, transport
+- **Adventure activities by school providers** — Adventure Activities
+  Standards (Outdoor Council of Australia); not the same regime as
+  commercial AAR in NZ
+- **Asbestos in older school buildings** — cross-ref `hazards.md` §3;
+  registers and management plans for pre-2004 stock
+- **Bullying and harassment** of staff — student-on-staff, parent-on-staff,
+  staff-on-staff; psychosocial framework (cross-ref `legislation.md` §9)
+- **Lone working** for cleaners, after-hours staff (cross-ref
+  `workplace-controls.md` §3)
+- **Radiation** — physics teaching, university research; cross-ref §6
+- **Workshop hazards** — secondary D&T and TAFE — same as industry
+  workshop (cross-ref `hazards.md` §16)
+- **Manual handling** — early childhood educators (lifting children),
+  primary teachers (set-up, classroom management)
+
+### Child protection intersection
+
+WHS function typically does not own child protection but must understand
+the intersection:
+- Reportable Conduct schemes have specific mandatory reporting timeframes
+  and pathways (state-specific)
+- Disclosure of harm or risk to child triggers obligations separate from
+  WHS incident reporting
+- Worker WHS incident involving a child requires both WHS notification and
+  child protection notification
+- Working with Children Check currency is verified by HR; WHS function may
+  need to verify for contractors and visitors performing child-facing work
+
+### Practical implications
+- Higher education has additional research hazards (cross-reference §6 for
+  PC2-PC4, gene technology, radiation, animal handling)
+- Excursion risk assessment requires sign-off chain including parent/carer
+  consent
+- Volunteer parents and helpers — cross-reference `legislation.md` §12
+  volunteer coverage
+- Boarding schools have residential WHS overlay (kitchen, accommodation,
+  swimming pool, first aid)
+- TAFE workshop training requires industry-standard guarding and
+  competency development at student level
+
+---
+
+## 13. Retail
+
+Distinct in workforce profile (casual, young, customer-facing) and hazard
+profile (low-frequency high-consequence robbery; high-frequency MSI).
+
+### Regulatory framework
+- **WHS Act** applies
+- **Australian Consumer Law** + state Fair Trading Acts — separate from
+  WHS but shares some hazard ground (product safety)
+- **General Retail Industry Award 2020** — Fair Work Act instrument with
+  WHS-relevant provisions
+- **Tobacco, liquor, gambling licensing** — state-specific; intersection
+  with worker safety where applicable
+
+### Specific hazards
+- **Slip, trip, fall** — wet floors from cleaning, spills, weather entry;
+  display fixtures; cross-reference `case-studies-everyday.md` §5
+- **Manual handling** — stock replenishment, deliveries from trucks,
+  unboxing, fixture set-up; cross-reference `hazards.md` §17
+- **Robbery and aggression** — physical robbery (cash, controlled goods);
+  customer aggression (impatient, intoxicated, mentally distressed)
+- **Lone working** — late trading, small-format stores, opening/closing,
+  delivery acceptance; cross-reference `workplace-controls.md` §3
+- **Hours of work and fatigue** — late closes, early opens, double
+  weekends, retail trading hours peak periods (Christmas, EOFY sales)
+- **Customer-on-worker harassment** — sexual harassment from customers;
+  abusive customers; the third-party harassment dimension of the SDA
+  positive duty (cross-reference `diversity-inclusion.md` §5)
+- **Ergonomics** — POS standing posture, sustained postures, cash handling
+- **Young workers** — high proportion under 25; same considerations as
+  hospitality §11
+
+### Specific high-risk retail subsectors
+- **Service stations** — robbery, fuel handling, lone working at night
+- **Pharmacy** — controlled drug security, aggressive client behaviour
+- **Liquor stores** — robbery, customer aggression, identity check
+  obligations
+- **Gambling venues / casinos** — extended late trading, aggressive
+  patron behaviour, addiction-related distress
+- **Discount/dollar stores** — high churn workforce, cheaper non-compliant
+  product safety, organised retail crime
+
+### Robbery prevention and response
+- Cash management (timed safes, frequent drops, limited cash on hand)
+- Physical design (sightlines, lighting, cash counter elevation, escape
+  routes)
+- Two-person opening and closing
+- Time-locked safe procedures
+- Trained behaviour for robbery (compliance, no resistance, observation
+  for police statement)
+- Post-incident debrief and EAP (cross-reference `compensation-rtw.md` §10
+  psychological injury)
+
+### Practical implications
+- Casual workforce + high turnover (similar to hospitality) → induction
+  challenge
+- Cross-organisational tenancies (shopping centres) — multiple PCBUs in
+  one workplace, 3Cs duty (cross-reference `legislation.md` §4)
+- Loss prevention vs worker safety — workers should not be expected to
+  intervene against shoplifters; policy must be explicit
+- Sexual harassment proactive duty — front-line retail workers face
+  significant exposure
+- Online order fulfilment from stores adds new hazards (back-of-house
+  picking, parcel handling, customer parcel collection)
+
+---
+
+## 14. Cross-Sector Themes
+
+### 14.1 Practical implications for cross-sector practitioners
 
 WHS practitioners working across sectors face structural challenges:
 

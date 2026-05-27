@@ -311,3 +311,74 @@ Each update follows the same flow:
 1. Edit the relevant section in `company.md`
 2. Re-package the skill (`zip -r whs-professional.skill whs-professional`)
 3. Re-upload to claude.ai (the new version overwrites the old)
+
+---
+
+## Multi-tenancy — consultants and shared-services WHS teams
+
+The skill currently supports one `company.md` configuration at a time. Many
+practitioners — consultants, shared-services WHS teams, group WHS functions
+supporting multiple operating entities — work across multiple client or
+business contexts. The current workaround:
+
+### Option 1 — Multiple skill installations
+
+Package separate `.skill` files per client and switch the active install
+in claude.ai when you change context:
+
+```bash
+# Maintain separate company.md files
+cp company-client-a.md whs-professional/references/company.md
+zip -r whs-professional-client-a.skill whs-professional
+
+cp company-client-b.md whs-professional/references/company.md
+zip -r whs-professional-client-b.skill whs-professional
+```
+
+Each `.skill` file is installed separately in claude.ai; activate the
+relevant one when working on the relevant client.
+
+### Option 2 — Named company files in your local clone
+
+If you control your own clone of the repository and re-package on demand:
+
+```
+whs-professional/references/
+├── company-client-a.md      # Client A's config
+├── company-client-b.md      # Client B's config
+├── company-client-c.md      # Client C's config
+└── company.md               # Symlink or copy of the active config
+```
+
+Before packaging:
+
+```bash
+cd whs-professional/references
+ln -sf company-client-a.md company.md
+cd ../..
+zip -r whs-professional.skill whs-professional
+```
+
+The skill loads `company.md` as usual; whichever client config is active is
+what the skill sees.
+
+### Option 3 — Explicit prompt-based override
+
+When working without re-packaging, you can paste the relevant company
+context into the conversation as a system note:
+
+> "For this conversation, treat the following as the active company context,
+> overriding `references/company.md`:
+>
+> [paste relevant company.md content]
+>
+> Use this throughout this conversation."
+
+Less elegant than file-based configuration but useful for ad-hoc switching
+between clients without re-packaging.
+
+### Roadmap
+
+A more elegant multi-tenant mechanism (e.g., active-client selector at
+conversation start; `company-<slug>.md` convention with dynamic loading)
+is on the roadmap. Community contributions welcomed.
