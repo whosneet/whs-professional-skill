@@ -13,6 +13,9 @@
 8. [Codes of Practice & Guidance](#8-codes-of-practice--guidance)
 9. [Psychosocial Hazards & Respect@Work Positive Duty](#9-psychosocial-hazards--regulatory-framework)
 10. [Inspector Visits & Regulator Attendance](#10-inspector-visits--regulator-attendance)
+11. [Mandatory WHS Training Requirements](#11-mandatory-whs-training-requirements)
+12. [Volunteer and Unpaid Worker Coverage](#12-volunteer-and-unpaid-worker-coverage)
+13. [International Framework References](#13-international-framework-references)
 
 ---
 
@@ -899,3 +902,232 @@ before any action that could be characterised as inconsistent with the notice.
 - Do not provide draft investigation findings before the investigation is complete
 - Do not allow workers to be interviewed without confirming they understand their
   rights, including the right to a support person
+
+---
+
+## 11. Mandatory WHS Training Requirements
+
+WHS training requirements are spread across the model Act, model Regulations,
+specific Codes of Practice, state OHS Acts, and industry-specific regimes. The
+summary below covers the most commonly encountered requirements. Sector-specific
+mandatory training (mining, rail, aviation, healthcare, defence) is covered in
+`references/sector-regimes.md`.
+
+### Statutory training mandated by WHS legislation
+
+| Training | Statutory basis | Refresh cadence | Notes |
+|---|---|---|---|
+| HSR training | Model WHS Reg 21 + state variations | 1-day annual refresher; full 5-day course on initial election | Must be from approved provider list; paid time off mandatory |
+| HSC member training | Model WHS Reg + state guidance | As agreed; typically biennial | Often co-delivered with HSR training |
+| General construction induction (white card) | Model WHS Reg 316 | Lifetime certification; lost/expired card requires renewal | CPCWHS1001 unit; must be held before any construction work |
+| Site-specific construction induction | Model WHS Reg 316 | Per site; refresher on changes | Layered on top of general induction |
+| HRWL (High Risk Work Licence) | Model WHS Reg 81–118 + Schedule 4 | 5-year licence; renewal requires fee, no retest | Forklift LF, scaffolding SB/SI/SA, EWP WP, crane classes C0–C6/CN, dogger DG, rigger RB/RI/RA |
+| Asbestos awareness | Code of Practice *How to Manage and Control Asbestos* | Annual refresh typical | For workers who may disturb asbestos; not the same as removal training |
+| Asbestos removal (Class A and B) | Model WHS Reg 460 + Code | Licence held by worker; refresher per state | Class A friable; Class B non-friable >10 m² |
+| Confined space entry | Model WHS Reg 73 | Refresher per task / annual typical | Both entrants and standby trained; cross-reference `hazards.md` §11 |
+| Working at heights | Model WHS Reg 78 | 2-yearly refresher typical | RIIWHS204 or equivalent; cross-reference `hazards.md` §9 |
+| Crystalline silica training | Code of Practice *Managing the risks of RCS* + Reg 529H/M | SWA-approved RCS training package | For workers carrying out HRCSW (cross-reference `hazards.md` §2) |
+| First aid | Code of Practice *First Aid in the Workplace* | HLTAID011 — CPR refresh 12-monthly, full course 3-yearly | See `workplace-controls.md` §1 |
+| Manual tasks | Code of Practice *Hazardous Manual Tasks* | Not prescribed; risk-driven | Training alone is not a control — must combine with system redesign |
+| Hazardous chemicals | Model WHS Reg 379 + GHS labelling Code | Risk-based | SDS access and use; specific training for high-hazard substances |
+
+### Supervisor competency
+
+The model WHS Act doesn't prescribe supervisor training, but s 19 (PCBU primary
+duty) and s 27 (officer due diligence) implicitly require supervisors to have the
+competency to identify hazards, apply controls, and direct safe work. The default
+expectation is that supervisors hold a Cert IV in WHS (BSB41419) or have
+demonstrated equivalent competence through experience plus targeted training.
+
+### WHS qualifications hierarchy
+
+| Qualification | Typical career stage | Notes |
+|---|---|---|
+| White card (CPCWHS1001) | Entry to construction | Lifetime |
+| HSR training | Worker representative | Statutory; 5 days approved course |
+| Cert IV WHS (BSB41419) | Coordinator / supervisor | Nationally recognised |
+| Diploma WHS (BSB51319) | WHS Officer / Advisor | Nationally recognised |
+| Advanced Diploma WHS (BSB60619) | Senior WHS Advisor / Manager | Nationally recognised |
+| Graduate Certificate / Diploma WHS (university) | Manager / Specialist | Various universities |
+| Bachelor / Master OHS (university) | Senior Specialist / Director | Curtin, RMIT, ECU, Newcastle, Sydney have established programs |
+| Chartered status (AIHS) | Senior practitioner recognition | AIHS Chartered Generalist OHS Professional (ChOHSP) |
+
+### Practical implications
+
+- Training matrix should map each role to its statutory and assessed training
+  requirements, with currency tracked centrally
+- White card and HRWL currency is the most common audit finding — renew before
+  expiry, not on expiry
+- Training records must be retained for the period the worker is employed plus
+  the applicable limitation period for prosecution (minimum 7 years recommended;
+  longer where industrial manslaughter is in scope and the jurisdiction has no
+  limitation period)
+- Approved provider lists are jurisdiction-specific and change periodically —
+  validate at the regulator website (see §7)
+- Refresher cadences in the table are typical; specific Codes or organisational
+  standards may require more frequent refresh
+
+---
+
+## 12. Volunteer and Unpaid Worker Coverage
+
+### AU position — model WHS Act
+
+Volunteers are within the model WHS Act's definition of "worker" (s 7):
+
+> "a person is a worker if the person carries out work in any capacity for a
+> person conducting a business or undertaking, including work as: … (f) a
+> volunteer."
+
+This means:
+- A PCBU owes the same primary duty (s 19) to volunteers as to paid workers
+- The PCBU duty to consult (s 47) extends to volunteers
+- Volunteers themselves owe the worker duty (s 28) — take reasonable care for
+  their own health and safety and that of others
+- A volunteer organisation that conducts a business or undertaking is itself a
+  PCBU; the volunteer is not personally a PCBU by virtue of being a volunteer
+
+### Volunteer associations — the s 5(8) exception
+
+A "volunteer association" is excluded from the PCBU definition (s 5(8) model
+Act):
+
+> "any organisation whose only workers are volunteers (whether or not at the
+> same place) and that does not employ any person to carry out work for the
+> organisation."
+
+This means a purely volunteer-staffed community association (small sporting
+club, community group, residents committee) is not a PCBU and does not owe the
+s 19 duty. The moment the association engages a paid employee or contractor,
+it becomes a PCBU and the full duties apply — including to its volunteer
+members.
+
+### Practical implications
+
+- Most volunteer organisations are PCBUs in practice (they employ at least one
+  person — administrator, coach, paid cleaner) and therefore owe the full duty
+  to all workers including volunteers
+- Genuine volunteer-only associations (e.g., a residents committee) are exempt
+  from the PCBU duty, but volunteers retain the s 28 worker duty in any
+  workplace they enter
+- Insurance arrangements (public liability, volunteer accident insurance) are
+  separate from WHS Act duties and don't substitute for them
+- Volunteer agreements and waivers cannot contract out of WHS duties (s 272
+  model Act voids any term that purports to do so)
+- Common confusions: "we're a charity so WHS doesn't apply" (incorrect —
+  charitable status doesn't exempt); "volunteers waive their rights" (incorrect
+  — waivers void); "volunteers are insured, so we're covered" (incorrect —
+  insurance and WHS duties are separate)
+
+### NZ position — HSWA 2015
+
+HSWA s 19 includes "volunteer worker" within the worker definition. A
+"volunteer worker" is a volunteer who works on a regular basis under direction
+of the PCBU, excluding defined activities (s 19(3) — fundraising, sport for
+sport itself, providing care in the home, education at certain institutions).
+
+Volunteers outside the excluded categories are workers, and the PCBU owes the
+full primary duty (s 36 HSWA). The PCBU duty to "other persons" (s 36(2)) also
+applies — even non-worker volunteers benefit from the broader duty owed to
+others at the workplace.
+
+WorkSafe NZ has published guidance specifically for volunteer organisations
+explaining the application of HSWA — a useful starting point for NZ
+volunteer-based PCBUs.
+
+---
+
+## 13. International Framework References
+
+For practitioners working in multinational organisations or comparing AU/NZ
+regulation to peer jurisdictions, the high-level framework references below
+provide context.
+
+### ILO (International Labour Organization)
+
+- **Convention 155** (1981) — Occupational Safety and Health Convention. The
+  foundational ILO instrument; ratified by AU (2004) and NZ (2007). Requires
+  member states to adopt a national OSH policy
+- **Convention 187** (2006) — Promotional Framework for OSH Convention. Builds
+  on C155; requires national OSH systems, programmes, and culture
+- **R164** — Recommendation accompanying C155 with practical implementation
+  guidance on hazard management, PPE, training
+- **R197** — Recommendation accompanying C187 on national OSH programmes
+- Ratification creates international law obligations but doesn't directly
+  create rights in domestic law without enabling legislation; the AU and NZ
+  regimes are consistent with C155/C187 framing
+
+### US OSHA (Occupational Safety and Health Administration)
+
+- **Occupational Safety and Health Act 1970** — federal law; OSHA created
+- **General Duty Clause** (s 5(a)(1)) — employers must furnish a workplace
+  "free from recognized hazards"; broadly equivalent to SFAIRP but without the
+  explicit reasonable-practicability framework
+- **OSHA standards** — prescriptive (29 CFR Part 1910 general industry, Part
+  1926 construction); much more prescriptive than AU/NZ
+- **Penalty structure** — substantially lower than AU/NZ Category 1 (max ~USD
+  $165k for wilful/repeat per 2024 indexation); no equivalent of AU industrial
+  manslaughter
+- **State plans** — 22 states operate state-level OSHA plans approved by
+  federal OSHA (CalOSHA in California is significantly more stringent)
+- **Practical implication for AU/NZ practitioners working with US operations**:
+  document standards typically more prescriptive (specific PPE, specific
+  procedures); enforcement posture more compliance-focused than risk-focused;
+  lower senior management exposure than AU/NZ
+
+### UK HSE (Health and Safety Executive)
+
+- **Health and Safety at Work etc. Act 1974** (HSWA UK) — the foundational
+  instrument; duties on employers (s 2), self-employed (s 3), and others (s 4)
+- **Management of Health and Safety at Work Regulations 1999** — risk
+  assessment duty; competent persons; emergency procedures
+- **ALARP standard** — As Low As Reasonably Practicable; UK origin; broadly
+  equivalent to SFAIRP but case law in the two jurisdictions has developed
+  differently
+- **Corporate Manslaughter and Corporate Homicide Act 2007** — UK industrial
+  manslaughter equivalent; convicting an organisation requires gross breach of
+  duty causing death; penalties unlimited fines
+- **HSE structure** — single national regulator; sector-specific divisions
+  (offshore, rail, nuclear, biological agents); strong technical specialism
+- **Practical implication**: ALARP and SFAIRP are similar but not identical —
+  the AU/NZ standard requires that cost be "grossly disproportionate" before
+  justifying not implementing a control; the UK standard frames the test
+  slightly differently around foreseeable harm
+
+### EU OSH framework
+
+- **Directive 89/391/EEC** — Framework Directive on safety and health at work;
+  established employer general duty
+- **Daughter directives** — specific hazard directives (manual handling
+  90/269, display screen 90/270, PPE 89/656, workplace requirements 89/654)
+- **EU-OSHA** — European Agency for Safety and Health at Work; coordination
+  role, not enforcement (member states regulate)
+- **Practical implication**: EU directives drive minimum standards across
+  member states; member-state regulators implement nationally; UK retained the
+  framework post-Brexit with limited divergence to date
+
+### Where AU/NZ leads and where it lags
+
+| Area | AU/NZ position | International comparison |
+|---|---|---|
+| Officer due diligence | Statutory positive duty (s 27 model / s 44 HSWA) | Stronger than UK / US comparable duties |
+| Industrial manslaughter | Discrete offence in most AU jurisdictions | UK Corporate Manslaughter Act 2007 comparable; US has none |
+| Psychosocial regulation | Explicit duty under WHS Regs Part 3.1A (2022+) | EU has long-standing framework; UK HSE Management Standards earlier (2004) |
+| SFAIRP framework | Statutory definition (s 18 model) | Similar in NZ HSWA; analogous to UK ALARP |
+| Prescriptive standards | Less prescriptive than US OSHA | More risk-based, less rules-based |
+| Specific hazard regulations | Generally caught up post-harmonisation | RCS reduced in 2020 (AU), aligning with EU 2019 reduction |
+| Engineered stone ban | First jurisdiction worldwide (1 July 2024) | UK consulting 2024; US considering |
+
+### Practical implications for multinational organisations
+
+- Group WHS standards typically reflect the higher of applicable national
+  standards
+- Officer due diligence is the AU/NZ outlier — overseas-domiciled officers of
+  an AU/NZ PCBU still owe the duty
+- Reporting frameworks (TRIFR, LTIFR) are similar across English-speaking
+  jurisdictions but recordability criteria differ (US OSHA recordkeeping has
+  specific rules; AU follows AS 1885.1)
+- Multinational rollouts of WHS standards must reconcile AU/NZ SFAIRP with US
+  prescriptive standards — the more rigorous prevails as the working standard
+- Industrial manslaughter exposure for AU/NZ operations should be specifically
+  briefed to overseas officers; the duty does not depend on physical presence

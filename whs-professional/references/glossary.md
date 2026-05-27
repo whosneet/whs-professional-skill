@@ -247,4 +247,146 @@ Load this file when the user is new to WHS or asks what a term means.
 | **MNZ** | Maritime New Zealand — maritime safety regulator. |
 | **CAA NZ** | Civil Aviation Authority of New Zealand. |
 | **GRWM Regs** | Health and Safety at Work (General Risk and Workplace Management) Regulations 2016 (NZ). |
+| **TAIC** | Transport Accident Investigation Commission (NZ) — investigates aviation, rail, maritime. |
 | **Pike River** | Pike River Coal Mine disaster (19 November 2010, 29 deaths) — drove HSWA reform. |
+
+---
+
+## Case Studies (Named Accidents)
+
+Common reference points in safety literature, board papers, and training. See
+`references/case-studies.md` for full treatment.
+
+| Term | Meaning |
+|---|---|
+| **Longford** | Esso Longford gas plant explosion, 25 September 1998, Victoria — 2 deaths, gas supply to VIC interrupted for 2 weeks. Hopkins (2000) is the foundational analysis. |
+| **Texas City** | BP Texas City refinery explosion, 23 March 2005 — 15 deaths, 180 injuries. Hopkins (*Failure to Learn*, 2008) and the Baker Panel. |
+| **Macondo** | The Macondo prospect well that caused the Deepwater Horizon blowout, 20 April 2010 — 11 deaths, largest US marine oil spill. Hopkins (*Disastrous Decisions*, 2012). |
+| **Pike River** | Pike River Coal Mine explosion, 19 November 2010, NZ — 29 deaths. Royal Commission 2012; drove HSWA reform. |
+| **Dreamworld** | Thunder River Rapids Ride incident, 25 October 2016, Gold Coast — 4 deaths. Coronial inquest 2018–2020; $3.6M fine 2020. |
+| **Whakaari / White Island** | Volcanic eruption, 9 December 2019, NZ — 22 deaths. WorkSafe NZ prosecutions 2020–2023; landmark case on catastrophic-but-low-probability hazard. |
+| **Grenfell** | Grenfell Tower fire, 14 June 2017, London — 72 deaths. Inquiry Phase 2 report 2024; drove AU/NZ combustible cladding remediation. |
+
+---
+
+## Sector Regimes
+
+See `references/sector-regimes.md` for full coverage.
+
+| Term | Meaning |
+|---|---|
+| **AMSA** | Australian Maritime Safety Authority — regulator under Navigation Act 2012 (Cth). |
+| **NOPSEMA** | National Offshore Petroleum Safety and Environmental Management Authority — established 2012 post-Macondo. |
+| **OPGGS Act** | Offshore Petroleum and Greenhouse Gas Storage Act 2006 (Cth). |
+| **CASA** | Civil Aviation Safety Authority — Cth aviation regulator. |
+| **CASR** | Civil Aviation Safety Regulations — primary aviation instrument; Parts 119 (operators), 121 (large aircraft), 145 (maintenance), 147 (training). |
+| **ATSB** | Australian Transport Safety Bureau — investigates aviation, marine, rail accidents (no-blame; separate from CASA enforcement). |
+| **ONRSR** | Office of National Rail Safety Regulator — established 2013. |
+| **RSNL** | Rail Safety National Law — adopted by all jurisdictions. |
+| **RTO** | Rail Transport Operator — accredited under RSNL. |
+| **PTI** | Pedestrian-Train Interface — common rail safety hazard category. |
+| **RSHQ** | Resources Safety and Health Queensland — independent QLD mining/quarrying regulator (since 2020). |
+| **DMIRS** | Department of Energy, Mines, Industry Regulation and Safety (WA). |
+| **CMSHR** | Coal Mining Safety and Health Regulation 2017 (QLD). |
+| **MQSHR** | Mining and Quarrying Safety and Health Regulation 2017 (QLD). |
+| **WHS (MPS) Act** | Work Health and Safety (Mines and Petroleum Sites) Act 2013 (NSW). |
+| **PC1–PC4** | Physical Containment levels (AS/NZS 2243.3) — laboratory biocontainment from PC1 (basic) to PC4 (Ebola-class; only at AAHL Geelong in AU). |
+| **OGTR** | Office of the Gene Technology Regulator — under Gene Technology Act 2000 (Cth). |
+| **AS/NZS 2243.3** | Safety in laboratories Part 3: Microbiological safety and containment (2022). |
+| **DSMS** | Defence Safety Management System — internal management system layered on WHS Act. |
+| **DEFGRAM** | Defence Group Memorandum — internal Defence safety guidance. |
+| **DSM** | Defence Safety Manual. |
+| **DEOPs** | Defence Explosive Ordnance Publications. |
+| **DISP** | Defence Industry Security Program. |
+| **Comcare** | Cth WHS regulator — covers Cth public sector, ACT public sector, and licensed self-insurers nationally. |
+
+---
+
+## Workplace Controls
+
+See `references/workplace-controls.md` for full coverage.
+
+| Term | Meaning |
+|---|---|
+| **AS 2675** | Workplace first aid kits — kit content standard scaled to workplace risk. |
+| **AS 4775** | Emergency eyewash and shower equipment. |
+| **AS 3745** | Planning for emergencies in facilities (2010) — ECO structure, drills, evacuation diagrams. |
+| **AS 1851** | Routine service of fire protection systems and equipment. |
+| **ECO** | Emergency Control Organisation — Chief Warden + Deputies + Area Wardens + Wardens + Communications Officer. |
+| **AED** | Automated External Defibrillator. |
+| **HLTAID011** | Provide first aid — standard workplace first aid unit of competency. |
+| **HLTAID009** | Provide CPR — 12-monthly refresh component. |
+| **HLTAID012** | Provide first aid in education and care setting (children-specific). |
+| **HLTAID014** | Provide advanced first aid — workplace responder, includes oxygen/Epi. |
+| **MHFA** | Mental Health First Aid — separate certification; 2-day standard course. |
+| **BCP** | Business Continuity Plan — recovery framework distinct from emergency response. |
+| **FDV** | Family and Domestic Violence — emerging PCBU duty intersection for home-based / hybrid workplaces. |
+| **RTD** | Right to Disconnect — Fair Work Act amendment effective 26 Aug 2024 (large employers) / 2025 (small). |
+| **PIN** | Provisional Improvement Notice — HSR-issued (after approved training). |
+
+---
+
+## Capability and Culture
+
+See `references/capability-culture.md` for full coverage.
+
+| Term | Meaning |
+|---|---|
+| **BBS** | Behavioural-Based Safety — observation-and-feedback safety programme model; substantial critiques from Dekker/Hopkins/Provan. |
+| **STOP** | DuPont's commercial BBS programme (Safety Training Observation Program). |
+| **BST** | Behavioural Science Technology — major BBS consultancy. |
+| **ABC model** | Antecedent–Behaviour–Consequence — Skinnerian behaviour modification framework underpinning BBS. |
+| **Hudson cultural ladder** | Five-stage cultural maturity model (Pathological / Reactive / Calculative / Proactive / Generative) — Patrick Hudson. |
+| **DuPont Bradley curve** | Four-stage maturity model (Reactive / Dependent / Independent / Interdependent) — DuPont consulting product. |
+| **IOGP** | International Association of Oil & Gas Producers — publishes HSE Capability framework widely used in resource sector. |
+| **NOSACQ-50** | Nordic Occupational Safety Climate Questionnaire — 50-item validated safety climate instrument. |
+| **Heinrich pyramid** | The 300:29:1 ratio of unsafe acts to minor injuries to major injuries (1931); widely cited despite repeated critique (Manuele; Hopkins). |
+| **Safety culture** | The underlying assumptions and norms — slow-changing; Reason's five subcultures (informed, reporting, learning, just, flexible). |
+| **Safety climate** | Observable expression of culture in attitudes and behaviours at a point in time — measurable via survey. |
+
+---
+
+## Training Codes
+
+| Code | Meaning |
+|---|---|
+| **CPCWHS1001** | General construction induction (white card). |
+| **BSB41419** | Certificate IV in Work Health and Safety. |
+| **BSB51319** | Diploma of Work Health and Safety. |
+| **BSB60619** | Advanced Diploma of Work Health and Safety. |
+| **RIIWHS204** | Work safely at heights — common HRWL training unit. |
+| **HRWL** | High-Risk Work Licence — model WHS Reg 81–118 + Schedule 4 classes. |
+| **AIHS** | Australian Institute of Health and Safety — professional body. |
+| **ChOHSP** | Chartered Generalist OHS Professional — AIHS chartered status. |
+
+---
+
+## International / Comparative
+
+See `references/legislation.md` §13 for full treatment.
+
+| Term | Meaning |
+|---|---|
+| **ILO** | International Labour Organization. |
+| **C155** | ILO Convention 155 (1981) — Occupational Safety and Health Convention. |
+| **C187** | ILO Convention 187 (2006) — Promotional Framework for OSH Convention. |
+| **OSHA** | Occupational Safety and Health Administration (US) — federal regulator under OSH Act 1970. |
+| **HSE (UK)** | Health and Safety Executive (UK) — single national regulator under HSWA 1974 (UK). |
+| **HSWA 1974** | UK Health and Safety at Work etc. Act 1974 — distinct from NZ HSWA 2015. |
+| **CalOSHA** | California state OSHA — significantly more stringent than federal OSHA. |
+| **CMCHA** | Corporate Manslaughter and Corporate Homicide Act 2007 (UK). |
+| **EU-OSHA** | European Agency for Safety and Health at Work — coordination role. |
+
+---
+
+## Mergers, Acquisitions and Transactions
+
+See `references/frameworks.md` §13 for full treatment.
+
+| Term | Meaning |
+|---|---|
+| **M&A** | Mergers and Acquisitions. |
+| **WHS DD** | WHS Due Diligence — pre-acquisition WHS exposure assessment. |
+| **Run-off liability** | Long-tail of workers comp and disease claims that may emerge years after acquisition. |
+| **Latent disease exposure** | Historical exposure (asbestos, silica, chemicals) that may produce claims decades later. |
+| **W&I** | Warranties and Indemnities — contractual mechanisms for allocating WHS-related transaction risk. |
