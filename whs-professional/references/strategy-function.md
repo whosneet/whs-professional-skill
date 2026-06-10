@@ -138,7 +138,7 @@ The capability uplift section is where most WHS strategies fall over. "Build cap
 | Frontline leader safety | Supervisors, foremen | Targeted skills program — incident response, safety conversations, hazard recognition | Observation assessments, leader feedback |
 | Officer due diligence | Officers, executives, board | Officer briefings, safety walks, evidence pack discipline | Activity logs, post-event review |
 | Worker engagement | All workers | HSR training to standard, hazard reporting capability, near-miss articulation | HSR coverage, report rate and quality |
-| Critical risk technical | Critical risk owners | Deep technical knowledge per critical risk, control failure pathways | CRO interview, control verification quality |
+| Critical risk technical | Critical risk owners | Deep technical knowledge per critical risk, control failure pathways | Critical risk owner interview, control verification quality |
 | Investigation | Investigators (often shared with operations) | ICAM certification, peer review, mentoring | Investigation report quality, lessons captured |
 
 Each row maps to a defined program with a budget, a timeline, and a named owner. If the strategy section reads "build capability across the organisation", the strategy is not ready for execution.
@@ -177,12 +177,18 @@ The default benchmarks below are indicative. Risk profile, regulatory intensity,
 |---|---|---|---|
 | <500 workers, low-risk | 1 WHS Manager + 0–1 Coordinator | WHS Manager / HSE Manager | COO, HR Director, or directly CEO |
 | <500 workers, high-risk (construction, mining, transport) | 1 Manager + 2–3 Advisors / Coordinators | HSE Manager | COO or CEO directly |
-| 500–2,000 workers | Manager + 3–6 advisors; one dedicated specialist (hygiene, workers comp, or systems) | Head of WHS / HSE Manager | COO or CRO |
-| 2,000–5,000 workers | Head of WHS + technical specialists (hygiene, claims, systems, programs) + BU-embedded advisors | Head of WHS / GM HSE | Often CRO, COO, or directly CEO |
-| 5,000–15,000 workers | Group function with technical specialists + Divisional Heads of WHS + BU advisor population | Group GM WHS / Group HSE Director | CRO, CEO, or COO |
-| >15,000 workers | Group function with multi-layer structure; centre of excellence model common | Chief Safety Officer / HSE Director / Group Head | Directly CEO or CRO; board engagement standard |
+| 500–2,000 workers | Manager + 3–6 advisors; one dedicated specialist (hygiene, workers comp, or systems) | Head of WHS / HSE Manager | COO or Chief Risk Officer |
+| 2,000–5,000 workers | Head of WHS + technical specialists (hygiene, claims, systems, programs) + BU-embedded advisors | Head of WHS / GM HSE | Often Chief Risk Officer, COO, or directly CEO |
+| 5,000–15,000 workers | Group function with technical specialists + Divisional Heads of WHS + BU advisor population | Group GM WHS / Group HSE Director | Chief Risk Officer, CEO, or COO |
+| >15,000 workers | Group function with multi-layer structure; centre of excellence model common | Chief Safety Officer / HSE Director / Group Head | Directly CEO or Chief Risk Officer; board engagement standard |
 
 ### Advisor-to-worker ratios
+
+The ratios below are **unsourced practitioner heuristics** drawn from consulting
+and recruitment practice — there is no published industry standard or validated
+benchmark dataset for WHS advisor ratios. Use them as a starting point for a
+resourcing conversation, never as a defensible standard in a board paper or
+business case.
 
 | Risk profile | Typical advisor : worker ratio | Comment |
 |---|---|---|
@@ -325,14 +331,14 @@ Where the most senior WHS leader reports determines what kind of organisation it
 |---|---|---|
 | **CEO directly** | Safety is positioned as a strategic priority on a par with operations and finance; access to board is direct; signals seriousness to workforce, regulators, and customers | High-risk industries; organisations with material exposure; ASX-listed entities with active safety committees |
 | **COO** | Safety embedded operationally; tight integration with operating discipline; access depends on COO's own posture | Operational businesses where safety and ops are inseparable; construction, mining, transport |
-| **CRO (Chief Risk Officer)** | Safety treated as enterprise risk; tight integration with risk frameworks, insurance, crisis | Financial services, complex multi-jurisdictional organisations, organisations with mature ERM |
+| **Chief Risk Officer** | Safety treated as enterprise risk; tight integration with risk frameworks, insurance, crisis | Financial services, complex multi-jurisdictional organisations, organisations with mature ERM |
 | **CHRO / People & Culture Director** | Safety integrated with people, wellbeing, culture; tight on psychosocial; can underweight operational risk | Office-based organisations, professional services; risky for heavy industry |
 | **Legal / Company Secretary** | Compliance-led posture; defensive rather than performance-led | Heavily regulated organisations in damage-control mode — usually a sign of past failure |
 | **Below executive (HR Manager, Operations Manager etc.)** | Safety is administrative, not strategic; warning sign | Small organisations only; in larger organisations this is a structural problem |
 
-The reporting line is not just an org chart question. Workers, supervisors, customers, and regulators read it. A WHS leader reporting to the CHRO in a mining business will struggle to be taken seriously in a Safety Case Forum or a Mining Wardens court appearance. A WHS leader reporting to the COO in a professional services firm may be operationally aligned but underweight psychosocial duty.
+The reporting line is not just an org chart question. Workers, supervisors, customers, and regulators read it. A WHS leader reporting to the CHRO in a mining business will struggle to be taken seriously in a Safety Case Forum, a Board of Inquiry, or a coronial inquest. A WHS leader reporting to the COO in a professional services firm may be operationally aligned but underweight psychosocial duty.
 
-The safer default for AU/NZ organisations with material WHS exposure is **CEO or COO direct**. CRO works well where the broader risk discipline is genuinely mature. CHRO works where the operational exposure is genuinely modest. Anything below executive in a 1,000+ worker organisation should be challenged.
+The safer default for AU/NZ organisations with material WHS exposure is **CEO or COO direct**. A Chief Risk Officer reporting line works well where the broader risk discipline is genuinely mature. CHRO works where the operational exposure is genuinely modest. Anything below executive in a 1,000+ worker organisation should be challenged.
 
 ---
 
@@ -360,9 +366,9 @@ WHS cost discussions usually start and stop at the function budget. That capture
 - Cost of regulator engagement — investigation, prosecution defence, inspector visits, notices
 - Cost of capital — investors increasingly price WHS performance into cost of capital for material exposures
 
-Studies (insurance industry and academic) consistently put the hidden cost at **4–10× the direct incident cost**, with the iceberg ratio varying by industry. Heavy industry sits at the upper end; office-based sectors at the lower end.
+Estimates of the hidden-to-direct cost ratio vary enormously across studies — from roughly **1:1 to 36:1** depending on industry, severity mix, and costing methodology. The often-quoted single multipliers (Heinrich's 4:1, Bird's iceberg) sit inside that span but have weak empirical foundations; treat any specific ratio as illustrative rather than established, and prefer organisation-specific costing where the data exists.
 
-The strategic implication: a business case framed only on direct cost or on premium impact will underestimate value by an order of magnitude.
+The strategic implication stands regardless of the multiplier chosen: a business case framed only on direct cost or on premium impact will materially underestimate the total cost of incidents.
 
 ### ROI quantification approaches
 
@@ -382,7 +388,7 @@ The strongest business cases combine 3–4 of these approaches rather than relyi
 
 (See `compensation-rtw.md` for full mechanics.)
 
-In all AU schemes (icare NSW, WorkSafe VIC, WorkCover QLD, RTWSA, WorkSafe WA, ReturnToWorkSA, Tasmania, ACT, NT) and the NZ ACC scheme, premium is a function of:
+Across the AU schemes — the centrally underwritten schemes (icare NSW, WorkSafe VIC, WorkCover QLD, ReturnToWorkSA) and the privately underwritten ones (WA, regulated by WorkCover WA — note WorkSafe WA is the WHS regulator, not the compensation scheme — plus TAS, ACT and NT, where licensed private insurers underwrite under state/territory regulation) — and the NZ ACC scheme, premium is a function of:
 
 - Industry classification rate (base rate by ANZSIC code)
 - Wages declared
@@ -469,7 +475,10 @@ Workers compensation premium typically sits outside the WHS function budget — 
 
 ### Benchmarks for WHS function spend
 
-Rough benchmarks (varies by industry, geography, maturity):
+The figures below are **unsourced practitioner heuristics** (varying further by
+industry, geography, and maturity) — not published industry standards. No
+authoritative benchmark dataset for WHS function spend exists; treat these as
+order-of-magnitude conversation anchors only:
 
 | Industry | WHS function spend as % of revenue | WHS function spend per worker per year |
 |---|---|---|
@@ -567,10 +576,11 @@ A strong WHS leader candidate will demonstrate:
 | Body | Designation | Best for | Pathway |
 |---|---|---|---|
 | **AIHS** (Australian Institute of Health and Safety) | **ChOHSP** — Chartered OHS Professional | Generalist WHS managers and leaders | Membership + portfolio assessment + interview; INSHPO global capability framework |
-| **AIHS** | **CertOHSP** — Certified OHS Professional | Mid-career WHS professionals | Below ChOHSP; pathway to Chartered |
+| **AIHS** | **COHSProf** — Certified OHS Professional | Mid-career WHS professionals | Certification assessment below ChOHSP; pathway to Chartered |
+| **AIHS** | **COHSPrac** — Certified OHS Practitioner | Practitioner tier — advisors, coordinators | Certification against the INSHPO practitioner capability framework |
 | **AIOH** (Australian Institute of Occupational Hygienists) | **COH** — Certified Occupational Hygienist | Specialist hygiene work — silica, asbestos, chemical, noise | Examinations + practical assessment + experience |
 | **HFESA** (Human Factors and Ergonomics Society of Australia) | **CPE** — Certified Professional Ergonomist | Specialist ergonomics / human factors | Portfolio + assessment |
-| **NZISM** (NZ Institute of Safety Management) | **Chartered Safety Professional** | NZ-based generalist WHS | NZISM membership + assessment |
+| **NZISM** (NZ Institute of Safety Management) | NZISM professional accreditation (e.g. **ProfNZISM**) | NZ-based generalist WHS | NZISM graded membership/accreditation + listing on the HASANZ Register |
 | **IOSH** (UK) | **CMIOSH** — Chartered Member | UK-aligned organisations; international portability | UK qualification framework |
 | **BCSP** (US) | **CSP** — Certified Safety Professional | US-aligned organisations | US examination |
 
@@ -718,7 +728,7 @@ The principles:
 - **Legal review before public statements**, particularly during active regulator investigation or prosecution. Some statements will be contested in subsequent proceedings — assume everything said publicly will be put to a witness.
 - **Workforce communication first or simultaneously**, never after media. Workers reading about their workplace from external media before hearing internally is a major engagement failure.
 - **No "thoughts and prayers" without specific action.** Empty sympathy is read as evasion. Sympathy paired with specific commitments is read as accountability.
-- **Acknowledge harm without admitting liability prematurely.** Most jurisdictions have apology legislation that protects expressions of regret. Use this — silence reads as callousness, but specific liability statements are contested in court.
+- **Acknowledge harm without admitting liability prematurely.** Most jurisdictions have apology legislation that protects expressions of regret — but the protection applies in **civil proceedings only**; it generally does not extend to criminal prosecutions, including WHS prosecutions. Obtain legal advice before any public statement during prosecution exposure. Silence reads as callousness, but specific liability statements are contested in court.
 
 ### Legal privilege handling
 

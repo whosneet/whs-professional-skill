@@ -11,28 +11,33 @@
 
 ## 1. Issue
 
-The Sex Discrimination Act 1984 (Cth) s 47C positive duty has been in force
-since 12 December 2022. AHRC compliance and enforcement powers commenced
-12 December 2023. We have completed substantial WHS work on psychosocial
-hazards under WHS Regulations Part 3.1A, but we have not yet mapped that work
-explicitly to the AHRC's seven standards for compliance with the positive duty.
+The Sex Discrimination Act 1984 (Cth) s 47C positive duty, inserted by the
+Anti-Discrimination and Human Rights Legislation Amendment (Respect at Work)
+Act 2022 (Cth), has been in force since 13 December 2022 (assent 12 December
+2022). AHRC compliance and enforcement powers commenced 12 December 2023. We
+have completed substantial WHS work on psychosocial hazards under the model
+WHS Regulations rr 55A–55D (in NSW, Part 3.2 Division 11), but we have not
+yet mapped that work explicitly to the AHRC's seven standards for compliance
+with the positive duty.
 This advisory recommends the bridging work required to discharge the SDA duty
 and to be able to demonstrate it.
 
 ## 2. Legislative basis
 
-- **Sex Discrimination Act 1984 (Cth) s 47C** — positive duty on PCBUs to take
-  reasonable and proportionate measures to eliminate, as far as possible, sex
+- **Sex Discrimination Act 1984 (Cth) s 47C** — positive duty on an employer
+  or a person conducting a business or undertaking to take reasonable and
+  proportionate measures to eliminate, as far as possible, sex
   discrimination, sexual harassment, sex-based harassment, conduct creating a
   hostile workplace environment on the ground of sex, and related victimisation
 - **AHRC enforcement powers** (from 12 December 2023) — inquiry into
   compliance, compliance notices, enforceable undertakings, application to
   Federal Court
-- **WHS Regulations Part 3.1A** (jurisdiction-specific) — psychosocial risk
-  management duty; covers the same conduct from a different statutory angle
+- **Model WHS Regulations rr 55A–55D** (in NSW, WHS Regulation Part 3.2
+  Division 11) — psychosocial risk management duty; covers the same conduct
+  from a different statutory angle
 - **AHRC Guidelines on the positive duty** (August 2023) — seven standards
   for compliance: leadership, culture, knowledge, risk management, support,
-  reporting and response, monitoring and evaluation
+  reporting and response, and monitoring, evaluation and transparency
 
 ## 3. Risk assessment
 
@@ -93,7 +98,7 @@ burden. Estimated risk under organisational matrix: B.
 
 ELT decision required on Recommendations 1 and 6 (governance and disclosure
 scope). Other recommendations can proceed under operational delegation. Suggest
-brief paper to ELT June meeting and full implementation programme to Board
+brief paper to ELT June meeting and full implementation program to Board
 October meeting.
 
 ---

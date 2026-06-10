@@ -18,7 +18,7 @@ to real events is coincidental.
 | `01-safety-alert-electrical-near-miss.md` | Safety alert | Maintenance worker contacted unisolated 415V switchboard |
 | `02-toolbox-talk-working-at-height.md` | Toolbox talk | Anchor point verification before fall arrest use |
 | `03-whs-advisory-note-respect-at-work-positive-duty.md` | WHS advisory note | SDA s 47C compliance gap analysis |
-| `04-icam-executive-summary-forklift-near-miss.md` | ICAM executive summary | Pedestrian struck-by near-miss in warehouse |
+| `04-icam-executive-summary-forklift-near-miss.md` | ICAM investigation report (with executive summary) | Pedestrian struck-by near-miss in warehouse |
 | `05-board-paper-extract-hipo-intelligence.md` | Board paper extract | Q3 FY26 safety performance section |
 | `06-hipo-intelligence-pack-page.md` | HiPo intelligence pack | April 2026 monthly page |
 

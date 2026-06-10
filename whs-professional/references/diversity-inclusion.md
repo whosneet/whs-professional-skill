@@ -77,7 +77,7 @@ shutdown that becomes a WHS matter.
 | Jurisdiction | Primary instrument | Practical scope |
 |---|---|---|
 | Federal | Aboriginal and Torres Strait Islander Heritage Protection Act 1984 | Emergency declarations where state law inadequate; rarely invoked |
-| NSW | Aboriginal Cultural Heritage Act 2024 (NSW) | Replaces NPWA framework; new Aboriginal Cultural Heritage Commission; ACHMS process; due diligence assessment for development |
+| NSW | National Parks and Wildlife Act 1974 (NSW), Part 6 | No standalone ACH Act in NSW — Aboriginal objects and declared Aboriginal places are protected under the NPW Act; Aboriginal Heritage Impact Permits (AHIPs); due diligence code of practice; standalone ACH legislation remains a committed reform, not yet enacted |
 | VIC | Aboriginal Heritage Act 2006 (VIC) | CHMP required for prescribed activities in cultural-heritage-sensitivity areas; Registered Aboriginal Parties consulted; Victorian Aboriginal Heritage Council oversight |
 | QLD | Aboriginal Cultural Heritage Act 2003 (QLD) + Torres Strait Islander CHA 2003 | Cultural Heritage Duty of Care — every person doing an activity must take all reasonable and practicable measures to avoid harming Aboriginal cultural heritage |
 | WA | Aboriginal Heritage Act 1972 (reinstated 2023 after ACH Act 2021 repeal) | s 18 consent regime; Juukan Gorge response and subsequent reversal; reform ongoing |
@@ -189,7 +189,8 @@ practice produces inequitable outcomes.
 ### Racism and lateral violence as psychosocial hazards
 
 Workplace racism — overt and covert — is a psychosocial hazard under the
-SWA Code of Practice 2022. WHS Regs Part 3.1A PCBU duty applies. Lateral
+SWA Code of Practice 2022. The PCBU's psychosocial duty under model WHS
+Regulations rr 55A–55D (in NSW, Part 3.2 Div 11) applies. Lateral
 violence (intra-community harm) is related but distinct.
 
 The post-2023 Voice referendum period has been characterised by elevated
@@ -198,11 +199,11 @@ Nations staff need to take this context seriously, not treat it as
 exceptional.
 
 Operational implications:
-- Racism complaints are WHS matters, not just HR matters; Part 3.1A duty
-  applies; RDA 1975 and state equal opportunity legislation create parallel
-  duties
+- Racism complaints are WHS matters, not just HR matters; the rr 55A–55D
+  psychosocial duty applies; RDA 1975 and state equal opportunity
+  legislation create parallel duties
 - Manager training on recognising and responding to workplace racism is a
-  Part 3.1A control
+  psychosocial control under rr 55A–55D
 - Complaints handling must be culturally safe — repeat questioning by
   multiple investigators, "proving" the conduct, comparison to non-Indigenous
   experience all deepen the harm
@@ -239,10 +240,14 @@ but distinct from the WHS Act.
 
 - DDA prohibits discrimination on the ground of disability in employment
   (Part 2 Div 1) — including failing to make reasonable adjustments
-- DDA imposes a positive duty in the sense that the employer must consider
-  and provide reasonable adjustments unless doing so would impose
-  unjustifiable hardship — broadly analogous in framing to the SDA s 47C
-  positive duty introduced by the Respect@Work Amendment Act 2022
+- The DDA contains no s 47C-style positive duty. Reasonable adjustment
+  obligations arise through the definitions of discrimination — ss 5(2)
+  and 6(2) DDA make a failure to make reasonable adjustments for a person
+  with disability itself direct or indirect discrimination, subject only
+  to unjustifiable hardship (s 11). A standalone DDA positive duty,
+  mirroring the SDA s 47C duty introduced by the Anti-Discrimination and
+  Human Rights Legislation Amendment (Respect at Work) Act 2022, is a
+  Disability Royal Commission recommendation only — not yet law
 - State equal opportunity Acts (NSW ADA 1977, VIC EOA 2010, QLD ADA 1991,
   etc.) provide parallel protections at state level
 - WHS Act s 19 model primary duty requires the PCBU to ensure SFAIRP the
@@ -302,15 +307,18 @@ adjustments approved but not delivered are a frequent audit finding.
 
 ### Conversation tools and funded resources
 
-Australian Network on Disability (AND) and Inclusion@Work provide structured
+Australian Disability Network (renamed from the Australian Network on
+Disability in 2023) and its Inclusion@Work program provide structured
 conversation tools for managers initiating adjustment discussions:
 - Adjustment conversation guide — questions that elicit information without
   requiring disclosure beyond worker choice
 - Permissible questions under DDA and Privacy Act 1988
 - Position description review — separating inherent requirements from
   preferred attributes
-- **Job Access** (jobaccess.gov.au) — Commonwealth-funded scheme for
-  workplace modifications, equipment, Auslan interpreting, mentoring for
+- **JobAccess** (jobaccess.gov.au) — the Commonwealth disability
+  employment information and advice gateway; its **Employment Assistance
+  Fund (EAF)** is the funding vehicle for workplace modifications,
+  equipment, Auslan interpreting, and disability awareness training for
   eligible workers
 
 NZ equivalents — Workbridge, CCS Disability Action, Government employment
@@ -319,19 +327,22 @@ parallel structure.
 
 ### Unjustifiable hardship — the only defence
 
-DDA s 11 sets out considerations:
-- Nature of benefit or detriment to persons concerned
-- Effect of the disability on the person concerned
-- Financial circumstances of the person providing the service or facility
-- Estimated cost of the adjustment
-- Disability impact statement (if produced)
+DDA s 11(1) sets out the factors:
+- (a) the nature of the benefit or detriment likely to accrue to, or to be
+  suffered by, any persons concerned
+- (b) the effect of the disability of any person concerned
+- (c) the financial circumstances of, and the estimated amount of
+  expenditure required to be made by, the person claiming unjustifiable
+  hardship
+- (d) the availability of financial and other assistance to that person
+- (e) any relevant action plans given to the AHRC under s 64
 
 Practical reality:
 - Threshold is high; modest cost or modest disruption is not unjustifiable
 - Financial test scales — $5,000 adjustment unjustifiable for a sole trader
   may be trivial for a large PCBU
-- Tax deductibility, Job Access funding, equipment redeployment reduce net
-  cost; gross figure overstates impact
+- Tax deductibility, JobAccess Employment Assistance Fund (EAF) funding,
+  equipment redeployment reduce net cost; gross figure overstates impact
 - Decisions to decline must be documented with reasoning — including
   consultation, alternatives considered, the specific factors that ground
   the unjustifiable hardship finding
@@ -483,7 +494,8 @@ Manager capability is the highest leverage point. Training should cover:
 - Recognising signs of distress (burnout, masking exhaustion, sensory
   overload)
 - Responding to disclosure — what to say, what to do, what not to ask
-- Adjustment conversation tools — AND / Inclusion@Work resources
+- Adjustment conversation tools — Australian Disability Network
+  Inclusion@Work resources
 
 AU providers — Untapped Group, Specialisterne, Aspect (Autism Spectrum
 Australia), DXC Dandelion, individual neurodivergent-led consultancies. NZ
@@ -510,8 +522,10 @@ DDA case law on neurodivergence is developing. Key positions as of 2025:
 
 ### The CALD workforce reality
 
-Around 29% of Australians were born overseas (ABS 2021 Census); approximately
-23% speak a language other than English at home. Concentrations are sector-
+27.6% of Australians were born overseas at the 2021 Census (ABS); later
+ABS estimated resident population figures put the overseas-born share above
+30%. Approximately 23% speak a language other than English at home (2021
+Census). Concentrations are sector-
 specific — construction, cleaning, hospitality, food processing, aged care,
 transport, and parts of healthcare have CALD workforce proportions
 substantially above the national average.
@@ -670,8 +684,11 @@ routinely ask how non-English-fluent workers were inducted and consulted.
 
 ## 5. Gendered Violence and Equity Considerations
 
-The Respect@Work positive duty (SDA s 47C, effective 12 December 2022) and
-its WHS intersection are covered in `legislation.md` §9. This section
+The Respect@Work positive duty (SDA s 47C, in force from 13 December 2022 —
+the day after the Anti-Discrimination and Human Rights Legislation
+Amendment (Respect at Work) Act 2022 received assent; AHRC enforcement
+powers from 12 December 2023) and its WHS intersection are covered in
+`legislation.md` §9. This section
 addresses everyday practice, equity dimensions, and the practical issues
 that sit beside but outside the s 47C framework.
 
@@ -698,6 +715,47 @@ typically hold investigation and consequence management. The boundary is a
 common failure point — gaps appear at the interface, particularly for
 matters that span WHS, HR, and legal frameworks (e.g., sexual harassment by
 a contractor of an employee).
+
+### The statutory net around sexual harassment — FW Act Part 3-5A and the SDA
+
+Sexual harassment at work is now regulated through three interlocking
+regimes, and a competent response engages all of them:
+
+- **FW Act Part 3-5A** (in force from 6 March 2023, inserted by the Secure
+  Jobs, Better Pay amendments) prohibits sexual harassment in connection
+  with work — covering workers, prospective workers, and persons
+  conducting a business or undertaking. An aggrieved person can apply to
+  the FWC for a **stop-sexual-harassment order** (preventative, while the
+  working relationship continues — continuing the jurisdiction first
+  created in September 2021) and/or ask the FWC to **deal with the dispute**
+  (a new jurisdiction: conciliation; if unresolved, arbitration by consent
+  or court proceedings for compensation). Employers are **vicariously
+  liable** for contraventions by employees or agents in connection with
+  employment unless they prove they took all reasonable steps to prevent
+  the conduct.
+- **SDA s 28B** prohibits sexual harassment in employment and other work
+  contexts (coverage aligned to WHS-style "worker" and PCBU concepts by
+  the 2021 amendments). **SDA s 28M**, inserted by the Anti-Discrimination
+  and Human Rights Legislation Amendment (Respect at Work) Act 2022,
+  separately prohibits subjecting a person to a **hostile workplace
+  environment** on the ground of sex — capturing conduct not
+  targeted at an individual (pornographic material, sexual banter,
+  demeaning "jokes") without a complainant needing to show they were
+  personally harassed.
+- **WHS psychosocial duty** — sexual harassment is a recognised
+  psychosocial hazard under model WHS Regulations rr 55A–55D (NSW
+  Part 3.2 Div 11); the PCBU must eliminate or minimise it SFAIRP through
+  work design and systems of work, not merely respond to complaints.
+
+The interlock: SDA s 47C demands proactive prevention (the positive duty,
+AHRC-enforceable from 12 December 2023); the WHS psychosocial duty demands
+the same through hazard management; FW Act Part 3-5A and SDA s 28B supply
+the individual remedy pathways when prevention fails. One incident can
+engage all of them simultaneously — and "all reasonable steps" under the
+FW Act, "reasonable and proportionate measures" under s 47C, and SFAIRP
+controls under WHS converge on the same evidence: risk assessment, a
+prevention plan, training, leadership conduct, and a complaint system that
+works. For the full statutory chain, load `legislation.md` §9.
 
 ### Third-party harassment — the commonly missed exposure
 
@@ -832,12 +890,14 @@ Workplace safety planning for affected workers:
   location to external callers; HR confidentiality strict
 - Police and AVO coordination where applicable
 - EAP with FDV specialist counsellors
-- Fair Work Act 10 days paid FDV leave (s 106) — eligibility checked,
-  access supported, confidentiality protected
+- Fair Work Act 10 days paid FDV leave (ss 106A–106E) — eligibility
+  checked, access supported, confidentiality protected
 
-DVWRC (Domestic Violence Workplace Rights and Entitlements Project) has
-published workplace policy templates and manager training resources;
-1800RESPECT national hotline provides referral and worker support.
+Current resources: 1800RESPECT (the national domestic, family and sexual
+violence counselling service) publishes workplace-focused resources on
+responding to disclosure and supporting affected workers; Champions of
+Change Coalition publishes employer guidance on FDV-informed workplace
+policy and leadership practice.
 
 ### Supplier diversity intersection
 
@@ -884,8 +944,9 @@ The connection some organisations have made:
 - The WHS function has a seat at the diversity and inclusion strategy
   table, and vice versa
 
-Not duplicate management — recognition that the psychosocial duty under WHS
-Regs Part 3.1A covers harm historically managed under separate frameworks.
+Not duplicate management — recognition that the psychosocial duty under
+model WHS Regulations rr 55A–55D covers harm historically managed under
+separate frameworks.
 Regulator expectation is moving toward integration; leading organisations
 are already there.
 
@@ -899,19 +960,19 @@ gendered violence and equity, confirm:
 
 ### First Nations workforce
 - [ ] Cultural load addressed where the task involves advisory, representational, or educator burden
-- [ ] Heritage framework identified for the relevant jurisdiction (NSW ACH Act 2024, VIC CHMP, QLD Duty of Care)
+- [ ] Heritage framework identified for the relevant jurisdiction (NSW NPW Act 1974 Part 6 AHIPs, VIC CHMP, QLD Duty of Care)
 - [ ] Native title and ILUA position considered for activities on Country
 - [ ] Sorry Business and ceremony leave provisions explicit, not assumed within standard bereavement
 - [ ] Welcome to Country / Acknowledgement of Country protocols correct for event type
 - [ ] Cultural advisory work compensated, time-allocated, recognised
-- [ ] Racism and lateral violence treated as psychosocial hazards under Part 3.1A
+- [ ] Racism and lateral violence treated as psychosocial hazards under rr 55A–55D
 - [ ] Consultation with First Nations representatives genuine, not retrofitted
 
 ### Disability adjustments
 - [ ] DDA reasonable adjustment framework and WHS hazard control framework both applied
 - [ ] Workplace assessment by OT or qualified equivalent for substantive adjustments
 - [ ] Adjustment plan documented, agreed with worker, implemented, verified
-- [ ] Job Access funding considered for eligible adjustments
+- [ ] JobAccess Employment Assistance Fund (EAF) funding considered for eligible adjustments
 - [ ] Unjustifiable hardship reasoning documented where adjustment declined
 - [ ] s 47 consultation duty discharged in accessible format
 - [ ] HSR awareness of disability inclusion considerations
@@ -936,12 +997,13 @@ gendered violence and equity, confirm:
 
 ### Gendered violence and equity
 - [ ] Respect@Work positive duty (SDA s 47C) framework applied — cross-reference `legislation.md` §9
+- [ ] FW Act Part 3-5A and SDA ss 28B / 28M remedy pathways identified alongside the WHS psychosocial duty
 - [ ] Third-party harassment exposures identified for client / customer / patient-facing roles
 - [ ] WGEA reporting alignment for in-scope employers
 - [ ] Psychological safety data dis-aggregated by gender and intersecting characteristics
 - [ ] Flexible work refusals reviewed for systemic patterns
 - [ ] Hybrid arrangement equity considered — frontline workforce explicitly addressed
-- [ ] FDV workplace safety planning in place; Fair Work Act s 106 leave accessible
+- [ ] FDV workplace safety planning in place; Fair Work Act ss 106A–106E FDV leave accessible
 - [ ] WHS classification captures gendered violence, sexual harassment, racism, ableism as distinct psychosocial categories
 - [ ] Board reporting integrates safety, conduct, engagement, and equity data
 
@@ -962,6 +1024,7 @@ This file works alongside:
   provider, FDV policy, neurodivergence and disability-inclusion initiatives
 
 Diversity and inclusion in the WHS frame is not adjacent. It is part of the
-psychosocial duty under Part 3.1A model WHS Regulations, part of the
-consultation duty under s 47, and part of the SFAIRP standard applied to the
-workforce as it actually is, not as it is assumed to be.
+psychosocial duty under rr 55A–55D model WHS Regulations (in NSW, Part 3.2
+Div 11), part of the consultation duty under s 47, and part of the SFAIRP
+standard applied to the workforce as it actually is, not as it is assumed
+to be.

@@ -13,7 +13,7 @@
 |---|---|---|---|---|
 | TRIFR | 4.2 | 5.1 | 6.8 | <5.0 |
 | LTIFR | 1.3 | 1.6 | 2.1 | <2.0 |
-| HiPo rate | 3.8 | 4.0 | 5.5 | n/a — investigative metric |
+| HiPo rate | 2.4 | 2.1 | 2.9 | n/a — investigative metric |
 | Fatalities | 0 | 0 | 1 | 0 |
 
 Rolling 12-month TRIFR continues a downward trend (−25% on prior year); the
@@ -26,8 +26,9 @@ Regulatory and Compliance.
 
 ## HiPo intelligence
 
-23 HiPo events were recorded in Q3 FY26 (rate 3.8 per million hours; rolling
-12-month 4.0). Distribution by critical risk:
+23 HiPo events were recorded in Q3 FY26 (rate 2.4 per million hours on
+approximately 9.5 million hours worked in the quarter; rolling 12-month 2.1).
+Distribution by critical risk:
 
 | Critical risk | HiPo count | % of total | vs prior period |
 |---|---|---|---|
@@ -59,7 +60,7 @@ A heatmap of critical risk × business unit is provided at Appendix B.
 
 ## Program performance
 
-Safe Over Summer 2026 program completed in March 2026. 89% workforce
+SafeStart Summer 2026 program completed in March 2026. 89% workforce
 participation across the 8-week program; 14% increase in hazard report rate
 during and following the program in participating BUs. Independent review
 (Appendix C) recommends continuation with topic refresh.
@@ -79,7 +80,7 @@ during and following the program in participating BUs. Independent review
 The Board is asked to consider three matters:
 
 1. **Mobile plant / pedestrian capital uplift** — approval of $2.1M FY26
-   capital programme to retrofit reverse cameras and proximity-warning systems
+   capital program to retrofit reverse cameras and proximity-warning systems
    across the distribution fleet. Business case at Appendix D.
 
 2. **Group-wide critical risk verification platform** — endorsement of the

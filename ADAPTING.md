@@ -5,6 +5,10 @@ organisation's WHS context. The file is the single point where the skill plugs
 into your specific configuration — risk matrix, severity classifications,
 document codes, incident management system, named programs, governance cadence.
 
+The skill ships with a fully fictional worked example — Meridian Facilities
+Group (MFG) — as the Active Reference in `company.md`. Adapting the skill means
+replacing that fictional example with your organisation's real context.
+
 You have three paths depending on how comfortable you are with editing files:
 
 - **Path A — Let Claude do it**: paste prompts into Claude (with the skill
@@ -60,13 +64,13 @@ us" page, contract register.
 status, document numbering convention.
 
 **Questions**:
-1. What is your WHS management system called internally? (e.g. "Zero Harm",
-   "Safety First", "Beyond Zero", no brand)
+1. What is your WHS management system called internally? (e.g. "Safe for
+   Life", "Safety First", "Beyond Zero", no brand)
 2. Is your system ISO 45001 certified, aligned but not certified, in progress,
    or not pursuing?
 3. What is your document numbering convention? Most organisations use a
-   prefix + functional code + type code + number pattern (e.g. "DG-ZH-PR006" =
-   Group, Zero Harm, Procedure 006). Some use simpler numbering.
+   prefix + functional code + type code + number pattern (e.g. "MFG-WHS-PR-002" =
+   group prefix, WHS function, Procedure 002). Some use simpler numbering.
 4. What are the type codes for: Standard, Procedure, Work Instruction,
    Template, Form, Guideline?
 
@@ -96,8 +100,8 @@ assessment, board paper, and incident report.
 4. What are your consequence rating descriptors at each level (1–5 or 1–6)?
 5. What are your risk response requirements? (typically: A risks need
    immediate action and senior leader acceptance; D risks managed routinely)
-6. What is your control effectiveness rating? (typically: Effective /
-   Generally Sound / Improvement Required, or similar)
+6. What is your control effectiveness rating? (e.g. Adequate / Partially
+   Adequate / Inadequate, or similar)
 
 **Where to find it**: enterprise risk management standard, WHS risk
 management procedure, project risk register template, integrated management
@@ -154,8 +158,8 @@ the entire post-incident workflow.
    simplified form for low severity; ICAM for HiPo and high severity)
 6. What is your incident management system? (e.g. INX, Cintellate, Donesafe,
    Mango, in-house tool)
-7. Do you have a "Direct Control vs Influence" distinction for what's
-   included in performance statistics?
+7. Do you have a statistical inclusion rule for what counts in performance
+   statistics (e.g. "operational control" vs "commercial interest only")?
 
 **Where to find it**: incident management procedure, incident reporting
 form, incident investigation procedure.
@@ -185,13 +189,13 @@ document reference (number and title)?
 - 5-Why analysis
 - Lessons Learnt template / register
 - Risk and opportunity register
-- Zero Harm (or equivalent) risk register
+- WHS risk register (or equivalent branded register)
 - Plant risk assessment
 - Hazardous chemicals risk assessment
 - Manual handling assessment
 - SWMS template
 - Traffic management plans
-- STAR (Stop Think Act Review) or equivalent point-of-work assessment
+- Point-of-work risk check (Take 5, STAR, or equivalent)
 
 **Where to find it**: document control register, intranet template library.
 
@@ -245,7 +249,7 @@ schedule, ELT risk dashboard.
 organisation runs.
 
 **Questions**:
-1. What are your named programs/campaigns? (e.g. "Safe Over Summer", "Stop
+1. What are your named programs/campaigns? (e.g. "SafeStart Summer", "Stop
    Work for Safety Day", "Lifesavers Week")
 2. What is the cadence? (annual, quarterly, ongoing)
 3. What is the reach? (workforce coverage, contractor coverage)
@@ -269,7 +273,7 @@ and how often safety reports flow upward.
 3. Is there a defined officer due diligence framework? Who supports officers
    in discharging their duty?
 4. What are the key WHS leadership roles in your organisation?
-   (EGM/GM Zero Harm; BU heads of safety; CRO; HSBP)
+   (Group GM WHS; BU heads of safety; CRO; WHS business partner)
 5. Is there a peer review or assurance process across business units
    or contracts?
 
@@ -309,7 +313,7 @@ out-of-date content will create silently wrong outputs.
 
 Each update follows the same flow:
 1. Edit the relevant section in `company.md`
-2. Re-package the skill (`zip -r whs-professional.skill whs-professional`)
+2. Re-package the skill (`zip -r whs-professional.zip whs-professional -x "*.DS_Store" -x "__MACOSX/*"`)
 3. Re-upload to claude.ai (the new version overwrites the old)
 
 ---
@@ -323,19 +327,19 @@ business contexts. The current workaround:
 
 ### Option 1 — Multiple skill installations
 
-Package separate `.skill` files per client and switch the active install
+Package separate `.zip` files per client and switch the active install
 in claude.ai when you change context:
 
 ```bash
 # Maintain separate company.md files
 cp company-client-a.md whs-professional/references/company.md
-zip -r whs-professional-client-a.skill whs-professional
+zip -r whs-professional-client-a.zip whs-professional -x "*.DS_Store" -x "__MACOSX/*"
 
 cp company-client-b.md whs-professional/references/company.md
-zip -r whs-professional-client-b.skill whs-professional
+zip -r whs-professional-client-b.zip whs-professional -x "*.DS_Store" -x "__MACOSX/*"
 ```
 
-Each `.skill` file is installed separately in claude.ai; activate the
+Each `.zip` file is installed separately in claude.ai; activate the
 relevant one when working on the relevant client.
 
 ### Option 2 — Named company files in your local clone
@@ -356,7 +360,7 @@ Before packaging:
 cd whs-professional/references
 ln -sf company-client-a.md company.md
 cd ../..
-zip -r whs-professional.skill whs-professional
+zip -r whs-professional.zip whs-professional -x "*.DS_Store" -x "__MACOSX/*"
 ```
 
 The skill loads `company.md` as usual; whichever client config is active is

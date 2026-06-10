@@ -1,4 +1,4 @@
-# ICAM Investigation Report — Executive Summary
+# ICAM Investigation Report — worked example (with executive summary)
 
 ## Incident: Forklift / Pedestrian Near-Miss, Sydney Distribution Centre, 18 April 2026
 
@@ -13,7 +13,7 @@
 | Date of report | 12 May 2026 |
 | Brief description | A counterbalance forklift travelling in reverse came within 1 m of a pedestrian worker conducting a stocktake in Aisle 14. No contact; no injury. Classified HiPo based on potential consequence. |
 | Will a Lessons Learnt be developed? | ☒ Yes ☐ No |
-| Report prepared by | A. Singh, Investigation Lead |
+| Report prepared by | A. Singh, Head of WHS (Investigation Lead) |
 
 **Review / approval**
 
@@ -22,7 +22,7 @@
 | Lead Investigator | A. Singh | (signed) | 12 May 2026 |
 | Site Manager | M. Donato | (signed) | 13 May 2026 |
 | BU GM | K. Phillips | (signed) | 15 May 2026 |
-| BU GM Zero Harm | J. Tan | (signed) | 16 May 2026 |
+| BU GM WHS | J. Tan | (signed) | 16 May 2026 |
 
 ---
 
@@ -39,7 +39,7 @@ where comparable findings emerge from this investigation.
 
 | Name | Position |
 |---|---|
-| A. Singh | WHS Manager (Lead) |
+| A. Singh | Head of WHS (Lead) |
 | R. Patel | Operations Supervisor (Sydney DC) |
 | D. Murphy | Health and Safety Representative (Warehouse) |
 | L. Chen | Lead Hand, Stocktake Team |
@@ -67,7 +67,7 @@ reported the incident within the hour.
 | 4 | 18 Apr 2026 | 14:20 | Operator A enters Aisle 14 in reverse to align with rack face |
 | 5 | 18 Apr 2026 | 14:22 | Forklift comes within 1 m of Pedestrian B; operator alerted by colleague; emergency stop |
 | 6 | 18 Apr 2026 | 14:30 | Incident reported to Shift Supervisor; Aisle 14 closed for stocktake completion |
-| 7 | 18 Apr 2026 | 16:00 | INC-2026-04-0237 raised; PIIN within 24 hours |
+| 7 | 18 Apr 2026 | 16:00 | INC-2026-04-0237 raised; preliminary incident information notice (PIIN) issued within 24 hours |
 
 ## 5. PEEPO summary
 
@@ -119,12 +119,12 @@ system.
 
 | Action | Mapped contributing factor | Control level | Owner | Due |
 |---|---|---|---|---|
-| Apply physical exclusion zones (barriers + signage) to all stocktake activity in active aisles | Absent control: physical exclusion zone | Engineering / Administrative | Site Manager | 30 June 2026 |
-| Retrofit reverse cameras and proximity-warning systems to forklift fleet at Sydney DC | Engineering control gap | Engineering | Procurement Manager | 31 December 2026 |
-| Rescind verbal "spot-check" authorisation route; require written TMP-aligned authorisation for any aisle pedestrian activity | Organisational drift in TMP application | Administrative | Operations Manager | 30 June 2026 |
-| Toolbox talk to all forklift operators and pedestrian workers on blind-spot risk and 360° check discipline | Individual action and pedestrian action factors | Administrative | Site WHS Coordinator | 30 June 2026 |
-| Quarterly TMP compliance audit added to assurance program; results to BU GM Zero Harm | Organisational factor: assurance gap | Administrative | BU GM Zero Harm | First audit by 30 September 2026 |
-| Network-wide review of TMP application across DC portfolio | Organisational factor: pattern likely beyond this site | Administrative | Group WHS | 31 December 2026 |
+| Apply physical exclusion zones (barriers + signage) to all stocktake activity in active aisles | Absent control: physical exclusion zone | Engineering / Administrative | M. Donato (Site Manager) | 30 June 2026 |
+| Retrofit reverse cameras and proximity-warning systems to forklift fleet at Sydney DC | Engineering control gap | Engineering | S. Keller (Procurement Manager) | 31 December 2026 |
+| Rescind verbal "spot-check" authorisation route; require written TMP-aligned authorisation for any aisle pedestrian activity | Organisational drift in TMP application | Administrative | T. Nguyen (Operations Manager) | 30 June 2026 |
+| Toolbox talk to all forklift operators and pedestrian workers on blind-spot risk and 360° check discipline | Individual action and pedestrian action factors | Administrative | L. Okafor (Site WHS Coordinator) | 30 June 2026 |
+| Quarterly TMP compliance audit added to assurance program; results to BU GM WHS | Organisational factor: assurance gap | Administrative | J. Tan (BU GM WHS) | First audit by 30 September 2026 |
+| Network-wide review of TMP application across DC portfolio | Organisational factor: pattern likely beyond this site | Administrative | E. Walsh (Group WHS Manager) | 31 December 2026 |
 
 ## 10. Conclusions
 

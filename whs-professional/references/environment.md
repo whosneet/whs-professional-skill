@@ -56,14 +56,15 @@ environmental obligations that fall to WHS/EHS practitioners. Specifically:
 ### What this file does NOT cover
 - Sustainability reporting (GRI, SASB, TCFD, ISSB) — these are corporate reporting
   frameworks, not operational environmental management. Some overlap with NGER
-  Scope 1+2+3 below, but full sustainability disclosure is out of scope.
+  Scope 1+2 reporting below (NGER does not mandate Scope 3), but full
+  sustainability disclosure is out of scope.
 - Carbon accounting methodology beyond NGER thresholds
 - Detailed contaminated land remediation engineering (load specialist consultants)
 
 ### Why this matters for WHS roles
 - Most incident classification matrices treat environment as a consequence
-  dimension ([organisation] [incident system] uses 1–6 across H&S, Environment, Plant/Property,
-  Legal/Compliance — see `company.md` §5). A WHS investigator who cannot
+  dimension alongside H&S, plant/property, and legal/compliance (see the
+  worked example in `company.md` §5). A WHS investigator who cannot
   classify environmental consequence cannot complete the matrix.
 - Notifiable environmental incidents must be reported within hours under most
   state EPA Acts — the same incident often triggers parallel WHS regulator
@@ -102,14 +103,38 @@ nine MNES:
 6. Commonwealth marine areas
 7. The Great Barrier Reef Marine Park
 8. Nuclear actions (uranium mining, large-scale disposal, nuclear installations)
-9. A water resource, in relation to coal seam gas development and large coal mining
-   development (the "water trigger", added 2013)
+9. A water resource, in relation to coal seam gas development, large coal mining
+   development and — following the **December 2023 expansion** of the "water
+   trigger" (first added 2013) — **all forms of unconventional gas development**
 
 **Controlled action** = action likely to have a significant impact on an MNES;
 requires assessment and approval under Part 9 of the EPBC Act. Penalties for
-unauthorised controlled actions are severe (civil penalty up to $13.75M for a
-body corporate as at the 2024 indexation; criminal offence carries imprisonment
-for individuals).
+unauthorised controlled actions are severe (civil penalty up to 50,000 penalty
+units for a body corporate — **$16.5M at the $330 penalty unit value** — and
+the 2025 reform package raises maximum penalties further; criminal offence
+carries imprisonment for individuals).
+
+**2025 federal environmental law reform — transition in progress (as at
+June 2026)**: the Commonwealth environmental reform package passed the
+Parliament on **28 November 2025** (assent 1 December 2025), comprising:
+
+- **Environment Protection Reform Act 2025** — restructures the EPBC
+  assessment and approval framework around new **National Environmental
+  Standards** as the decision-making backbone, with substantially higher
+  civil and criminal penalties
+- **National Environmental Protection Agency Act 2025** — establishes a
+  federal **EPA** as an independent compliance and enforcement regulator
+- **Environment Information Australia Act 2025** — establishes Environment
+  Information Australia as the national environmental data and reporting
+  body
+
+Commencement is staged: **Tranche 1 from 20 February 2026**, **Tranche 2
+from 1 July 2026**, with the framework fully in force by **1 December
+2026**. The EPBC arrangements described in this section are transitioning
+across that period — referral, assessment, and enforcement pathways can
+differ depending on when an action is referred. **Verify the current
+status of the new framework before relying on any EPBC-era description
+here.**
 
 **Practical implications for FM and construction portfolios**:
 - Greenfield civil and construction works require an EPBC referral if MNES are
@@ -188,7 +213,7 @@ must implement. Key NEPMs:
 |---|---|---|---|
 | NSW | Protection of the Environment Operations Act 1997 (POEO Act) | NSW EPA | Tier 1/2/3 offence structure; Environment Protection Licences (EPLs) for scheduled activities |
 | VIC | Environment Protection Act 2017 | EPA Victoria | Major 2021 reforms — **General Environmental Duty (GED)** in force from 1 July 2021; tiered permit/licence/registration regime |
-| QLD | Environmental Protection Act 1994 (EP Act) | Department of Environment, Science and Innovation (DESI) | Environmentally Relevant Activities (ERAs) trigger licensing; **general environmental duty** s 319 |
+| QLD | Environmental Protection Act 1994 (EP Act) | Department of the Environment, Tourism, Science and Innovation (DETSI — post-2024 name) | Environmentally Relevant Activities (ERAs) trigger licensing; **general environmental duty** s 319 |
 | WA | Environmental Protection Act 1986 | Department of Water and Environmental Regulation (DWER) | Prescribed Premises licensing under Part V |
 | SA | Environment Protection Act 1993 | EPA South Australia | Schedule 1 licensable activities; general environmental duty s 25 |
 | TAS | Environmental Management and Pollution Control Act 1994 (EMPCA) | EPA Tasmania | Level 1/2/3 activities; environment protection notices |
@@ -483,7 +508,7 @@ themselves separate offences in most jurisdictions.
 |---|---|---|---|---|
 | **NSW** | POEO Act 1997 s 148 | Pollution incident causing or threatening material harm | Immediately; written follow-up within 7 days | NSW EPA, local council, Ministry of Health, SafeWork NSW, FRNSW |
 | **VIC** | EP Act 2017 s 32 | Notifiable incident (defined in Reg 24 — fire, explosion, contamination of waters/land, asbestos release, significant discharge) | As soon as practicable | EPA Victoria 1300 372 842 |
-| **QLD** | EP Act 1994 s 320 + s 320A | Material/serious environmental harm or risk of | Within 24 hrs of becoming aware | Administering authority (DESI or local govt) |
+| **QLD** | EP Act 1994 s 320 + s 320A | Material/serious environmental harm or risk of | Within 24 hrs of becoming aware | Administering authority (DETSI or local govt) |
 | **WA** | EP Act 1986 s 72 | Discharge of waste causing pollution | As soon as practicable | DWER |
 | **SA** | EP Act 1993 s 83 | Serious or material environmental harm | As soon as reasonably practicable | EPA SA |
 | **TAS** | EMPCA s 32 | Emission causing or threatening serious or material environmental harm | As soon as reasonably practicable | EPA Tasmania |
@@ -514,15 +539,15 @@ $500K individual + daily continuing offence.
 ### 6.4 Internal Escalation Parallel to WHS
 
 Environmental incidents should be classified using the same matrix as WHS
-incidents (most internal classifications do this — see [organisation] [incident system] in
-`company.md` §5 for a worked example where environment is the second consequence
-dimension in a 1–6 rating).
+incidents (most internal classifications do this — see the worked example in
+`company.md` §5, where environment is a consequence dimension in the
+organisation's rating scale).
 
 | Severity | Environmental example | Internal response |
 |---|---|---|
 | **1 — Very Low** | Drip from machinery — captured on absorbent mat; no release to environment | Logged; cleanup; no formal investigation |
 | **2 — Low** | Minor hydrocarbon spill <20 L; fully contained on hardstand; community complaint resolved on the spot | Logged in incident system; supervisor cleanup; 5-Why |
-| **3 — Medium** | Notifiable spill (state-dependent); short-term turbidity in stormwater; cleanup within hours | Regulator notification triggered; internal investigation (DG-ZH-FM006 equivalent); lessons shared |
+| **3 — Medium** | Notifiable spill (state-dependent); short-term turbidity in stormwater; cleanup within hours | Regulator notification triggered; internal investigation (per the organisation's incident form); lessons shared |
 | **4 — High** | Material harm threshold tripped; ground/groundwater contamination requiring assessment; sustained community impact | ICAM investigation; senior leader engagement; consultant engaged for site assessment |
 | **5 — Very High** | Major fish kill / waterway contamination; widespread air emission; serious environmental harm | Crisis response; legal counsel; prosecution risk; ELT briefing |
 | **6 — Extreme** | Catastrophic ecosystem damage; multi-jurisdictional impact; long-term community/economic harm | Crisis management team activation; board notification; external counsel; potential officer liability |
@@ -590,20 +615,27 @@ contexts. Key obligations:
 - **Ignition source control**: hazardous area classification per AS/NZS 60079.10.1
 - **Spill containment** and clean-up materials available
 
-### 7.3 Bunding — the 110% + 25% Rule
+### 7.3 Bunding — the 110% / 25% Rules
 
-The standard bunding capacity rule, drawn from AS 1940 and EPA guidelines:
+The standard bunding capacity rules, drawn from AS 1940 and state EPA bunding
+guidelines. The two percentages apply to **different storage configurations**
+— they are not added together:
 
-**Bund capacity** ≥ the greater of:
-- **110%** of the volume of the largest single container in the bund (covering
-  catastrophic failure of the largest tank), **PLUS** capacity to capture
-- **25%** of the aggregate rainfall volume on the bund area over a defined
-  rainfall event (typical: 24-hour, 1-in-10-year ARI event — check state EPA
-  guidelines)
+- **Tank storage**: net bund capacity ≥ **110% of the largest single tank**
+  within the bund (covers catastrophic failure of the largest tank with a
+  margin)
+- **Package stores** (drums, IBCs, packaged containers): bund capacity ≥
+  **25% of the aggregate volume stored** in the bunded area — check the
+  applicable AS 1940 clause for the store type and quantity band
+- **Uncovered / outdoor bunds**: an additional **rainfall/freeboard
+  allowance** on top of the relevant capacity above, sized to a defined
+  design rainfall event per state EPA bunding guidance — check the relevant
+  EPA guideline for the required event
 
-For outdoor bunds, the rainfall capture component matters — many bunds designed
-to 110% only have failed during heavy rainfall. Roofed bunds avoid this but
-introduce ventilation, fire suppression, and confined space considerations.
+For outdoor bunds the rainfall allowance matters — bunds built to the bare
+capacity minimum fail in heavy rain when accumulated stormwater displaces
+containment capacity. Roofed bunds avoid this but introduce ventilation, fire
+suppression, and confined space considerations.
 
 **Compatible materials only**: a bund holding sulphuric acid cannot share with
 caustic; a bund holding diesel cannot share with a Class 5.1 oxidiser. AS 1940
@@ -702,7 +734,7 @@ contamination of a specified description is discovered:
 
 | Jurisdiction | Statutory basis | Trigger |
 |---|---|---|
-| **NSW** | Contaminated Land Management Act 1997 s 60 | Duty to report contamination that meets the "significant risk of harm" trigger |
+| **NSW** | Contaminated Land Management Act 1997 s 60 | Duty to report contamination **significant enough to warrant regulation**, assessed against EPA guidelines (the pre-2009 "significant risk of harm" wording no longer applies) |
 | **VIC** | EP Act 2017 + EP Regs 2021 (Part 6.5) | Contaminated land notification; PFAS specific guidance |
 | **QLD** | EP Act 1994 s 320D | Duty to notify of notifiable activity contamination |
 | **WA** | Contaminated Sites Act 2003 s 11 | Mandatory reporting of known/suspected contaminated sites |
@@ -758,7 +790,7 @@ Reportable Priority Waste under EP Act 2017); WA Environmental Protection
 
 | State | Scheme | System |
 |---|---|---|
-| **NSW** | EPA Waste Tracking | WasteLocate / paper consignments; required for asbestos, contaminated soil, regulated waste >100 kg/L |
+| **NSW** | WasteLocate + trackable waste consignment tracking (two distinct systems) | **WasteLocate**: asbestos waste (loads >100 kg or >10 m² of sheeting) and waste tyres. **Separately**: POEO trackable wastes (scheduled liquid/hazardous wastes) move under the EPA's consignment-tracking requirements |
 | **VIC** | Reportable Priority Waste (RPW) | EPA Waste Tracker (electronic) |
 | **QLD** | Regulated Waste Tracking | QLDe-Waste tracker; required for listed waste >250 kg/L |
 | **WA** | Controlled Waste | Controlled Waste Tracking System (CWTS) |
@@ -837,14 +869,20 @@ Licence conditions typically specify:
 ### 10.2 Stormwater Management for Construction
 
 State EPA guidelines and the NSW "Blue Book" (Managing Urban Stormwater: Soils
-and Construction Vol 1 — Landcom 2004) are the operational references. Typical
-trigger thresholds:
+and Construction Vol 1 — Landcom 2004) are the operational references. Commonly
+applied NSW practice:
 
-- **Soil disturbance ≥2,500 m²** — Erosion and Sediment Control Plan (ESCP)
-  required
-- **Soil disturbance ≥1 ha** — Soil and Water Management Plan (SWMP) or
-  equivalent
+- **Soil disturbance from ~250 m²** — Erosion and Sediment Control Plan (ESCP)
+  required (the Blue Book applies to urban construction sites above 250 m²)
+- **Soil disturbance >2,500 m²** — a more comprehensive Soil and Water
+  Management Plan (SWMP) prepared in accordance with the Blue Book
+- **Below ~250 m²** — a formal plan is typically not conditioned, but the duty
+  not to pollute waters (POEO Act s 120) still applies
 - **Soil disturbance in sensitive catchment** — additional consent conditions
+
+Trigger areas are applied through development consent conditions and vary
+between consent authorities — confirm against current Landcom/Blue Book
+guidance and the relevant council's requirements.
 
 Standard sediment and erosion controls (E&SC):
 - Sediment fences (geofabric, properly toed and overlapped)
@@ -965,7 +1003,7 @@ require both.
   involve both Aboriginal heritage and native title processes
 - Engagement timeframes are long — CHMPs in VIC commonly take 6–12 months
 - Stop-work clauses in heritage-affected scopes are standard; build into
-  programme contingency
+  program contingency
 - Worker training on cultural heritage awareness should be standard induction
   content where any chance of artefact discovery exists
 
@@ -993,16 +1031,21 @@ environmental dimension:
 ### 12.2 Bushfire Smoke and Air Quality
 
 The 2019–2020 Black Summer bushfires established sustained PM₂.₅ exceedances
-as a routine workplace exposure issue. Operational thresholds (NSW Health
-"Air Quality Categories"):
+as a routine workplace exposure issue. NSW reports five **Air Quality
+Categories (AQC)** — Good / Fair / Poor / Very Poor / Extremely Poor — against
+hourly site data, with numeric cut-points set per pollutant and revised
+periodically (PM₂.₅ reporting was overhauled after the 2020 fine-particle
+review). The activity guidance below is **indicative** — confirm the current
+numeric cut-points against the Air Quality NSW AQC tables before embedding
+thresholds in a procedure:
 
-| AQI band | PM₂.₅ µg/m³ (24-hr) | Sensitive group response | General response |
-|---|---|---|---|
-| Good | 0–9 | Normal activity | Normal activity |
-| Fair | 10–25 | Normal activity | Normal activity |
-| Poor | 26–39 | Reduce prolonged outdoor exertion | Normal activity |
-| Very Poor | 40–106 | Avoid prolonged outdoor exertion | Reduce prolonged outdoor exertion |
-| Extremely Poor | ≥107 | Avoid all outdoor physical activity | Avoid prolonged outdoor exertion |
+| AQC band | Sensitive group response | General response |
+|---|---|---|
+| Good | Normal activity | Normal activity |
+| Fair | Normal activity | Normal activity |
+| Poor | Reduce prolonged outdoor exertion | Normal activity |
+| Very Poor | Avoid prolonged outdoor exertion | Reduce prolonged outdoor exertion |
+| Extremely Poor | Avoid all outdoor physical activity | Avoid prolonged outdoor exertion |
 
 Operational controls during smoke events:
 - Real-time AQI monitoring (AirRater app; state EPA networks)
@@ -1055,7 +1098,9 @@ Before finalising any environmental output, confirm:
 - [ ] Notifiable thresholds checked against state EPA trigger language — not paraphrased
 - [ ] Aspects/impacts thinking applied to operational risk tasks (not just hazards)
 - [ ] Waste hierarchy applied top-down to disposal/treatment recommendations
-- [ ] Bunding capacity calculation includes both 110% and 25% rainfall components
+- [ ] Bunding capacity rule matched to storage type (≥110% of largest tank for
+      tank storage; ≥25% of aggregate volume for package stores) plus rainfall
+      allowance for uncovered bunds
 - [ ] Spill response sequence covers stop > contain > notify > assess > remediate
 - [ ] Climate adaptation considerations included for outdoor/heat-exposed tasks
 - [ ] Heritage and native title engagement noted where ground disturbance involved

@@ -16,6 +16,8 @@
 11. [Forge Works Blueprint](#11-forge-works-blueprint)
 12. [Safety Science — Named Thinkers](#12-safety-science--named-thinkers)
 13. [WHS in M&A and Due Diligence](#13-whs-in-ma-and-due-diligence)
+14. [Psychosocial Risk Controls](#14-psychosocial-risk-controls)
+15. [Governance and Assurance Frameworks](#15-governance-and-assurance-frameworks)
 
 > For organisation-specific risk frameworks (matrix values, likelihood criteria,
 > consequence ratings, HIRAC hierarchies, risk acceptance authorities), load
@@ -80,7 +82,7 @@ use SFAIRP, not ALARP.
 | 4.2 | Interested parties | Workers, regulators, contractors, customers, community |
 | 4.3 | Scope | Boundaries and applicability of the OH&S MS |
 | 4.4 | OH&S MS | Establish, implement, maintain, continually improve |
-| 5 | Leadership | Top management commitment; policy; roles |
+| 5 | Leadership and worker participation | Top management commitment; policy; roles |
 | 5.1 | Leadership and commitment | Active engagement, not delegation |
 | 5.2 | OH&S Policy | Committed to: preventing injury/illness; meeting legal obligations; worker consultation; continual improvement |
 | 5.3 | Roles, responsibilities, accountabilities | Assign and communicate |
@@ -99,7 +101,7 @@ use SFAIRP, not ALARP.
 | 8.2 | Emergency preparedness and response | Identify potential situations; plan; test |
 | 9 | Performance evaluation | Monitoring; internal audit; management review |
 | 9.1 | Monitoring, measurement, analysis, evaluation | Define what, how, when, by whom |
-| 9.2 | Internal audit | Programme; criteria; competent auditors; report to management |
+| 9.2 | Internal audit | Program; criteria; competent auditors; report to management |
 | 9.3 | Management review | Periodic; agenda includes audit results, incidents, objectives progress |
 | 10 | Improvement | Incident investigation; nonconformity + corrective action; continual improvement |
 | 10.1 | General | Improve to achieve intended outcomes |
@@ -117,7 +119,7 @@ Prioritise gaps in: 5.4 (worker consultation), 6.1.2 (hazard identification), 8.
 - Legal register not current or not communicated (6.1.3)
 - Objectives not measurable or not monitored (6.2)
 - Contractors not subject to equivalent OH&S requirements (8.1.4)
-- Internal audit programme not being followed (9.2)
+- Internal audit program not being followed (9.2)
 - Corrective action effectiveness not verified (10.2)
 
 ---
@@ -415,8 +417,10 @@ changing processes that affect safety.
 Workers have the right to elect HSRs. HSRs have statutory powers:
 - Right to accompany an inspector
 - Right to request a workplace inspection
-- Can issue Provisional Improvement Notices (PINs)
-- Can direct workers to cease unsafe work (in most jurisdictions)
+- Can issue Provisional Improvement Notices (PINs) — but only once the HSR has
+  completed the approved HSR training course (model Act s 90)
+- Can direct workers to cease unsafe work (in most jurisdictions) — likewise
+  conditional on completed approved HSR training (model Act s 85)
 - Protected from discrimination for exercising HSR functions
 
 PCBUs must facilitate HSR elections if requested and provide HSR training (5 days,
@@ -496,7 +500,7 @@ The Forge Works model challenges over-reliance on TRIFR/LTIFR as performance pro
   - Capacity indicators: workforce coverage in CCV, HiPo investigation completion rates
   - Engagement indicators: near miss reporting rate, worker-initiated hazard reports
   - Learning indicators: corrective action quality, lessons applied across sites
-  - Alignment indicators: CRO activity vs HiPo distribution gap
+  - Alignment indicators: CCV activity vs HiPo distribution gap
 
 **6. Worker Engagement as Intelligence**
 Workers performing the work have real-time intelligence about WAD that no procedure,
@@ -520,15 +524,16 @@ When applying Forge Works at division or business-unit level:
 - Board/ELT reporting should reflect system health (capacity and engagement
   indicators) alongside traditional lagging metrics
 
-> For your organisation's named critical risk categories, CRO structure, and
-> program brand architecture, see `references/company.md`.
+> For your organisation's named critical risk categories, critical control
+> verification (CCV) structure, and program brand architecture, see
+> `references/company.md`.
 
 
 ---
 
 ## 12. Safety Science — Named Thinkers
 
-Many of the concepts in Sections 6–9 trace to identifiable researchers whose work
+Many of the concepts in Sections 4–11 trace to identifiable researchers whose work
 underpins modern safety practice. Knowing the source of a concept matters when
 arguing it to a sceptical board, peer-reviewing a Zero Harm program design, or
 demonstrating the evidence base behind a position. The mapping below connects the
@@ -548,9 +553,12 @@ demand it.
 - **GEMS (Generic Error Modelling System)** — skill-based slips and lapses,
   rule-based mistakes, knowledge-based mistakes. Useful in classifying human
   performance failures.
-- **Just Culture** (with Marx, Dekker) — distinguishes blameless human error from
-  at-risk behaviour from reckless conduct. A practical algorithm for response
-  proportionate to the conduct.
+- **Just Culture** — a lineage rather than a co-authorship: Reason's culpability
+  decision tree (*Managing the Risks of Organizational Accidents*, 1997)
+  distinguished blameless human error from at-risk behaviour from reckless
+  conduct; David Marx (2001) developed it into a practical algorithm for
+  response proportionate to the conduct; Dekker (*Just Culture*, 2007) later
+  reframed the question toward restorative practice.
 
 ### Sidney Dekker — Just Culture, New View, Drift, Restorative Practice
 - *The Field Guide to Understanding 'Human Error'* (2014) — the case against
@@ -559,15 +567,18 @@ demand it.
 - *Drift into Failure* (2011) — slow, incremental departure from safe operating
   envelopes; failure is normal in complex systems undergoing competitive pressure.
   Connects to systemic goal management.
-- *The Field Guide to Understanding Human Error* and *Just Culture* — distinguishes
-  retributive from restorative responses to incidents. Restorative just culture
-  asks "who is hurt, what do they need, whose obligation is it to meet that need?"
-- *Safety Differently* (with Provan) — a practitioner-oriented synthesis;
-  positions safety as people's ability to make things go well rather than the
-  absence of failure.
+- *Just Culture: Balancing Safety and Accountability* (2007; 3rd ed. 2016) —
+  distinguishes retributive from restorative responses to incidents. Restorative
+  just culture asks "who is hurt, what do they need, whose obligation is it to
+  meet that need?"
+- *Safety Differently: Human Factors for a New Era* (2014) — a
+  practitioner-oriented synthesis; positions safety as people's ability to make
+  things go well rather than the absence of failure.
 
 ### Erik Hollnagel — Safety I vs Safety II, FRAM, ETTO, Resilience
-- **Safety I vs Safety II** (*From Safety-I to Safety-II*, 2014) — Safety I:
+- **Safety I vs Safety II** (*Safety-I and Safety-II: The Past and Future of
+  Safety Management*, 2014; the shorter white paper *From Safety-I to
+  Safety-II*, with Wears and Braithwaite, followed in 2015) — Safety I:
   safety is the absence of accidents; learn from what went wrong. Safety II: safety
   is the presence of successful outcomes; learn from what goes right, which is the
   vast majority of work. Both are needed; over-reliance on Safety I is the
@@ -579,13 +590,13 @@ demand it.
   organisations constantly trade thoroughness for efficiency; the resulting
   variability is what makes both successes and failures possible.
 - **Four Resilience Capacities** — anticipate, monitor, respond, learn.
-  Cited in Section 9 above.
+  Cited in Section 6 above.
 
 ### Todd Conklin — Human and Organisational Performance (HOP)
 - *Pre-Accident Investigations* (2012) — HOP foundation text. Workers are not
   the problem; workers are the solution. Error is normal. Blame fixes nothing.
-- **HOP 5 Principles**: (1) error is normal, (2) blame fixes nothing, (3) learning
-  and improving is vital, (4) context drives behaviour, (5) how leaders respond
+- **HOP 5 Principles**: (1) error is normal, (2) blame fixes nothing, (3) context
+  drives behaviour, (4) learning and improving is vital, (5) how leaders respond
   to failure matters.
 - HOP is operational philosophy translated from Safety II / High Reliability
   Organisation theory; the most directly actionable framing for frontline
@@ -601,14 +612,19 @@ demand it.
 - *Right Kind of Wrong* (2023) — distinguishes basic, complex, and intelligent
   failures; argues that intelligent failures are the engine of learning.
 
-### David Provan — Safety Professional Role, Safety Differently
-- *Safety Differently* (with Dekker, 2018) — practitioner synthesis of New View
-  thinking applied to organisational safety practice.
+### David Provan — Safety Professional Role, Safety Clutter
+- Co-authored journal papers with Dekker and Rae carry the practitioner-facing
+  argument: the safety professional role literature review (Provan, Dekker &
+  Rae, 2017, *Safety Science*) and "Safety clutter: the accumulation and
+  persistence of 'safety' work that does not contribute to operational safety"
+  (Rae, Provan, Weber & Dekker, 2018). Note: *Safety Differently* (2014) is
+  Dekker's sole-authored book — Provan's contribution to the movement is the
+  journal work, not the book.
 - PhD thesis (Griffith University) on the role of the safety professional —
   argues against the safety professional as compliance enforcer, in favour of the
   safety professional as adviser, facilitator, learner.
-- **Brain Strain** and **The Safety of Work** podcasts (with Drew Rae) — applied
-  safety science accessible to practitioners; useful continuing development source.
+- **The Safety of Work** podcast (with Drew Rae) — applied safety science
+  accessible to practitioners; useful continuing development source.
 
 ### Jens Rasmussen — Skills-Rules-Knowledge, Drift, AcciMap
 - **Skills-Rules-Knowledge framework** — three levels of cognitive performance;
@@ -623,15 +639,28 @@ demand it.
 
 ### Andrew Hopkins — Australian Safety Researcher
 - *Failure to Learn* (Texas City, 2008), *Disastrous Decisions* (Deepwater
-  Horizon, 2012), *Lessons from Esso's Gas Plant Explosion at Longford* (2000) —
+  Horizon, 2012), *Lessons from Longford: The Esso Gas Plant Explosion* (2000) —
   the strongest available case study material on organisational accidents in
   process industries, written by an Australian sociologist and accessible to
   practitioners.
-- Major recurring themes: mindfulness vs collective mindfulness, decentralised
+- Major recurring themes: individual vs collective mindfulness, decentralised
   decision-making, the failure of indicator-based safety management, the role of
   organisational culture in catastrophic accidents.
 - Essential reading for AU practitioners; the analytical lens applies directly
   to Australian process industry contexts.
+
+### Ron Westrum — Organisational Typology, Information Flow
+- **Three-part organisational typology** (1993; restated in "A typology of
+  organisational cultures", 2004) — pathological, bureaucratic, and generative
+  cultures, distinguished by how the organisation processes safety-relevant
+  information: whether messengers are shot, tolerated, or trained.
+- The typology is the foundation of the five-level Hudson culture ladder
+  (pathological → reactive → calculative → proactive → generative), which Hudson
+  and Parker developed for Shell's Hearts and Minds program — see
+  `capability-culture.md` §2 for the ladder and its correct attribution.
+- Information flow is the master diagnostic: how an organisation treats the
+  bearer of bad news predicts how it will handle hazards, near misses, and
+  emerging risk. Useful when arguing for reporting-culture investment.
 
 ### Karl Weick — High Reliability Organisations, Sensemaking
 - *Managing the Unexpected* (with Sutcliffe, 2007) — five characteristics of
@@ -654,7 +683,9 @@ shorthand for established legitimacy.
 
 ### Why WHS due diligence matters in transactions
 
-WHS exposure travels with the asset. An acquirer inherits:
+WHS exposure travels with the transaction — most completely in a **share deal**,
+where the acquirer takes the entity and everything attached to it. In a share
+deal the acquirer inherits:
 
 - Open workers compensation claims and the long-tail of claim run-off liability
   (psychological injury claims and chronic disease claims are the highest-value
@@ -668,6 +699,13 @@ WHS exposure travels with the asset. An acquirer inherits:
 - Latent disease exposure (asbestos, silica, chemical) — claims may emerge
   decades post-exposure
 - Contingent liabilities from contractor and supplier arrangements
+
+In an **asset deal**, entity-level criminal exposure — open prosecutions,
+enforceable undertakings, and industrial manslaughter liability for events under
+prior ownership — generally remains with the vendor entity rather than
+transferring, although workforce, plant, claims run-off, and latent disease
+exposures can still travel with the assets and people acquired (see Deal
+structuring implications below).
 
 WHS due diligence findings inform deal pricing, warranties and indemnities,
 completion conditions, and post-acquisition integration priorities.
@@ -728,7 +766,7 @@ Post-acquisition WHS integration typically focuses on:
    incident reporting
 2. **30–90 days** — align the acquired entity's WHS management system to the
    acquirer's standards; identify gaps; prioritise high-risk gaps for closure
-3. **6–12 months** — integrate critical risk taxonomy and CCV programme; align
+3. **6–12 months** — integrate critical risk taxonomy and CCV program; align
    training and competency frameworks; consolidate workers compensation
    arrangements
 4. **12–18 months** — integration into the acquirer's governance and assurance
@@ -743,7 +781,7 @@ Post-acquisition WHS integration typically focuses on:
   engagement reveal more than documents
 - Underestimating latent disease and psychological injury claim trajectories
 - Assuming current WHS culture transfers cleanly under new ownership (it
-  rarely does; cultural integration is a 2–3 year programme)
+  rarely does; cultural integration is a 2–3 year program)
 - Inadequate transition planning for critical control accountability during the
   ownership change — accountability gaps in the first 30 days are a documented
   pattern in post-acquisition incidents
@@ -771,8 +809,9 @@ Additional documents and considerations:
   presumptive claims (cross-ref `compensation-rtw.md` §12)
 - **Indigenous land use agreements** — cross-ref `diversity-inclusion.md`
   §1; native title obligations transfer
-- **Mining-specific regulator engagement** — Resources Safety NSW, RSHQ
-  (QLD), DMIRS (WA); cross-ref `sector-regimes.md` §2
+- **Mining-specific regulator engagement** — NSW Resources Regulator, RSHQ
+  (QLD), WorkSafe WA (mines safety under the WHS Act 2020 (WA); the former
+  regulator DMIRS was dissolved in June 2025); cross-ref `sector-regimes.md` §2
 
 #### Healthcare sector overlay
 
@@ -806,9 +845,12 @@ Additional considerations:
   delivery; close-out — each phase has different WHS risk
 - **HRCW register** — the 18 HRCW categories (cross-ref `hazards.md` §8);
   ongoing SWMS compliance; recent regulator inspections
-- **Latent disease exposure** — asbestos (pre-2004 buildings), silica
-  (post-2024 reduced WES), engineered stone (legacy work post-ban —
-  cross-ref `hazards.md` §1); workforce exposure history
+- **Latent disease exposure** — asbestos (pre-2004 buildings); respirable
+  crystalline silica — note the distinct regulatory steps: the RCS workplace
+  exposure standard was halved to 0.05 mg/m³ in 2020, the engineered stone
+  prohibition commenced 1 July 2024, and the crystalline silica process (CSP)
+  regulations commenced 1 September 2024; engineered stone legacy work —
+  cross-ref `hazards.md` §1; workforce exposure history
 - **Construction industry-specific compliance** — General Construction
   Induction (white card) currency, HRWL register, scaffold certification
   (cross-ref `legislation.md` §11)
@@ -824,3 +866,194 @@ seller has reciprocal interest in clean documentation).
 
 > For organisation-specific WHS due diligence checklists and integration
 > playbooks, load `references/company.md`.
+
+---
+
+## 14. Psychosocial Risk Controls
+
+This section covers the **control frameworks** for psychosocial risk. For the
+legal layer — the model WHS Regulations psychosocial amendments, jurisdictional
+adoption status, and the SWA Code of Practice — load `legislation.md` §9. For
+the canonical psychosocial hazard list (job demands, job control, support, role
+clarity, change management, reward and recognition, organisational justice,
+remote/isolated work, violence and aggression, bullying, harassment, traumatic
+events), see SKILL.md §7.
+
+### Core principle: same discipline as physical hazards
+
+Psychosocial hazards are managed with the same risk management discipline as
+physical hazards — identify, assess, control SFAIRP (Section 2), review. The
+most common failure is abandoning the hierarchy of controls at the door and
+reaching straight for individual-level supports. The hierarchy applies; it just
+maps onto **work design** rather than plant and substances.
+
+### Hierarchy of controls applied to psychosocial hazards
+
+| Hierarchy level | Psychosocial application | Examples |
+|---|---|---|
+| **Elimination / substitution (work design)** | Remove or redesign the source of harm in how work is organised | Rebalance workloads and staffing to match demands; redesign rosters that drive fatigue and isolation; remove perverse performance incentives; redesign customer-facing processes that generate aggression |
+| **Engineering / isolation (work environment)** | Physical and structural separation from the hazard | Duress alarms and safe rooms; barriers and sight-lines in client-facing settings; controlled access; remote work hubs to reduce isolation |
+| **Administrative (systems of work)** | Procedures, training, and role definition that reduce exposure | Role clarity documentation; change management procedures with genuine consultation; workload monitoring and escalation triggers; anti-bullying and complaint-handling procedures; manager capability training |
+| **Individual supports (lowest tier)** | Supports for the person, not controls on the hazard | EAP, peer support, mental health first aid, resilience and wellbeing programs, post-incident psychological support |
+
+**Work design comes first.** The highest-order psychosocial controls act on job
+demands, resourcing, role clarity, and organisational change management — the
+design of the work itself. Administrative controls (training, procedures) come
+second. Individual supports come last.
+
+**EAP is a support, not a control.** An EAP does nothing to the hazard — it
+responds to the harm after exposure. A psychosocial risk register that lists
+"EAP" as the control for high job demands is the equivalent of listing "first
+aid kit" as the control for an unguarded saw. The same applies to resilience
+training and wellbeing programs offered in place of work redesign: they are
+legitimate supports, and they are not controls. Regulators have said this
+explicitly; so does the SWA Code (see `legislation.md` §9).
+
+### ISO 45003:2021 — Psychological Health and Safety at Work
+
+ISO 45003:2021 (*Occupational health and safety management — Psychological
+health and safety at work — Guidelines for managing psychosocial risks*) is the
+first international standard on psychosocial risk management:
+
+- A **guidance standard, not a certifiable one** — it supports an ISO 45001
+  OH&S management system (Section 3) rather than standing alone; organisations
+  certify to 45001 and use 45003 to extend the system to psychosocial risk
+- Follows the 45001 clause structure (context, leadership, planning, support,
+  operation, performance evaluation, improvement), so a gap analysis can run
+  off the same clause map as Section 3
+- Provides worked examples of psychosocial hazards across three groupings —
+  how work is organised, social factors at work, and work environment /
+  equipment / hazardous tasks — broadly aligned with the SWA hazard categories
+- Most useful in practice as a design reference for integrating psychosocial
+  risk into an existing OH&S MS, and as an evidence anchor when a board asks
+  "what does good look like internationally"
+
+### Measurement
+
+| Method | What it gives you | Notes |
+|---|---|---|
+| Psychosocial risk assessment | Hazard-by-hazard exposure and control adequacy | Same HIRAC logic as physical risk; assess cumulative exposure (multiple hazards interacting), not just single hazards |
+| Validated survey instruments | Workforce-level exposure data and trend | People at Work (the free, validated, Australian-regulator-endorsed psychosocial risk assessment survey) is the AU default; COPSOQ (Copenhagen Psychosocial Questionnaire) is the international research standard |
+| Climate survey integration | Psychosocial domain within broader safety climate measurement | See `capability-culture.md` §3 for instrument selection, anonymity rules (minimum n=10 reporting groups), and survey design principles |
+| Behavioural and system data | Convergent evidence | Psychological injury claims and trajectory, complaint and grievance data, absenteeism and turnover by unit, EAP utilisation themes (aggregate only), exit interview themes |
+
+Survey data is exposure intelligence, not a verdict — triangulate against
+claims, complaints, and workload data before concluding a unit is high-risk, and
+connect every finding to an action owner (the discipline in
+`capability-culture.md` §3 applies unchanged).
+
+### Common failure modes
+
+- **Support-only response** — EAP, wellbeing apps, and resilience training
+  while demands, resourcing, and role design stay untouched
+- **Survey without consequence** — measuring psychosocial climate annually and
+  changing nothing; degrades trust faster than not measuring at all
+- **HR capture** — treating psychosocial risk as purely an HR/complaints
+  process rather than a WHS risk management process; the duty is the PCBU's
+  WHS duty and the hierarchy applies
+- **Individual-case thinking** — managing each complaint as an isolated
+  interpersonal matter without asking what the pattern says about work design
+
+---
+
+## 15. Governance and Assurance Frameworks
+
+This section covers how organisations satisfy themselves — and demonstrate to
+boards, officers, and regulators — that WHS risk is actually controlled. It
+complements Section 8 (board reporting structure) and `legislation.md` §6
+(officer due diligence toolkit).
+
+### Governance vs management
+
+- **Management** does the work: owns risks, operates controls, delivers
+  programs, responds to incidents.
+- **Governance** directs and verifies the work: sets risk appetite and policy,
+  allocates resources, monitors performance, and verifies that what management
+  reports is true.
+
+A board that manages (approving individual corrective actions) and a management
+team that self-governs (marking its own homework) are both failure patterns.
+The governance question is not "did we do safety activity?" — it is "how do we
+know the risk is controlled, and how good is that knowledge?"
+
+### Audit, assurance, and CCV — three different instruments
+
+| Instrument | Question it answers | Depth and frequency | Performed by |
+|---|---|---|---|
+| **Audit** | Does the management system conform to its stated requirements (ISO 45001, internal standards, legal register)? | Periodic (annual/cyclical), sampled, documented | Internal audit, second-party, or certification body |
+| **Assurance** | Can the board/officers rely on what they are being told about risk and control? | Layered and continuous — aggregates audit, verification, and performance data into a reliability judgement | All three lines (see below); coordinated through an assurance plan |
+| **Critical control verification (CCV)** | Is this specific critical control in place and functioning at the front line, today? | High-frequency, targeted, brief, field-based (Section 7) | Supervisors, workers, WHS team; sampled independently |
+
+These are not interchangeable: an ISO 45001 audit pass does not demonstrate
+critical controls are functioning (audits sample systems, not control health);
+a strong CCV completion rate does not demonstrate the management system is
+sound; neither alone constitutes assurance.
+
+### Three lines of defence applied to WHS
+
+| Line | Who | WHS role |
+|---|---|---|
+| **First line** | Line management and the workforce | Own the risk and operate the controls — supervisor checks, pre-starts, CCV delivery, incident response. Safety is line accountable (see `strategy-function.md` §2) |
+| **Second line** | WHS function and other specialist functions | Set frameworks and standards, monitor and challenge the first line, run the CCV program design, verify on a sampled basis, report performance |
+| **Third line** | Internal audit / independent assurance | Independent assurance over both: does the WHS framework work, and are the first and second lines doing what they claim? Reports to the board or audit and risk committee, not to management |
+
+The model's discipline: if the WHS function both operates controls and assures
+them (first and second lines collapsed), or no genuinely independent third-line
+review of WHS ever occurs, the board is relying on self-assessment. For
+organisations without WHS-literate internal audit, a periodic commissioned
+independent review of critical risk management is the practical third-line
+supplement.
+
+### Board reporting as due diligence evidence
+
+Officer due diligence (model Act s 27(5); cross-ref `legislation.md` §6) has six
+elements; board and committee reporting should be consciously mapped to them —
+each element needs an evidence stream, not an assertion:
+
+| s 27(5) element | Evidence stream in board reporting |
+|---|---|
+| (a) Acquire and keep up-to-date WHS knowledge | Briefings on legislative change, emerging risks, sector incidents — minuted |
+| (b) Understand the operations and their hazards/risks | Critical risk profile reviews; site visits and safety walks; deep-dives per critical risk |
+| (c) Ensure appropriate resources and processes | WHS resourcing and budget decisions; capability and systems investment papers |
+| (d) Ensure processes for receiving and responding to incident/hazard information | HiPo and incident reporting with response tracking; escalation protocol evidence |
+| (e) Ensure processes for legal compliance | Legal register currency; notice and notification status; compliance audit results |
+| (f) **Verify** the above resources and processes | Audit results, CCV trend data, independent reviews — verification is the element boards most often fail to evidence |
+
+Element (f) is the governance keystone: receiving reports satisfies (d);
+verifying that the underlying processes actually work requires assurance
+activity. A board pack with no verification content leaves every officer's (f)
+evidence empty.
+
+### Assurance calendars
+
+A rolling (typically 3-year) assurance plan, refreshed annually, scheduling:
+
+- Internal, certification, and surveillance audits by topic and site —
+  risk-based, with critical risks and poor performers covered more frequently
+- CCV sampling and second-line verification themes by quarter
+- Independent deep-dives (one or two critical risks per year, rotating)
+- Officer due diligence activities (briefings, safety walks, deep-dive
+  attendance) mapped to s 27(5)
+- Management review (ISO 45001 clause 9.3) and board/committee reporting cadence
+
+The calendar test: over the cycle, does every critical risk, site category, and
+management system element get independent attention at a frequency proportionate
+to risk? Calendar gaps are defensibility gaps in the governance regime.
+
+### Common failure modes
+
+- **Paper assurance** — sampling documents rather than work; the system performs
+  well in audits and poorly in practice (the brittleness signature in Section 6)
+- **KPI theatre** — green dashboards built on gameable completion-rate metrics
+  (Goodhart's Law — `strategy-function.md` §1); activity counted, risk unexamined
+- **Self-verification** — control owners verifying their own controls, unsampled
+  by the second or third line
+- **Assurance without consequence** — findings closed administratively and
+  recurring cycle after cycle
+- **Volume over depth** — hundreds of shallow audit questions instead of a few
+  critical-control-focused verifications with field observation
+- **Mistaking certification for assurance** — ISO 45001 certification samples
+  the system and certifies conformity, not control effectiveness
+
+> For organisation-specific assurance calendars, audit programs, committee
+> structures, and template numbering, load `references/company.md`.

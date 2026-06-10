@@ -36,19 +36,24 @@ The model WHS Act and model WHS Regulations are the baseline. Most jurisdictions
 | s 18 | What is reasonably practicable (definition) |
 | s 19 | Primary duty of care (PCBU) |
 | s 20 | Duties of PCBU who manages or controls workplaces |
-| s 21 | Duties of PCBU who designs plant or structures |
-| s 22 | Duties of PCBU who manufactures plant or substances |
-| s 23 | Duties of PCBU who supplies plant or substances |
-| s 26 | Duties of officers (due diligence) |
-| s 27 | Duties of workers |
-| s 28 | Duties of other persons at workplace |
+| s 21 | Duties of PCBU who manages or controls fixtures, fittings or plant at workplaces |
+| s 22 | Duties of PCBU who designs plant, substances or structures |
+| s 23 | Duties of PCBU who manufactures plant, substances or structures |
+| s 24 | Duties of PCBU who imports plant, substances or structures |
+| s 25 | Duties of PCBU who supplies plant, substances or structures |
+| s 27 | Duties of officers (due diligence) |
+| s 28 | Duties of workers |
+| s 29 | Duties of other persons at workplace |
 | s 35 | What is a notifiable incident |
 | s 36–38 | Duty to notify regulator |
 | s 39 | Duty to preserve incident site |
-| s 47–49 | Right to cease unsafe work |
-| s 68–79 | Health and safety representatives (HSRs) |
-| s 81–82 | Health and safety committees |
-| s 104 | Issue resolution |
+| s 46 | Duty to consult with other duty holders |
+| s 47–49 | Duty to consult workers; nature of consultation |
+| s 50–74 | Health and safety representatives (HSRs) |
+| s 75–79 | Health and safety committees |
+| s 80–82 | Issue resolution |
+| s 84–87 | Right to cease unsafe work; HSR direction to cease work |
+| s 104 | Prohibition of discriminatory conduct |
 | s 189–230 | Investigations and notices (improvement, prohibition, non-disturbance) |
 
 **s 18 — Reasonably Practicable factors:**
@@ -60,8 +65,8 @@ When determining what is SFAIRP, weigh:
 (e) cost of eliminating or minimising the risk — only disproportionate cost justifies
     not implementing a control; cost alone is not sufficient justification
 
-**s 26 — Officer Due Diligence (6 elements):**
-Officers must exercise due diligence by:
+**s 27 — Officer Due Diligence (6 elements, s 27(5)):**
+Officers must exercise due diligence (s 27(1)); s 27(5) defines the elements:
 1. Acquiring and keeping up-to-date knowledge of WHS matters
 2. Understanding the nature of the operations and associated hazards/risks
 3. Ensuring the PCBU has appropriate resources and processes to eliminate/minimise risks
@@ -77,10 +82,13 @@ making decisions affecting the whole or substantial part of the business.
 ## 2. State & Territory Variations
 
 ### NSW
-- WHS Act 2011 (NSW), WHS Regulation 2017 (NSW)
-- Regulator: SafeWork NSW
+- WHS Act 2011 (NSW), WHS Regulation 2025 (NSW) — the 2025 Regulation remade and
+  replaced the WHS Regulation 2017 (NSW) with effect from 1 January 2026
+- Regulator: SafeWork NSW — a standalone regulator headed by the SafeWork
+  Commissioner since 1 July 2025 (Work Health and Safety Amendment (Standalone
+  Regulator) Act 2025 (NSW))
 - Notable: asbestos, construction, and mine safety covered by additional legislation
-- WHS Regulation 2017 covers specific hazards: noise, hazardous chemicals, confined spaces,
+- WHS Regulation 2025 covers specific hazards: noise, hazardous chemicals, confined spaces,
   electrical, plant and structures, construction work, diving, demolition
 
 ### Victoria
@@ -94,21 +102,27 @@ making decisions affecting the whole or substantial part of the business.
 - Labour hire amendments (22 March 2022) — host employers owe the same OHS duty
   to labour hire workers as to direct employees
 - Insurance against OHS penalties is a criminal offence (Sept 2022 amendment)
-- Workplace Manslaughter offence added by OHS Amendment (Workplace Manslaughter
-  and Other Matters) Act 2019 — see Section 6
+- Workplace Manslaughter offence added by the Workplace Safety Legislation
+  Amendment (Workplace Manslaughter and Other Matters) Act 2019 (Vic) — see Section 6
+- Psychological health: Occupational Health and Safety Amendment (Psychological
+  Health) Regulations in force 1 December 2025 — see Section 9
 - Prohibition notices and improvement notices issued by inspectors
-- WorkCover (VWA) manages workers compensation; WorkSafe handles enforcement
+- The Victorian WorkCover Authority **is** WorkSafe Victoria — one statutory
+  entity (trading as WorkSafe Victoria) administering both workers compensation
+  and OHS regulation/enforcement
 
 ### Queensland
 - Work Health and Safety Act 2011 (QLD), WHS Regulation 2011 (QLD)
-- Regulator: Workplace Health and Safety Queensland (WHSQ) within DJAGS
+- Regulator: Workplace Health and Safety Queensland (WHSQ), within the Office of
+  Industrial Relations (OIR)
 - Mines and Quarries: Coal Mining Safety and Health Act 1999; Mining and Quarrying
   Safety and Health Act 1999 (separate regimes)
 
 ### Western Australia
 - Work Health and Safety Act 2020 (WA) — commenced 31 March 2022 (late adopter)
 - Work Health and Safety (General) Regulations 2022 (WA)
-- Regulator: WorkSafe Western Australia
+- Regulator: WorkSafe WA, within the Department of Energy, Mines, Industry
+  Regulation and Safety (DEMIRS — renamed from DMIRS in 2023)
 - Mines: Mine Safety and Inspection Act 1994 remains separate
 - WA harmonised later than other states; practitioners transitioning from 1984 Act
   should note significant structural changes
@@ -142,21 +156,25 @@ structure, SFAIRP standard (termed "so far as is reasonably practicable").
 
 | Section | Subject |
 |---|---|
+| s 22 | What is reasonably practicable (definition) |
+| s 30 | Management of risks |
 | s 36 | Primary duty of care (PCBU) |
-| s 44 | Management of risks |
-| s 45 | What is reasonably practicable |
-| s 46 | Duties of officers |
-| s 47 | Duties of workers |
-| s 48 | Duties of other persons |
+| s 44 | Duties of officers (due diligence) |
+| s 45 | Duties of workers |
+| s 46 | Duties of other persons |
+| s 47 | Category 1 offence — reckless conduct exposing to risk of death or serious injury/illness |
+| s 48 | Category 2 offence — breach of duty exposing to risk of death or serious injury/illness |
+| s 49 | Category 3 offence — breach of duty |
 | s 23 | Meaning of notifiable injury or illness |
 | s 24 | Meaning of notifiable incident |
 | s 25 | Meaning of notifiable event |
-| s 56–57 | Duty to notify WorkSafe NZ |
-| s 58 | Duty to preserve site |
-| s 61–66 | Right to cease or direct cessation of unsafe work |
-| s 67–81 | Worker engagement, participation, representation |
-| s 82–90 | Health and safety representatives |
-| s 175–209 | Enforcement (improvement notices, prohibition notices, infringement) |
+| s 55 | Duty to preserve incident site |
+| s 56–57 | Duty to notify WorkSafe NZ; keep records of notifiable events |
+| s 58–60 | Worker engagement and participation duties |
+| s 62 + Sch 2 | Health and safety representatives (election; functions and powers) |
+| s 83–85 | Right to cease unsafe work (s 83); HSR direction to cease (s 84) |
+| ss 101–111 | Enforcement notices — improvement (ss 101–103), prohibition (ss 105–107), non-disturbance (ss 108–111) |
+| ss 136–139 | Infringement offences and infringement notices |
 
 **NZ-specific terminology differences:**
 - PCBU is the same as AU
@@ -169,9 +187,12 @@ structure, SFAIRP standard (termed "so far as is reasonably practicable").
 - Regulations: Health and Safety at Work (General Risk and Workplace Management)
   Regulations 2016 (GRWM Regs) + specific hazard regulations
 
-**NZ codes of practice** are approved by the Minister; compliance creates a presumption
-of SFAIRP compliance. Non-compliance does not automatically mean a breach but shifts the
-evidentiary burden.
+**NZ approved codes of practice (ACoPs)** are approved by the Minister (HSWA
+ss 222–226). Under **current law** an ACoP is **admissible in proceedings as
+evidence of what is reasonably practicable** (s 226) — guidance with evidentiary
+weight, not a deemed-compliance safe harbour. Non-compliance does not of itself
+establish a breach. (A safe-harbour effect is *proposed* in the 2025–26 reform
+bill — see §3.10; do not advise on it as current law.)
 
 ### 3.1 ACC scheme — interaction with HSWA
 
@@ -192,9 +213,10 @@ experience over a defined window (typically 3 years lagged) drives levy adjustme
 down. Genuine WHS performance improvement reduces levy over time; spike in serious claims
 materially increases it.
 
-**Workplace Safety Discount** — small employers (<NZD $546,000 liable payroll, eligible
-industries) can apply for a 10% Work levy discount through participation in approved safety
-management programmes (third-party assessed).
+**Workplace Safety Discount** — *historical*: ACC has discontinued this product
+(formerly a 10% Work levy discount for small employers in eligible industries
+participating in third-party-assessed safety management programs). Do not cite it
+as a current incentive — experience rating is the live levy lever.
 
 **Common law restriction** — s 317 ACC Act 2001 ("the ACC bar") removes the right to sue
 for compensatory damages for personal injury covered by ACC. Exemplary damages remain
@@ -214,17 +236,19 @@ elected representation operates.
 provide reasonable opportunities for workers to participate effectively in improving WHS
 on an ongoing basis.
 
-**HSR election triggers** (WEPR reg 5–8):
-- Any worker request (in workplaces of any size if high-risk industry)
-- PCBU has 30+ workers and any worker requests
-- Mandatory in high-risk sectors regardless of size (defined in Schedule 1)
+**HSR election triggers** (HSWA s 62; WEPR regs):
+- Any worker may request an HSR election
+- Small-business carve-out: a PCBU with **fewer than 20 workers** that is not in a
+  prescribed high-risk sector may decline the request
+- In prescribed high-risk sectors the election must proceed regardless of size
 
-**HSR functions and powers (HSWA s 73)**:
+**HSR functions and powers (HSWA Part 3 + Schedule 2)**:
 - Represent workers in WHS matters with the PCBU
 - Investigate worker complaints
 - Monitor PCBU compliance with WHS duties
 - Issue Provisional Improvement Notices (PINs) — after completion of approved training
-- Direct workers to cease unsafe work (s 83) — after attempted issue resolution unless
+- Direct workers to cease unsafe work (s 84 — the HSR direction power; s 83 is the
+  worker's own right to cease) — after attempted issue resolution unless
   immediate serious risk
 
 **HSR training**: minimum 2-day NZQA-approved course (Unit Standard 29315 or equivalent).
@@ -240,8 +264,10 @@ inspector if unresolved.
 
 ### 3.3 Key Approved Codes of Practice (ACoPs)
 
-WorkSafe NZ publishes ACoPs under HSWA s 222. Compliance creates a presumption of SFAIRP
-compliance (s 226). Selected high-use ACoPs:
+ACoPs are approved by the Minister under HSWA s 222. Under s 226 an ACoP is
+admissible in proceedings as evidence of whether a duty was complied with —
+evidence of what is reasonably practicable, not a deemed-compliance presumption
+(see §3.10 for the proposed reform). Selected high-use ACoPs:
 
 | ACoP | Subject |
 |---|---|
@@ -260,7 +286,7 @@ AU's. WorkSafe NZ aligns sector strategies accordingly.
 
 | Sector | Risk profile | Lead body |
 |---|---|---|
-| Agriculture | Highest fatality rate per FTE in NZ; quad bike rollovers and farm vehicle incidents historically dominate; Safer Farms programme | Safer Farms (industry-led) |
+| Agriculture | Highest fatality rate per FTE in NZ; quad bike rollovers and farm vehicle incidents historically dominate; Safer Farms program | Safer Farms (industry-led) |
 | Forestry | Significant fatality count for workforce size; tree felling, breaking out, log truck operations | FISC (Forest Industry Safety Council) |
 | Construction | Largest absolute fatality count; falls from height, mobile plant, struck by | CHASNZ (Construction Health and Safety NZ) |
 | Mining and Quarrying | Separate Major Hazard regime under HSE (Mining Operations and Quarrying Operations) Regulations 2016; statutory mine manager and worker representation requirements | High Hazards Unit, WorkSafe NZ |
@@ -275,8 +301,8 @@ AU's. WorkSafe NZ aligns sector strategies accordingly.
   Where workers are on board ship, maritime rules generally apply; HSWA may apply to
   port/shore-side workplaces.
 - **Aviation**: Civil Aviation Authority (CAA) regulates under the Civil Aviation Act
-  1990 and CAR Part 100-series rules. HSWA applies to non-aviation aspects of aviation
-  workplaces.
+  2023 (NZ) — in force 5 April 2025, replacing the 1990 Act — and the Civil Aviation
+  Rules. HSWA applies to non-aviation aspects of aviation workplaces.
 - **Hazardous Substances and New Organisms Act 1996 (HSNO)** — administered by EPA NZ.
   Workplace use of hazardous substances is now primarily under HSWA + Health and Safety
   at Work (Hazardous Substances) Regulations 2017; HSNO governs approval and labelling
@@ -292,9 +318,11 @@ not present in most AU workplaces.
   dedicated geothermal guidance.
 - **Volcanic and seismic risk**: ongoing exposure across multiple regions. The Whakaari /
   White Island eruption (9 December 2019, 22 deaths) and the subsequent WorkSafe NZ
-  prosecution of tour operators is a landmark case on PCBU duty to assess
-  catastrophic-but-low-probability hazards. Convictions and reparations followed; the
-  case reshaped industry practice on volcanic hazard risk assessment.
+  prosecutions are a landmark on PCBU duty to assess catastrophic-but-low-probability
+  hazards. Note the current state of authority: Whakaari Management Ltd (the landowner/
+  licensor) was convicted at trial, but that conviction was **quashed on appeal**
+  (High Court, February 2025); the convictions of tour operators stand. The case
+  reshaped industry practice on volcanic hazard risk assessment.
 - **Civil Defence Emergency Management Act 2002** intersection — workplaces must integrate
   with regional CDEM plans for major events.
 
@@ -332,12 +360,15 @@ acts; s 160 culpable homicide / manslaughter). The legal threshold for gross neg
 manslaughter is high — a major departure from the standard of care a reasonable person
 would exercise.
 
-**Law Commission review** — has periodically considered the absence of a discrete WHS
-manslaughter offence. As of 2024-25 the position remains that HSWA Category 1 (s 47)
-plus Crimes Act manslaughter is the available framework.
+**Reform debate** — the case for a discrete corporate/industrial manslaughter offence
+has been canvassed through the 2013 Independent Taskforce on Workplace Health and
+Safety and successive members' bills (not a Law Commission project). As at mid-2026
+the position remains that HSWA Category 1 (s 47) plus Crimes Act manslaughter is the
+available framework.
 
-**Cf. AU**: most AU jurisdictions now have a discrete industrial manslaughter offence
-with maximum penalties of $13M–$20M and 20–25 years imprisonment. NZ does not.
+**Cf. AU**: every AU jurisdiction now has a discrete industrial manslaughter offence —
+maximum corporate penalties roughly $10M–$20M, individual maxima 20–25 years
+(life imprisonment in the NT). NZ does not.
 
 **Practical implication for officers**: Crimes Act gross negligence manslaughter is
 available but the prosecutorial threshold is materially higher than for AU industrial
@@ -349,28 +380,44 @@ serious injury) is the more commonly used charge for serious failures causing de
 WorkSafe NZ is the primary regulator under HSWA. Maritime NZ, CAA, and EPA NZ regulate
 specialist sectors.
 
-**Enforcement notice types** (HSWA s 175–209):
+**Enforcement notice types** (HSWA Part 4):
 
 | Notice | HSWA section | Practical scope |
 |---|---|---|
-| Improvement notice (Form W3) | s 191 | Comply with stated remediation by specified date; appeal within 7 days to WorkSafe NZ |
-| Prohibition notice (Form W4) | s 195 | Cease specified activity immediately until risk remediated; appeal within 7 days |
-| Infringement notice | s 162 + Schedule (Health and Safety at Work (Infringement Offences and Fees) Regulations 2016) | Instant fine for defined offences; up to NZD $1,000 individual / $4,000 PCBU per offence |
-| Non-disturbance notice | s 198 | Preserve incident scene; restricted entry until inspector permits |
+| Improvement notice | ss 101–103 | Comply with stated remediation by specified date; review and appeal rights apply |
+| Prohibition notice | ss 105–107 | Cease specified activity immediately until risk remediated |
+| Non-disturbance notice | ss 108–111 | Preserve incident scene; restricted entry until inspector permits |
+| Infringement notice | ss 136–139 + Health and Safety at Work (Infringement Offences and Fees) Regulations 2016 | Instant fine for defined offences; up to NZD $1,000 individual / $4,000 PCBU per offence |
 
-**Maximum penalties** (HSWA s 47–49, as at January 2025, in NZD):
+**Maximum penalties** (HSWA ss 47–49, in NZD — three tiers per offence):
 
-| Offence Category | Individual | Officer / PCBU |
-|---|---|---|
-| Category 1 — reckless conduct exposing to risk of death or serious injury (s 47) | Up to NZD $300,000 / 5 years imprisonment | Up to NZD $3,000,000 |
-| Category 2 — failure exposing to risk of death or serious injury (s 48) | Up to NZD $150,000 | Up to NZD $1,500,000 |
-| Category 3 — failure to comply with duty (s 49) | Up to NZD $50,000 | Up to NZD $500,000 |
+| Offence | Individual (not a PCBU or officer) | Individual who is a PCBU or officer | Body corporate |
+|---|---|---|---|
+| Category 1 — reckless conduct exposing a person to risk of death or serious injury/illness (s 47) | Up to $300,000 fine and/or 5 years imprisonment | Up to $600,000 fine and/or 5 years imprisonment | Up to $3,000,000 |
+| Category 2 — failure to comply with duty, exposing to risk of death or serious injury/illness (s 48) | Up to $150,000 | Up to $300,000 | Up to $1,500,000 |
+| Category 3 — failure to comply with duty (s 49) | Up to $50,000 | Up to $100,000 | Up to $500,000 |
 
-(Figures in NZD; subject to HSWA s 48-49 indexation and statutory review.)
+(Figures in NZD as enacted in 2015 — HSWA contains no indexation mechanism.
+Category 1 turns on **recklessness as to the risk**, not on whether death in
+fact resulted.)
 
 **Enforceable undertakings** are available under HSWA s 123 as an alternative to
 prosecution for Category 2 and Category 3 offences (not Category 1). The undertaking
 requires demonstrable WHS outcomes proportionate to the conduct.
+
+### 3.10 HSWA reform (2025–26)
+
+The **Health and Safety at Work Amendment Bill** was introduced on **8 February
+2026** (select committee report due mid-2026). Key proposals:
+
+- A small-PCBU tier: PCBUs with **fewer than 20 workers** (outside prescribed
+  high-risk sectors) would have duties focused on **critical risks** only
+- **ACoP compliance as a safe harbour** — deemed compliance with the relevant
+  duty, a material change from the current evidentiary status under s 226
+- Consequential amendments to the GRWM Regulations
+
+**Current law still applies.** The Bill is not law; track its progress, but do
+not advise on the basis of proposed provisions.
 
 ---
 
@@ -405,7 +452,7 @@ PCBUs must consult with workers (and their representatives) when:
 
 This is a substantive duty — genuine engagement, not tick-box notification.
 
-### Right to Cease Unsafe Work (s 84 / s 85 model Act; s 83–84 HSWA)
+### Right to Cease Unsafe Work (ss 84–87 model Act; ss 83–85 HSWA)
 A worker may **cease, or refuse to carry out, work** if the worker has a
 reasonable concern that to carry out the work would expose the worker to a
 serious risk to their health or safety, emanating from an immediate or imminent
@@ -472,67 +519,120 @@ Notify WorkSafe NZ as soon as practicable by phone; written notification follows
 
 ## 6. Enforcement & Penalties
 
-> **Currency note**: Penalty quanta below are indexed and revised. Figures shown
-> reflect rates as at January 2025. Validate against current jurisdiction
-> publications before relying on specific dollar figures — penalty unit values
-> in most jurisdictions are increased annually each July.
+> **Currency note**: Penalty quanta change frequently and the indexation
+> mechanisms differ. NSW expresses WHS maximum penalties as **dollar amounts
+> indexed annually**; penalty-unit jurisdictions adjust the unit value
+> periodically (e.g., the Commonwealth penalty unit is $330 from 7 November
+> 2024). Validate against current jurisdiction publications before relying on
+> any specific dollar figure.
 
-### AU Penalty Structure (Model WHS Act — penalty units vary by jurisdiction)
-Category 1 (reckless conduct — highest): Individual up to $300,000 / 5 years imprisonment;
-PCBU / officer up to $3,000,000
-Category 2 (failure to comply with duty exposing to serious risk): Individual up to
-$150,000; PCBU / officer up to $1,500,000
-Category 3 (failure to comply with duty — no exposure to serious risk): Individual up to
-$50,000; PCBU / officer up to $500,000
+### AU Penalty Structure (Category 1–3 offences)
 
-Note: Categories vary by jurisdiction (especially VIC). These figures represent model law.
+The 2011 model-Act maxima (Category 1: $3M body corporate / $600k + 5 years
+officer / $300k + 5 years worker) are **stale in most jurisdictions** after the
+2023–24 round of amendments. Per-jurisdiction position:
+
+- **NSW** — from 1 July 2024, Category 1 maximum **$10,424,983** for a body
+  corporate and **10 years** imprisonment; NSW WHS penalties are indexed annually
+- **Commonwealth** — penalties substantially uplifted from 1 July 2024
+  (Closing Loopholes reforms)
+- **QLD and WA** — maxima set above model values
+- Remaining harmonised jurisdictions sit closer to the model values, subject to
+  penalty-unit or CPI adjustment
+- **VIC** uses its own offence structure under the OHS Act 2004 (not the
+  Category model)
+
+**Do not quote a Category penalty without verifying the current indexed figure
+in the relevant jurisdiction's Act.**
 
 ### Enforcement Notices
 - **Improvement Notice**: Requires PCBU to remedy contravention within set timeframe
 - **Prohibition Notice**: Stops activity until risk is remedied (no timeline limit)
 - **Non-Disturbance Notice**: Preserves incident scene
 
-### WA additional note
-WA penalties under WHS Act 2020 are among the highest in the country — up to $3.5M for
-a PCBU for Category 1 offences.
+### Enforceable undertakings (AU — model Act Part 11)
 
-### NZ Penalties (HSWA s 48 / s 49)
-PCBU: Up to NZD $3,000,000 for failure causing death or serious injury
-Individual: Up to NZD $600,000 / 5 years imprisonment (category 1 equivalent)
+- **s 216**: the regulator may accept a written **WHS undertaking** in connection
+  with a contravention or alleged contravention, as an alternative to prosecution
+- **Not available for Category 1 offences**; industrial manslaughter is likewise
+  excluded in the jurisdictions that have the offence
+- Typical terms: rectification plus verified WHS system improvement, worker and
+  industry/community benefit deliverables, independent auditing, regulator costs —
+  usually delivered over 2–3 years with milestone reporting
+- Acceptance is discretionary; the regulator **publishes** accepted undertakings
+  (with reasons). Contravening an accepted undertaking is itself an offence, and
+  prosecution of the original matter can follow withdrawal or material breach
+
+### Limitation periods (AU — s 232 model Act)
+
+Proceedings for a WHS offence may be brought within the **latest** of:
+- **2 years** after the offence first comes to the regulator's notice
+- **1 year** after a coronial report, or coronial or official inquiry findings,
+  where it appears from the report or proceedings that an offence was committed
+- 6 months after a WHS undertaking is contravened, or its withdrawal/rescission
+
+For **Category 1**, proceedings may be brought after these periods where fresh
+evidence is discovered and the court is satisfied it could not reasonably have
+been discovered within the limitation period. Industrial manslaughter offences
+generally carry **no limitation period**.
+
+### Sentencing — beyond the fine
+
+Courts have remedial sentencing tools under the model Act (ss 236–242),
+increasingly used alongside or instead of fines:
+- **Adverse publicity orders** (s 236) — the offender must publicise the offence,
+  its consequences, and the penalty
+- **Restoration orders and WHS project orders** (ss 237–238)
+- **Court-ordered WHS undertakings, injunctions, and training orders** (ss 239–241)
+- **Officer disqualification** is additionally available in some jurisdictions
+
+For officers and boards, the publicity and disqualification orders frequently
+bite harder than the fine; prepare sentencing submissions accordingly.
+
+### NZ Penalties (HSWA ss 47–49)
+
+Three tiers per offence — see §3.9 for the full table. Headline: **Category 1
+(s 47) is reckless conduct exposing a person to risk of death or serious
+injury/illness** (it does not require that death resulted) — up to NZD $300,000
+and/or 5 years (individual), $600,000 and/or 5 years (individual who is a PCBU
+or officer), $3,000,000 (body corporate). HSWA amounts are not indexed.
 
 ### Industrial Manslaughter / Workplace Manslaughter
 
 > **Currency note**: Maximum penalties below are statutory caps as at
-> January 2025. Many jurisdictions index annually; some figures are subject
+> June 2026. Many jurisdictions index annually; some figures are subject
 > to periodic statutory review. Validate against the current Act before
 > relying on specific figures.
 
 Industrial manslaughter is a discrete criminal offence — separate from and significantly
-more serious than Category 1 WHS offences. It applies where a PCBU or officer is grossly
-negligent in failing to comply with a health and safety duty and that failure causes
-the death of a worker (or, in some jurisdictions, another person). Unlike standard WHS
-offences, industrial manslaughter typically carries **no limitation period** for
-prosecution and **enforceable undertakings are not available** as an alternative.
+more serious than Category 1 WHS offences. It applies where a duty holder's criminally
+culpable breach of a health and safety duty (the fault element varies by jurisdiction —
+see below) causes the death of a worker (or, in some jurisdictions, another person).
+Unlike standard WHS offences, industrial manslaughter typically carries **no limitation
+period** for prosecution and **enforceable undertakings are not available** as an
+alternative.
 
-| Jurisdiction | Offence in force | Max penalty (corporate) | Max penalty (individual) |
+| Jurisdiction | Offence and commencement | Max penalty (corporate) | Max penalty (individual) |
 |---|---|---|---|
-| Commonwealth | 1 July 2024 (Criminal Code, federal sector) | $18M | 25 years |
-| QLD | 2017 — Section 34C WHS Act 2011 (QLD) | $13.7M | 20 years |
-| VIC | 1 July 2020 — Workplace Manslaughter (OHS Act Part 5A) | $19.8M (approx, indexed) | 25 years |
-| ACT | 2004 (Crimes Act) and 2022 WHS Act amendment | $16.5M (indexed) | 20 years |
-| NT | 1 February 2020 — Section 34B WHS (NUL) Act | $11.4M | 20 years |
-| WA | 31 March 2022 — Section 30A WHS Act 2020 | $10M (Crime Tier 1) or $5M (Crime Tier 2) | 20 years (Tier 1) / 10 years (Tier 2) |
-| NSW | 16 September 2024 — Section 34C WHS Act 2011 (NSW) | $20M (highest in AU) | 25 years |
-| SA | 2024 amendment | ~$18M (indexed) | 20 years |
-| TAS | 11 September 2024 (Workplace Health and Safety Amendment) | Tasmania scheme — refer to current Act | Tasmania scheme — refer to current Act |
+| Commonwealth | s 30A WHS Act 2011 (Cth), inserted by the Closing Loopholes Act 2023 — in force 1 July 2024 | $18M | 25 years |
+| QLD | s 34C WHS Act 2011 (QLD) — in force 2017 (first in AU) | 100,000 penalty units (~$16.1M at the 2024–25 penalty unit of $161.30; PU indexed) | 20 years |
+| VIC | Workplace manslaughter — OHS Act 2004 s 39G (Part 5A) — in force 1 July 2020 | $19.8M (approx., penalty-unit based, indexed) | 25 years |
+| ACT | WHS Act 2011 (ACT) — offence held by the Crimes Act 1900 (ACT) from 2004, relocated into the WHS Act by 2021 amendment | $16.5M (indexed) | 20 years |
+| NT | s 34B WHS (NUL) Act — in force 1 February 2020 | $11.4M (penalty-unit based) | Life imprisonment |
+| WA | s 30A WHS Act 2020 — in force 31 March 2022 (single offence) | $10M | 20 years + $5M fine |
+| NSW | s 34C WHS Act 2011 (NSW) — in force 16 September 2024 | $20M | 25 years |
+| SA | 2023 amendment to WHS Act 2012 (SA) — in force 1 July 2024 | ~$18M (indexed) | 20 years |
+| TAS | Work Health and Safety Amendment (Industrial Manslaughter) Act 2024 — passed 11 September 2024, in force from October 2024 | $18M | 21 years |
 | NZ | Not a discrete offence — gross negligence manslaughter under Crimes Act 1961 may apply | — | — |
 
 Key features that are broadly consistent across jurisdictions:
 - Can be committed by act **or** failure to act
 - Applies to PCBUs and officers (not workers in their capacity as workers)
-- Requires **gross negligence** — a standard higher than ordinary negligence and
-  oriented to gross departure from the standard of care a reasonable person would
-  exercise
+- **Fault elements differ by jurisdiction** — check the precise element before
+  advising: NSW and VIC require **gross negligence**; QLD applies a (criminal)
+  **negligence** standard; WA requires **knowledge** that the conduct is likely
+  to cause death or serious harm and **disregard** of that likelihood; the
+  Commonwealth offence is satisfied by **recklessness or negligence**
 - Causation between the breach and the death must be proven
 - Category 1 may be available as a statutory alternative if industrial manslaughter
   is not made out
@@ -654,7 +754,7 @@ function's role is to make the second easy so the first is sustainable.
 | Jurisdiction | Regulator | Website |
 |---|---|---|
 | National / SWA | Safe Work Australia | safeworkaustralia.gov.au |
-| NSW | SafeWork NSW | safework.nsw.gov.au |
+| NSW | SafeWork NSW — standalone regulator headed by the SafeWork Commissioner since 1 July 2025 | safework.nsw.gov.au |
 | VIC | WorkSafe Victoria | worksafe.vic.gov.au |
 | QLD | WHSQ (Workplace Health and Safety Queensland) | worksafe.qld.gov.au |
 | WA | WorkSafe WA | worksafe.wa.gov.au |
@@ -671,7 +771,6 @@ function's role is to make the second easy so the first is sustainable.
 ### Priority AU Codes of Practice (Safe Work Australia — adopted by most jurisdictions)
 - Managing the Work Environment and Facilities
 - Hazardous Manual Tasks
-- Hazardous Chemicals (managing risks)
 - Managing Noise and Preventing Hearing Loss
 - How to Safely Remove Asbestos
 - Managing the Risk of Falls at Workplaces
@@ -684,18 +783,20 @@ function's role is to make the second easy so the first is sustainable.
 - Work Health and Safety Consultation, Cooperation and Coordination
 
 ### Recently Issued / Updated Codes (Safe Work Australia)
-- **Managing Psychosocial Hazards at Work** (2022) — companion to Part 3.1A
-  psychosocial regulations; gives effect to the duty in practical terms
+- **Managing Psychosocial Hazards at Work** (2022) — companion to the
+  rr 55A–55D psychosocial regulations; gives effect to the duty in practical terms
 - **Managing the risks of respirable crystalline silica from construction and other
   workplaces** (2024) — supports the HRCSW framework and engineered stone ban
 - **Sexual and gender-based harassment** (2024) — guidance under the WHS framework
   for the positive duty intersection with Sex Discrimination Act
-- **Managing the risks of working in heat** — Safe Work Australia 2024 update
+- **Managing the risks of working in heat** — an SWA **guide** (2024 update), not
+  a model Code of Practice
 - **Industrial Manslaughter guidance** (jurisdiction-issued; not a model code)
 
 ### NZ Approved Codes of Practice
-WorkSafe NZ publishes Approved Codes of Practice (ACoPs) — compliance creates
-a presumption of SFAIRP. Key ACoPs include:
+Approved Codes of Practice (ACoPs) are admissible in proceedings as evidence of
+what is reasonably practicable (HSWA s 226) — not a deemed-compliance
+presumption (see §3.10 for the proposed reform). Key ACoPs include:
 - Health and Safety in Employment — General Safety in the Workplace
 - Safe Work with Machinery
 - Working at Heights
@@ -712,29 +813,34 @@ provide evidence of SFAIRP compliance but are not mandatory unless called up by 
 ## 9. Psychosocial Hazards — Regulatory Framework
 
 ### Model WHS Regulations Amendment (2022)
-Safe Work Australia amended the model WHS Regulations to add an explicit psychosocial
-risk management duty. Part 3.1A (or equivalent numbering per jurisdiction) creates a
-specific obligation to manage psychosocial risks using the same SFAIRP framework as
+Safe Work Australia amended the model WHS Regulations in 2022 to add an explicit
+psychosocial risk management duty: **rr 55A–55D** (model numbering — NSW locates
+the provisions in Part 3.2 Division 11 of its Regulation). Commencement ran
+2022–2024 across the harmonised jurisdictions. The regulations create a specific
+obligation to manage psychosocial risks using the same SFAIRP framework as
 physical hazards. Key provisions:
 
-- **reg 55A–55F** (model numbering): Definition of psychosocial hazard; duty to identify
-  and manage psychosocial risks; requirement to review controls regularly
+- **rr 55A–55D** (model numbering): Definitions of psychosocial hazard and
+  psychosocial risk; duty to manage psychosocial risks; mandatory control
+  considerations
 - PCBU must consider: the nature and duration of the hazard/risk; the characteristics
   of the work and the workplace; the characteristics of the workers; the combination
   of multiple psychosocial hazards (cumulative exposure)
 - Cannot manage psychosocial risk through EAP alone — EAP is a support, not a control
 
-### Adoption Status by Jurisdiction (as at 2024)
+### Adoption Status by Jurisdiction (as at June 2026)
 
 | Jurisdiction | Psychosocial Regs Status |
 |---|---|
-| NSW | Work Health and Safety Amendment (Psychosocial Risks) Regulation 2022 — commenced 1 Oct 2022 |
+| Cth (Comcare scheme) | Model psychosocial regulations (rr 55A–55D) adopted — commenced 1 April 2023 |
+| NSW | Work Health and Safety Amendment (Psychosocial Risks) Regulation 2022 — commenced 1 Oct 2022; provisions sit in Part 3.2 Div 11 of the (now 2025) Regulation |
 | QLD | Work Health and Safety (Psychosocial Risks) Amendment Regulation 2023 |
 | SA | WHS (Psychosocial Risks) Amendment Regulation 2023 |
+| TAS | Model psychosocial regulations (rr 55A–55D) adopted — commenced 2023 |
 | ACT | WHS Amendment Regulation 2023 |
-| NT | Amendment in progress — check NT WorkSafe for current status |
-| VIC | Not model law — OHS Act 2004 s21(2)(e) covers psychological health; WorkSafe Victoria has enforcement guidance |
-| WA | WHS Act 2020 includes psychosocial obligations; refer to regulation status |
+| NT | Model psychosocial amendments commenced 2023 |
+| WA | Model psychosocial regulations adopted into the WHS (General) Regulations 2022 (WA) — commenced 2022 |
+| VIC | Not model law — Occupational Health and Safety Amendment (Psychological Health) Regulations in force **1 December 2025**; before that, psychosocial risk was regulated through the general duties (psychological health sits within the s 5 definition of "health") |
 | NZ | HSWA 2015 already covers psychosocial risks under the primary duty; WorkSafe NZ Good Practice Guide on Workplace Stress (2019) |
 
 ### Safe Work Australia Code of Practice — Managing Psychosocial Hazards (2022)
@@ -766,7 +872,8 @@ Apply the standard hierarchy — but psychosocial controls map differently:
 
 ### Intersection with Fair Work Act 2009 (AU)
 Psychosocial risk management intersects with:
-- Positive duty to prevent sexual harassment (Sex Discrimination Act 1984, eff. 2023)
+- Positive duty to prevent sexual harassment (Sex Discrimination Act 1984 s 47C,
+  from 13 December 2022)
 - Bullying jurisdiction (Fair Work Commission)
 - Workers compensation claims — psychological injury is typically higher cost and
   longer duration than physical injury; early intervention is critical
@@ -784,13 +891,14 @@ Psychosocial risk management intersects with:
 ### Respect@Work Positive Duty (Sex Discrimination Act 1984)
 
 The Respect@Work Report (Sex Discrimination Commissioner, March 2020) recommended
-55 measures to address workplace sexual harassment. The Sex Discrimination and Fair
-Work (Respect at Work) Amendment Act 2022 gave effect to key recommendations,
-introducing a **positive duty** on employers and PCBUs.
+55 measures to address workplace sexual harassment. The Anti-Discrimination and
+Human Rights Legislation Amendment (Respect at Work) Act 2022 gave effect to key
+recommendations, introducing a **positive duty** on employers and PCBUs.
 
 **Section 47C SDA — Positive Duty:**
-Effective **12 December 2022**. A person conducting a business or undertaking must
-take **reasonable and proportionate measures** to eliminate, as far as possible:
+Effective **13 December 2022** (the day after assent on 12 December 2022). A
+person conducting a business or undertaking must take **reasonable and
+proportionate measures** to eliminate, as far as possible:
 - Discrimination on the ground of sex
 - Sexual harassment
 - Sex-based harassment
@@ -823,11 +931,34 @@ The AHRC's seven standards for compliance:
    meaningfully
 
 **Intersection with WHS framework:**
-Treat workplace sexual harassment as a psychosocial hazard under WHS Regulations
-Part 3.1A. The hazard identification, risk assessment, and control framework
-discharges both the WHS duty (Part 3.1A) and provides evidence toward discharging
-the SDA positive duty (s 47C). Documentation prepared for one framework can
-typically serve both, with appropriate cross-referencing.
+Treat workplace sexual harassment as a psychosocial hazard under the WHS
+psychosocial regulations (model rr 55A–55D). The hazard identification, risk
+assessment, and control framework discharges both the WHS duty (rr 55A–55D) and
+provides evidence toward discharging the SDA positive duty (s 47C). Documentation
+prepared for one framework can typically serve both, with appropriate
+cross-referencing.
+
+**The wider statutory chain for sexual harassment (AU):**
+The same conduct is now regulated through parallel statutory hooks; investigate
+and document with each in mind:
+- **WHS** — psychosocial regulations (model rr 55A–55D): sexual harassment is a
+  psychosocial hazard to be managed through the risk management process
+- **Sex Discrimination Act 1984** — the s 47C positive duty (from 13 December
+  2022), plus the prohibitions in **s 28B** (sexual harassment in work contexts)
+  and **s 28M** (subjecting a person to a workplace environment that is hostile
+  on the ground of sex)
+- **Fair Work Act 2009 Part 3-5A** — prohibition on workplace sexual harassment
+  (from 6 March 2023), with FWC **stop sexual harassment orders** and a dispute
+  jurisdiction (conciliation; arbitration by consent or court application)
+
+**Union right of entry (WHS Act Part 7):**
+WHS entry permit holders may enter a workplace to inquire into a **suspected
+contravention** (s 117) affecting a relevant worker — including a psychosocial
+contravention — with notice given on or after entry (ss 119–120); entry to
+**consult and advise** workers requires at least **24 hours' written notice**.
+Permit holders must hold both WHS and Fair Work entry permits and observe permit
+conditions; obstruction is an offence, and entry disputes go to the regulator or
+tribunal rather than being resolved at the gate.
 
 ---
 
@@ -848,27 +979,58 @@ with the regulator.
 | Require production of documents | s 165(1)(j) | Records, registers, plans, risk assessments, training records |
 | Require answers to questions | s 165(1)(k) | Persons present; right to silence applies (see below) |
 | Seize and remove items | s 175 | Evidence of contravention; receipt must be issued |
-| Issue improvement / prohibition / non-disturbance notices | s 191–196 | On-the-spot enforcement |
+| Issue improvement / prohibition / non-disturbance notices | s 191, s 195, s 198 | On-the-spot enforcement |
 | Reasonable assistance | s 188 | PCBU must provide; refusal is an offence |
 
 ### Worker rights during an inspection
-- Workers (including officers) cannot be compelled to incriminate themselves
-- The right to silence is not unlimited — refusing to answer purely factual
-  questions (name, role, what you observed) may itself be an offence under s 171
+- The privilege against self-incrimination is **abrogated** for compelled
+  questioning and information (s 172) — an individual cannot refuse to answer on
+  self-incrimination grounds, but receives direct-use immunity (see below)
+- Refusing to comply with a lawful s 171 requirement (produce documents, answer
+  questions) is an offence; inspectors must warn the person before compelling
+  an answer (s 173)
 - Workers may have a support person present (HSR, union official, lawyer);
   the inspection generally proceeds whether or not the support person is available
-- Legal professional privilege protects communications with lawyers; it does
-  not automatically protect investigation reports unless those reports were
-  prepared for the dominant purpose of legal advice
+- Legal professional privilege is **not** abrogated and protects communications
+  with lawyers; it does not automatically protect investigation reports unless
+  those reports were prepared for the dominant purpose of legal advice
+
+### Information-gathering powers — s 155 notices vs s 171 site powers
+
+Two distinct compulsory powers are routinely conflated:
+
+- **s 155 — regulator's written information notice.** The regulator (not the
+  inspector at the gate) may, by written notice, require a person to give
+  information, produce documents, or attend and give evidence. It operates
+  off-site and independently of any entry, with deadlines stated in the notice.
+  Treat every s 155 notice as a legal document: log it, diarise the deadline,
+  route the response through legal review, and respond via a single controlled
+  channel.
+- **s 171 — inspector's powers on entry.** An inspector who has entered a
+  workplace may require the production of documents and answers to questions
+  (exercisable during the entry and for a period — 30 days — afterwards). This is
+  the power being exercised during and immediately after a site visit.
+
+**Self-incrimination — s 172.** The privilege against self-incrimination is
+abrogated for these powers. The statutory trade-off for **individuals** is
+**direct-use immunity**: the answer or information given is not admissible
+against the individual in most proceedings. The immunity does **not** cover
+derivative use (evidence located because of the answer), and pre-existing
+documents produced under compulsion are treated differently from compelled
+answers. Bodies corporate receive no immunity at all. Practical handling:
+identify and record which power is being exercised; ensure individuals receive
+the s 173 warning and understand the limits of the immunity; give individuals
+facing compelled interviews the opportunity to obtain independent legal advice;
+never treat the immunity as protection for the company.
 
 ### Practical playbook — inspector arrives on site
 1. **Greet and verify identity** — inspectors must produce ID; record badge number,
    regulator, date, time
 2. **Establish scope** — ask politely what the inspector is here to do (routine
    inspection, complaint response, incident investigation). Note the scope.
-3. **Notify** — internal escalation: site manager, project leadership, Zero Harm,
-   legal. NSW projects under SafeWork NSW oversight: also notify HSE Manager and
-   the WHSMP contact
+3. **Notify** — internal escalation per your procedure: site manager, project
+   leadership, the WHS function, legal. On construction projects, also notify
+   the project WHS lead and the WHSMP contact
 4. **Accompany throughout** — designate a single person to accompany the inspector
    for the duration of the visit. Take notes on what was seen, asked, said
 5. **Provide reasonable assistance** — facilitate access, locate documents, produce
@@ -923,11 +1085,11 @@ mandatory training (mining, rail, aviation, healthcare, defence) is covered in
 | HSR training | Model WHS Reg 21 + state variations | 1-day annual refresher; full 5-day course on initial election | Must be from approved provider list; paid time off mandatory |
 | HSC member training | Model WHS Reg + state guidance | As agreed; typically biennial | Often co-delivered with HSR training |
 | General construction induction (white card) | Model WHS Reg 316 | Lifetime certification; lost/expired card requires renewal | CPCWHS1001 unit; must be held before any construction work |
-| Site-specific construction induction | Model WHS Reg 316 | Per site; refresher on changes | Layered on top of general induction |
-| HRWL (High Risk Work Licence) | Model WHS Reg 81–118 + Schedule 4 | 5-year licence; renewal requires fee, no retest | Forklift LF, scaffolding SB/SI/SA, EWP WP, crane classes C0–C6/CN, dogger DG, rigger RB/RI/RA |
+| Site-specific construction induction | Construction Work Code of Practice + WHS management plan (Reg 309) — distinct from the Reg 316 general induction | Per site; refresher on changes | Layered on top of general induction |
+| HRWL (High Risk Work Licence) | Model WHS Reg 81–118 + Schedule 3 (licence classes) | 5-year licence; renewal requires fee, no retest | Forklift LF, scaffolding SB/SI/SA, EWP WP, crane classes C0–C6/CN, dogger DG, rigger RB/RI/RA |
 | Asbestos awareness | Code of Practice *How to Manage and Control Asbestos* | Annual refresh typical | For workers who may disturb asbestos; not the same as removal training |
 | Asbestos removal (Class A and B) | Model WHS Reg 460 + Code | Licence held by worker; refresher per state | Class A friable; Class B non-friable >10 m² |
-| Confined space entry | Model WHS Reg 73 | Refresher per task / annual typical | Both entrants and standby trained; cross-reference `hazards.md` §11 |
+| Confined space entry | Model WHS Reg 76 | Refresher per task / annual typical | Both entrants and standby trained; cross-reference `hazards.md` §11 |
 | Working at heights | Model WHS Reg 78 | 2-yearly refresher typical | RIIWHS204 or equivalent; cross-reference `hazards.md` §9 |
 | Crystalline silica training | Code of Practice *Managing the risks of RCS* + Reg 529H/M | SWA-approved RCS training package | For workers carrying out HRCSW (cross-reference `hazards.md` §2) |
 | First aid | Code of Practice *First Aid in the Workplace* | HLTAID011 — CPR refresh 12-monthly, full course 3-yearly | See `workplace-controls.md` §1 |
@@ -939,8 +1101,8 @@ mandatory training (mining, rail, aviation, healthcare, defence) is covered in
 The model WHS Act doesn't prescribe supervisor training, but s 19 (PCBU primary
 duty) and s 27 (officer due diligence) implicitly require supervisors to have the
 competency to identify hazards, apply controls, and direct safe work. The default
-expectation is that supervisors hold a Cert IV in WHS (BSB41419) or have
-demonstrated equivalent competence through experience plus targeted training.
+expectation is that supervisors hold a Cert IV in WHS or have demonstrated
+equivalent competence through experience plus targeted training.
 
 ### WHS qualifications hierarchy
 
@@ -954,6 +1116,10 @@ demonstrated equivalent competence through experience plus targeted training.
 | Graduate Certificate / Diploma WHS (university) | Manager / Specialist | Various universities |
 | Bachelor / Master OHS (university) | Senior Specialist / Director | Curtin, RMIT, ECU, Newcastle, Sydney have established programs |
 | Chartered status (AIHS) | Senior practitioner recognition | AIHS Chartered Generalist OHS Professional (ChOHSP) |
+
+> Training product codes (BSB4xxxx etc.) are periodically superseded as training
+> packages are updated — verify current codes on training.gov.au before citing
+> them in procedures or position descriptions.
 
 ### Practical implications
 
@@ -976,10 +1142,10 @@ demonstrated equivalent competence through experience plus targeted training.
 
 ### AU position — model WHS Act
 
-Volunteers are within the model WHS Act's definition of "worker" (s 7):
+Volunteers are within the model WHS Act's definition of "worker" (s 7(1)(h)):
 
 > "a person is a worker if the person carries out work in any capacity for a
-> person conducting a business or undertaking, including work as: … (f) a
+> person conducting a business or undertaking, including work as: … (h) a
 > volunteer."
 
 This means:
@@ -992,12 +1158,12 @@ This means:
 
 ### Volunteer associations — the s 5(8) exception
 
-A "volunteer association" is excluded from the PCBU definition (s 5(8) model
-Act):
-
-> "any organisation whose only workers are volunteers (whether or not at the
-> same place) and that does not employ any person to carry out work for the
-> organisation."
+A "volunteer association" does not conduct a business or undertaking for the
+purposes of the Act (s 5(7)–(8) model Act). Paraphrasing the s 5(8) definition:
+a volunteer association is a group of volunteers working together for **one or
+more community purposes**, where none of the volunteers — alone or jointly —
+employs any person to carry out work for the association. Both elements matter:
+the community-purposes element and the no-employees element.
 
 This means a purely volunteer-staffed community association (small sporting
 club, community group, residents committee) is not a PCBU and does not owe the
@@ -1052,10 +1218,10 @@ provide context.
   foundational ILO instrument; ratified by AU (2004) and NZ (2007). Requires
   member states to adopt a national OSH policy
 - **Convention 187** (2006) — Promotional Framework for OSH Convention. Builds
-  on C155; requires national OSH systems, programmes, and culture
+  on C155; requires national OSH systems, programs, and culture
 - **R164** — Recommendation accompanying C155 with practical implementation
   guidance on hazard management, PPE, training
-- **R197** — Recommendation accompanying C187 on national OSH programmes
+- **R197** — Recommendation accompanying C187 on national OSH programs
 - Ratification creates international law obligations but doesn't directly
   create rights in domestic law without enabling legislation; the AU and NZ
   regimes are consistent with C155/C187 framing
@@ -1092,10 +1258,11 @@ provide context.
   duty causing death; penalties unlimited fines
 - **HSE structure** — single national regulator; sector-specific divisions
   (offshore, rail, nuclear, biological agents); strong technical specialism
-- **Practical implication**: ALARP and SFAIRP are similar but not identical —
-  the AU/NZ standard requires that cost be "grossly disproportionate" before
-  justifying not implementing a control; the UK standard frames the test
-  slightly differently around foreseeable harm
+- **Practical implication**: the gross-disproportion test **originates in UK
+  case law** (*Edwards v National Coal Board* [1949]) and is embodied in ALARP;
+  SFAIRP and ALARP converge in practice. The main difference is one of form:
+  the AU statute enumerates the relevant factors (model Act s 18), whereas UK
+  ALARP rests on case law and HSE guidance
 
 ### EU OSH framework
 
@@ -1114,11 +1281,11 @@ provide context.
 | Area | AU/NZ position | International comparison |
 |---|---|---|
 | Officer due diligence | Statutory positive duty (s 27 model / s 44 HSWA) | Stronger than UK / US comparable duties |
-| Industrial manslaughter | Discrete offence in most AU jurisdictions | UK Corporate Manslaughter Act 2007 comparable; US has none |
-| Psychosocial regulation | Explicit duty under WHS Regs Part 3.1A (2022+) | EU has long-standing framework; UK HSE Management Standards earlier (2004) |
+| Industrial manslaughter | Discrete offence in every AU jurisdiction (since Oct 2024) | UK Corporate Manslaughter Act 2007 comparable; US has none |
+| Psychosocial regulation | Explicit duty under model WHS Regs rr 55A–55D (2022–24); VIC from 1 Dec 2025 | EU has long-standing framework; UK HSE Management Standards earlier (2004) |
 | SFAIRP framework | Statutory definition (s 18 model) | Similar in NZ HSWA; analogous to UK ALARP |
 | Prescriptive standards | Less prescriptive than US OSHA | More risk-based, less rules-based |
-| Specific hazard regulations | Generally caught up post-harmonisation | RCS reduced in 2020 (AU), aligning with EU 2019 reduction |
+| Specific hazard regulations | Generally caught up post-harmonisation | AU RCS WES 0.05 mg/m³ (2020) is stricter than the EU 0.1 mg/m³ OEL |
 | Engineered stone ban | First jurisdiction worldwide (1 July 2024) | UK consulting 2024; US considering |
 
 ### Practical implications for multinational organisations
@@ -1146,6 +1313,13 @@ substance above the WES. WES are health-based — exposure below the WES does
 not guarantee no health effect, particularly for substances with no threshold
 (e.g., RCS). Cost is not a defence to exceeding a WES; the duty is absolute.
 
+> **WES → WEL transition**: from **1 December 2026** the WES framework is
+> replaced by **Workplace Exposure Limits (WEL)** under Safe Work Australia's
+> revised framework, and many limit values change on transition. Until
+> 30 November 2026 the WES list remains the enforceable benchmark; from
+> 1 December 2026 verify the WEL value — do not assume the WES figure carries
+> over.
+
 ### Exposure measurement types
 - **TWA (Time-Weighted Average)** — average exposure over an 8-hour working
   day; the most common WES
@@ -1156,7 +1330,7 @@ not guarantee no health effect, particularly for substances with no threshold
 - **Carcinogen designation** — Cat 1A or 1B carcinogen substances require
   exposure to be ALARP, not just below WES
 
-### Common substance WES values (as at January 2025)
+### Common substance WES values (as at June 2026)
 
 > Always validate against the current SWA *Workplace Exposure Standards for
 > Airborne Contaminants* publication. Values below are indicative.
@@ -1165,18 +1339,17 @@ not guarantee no health effect, particularly for substances with no threshold
 |---|---|---|---|---|
 | Carbon monoxide (CO) | 30 ppm | — | 200 ppm | Combustion; vehicle exhaust |
 | Nitrogen dioxide (NO2) | 3 ppm | 5 ppm | — | Combustion; welding |
-| Ozone (O3) | 0.1 ppm | 0.3 ppm | — | Photocopier; welding; arc work |
+| Ozone (O3) | — | — | 0.1 ppm | Peak limitation; photocopier; welding; arc work |
 | Sulphur dioxide (SO2) | 2 ppm | 5 ppm | — | Combustion; volcanic activity |
 | Hydrogen sulphide (H2S) | 10 ppm | 15 ppm | — | Sewers; gas wells; decomposition |
 | Ammonia (NH3) | 25 ppm | 35 ppm | — | Refrigeration; agriculture; cleaning |
-| Formaldehyde (HCHO) | — | — | 1 ppm | Cat 1A carcinogen — Peak only; ALARP |
+| Formaldehyde (HCHO) | 1 ppm | 2 ppm | — | Carcinogen (IARC Group 1) — keep exposure ALARP |
 | Isocyanates (TDI, MDI as -NCO) | 0.02 mg/m³ | 0.07 mg/m³ | — | 2-pack paints, polyurethane foam; respiratory sensitiser |
-| Welding fume (as Mn) | 1 mg/m³ | — | — | Reduced from 5 mg/m³ in 2024; Cat 1 neurotoxin |
-| Welding fume (not otherwise classified) | 5 mg/m³ | — | — | General total inhalable fume |
+| Welding fume (not otherwise classified) | 1 mg/m³ | — | — | TWA reduced from 5 mg/m³ in January 2024; IARC Group 1 carcinogen (constituent-specific WES — e.g. manganese, chromium VI — apply in addition) |
 | Lead (inorganic, as Pb) | 0.05 mg/m³ | — | — | Health monitoring mandatory under Reg 415 |
 | Mercury (inorganic) | 0.025 mg/m³ | — | — | Skin notation — dermal absorption |
 | Respirable crystalline silica (RCS) | 0.05 mg/m³ | — | — | Reduced from 0.1 in 2020; no threshold — ALARP (cross-ref `hazards.md` §2) |
-| Respirable coal dust | 1.5 mg/m³ | — | — | NSW mines 1.5; QLD coal 1.0 |
+| Respirable coal dust | 1.5 mg/m³ | — | — | NSW and QLD coal mines both apply 1.5 |
 | Total inhalable dust (nuisance, where no specific WES) | 10 mg/m³ | — | — | Default for unclassified dust |
 | Respirable dust (nuisance, where no specific WES) | 3 mg/m³ | — | — | Default for respirable fraction |
 | Asbestos (all forms, fibres/mL) | 0.1 fibres/mL | — | — | Membrane filter method; banned substance — manage existing only |
@@ -1185,7 +1358,7 @@ not guarantee no health effect, particularly for substances with no threshold
 | Xylene (isomers) | 80 ppm | 150 ppm | — | Solvent; skin notation |
 | Acetone | 500 ppm | 1000 ppm | — | Solvent |
 | Methyl ethyl ketone (MEK) | 150 ppm | 300 ppm | — | Solvent |
-| Diesel particulate matter (as elemental carbon) | 0.05 mg/m³ | — | — | Underground mining focus; Cat 1 carcinogen |
+| Diesel particulate matter (as elemental carbon) | No national WES | — | — | Widely applied guideline value 0.05 mg/m³ (underground mining focus); IARC Group 1 carcinogen |
 
 ### Adjustments for non-standard work patterns
 The standard WES assumes 8-hour day, 5-day week. For extended shifts (10-, 12-,
@@ -1198,7 +1371,8 @@ in mining, healthcare, and emergency services where 12-hour shifts are routine.
   must address skin contact, not just inhalation
 - **Sen** — respiratory or skin sensitiser; exposure may cause sensitisation
   even at low levels
-- **Cat 1A / 1B** — IARC Class 1 carcinogen designations; exposure ALARP
+- **Cat 1A / 1B** — GHS carcinogenicity classifications (IARC uses a separate
+  scheme — Group 1 / 2A / 2B); keep exposure ALARP
 
 ### Practical implications
 - WES is a ceiling, not a target — design controls to achieve well below WES
@@ -1311,7 +1485,9 @@ The 3Cs duty for overlapping PCBUs; consultation with workers (s 47); HSR
 election (Reg 21); workplace inspections; the duty to consult is
 substantive, not procedural.
 
-### Managing the Risks of Working in Heat (2024)
+### Managing the Risks of Working in Heat (SWA guide, 2024)
+Note: this is Safe Work Australia **guidance material**, not a model Code of
+Practice — it informs SFAIRP but does not carry a Code's evidentiary status.
 Heat illness spectrum (cross-ref `hazards.md` §6); WBGT-based work-rest
 cycles; acclimatisation (7–14 days); hydration; PPE selection (cooling
 vests where appropriate); worker monitoring; emergency response for heat
@@ -1349,9 +1525,9 @@ practical standard as model WHS Act s 19, different wording.
 - s 21(2)(f) **monitoring of conditions** — explicit
 - s 21(2)(g) **information in appropriate languages** — explicit
 
-**Workplace Manslaughter** (s 39C, in force 1 July 2020): negligent conduct
-by a body corporate (or its officer) causing the death of an employee or
-member of the public. Max penalty: $19.8M body corporate; 25 years individual.
+**Workplace Manslaughter** (OHS Act s 39G, in force 1 July 2020): negligent
+conduct by a body corporate (or its officer) causing the death of an employee
+or member of the public. Max penalty: $19.8M body corporate; 25 years individual.
 
 **Labour hire host duty** (s 21A, March 2022): host employers owe the same
 OHS duty to labour hire workers as to direct employees.
@@ -1367,15 +1543,26 @@ under different procedural provisions.
 (s 112), Non-disturbance Notices (s 113). WorkSafe Victoria publishes
 guidance and conducts inspections.
 
+**Officer liability — contrast with model law**: the OHS Act contains **no
+s 27-style positive due diligence duty** on officers. Officer exposure arises
+under **s 144** (attribution): where a body corporate commits an offence and
+the contravention is attributable to an officer failing to take reasonable
+care, the officer is also liable. VIC officer liability is therefore
+derivative, whereas model-law officers owe a free-standing proactive duty —
+governance programs built around s 27 due diligence remain best practice in
+VIC, but the legal hook differs.
+
 **Notable case law**:
-- *DPP v Robinson* (2023) — first Workplace Manslaughter conviction
-  (LH Holdings)
-- *DPP v Acquatec* (2021) — corporate Workplace Manslaughter prosecution
+- *DPP v LH Holding Management Pty Ltd* (Victorian County Court, sentenced
+  2024) — the first Victorian workplace manslaughter conviction (stonemasonry
+  business; the sole director was also sentenced)
+- Workplace manslaughter prosecutions are accumulating — verify the current
+  state of authorities before citing
 
 ### South Australia — WHS Act 2012 (SA)
 
 Substantially aligned with model law. Notable variations:
-- **Industrial Manslaughter** added by 2024 amendment; in force from late 2024;
+- **Industrial Manslaughter** added by 2023 amendment; in force 1 July 2024;
   $18M body corporate, 20 years individual
 - **Mining**: Mines and Works Inspection Act 1920 retained alongside WHS Act
 - **Independent regulator structure**: SafeWork SA (within Attorney-General's
@@ -1386,8 +1573,11 @@ Substantially aligned with model law. Notable variations:
 ### Tasmania — WHS Act 2012 (Tas)
 
 Aligned with model law. Notable variations:
-- **Industrial Manslaughter** in force 11 September 2024 (Workplace Health
-  and Safety Amendment); maximum penalties under review
+- **Industrial Manslaughter** — Work Health and Safety Amendment (Industrial
+  Manslaughter) Act 2024 (Tas), passed 11 September 2024 and in force from
+  October 2024; maximum penalties $18M (body corporate) and 21 years
+  imprisonment (individual); the 2-year limitation period was removed for
+  the offence
 - **Marine industries** (fishing, aquaculture) significant employment base;
   Marine and Safety Authority Tasmania (MAST) regulates vessel safety
   alongside WorkSafe Tasmania
@@ -1397,10 +1587,10 @@ Aligned with model law. Notable variations:
 ### Australian Capital Territory — WHS Act 2011 (ACT)
 
 Aligned with model law. Notable variations:
-- **Industrial Manslaughter** via WHS Act 2011 amendment (2022); penalties
-  $16.5M body corporate (indexed), 20 years individual; **also** Crimes
-  Act 1900 (ACT) industrial manslaughter offence (2004 — among first AU
-  jurisdictions)
+- **Industrial Manslaughter** — the offence sat in the Crimes Act 1900 (ACT)
+  from 2004 (the first AU jurisdiction to have one); a 2021 amendment
+  **relocated** it into the WHS Act 2011 (ACT). There is no coexisting Crimes
+  Act offence. Penalties: $16.5M body corporate (indexed), 20 years individual
 - **Comcare jurisdiction** — many ACT-based PCBUs are Cth entities covered
   by Comcare; the ACT WHS Act applies to ACT-domiciled non-Cth employers
 - **Construction Industry Long Service Leave Authority** — additional
@@ -1409,7 +1599,8 @@ Aligned with model law. Notable variations:
 ### Northern Territory — Work Health and Safety (National Uniform Legislation) Act 2011
 
 Aligned with model law. Notable variations:
-- **Industrial Manslaughter** in force 1 February 2020 — among earliest in AU
+- **Industrial Manslaughter** in force 1 February 2020 — among earliest in AU;
+  individual maximum is **life imprisonment**
 - **Mining**: Mining Management Act 2001 (NT) overlay for mining operations
 - **Remote work prevalence**: NT WorkSafe has specific guidance on remote
   and isolated work given the geography (cross-ref `workplace-controls.md`
@@ -1427,40 +1618,45 @@ considerations:
 - **Mining regulation**: WHS (Mines) Regulations 2022 sit under the WHS Act
   2020; previously the Mine Safety and Inspection Act 1994 regime —
   significant structural change for mining-services contractors
-- **DMIRS** as regulator covers WHS, mining, and petroleum/geothermal
-- **Industrial Manslaughter** (s 30A WHS Act 2020): Crime Tier 1 (gross
-  negligence) $10M body corporate / 20 years individual; Crime Tier 2
-  (negligence) $5M / 10 years
-- **WA penalty structure**: among the highest in AU at the Category 1 level
+- **DEMIRS** (Department of Energy, Mines, Industry Regulation and Safety —
+  renamed from DMIRS in 2023) houses WorkSafe WA; covers WHS, mining, and
+  petroleum/geothermal
+- **Industrial Manslaughter** (s 30A WHS Act 2020): a **single offence** —
+  fault element is engaging in conduct **knowing** it is likely to cause death
+  or serious harm and in **disregard** of that likelihood; maxima 20 years
+  imprisonment plus $5M fine (individual), $10M (body corporate)
+- **WA penalty structure**: Category maxima set above model-law values
 
 ### Queensland — WHS Act 2011 (QLD)
 
 Aligned with model law. Notable variations:
 - **Industrial Manslaughter** (s 34C, in force 2017) — first AU jurisdiction;
-  $13.7M body corporate / 20 years individual
+  100,000 penalty units body corporate (~$16.1M at the 2024–25 penalty unit of
+  $161.30; indexed) / 20 years individual
 - **Coal mining and quarrying** under separate regimes (Coal Mining Safety
   and Health Act 1999; Mining and Quarrying Safety and Health Act 1999) —
   cross-ref `sector-regimes.md` §2
 - **Electrical Safety Act 2002** overlays WHS Act for electrical work
-- **Office of Industrial Relations** within DJAG oversees WHS, workers
-  comp, electrical safety
+- **Office of Industrial Relations (OIR)** oversees WHS, workers comp, and
+  electrical safety; WHSQ sits within OIR (consistent with §2)
 - **Mandatory RTW Coordinator** for employers >$1.5M premium or >20 workers
   (cross-ref `compensation-rtw.md` §9)
 
 ### New South Wales — WHS Act 2011 (NSW)
 
 Aligned with model law. Notable variations:
-- **Industrial Manslaughter** (s 34C, in force 16 September 2024) — most
-  recent major addition; $20M body corporate (highest in AU) / 25 years
-  individual
+- **Industrial Manslaughter** (s 34C, in force 16 September 2024); $20M body
+  corporate / 25 years individual
 - **Mining**: WHS (Mines and Petroleum Sites) Act 2013 + WHS (MPS)
   Regulation 2014 — cross-ref `sector-regimes.md` §2
-- **Construction**: WHS Regulation 2017 has additional NSW-specific
-  construction provisions
-- **SafeWork NSW** within the Department of Customer Service
+- **Construction**: WHS Regulation 2025 (which replaced the 2017 Regulation
+  from 1 January 2026) has additional NSW-specific construction provisions
+- **SafeWork NSW** — standalone regulator headed by a SafeWork Commissioner
+  from 1 July 2025 (Work Health and Safety Amendment (Standalone Regulator)
+  Act 2025 (NSW)); previously a unit within the Department of Customer Service
 - **icare** (insurer of last resort) for workers comp — cross-ref
   `compensation-rtw.md` §3
-- **Self-insurers** prominent (Coles, Woolworths, [organisation], councils, etc.)
+- **Self-insurers** prominent (Coles, Woolworths, major councils, etc.)
 - **HSR cessation power** explicit in NSW; well-tested case law
 
 ### Practical implications across jurisdictions

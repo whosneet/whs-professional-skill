@@ -96,19 +96,19 @@ For the authoritative source, see <https://forgeworks.com>.
 
 ---
 
-## Worked example attribution ([organisation] [incident system])
+## Worked example (fictional)
 
-The worked example in `references/company.md` is presented as a structural
-reference showing how a large Australian organisation might configure its WHS
-context. It does not represent the current state of any [organisation] document,
-procedure, or operational practice. Some content may be out of date,
-simplified, or incorrect by the time you read it.
+The worked example in `references/company.md` is **entirely fictional**.
+"Meridian Facilities Group (MFG)" does not exist. The example was authored
+for this skill as a structural reference showing how a large Australian
+organisation might configure its WHS context — the document codes, risk
+matrix, severity classes, notification timeframes, named programs, and
+governance cadence are all invented for illustration and must not be
+treated as any real organisation's settings.
 
-The example is included with the consent of the original author (Neet /
-Avneet Singh) for educational and structural reference purposes only. It
-must not be used as evidence of [organisation]'s compliance position, relied upon
-in any matter involving [organisation], or treated as authoritative for any third
-party.
+No real organisation's internal documents, procedures, or data are included
+in this skill. Any resemblance between the fictional example and a real
+organisation's documents, branding, or practices is coincidental.
 
 Users adapting the skill for their own organisation should replace this
 content entirely with their own validated context before relying on the

@@ -22,29 +22,13 @@ You will need:
    ZIP file Claude produced
 3. About **20 minutes** the first time; 5 minutes for updates
 
-The repository structure you will publish is:
-
-```
-whs-professional-skill/              ← repository root (you choose the name)
-├── README.md
-├── ADAPTING.md
-├── DISCLAIMER.md
-├── CONTRIBUTING.md
-├── PUBLISHING.md                    (this file — optional in the repo)
-├── LICENSE
-└── whs-professional/                ← the actual skill folder
-    ├── SKILL.md
-    └── references/
-        ├── company.md
-        ├── legislation.md
-        ├── frameworks.md
-        ├── investigation.md
-        ├── hazards.md
-        ├── output-templates.md
-        ├── analytics.md
-        ├── programs.md
-        └── glossary.md
-```
+The repository structure you will publish is the full tree shown in the
+**Repository structure** section of `README.md` — root documentation files
+plus the `whs-professional/` skill folder. The skill folder currently
+contains 1 `SKILL.md`, 22 reference files under `references/`, and the
+`examples/` folder. That inventory grows over time, so treat the README
+tree as the source of truth and **package the whole `whs-professional/`
+folder — do not hand-pick files**.
 
 ---
 
@@ -94,39 +78,50 @@ you upload files into a folder you create.
 4. Copy the entire contents and paste into the GitHub editor
 5. Scroll down; commit changes ("Add SKILL.md")
 
-6. Repeat for each reference file. For each one, click **Add file** →
-   **Create new file**, and type the full path:
-   - `whs-professional/references/company.md`
-   - `whs-professional/references/legislation.md`
-   - `whs-professional/references/frameworks.md`
-   - `whs-professional/references/investigation.md`
-   - `whs-professional/references/hazards.md`
-   - `whs-professional/references/output-templates.md`
-   - `whs-professional/references/analytics.md`
-   - `whs-professional/references/programs.md`
-   - `whs-professional/references/glossary.md`
+6. Repeat for every file in the skill folder — each reference file under
+   `whs-professional/references/` and each file under
+   `whs-professional/examples/`. The complete file list is the repository
+   tree in `README.md` (currently 1 `SKILL.md` + 22 reference files +
+   the `examples/` folder). Do not hand-pick a subset — the skill folder
+   ships whole.
 
-7. After all files are uploaded, your repository should show the structure
-   above.
+7. After all files are uploaded, your repository should match the
+   structure shown in `README.md`.
 
-### Step 4 — Add a Release with the .skill file
+### Step 4 — Add a Release with the packaged skill archive
 
-So that practitioners can download a single ready-to-install `.skill` file:
+So that practitioners can download a single ready-to-install archive.
+Claude expects a **`.zip` of the single top-level skill folder**
+(`whs-professional/` with `SKILL.md` inside); renaming the archive to
+`.skill` is optional legacy naming — check <https://support.claude.com>
+for the current upload wording.
 
-1. On your computer, package the skill folder into a `.skill` file:
-   - Right-click the `whs-professional` folder → Compress / Send to →
-     Compressed (zipped) folder
-   - Rename the resulting `.zip` to `whs-professional.skill`
+1. On your computer, package the skill folder from a terminal:
+
+   ```bash
+   cd path/to/repo
+   zip -r whs-professional.zip whs-professional -x "*.DS_Store" -x "__MACOSX/*"
+   ```
+
+   On macOS, `ditto -c -k --norsrc whs-professional whs-professional.zip`
+   produces the same clean archive.
+
+   > **Do not use macOS Finder "Compress"** (right-click → Compress): it
+   > adds `__MACOSX/` and AppleDouble (`._*`) entries that can break the
+   > skill upload. Use the command above, or download the artifact built
+   > by the GitHub Action (`.github/workflows/package.yml`) when you push
+   > a version tag.
+
 2. In GitHub, on your repository page, click **Releases** (right
    sidebar) → **Create a new release** (or **Draft a new release**)
 3. **Choose a tag**: type `v1.0.0` and click "Create new tag"
 4. **Release title**: "v1.0.0 — Initial release"
 5. **Description**: brief notes about what's in this release
-6. **Attach binaries**: drag the `whs-professional.skill` file into the
-   "Attach binaries" area
+6. **Attach binaries**: drag the `whs-professional.zip` (and optionally a
+   copy renamed `whs-professional.skill`) into the "Attach binaries" area
 7. Click **Publish release**
 
-Practitioners can now download the `.skill` file directly from your
+Practitioners can now download the packaged skill directly from your
 Releases page.
 
 ### Step 5 — Verify
@@ -201,11 +196,15 @@ git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/whs-professional-skill.git
 git push -u origin main
 
-# 3. Package the .skill file:
-cd whs-professional && cd ..
-zip -r whs-professional.skill whs-professional
+# 3. Package the skill archive (exclude macOS noise; never use Finder
+#    "Compress", which adds __MACOSX/AppleDouble entries):
+zip -r whs-professional.zip whs-professional -x "*.DS_Store" -x "__MACOSX/*"
+#    (macOS alternative: ditto -c -k --norsrc whs-professional whs-professional.zip)
+#    Optionally: cp whs-professional.zip whs-professional.skill  # legacy naming
 
-# 4. Create the release (in the GitHub web interface, then attach the .skill)
+# 4. Create the release (in the GitHub web interface, then attach the
+#    archive) — or push a v* tag and let .github/workflows/package.yml
+#    build and upload the artifact for you
 ```
 
 ---
@@ -223,7 +222,8 @@ zip -r whs-professional.skill whs-professional
 - When regulations change, edit the relevant file in the GitHub web
   interface (or locally) and commit
 - For each meaningful update, draft a new release with the updated
-  `.skill` file attached
+  skill archive attached (push a `v*` tag and the packaging workflow
+  builds it for you)
 - Increment the version number: `v1.0.0` → `v1.1.0` for minor updates;
   `v2.0.0` for major restructures
 
@@ -242,11 +242,14 @@ zip -r whs-professional.skill whs-professional
 Make sure the file is named exactly `README.md` at the root of the
 repository, not inside a subfolder.
 
-**"My .skill file won't install in Claude"**
-The file must be a ZIP archive with a `.skill` extension. The structure
-inside must be a single top-level folder (`whs-professional/`) containing
-`SKILL.md` and the `references/` subfolder. Common errors:
+**"My skill archive won't install in Claude"**
+The file must be a ZIP archive (`.zip`, or `.skill` as legacy naming for
+the same ZIP). The structure inside must be a single top-level folder
+(`whs-professional/`) containing `SKILL.md` and the `references/`
+subfolder. Common errors:
 - The ZIP contains the files directly, not inside a folder
+- The ZIP contains `__MACOSX/` or `._*` entries from macOS Finder
+  "Compress" — rebuild it with the CLI command in Step 4
 - The folder name doesn't match the `name` field in `SKILL.md` frontmatter
 - The `description` in `SKILL.md` exceeds 1024 characters
 

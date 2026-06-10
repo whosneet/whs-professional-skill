@@ -25,7 +25,8 @@ Before designing any component, answer:
 4. What does success look like — and how will we know?
 
 Typical evidence sources: HiPo distribution, injury classification trends, worker
-feedback, facilitator debrief data, near miss reports, CRO gap analysis.
+feedback, facilitator debrief data, near miss reports, critical control
+verification (CCV) gap analysis.
 
 ### Theory of Change
 Define the causal logic: if we do X, workers will Y, which will lead to Z.
@@ -67,7 +68,7 @@ dispersed workforce.
 | Element | Indicative scale | Guidance |
 |---|---|---|
 | Target population | Tens of thousands of workers possible | Scale program to workforce under direct organisational control |
-| Duration | 8 weeks | Minimum 6 weeks for behaviour change; 8–12 weeks for maximum reach |
+| Duration | 8 weeks | Rule of thumb, not an evidence-based threshold: minimum 6 weeks for behaviour change (habit-formation research, e.g. Lally et al. 2010, suggests longer and highly variable timeframes); 8–12 weeks for maximum reach |
 | Cadence | Weekly themed toolbox session | Weekly is optimal — monthly loses momentum, daily is unsustainable |
 | Critical risk topics | 15 topics, one per week + buffer weeks | Cover highest-HiPo critical risks in first 4 weeks |
 | Facilitators | 200+ toolbox facilitators | Target 1 per 50–60 workers for manageable load |
@@ -142,17 +143,20 @@ increase engagement and motivation. It is NOT:
 - Replacing substantive engagement with token rewards
 
 Done well, gamification increases intrinsic motivation — workers engage because
-the activity is satisfying, not just to earn a reward.
+the activity is satisfying, not just to earn a reward. The underlying constructs
+— the intrinsic/extrinsic motivation distinction, and the autonomy, mastery
+(competence), and relatedness needs that good gamification design serves — come
+from Deci and Ryan's self-determination theory.
 
 ### Core Gamification Elements for WHS Programs
 
 | Element | Description | WHS Application |
 |---|---|---|
-| **Progress mechanics** | Visible progress toward a goal | Jigsaw puzzle completion; CRO dashboard milestones |
+| **Progress mechanics** | Visible progress toward a goal | Jigsaw puzzle completion; CCV dashboard milestones |
 | **Achievement / recognition** | Acknowledgment of contribution | Worker-generated content credits; facilitator leaderboard |
 | **Social proof** | Visibility of others' engagement | Team completion board; peer-nominated recognition |
 | **Narrative / theme** | Storyline that gives purpose to activities | Themed verification programs; seasonal campaign journey |
-| **Feedback loops** | Regular, visible data on how you're doing | Weekly CRO completion rate; hazard report count |
+| **Feedback loops** | Regular, visible data on how you're doing | Weekly CCV completion rate; hazard report count |
 | **Autonomy** | Choice in how to engage | Workers can contribute alerts, toolboxes, or videos |
 | **Mastery** | Increasing challenge / skill development | Facilitator development tiers; escalating topic complexity |
 
@@ -160,7 +164,8 @@ the activity is satisfying, not just to earn a reward.
 - **Completion gaming**: if the metric is "toolbox completed", facilitators will mark
   attendance even if the session was low quality. Build quality indicators.
 - **Extrinsic crowding out intrinsic**: large cash prizes can reduce intrinsic motivation
-  if workers start engaging only for the reward, not the purpose
+  if workers start engaging only for the reward, not the purpose — the
+  crowding-out effect (Deci, Koestner & Ryan, 1999 meta-analysis)
 - **Exclusion**: gamification benefits workers with literacy, language access, and
   digital access. Design for the full workforce, not just office-based staff
 - **One-size gamification**: what motivates facilities maintenance workers ≠ what
@@ -295,7 +300,7 @@ These are the hard measures — take 4–8 weeks to appear in the data.
 | HiPo rate (critical risk categories covered by program) | Incident system | Lagging |
 | Worker-reported awareness of critical controls | Survey | Leading (perception) |
 | Facilitator debrief quality scores | Debrief cards / Teams | Process quality |
-| CCV completion rate on program-focused critical risks | CRO system | Leading |
+| CCV completion rate on program-focused critical risks | CCV system | Leading |
 
 ### Survey Design for Program Evaluation
 Short pulse survey (5–7 questions) at program midpoint and end:
@@ -306,12 +311,15 @@ Short pulse survey (5–7 questions) at program midpoint and end:
 - "What would you change about this program?" (open text)
 
 Deploy via QR code on collateral, Teams, or paper where digital access is limited.
-Minimum 30% response rate for meaningful data; aim for 50%+ with incentive.
+As a practitioner rule of thumb (not a statistical threshold), treat ~30%
+response as the floor for meaningful data; aim for 50%+ with incentive.
 
 ### Presenting Program ROI to Leadership
 Connect program activity to outcome data:
-- "Contracts with >80% toolbox completion showed 23% higher hazard report rates in
-  the following 6 weeks compared to contracts with <50% completion"
+- Illustrative (hypothetical) example of the framing — replace with your
+  organisation's actual measured figures: "Contracts with >80% toolbox
+  completion showed 23% higher hazard report rates in the following 6 weeks
+  compared to contracts with <50% completion"
 - Frame in terms of HiPo prevention, not activity volume
 - Link to critical risk categories to demonstrate targeting logic
 
@@ -322,7 +330,7 @@ Connect program activity to outcome data:
 ### Topic Priority Framework
 Prioritise critical risk topics based on:
 1. HiPo distribution: highest frequency critical risks first
-2. CRO alignment gap: critical risks with largest CRO deficit
+2. CCV alignment gap: critical risks with the largest CCV deficit
 3. Seasonal or project-specific factors: e.g., summer heat, new contract start
 4. Regulatory focus: risks with recent regulator attention or code updates
 

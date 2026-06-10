@@ -49,9 +49,9 @@ compensation claim, and acceptance of a compensation claim is not an
 admission of WHS fault. They are tested under separate statutes with
 different burdens and different remedies.
 
-> For WHS Act provisions, load `references/legislation.md`. For psychosocial
-> hazard regulations (Part 3.1A) that drive psychological injury claims, see
-> `legislation.md` §9.
+> For WHS Act provisions, load `references/legislation.md`. For the psychosocial
+> hazard regulations (model WHS Regulations rr 55A–55D; NSW: Part 3.2 Div 11)
+> that drive psychological injury claims, see `legislation.md` §9.
 
 ### Why this lives in a WHS skill
 WHS managers carry direct or shared accountability for:
@@ -82,8 +82,8 @@ axes:
 
 | Model | Description | Examples |
 |---|---|---|
-| **Centralised (monopoly)** | Single statutory insurer underwrites all policies; private insurers cannot compete | QLD (WorkCover Queensland), SA (ReturnToWorkSA), NT, NSW (icare — Nominal Insurer), Comcare |
-| **Decentralised (private market)** | Multiple licensed insurers compete; regulator approves and oversees | WA, TAS, ACT (private sector), NSW (self-insurers operating alongside icare) |
+| **Centralised (monopoly)** | Single statutory insurer underwrites all policies; private insurers cannot compete | QLD (WorkCover Queensland), SA (ReturnToWorkSA), NSW (icare — Nominal Insurer), Comcare |
+| **Decentralised (private market)** | Multiple licensed insurers compete; regulator approves and oversees | WA, TAS, NT, ACT (private sector), NSW (self-insurers operating alongside icare) |
 | **Hybrid** | Single statutory insurer with appointed agents handling claims administration | VIC (WorkSafe Victoria + agents EML, Allianz, Gallagher Bassett) |
 
 ### No-fault principle
@@ -92,8 +92,10 @@ of employment is entitled to statutory benefits regardless of who was at
 fault. Exceptions exist for serious and wilful misconduct, self-inflicted
 injury, and (in some schemes) intoxication. Common law damages claims for
 employer negligence remain available in some jurisdictions subject to
-impairment thresholds (notably VIC, QLD); they are abolished or heavily
-restricted in others (notably ACT, SA, NZ).
+impairment thresholds or election rules (notably VIC, QLD, WA — and the ACT,
+which retains broad common law access); they are abolished or heavily
+restricted in others (notably the NT, where common law access was abolished,
+SA, and NZ).
 
 ### Premium funding model
 Premium is calculated using a three-factor formula common to most schemes:
@@ -127,8 +129,8 @@ jurisdiction detail.
 |---|---|---|---|---|
 | NSW | icare (Nominal Insurer) + self-insurers | SIRA | Workers Compensation Act 1987 + WIM Act 1998 | Centralised + self-insurance |
 | VIC | WorkSafe Victoria + agents | WorkSafe Victoria | WIRC Act 2013 | Hybrid (statutory + agents) |
-| QLD | WorkCover Queensland | OIR | Workers' Compensation and Rehabilitation Act 2003 | Centralised + self-insurance |
-| WA | Multiple private insurers | WorkCover WA | WC&IM Act 1981 (+ 2023 reforms) | Decentralised |
+| QLD | WorkCover Queensland | Workers' Compensation Regulator (within the Office of Industrial Relations) | Workers' Compensation and Rehabilitation Act 2003 | Centralised + self-insurance |
+| WA | Multiple private insurers | WorkCover WA | Workers Compensation and Injury Management Act 2023 (commenced 1 July 2024) | Decentralised |
 | SA | ReturnToWorkSA | ReturnToWorkSA | Return to Work Act 2014 | Centralised |
 | TAS | Multiple private insurers | WorkCover Tasmania | Workers Rehabilitation and Compensation Act 1988 | Decentralised |
 | NT | Multiple private insurers | NT WorkSafe | Return to Work Act 1986 (NT) | Decentralised |
@@ -140,7 +142,7 @@ jurisdiction detail.
   as the Nominal Insurer for the bulk of NSW employers. icare is the
   insurer of last resort and the default insurer for most policies
 - **Self-insurance**: large employers may apply to operate as self-insurers
-  under licence (Coles, Woolworths, [organisation], Wesfarmers, major councils,
+  under licence (Coles, Woolworths, Wesfarmers, major councils,
   state-owned corporations). Self-insurance requires demonstrated WHS
   capability, financial capacity, and a guarantee or bond
 - **Regulator**: SIRA (State Insurance Regulatory Authority) — sets premium
@@ -151,20 +153,44 @@ jurisdiction detail.
   RTW)
 - **Claims pathway**:
   1. Worker notifies employer
-  2. Employer notifies insurer within **5 days** (s 44 WIM Act)
-  3. Provisional liability decision within **7 days** of notification —
-     weekly payments and reasonable medical commence on provisional
-     liability for up to **12 weeks**
-  4. Full liability decision within **21 days** (or up to 12 weeks where
-     reasonable excuse — s 267 WIM Act)
+  2. Employer notifies insurer within **48 hours** (s 44 WIM Act 1998)
+  3. Provisional weekly payments commence within **7 days** of initial
+     notification unless the insurer has a reasonable excuse (s 267 WIM
+     Act 1998); provisional weekly payments are capped at **12 weeks**
+     (s 275), with provisional medical expenses up to the statutory limit
+  4. Liability determination within **21 days** — a SIRA claims-handling
+     standard, not a statutory deadline
   5. Acceptance > ongoing weekly payments (capped at statutory tiers) +
      medical and related expenses + lump sum permanent impairment (≥11%
-     WPI for non-psychological; ≥15% for psychological under s 65A)
+     WPI for physical injury; psychological injury thresholds are now
+     governed by the 2025–26 reforms — see below)
   6. Denial > worker may request internal review > Personal Injury
      Commission (PIC) for dispute resolution
-- **Recent reform**: Minns Government 2024 review of icare and the
-  scheme's psychological injury performance — expect ongoing reform
-  movement, particularly around s 11A (reasonable management action)
+
+#### NSW 2025–26 reforms (dated subsection — position as at June 2026)
+Following the Minns Government's 2024–25 review of icare and the scheme's
+psychological injury performance, two reform Acts restructured NSW
+psychological injury compensation: the **Workers Compensation Legislation
+Amendment Act 2025 (NSW)** (passed 18 November 2025) and a second-stage
+**reform and modernisation Act** (passed 4 February 2026). Key changes:
+
+- A primary **psychological injury** must now arise from a defined
+  **"relevant event"** (a defined list of causal events — e.g. exposure
+  to a traumatic event, bullying, harassment) AND employment must be
+  **the main contributing factor** — a materially higher bar than the
+  former "substantial contributing factor" test
+- Weekly payments for psychological injury are **capped at 130 weeks**
+  unless the worker's permanent impairment is **≥21% WPI**
+- The **lump-sum / common-law WPI threshold for psychological injury
+  rises to 25% from 1 July 2026** (the pre-reform threshold was 15%
+  under s 65A)
+- **s 11A** of the Workers Compensation Act 1987 (reasonable management
+  action) was reworked as part of the package — pre-reform s 11A case
+  law should not be applied to post-commencement claims without checking
+- Transitional arrangements distinguish pre- and post-commencement
+  claims, and guidance was still settling at the time of writing —
+  **verify current SIRA guidance before advising on any NSW
+  psychological injury claim or threshold**
 
 ### Victoria
 - **Insurer**: WorkSafe Victoria (statutory authority) underwrites all
@@ -194,9 +220,11 @@ jurisdiction detail.
 
 ### Queensland
 - **Insurer**: WorkCover Queensland (default insurer; statutory authority).
-  Self-insurance is available through application to the Office of
-  Industrial Relations (OIR)
-- **Regulator**: OIR (Office of Industrial Relations) — sits within DJAGS
+  Self-insurance licences are granted by the Workers' Compensation
+  Regulator
+- **Regulator**: the **Workers' Compensation Regulator**, which sits
+  within the Office of Industrial Relations (the OIR's departmental home
+  has shifted with machinery-of-government changes — verify current)
 - **Legislation**: Workers' Compensation and Rehabilitation Act 2003
   (WCRA)
 - **Claims pathway**:
@@ -210,8 +238,9 @@ jurisdiction detail.
      DPI threshold and notice of claim requirements (Personal Injuries
      Proceedings Act 2002 parallels)
 - **Notable**: QLD retains the strongest common law damages access
-  among AU jurisdictions; presumptive silicosis (2019) and PTSD for
-  first responders (2020) provisions are in WCRA
+  among AU jurisdictions; presumptive silicosis (2019) and first
+  responder PTSD (presumption passed 20 May 2021) provisions are in
+  the WCRA
 
 ### Western Australia
 - **Insurer**: multi-insurer private market — approximately 8 licensed
@@ -219,9 +248,15 @@ jurisdiction detail.
   of WA for government). Insurers must be approved by WorkCover WA
 - **Regulator**: WorkCover WA — sets recommended premium rates,
   administers disputes, licenses insurers
-- **Legislation**: Workers' Compensation and Injury Management Act 1981
-  (WC&IM Act). The Workers Compensation and Injury Management Act 2023
-  (effective 1 July 2024) replaces and modernises the 1981 Act
+- **Legislation**: **Workers Compensation and Injury Management Act 2023
+  (WA)** — commenced **1 July 2024** and is the operative statute,
+  applying to existing claims as well as new ones. It replaced the
+  Workers' Compensation and Injury Management Act 1981; cite the 1981
+  Act only as the historical position. Injury management obligations
+  (injury management system, return-to-work programs, duty to keep the
+  pre-injury position or a comparable suitable position available for
+  12 months) sit in Pt 3 of the 2023 Act — confirm specific section
+  numbers against the current Act before citing
 - **Notable**: WA retains journey claims coverage; mining and resources
   sector dominates premium profile; common law damages available with
   election rules
@@ -234,10 +269,13 @@ jurisdiction detail.
 - **Regulator**: ReturnToWorkSA (combined regulator and insurer)
 - **Legislation**: Return to Work Act 2014 (RTW Act) — replaced the
   Workers Rehabilitation and Compensation Act 1986 in major 2015 reform
-- **2015 reform highlights**: weekly payments reduced from 130 weeks
-  to 104 weeks for most workers; medical entitlements wound back;
-  significantly increased focus on RTW outcomes and employer
-  accountability; common law damages largely abolished
+- **2015 reform highlights**: weekly payments **capped at 104 weeks**
+  for most workers, with Seriously Injured Workers (≥30% WPI) exempt
+  from the cap — under the pre-2015 scheme, payments had instead
+  **stepped down at 130 weeks** rather than ceasing; medical
+  entitlements wound back; significantly increased focus on RTW
+  outcomes and employer accountability; common law damages largely
+  abolished
 - **Notable**: SA's reform was the most aggressive scheme restructure in
   AU in recent decades — significantly reduced benefit duration and
   cost; the policy bet was that earlier and more aggressive RTW would
@@ -257,8 +295,9 @@ jurisdiction detail.
 - **Insurer**: multi-insurer private market
 - **Legislation**: Return to Work Act 1986 (NT) — formerly the Workers
   Rehabilitation and Compensation Act
-- **Notable**: covers journey claims; presumptive PTSD and firefighter
-  cancer provisions
+- **Notable**: covers journey claims; firefighter cancer presumptive
+  provisions (verify current status of any first responder PTSD
+  presumption before citing — see §12)
 
 ### ACT
 - **Insurer (private sector)**: multi-insurer private market for ACT
@@ -279,8 +318,8 @@ jurisdiction detail.
 - **Licensed self-insurers (national licensees)**: large national
   employers granted Comcare self-insurance licence and exempted from
   state schemes (Telstra, Optus, K&S Freighters, Pacific National,
-  ReturnToWork SA partner entities, banking sector entities, others —
-  list updated by SRCC). Self-insurance under Comcare consolidates
+  banking sector entities, others — list maintained and updated by the
+  SRCC). Self-insurance under Comcare consolidates
   WC liability under a single national scheme rather than maintaining
   policies in eight jurisdictions
 - **Regulator**: Comcare (regulator + insurer + self-insurance overseer);
@@ -322,18 +361,23 @@ five separate **accounts**, each funded by a distinct levy:
 The Work levy is set per industry classification (CU — Classification
 Unit). Industry rates are reviewed annually by ACC. For larger employers:
 
-- **Experience Rating Programme** — applies to employers with annual
-  liable earnings above the threshold (approximately NZD $735K leviable
-  earnings in recent years). Loadings/discounts of up to ±50% based
-  on three-year claims experience relative to industry
-- **Accredited Employers Programme (AEP)** — large employers (typically
-  >NZD $750K annual leviable earnings) can opt to manage their own
-  workplace injury claims for up to three years (Partnership Discount
-  Programme — PDP) in exchange for a substantial levy discount. Closest
-  AU equivalent to self-insurance
-- **Workplace Safety Discount** — for small employers (<NZD $565K annual
-  liable earnings approximately) demonstrating injury management and
-  safety performance — 10% discount
+- **Experience rating** — eligibility is keyed to the **work levy paid**,
+  not headcount or earnings alone: employers above ACC's annual
+  work-levy threshold are experience-rated, with loadings/discounts
+  applied against the industry rate based on claims experience over the
+  assessment window; smaller employers sit on a no-claims discount
+  arrangement instead (±10%). Thresholds and loading/discount bands are
+  set and adjusted by ACC — verify current settings on acc.co.nz before
+  quoting figures
+- **Accredited Employers Programme (AEP)** — large employers can opt to
+  manage their own workplace injury claims for an agreed
+  claim-management period in exchange for a substantial levy discount;
+  eligibility includes a substantial minimum annual **work levy**
+  (verify the current threshold with ACC) plus demonstrated safety and
+  claims-management capability. Closest AU equivalent to self-insurance
+
+(The former **Workplace Safety Discount** for small employers has been
+**discontinued** — do not cite it as a current program.)
 
 ### Benefits
 Entitlements under the ACC Act 2001 include:
@@ -386,15 +430,17 @@ change the trajectory.
    report. In some schemes, late notification can become grounds for
    denial (rarely sustained where injury is genuine)
 3. **Employer notifies insurer** — statutory timeframe applies
-   (NSW: 5 days; VIC: 10 days; QLD: worker often lodges directly; WA:
+   (NSW: 48 hours; VIC: 10 days; QLD: worker often lodges directly; WA:
    typically 7 days; SA: 5 days; Comcare: as soon as practicable).
    Failure to notify is an offence under most schemes and can trigger
    regulator action
 4. **Provisional liability** — insurer makes an early determination to
-   commence benefits while liability is being investigated. NSW
-   provisional liability runs **12 weeks** under s 267 WIM Act; other
-   schemes operate similar early-pay frameworks. Provisional liability
-   protects worker income during the investigation period
+   commence benefits while liability is being investigated. In NSW,
+   provisional weekly payments must commence within 7 days of initial
+   notification absent a reasonable excuse (s 267 WIM Act 1998), and
+   are capped at **12 weeks** (s 275); other schemes operate similar
+   early-pay frameworks. Provisional liability protects worker income
+   during the investigation period
 5. **Investigation and full liability decision** — insurer assesses:
    employment connection, mechanism of injury, medical causation,
    any exclusionary factors (e.g., s 11A NSW for psychological).
@@ -412,8 +458,9 @@ change the trajectory.
    WA), worker may elect to pursue damages
 9. **Denial pathway** — worker may seek internal insurer review > scheme
    regulator review > tribunal (Personal Injury Commission in NSW;
-   Magistrates Court in VIC; QIRC in QLD; State Administrative Tribunal
-   in WA; SAET in SA; etc.)
+   Magistrates Court in VIC; QIRC in QLD; WorkCover WA Conciliation and
+   Arbitration Services — with appeals to the District Court — in WA;
+   SAET in SA; etc.)
 
 ### Critical decision points for WHS managers
 - **Notification timeframe** — never withhold notification to "investigate
@@ -442,8 +489,10 @@ For experience-rated employers (above the minimum premium threshold):
 **Premium = Industry Rate × Insurable Wages × Experience Modification Factor**
 
 Or in scheme-specific variants:
-- NSW: Premium = (Industry Premium Rate × Wages) × Performance Premium
-  Adjustment + Dust Diseases Contribution + GST
+- NSW: Premium = (Industry Premium Rate × Wages) × Claims Performance
+  Adjustment + Dust Diseases Contribution + GST (factor naming varies
+  across SIRA premium instruments — verify the current SIRA Market
+  Practice and Premiums Guidelines)
 - VIC: Premium = (Industry Rate × Rateable Remuneration) × Employer
   Performance Rating
 - QLD: Premium = (Industry Rate × Wages) × Industry Claims Performance
@@ -591,7 +640,10 @@ of the RTW framework in every AU scheme.
   RTW; s 232A duty to take all reasonable steps to provide suitable
   duties
 - SA: s 18 RTW Act 2014 — provide suitable employment
-- WA: s 155A WC&IM Act (and equivalents in 2023 Act)
+- WA: WC&IM Act 2023 Pt 3 — duty to keep the worker's pre-injury
+  position, or a comparable suitable position, available (the former
+  s 155A of the 1981 Act is superseded; confirm current section
+  numbers in the 2023 Act)
 - Comcare: SRC Act provisions on suitable employment and RTW
 
 ### What "suitable" means
@@ -664,23 +716,29 @@ function.
 
 | Jurisdiction | Threshold | Source |
 |---|---|---|
-| NSW | Annual basic tariff premium >$50,000 OR self-insurer; OR designated as Category 1 employer | s 26 Workers Compensation Act 1987; SIRA RTW Coordinator requirements |
-| QLD | Annual wages >$7.275M OR self-insured; OR Government employer | s 226 WCRA |
-| VIC | Larger employers (typically rateable remuneration >$2M); voluntary for smaller | WIRC Act + WorkSafe Victoria guidance |
+| NSW | Category 1 employer — **Average Performance Premium >$50,000**, OR self-insurer, OR insured by a specialised insurer — must appoint an RTW Coordinator and maintain a tailored RTW program; Category 2 (all others) need a standard RTW program | SIRA Guidelines for workplace return to work programs, made under **s 52 WIM Act 1998** |
+| QLD | s 226 WCRA two-limb test: annual wages above the indexed general threshold, OR employer in a prescribed high-risk industry with wages above a lower indexed threshold (dollar figures indexed annually — verify current WorkSafe QLD guidance); self-insurers also captured | s 226 WCRA |
+| VIC | Employers at/above the remuneration threshold (~$2.4M rateable remuneration, indexed) must have an RTW coordinator **at all times**; employers below the threshold must appoint one **as soon as a worker has an incapacity** — the obligation is not voluntary at any size | WIRC Act + WorkSafe Victoria guidance |
 | SA | Designated employer thresholds | RTW Act 2014 |
-| WA | RTW programs required; coordinator function commonly assigned | WC&IM Act 1981 |
+| WA | Injury management system + return-to-work programs required; coordinator function commonly assigned | WC&IM Act 2023 Pt 3 |
 | Comcare | All licensed self-insurers must have rehabilitation case managers | SRC Act + Comcare Rehabilitation Management System |
 
-### Certified RTW Coordinator qualification
-NSW, QLD, and several other schemes require coordinators to complete
-a state-approved RTW Coordinator training course before performing the
-role:
-- NSW: SIRA-approved 2-day RTW Coordinator course (refresher at 5
-  years)
-- QLD: WorkCover QLD approved 5-day Rehabilitation and Return to Work
-  Coordinator course; refresher every 3 years
-- VIC: WorkSafe Victoria-approved RTW Coordinator course (voluntary
-  for most employers; required for larger)
+### RTW Coordinator competency requirements
+The prescriptive approved-course regimes of the 2010s have been retired
+in the largest schemes — competency is now framed functionally:
+- NSW: SIRA requires the coordinator to have the **relevant training,
+  skills and experience** for the role — there is **no longer a
+  mandated 2-day approved course or 5-year refresher**; SIRA publishes
+  guidance on the capabilities expected
+- QLD: s 226 WCRA requires the employer to appoint an **"appropriately
+  qualified"** Rehabilitation and Return to Work Coordinator (RRTWC) —
+  qualification is assessed against the demands of the role, not
+  completion of a single approved course
+- VIC: WorkSafe Victoria publishes RTW coordinator guidance and
+  training expectations — check current WorkSafe material for the
+  applicable competency expectations
+Training remains good practice everywhere; the change is that the
+specific legacy courses/refreshers are no longer the statutory test.
 
 ### Coordinator functions
 - **Initial contact** — typically within 3 business days of injury
@@ -743,10 +801,10 @@ employment-causation test:
 
 | Jurisdiction | Test | Source |
 |---|---|---|
-| NSW | Personal injury arising out of or in the course of employment; employment a "substantial contributing factor"; "real and not imagined" injury | s 4 + s 9A Workers Compensation Act 1987 |
+| NSW | **From the 2025–26 reforms**: a primary psychological injury must arise from a defined **"relevant event"** AND employment must be **the main contributing factor**. (Former position, pre-reform: employment a "substantial contributing factor" under s 9A.) Verify current SIRA guidance and transitional rules | Workers Compensation Act 1987 as amended by the 2025–26 reform Acts |
 | VIC | Mental injury where employment is the "predominant cause" | s 18 WIRC Act |
 | QLD | Psychiatric/psychological injury where employment is "the major significant contributing factor" | s 32 WCRA |
-| SA | Psychiatric impairment compensable where work is a "significant contributing cause" | RTW Act 2014 |
+| SA | Psychiatric injury compensable only where employment is **"the significant contributing cause"** (a deliberately higher bar than for physical injury) | s 7(2)(b) RTW Act 2014 (SA) |
 | Comcare | Employment "significantly contributed" to the injury | s 5B SRC Act |
 
 ### Reasonable management action exclusions
@@ -754,10 +812,13 @@ Most schemes exclude psychological injury arising from **reasonable
 management action taken in a reasonable manner**. This is the most
 frequently litigated exclusion across jurisdictions:
 
-- **NSW s 11A WIM Act**: no compensation where injury wholly or
-  predominantly caused by reasonable action by employer with respect
-  to transfer, demotion, promotion, performance appraisal, discipline,
-  retrenchment, dismissal, provision of employment benefits
+- **NSW s 11A Workers Compensation Act 1987**: no compensation where
+  injury wholly or predominantly caused by reasonable action by employer
+  with respect to transfer, demotion, promotion, performance appraisal,
+  discipline, retrenchment, dismissal, provision of employment benefits.
+  **s 11A was reworked by the 2025–26 NSW reforms** alongside the new
+  "relevant event" test — do not apply pre-reform s 11A case law to
+  post-commencement claims without verifying current SIRA guidance
 - **VIC**: similar exclusion under WIRC Act
 - **QLD**: similar — "reasonable management action in connection with
   the worker's employment"
@@ -776,7 +837,8 @@ the WHS framework requires. Key points:
 
 - **Link to psychosocial hazard management** — psychological injury
   claims are the lagging outcome of unmanaged psychosocial hazards
-  under WHS Regulations Part 3.1A. Investigate them through ICAM, map
+  under model WHS Regulations rr 55A–55D (NSW: Part 3.2 Div 11).
+  Investigate them through ICAM, map
   contributing factors to the SWA psychosocial hazard categories, feed
   back into the prevention system
 - **Avoid the HR-only trap** — claim management may sit with HR, but
@@ -812,7 +874,7 @@ frequent source of confusion in multi-jurisdictional employers.
 |---|---|---|
 | NSW | Limited — "real and substantial" connection to employment required (s 10 Workers Compensation Act 1987); direct route between residence and workplace | Substantially narrowed in 2012 reforms |
 | VIC | **Excluded** since 2010 reforms | Not compensable except where journey is in the course of employment (work travel) |
-| QLD | Limited — direct route between worker's home and workplace; deviations break coverage | s 35 WCRA |
+| QLD | **Covered** — journeys between the worker's home and place of employment are compensable (s 35 WCRA); excluded where there is a substantial delay, interruption or deviation from the journey | s 35 WCRA |
 | WA | **Covered** | Recognised under WC&IM Act; direct journey + reasonable deviation |
 | SA | **Excluded** since RTW Act 2014 reforms | Not compensable as separate category |
 | TAS | Limited | Workers Rehabilitation and Compensation Act |
@@ -860,7 +922,7 @@ schedule of cancers and a qualifying period of service:
 | Jurisdiction | Source | Notable features |
 |---|---|---|
 | Commonwealth | Safety, Rehabilitation and Compensation Act 1988 (Cth) — amended 2011 | 12 cancer types; qualifying periods 5–25 years depending on cancer |
-| NSW | Workers Compensation (Firefighters Special Provisions) Act 2018 | 12 cancers; career + eligible volunteers |
+| NSW | Workers' Compensation Legislation Amendment (Firefighters) Act 2018 (NSW) — inserted the presumptions into the Workers Compensation Act 1987 | 12 cancers; career + eligible volunteers |
 | VIC | Firefighters' Presumptive Rights Compensation Act 2019 | 12 cancers; covers career + volunteers (subject to qualifying service) |
 | QLD | WCRA + Firefighters provisions | 12+ cancers; career and rural firefighters |
 | WA | Workers' Compensation and Injury Management Amendment (Presumptive Compensation) Act 2013 | Career and bushfire volunteers |
@@ -875,41 +937,61 @@ oesophageal, prostate, ureter, colorectal, lung cancer (in non-smoker
 firefighters). Qualifying service period varies by cancer (typically
 5–25 years).
 
-### Silicosis
-Presumptive silicosis provisions have been introduced in the
-jurisdictions most affected by the engineered stone crisis:
+### Silicosis and dust diseases
+QLD has a verifiable statutory silicosis pathway; elsewhere, dust
+disease claims run through general provisions or dedicated dust-disease
+schemes — do not assert presumptions that cannot be verified:
 
-| Jurisdiction | Introduced | Coverage |
+| Jurisdiction | Mechanism | Coverage |
 |---|---|---|
-| QLD | 2019 amendment to WCRA | Workers engaged in defined silica industries with qualifying exposure |
-| NSW | 2024 amendment | Workers engaged in defined silica industries |
-| VIC | 2024 amendment to WIRC Act | Workers engaged in defined silica industries |
+| QLD | 2019 amendments to the WCRA (engineered stone / silica response) | Workers engaged in defined silica industries with qualifying exposure |
 
-Other jurisdictions are considering similar provisions. The presumption
-typically operates: if the worker has the disease and the requisite
-exposure, the work-causation is presumed.
+**NSW — the dust diseases pathway**: NSW compensates occupational dust
+diseases (silicosis, asbestosis, mesothelioma and other scheduled dust
+diseases) through a dedicated statutory scheme under the **Workers'
+Compensation (Dust Diseases) Act 1942 (NSW)**, administered as **icare
+Dust Diseases Care**. Entitlement turns on medical certification of a
+scheduled dust disease plus occupational exposure in NSW employment —
+the claim runs outside the mainstream 1987 Act scheme, with no-fault
+lifetime care, weekly compensation, and dependant benefits. This — not
+a WIRC/1987-style presumption — is the operative NSW dust-disease
+mechanism. VIC dust-disease claims run through the WIRC Act and common
+law; treat any claimed NSW or VIC statutory silicosis *presumption*
+with caution and verify against current legislation before citing.
+Other jurisdictions have considered, but not all have enacted,
+presumptive silicosis provisions.
 
 > For the underlying RCS regulatory framework, engineered stone ban,
 > exposure standards, and Silica Risk Control Plan requirements, load
 > `references/hazards.md` §1 and §2.
 
 ### PTSD for first responders
-Presumptive PTSD provisions have been progressively introduced for
-police, firefighters, paramedics, and other first responder cohorts:
+Presumptive PTSD coverage is uneven across jurisdictions — verify the
+statute before asserting a presumption in any given jurisdiction:
 
-| Jurisdiction | Introduced | Coverage |
+| Jurisdiction | Status | Coverage |
 |---|---|---|
-| VIC | 2019 (expanded thereafter) | Police, fire, paramedics, emergency call-takers |
-| QLD | 2020 amendment to WCRA | Police, fire, ambulance, emergency call-takers |
-| NSW | 2022 amendment | Police, fire, ambulance, paramedics, others |
-| TAS | 2019 onwards | First responders |
-| NT | Return to Work Act amendments | NT first responders |
-| SA | RTW Act amendments | SA first responders |
-| ACT | Workers Compensation Act amendments | ACT first responders |
-| WA | Workers Compensation and Injury Management Act amendments | WA Police and other prescribed |
+| QLD | Statutory presumption — amendment to the WCRA **passed 20 May 2021** | First responders and other eligible workers (police, fire, ambulance, and prescribed cohorts) |
+| Commonwealth (Comcare) | Statutory presumption inserted into the SRC Act — **in effect from 15 December 2023** | First responders covered by the Comcare scheme (e.g. AFP, Commonwealth/ACT firefighting and ambulance roles) |
+| TAS | Statutory presumption (2019 amendments) — verify current scope before citing | Prescribed public-sector first responders |
+| ACT / NT / WA / SA | Mixed and changing — some have legislated or proposed presumptive or expedited pathways; verify the current Act and regulations before citing any presumption | Varies |
 
-Presumption: PTSD diagnosed by qualified clinician + employment in a
-prescribed first responder role = injury presumed work-related.
+**NSW and VIC have no statutory first-responder PTSD presumption** —
+do not assert one. The honest position in those states:
+- **NSW**: first responder psychological injury claims run through the
+  general provisions (as restructured by the 2025–26 reforms, which
+  give police and other emergency services workers some distinct
+  treatment within the package — verify current SIRA guidance)
+- **VIC**: operates a **provisional payments** scheme (originating in
+  an emergency-worker pilot and extended by 2021 legislation): mental
+  injury claimants receive payment for reasonable treatment while
+  liability is determined, regardless of the eventual liability
+  decision. That is an early-support mechanism, **not** a presumption
+  of liability
+
+Where a presumption applies, it operates as: PTSD diagnosed by a
+qualified clinician + employment in a prescribed first responder role =
+injury presumed work-related unless the contrary is established.
 
 ### COVID-19
 Presumptive COVID-19 provisions were introduced during 2020–2022 in

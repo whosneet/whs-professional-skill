@@ -18,6 +18,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **SDA** | Sex Discrimination Act 1984 (Cth) — source of the s 47C positive duty. |
 | **AHRC** | Australian Human Rights Commission — enforces the SDA positive duty from Dec 2023. |
 | **MHF** | Major Hazard Facility — regulated under Schedule 15 of model WHS Regulations. |
+| **CoP** | Code of Practice — approved practical guidance under the WHS Act (s 274); admissible in proceedings as evidence of what is known about a hazard and what is reasonably practicable. In this corpus "CoP" always means Code of Practice, not Community of Practice. |
 
 ---
 
@@ -36,24 +37,39 @@ Load this file when the user is new to WHS or asks what a term means.
 
 ---
 
+## Enforcement & Offences
+
+| Term | Meaning |
+|---|---|
+| **Category 1 offence** | Most serious model WHS Act offence (s 31) — reckless (or, in most jurisdictions, grossly negligent) conduct that exposes a person to risk of death or serious injury/illness. |
+| **Category 2 offence** | Failure to comply with a health and safety duty that exposes a person to risk of death or serious injury/illness (s 32) — no fault element required. |
+| **Category 3 offence** | Failure to comply with a health and safety duty, without exposure to risk of death or serious harm (s 33). |
+| **EU** | Enforceable Undertaking — legally binding undertaking under model WHS Act s 216, accepted by the regulator as an alternative to prosecution; not available for Category 1 or industrial manslaughter offences. |
+
+---
+
 ## Risk & Controls
 
 | Term | Meaning |
 |---|---|
 | **HIRAC** | Hazard Identification, Risk Assessment and Control. |
 | **JSEA / JHA** | Job Safety and Environmental Analysis / Job Hazard Analysis — task-level risk assessment used for non-routine work. |
-| **SWMS** | Safe Work Method Statement — mandatory written document for High-Risk Construction Work under model WHS Reg 297–299. |
+| **SWMS** | Safe Work Method Statement — written document required before high-risk construction work commences (model WHS Reg 299). |
 | **HRCW** | High-Risk Construction Work — the 18 categories listed in model WHS Reg 291. |
 | **HRCSW** | High-Risk Crystalline Silica Work — crystalline silica process with potential for exposure exceeding the WES. |
 | **CSP** | Crystalline Silica Process — any process at a workplace involving material with ≥1% crystalline silica that may generate respirable crystalline silica dust. |
 | **RCS** | Respirable Crystalline Silica — particles small enough to penetrate deep lung; WES 0.05 mg/m³ (8-hr TWA). |
-| **WES** | Workplace Exposure Standard — the airborne concentration limit for a specified substance. |
+| **WES** | Workplace Exposure Standard — the airborne concentration limit for a specified substance. Replaced by Workplace Exposure Limits (WEL) from 1 December 2026. |
+| **WEL** | Workplace Exposure Limit — the framework replacing WES from 1 December 2026 (Safe Work Australia reform); revised limits for many substances. |
+| **SDS** | Safety Data Sheet — manufacturer/importer document for a hazardous chemical covering classification, first aid, controls, storage, and disposal; must be obtainable at workplaces using the chemical. |
+| **HAZOP** | Hazard and Operability Study — structured, guideword-based review of process deviations; standard practice in process and petrochemical design. |
+| **FMEA** | Failure Mode and Effects Analysis — systematic analysis of component or process failure modes and their effects; common in engineering and plant design. |
 | **PPE** | Personal Protective Equipment — control of last resort in the hierarchy. |
 | **Hierarchy of Controls** | Eliminate → Substitute → Isolate → Engineering → Administrative → PPE. |
 | **Bowtie** | Risk visualisation showing threats, top event, consequences, preventive controls, and recovery controls. |
 | **Critical Control** | Control whose failure would result in a top-event-level outcome; cannot be substituted by another. |
 | **CCV** | Critical Control Verification — structured assurance that a critical control is in place and effective. |
-| **CRO** | Critical Risk Owner — the person accountable for a particular critical risk's control adequacy and verification coverage. |
+| **CRO** | Chief Risk Officer (corporate role). Some organisations also use CRO for Critical Risk Owner or Critical Risk Observation — confirm local usage before relying on the acronym. This skill uses CCV (critical control verification) for verification activity. |
 
 ---
 
@@ -65,7 +81,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **Notifiable Incident** | Death, serious injury/illness, or dangerous incident requiring notification to the regulator (model WHS Act s 35). |
 | **HiPo / HIPO** | High-Potential Incident — an event that could realistically have resulted in permanent disability or death, regardless of actual outcome. |
 | **LTI** | Lost Time Injury — work-related injury causing one or more full shifts of lost time after the injury shift. |
-| **MTI** | Medical Treatment Injury — injury requiring treatment by a medical practitioner (or >3 allied health sessions). |
+| **MTI** | Medical Treatment Injury — injury requiring treatment by a medical practitioner. Counting >3 allied health sessions as an MTI is a common organisational convention, not an AS 1885.1 requirement. |
 | **FAI / FAC** | First Aid Injury / First Aid Case — injury treated within scope of first aider training. |
 | **TRI** | Total Recordable Injury — combined count of fatalities, LTIs, and MTIs. |
 | **NWI** | Non-Work Injury — injury not connected to work activity. |
@@ -89,6 +105,8 @@ Load this file when the user is new to WHS or asks what a term means.
 | **HiPo Rate** | HiPo events ÷ hours worked × 1,000,000. |
 | **Leading Indicator** | Input or activity metric predicting future outcomes (hazard reports, CCV completion). |
 | **Lagging Indicator** | Outcome metric measuring what has already occurred (TRIFR, LTIFR). |
+| **SIF** | Serious Injury or Fatality — actual serious-outcome event; SIF-focused measurement weights severity potential rather than raw injury counts. |
+| **pSIF** | Potential Serious Injury or Fatality — event or exposure that could credibly have produced a SIF outcome; pSIF rate is a severity-weighted leading-edge metric. |
 
 ---
 
@@ -117,7 +135,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **EAP** | Employee Assistance Program — typically external counselling and support services. |
 | **IFM** | Integrated Facilities Management — service contract scope covering hard and soft FM. |
 | **FM** | Facilities Management. |
-| **PC** | Principal Contractor — appointed for construction projects ≥ $250K under model WHS Reg 293. |
+| **PC** | Principal Contractor — appointed under model WHS Reg 293 for a construction project (construction work valued at $250,000 or more — Reg 292). |
 | **WHSMP** | Work Health and Safety Management Plan — required for projects with a PC (Reg 309). |
 | **D&A** | Drug and Alcohol — testing programs and policies. |
 | **WBGT** | Wet Bulb Globe Temperature — heat exposure assessment index. |
@@ -204,7 +222,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **PTW** | Permit to Work — formal authorisation for high-risk or non-routine work. |
 | **LOTO** | Lockout-Tagout — energy isolation procedure for plant maintenance. |
 | **JSEA / JHA** | Job Safety and Environmental Analysis / Job Hazard Analysis. |
-| **SWMS** | Safe Work Method Statement — mandatory for HRCW (model WHS Reg 297–299). |
+| **SWMS** | Safe Work Method Statement — mandatory for HRCW (model WHS Reg 299). |
 | **Take 5** | Pre-start mental safety check, typically 5 questions on a card. |
 | **SLAM** | Stop, Look, Assess, Manage — pre-task brief. |
 | **STAR** | Stop, Think, Act, Review — point-of-work hazard check. |
@@ -228,7 +246,9 @@ Load this file when the user is new to WHS or asks what a term means.
 | **LC,peak** | C-weighted peak sound pressure level — instantaneous peak benchmark. |
 | **WBGT** | Wet Bulb Globe Temperature — heat exposure assessment index. |
 | **FAID** | Fatigue Audit InterDyne — score-based fatigue prediction model used in rail, aviation, mining. |
-| **HVNL** | Heavy Vehicle National Law — prescribed work/rest hours for heavy vehicle drivers. |
+| **HVNL** | Heavy Vehicle National Law — national law for heavy vehicles over 4.5 t (administered by the NHVR); imposes a primary duty on Chain of Responsibility parties and prescribes fatigue/work-rest requirements. |
+| **CoR** | Chain of Responsibility — HVNL concept making every party with influence over heavy vehicle transport (consignor, packer, loader, scheduler, operator, consignee) a duty holder. |
+| **NHVR** | National Heavy Vehicle Regulator — administers the HVNL (all states and territories except WA and the NT). |
 
 ---
 
@@ -308,8 +328,8 @@ See `references/workplace-controls.md` for full coverage.
 
 | Term | Meaning |
 |---|---|
-| **AS 2675** | Workplace first aid kits — kit content standard scaled to workplace risk. |
-| **AS 4775** | Emergency eyewash and shower equipment. |
+| **AS 2675** | Portable first aid kits for use by consumers (1983) — a consumer kit standard, not a workplace kit-contents standard. Workplace kit contents are specified in the SWA First Aid in the Workplace Code of Practice. |
+| **AS 4775** | Emergency eyewash and shower equipment (AS 4775-2007). |
 | **AS 3745** | Planning for emergencies in facilities (2010) — ECO structure, drills, evacuation diagrams. |
 | **AS 1851** | Routine service of fire protection systems and equipment. |
 | **ECO** | Emergency Control Organisation — Chief Warden + Deputies + Area Wardens + Wardens + Communications Officer. |
@@ -332,8 +352,8 @@ See `references/capability-culture.md` for full coverage.
 
 | Term | Meaning |
 |---|---|
-| **BBS** | Behavioural-Based Safety — observation-and-feedback safety programme model; substantial critiques from Dekker/Hopkins/Provan. |
-| **STOP** | DuPont's commercial BBS programme (Safety Training Observation Program). |
+| **BBS** | Behavioural-Based Safety — observation-and-feedback safety program model; substantial critiques from Dekker/Hopkins/Provan. |
+| **STOP** | DuPont's commercial BBS program (Safety Training Observation Program). |
 | **BST** | Behavioural Science Technology — major BBS consultancy. |
 | **ABC model** | Antecedent–Behaviour–Consequence — Skinnerian behaviour modification framework underpinning BBS. |
 | **Hudson cultural ladder** | Five-stage cultural maturity model (Pathological / Reactive / Calculative / Proactive / Generative) — Patrick Hudson. |
@@ -354,8 +374,8 @@ See `references/capability-culture.md` for full coverage.
 | **BSB41419** | Certificate IV in Work Health and Safety. |
 | **BSB51319** | Diploma of Work Health and Safety. |
 | **BSB60619** | Advanced Diploma of Work Health and Safety. |
-| **RIIWHS204** | Work safely at heights — common HRWL training unit. |
-| **HRWL** | High-Risk Work Licence — model WHS Reg 81–118 + Schedule 4 classes. |
+| **RIIWHS204** | Work safely at heights — nationally recognised training unit. Not a high-risk work licence unit; working at heights is not an HRWL class. |
+| **HRWL** | High-Risk Work Licence — model WHS Regs 81–118; licence classes are listed in Schedule 3 (Schedule 4 sets the qualifications/competency requirements). |
 | **AIHS** | Australian Institute of Health and Safety — professional body. |
 | **ChOHSP** | Chartered Generalist OHS Professional — AIHS chartered status. |
 
@@ -405,7 +425,7 @@ See `references/specialist-topics.md` §1 and `references/legislation.md` §14.
 | **NIOSH** | US National Institute for Occupational Safety and Health — sampling methods widely adopted (e.g., NIOSH 0500 for total dust, 0600 for respirable dust). |
 | **AS 3640** | Workplace atmospheres — Method for sampling and gravimetric determination of inhalable dust. |
 | **AS 3853** | Health and safety in welding and allied processes — Sampling of airborne particles. |
-| **WES** | Workplace Exposure Standard — airborne concentration limit for an airborne contaminant. |
+| **WES** | Workplace Exposure Standard — airborne concentration limit for an airborne contaminant (replaced by Workplace Exposure Limits (WEL) from 1 December 2026). |
 | **TWA** | Time-Weighted Average — typically 8-hour exposure. |
 | **STEL** | Short-Term Exposure Limit — typically 15-minute TWA. |
 | **BEI** | Biological Exposure Index — measurement of substance in worker's biological samples. |
@@ -537,7 +557,7 @@ appears repeatedly, the canonical entry is here.
 | **AS 2550** (series) | Cranes — Safe use |
 | **AS 2601** | Demolition of structures |
 | **AS 2670** (parts) | Mechanical vibration and shock — Whole-body vibration |
-| **AS 2675** | Workplace first aid kits |
+| **AS 2675** | Portable first aid kits for use by consumers (1983) — workplace kit contents per the SWA First Aid in the Workplace Code |
 | **AS 2763** | Vibration and shock — Hand-transmitted vibration |
 | **AS 2865** | Confined spaces |
 | **AS/NZS 3000** | Wiring Rules |
@@ -548,19 +568,18 @@ appears repeatedly, the canonical entry is here.
 | **AS/NZS 3798** | Earthworks for commercial and residential developments |
 | **AS 3853** | Welding — Sampling airborne particles |
 | **AS/NZS 4024** (series) | Safety of machinery |
-| **AS 4081** | Storage and handling of toxic substances |
+| **AS/NZS 4452** | Storage and handling of toxic substances |
 | **AS 4326** | Storage and handling of oxidising agents |
 | **AS 4332** | Storage and handling of gases in cylinders |
 | **AS/NZS 4801** | OH&S management systems (superseded by ISO 45001 but legacy references persist) |
 | **AS/NZS 4836** | Safe working on or near low-voltage electrical installations |
-| **AS 4839** | Safe operation of dry abrasive blasting; safety in welding |
-| **AS/NZS 4979** | Storage tanks for petroleum (FRP) |
+| **AS 4839** | The safe use of portable and mobile oxy-fuel gas systems |
 | **AS/NZS 4994** (parts) | Edge protection systems |
 | **AS 3745** | Planning for emergencies in facilities |
-| **AS 1216** | Workplace hazard pictograms and class labels |
+| **AS 1216** | Class labels for dangerous goods (transport context); workplace hazardous chemical pictograms follow the GHS, not AS 1216 |
 | **AS 1674** (parts) | Safety in welding and allied processes — Fire / Electrical |
 | **AS 1851** | Routine service of fire protection systems and equipment |
-| **AS/NZS 4775** | Emergency eyewash and shower equipment |
+| **AS 4775** | Emergency eyewash and shower equipment (AS 4775-2007 — an AS, not AS/NZS, designation) |
 | **AS/NZS 60079** (series) | Hazardous area classification and equipment |
 | **AS/NZS ISO 31000** | Risk management — Principles and guidelines |
 | **AS/NZS ISO 45001** | Occupational health and safety management systems |

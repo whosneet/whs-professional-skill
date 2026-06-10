@@ -34,13 +34,14 @@ is set by the **Safe Work Australia Code of Practice — First Aid in the Workpl
 must achieve a standard at least equivalent — and that justification needs to be
 documentable.
 
-In NZ, the equivalent obligation flows from the HSWA primary duty and is
-operationalised through WorkSafe NZ's first aid guidance and AS/NZS 4308
-referenced kit standards.
+In NZ, the equivalent obligation flows from the HSWA primary duty and the
+Health and Safety at Work (General Risk and Workplace Management) Regulations
+2016 (first aid duties), operationalised through WorkSafe NZ's first aid
+guidance.
 
 ### Risk assessment for first aid
 First aid arrangements are not a one-size template — they are the output of a
-risk assessment specific to the workplace. The Code (s 2.2) sets out the factors
+risk assessment specific to the workplace. The Code (s 2) sets out the factors
 to consider:
 
 | Factor | What to consider |
@@ -84,9 +85,13 @@ Practical interpretation:
   site nurse or paramedic
 
 ### First aid kits — content and standard
-**AS 2675:1983 — *First aid kits for workplaces*** is the foundational Australian
-Standard for kit content. The Code of Practice provides updated content lists
-that align with current Therapeutic Goods Administration guidance.
+There is **no Australian Standard prescribing workplace first aid kit
+contents** — the Code of Practice itself is the benchmark, and it includes an
+example contents list. (AS 2675-1983 *Portable first aid kits for use by
+consumers* is a consumer kit standard, sometimes miscited as a workplace
+requirement — it is not.) Commercial suppliers still market kits against the
+legacy Type A / B / C classification, which remains a workable shorthand for
+matching content to risk.
 
 | Kit type | Application | Typical location |
 |---|---|---|
@@ -112,7 +117,7 @@ For workplaces with hazardous chemical exposure (cross-reference `hazards.md` §
 | Emergency eyewash and shower | **AS 4775:2007** *Emergency eyewash and shower equipment* | Required where chemicals capable of causing eye or skin injury are handled; location within 10 seconds travel (~16 metres) and on the same level as the hazard; tepid water 16–38°C; minimum 15 minutes flow |
 | Plumbed eyewash | Drench shower combined with eyewash | Preferred for areas with corrosive or toxic chemical exposure |
 | Portable eyewash | Single-use or refillable | For field, mobile, or low-volume applications; capacity ≥1 litre for 15 minutes flow at slow rate |
-| Antidote stations | Per chemical-specific guidance | Cyanide antidote (amyl nitrite for cyanide handling); calcium gluconate gel (hydrofluoric acid handling); specific buffers and neutralisers |
+| Antidote stations | Per chemical-specific guidance | Cyanide antidote kit per current clinical advice (hydroxocobalamin has largely displaced older amyl nitrite kits); calcium gluconate gel (hydrofluoric acid handling); specific buffers and neutralisers |
 
 Flushing equipment must be tested weekly (visual + functional) and serviced
 annually per AS 4775. Contaminated, low-flow, or non-tepid equipment is a Major
@@ -123,6 +128,13 @@ AEDs are not regulated as mandatory equipment under model WHS Regulations — bu
 their availability is strongly recommended by the Code of Practice, and the
 absence of an AED where one would have plausibly intervened is increasingly
 treated as a SFAIRP failure during incident review.
+
+South Australia is the exception: the **Automated External Defibrillators
+(Public Access) Act 2022 (SA)** mandates AEDs in prescribed public buildings,
+facilities, and vehicles — Crown-owned from 1 January 2025; in-scope
+privately owned buildings and public transport vehicles from 1 January 2026.
+It is the first general AED mandate in Australia, and it sits in standalone
+SA legislation, not the WHS regime.
 
 **When an AED should be considered (Code guidance):**
 - High occupancy workplaces (large offices, retail, schools, recreational
@@ -146,16 +158,18 @@ treated as a SFAIRP failure during incident review.
   replacement every 4–5 years per OEM
 - First aider training should include AED use — HLTAID009 CPR refresher
   includes AED component
-- Register with state ambulance service (NSW Ambulance, VIC Ambulance, QLD
-  Ambulance, etc.) so the device appears on emergency triple-zero dispatch
+- Register with state ambulance service (NSW Ambulance, Ambulance Victoria,
+  Queensland Ambulance Service, etc.) so the device appears on emergency triple-zero dispatch
   systems — when a member of the public calls 000 for a nearby cardiac arrest,
   dispatch can direct them to the registered AED
 
 ### First aider training — units of competency
 First aid training in Australia and New Zealand is delivered against
 nationally recognised units from the **HLT (Health) Training Package**, by
-RTOs (Registered Training Organisations). Currency periods are tied to the
-unit — refresher training is required to maintain the qualification.
+RTOs (Registered Training Organisations). Statements of attainment do not
+formally expire — the currency periods below are Code of Practice and
+Australian Resuscitation Council guidance (CPR refreshed annually; first aid
+three-yearly), and workplace first aider registers should enforce them.
 
 | Unit | Title | Currency | Typical application |
 |---|---|---|---|
@@ -164,7 +178,7 @@ unit — refresher training is required to maintain the qualification.
 | **HLTAID011** | Provide first aid | **3 years** (CPR component 12 months) | Standard workplace first aider qualification — the default certification |
 | **HLTAID012** | Provide first aid in an education and care setting | 3 years (CPR 12 months) | Childcare, schools, OOSH; covers anaphylaxis, asthma in children, ASCIA action plan |
 | **HLTAID013** | Provide first aid in remote or isolated site | 3 years (CPR 12 months) | Remote workplaces with extended emergency response time |
-| **HLTAID014** | Provide advanced first aid | 3 years (CPR 12 months) | Workplace first response coordinator; includes oxygen administration, advanced bleeding control, Epi pen, multiple casualty triage |
+| **HLTAID014** | Provide advanced first aid | 3 years (CPR 12 months) | Workplace first response coordinator; incident management, multiple casualty triage, advanced casualty care (oxygen therapy sits in HLTAID015) |
 | **HLTAID015** | Provide advanced resuscitation and oxygen therapy | 3 years (CPR 12 months) | Lifeguards, emergency response teams, remote/marine |
 | **HLTAID016** | Manage first aid services and resources | 3 years | First aid coordinator role — kit audits, training schedule, regulatory compliance |
 
@@ -246,7 +260,7 @@ response framework.
 - Cleaning and security shifts are commonly under-covered — the WHS team's
   daytime view of first aider numbers does not reflect 2am reality
 - AED deployment across a portfolio is a defensible position to take to ELT —
-  unit cost (~$2-3K) is modest, the residual liability of not having one in a
+  unit cost (~$2–3K) is modest, the residual liability of not having one in a
   high-occupancy or remote site is substantial
 - For multi-tenanted buildings, building manager and tenants have overlapping
   duties — clarify whose first aiders cover whose workers in shared areas
@@ -269,10 +283,12 @@ is prepared for the workplace. The plan must provide for:
 The plan must be implemented in the event of an emergency.
 
 The reference standard for emergency planning in Australia is **AS 3745:2010
-*Planning for emergencies in facilities*** (with Amendment 2 2018). AS 3745 is
+*Planning for emergencies in facilities*** (incorporating Amendment 1:2014
+and Amendment 2:2018). AS 3745 is
 not legislatively mandated but is the recognised benchmark — departing from it
-requires equivalent justification. The Building Code of Australia (NCC) imposes
-parallel emergency-management duties on building owners and managers via state
+requires equivalent justification. The National Construction Code (NCC,
+incorporating the Building Code of Australia) imposes parallel
+emergency-management duties on building owners and managers via state
 Building Acts.
 
 In NZ, the equivalent flows from HSWA s 36 and is operationalised through
@@ -298,7 +314,8 @@ structure:
 | Plan review | At least annually, after any drill, after any incident, on building modification |
 
 ### AS 3745 — Emergency Control Organisation (ECO)
-AS 3745 §6 establishes the ECO structure for facilities. Member numbers and
+AS 3745 §5 establishes the ECO structure for facilities (guidance on
+determining ECO numbers is at Appendix F). Member numbers and
 roles scale to facility size and risk:
 
 | Role | Function | Typical ratio |
@@ -310,16 +327,20 @@ roles scale to facility size and risk:
 | **Warden** | Sweeps assigned area; assists occupants; reports to Area Warden | Sufficient to sweep area within reasonable time — typically 1 per 20–30 occupants |
 | **First Aid Officer** | Activates first aid response; coordinates with first aiders; liaison with paramedics | Per first aid arrangements (cross-reference §1) |
 
-ECO members must be trained per AS 3745 §6.5 (introductory training plus
-ongoing training matched to role) and must be identifiable during an emergency
-(coloured caps, hi-vis vest, ID).
+ECO members must be trained per AS 3745 §6 (ECO training §6.3; skills
+retention §6.5) and must be identifiable during an emergency per §5.8
+(coloured caps or helmets, hi-vis vest, ID). The standard leaves colour
+choice to the EPC; the entrenched industry convention is white for the chief
+and deputy chief wardens, yellow for area/floor wardens, red for wardens,
+and green for first aid officers.
 
 For multi-tenanted buildings, the building owner appoints a Chief Warden for
 the building; each tenant appoints their own wardens for tenant areas — but
 the ECO operates as a single command structure during an event.
 
 ### Evacuation diagrams
-AS 3745 §3.5 prescribes evacuation diagram content:
+AS 3745 §3.5 prescribes evacuation diagram content (worked examples at
+Appendix E):
 
 - "You are here" marker (correctly oriented)
 - Designated and emergency exits
@@ -340,8 +361,11 @@ diagrams must be updated when fit-out changes alter exit routes or fire
 equipment locations.
 
 ### Emergency drills — frequency and type
-AS 3745 §6.7 prescribes minimum drill frequencies. The risk-uplifted cadence
-reflects building use and occupant vulnerability.
+AS 3745 §7 (emergency response exercises) requires an ongoing exercise
+program, with each area participating in an evacuation exercise at least
+annually. The higher cadences below come from sector regulation and practice
+— not from the standard itself — and reflect building use and occupant
+vulnerability.
 
 | Facility type | Minimum evacuation drill frequency | Type variation |
 |---|---|---|
@@ -349,7 +373,7 @@ reflects building use and occupant vulnerability.
 | High-risk (manufacturing, laboratory, hazardous chemical site) | 6-monthly | Evacuation + chemical release scenarios |
 | Healthcare (acute hospital) | Quarterly (some areas more frequent) | Evacuation + horizontal evacuation + shelter-in-place; full vs partial |
 | Residential aged care | Quarterly | Evacuation + shelter-in-place + horizontal evacuation; account for resident mobility |
-| Childcare and OOSH | 6-monthly (some states quarterly) | Evacuation + lockdown |
+| Childcare and OOSH | Quarterly — rehearsal every 3 months per Education and Care Services National Regulations reg 97 | Evacuation + lockdown |
 | Schools | Termly (typically) + annual full | Evacuation + lockdown + invacuation |
 | High-rise commercial | Annual full + staircase / area drills more often | Evacuation + staged evacuation drills |
 
@@ -383,7 +407,8 @@ testing, and maintenance frequencies for each system type:
 
 Building owners have parallel statutory duties under state Building Acts and
 the NCC for **Essential Safety Measures (ESM)** — annual condition reports
-(AESMR or equivalent) must be issued and retained. Failure to maintain ESM is
+(Victoria's AESMR, NSW's annual fire safety statement, or equivalent) must be
+issued and retained. Failure to maintain ESM is
 a building offence separate from the WHS offence — councils and fire
 authorities can issue notices and prosecute.
 
@@ -398,8 +423,8 @@ Beyond fire, the emergency plan must address scenarios specific to the site:
 |---|---|
 | **Chemical release** | Spill response, atmospheric monitoring, evacuation vs shelter-in-place decision logic, emergency services notification, manifest available (cross-reference `hazards.md` §13) |
 | **Medical emergency** | First aid activation, triple-zero call, paramedic guidance, AED deployment, single-casualty vs multiple-casualty triage |
-| **Bomb threat** | Threat assessment, evacuation vs search vs continuation, police notification, ANZAC checklist for threat call recording |
-| **Active armed offender** | Run / Hide / Tell protocol (NSW Police adapted from UK; AFP and most state police now endorse this); lockdown; communication discipline; post-event support. Lessons from Lindt Cafe siege (2014) and Port Arthur (1996) shaped contemporary planning |
+| **Bomb threat** | Threat assessment, evacuation vs search vs continuation, police notification, phone threat checklist for call recording (AS 3745 Appendix H; ANZCTC national guidance) |
+| **Active armed offender** | Escape / Hide / Tell protocol (ANZCTC *Active Armed Offender Guidelines for Crowded Places*, adapted from the UK's Run / Hide / Tell; endorsed by AFP and state police); lockdown; communication discipline; post-event support. Lessons from Lindt Cafe siege (2014) and Port Arthur (1996) shaped contemporary planning |
 | **Severe weather** | Storm, hail, cyclone, lightning, flood — shelter-in-place primary; building shutdown sequence; tree-fall and roof failure response |
 | **Earthquake** | Drop / Cover / Hold On; post-shake building inspection before re-entry; aftershock awareness; relevant across all AU/NZ but high priority in NZ and parts of SA / VIC |
 | **Tsunami** | Coastal AU (east coast, northern WA) and NZ — vertical evacuation to higher ground or upper levels; integrates with Bureau of Meteorology and NEMA / NEMA NZ warning systems |
@@ -408,10 +433,12 @@ Beyond fire, the emergency plan must address scenarios specific to the site:
 
 ### Refuge areas and accessible egress
 Buildings must provide for evacuation of people with mobility impairment.
-AS 3745 §3.3 and the NCC require accessible **refuge areas** (e.g., fire-isolated
-stair landings with adequate space for a wheelchair and one assistant) for
-buildings of relevant size. AS 1428 series sets the access standard for the
-built environment.
+The NCC's egress provisions provide, for certain building classes, accessible
+**refuge areas** (e.g., fire-isolated stair landings with adequate space for
+a wheelchair and one assistant); AS 3745 requires the emergency plan to
+address occupants with a disability (key considerations §3.3; Personal
+Emergency Evacuation Plan (PEEP) guidance at Appendix D). AS 1428 series
+sets the access standard for the built environment.
 
 The emergency plan must:
 - Identify refuge areas and how they are reached
@@ -466,8 +493,8 @@ should however be a stakeholder in BCP development, particularly around
 worker welfare, return-to-work after major events, and post-incident
 psychosocial support.
 
-### Test and exercise programme
-A defensible emergency preparedness programme cycles through multiple exercise
+### Test and exercise program
+A defensible emergency preparedness program cycles through multiple exercise
 types — drills alone do not prepare an ECO for atypical scenarios.
 
 | Exercise type | Frequency | Participants |
@@ -540,8 +567,8 @@ The duty intersects with the psychosocial regulations (cross-reference
 hazard category in the SWA Code of Practice 2022.
 
 ### Definition — remote or isolated work
-Per Reg 5 model and SWA *Code of Practice — Managing the Work Environment and
-Facilities* (2024):
+Per the model reg 5 definition, echoed in the SWA *Managing the work
+environment and facilities* Code of Practice:
 
 > Work that is isolated from the assistance of others because of the location,
 > time, or nature of the work being done.
@@ -580,11 +607,11 @@ worker's actual circumstances. Options:
 | Method | Application | Limits |
 |---|---|---|
 | **Mobile phone** | Where coverage is reliable; metro and most regional roles | Coverage gaps; battery; not effective if worker incapacitated |
-| **Satellite communicator** (Garmin inReach, ZOLEO, Spot X) | Remote and back-country work; emergency SOS button; two-way text via satellite | Cost ($300-500 device + subscription); battery; latency |
+| **Satellite communicator** (Garmin inReach, ZOLEO, Spot X) | Remote and back-country work; emergency SOS button; two-way text via satellite | Cost ($300–500 device + subscription); battery; latency |
 | **Satellite phone** | Remote work requiring voice contact | Cost; physical size; requires line of sight to satellites |
 | **Two-way radio** | Closed-loop sites (mine, large industrial, security network); repeaters cover defined area | Range limited; requires base station / repeater infrastructure |
 | **Scheduled check-in (call or text)** | Most lone-worker contexts | Only as effective as the escalation when check-in is missed |
-| **Lone-worker app** (e.g., Guardian Angel, StaySafe, Skyguard) | Automatic check-in, missed-check-in alerts, duress button, fall detection, GPS | Requires mobile coverage; battery; not all features work in all environments |
+| **Lone-worker app** (e.g., StaySafe, SafeTCard, SoloProtect) | Automatic check-in, missed-check-in alerts, duress button, fall detection, GPS | Requires mobile coverage; battery; not all features work in all environments |
 | **Personal duress alarm (fixed)** | High-risk client-facing locations (Centrelink offices, hospital ED, retail late shift) | Limited to fixed location; cover only when at the alarm |
 | **Personal duress alarm (wearable)** | Community workers, parking inspectors, security guards | Battery; cellular dependency; centralised monitoring quality |
 
@@ -690,10 +717,11 @@ the WHS duty applies. Specific controls:
 - **Fatigue management** — cross-reference `hazards.md` §18; for heavy vehicle
   drivers, Heavy Vehicle National Law (HVNL) applies; for light vehicle workers,
   the SFAIRP duty applies (e.g., journey duration limits, rest scheduling)
-- **Mobile phone use** — state-by-state hands-free rules; full handheld
-  prohibition in all states; HVNL restrictions on professional drivers
-  (touching the phone at all is prohibited in NSW for L/P plate and heavy
-  vehicle drivers); voice-only communication; do-not-disturb whilst driving
+- **Mobile phone use** — handheld use prohibited in every state and territory
+  under the road rules (phone-detection cameras operate in most
+  jurisdictions); learner and provisional drivers face a total ban including
+  hands-free in NSW and most states; voice-only communication;
+  do-not-disturb whilst driving
 - **Loading and securing** — load restraint per *Load Restraint Guide* (NTC);
   cargo barriers for commercial vehicles
 - **In-vehicle hazards** — first aid kit, fire extinguisher (where applicable),
@@ -763,8 +791,7 @@ duty is now settled — **the question is not whether the duty applies, but
 what is reasonably practicable to do at the home workplace**.
 
 NZ position is equivalent: HSWA s 36 PCBU duty applies to the home workplace
-for the working period (WorkSafe NZ *Working from home* guidance, updated
-2022).
+for the working period (WorkSafe NZ *Working from home* guidance).
 
 ### What SFAIRP looks like at the home workplace
 The PCBU cannot inspect every worker's home daily, install ducted ventilation
@@ -923,11 +950,13 @@ Operational reality:
 - The PCBU has a WHS duty to identify foreseeable risks — FDV is now
   considered foreseeable in any workforce; risk assessment should address it
 - The Fair Work Act provides **10 days paid family and domestic violence
-  leave** annually (since 1 August 2023 for non-small business; 1 February
+  leave** annually (since 1 February 2023 for non-small business; 1 August
   2023 for small business)
 - Workers compensation coverage for FDV-related injuries is mixed across
-  schemes — some accept claims for FDV occurring during work activity at
-  home; others have not been tested
+  schemes — in NSW, death benefits were upheld where a worker was killed by
+  her de facto partner (also her co-worker) while working from home
+  (*Workers Compensation Nominal Insurer v Hill* [2020] NSWCA 54); other
+  schemes remain largely untested
 
 Control approaches:
 - Manager training on recognising and responding to indicators of FDV
@@ -938,8 +967,8 @@ Control approaches:
 - Reasonable adjustments — temporary office attendance, flexible hours,
   alternate accommodation support
 - 1800RESPECT national hotline visibility; state FDV service awareness
-- Domestic Violence Workplace Rights and Entitlements Project (DVWRC)
-  resources for policy and training
+- Our Watch *Workplace Equality and Respect* resources and Champions of
+  Change Coalition guidance for policy and training
 
 ### Mental health and EAP for distributed workforces
 EAP utilisation patterns differ for distributed workforces. Workers who
@@ -981,12 +1010,16 @@ work in AU/NZ post-pandemic. WHS considerations specific to hybrid:
 ### Tax and insurance interactions
 Outside WHS scope but flagged for PCBU awareness:
 
-- **Workers compensation** — coverage for WFH injuries varies by state.
-  NSW (icare), VIC (WorkSafe VIC) and QLD (WorkCover QLD) cover WFH
-  injuries occurring during work activity. Journey claims (commuting to
-  the office on a hybrid day) follow normal journey claim rules. FDV-
-  related injury claims are an evolving area — early case law mixed.
-  Cross-reference `compensation-rtw.md`
+- **Workers compensation** — WFH injuries arising out of or in the course
+  of employment are compensable in every scheme — NSW (icare), VIC
+  (WorkSafe Victoria), QLD (WorkCover Queensland) and the rest; the contest
+  is usually whether the activity was sufficiently work-connected
+  (injuries during a recess break at home have been accepted since
+  *Hargreaves v Telstra* (2011, AAT)). Journey claims (commuting to the
+  office on a hybrid day) differ sharply by state — QLD covers them, NSW
+  only with a real and substantial connection to employment, VIC generally
+  not. FDV-related injury claims are evolving — see the *Hill* decision
+  above. Cross-reference `compensation-rtw.md` §11
 - **Tax** — workers may claim home office expenses (varies by ATO method
   in use); PCBU equipment provision is generally not assessable
 - **Insurance** — PCBU public liability and contents insurance may have

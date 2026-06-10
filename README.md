@@ -61,13 +61,16 @@ It is designed to be **organisation-agnostic at the framework layer** and
 
 ## Quick start: install in Claude
 
-The skill installs as a single `.skill` file that you upload to Claude.
+The skill installs as a single packaged archive — a `.zip` of the skill
+folder — that you upload to Claude. Release assets also include a `.skill`
+copy: it is the same ZIP under optional legacy naming.
 
 **Step 1 — Download the skill file**
 On this repository's GitHub page, navigate to the **Releases** section (right
-sidebar) and download the latest `whs-professional.skill` file. If there is no
-Release yet, download the repository as a ZIP using the green "Code" button →
-"Download ZIP", then extract it; you can package the skill yourself (see
+sidebar) and download the latest `whs-professional.zip` (or the identical
+`whs-professional.skill`). If there is no Release yet, download the
+repository as a ZIP using the green "Code" button → "Download ZIP", then
+extract it; you can package the skill yourself (see
 [Packaging](#packaging-the-skill-yourself) below).
 
 **Step 2 — Open Claude settings**
@@ -78,7 +81,7 @@ Release yet, download the repository as a ZIP using the green "Code" button →
 
 **Step 3 — Upload the skill**
 1. Click **Add skill** or **Upload skill**
-2. Select the `whs-professional.skill` file you downloaded
+2. Select the `whs-professional.zip` (or `.skill`) file you downloaded
 3. Confirm install
 
 **Step 4 — Test it**
@@ -101,8 +104,8 @@ The skill works out of the box for generic AU/NZ WHS tasks. To make it
 severity classifications, document codes, incident management system, named
 programs, governance cadence — you populate `references/company.md`.
 
-The file ships with a worked example ([organisation] [incident system] — left in for reference) and
-a template structure above it.
+The file ships with a worked example — the fictional **Meridian Facilities
+Group**, left in as calibration reference — and a template structure above it.
 
 **Two ways to do this:**
 
@@ -117,15 +120,15 @@ Once the skill is installed, paste the following prompt into Claude:
 
 Claude will then ask you focused questions and produce the filled content
 section by section. When you're done, copy the result into a new `company.md`
-file (overwriting the [organisation] example) and re-package the skill (see
+file (overwriting the Meridian example) and re-package the skill (see
 [Packaging](#packaging-the-skill-yourself)).
 
 **Option B — Edit `company.md` directly**
 
 1. Open `whs-professional/references/company.md`
 2. Read the "Template" section at the top (sections 1–10)
-3. Replace the "Active Reference: [organisation] [incident system]" section with your organisation's
-   equivalent content
+3. Replace the "Active Reference" section (the fictional Meridian Facilities
+   Group example) with your organisation's equivalent content
 4. Save
 5. Re-package the skill (see [Packaging](#packaging-the-skill-yourself))
 
@@ -180,8 +183,9 @@ for each section and where to find the information inside your organisation.
   hours anchored to the last closed period."
 
 **Governance**
-- "WHS Management Plan structure for a construction project at the $4M
-  threshold. Include PC duties, HRCW management, SWMS workflow, induction."
+- "WHS Management Plan structure for a $4M construction project (well above
+  the $250K threshold at which a principal contractor must be appointed).
+  Include PC duties, HRCW management, SWMS workflow, induction."
 - "Lessons Learnt register design that captures during projects, not just at
   close."
 
@@ -270,9 +274,14 @@ README.md                          # This file
 ADAPTING.md                        # Detailed walkthrough for adapting company.md
 DISCLAIMER.md                      # Legal disclaimer (no legal advice etc.)
 CONTRIBUTING.md                    # How to contribute
+PUBLISHING.md                      # GitHub publication walkthrough
+EVALS.md                           # Regression evaluation prompts (run after edits)
 LICENSE                            # Licence terms
 CHANGELOG.md                       # Version history of the skill
 .gitignore                         # Git ignore patterns (artefacts, IDE noise)
+.github/
+└── workflows/
+    └── package.yml                # CI: builds the skill .zip on tagged releases
 ```
 
 ---
@@ -290,19 +299,28 @@ including:
 
 ## Packaging the skill yourself
 
-A `.skill` file is a ZIP archive of the skill folder with a specific name.
+Claude accepts a **`.zip` archive containing the single top-level skill
+folder** (`whs-professional/` with `SKILL.md` inside it). Renaming the
+archive to `.skill` is optional legacy naming from earlier upload flows —
+check the current wording at <https://support.claude.com> if in doubt; the
+`.zip` works.
 
-**Using a graphical file manager (no command line):**
-1. In a file explorer, navigate into the repository
-2. Right-click the `whs-professional` folder
-3. Compress / Zip / "Send to → Compressed folder"
-4. Rename the resulting `.zip` to `whs-professional.skill`
-
-**Using the command line:**
+**Using the command line (recommended):**
 ```bash
 cd path/to/repo
-zip -r whs-professional.skill whs-professional
+zip -r whs-professional.zip whs-professional -x "*.DS_Store" -x "__MACOSX/*"
 ```
+
+On macOS you can instead use `ditto`, which never embeds AppleDouble files:
+```bash
+ditto -c -k --norsrc whs-professional whs-professional.zip
+```
+
+> **Warning — avoid macOS Finder "Compress"**: right-clicking the folder and
+> choosing Compress adds `__MACOSX/` and AppleDouble (`._*`) entries to the
+> archive, which can break the skill upload. Use one of the CLI commands
+> above, or download the clean artifact built by the GitHub Action
+> (`.github/workflows/package.yml`) on each tagged release.
 
 ---
 
@@ -339,18 +357,42 @@ This skill is not endorsed by or affiliated with Forge Works.
 These topics are not currently covered (or only lightly covered) and represent
 opportunities for community contribution:
 
-- **Additional case study expansion** — Chernobyl, Three Mile Island,
-  Wittenoom asbestos, Lacrosse Tower cladding fire, Cave Creek (NZ);
-  additional sector-specific catastrophes
-- **Sector deepening v2** — petrochemical-specific operational depth
-  (HAZOP/LOPA worked examples); telecoms electrical line work;
-  hospitality sub-sectors (clubs, gambling, festivals); aged care
-  workforce-specific (in addition to current healthcare coverage)
-- **AI safety and WHS** — emerging area: AI in WHS analytics, bias risks
-  in predictive safety, computer vision for guarding, wearables for
-  fatigue and proximity, drones for inspection
+- **Case study expansion** — Wittenoom asbestos, Montara blowout (2009),
+  Hazelwood mine fire (2014), Beaconsfield rockfall (2006), Cave Creek
+  platform collapse (1995, NZ), Waterfall rail accident (2003), and the
+  first industrial-manslaughter prosecutions; plus everyday cases: fall
+  from height, confined space entry, LOTO failure, yard truck/pedestrian
+  interface, heat illness
+- **Sector deepening v3** — forestry, waste and recycling, electrical
+  supply / utilities, renewables (including battery energy storage
+  systems), commercial fishing, security, emergency services
+- **Hazard chapters** — lead (model WHS Regulations Part 7.2, including
+  the 2022 blood lead level reductions), diesel particulate matter,
+  welding fume depth, lithium-ion batteries, UV / solar exposure, abrasive
+  blasting, formwork and falsework, occupational diving, Q fever and
+  zoonoses
+- **Investigation depth** — ICAM organisational factor type (OFT) codes,
+  fatality first-24-hours / police / coroner protocol, STEP / Tripod /
+  HFACS methodologies, investigation quality assurance, restorative
+  practice after harm
+- **Compensation depth** — self-insurance licensing, cross-border
+  state-of-connection rules, death benefits, NSW Dust Diseases scheme,
+  Seacare
+- **Analytics depth** — predictive analytics ethics, confidence intervals
+  and funnel plots for rate comparison, exposure-based normalisation
+- **Additional templates** — induction checklist, HSC committee charter,
+  audit report, management review agenda, emergency response plan,
+  training needs analysis matrix
+- **Specialist topics v2** — RESP-FIT respiratory fit-testing depth,
+  ototoxic substances and the OTO notation, radiation safety, hyperbaric
+  work
+- **Diversity & inclusion v2** — young and ageing workers, menopause,
+  LGBTQIA+ psychosocial safety, workplace adjustment passports
+- **AI safety and WHS** — AI in WHS analytics, bias risks in predictive
+  safety, computer vision for guarding, wearables for fatigue and
+  proximity, drones for inspection
 - **Continuous improvement methodology for WHS** — Lean, Six Sigma,
-  Theory of Constraints applied to safety improvement programmes
+  Theory of Constraints applied to safety improvement programs
 - **WHS in procurement v2** — sector-specific overlays (resources tender
   WHS sections, construction tender WHS sections, government tender WHS
   sections)
@@ -360,78 +402,36 @@ opportunities for community contribution:
 - **Utility scripts** — executable calculators for penalty unit values,
   frequency rate calculations, jurisdiction lookups
 
-### Recently added (May 2026 update)
-The following topics were previously listed as gaps and have all been added
-to the skill:
+### Recently added (v1.4.0 — June 2026)
 
-- ✓ Environmental / EHS chapter (`references/environment.md`)
-- ✓ Workers compensation and RTW across AU + NZ (`references/compensation-rtw.md`)
-- ✓ Workplace inspections, audits, and permit-to-work (`references/inspections-audits-permits.md`)
-- ✓ NZ as a first-class jurisdiction (expanded in `references/legislation.md` §3)
-- ✓ Operational officer due diligence toolkit (`references/legislation.md` §6)
-- ✓ Hazard-specific operational frameworks for height, electrical/LOTO,
-  confined space, mobile plant, hazardous chemicals, noise, vibration, plant
-  safety, manual tasks, and fatigue (`references/hazards.md` §9–§18)
-- ✓ Worked examples folder (`examples/`)
-- ✓ Case study library — Longford, Texas City, Macondo, Pike River,
-  Dreamworld, Whakaari, Grenfell (`references/case-studies.md`)
-- ✓ Sector-specific regimes — mining, maritime, aviation, rail, healthcare
-  biosafety, defence (`references/sector-regimes.md`)
-- ✓ First aid, emergency preparedness, lone working, working from home /
-  hybrid arrangements (`references/workplace-controls.md`)
-- ✓ Behavioural-based safety, maturity frameworks, culture / climate
-  measurement (`references/capability-culture.md`)
-- ✓ Mandatory WHS training requirements by jurisdiction
-  (`references/legislation.md` §11)
-- ✓ Volunteer and unpaid worker coverage (`references/legislation.md` §12)
-- ✓ International framework references — ILO, OSHA, HSE, EU
-  (`references/legislation.md` §13)
-- ✓ WHS in M&A and due diligence (`references/frameworks.md` §13)
+v1.4.0 was a correction and currency release rather than a content
+expansion. Highlights (full detail in `CHANGELOG.md`):
 
-### Recently added (v1.3 — May 2026 strategic / specialist round)
+- ✓ **Correction round** — ~125 audit findings fixed across the corpus:
+  statutory citation tables, the industrial manslaughter table, penalty
+  quanta, case-study corrections (including the Whakaari appeal outcome),
+  and the high-risk work licensing tables
+- ✓ **Currency to mid-2026** — NSW WHS Regulation 2025 and the standalone
+  SafeWork NSW regulator; NSW workers compensation psychological injury
+  reforms (2025–26); WA Workers Compensation and Injury Management Act
+  2023; Victorian psychological health regulations; EPBC reform Acts
+  2025; the WES → WEL transition (1 December 2026); NZ HSWA Amendment
+  Bill
+- ✓ **New content** — road transport / HVNL Chain of Responsibility
+  (`references/sector-regimes.md` §14); regulator-compelled evidence
+  (ss 155 / 171 / 172); enforceable undertakings and limitation periods;
+  ISO 45003, psychosocial risk controls, and governance / assurance
+  sections (`references/frameworks.md` §14–§15); SIF/pSIF analytics; WHS
+  monetary penalty insurance bans (s 272A); Fair Work Act Part 3-5A
+  sexual harassment chain; regulator notification phone script
+  (`references/output-templates.md` §23); fictional worked company
+  example (Meridian Facilities Group); `EVALS.md` regression evaluation
+  prompts; CI packaging workflow (`.github/workflows/package.yml`);
+  SKILL.md frontmatter version field
 
-- ✓ Investigation craft deepening — PEEPO question bank, witness interview
-  technique (PEACE, cognitive interviewing), witness statement admissibility,
-  ICAM variants comparison, AcciMap methodology, bowtie worked example,
-  legal privilege management (`references/investigation.md` §8–§14)
-- ✓ Workplace Exposure Standards table for common substances
-  (`references/legislation.md` §14)
-- ✓ Codes of Practice key requirements summary
-  (`references/legislation.md` §15)
-- ✓ State legislation deepening — VIC OHS Act 2004 + variations
-  (`references/legislation.md` §16)
-- ✓ High-risk activity playbooks — crane lifts and rigging, demolition,
-  excavation and trench shoring, hot work (`references/hazards.md` §19–§22)
-- ✓ M&A sector overlays — mining, healthcare, construction
-  (`references/frameworks.md` §13)
-- ✓ WHS strategy, function design, budget economics, leadership development,
-  crisis management distinct from emergency response
-  (`references/strategy-function.md`)
-- ✓ Occupational hygiene practice, workplace mental health programs beyond
-  psychosocial regs, Modern Slavery Act 2018, ESG and WHS intersection,
-  insurance arrangements (`references/specialist-topics.md`)
-- ✓ Indigenous workforce considerations, reasonable adjustments,
-  neurodivergent accommodation, multi-language safety communication,
-  gendered violence depth (`references/diversity-inclusion.md`)
-- ✓ WHS in procurement and tender response, contractor performance
-  management, Modern Slavery DD overlap (`references/whs-procurement.md`)
-- ✓ Whistleblower protections — Corporations Act 9.4AAA, PIDA, state PID
-  Acts (`references/whistleblower.md`)
-- ✓ Everyday case studies — forklift, manual handling, psychosocial,
-  electrical, slip-trip-fall, chemical decant, fatigue
-  (`references/case-studies-everyday.md`)
-- ✓ Additional catastrophe cases — Costa Concordia, Ranger Uranium, Bhopal,
-  Beirut Port (`references/case-studies.md` §9–§12)
-- ✓ Additional sectors — petrochemical, telecommunications, agriculture,
-  hospitality, education, retail (`references/sector-regimes.md` §8–§13)
-- ✓ Strategic and governance templates — risk register, bowtie, WHS
-  strategy, RACI, annual plan, officer briefing, site walk, annual
-  report, AHRC evidence map, PTW, claim review, hazard report
-  (`references/output-templates.md` §11–§22)
-- ✓ Repo hygiene — `.gitignore`, `CHANGELOG.md` with formal version
-  history
-- ✓ Safety II / HOP / Forge Works positioning made explicit
-  (`SKILL.md` §6)
+Earlier rounds (v1.1.0–v1.3.0, May 2026 — EHS, compensation/RTW, sectors,
+case studies, strategy, specialist topics, D&I, procurement,
+whistleblower, templates) are recorded in `CHANGELOG.md`.
 
 ---
 
@@ -451,6 +451,9 @@ This skill draws on the published work of many safety scientists, including:
   Esso/Texas City)
 - **Karl Weick** with Kathleen Sutcliffe (High Reliability Organisations,
   Sensemaking)
+- **Ron Westrum** (organisational culture typology — pathological /
+  bureaucratic / generative — the foundation later extended by Hudson's
+  maturity ladder)
 
 Australian and New Zealand regulatory content draws on Safe Work Australia
 publications, state and territory regulator guidance, and WorkSafe NZ
@@ -461,8 +464,9 @@ The skill structure was authored by Neet (Avneet Singh), Zero Harm
 Performance & Programs Manager at [organisation] Social Infrastructure & Citizen
 Services, with iterative development on Claude.
 
-The included [organisation] [incident system] worked example in `company.md` is provided as a
-reference for how a large multi-business-unit Australian organisation
-configures its WHS context. It is presented here for educational purposes
-only and does not represent the current state of any [organisation] document; replace
-it with your own organisation's content before relying on it operationally.
+The worked example in `company.md` describes **Meridian Facilities Group**, a
+fictional Australian integrated facilities-services organisation, and shows
+how a large multi-business-unit organisation configures its WHS context. The
+example is entirely fictional — it does not reproduce, and does not resemble,
+any real organisation's documents. Replace it with your own organisation's
+content before relying on the skill operationally.

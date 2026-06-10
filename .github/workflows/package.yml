@@ -1,0 +1,21 @@
+name: Package skill
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build clean skill archive
+        run: |
+          zip -r whs-professional.zip whs-professional -x "*.DS_Store" -x "__MACOSX/*"
+          cp whs-professional.zip whs-professional.skill
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: whs-professional-skill
+          path: |
+            whs-professional.zip
+            whs-professional.skill

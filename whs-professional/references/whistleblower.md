@@ -82,19 +82,23 @@ The disclosure must be made to an eligible recipient for the protection to attac
 
 **Practical implication for WHS managers**: a WHS manager who is also a "senior manager" within the company is an eligible recipient. A line supervisor typically is not, unless designated under the whistleblower policy. The policy must make clear which roles in the WHS function are authorised recipients — and those people must understand their obligations from the moment a disclosure is made.
 
+**Anonymous disclosures are protected** — a disclosure made anonymously (or under a pseudonym) qualifies for the same protections if it otherwise meets the requirements. The discloser is never required to identify themselves, at the time of disclosure or later, for the protections to attach.
+
+**Public interest and emergency disclosures (s 1317AAD)** — disclosure to a journalist or parliamentarian is protected only where strict preconditions are met. For a *public interest disclosure*: a prior disclosure must have been made to ASIC, APRA, or a prescribed Commonwealth authority; at least 90 days must have passed; the discloser must have reasonable grounds to believe that no adequate action is being or has been taken and that further disclosure would be in the public interest; and the discloser must first give the original recipient body written notification identifying the earlier disclosure and stating the intention to make a public interest disclosure. For an *emergency disclosure*: a prior disclosure must have been made; the discloser must have reasonable grounds to believe the information concerns a substantial and imminent danger to the health or safety of one or more persons or to the financial system; written notification is again required; and the extent of the information disclosed must be no greater than necessary to inform the recipient of the danger. A worker considering going external should obtain advice first — a disclosure that misses the s 1317AAD preconditions loses the protection.
+
 ### 2.4 Protections (s 1317AB–AE)
 
 The protections are substantial and automatic — they attach by operation of law once the disclosure meets the requirements, without any formal labelling by the discloser.
 
 | Protection | Section | Detail |
 |---|---|---|
-| Confidentiality | s 1317AAE | Identity of discloser must not be disclosed (with limited exceptions — to ASIC/APRA/AFP, to a legal practitioner, with consent, or where the identity is necessary to investigate and reasonable steps are taken to protect it) |
+| Confidentiality | s 1317AAE | Identity of discloser must not be disclosed (limited exceptions — to ASIC/APRA/AFP, to a legal practitioner, or with consent). A separate exception permits disclosing *information likely to lead to identification* of the discloser where reasonably necessary to investigate the matter, provided reasonable steps are taken to reduce the risk of identification — that exception never permits disclosing the identity itself |
 | Immunity from civil/criminal/administrative liability | s 1317AB | The discloser is not subject to civil, criminal, or administrative liability for making the disclosure; not subject to contractual or other remedies on the basis of the disclosure |
-| No victimisation | s 1317AD | Causing or threatening detriment to the discloser (or another person on the basis of the disclosure) is prohibited; detriment includes dismissal, demotion, harassment, intimidation, harm, damage to property or reputation, financial loss |
+| No victimisation | s 1317AC | Causing or threatening detriment to the discloser (or another person on the basis of the disclosure) is prohibited — s 1317AC is both a criminal offence and a civil penalty provision; detriment includes dismissal, demotion, harassment, intimidation, harm, damage to property or reputation, financial loss |
 | Contractual termination void | s 1317AB(2) | A contractual term that purports to terminate on the basis of disclosure is void |
-| Compensation and remedies | s 1317AE | Court may order compensation, reinstatement, injunctions, exemplary damages; reverse onus on the entity to prove the detriment was not caused by the disclosure once a prima facie case is made out |
+| Compensation and remedies | ss 1317AD–1317AE | s 1317AD is the gateway to civil remedies for detriment, with a shifted onus of proof (s 1317AD(2B)); s 1317AE sets out the orders the court may make — compensation, reinstatement, injunctions, exemplary damages, apologies |
 
-The reverse onus in s 1317AE is significant — once the discloser establishes a prima facie case that detriment was suffered after the disclosure, the burden shifts to the entity to prove the detriment was not caused by the disclosure. This is materially more protective than ordinary civil litigation.
+The shifted onus in s 1317AD(2B) is significant — once the claimant points to evidence of detriment and a qualifying disclosure, the burden shifts to the defendant to prove the disclosure was not part of the reason for the conduct. This is materially more protective than ordinary civil litigation.
 
 ### 2.5 Mandatory whistleblower policy (s 1317AI)
 
@@ -114,19 +118,33 @@ The policy must be operationally real — it cannot be a static document on the 
 
 ### 2.6 Penalties for breach (s 1317AC and related)
 
-| Conduct | Penalty (individual) | Penalty (body corporate) |
-|---|---|---|
-| Breach of confidentiality (s 1317AAE) | 240 penalty units / 2 years imprisonment | 2,400 penalty units or 3× benefit derived or 10% annual turnover (capped at 2.5m penalty units) |
-| Victimisation (s 1317AC) | 240 penalty units / 2 years imprisonment | 2,400 penalty units or 3× benefit or 10% turnover (capped) |
-| Failure to have a policy (s 1317AI) | — | 60 penalty units |
+The same conduct can engage both a criminal offence and a civil penalty provision — keep the two streams distinct.
 
-Penalty unit value as at 1 July 2024 is $330 per unit (subject to indexation). The maximum corporate civil penalty for victimisation is therefore in the multi-million-dollar range. Criminal liability for individuals (officers, managers, or any person involved) is available where the conduct meets the criminal threshold.
+**Criminal offences:**
+
+| Offence | Maximum penalty (individual) |
+|---|---|
+| Victimisation — causing or threatening detriment (s 1317AC) | Up to 2 years imprisonment (and/or fine) |
+| Breach of discloser confidentiality (s 1317AAE) | Up to 6 months imprisonment (and/or fine) |
+
+**Civil penalty provisions:**
+
+| Contravention | Maximum civil penalty (individual) | Maximum civil penalty (body corporate) |
+|---|---|---|
+| Victimisation (s 1317AC) or confidentiality breach (s 1317AAE) | 5,000 penalty units | The greater of: 50,000 penalty units; 3× the benefit derived or detriment avoided; or 10% of annual turnover (capped at 2.5 million penalty units) |
+| Failure to have a compliant policy (s 1317AI) | — | 60 penalty units |
+
+The Commonwealth penalty unit is **$330 from 7 November 2024** (it was $313 from 1 July 2023); the value is indexed — validate before quoting dollar figures. At $330 per unit, the corporate civil maximum runs to the tens of millions of dollars for large entities. Criminal liability for individuals (officers, managers, or any person involved) is available where the conduct meets the criminal threshold.
+
+**Case anchor — ASIC v TerraCom Ltd (No 3) [2025] FCA 1017**: the Federal Court ordered TerraCom to pay a $7.5 million civil penalty (plus ASIC's costs) over ASX announcements and an open letter that publicly disparaged a whistleblower's allegations — the first civil penalty imposed for whistleblower victimisation under Part 9.4AAA. The detriment was reputational and the conduct was the public messaging itself; no dismissal was needed to engage the provisions. Validate case details against the judgment before citing in formal outputs.
 
 ---
 
 ## 3. Public Interest Disclosure Act 2013 (Cth)
 
 The PID Act 2013 (Cth) is the parallel regime for the Commonwealth public sector — Commonwealth agencies, statutory authorities, Commonwealth companies, and contracted service providers performing services on behalf of the Commonwealth. It is administered by the Commonwealth Ombudsman and the Inspector-General of Intelligence and Security.
+
+The Act was substantially amended by the **Public Interest Disclosure Amendment (Review) Act 2023 (Cth)**, with the main changes commencing **1 July 2023** alongside the National Anti-Corruption Commission (NACC). Two changes matter most in practice: *personal work-related conduct* (individual workplace grievances with no broader integrity dimension) is now expressly excluded from disclosable conduct, and the Act now interfaces with the NACC regime — serious or systemic corruption issues flow to the NACC, and agencies must manage PID handling and NACC referral obligations side by side.
 
 ### 3.1 Disclosable conduct
 
@@ -174,11 +192,11 @@ Each Australian state and territory has its own PID Act covering its public sect
 | NSW | Public Interest Disclosures Act 1994 (replaced by PID Act 2022, commenced 1 October 2023) | NSW Ombudsman + ICAC for corruption | The 2022 Act materially strengthened protections and expanded coverage |
 | VIC | Public Interest Disclosures Act 2012 | Independent Broad-based Anti-corruption Commission (IBAC) | Renamed from Protected Disclosure Act 2012; significant reforms in 2019 |
 | QLD | Public Interest Disclosure Act 2010 | Queensland Ombudsman + CCC for corruption | Public sector + some private entities providing public services |
-| SA | Whistleblowers Protection Act 1993 | Independent Commissioner Against Corruption (ICAC SA) + Ombudsman SA | One of the earliest state regimes; covers public officers and members of the public disclosing public sector misconduct |
+| SA | Public Interest Disclosure Act 2018 | Office for Public Integrity (OPI) / ICAC SA + Ombudsman SA | Replaced the Whistleblowers Protection Act 1993 (repealed 1 July 2019); covers environmental and health information disclosed by any person, and public administration information disclosed by public officers |
 | WA | Public Interest Disclosure Act 2003 | Public Sector Commissioner | Each public authority designates a PID Officer |
 | TAS | Public Interest Disclosures Act 2002 | Tasmanian Ombudsman + Integrity Commission | Covers state public sector + local government |
 | ACT | Public Interest Disclosure Act 2012 | ACT Ombudsman + ACT Integrity Commission | Public sector focus |
-| NT | Public Interest Disclosure Act 2008 | NT Ombudsman + ICAC NT | Public sector + statutory bodies |
+| NT | Independent Commissioner Against Corruption Act 2017 | ICAC NT | The Public Interest Disclosure Act 2008 was repealed; since 2018 whistleblower protections sit within the ICAC (NT) regime (protected communications and anti-retaliation provisions) |
 
 **Common structural elements across state PID Acts:**
 
@@ -204,7 +222,7 @@ A construction worker who reports to their site supervisor that a labour-hire cr
 - A worker exercising their s 28 WHS Act duty
 - An eligible whistleblower under Corporations Act Part 9.4AAA (if the host entity is a regulated entity — which most construction PCBUs are) — the disclosure represents "a danger to the public"
 - Potentially an eligible discloser under the relevant state PID Act if the project is a state public sector project or contracted public service
-- Protected from victimisation under WHS Act s 104, Corporations Act s 1317AD, and the relevant PID Act
+- Protected from victimisation under WHS Act s 104, Corporations Act ss 1317AC–1317AE, and the relevant PID Act
 
 The WHS function should not be the only path. A worker who reports through the incident management system is engaging with the WHS framework, but the matter may also need to enter the whistleblower pathway. The two should be designed to interoperate, not compete.
 
@@ -255,7 +273,7 @@ The Sex Discrimination Act 1984 (Cth) s 47C positive duty (effective 12 December
 
 A worker disclosing sexual harassment, sex-based hostile environment, or related victimisation may be:
 
-- Raising a psychosocial hazard under WHS Regulations Part 3.1A
+- Raising a psychosocial hazard under the model WHS Regulations psychosocial provisions (rr 55A–55D)
 - Engaging the s 47C positive duty pathway
 - An eligible whistleblower under Corporations Act Part 9.4AAA if the conduct involves an officer or systemic management failure
 - Protected under state anti-discrimination legislation independently
@@ -271,7 +289,7 @@ Whistleblower matters typically require longer retention than standard WHS recor
 - Investigations may run for months or years, with subsequent litigation
 - Reprisal claims can be brought after the underlying matter is concluded
 - Regulatory proceedings (ASIC, AHRC, state PID Commissioners) have their own timeframes
-- The reverse onus in s 1317AE means the entity may need to evidence the absence of reprisal connection years after the disclosure
+- The shifted onus in s 1317AD(2B) means the entity may need to evidence the absence of reprisal connection years after the disclosure
 
 | Record type | Typical WHS retention | Whistleblower retention |
 |---|---|---|
@@ -317,7 +335,7 @@ Before finalising any output that touches whistleblower content, confirm:
 - [ ] Eligible whistleblower / eligible discloser status correctly characterised
 - [ ] Eligible recipient pathway specified — not generic "report to your manager"
 - [ ] Confidentiality obligations (s 1317AAE or PID Act equivalent) flagged
-- [ ] Reverse onus on detriment claims noted where relevant
+- [ ] Shifted onus on detriment claims (s 1317AD(2B)) noted where relevant
 - [ ] Mandatory policy obligation (s 1317AI) noted where audience is a public or large proprietary company
 - [ ] Distinction between WHS reporting (standard) and whistleblower disclosure (formal protected pathway) maintained
 - [ ] Respect@Work s 47C positive duty cross-referenced for harassment-related matters

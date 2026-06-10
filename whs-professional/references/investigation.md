@@ -13,7 +13,7 @@
 8. [PEEPO Question Bank](#8-peepo-question-bank)
 9. [Witness Interview Technique](#9-witness-interview-technique)
 10. [Witness Statement Format and Admissibility](#10-witness-statement-format-and-admissibility)
-11. [ICAM Variants — BHP, IOGP, Safety Wise](#11-icam-variants--bhp-iogp-safety-wise)
+11. [ICAM Variants — BHP, Safety Wise, and Proprietary Alternatives](#11-icam-variants--bhp-safety-wise-and-proprietary-alternatives)
 12. [AcciMap Methodology](#12-accimap-methodology)
 13. [Bowtie Worked Example](#13-bowtie-worked-example)
 14. [Legal Privilege Management During Investigation](#14-legal-privilege-management-during-investigation)
@@ -30,7 +30,7 @@
 investigation in AU/NZ WHS. Developed from James Reason's systems model of accident
 causation. Systemic, not blame-based.
 
-### The Four ICAM Levels (bottom-up analysis)
+### The Four ICAM Levels
 
 ```
 [ABSENT / FAILED DEFENCES]
@@ -42,13 +42,19 @@ causation. Systemic, not blame-based.
 [ORGANISATIONAL FACTORS]
 ```
 
-Work upward from the incident event to root causes in organisational systems.
+The arrows show the direction of causation: organisational factors create
+task and environmental conditions, which shape individual and team actions,
+which meet absent or failed defences at the incident. Analysis runs the
+other way — start at the incident event and work back through the defences,
+actions, and conditions to the organisational factors that explain them.
 
 ### Step-by-Step ICAM Process
 
 **Step 1 — Preserve and Secure the Scene**
-- Notify regulator if notifiable (see legislation.md s 35)
-- Preserve scene before disturbance
+- Notify regulator if notifiable — the duty to notify is WHS Act s 38;
+  s 35 defines "notifiable incident" (see legislation.md)
+- Preserve scene before disturbance (WHS Act s 39 duty to preserve the
+  incident site)
 - Photograph, video, diagram the scene
 - Identify and secure physical evidence (plant, equipment, substances)
 - Record environmental conditions (weather, lighting, noise, time of day)
@@ -216,7 +222,7 @@ analysing whether controls are degraded.
 
 **Triggers**: Actual severity rating 4, 5, or 6, or all HiPo incidents (commonly).
 Some organisations require ICAM for level-3 incidents at the discretion of business
-or Zero Harm leadership. Where ICAM is conducted, a separate standard investigation
+or WHS leadership. Where ICAM is conducted, a separate standard investigation
 form is generally not required.
 
 > Reference your organisation's incident management procedure for trigger thresholds
@@ -242,6 +248,7 @@ system and monitored through close-out.
 
 **Review/Approval** *(modify to match your organisation's approval chain)*
 | Role | Name | Signature | Date |
+|---|---|---|---|
 | Lead Investigator | | | |
 | Responsible Manager | | | |
 | Business Unit GM | | | |
@@ -256,6 +263,7 @@ directly contributing to the incident should also be noted.
 
 ### 2. Investigation Team Members
 | Name | Position |
+|---|---|
 
 ### 3. Incident Overview
 Summary of the incident with pictures where available. Key details: date, specific
@@ -266,6 +274,7 @@ The sequence of events before, during, and following the incident.
 Note gaps in the timeline — highlight areas requiring further investigation.
 
 | Event Sequence | Date | Approx. Time | Event Description |
+|---|---|---|---|
 
 ### 5. Data Collection
 
@@ -332,11 +341,13 @@ actions. The 4-column table maps the causal chain from defences through to root 
 
 **Actual Risk Rating**
 | Consequence | Likelihood | Risk Level |
+|---|---|---|
 | | | |
 Rationale for Risk Rating:
 
 **Potential Risk Rating**
 | Consequence | Likelihood | Risk Level |
+|---|---|---|
 | | | |
 Rationale for Risk Rating:
 
@@ -352,7 +363,7 @@ Rationale for Risk Rating:
 
 ### 9. Recommended Corrective Actions
 Actions to prevent occurrence of similar incidents. Where required, include amendments
-to bowties, HAZOPs, CRAWS, FMEA, or SWMS. For group-wide change, engage relevant CoP.
+to bowties, HAZOPs, structured what-if reviews, FMEA, or SWMS. For group-wide change, engage relevant CoP.
 **All agreed actions must be recorded against the incident in the organisation's incident management system and monitored accordingly.**
 
 | Action Required | Type of Control | Responsibility | Completion Date |
@@ -364,6 +375,7 @@ In light of the investigation findings, summarise the key learnings and conclusi
 ### 11. Investigation Team Sign-Off
 All investigation team members to sign off.
 | Name | Sign | Date |
+|---|---|---|
 
 ---
 
@@ -371,7 +383,7 @@ All investigation team members to sign off.
 
 The pitfalls below are documented cognitive biases — recognising them is half
 the defence. Where applicable, the underlying research is attributed; see
-`frameworks.md` Section 10 for the named thinkers.
+`frameworks.md` Section 12 for the named thinkers.
 
 ### Cognitive biases that distort investigation findings
 
@@ -547,7 +559,7 @@ Adapt phrasing to the witness, but cover the substance.
 - "Did the procedure cover the actual task as it was performed — or were there
   steps not in the procedure?"
 - "If the procedure didn't cover something, how did you work it out?"
-- "What does your normal practice differ from the written procedure — and why?"
+- "How does your normal practice differ from the written procedure — and why?"
 - "Have you seen the procedure followed exactly recently — or are there
   consistent variations?"
 - "Was there pressure to deviate from the procedure for time or commercial reasons?"
@@ -613,16 +625,20 @@ WHS investigation.
 
 ### Cognitive interviewing — key techniques
 
-Developed by Fisher and Geiselman (1992) to improve recall accuracy. Effective
-for witnesses to events where memory is fragmentary or distressed.
+Developed by Geiselman and Fisher in the mid-1980s (consolidated in their
+1992 book) to improve recall accuracy. Effective for witnesses to events
+where memory is fragmentary or distressed.
 
 - **Free recall** — let the witness tell the whole story uninterrupted before
   any probing
 - **Context reinstatement** — ask the witness to mentally place themselves
   back at the scene; describe surroundings, sounds, smells, feelings before
   the event
-- **Multiple recalls** — ask the witness to recall the event from a different
-  perspective (e.g., what would a person standing across the room have seen?)
+- **Report everything** — instruct the witness to report every detail, even
+  details that seem trivial, fragmentary, or out of order; the investigator
+  judges relevance, not the witness
+- **Multiple recalls** — ask the witness to go through the account more than
+  once; each retrieval attempt can surface detail the previous pass missed
 - **Reverse order recall** — work backward through the event; can surface
   details not captured in forward recall
 - **Change perspective** — ask "if you were the supervisor, what would you
@@ -639,9 +655,15 @@ in advance.** Otherwise the interview is compromised both ethically and
 procedurally:
 - Worker rights to representation differ (HSR, union, support person, legal
   representation depending on jurisdiction and process)
-- The principle against self-incrimination applies (worker cannot be compelled
-  to answer questions whose answers may incriminate them — Fair Work Act and
-  case law)
+- There is no general privilege against self-incrimination in internal
+  interviews — the Fair Work Act confers none. An employer may give a
+  lawful and reasonable direction to answer questions about workplace
+  conduct, and unjustified refusal can itself be misconduct. The narrow
+  exception is where answers would create real criminal exposure for the
+  worker: a direction to answer may then cease to be reasonable, and the
+  worker should have the opportunity to obtain legal advice. The position
+  for regulator questioning is different — model WHS Act s 172 abrogates
+  the privilege with direct-use immunity (see §10)
 - ICAM evidence may not be admissible in disciplinary process if procedural
   fairness was not afforded
 - The Just Culture distinction (Reason; cross-reference frameworks.md §12) is
@@ -689,8 +711,8 @@ procedurally:
 
 A witness statement is a written record of what the witness has said. It may
 become part of formal investigation records, regulator submissions, coronial
-brief, or court evidence. Its form and process affect its admissibility and
-weight.
+brief, or court evidence. Its form and process affect the weight it carries
+and how well it survives scrutiny in later proceedings.
 
 ### Format
 
@@ -711,20 +733,28 @@ A well-formed witness statement contains:
 - **Investigator details** — name and role of person taking the statement;
   date; location
 
-### What makes a statement admissible
+### What gives a statement weight and survivability
 
-- **Voluntariness** — given without coercion, threat, inducement, or
-  oppression; the worker understood that they could decline to answer
-  questions or withdraw at any time
-- **Procedural fairness** — opportunity to have a support person; chance to
+"Voluntariness" is, strictly, a rule about confessional evidence in criminal
+proceedings — it governs whether an accused person's own admissions can be
+used against them, not the admissibility of witness statements generally.
+For investigation statements, the practical question is weight and
+survivability: will the statement withstand testing in a coronial inquest,
+prosecution, civil claim, or disciplinary review? A statement holds up
+where it is:
+
+- **Freely given** — without coercion, threat, inducement, or oppression;
+  the witness understood they could decline or withdraw (for the limits on
+  directing employees to answer, see §9)
+- **Procedurally fair** — opportunity to have a support person; chance to
   review and correct the statement; reasonable time to consider; not
   conducted under undue pressure
-- **Accuracy** — the statement reflects what the witness said, not what the
+- **Accurate** — the statement reflects what the witness said, not what the
   investigator interpreted; verbatim where it matters
-- **Contemporaneity** — taken as close to the event as practicable; gap
+- **Contemporaneous** — taken as close to the event as practicable; gap
   between event and statement noted
 
-### What weakens or invalidates a statement
+### What weakens a statement
 
 - Coercion or threat (express or implied)
 - Inducement (express or implied promise of leniency, employment, payment)
@@ -734,7 +764,35 @@ A well-formed witness statement contains:
 - Statement taken when worker was clearly distressed, intoxicated, or
   cognitively impaired
 - Multiple workers interviewed together influencing each other's accounts
-- Worker not informed they could decline to answer self-incriminating questions
+- Worker pressed to answer questions creating real criminal exposure for
+  them, without the opportunity to seek legal advice (see §9)
+
+### Compelled vs voluntary statements
+
+The statutory position depends on who is asking:
+
+- **Internal investigation interviews** — there is no statutory compulsion;
+  the employer relies on lawful and reasonable directions (see §9).
+  Statements are voluntary in form even where directed in substance.
+- **Regulator information notices (model WHS Act s 155)** — the regulator
+  may compel a person to provide information, produce documents, or attend
+  and give evidence. Non-compliance is an offence.
+- **Inspector questioning on site (model WHS Act s 171)** — an inspector
+  who enters a workplace may require answers to questions and production of
+  documents in the exercise of the inspector's functions.
+- **Abrogation of the privilege against self-incrimination (model WHS Act
+  s 172)** — a person is not excused from answering a question or providing
+  information under s 155 or s 171 on the ground of self-incrimination. The
+  trade-off is direct-use immunity for individuals: the compelled answer is
+  not admissible against the person in civil or criminal proceedings (other
+  than proceedings about the falsity of the answer). Derivative use —
+  evidence located because of the compelled answer — is not protected.
+- **Internal records are producible** — internal investigation reports,
+  interview records, and witness statements can be compelled by the
+  regulator (s 155) and by the coroner, regardless of how they are marked
+  internally. "Confidential" or "internal use only" labels have no effect
+  against compulsory processes; only a properly established claim of legal
+  professional privilege resists production (see §14).
 
 ### Statement vs interview recording
 
@@ -758,7 +816,7 @@ should be the standard for a coronial brief** — that's the safest assumption.
 
 ---
 
-## 11. ICAM Variants — BHP, IOGP, Safety Wise
+## 11. ICAM Variants — BHP, Safety Wise, and Proprietary Alternatives
 
 ICAM is not a single methodology; the term covers a family of related
 approaches with subtle but operationally significant differences. Confusion
@@ -784,16 +842,6 @@ The original (1990s). Developed for the mining industry. Emphasises:
 - The Cause Pathway diagram as the central deliverable
 - Strong corrective action framework with effectiveness verification
 
-### IOGP ICAM
-
-Adopted by the International Association of Oil & Gas Producers. Adds:
-- Integration with bowtie analysis (use bowtie to identify the controls that
-  failed, then ICAM to understand why)
-- Specific consideration of process safety in addition to personal safety
-- Tighter integration with high-reliability organisation thinking (Weick,
-  Sutcliffe)
-- Greater emphasis on absent defences as well as failed defences
-
 ### Safety Wise ICAM
 
 The most commonly taught variant in Australia (Safety Wise Solutions is a
@@ -801,8 +849,28 @@ training provider). Variations:
 - Slightly different terminology (Latent Hazards instead of Latent Conditions
   in some materials)
 - Strong emphasis on the investigator's facilitation role
-- 5-day Lead Investigator certification widely held in AU
+- 2-day Lead Investigator course widely held in AU; ICAM analysis workshops
+  for a specific incident typically run 1–2 days
 - Pre-loaded into many AU organisations' incident management procedures
+
+### Tripod Beta and TapRooT — proprietary alternatives
+
+ICAM is not the only systemic method in commercial use. Two proprietary
+alternatives are regularly encountered in AU/NZ, particularly where a global
+parent or client mandates them:
+
+- **Tripod Beta** — Shell lineage, now stewarded through the Energy
+  Institute / Stichting Tripod Foundation. Shares ICAM's Reason ancestry:
+  builds a tree of events, objects, and barriers, then traces each failed
+  barrier back through immediate causes and preconditions to underlying
+  causes (Basic Risk Factors). Strong in process safety environments.
+- **TapRooT** — System Improvements (US). A structured root cause tree with
+  defined causal categories, trained investigators, and software support.
+  Common in heavy industry and US-headquartered multinationals.
+
+When an investigator trained in Tripod Beta or TapRooT joins an ICAM
+workshop (or vice versa), agree terminology and the analysis framework
+upfront — the methods are cousins, not interchangeable.
 
 ### Practical implication
 
@@ -875,7 +943,7 @@ the deliverable — typically prepared in workshops over several days.
 |---|---|
 | Investigation is internal to one organisation | Investigation crosses organisations or includes regulator |
 | Operational lessons are the primary output | Systemic or industry-level lessons are anticipated |
-| 5-day workshop is feasible | Longer engagement is acceptable (typically 2-4 weeks) |
+| A 1–2 day analysis workshop is feasible | Longer engagement is acceptable (typically 2-4 weeks) |
 | Findings will inform corrective actions in the organisation | Findings may inform royal commission, regulatory reform |
 | The accident is operational | The accident has industry-wide pattern implications (e.g., Pike River, Longford) |
 
@@ -899,11 +967,18 @@ maintenance
 
 **Threats (left side — what could cause the top event)**:
 
-1. Anchor point fails during use
-2. Worker unrestrained at edge (no fall protection in place)
-3. Edge protection breached and not reinstated
-4. Worker overreaches beyond safe positioning
-5. Worker disoriented (fatigue, medical event, weather)
+Threats must be independent initiating causes — events or conditions that
+can, on their own, lead to the top event:
+
+1. Worker overreaches beyond the limit of restraint or safe positioning
+2. Fragile or unprotected edge or surface gives way underfoot
+3. Worker loses balance (slip, trip, wind gust)
+4. Anchor or supporting structure fails under load during use
+5. Medical event affecting the worker (collapse, dizziness, disorientation)
+
+> Note: "worker unrestrained at the edge" is not a threat — it is the
+> absence of a prevention barrier (restraint), and belongs in the barrier
+> analysis below, not on the threat lines.
 
 **Prevention barriers (left side — controls preventing the top event)**:
 
@@ -911,24 +986,24 @@ For each threat, the barriers that should prevent it:
 
 | Threat | Prevention barriers |
 |---|---|
-| Anchor fails | Engineering certification of anchors; annual inspection and tagging; pre-use visual check; load testing |
-| Worker unrestrained | Procedure mandating restraint/arrest connection before approaching edge; supervision; buddy check |
-| Edge protection breached | Procedure requiring immediate reinstatement; supervisor verification; site-specific induction |
-| Worker overreaches | Work positioning training; task design (bring work to worker rather than worker to edge); reach-pole equipment |
-| Worker disoriented | Fitness for work check; fatigue management; medical pre-screening for rooftop work; weather hold criteria |
+| Worker overreaches | Restraint-technique system set so the worker physically cannot reach the fall edge; work positioning training; task design (bring work to worker rather than worker to edge); reach-pole equipment |
+| Fragile/unprotected edge or surface | Edge protection installed and maintained; fragile-surface identification, signage, and exclusion; walkways and crawl boards; procedure requiring immediate reinstatement after any temporary breach |
+| Loss of balance | Housekeeping on the work surface; weather hold criteria (wind, rain); appropriate footwear; clear, planned access routes |
+| Anchor/structural failure | Engineering certification of anchors; annual inspection and tagging; pre-use visual check; load rating verified against intended use |
+| Medical event | Fitness for work check; medical pre-screening for rooftop work; fatigue management; no solo rooftop work |
 
 **Consequences (right side — what happens if the top event occurs)**:
 
 1. Fatal fall to ground / lower level
-2. Serious injury (fracture, head injury) survivable
+2. Serious injury (fracture, head injury) — survivable
 3. Suspension trauma if arrested in harness
-4. Minor injury / no injury
+4. Minor injury
 
 **Mitigation barriers (right side — controls reducing severity)**:
 
 | Consequence | Mitigation barriers |
 |---|---|
-| Fatal fall | Fall arrest system that catches before strike; fall clearance calculation ensures clearance to strike |
+| Fatal fall | Fall arrest system that catches the falling worker; fall clearance calculation ensures the worker cannot strike the surface below |
 | Serious injury | Fall arrest equipment correctly fitted to limit deceleration forces; rescue arrives quickly; first aid on site; medical evacuation plan |
 | Suspension trauma | Trauma straps deployed by worker; rescue plan rehearsed and equipment present; rescue within 5-15 minutes |
 | Minor injury | First aid; return to work assessment; root cause investigation regardless of outcome |
@@ -940,7 +1015,15 @@ For each threat, the barriers that should prevent it:
 | Anchor certification | Time since last inspection > schedule | Anchor register with overdue alert; planned inspection cadence |
 | Restraint procedure | Production pressure to skip steps | Supervisor monitoring; toolbox talks; reporting of pressure to skip controls |
 | Edge protection | Material movement requiring temporary breach | Procedure requiring immediate reinstatement; physical removable section design |
+| Fall arrest (mitigation) | Anchor or structure fails under arrest load | Anchors certified to arrest-load rating (AS/NZS 1891.4); pre-use check; anchor register |
 | Rescue plan | Plan not rehearsed; rescuers absent | Quarterly rescue drill; rescue capability verified before work commences |
+
+Anchor failure appears twice, doing different work: failure under load
+*before* any fall is a threat (it initiates the top event for a worker
+relying on the anchor for restraint or positioning); failure *during
+arrest* is a degradation factor on the fall-arrest mitigation barrier —
+the fall has already begun, and the barrier that should limit the harm
+fails.
 
 **How to read the bowtie**
 
@@ -983,8 +1066,12 @@ as if privileged exposes the organisation to adverse inferences and orders.
 adviser for the dominant purpose of obtaining or giving legal advice.
 
 **Litigation privilege** — protects communications and material prepared for
-the dominant purpose of contemplated or pending litigation, including
-regulator prosecution and coronial inquest.
+the dominant purpose of use in, or obtaining advice about, pending or
+reasonably anticipated litigation — including a WHS prosecution or civil
+claim. Treat coronial inquests with care: an inquest is inquisitorial
+rather than adversarial, and a litigation privilege claim stands on firmer
+ground anchored to an anticipated prosecution or civil proceeding arising
+from the incident than to the inquest itself.
 
 **Without prejudice** — communications made in genuine attempt to settle a
 dispute; not the same as privilege but a related protection.
@@ -993,24 +1080,32 @@ dispute; not the same as privilege but a related protection.
 where disclosure would be contrary to public interest; rarely available to
 private organisations.
 
-### The dominant purpose test (Esso v FCT, 1999)
+### The dominant purpose test (Esso, 1999)
 
-The High Court in *Esso Australia Resources Ltd v Federal Commissioner of
-Taxation* (1999) established the dominant purpose test for litigation
-privilege in AU:
-
-> "The dominant purpose of a document is the one purpose which is dominant
-> over any other; not necessarily the only purpose."
+In *Esso Australia Resources Ltd v Federal Commissioner of Taxation* [1999]
+HCA 67, the High Court adopted the dominant purpose test for legal
+professional privilege generally — advice privilege as well as litigation
+privilege — replacing the stricter sole purpose test from *Grant v Downs*
+(1976). "Dominant" purpose is understood as the ruling, prevailing or most
+influential purpose (the *FCT v Spotless Services* formulation, applied in
+this context): it need not be the sole purpose, but it must predominate
+over every other purpose.
 
 For an investigation to attract litigation privilege:
-- Litigation must be reasonably anticipated (not merely possible)
-- The dominant purpose of the investigation must be obtaining legal advice
-  or preparing for that litigation
-- This purpose must exist from the outset of the investigation
+- Litigation (prosecution or civil proceedings) must be reasonably
+  anticipated — more than a mere possibility
+- The dominant purpose of the relevant document must be obtaining legal
+  advice or use in the anticipated proceedings
+- Purpose is assessed objectively, document by document, at the time each
+  document is created — privilege can attach to documents created after
+  litigation becomes reasonably anticipated, even where earlier documents
+  from the same investigation are not privileged
 
-Investigations for operational learning are not privileged. Investigations
-for legal defence preparation may be. Mixed-purpose investigations are not
-privileged — the dominant purpose test fails.
+Investigations run purely for operational learning are not privileged.
+Mixed-purpose documents are privileged where the legal purpose is the
+dominant one; privilege fails only where no legal purpose predominates —
+for example, where legal preparation and operational learning purposes
+carry equal weight.
 
 ### How privilege is established
 
@@ -1029,15 +1124,29 @@ the investigation:
 
 ### How privilege is lost
 
-- Sharing privileged material outside the privileged circle (waiver)
-- Referring to the substance of privileged material in non-privileged
-  communications (waiver by reference)
-- Disclosing privileged material to a regulator (issue waiver — disclosure
-  for one purpose waives for all)
-- Producing the privileged material in a different proceeding (subject matter
-  waiver in some circumstances)
-- Operating the investigation as a mixed-purpose exercise (privilege never
-  attached)
+The Australian test for waiver is inconsistency: privilege is waived where
+the privilege-holder acts inconsistently with maintaining the
+confidentiality of the communication (*Mann v Carnell* (1999) 201 CLR 1).
+Disclosure for one purpose does not automatically waive privilege for all
+purposes — the analysis turns on what was disclosed, to whom, and on what
+terms. Common waiver scenarios:
+
+- Sharing privileged material outside the privileged circle without
+  confidentiality terms (express waiver)
+- Deploying the substance of privileged material in non-privileged
+  communications — for example, asserting "the investigation cleared us"
+  while withholding the report (implied waiver through inconsistency)
+- Disclosing privileged material to a regulator — a confidential, limited
+  disclosure does not automatically waive privilege against the world under
+  the inconsistency test, but it is high-risk: the terms of disclosure, the
+  regulator's statutory powers, and any later use all matter; take legal
+  advice and document the confidentiality basis before disclosing
+- Using the privileged investigation to support disciplinary action against
+  a worker — an implied waiver risk, because deploying the report against
+  the worker is difficult to reconcile with maintaining its confidentiality
+  (procedural fairness may also require giving the worker the material)
+- Running the investigation with no dominant legal purpose — privilege
+  never attached in the first place
 
 ### The parallel-investigation model
 
@@ -1064,9 +1173,11 @@ the two must be carefully managed to avoid contamination.
 - Discussing the privileged investigation findings in WHS team meetings —
   waiver
 - Producing the privileged report to the regulator "voluntarily" thinking
-  it will help — issue waiver and substantive risk
+  it will help — even a confidential, limited disclosure is high-risk,
+  invites an inconsistency-based waiver argument, and hands over the
+  substance regardless
 - Using the privileged investigation to inform disciplinary action against
-  the worker — issue waiver and procedural fairness issues
+  the worker — implied waiver risk and procedural fairness issues
 
 ### When privilege is appropriate
 

@@ -22,13 +22,13 @@ patterns. Names, locations, and reference numbers are illustrative.
 
 ## Table of Contents
 1. [How These Cases Differ from the Catastrophe Set](#1-how-these-cases-differ)
-2. [Case 1 — Forklift / Pedestrian HiPo in a Distribution Centre](#2-case-1-forklift-pedestrian-hipo)
-3. [Case 2 — Manual Handling MSI Claim, Aged Care Worker](#3-case-2-manual-handling-msi)
-4. [Case 3 — Psychosocial Complaint, Sales Team Under Sustained Pressure](#4-case-3-psychosocial-complaint)
-5. [Case 4 — Electrical Near-Miss, Switchboard Contact During Cleaning](#5-case-4-electrical-near-miss)
-6. [Case 5 — Slip-Trip-Fall in a Hospitality Kitchen](#6-case-5-slip-trip-fall)
-7. [Case 6 — Hazardous Chemical Decant Spill](#7-case-6-hazardous-chemical-decant)
-8. [Case 7 — Fatigue-Related Vehicle Incident Driving Home After Night Shift](#8-case-7-fatigue-vehicle)
+2. [Case 1 — Forklift / Pedestrian HiPo in a Distribution Centre](#2-case-1--forklift--pedestrian-hipo)
+3. [Case 2 — Manual Handling MSI Claim, Aged Care Worker](#3-case-2--manual-handling-msi)
+4. [Case 3 — Psychosocial Complaint, Sales Team Under Sustained Pressure](#4-case-3--psychosocial-complaint)
+5. [Case 4 — Electrical Near-Miss, Switchboard Contact During Cleaning](#5-case-4--electrical-near-miss)
+6. [Case 5 — Slip-Trip-Fall in a Hospitality Kitchen](#6-case-5--slip-trip-fall)
+7. [Case 6 — Hazardous Chemical Decant Spill](#7-case-6--hazardous-chemical-decant)
+8. [Case 7 — Fatigue-Related Vehicle Incident Driving Home After Night Shift](#8-case-7--fatigue-vehicle)
 9. [How to Use These Cases](#9-how-to-use-these-cases)
 
 ---
@@ -105,7 +105,7 @@ known and not challenged.
 | 4 | 14:20 | Operator A enters Aisle 14 in reverse to align with rack face |
 | 5 | 14:22 | Forklift comes within 1 m of Pedestrian B; operator alerted by colleague shout; emergency stop |
 | 6 | 14:30 | Incident reported; Aisle 14 closed |
-| 7 | 16:00 | Incident raised in system; PIIN issued within 24 hours |
+| 7 | 16:00 | Incident raised in system; preliminary incident investigation notification (PIIN) issued within 24 hours |
 
 ### PEEPO summary
 - **People** — Operator A: current HRWL (LF class), 6 years on this
@@ -204,10 +204,11 @@ discomfort had not been formally assessed and had not generated
 restricted duties or referral. In the week before claim lodgement,
 Worker C had performed a manual transfer of a high-care resident
 without assistance because the buddy worker was off the floor
-attending to another resident; back pain that night escalated to
-imaging the following day.
+attending to another resident; back pain that night prompted GP
+attendance the following day, and imaging four days after the acute
+episode showed the protrusion.
 
-The claim was lodged 11 days after the acute episode. The insurer
+The claim was lodged eight days after the acute episode. The insurer
 accepted the claim on cumulative-injury grounds — i.e., the injury
 was characterised as the product of repeated exposure rather than a
 single mechanism event. Suitable employment was offered as part-time
@@ -218,7 +219,7 @@ returned to direct care.
 
 | # | Date | Event |
 |---|---|---|
-| 1 | ~36 months prior | Worker C commences role; manual handling training provided as part of induction |
+| 1 | ~48 months prior | Worker C commences role; manual handling training provided as part of induction |
 | 2 | ~18 months prior | Facility transitions from 3 buddy-shifts per round to 2 due to roster reduction |
 | 3 | 14 months prior | Worker C reports intermittent back discomfort to shift coordinator (verbal) |
 | 4 | 10 months prior | Hazard report logged: "back ache after morning round, third time this month" — no formal follow-up |
@@ -228,6 +229,7 @@ returned to direct care.
 | 8 | 4 days prior | Imaging shows L4-L5 protrusion |
 | 9 | Day 0 | Workers comp claim lodged |
 | 10 | Day 14 | Claim accepted; suitable duties commenced |
+| 11 | ~4 months post-injury | Investigation review point: worker remains on part-time suitable duties; return to direct care unresolved |
 
 ### PEEPO summary
 - **People** — Worker C: 4 years tenure, manual handling training
@@ -320,11 +322,12 @@ A worker in a B2B sales team raised a formal complaint citing
 my manager" after returning from two weeks' sick leave for
 work-related anxiety and depression. Investigation conducted under
 the organisation's grievance procedure; psychosocial risk assessment
-triggered under Part 3.1A of the model WHS Regulations.
+triggered under the psychosocial provisions of the model WHS
+Regulations (rr 55A–55D; in NSW, Part 3.2 Division 11).
 
 ### What happened
 Worker D had been in the sales team for 3 years. Quarterly revenue
-targets had been increased twice in the preceding 12 months
+targets had been increased twice in the preceding 14 months
 following a corporate restructure. The team manager had introduced
 weekly individual review meetings and a public sales-performance
 dashboard. Worker D had missed quarterly target in three of the last
@@ -369,7 +372,7 @@ extended liability decision window pending investigation outcome.
 ### PEEPO summary
 - **People** — Worker D: 3 years tenure, prior performance ratings
   meeting or exceeding expectations until the target uplift cycle. Manager:
-  6 months tenure, no prior complaints. Two named witnesses to the
+  12 months tenure, no prior complaints. Two named witnesses to the
   voice-raising incident; two team-member observers of broader
   pattern.
 - **Environment** — Open-plan office, dashboard prominently
@@ -420,7 +423,8 @@ is to the team, not just the complainant.
 | Document the Respect@Work positive duty consideration on file — the SDA s 47C duty applies even where the complaint is not formally about discrimination | Documented positive-duty discharge | Administrative |
 
 ### Lessons
-- Psychosocial hazards under Part 3.1A model WHS Regs are managed
+- Psychosocial hazards under model WHS Regulations rr 55A–55D (in
+  NSW, Part 3.2 Division 11) are managed
   with the same hierarchy of controls as physical hazards — the
   hazard identification, risk assessment, and SFAIRP discipline are
   not optional because the harm is psychological
@@ -491,12 +495,14 @@ and raised the incident in the FM system as a HiPo.
 
 Investigation found Worker E held no electrical competency,
 had not received site-specific induction covering the electrical
-room, and had not been provided the building's High Voltage
-Electrical Safety Rules or restricted-access procedures. The
-contract specification required all electrical-room cleaning to be
-performed under permit by personnel with EWP-licensed electrical
-supervision; that requirement had not flowed into the CAFM work
-order.
+room, and had not been provided the building's low-voltage
+electrical safe-work procedures or restricted-access procedures
+(at 415 V the switchboard is low-voltage plant; the governing
+documents are the site's LV electrical safe-work procedures, not a
+high-voltage regime). The contract specification required all
+electrical-room cleaning to be performed under permit, supervised
+by a licensed electrical worker with a safety observer in place;
+that requirement had not flowed into the CAFM work order.
 
 ### Sequence of events
 
@@ -546,9 +552,9 @@ order.
 ### Risk assessment
 - **Actual**: Consequence 1 (no injury, no exposed live parts) ×
   Likelihood Possible — Risk D (Low)
-- **Potential**: Consequence 6 (multiple fatality if switchboard
-  flashover occurred — arc-flash incident energy at 800 A is
-  catastrophic at 1 m) × Likelihood Unlikely — Risk C (Moderate)
+- **Potential**: Consequence 5 (single fatality — an arc-flash
+  event at an 800 A LV switchboard is credibly fatal to a lone
+  worker at ~1 m) × Likelihood Unlikely — Risk B (High)
 
 Potential rationale: A pole strike sufficient to dislodge a panel
 screw is sufficient to compromise the panel's containment of an
@@ -565,15 +571,16 @@ electrical incident literature.
 | Quarterly assurance audit of CAFM high-risk work orders against current contract specifications | Assurance gap | Administrative |
 | Apply restricted-access marking to switchboard front: approach-distance line + signage prohibiting contact | Restricted-access marking gap | Engineering / Administrative |
 | Reissue subcontractor induction with site-specific module covering electrical room and restricted-access assets | Site induction gap | Administrative |
-| Permit-to-work issued for all future electrical-room cleaning, with licensed electrical supervisor on site | Permit-to-work gap | Administrative |
+| Permit-to-work issued for all future electrical-room cleaning, with a licensed electrical worker supervising and a safety observer in place | Permit-to-work gap | Administrative |
 | Network-wide review of CAFM work-order configurations against head contract specifications for high-risk asset access | Pattern likely beyond this site | Administrative |
 | Investigate retrofit of interlocked panels to switchboards in scope where current panel retention is screw-based | Passive defence design upgrade | Engineering |
 
 ### Lessons
 - Permit-to-work systems fail when the specification doesn't reach
   the worker — the work order is the operational artefact, and gaps
-  in the procurement-to-CAFM-to-work-order chain produce
-  PPE-only-with-PPE-absent outcomes
+  in the procurement-to-CAFM-to-work-order chain leave workers
+  performing high-risk tasks with none of the specified controls
+  in place
 - Subcontractor management depth must include the work-order
   configuration as well as the contract specification — the gap is
   almost never visible in the contract itself
@@ -590,7 +597,7 @@ audiences. The case demonstrates the disconnect between contract
 specification and operational work-order — a pattern that recurs
 across multi-PCBU portfolio contracts. For investigators, it
 illustrates the rigour of investigating a no-injury incident at
-potential severity 6 — the analysis is the same as for a fatality
+potential severity 5 — the analysis is the same as for a fatality
 even though the outcome was no harm.
 
 > Cross-reference: electrical safety and LOTO in
@@ -636,8 +643,11 @@ not spot-mopped since 18:30. Kitchen flooring was a non-slip tile
 specified at the original fit-out (2019); the non-slip coating had
 worn substantially in high-traffic sections, last assessed in 2023.
 
-Worker F was wearing branded kitchen footwear with a slip-rated
-sole (rated to ISO 13287 SRC), supplied as part of the uniform.
+Worker F was wearing branded kitchen footwear with slip-resistant
+soles, supplied as part of the uniform — marked SRC under EN ISO
+20345 (slip resistance tested to the EN ISO 13287 method; note the
+SRA/SRB/SRC marking scheme was superseded in the 2022 revision of
+the standard).
 Sole tread on the right shoe was approximately 70% worn; the
 uniform policy provided for free replacement on request, but
 Worker F had not requested replacement.
@@ -646,8 +656,8 @@ Worker F had not requested replacement.
 
 | # | Time / Date | Event |
 |---|---|---|
-| 1 | 5 days prior (Tuesday) | Kitchen deep-clean; drainage grate disturbed and partially blocked on reinstatement |
-| 2 | 4 days prior (Wednesday) | Condensate pooling first noted by porter; mentioned to head chef verbally; no action |
+| 1 | 4 days prior (Tuesday) | Kitchen deep-clean; drainage grate disturbed and partially blocked on reinstatement |
+| 2 | 3 days prior (Wednesday) | Condensate pooling first noted by porter; mentioned to head chef verbally; no action |
 | 3 | Saturday, 17:30 | Worker F commences dinner shift |
 | 4 | Saturday, 18:30 | Last spot-mop of the fryer section before incident |
 | 5 | Saturday, 19:30 | Dishwasher backup; porter pulled to assist; no scheduled spot-mop |
@@ -906,11 +916,13 @@ A 12-hour night-shift worker collided with a stationary vehicle at
 a roundabout 22 minutes after leaving site at end of shift. Minor
 property damage to both vehicles, low-speed impact, no injury.
 Worker reported the collision to the supervisor on the following
-shift. Question of whether the incident is work-related — most
-state schemes exclude journey claims from workers compensation,
-but the post-shift fatigue and the 12-hour shift design create an
-arguable case. Broader question of whether the work design
-contributed.
+shift. The compensation position is jurisdiction-specific:
+Queensland retains journey claims (*Workers' Compensation and
+Rehabilitation Act 2003* (Qld) s 35), so an injury on a direct
+drive home would have been prima facie compensable — the
+restrictive journey-claim schemes are NSW and Victoria, not
+Queensland. The WHS question is separate either way: whether the
+work design contributed.
 
 ### What happened
 Worker H was on the night shift (19:00–07:00) at a
@@ -930,12 +942,18 @@ breath-tested with a zero reading; insurance details were
 exchanged.
 
 Worker H reported the collision when commencing the next rostered
-shift (four days later) and the workers compensation claim was
-discussed with HR. Under Queensland's workers compensation scheme,
-journey claims are excluded for most workers (with limited
-exceptions); the claim was not lodged. The internal incident report
-was retained for organisational learning purposes and a fatigue
-investigation was conducted.
+shift (four days later) and the compensation position was discussed
+with HR. Because neither driver was injured, no workers compensation
+claim arose — the scheme responds to personal injury, not property
+damage. Had Worker H been injured, the claim would have been prima
+facie compensable: Queensland retains journey claims under s 35 of
+the *Workers' Compensation and Rehabilitation Act 2003* (Qld),
+which covers injuries sustained on a journey between the worker's
+home and place of employment, subject to exclusions where the
+journey involves a substantial delay, deviation, or interruption —
+none of which applied to this direct drive home. The internal
+incident report was retained for organisational learning purposes
+and a fatigue investigation was conducted.
 
 The investigation found that Worker H had slept approximately 5
 hours per day across the four-day roster (typical for this
@@ -1015,15 +1033,19 @@ and WA).
 | Roster review: assess current 4-on / 4-off pattern against fatigue science; consider forward-rotation and shift-length alternatives | Roster design | Administrative |
 | Provide subsidised transport options (rideshare credits, taxi vouchers) for workers self-identifying as fatigued at shift end | Mitigation control | Administrative |
 | Fatigue training for all shift workers including specifics of post-shift driving risk and self-assessment | Awareness gap | Administrative |
-| Add post-shift driving incidents (where work-related) to incident management system for organisational learning, even where workers comp does not apply | Surveillance gap | Administrative |
+| Add post-shift driving incidents (where work-related) to incident management system for organisational learning, whether or not a compensation claim arises | Surveillance gap | Administrative |
 
 ### Lessons
-- The "journey claim is excluded so the incident is not
-  work-related" framing is a workers compensation question, not a
-  WHS question — the PCBU duty to manage risks SFAIRP applies
-  regardless of compensability. Work design that produces
-  predictable fatigue, and the drive home that the work produces,
-  are within scope
+- Compensability and the WHS duty are different questions, and the
+  compensation answer is jurisdiction-specific. Queensland, WA, the
+  NT, and the ACT cover journey claims (in QLD, WCRA 2003 s 35,
+  subject to the substantial delay/deviation/interruption
+  exclusions); NSW and Victoria restrict them heavily — NSW
+  requires a "real and substantial connection" between the
+  employment and the accident. Either way, the PCBU duty to manage
+  risks SFAIRP applies regardless of compensability. Work design
+  that produces predictable fatigue, and the drive home that the
+  work produces, are within scope
 - 4-on / 4-off 12-hour night shifts produce predictable cumulative
   fatigue at end of roster — the science is settled (see
   `hazards.md` §18); the roster is a management decision, not an
@@ -1053,7 +1075,8 @@ under-discussed in safety meetings.
 
 > Cross-reference: fatigue and fitness for work in
 > `references/hazards.md` §18; workers compensation journey-claim
-> exclusions in `references/compensation-rtw.md`; officer due
+> coverage (which varies by jurisdiction) in
+> `references/compensation-rtw.md`; officer due
 > diligence and work design in `references/legislation.md` §6.
 
 ---

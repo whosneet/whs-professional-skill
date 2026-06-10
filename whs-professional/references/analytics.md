@@ -22,7 +22,7 @@ All frequency rates use **1,000,000 exposure hours** as the denominator (AU stan
 
 | Metric | Formula | Notes |
 |---|---|---|
-| **TRIFR** | (Recordable injuries ÷ hours worked) × 1,000,000 | Recordable = LTI + MTI + Fatality |
+| **TRIFR** | (Recordable injuries ÷ hours worked) × 1,000,000 | Recordable (TRI) = Fatality + LTI + RWI + MTI |
 | **LTIFR** | (LTIs ÷ hours worked) × 1,000,000 | LTI = 1+ full shift lost |
 | **AIFR** | (All injuries incl. FAI ÷ hours worked) × 1,000,000 | Broadest measure |
 | **LTISR** | (Lost days ÷ hours worked) × 1,000,000 | Severity measure |
@@ -35,10 +35,17 @@ All frequency rates use **1,000,000 exposure hours** as the denominator (AU stan
 |---|---|---|
 | Fatality | Yes | Yes |
 | LTI | Yes | Yes |
+| RWI (restricted work injury) | Yes | Yes |
 | MTI | Yes | Yes |
 | FAI | No | No (in AIFR only) |
 | Health Case | No | No |
 | NWI / Journey | No | No |
+
+**RWI** = the worker returns to work but cannot perform the full range of
+pre-injury duties (restricted or alternate duties) without losing a full
+shift. RWI sits between LTI and MTI in severity and **is recordable** —
+omitting RWI from the recordable set understates TRIFR and silently rewards
+moving injured workers onto restricted duties to avoid an LTI classification.
 
 ### Hours Worked
 Use **actual hours worked** (exclude leave, RDO, sick time). If actual hours are
@@ -50,8 +57,50 @@ Always present both:
 - **Rolling 12 months** from report date: smooths seasonal variation, reflects current
   performance trajectory
 - **Calendar year to date**: aligns with budgets, targets, and year-on-year comparisons
-Point-in-time statistics (single month TRIFR) are misleading at low injury counts — 
-one LTI in a 200-person team can swing TRIFR by 5+ points.
+Point-in-time statistics (single month TRIFR) are misleading at low injury counts —
+a 200-person team works roughly 32,000 hours a month, so a single LTI moves the
+monthly rate by about 30 points (1 ÷ 32,000 × 1,000,000 ≈ 31); the same LTI moves
+the rolling 12-month rate (~384,000 hours) by only ~2.5 points.
+
+### SIF / pSIF — Serious Injury & Fatality Classification
+
+Frequency rates treat every recordable equally — a sutured laceration counts
+the same as an amputation. The SIF lens corrects for that by classifying
+**actual and potential severity** separately from recordability:
+
+- **SIF (Serious Injury or Fatality)** — an actual outcome that is fatal,
+  life-threatening, or life-altering (e.g. fatality, permanent impairment,
+  amputation, serious head/spinal injury)
+- **pSIF (potential SIF)** — an incident or near miss that did not produce a
+  serious outcome but plausibly could have under slightly different
+  circumstances. Classified on potential consequence, not actual outcome
+
+**Why TRIFR dilutes the SIF signal**: SIF events are a small fraction of
+recordables, so TRIFR movement is dominated by low-severity injury volume.
+Research associated with the contemporary SIF movement (US-led collaborative
+studies from the early 2010s onward; treat specific published ratios with
+caution) indicates the precursors of serious injuries differ from those of
+minor injuries — driving down minor injury frequency does not reliably reduce
+fatality risk, and the Heinrich-triangle assumption of proportionality does
+not hold at the severe end. A falling TRIFR alongside a flat or rising pSIF
+rate is a deteriorating risk profile wearing an improving costume.
+
+**SIF-potential criteria (energy-based)**: classify an event as pSIF where a
+high-energy source could have reached a person with direct controls absent,
+failed, or unverifiable — e.g. fall from height, mobile plant/vehicle and
+pedestrian interaction, electrical contact, suspended or falling loads,
+stored/released energy, trench collapse, confined space atmosphere. The test
+is: energy above a serious-harm threshold + worker exposure + control
+absence/failure. Energy-based definitions keep classification consistent and
+auditable; "gut feel" severity calls do not.
+
+**Reporting**: report SIF and pSIF counts/rates alongside the HiPo metrics in
+§2 — in most AU systems pSIF and HiPo overlap heavily, so define the
+relationship explicitly in the data dictionary (one common pattern: HiPo is
+the event-level flag; SIF/pSIF is the severity taxonomy applied to it).
+Track the direct-control status for each pSIF, investigate at the depth the
+potential warranted, and never let a low TRIFR headline a report in which
+pSIF events occurred.
 
 ---
 
@@ -329,7 +378,8 @@ differ between AU and NZ populations. Combining without normalisation obscures t
 - `dim_date` — standard date dimension with financial year, rolling periods
 - `dim_contract` — contract details including BU, region, Division
 - `dim_critical_risk` — critical risk categories for consistent classification
-- `dim_injury_type` — LTI, MTI, FAI, HiPo, etc. with recordable flag
+- `dim_injury_type` — LTI, RWI, MTI, FAI, HiPo, etc. with recordable flag
+  (recordable = fatality, LTI, RWI, MTI)
 
 **Calculated measures (DAX patterns)**
 ```

@@ -132,7 +132,7 @@ in scope, depth, sector coverage, and cost.
 | **Cm3** | Originally OHS-focused; now expanded to broader compliance | Strong in property, retail, FM sectors; assesses WHS systems against ISO 45001-aligned criteria |
 | **Avetta** | Global platform; large in resources and energy | Connects principals and contractors; verifies WHS, insurance, financial stability |
 | **ISNetworld** | Global platform originating in US; established in AU resources sector | RAVS (Review and Verification Services) verifies safety management programs |
-| **Pegasus** | Workforce management + contractor management; common in resources, utilities, infrastructure | Combines individual worker competency (LMS) with company-level prequalification |
+| **Pegasus** (acquired by Avetta, 2022; now Avetta One / legacy Onsite Track Easy) | Workforce management + contractor management; common in resources, utilities, infrastructure | Combines individual worker competency (LMS) with company-level prequalification |
 | **MyComply / Site Pass / Linksafe** | Workforce-centric (worker inductions, ticket verification) | Used at site level; not a full company prequalification platform |
 
 The platform is the tool — the principal still owns the decision. A "Rapid
@@ -168,7 +168,7 @@ criteria should include:
 |---|---|---|
 | Insurance | Public liability ($20M+ typical for construction; higher for HRCW); workers compensation in each jurisdiction of work; professional indemnity where design is included; contract works insurance | Certificate of currency; named insured includes principal where appropriate |
 | Management system | ISO 45001:2018 certification (third-party) OR demonstrated equivalent management system | Certificate from accredited certification body (JAS-ANZ accredited) — not self-declaration |
-| Prior incident history | Fatalities, serious injuries, HiPos, lost time injuries over 3–5 year window; trend direction | Disclosure statement; statutory data (NICNAS, ABS, regulator publications where public); references |
+| Prior incident history | Fatalities, serious injuries, HiPos, lost time injuries over 3–5 year window; trend direction | Disclosure statement; regulator prosecution and enforceable undertaking registers; Safe Work Australia statistics; references |
 | Regulator engagement | Improvement notices, prohibition notices, prosecutions, EUs, ongoing investigations | Disclosure statement; regulator public register searches |
 | Financial stability | Ability to fund WHS investment, training, plant maintenance, insurance premiums | Financial statements (where commercially appropriate); credit check; trading history |
 | Workforce competency | Trades, HRWL, ticket currency, supervisor competency | Training matrix; sample of HRWL certificates; LMS extract |
@@ -214,7 +214,7 @@ separately, or has a track record of catastrophic outcomes.
 
 | Category | Why additional evaluation is needed | What to add |
 |---|---|---|
-| **Construction (especially HRCW)** | High-fatality sector; principal contractor obligations (model WHS Reg 309); SWMS regime (Reg 299); WHSMP requirement (Reg 309) | WHSMP review; SWMS sample audit; site visit to a current project; verification of HRWL register |
+| **Construction (especially HRCW)** | High-fatality sector; principal contractor appointment (model WHS Reg 293) and duties (Regs 308–315); SWMS regime (Reg 299); WHSMP requirement (Reg 309) | WHSMP review; SWMS sample audit; site visit to a current project; verification of HRWL register |
 | **Mining services** | Separate regulatory regimes (NSW WHS (Mines and Petroleum Sites) Act, QLD CMSH/MQSH Acts, WA Mines Safety regulations); statutory positions (mine manager, ventilation officer) | Statutory position verification; mine safety management plan review; competency mapping |
 | **Hazardous chemicals** | Stored / handled / transported quantities trigger MHF, dangerous goods, environmental, and workplace exposure regulations simultaneously | Dangerous goods licences; carrier accreditation; MSDS/SDS sample review; emergency response capability |
 | **Demolition** | High-energy work, hazardous materials (asbestos, lead, PCBs), structural collapse risk; licensing required in most jurisdictions | Demolition licence verification; hazardous materials survey capability; sequence and method statement |
@@ -395,13 +395,16 @@ scrutiny is moving toward effective due diligence, not just disclosure.
 
 The NSW Modern Slavery Act 2018 (state) operates alongside; the Commonwealth
 Act is the dominant framework. The Australian Modern Slavery Statement
-Register is publicly searchable.
+Register is publicly searchable. The Modern Slavery Amendment (Australian
+Anti-Slavery Commissioner) Act 2024 established a Commonwealth Anti-Slavery
+Commissioner — an independent advocacy and oversight role operating
+alongside the reporting regime.
 
 **Recent direction**: the McMillan Review (2023) of the Cth Act recommended
 strengthening from a reporting obligation toward a positive due diligence
 duty (similar to AU's Respect@Work positive duty and the EU Corporate
 Sustainability Due Diligence Directive). Legislative response is in progress
-as at 2025; practitioners should monitor.
+as at mid-2026; practitioners should monitor.
 
 ### Intersection with WHS contractor management
 
@@ -643,8 +646,12 @@ considerations:
 - Risk of dispute, claim, or counterclaim
 
 **Reputational**:
-- The contractor may be on a regulator-published register (Rapid, Cm3,
-  Avetta status visible to other principals)
+- The contractor's status on commercial prequalification platforms (Rapid
+  Global, Cm3, Avetta) is visible to other principals subscribed to those
+  platforms
+- Separately, regulator-published registers (prosecutions, enforceable
+  undertakings) are public record — a WHS-grounds termination often
+  coincides with entries appearing there
 - Industry intelligence networks share termination information informally
 - Worker movement between contractors may carry the narrative forward
 - Defamation risk if the basis for termination is communicated externally

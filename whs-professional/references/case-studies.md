@@ -10,17 +10,17 @@ coroner — not the case alone.
 
 ## Table of Contents
 1. [Scope and How to Use Case Studies](#1-scope-and-how-to-use-case-studies)
-2. [Esso Longford Gas Plant Explosion (25 September 1998)](#2-esso-longford)
-3. [BP Texas City Refinery Explosion (23 March 2005)](#3-bp-texas-city)
-4. [Deepwater Horizon / Macondo Blowout (20 April 2010)](#4-deepwater-horizon)
-5. [Pike River Coal Mine Explosion (19 November 2010)](#5-pike-river)
-6. [Dreamworld Thunder River Rapids Ride (25 October 2016)](#6-dreamworld)
-7. [Whakaari / White Island Eruption (9 December 2019)](#7-whakaari)
-8. [Grenfell Tower Fire (14 June 2017)](#8-grenfell-tower)
-9. [Costa Concordia Grounding (13 January 2012)](#9-costa-concordia)
-10. [Ranger Uranium Mine — Recurring Releases (ongoing)](#10-ranger-uranium-mine)
-11. [Bhopal Methyl Isocyanate Disaster (2-3 December 1984)](#11-bhopal)
-12. [Beirut Port Explosion (4 August 2020)](#12-beirut-port)
+2. [Esso Longford Gas Plant Explosion (25 September 1998)](#2-esso-longford-gas-plant-explosion-25-september-1998)
+3. [BP Texas City Refinery Explosion (23 March 2005)](#3-bp-texas-city-refinery-explosion-23-march-2005)
+4. [Deepwater Horizon / Macondo Blowout (20 April 2010)](#4-deepwater-horizon--macondo-blowout-20-april-2010)
+5. [Pike River Coal Mine Explosion (19 November 2010)](#5-pike-river-coal-mine-explosion-19-november-2010)
+6. [Dreamworld Thunder River Rapids Ride (25 October 2016)](#6-dreamworld-thunder-river-rapids-ride-25-october-2016)
+7. [Whakaari / White Island Eruption (9 December 2019)](#7-whakaari--white-island-eruption-9-december-2019)
+8. [Grenfell Tower Fire (14 June 2017)](#8-grenfell-tower-fire-14-june-2017)
+9. [Costa Concordia Grounding (13 January 2012)](#9-costa-concordia-grounding-13-january-2012)
+10. [Ranger Uranium Mine — Recurring Releases (ongoing)](#10-ranger-uranium-mine--recurring-releases-ongoing)
+11. [Bhopal Methyl Isocyanate Disaster (2-3 December 1984)](#11-bhopal-methyl-isocyanate-disaster-2-3-december-1984)
+12. [Beirut Port Explosion (4 August 2020)](#12-beirut-port-explosion-4-august-2020)
 13. [Citation and Use Guidance](#13-citation-and-use-guidance)
 
 ---
@@ -109,7 +109,9 @@ Cite the case + the analyst + the year of the analysis. Examples:
 - "Texas City (Baker Panel, 2007; Hopkins, *Failure to Learn*, 2008)"
 - "Pike River (NZ Royal Commission on the Pike River Coal Mine Tragedy, 2012)"
 - "Dreamworld (Coroner's findings, Coroners Court of Queensland, 2020)"
-- "Whakaari (WorkSafe NZ prosecution, 2020–2023; sentencing 2023)"
+- "Whakaari (WorkSafe NZ prosecution; District Court verdicts October 2023,
+  sentencing February–March 2024; WML conviction quashed on appeal,
+  *Whakaari Management Ltd v WorkSafe New Zealand* [2025] NZHC 288)"
 
 Cite the case without the analyst only when the case itself is the evidence —
 a body count, a fine, a date. The moment you draw an inference from the case,
@@ -142,9 +144,8 @@ oil into the cold exchanger.
 The thermal shock caused brittle fracture of the carbon steel exchanger shell.
 A large hydrocarbon release ignited. Two workers — Peter Wilson and John
 Lowery — were killed; eight others were injured. The plant was destroyed.
-Victoria lost domestic and industrial gas supply for two weeks during the
-Melbourne ski season transition, with cascading economic impact estimated
-in the hundreds of millions.
+Victoria lost domestic and industrial gas supply for around two weeks, with
+cascading economic impact commonly cited at approximately $1.3 billion.
 
 ### Contributing factors (Hopkins)
 Andrew Hopkins' *Lessons from Longford* (2000) remains the foundational
@@ -157,7 +158,7 @@ levels:
 | Communication | Engineers had been relocated from the site to Melbourne several years prior, breaking the operator–engineer feedback loop that previously surfaced these problems |
 | Procedural | No procedure prohibited reintroduction of warm lean oil into a cold exchanger; the prohibition existed in engineering knowledge but not in operating instructions |
 | Normalisation of deviance | Similar process upsets had occurred previously without explosion; absence of consequence had reinforced unsafe practice |
-| Organisational learning | A prior incident in 1992 had raised the same brittle fracture risk; corrective action had not been sustained |
+| Organisational learning | A planned HAZOP for GP1 had been deferred and was never carried out, leaving the cold-temperature failure modes unexamined; a precursor process upset on 28 August 1998 — four weeks before the explosion — produced similar cold conditions and was not investigated |
 | Audit and assurance | The site's safety management system had passed multiple audits; audit focus on personal safety (LTIFR) had masked the process safety degradation |
 | Production pressure | Loss of gas supply during the incident sequence created urgency to restore flow; this urgency overrode the technical caution that should have prevailed |
 
@@ -205,7 +206,7 @@ substantially.
 BP's Texas City refinery, on the Gulf Coast of Texas, was the third-largest
 oil refinery in the United States with capacity of around 460,000 barrels per
 day. At the time of the incident, BP had acquired the site as part of the
-1999 merger with Amoco; the refinery had a long pre-existing safety reputation
+1998 merger with Amoco; the refinery had a long pre-existing safety reputation
 and chronic capital underinvestment.
 
 The incident occurred in the Isomerisation (ISOM) Unit, specifically the
@@ -222,8 +223,8 @@ wrong — the tower was severely overfilled.
 The overflow travelled up the tower's overhead piping and into the blowdown
 drum, which was an open-vented atmospheric vessel. Liquid hydrocarbon
 discharged from the blowdown stack as a geyser. The vapour cloud reached the
-surrounding area, including the contractor trailers approximately 25 metres
-from the blowdown stack. An ignition source — most likely a running pickup
+surrounding area, including the contractor trailers approximately 37 metres
+(121 feet) from the blowdown stack. An ignition source — most likely a running pickup
 truck in the trailer area — caused the explosion.
 
 Fifteen workers were killed; one hundred and eighty were injured. All
@@ -233,8 +234,8 @@ were operations personnel.
 ### Contributing factors (Baker Panel; Hopkins)
 The U.S. Chemical Safety Board investigation, the **Baker Panel report**
 (January 2007, chaired by former U.S. Secretary of State James Baker III),
-and Andrew Hopkins' *Failure to Learn: The BP Texas City Disaster* (2008)
-form a converging analytical record.
+and Andrew Hopkins' *Failure to Learn: The BP Texas City Refinery Disaster*
+(2008) form a converging analytical record.
 
 | Level | Factor |
 |---|---|
@@ -246,7 +247,7 @@ form a converging analytical record.
 | Organisational | Cost reduction targets had been pursued aggressively; safety-related expenditure had been deprioritised |
 | Organisational | Internal safety culture survey two years before the incident had flagged serious concerns; the survey results had not driven action |
 | Indicator failure | Site LTIFR was below industry average and used as evidence of safety performance; process safety indicators were not separately tracked or reported to leadership |
-| Organisational learning | The site had had multiple prior process safety events including a 2004 fire in the same unit; corrective actions had not been implemented |
+| Organisational learning | The CSB documented approximately eight prior hydrocarbon releases from blowdown stacks at the site since 1994; the precursors had not driven replacement of the atmospheric blowdown design or other proportionate corrective action |
 
 ### Hopkins' central argument
 *Failure to Learn* sharpens the personal vs process safety distinction that
@@ -267,9 +268,11 @@ be reported separately from personal injury frequency rates.
 ### Regulatory outcome
 BP pleaded guilty to a federal felony under the Clean Air Act and paid
 US$50 million in criminal penalties; OSHA imposed initial penalties of
-US$21 million (then a record), with subsequent settlement covering
-hundreds of additional citations. Civil litigation resulted in further
-substantial settlements.
+US$21 million (then a record). In 2009, OSHA proposed a further US$87
+million failure-to-abate penalty — the largest in OSHA's history — after
+finding that BP had not completed the corrective actions agreed in the
+2005 settlement. Civil litigation resulted in further substantial
+settlements.
 
 ### AU/NZ practice lessons
 - **LTIFR critique as the foundation of modern WHS reporting**. AU/NZ
@@ -347,13 +350,17 @@ drift and complex systems failure.
 | Indicator | Personal safety indicators were strong; the rig had recently received a safety award |
 | Regulatory | The U.S. Minerals Management Service (MMS) regulator was structurally compromised — collecting royalties and regulating safety in the same agency, with under-resourced inspectorate |
 
-Hopkins applied **collective mindfulness** — drawn from Weick and Sutcliffe's
-HRO research (see frameworks.md §12) — as the diagnostic lens. The decision
-to reinterpret the negative pressure test was the moment collective
-mindfulness failed; the crew had ample information to be more cautious and
-chose a less cautious interpretation under time pressure. Hopkins'
-critique: this was not an individual judgement failure but a systemic
-failure to maintain the disposition that prevents catastrophic events.
+Hopkins' central framing in *Disastrous Decisions* is **confirmation bias
+and tunnel vision**: once the crew settled on a benign explanation for the
+anomalous readings (the "bladder effect"), subsequent data was interpreted
+to fit that explanation rather than to test it. On Hopkins' reading this
+was not an individual judgement failure but a predictable cognitive failure
+that the system had done nothing to defend against — no defined pass/fail
+criteria, no independent verification, no prompt to seek disconfirming
+evidence. Weick and Sutcliffe's **collective mindfulness** (the HRO
+research — see frameworks.md §12) supplies the contrasting ideal: an
+organisation preoccupied with failure treats an anomalous test result as a
+signal, not an inconvenience.
 
 ### Regulatory outcome
 The U.S. Department of the Interior split MMS into three separate agencies
@@ -407,12 +414,20 @@ than coal mining; coal-specific competency was limited.
 ### Sequence of events
 At 3:44 pm on 19 November 2010, a methane explosion occurred in the
 mine workings. Twenty-nine workers underground at the time were killed.
-Two workers near the portal entrance escaped.
+Two workers survived — both were well inside the access drift at the
+time of the blast, roughly 1.5–2 km from the portal, and made their way
+out through the drift.
 
-A second explosion five days later, and a third the following day, made
-re-entry impossible. The bodies were not recovered for thirteen years —
-re-entry to the mine workings was finally completed in 2023 under a
-substantial NZ Government recovery programme.
+A second explosion on 24 November, a third two days later on 26 November,
+and a fourth on 28 November extinguished any rescue prospect and made
+re-entry impossible for years. The bodies of the 29 men have never been
+recovered. Under a NZ Government recovery program, the Pike River
+Recovery Agency (Te Kāhui Whakamana Rua Tekau mā Iwa) re-entered and
+forensically examined the 2.26 km access drift between 2019 and February
+2021, reaching the rockfall at its end; the mine workings beyond the
+rockfall were never re-entered, and the agency was disestablished in
+July 2022. Borehole drilling and camera imaging located the remains of
+some of the men within the workings, but no remains were recovered.
 
 ### Contributing factors (NZ Royal Commission)
 The **Royal Commission on the Pike River Coal Mine Tragedy** reported in
@@ -439,7 +454,7 @@ capacity to perform the oversight required for an underground coal mine.
 ### Regulatory outcome
 The Royal Commission's findings drove the **Independent Taskforce on Workplace
 Health and Safety** (2013), which recommended substantial structural and
-legislative reform. The reform programme had three legislative outputs:
+legislative reform. The reform program had three legislative outputs:
 
 - **WorkSafe NZ** established as a dedicated WHS regulator (2013), with a
   specialised High Hazards Unit covering underground mining, MHF, and
@@ -494,22 +509,23 @@ system. At the end of the ride, rafts were lifted from the water by a
 conveyor and returned to the loading area.
 
 The ride had been the subject of multiple prior near-miss incidents
-including raft collisions and a previous water-pump failure four days
-before the fatal incident.
+including raft collisions; on the day of the fatal incident, the south
+water pump had already failed and been reset twice earlier that day.
 
 ### Sequence of events
-On the afternoon of 25 October 2016, water pump 2 failed, dropping water
-levels in the unload section of the ride. A raft carrying six guests
-became stranded on the conveyor section as water levels fell. A
-following raft, also propelled by the conveyor system, collided with
-the stationary raft. The collision caused the second raft to tip
-vertically.
+On the afternoon of 25 October 2016, the south water pump failed for a
+third time that day, dropping water levels in the unload section of the
+ride. An empty raft became stranded at the end of the conveyor as water
+levels fell. A following raft carrying six guests — four adults and two
+children — was carried forward by the conveyor and collided with the
+stranded empty raft. The collision forced the guests' raft up against
+the empty raft and the still-moving conveyor, tipping it vertical.
 
 Four adults — Kate Goodchild, Luke Dorsett, Roozi Araghi, and Cindy
-Low — were caught between the raft and the conveyor mechanism and
-killed. Two children on the same raft survived. The ride had no
-automatic shutdown linked to water level or to raft separation; the
-conveyor continued operating during the incident.
+Low — were caught in the raft and conveyor mechanism and killed. The
+two children on the same raft survived. The ride had no automatic
+shutdown linked to water level or to raft separation; the conveyor
+continued operating during the incident.
 
 ### Contributing factors (Coroner)
 The **Coroner's findings** (Coroners Court of Queensland, delivered
@@ -532,11 +548,13 @@ executive culpability.
 | Organisational culture | Engineering and safety functions were under-resourced relative to the size and complexity of the operation |
 | Board governance | The board did not have effective visibility of safety system performance; reporting to the board emphasised commercial metrics |
 
-The Coroner's characterisation was striking: "Dreamworld's culture of
-safety was rotten to its core." The finding is unusual in coronial
-language and reflects the documented gap between the operator's
-public safety statements and the systemic deficiencies the inquest
-exposed.
+The Coroner's characterisation was striking. The ride's safety and
+maintenance systems were described as "frighteningly unsophisticated",
+and the findings concluded that "such a culpable culture can exist only
+when leadership from the board down are careless in respect of safety".
+The directness of the language is unusual in coronial findings and
+reflects the documented gap between the operator's public safety
+statements and the systemic deficiencies the inquest exposed.
 
 ### Regulatory outcome
 Ardent Leisure was prosecuted under the *Work Health and Safety Act
@@ -610,42 +628,66 @@ the visitor areas of the crater floor.
 Twenty-two people were killed by thermal injuries — burns covering
 substantial body area. A further 25 were seriously injured.
 Recovery of bodies from the island took place over the following
-days under significant continuing hazard; one body was never
+days under significant continuing hazard; two bodies were never
 recovered.
 
 ### Contributing factors (WorkSafe NZ)
 WorkSafe NZ launched the largest investigation in its history,
 resulting in prosecutions against multiple duty-holders. The
 findings as established through prosecution and sentencing
-(2020–2023) identified systemic failures across the operating
-ecosystem.
+(charges filed 2020; trial verdicts October 2023; sentencing
+February–March 2024) identified systemic failures across the
+operating ecosystem.
 
 | Level | Factor (WorkSafe NZ) |
 |---|---|
 | Hazard assessment | Operators had not conducted independent risk assessment of the catastrophic-but-low-probability eruption hazard; reliance was placed on the GNS VAL system as a proxy for risk assessment |
 | Hazard assessment | The VAL system describes volcanic activity, not visitor risk; using it as a risk assessment was a category error |
 | Control regime | No effective controls were in place to address the eruption scenario; tours continued at VAL 2 with no enhanced risk treatments |
-| PPE | Thermal protective equipment was not provided to visitors; gas masks and breathing protection were not in use |
+| PPE | Gas masks and respirators were distributed by White Island Tours, but PPE against thermal injury — the dominant harm mechanism in a phreatic eruption — was not provided to visitors |
 | Multi-PCBU coordination | At least six PCBUs had overlapping duties at the workplace; the HSWA s 34 consultation, cooperation, and coordination duty had not been effectively discharged |
 | Worker classification | Tourists were treated as customers, not as persons at the workplace; the PCBU duty extends to all persons whose health and safety may be put at risk by the work |
 | Emergency response | Emergency response planning did not realistically address an eruption scenario; evacuation in the timescale required was not feasible |
 | Information to visitors | Pre-tour briefings did not adequately convey the catastrophic risk profile |
 
 ### Regulatory outcome
-WorkSafe NZ filed charges against thirteen parties, with several
-convictions and acquittals across the proceedings. By the close of
-sentencing in 2023, the cumulative outcome included:
+WorkSafe NZ filed charges against thirteen parties, with
+convictions, acquittals, and withdrawals across the proceedings:
 
-- Whakaari Management Limited convicted and sentenced to over
-  NZD $5 million in fines and reparations on appeal
-- Multiple tour operator companies convicted with cumulative
-  reparations and fines exceeding NZD $10 million
+- **Whakaari Management Limited (WML)** — the Buttle family
+  landowner company — was found guilty in October 2023 (District
+  Court, Judge Evangelos Thomas) under HSWA s 37, the duty of a
+  PCBU who manages or controls a workplace. In March 2024 WML was
+  sentenced to a fine of approximately NZD $1.045 million and
+  ordered to pay approximately NZD $4.88 million in reparations to
+  victims and families.
+- **The WML conviction did not survive appeal.** In *Whakaari
+  Management Ltd v WorkSafe New Zealand* [2025] NZHC 288 (Moore J,
+  27 February 2025), the High Court quashed the conviction: a
+  landowner that granted access licences to tour operators, without
+  operational involvement in the tours, did not "manage or control"
+  the workplace for the purposes of s 37. Granting a licence to
+  access land is not, of itself, management or control of the
+  workplace.
+- **The tour-operator convictions stand.** Multiple tour operator
+  companies were convicted and sentenced to fines and reparations;
+  the tour-operator penalties taken alone were materially less than
+  NZD $10 million. The widely reported ~NZD $10.2 million figure
+  was the all-parties total across the sentencing, including WML's
+  fine and reparations order — which the successful appeal then
+  removed.
 - Several charges against directors and individual officers were
-  dismissed or withdrawn through the prosecution process
+  dismissed or withdrawn through the prosecution process.
 
-The case is the most significant NZ post-HSWA prosecution to date
-and has driven substantial industry change in adventure activity
-risk assessment.
+The proceedings remain the largest prosecution in WorkSafe NZ's
+history and the most significant post-HSWA enforcement action, but
+the landowner conviction did not survive appeal — and that reversal
+is now the case's central legal lesson. The boundary between
+*owning or licensing access to* a workplace and *managing or
+controlling* it is the live doctrinal question for multi-PCBU
+workplaces; the substantive risk-assessment lessons below stand
+independently of the appeal outcome. The case has driven
+substantial industry change in adventure activity risk assessment.
 
 ### AU/NZ practice lessons
 - **Catastrophic-but-low-probability hazards require explicit
@@ -662,12 +704,18 @@ risk assessment.
   not substitutes for it. The same logic applies to weather
   warnings, ASIO threat levels, BOM cyclone advice, and other
   external indicators used in WHS practice.
-- **Multi-PCBU coordination under HSWA s 34**. The Whakaari case is
-  the leading authority on the practical content of the s 34
-  consultation, cooperation, and coordination duty (and its AU
-  equivalent in model WHS Act s 46). Where multiple PCBUs share a
-  workplace, coordination is a substantive duty requiring documented
-  process — not a courtesy.
+- **Multi-PCBU duty boundaries under HSWA**. Whakaari is now the
+  leading NZ authority on where the s 37 "manages or controls a
+  workplace" duty ends: [2025] NZHC 288 holds that a landowner
+  granting access licences, without operational involvement, does
+  not hold that duty. The consultation, cooperation, and
+  coordination duty (HSWA s 34; AU equivalent in model WHS Act
+  s 46) remains the operative mechanism where multiple PCBUs share
+  a workplace — and where PCBUs do hold overlapping duties,
+  coordination is a substantive duty requiring documented process,
+  not a courtesy. The appeal is a caution against assuming that
+  every party in the commercial chain holds every duty; duty
+  allocation must be analysed, not presumed.
 - **The "person at the workplace" definition is broad**. Tourists,
   visitors, contractors, and others present at the workplace are
   owed the primary duty. Treating any of these categories as
@@ -728,11 +776,21 @@ building industry, regulatory framework, and product manufacturers.
 | Cladding decision | The combustible ACM panels were selected over a non-combustible zinc alternative on cost grounds; the fire safety implications were not properly assessed |
 | Building regulation | The UK building regulations on external fire spread were ambiguous and interpretively contested; compliance was not a guarantee of safety |
 | Product disclosure | Cladding panel manufacturers withheld or misrepresented combustibility data; the panels installed had performed catastrophically in earlier testing that was not publicly disclosed |
-| Insulation | The insulation product behind the cladding (a phenolic foam) was also combustible; the system as installed exceeded the fire risk of either component alone |
+| Insulation | The insulation behind the cladding was also combustible — principally Celotex RS5000, a polyisocyanurate (PIR) foam, with Kingspan K15 (a phenolic foam) used in smaller quantities; the system as installed exceeded the fire risk of either component alone |
 | Building certification | Multiple consultants and certifiers reviewed the design without identifying the combustibility hazard |
 | Local authority | The building owner had not maintained fire risk assessment currency and had not implemented multiple prior fire safety improvement recommendations |
 | Fire service | Stay-put advice persisted past the point of survivability; the operational doctrine had not been updated to account for cladding fire dynamics |
 | Resident concerns | Residents had raised fire safety concerns repeatedly in the years before the fire; concerns had been dismissed |
+
+### Regulatory and legal aftermath (currency note)
+The UK legislative response included the **Building Safety Act 2022**,
+which established the Building Safety Regulator, created a stricter
+regime for higher-risk buildings, and extended liability for building
+defects. The criminal investigation (Metropolitan Police) continues:
+as at 2026, charging decisions on potential corporate and individual
+offences — including corporate manslaughter — remain pending.
+Practitioners citing Grenfell should verify the current status of
+criminal proceedings before asserting prosecution outcomes.
 
 ### AU/NZ practice lessons
 Grenfell is a UK case but the systemic factors apply directly to
@@ -741,13 +799,13 @@ combustible cladding warning at Lacrosse three years earlier and
 a substantial portion of mid-rise and high-rise stock had been
 clad with the same materials.
 
-- **Combustible cladding remediation programmes**. All AU states
-  established cladding audit and remediation programmes following
+- **Combustible cladding remediation programs**. All AU states
+  established cladding audit and remediation programs following
   Grenfell. Victoria's Cladding Safety Victoria (established 2019),
-  NSW's Project Remediate, and equivalent programmes in other
+  NSW's Project Remediate, and equivalent programs in other
   states are now part of the building safety landscape. WHS
   practitioners working on remediation projects or in buildings
-  with cladding exposure should understand the local programme.
+  with cladding exposure should understand the local program.
 - **The role of building certifiers and product disclosure**.
   Grenfell exposed a systemic gap between manufacturer-disclosed
   product performance and as-installed building behaviour. WHS
@@ -779,87 +837,6 @@ clad with the same materials.
 
 ---
 
-## 9. Citation and Use Guidance
-
-### When to cite a case study
-
-**In a board paper**: cite when the recommendation is significant, the
-exposure is material, or the question being decided has been the
-subject of a prior catastrophic failure elsewhere. The case provides
-evidentiary depth that turns a recommendation from "the WHS team
-thinks" into "this is what happens when this control is not
-maintained, and here is the body count and the analysis." A board
-paper recommending investment in process safety reporting, for
-example, is materially strengthened by a Texas City reference.
-
-**In training**: cite when the abstract principle is unlikely to
-land without an example. Worked-example pedagogy is most effective
-where the audience lacks the experiential reference to attach the
-principle to. Frontline workers may have personal experience of
-near misses but rarely of catastrophic failures; the case provides
-that reference vicariously.
-
-**In a safety alert**: cite when the lesson transfers directly to
-the recipient's operation. Cold embrittlement (Longford) transfers
-to any operation handling carbon steel in cryogenic or low-temperature
-service. Temporary structure siting (Texas City) transfers to any
-operation with contractor compounds near process plant. Negative
-pressure test interpretation (Deepwater Horizon) transfers to any
-safety-critical test with subjective pass criteria. The alert is
-strengthened when the connection is explicit.
-
-### Citation conventions
-
-The case + the analyst + the year of analysis is the default
-format. Examples in practice:
-
-| Context | Citation form |
-|---|---|
-| Board paper, footnote | "Hopkins A. *Failure to Learn: The BP Texas City Disaster*. CCH Australia, 2008." |
-| Board paper, in-line | "the failure mode identified by Hopkins (2008) at Texas City" |
-| Training slide | "BP Texas City Refinery, 23 March 2005 — 15 deaths" |
-| Safety alert | "Texas City, 2005 — the same failure mode is present in operations where..." |
-| Investigation report | "Consistent with the Baker Panel (2007) findings on indicator failure" |
-
-For royal commissions and coroners' findings, cite the body, the
-case, and the year:
-- "NZ Royal Commission on the Pike River Coal Mine Tragedy, 2012"
-- "Coroner's findings, Coroners Court of Queensland, 2020 (Dreamworld)"
-- "Grenfell Tower Inquiry Phase 2 Report, 2024"
-
-### Common errors
-
-**Citing the case without the analyst**. "Longford shows that
-production pressure causes accidents" attributes a reading to the
-case itself. The case is a sequence of events. The reading is
-Hopkins'. Citing the analyst makes the inference traceable and
-defensible.
-
-**Cherry-picking a contributing factor to fit a pre-existing
-recommendation**. A complex case has 6–10 contributing factors at
-multiple levels. Selecting only the one that suits the current
-argument is intellectually dishonest and erodes the credibility of
-the citation. If the recommendation requires one factor, cite that
-factor and acknowledge that the case has others.
-
-**Using a case as a moral parable rather than a systemic analysis**.
-"This is what happens when leaders don't care about safety" is a
-moral reading. It does not generate corrective action and it
-misrepresents what the analysts found. Hopkins, Dekker, Hollnagel,
-and the royal commissions universally identified systemic factors —
-not individual character flaws. Use the cases as the analysts
-intended them: as systemic evidence, not as morality plays.
-
-**Treating the case as universally applicable**. Each case is
-embedded in an industry, a regulatory environment, and a historical
-moment. Macondo's BOP failure does not generalise to construction
-plant; Pike River's ventilation inadequacy does not generalise to
-office work. The systemic lessons (multi-PCBU coordination,
-indicator failure, regulator capacity) do generalise. The technical
-specifics typically do not.
-
----
-
 ## 9. Costa Concordia Grounding (13 January 2012)
 
 ### Site and operational context
@@ -870,8 +847,8 @@ including passage near Giglio Island, Italy.
 ### Sequence of events
 The Captain (Francesco Schettino) directed an unauthorised "salute" deviation
 from the planned route to bring the ship close to Giglio. The ship struck
-submerged rocks at approximately 21:42 local time, tearing a 70-m gash in the
-hull. The ship lost propulsion and steerage, drifted, and grounded on its
+submerged rocks at approximately 21:42 local time, tearing a gash
+approximately 53 m long in the hull. The ship lost propulsion and steerage, drifted, and grounded on its
 side adjacent to the island. 32 people died; 64 were injured. Evacuation was
 delayed and disorganised; the Captain left the ship while passengers and crew
 remained aboard.
@@ -924,15 +901,17 @@ event.
 Ranger Mine is an open-pit uranium mine in the Northern Territory, operated
 by Energy Resources of Australia (ERA, majority-owned by Rio Tinto). Located
 within Kakadu National Park, surrounded by but excised from the World
-Heritage Area. Operating from 1981; mining ceased January 2021; rehabilitation
-in progress.
+Heritage Area. Operating from 1981; open-pit mining ceased in 2012;
+processing of stockpiled ore ceased January 2021; rehabilitation in progress.
 
 ### Pattern of events
 Multiple documented contamination releases across the operational life,
 including:
-- **December 2013** — leach tank rupture; approximately 1.4 ML of acidic
-  slurry containing uranium ore released; some material reached drainage to
-  Magela Creek floodplain
+- **December 2013** — leach tank rupture; approximately 1,400 m³ (1.4 ML)
+  of acidic uranium ore slurry released; the spill was contained on site,
+  with some material reaching Retention Pond 2. The Supervising Scientist's
+  investigation found no off-site impact, including to Magela Creek and the
+  surrounding Kakadu environment
 - **Numerous smaller releases** over the operational period, documented in
   the Supervising Scientist Branch annual reports
 - **Ongoing seepage** from tailings storage facilities monitored throughout
@@ -952,8 +931,9 @@ including:
 - Ranger Mine operated under a unique regulatory framework: Atomic Energy
   Act + Environment Protection (Alligator Rivers Region) Act + NT WHS Act +
   Aboriginal Land Rights (Northern Territory) Act
-- Closure and rehabilitation now subject to specific Ranger Project Area
-  rehabilitation framework (RPARC)
+- Closure and rehabilitation are subject to Ranger-specific obligations —
+  Commonwealth-set environmental requirements for the Ranger Project Area,
+  with mandated rehabilitation standards and milestones
 - Indigenous co-design of closure outcomes (Gundjeihmi Aboriginal
   Corporation representing Mirarr)
 
@@ -1041,8 +1021,9 @@ intellectual lineage with Bhopal — the same systemic mechanism, scaled.
 ### AU/NZ practice lessons
 - MHF regulation framework (cross-reference `hazards.md` §7) is the direct
   legislative descendant of post-Bhopal global thinking
-- Process Safety Management (cross-reference §8 above) crystallised
-  internationally
+- Process Safety Management crystallised internationally (cross-reference
+  §2 Longford and §3 Texas City above for the same systemic lineage in
+  Hopkins' analyses)
 - The siting of hazardous facilities near populated areas now subject to
   consequence-based assessment
 - Community emergency planning around MHF sites is mandated
@@ -1061,9 +1042,10 @@ reference for any board paper on MHF or process safety investment.
 
 ### Site and operational context
 Beirut Port operated under the Lebanese government. Hangar 12 stored
-2,750 tonnes of ammonium nitrate confiscated from a ship (MV Rhosus) in
-2013 and stored without secure containment, segregation from incompatible
-materials, or monitoring.
+2,750 tonnes of ammonium nitrate from the MV Rhosus, which was detained
+at the port in 2013; the cargo was moved ashore into Hangar 12 in
+October 2014 and stored without secure containment, segregation from
+incompatible materials, or monitoring.
 
 ### Sequence of events
 On 4 August 2020 at approximately 18:08 local time, a fire began in Hangar
@@ -1077,8 +1059,8 @@ infrastructure destruction.
 ### Contributing factors
 | Factor type | Specific finding |
 |---|---|
-| Storage management | 2,750 tonnes of AN stored for 6+ years without segregation, ventilation, secure containment |
-| Regulatory oversight | Multiple Lebanese government departments aware of the hazard; no department took action; documented bureaucratic warnings ignored over 6 years |
+| Storage management | 2,750 tonnes of AN stored for nearly six years without segregation, ventilation, secure containment |
+| Regulatory oversight | Multiple Lebanese government departments aware of the hazard; no department took action; documented bureaucratic warnings ignored over nearly six years |
 | Custodial chain | Original shipowner (MV Rhosus) abandoned the cargo; legal custody disputed; effective custody unclear |
 | Co-storage | Fireworks stored adjacent to AN — incompatible materials; ignition source proximity |
 | Initiating event | Hot work or accidental ignition (under investigation) triggered the fire |
@@ -1096,8 +1078,8 @@ infrastructure destruction.
 ### Analytical framing
 Beirut is a case of regulatory and institutional failure rather than
 operational accident. Multiple government departments had knowledge of the
-hazard over 6 years; bureaucratic dysfunction prevented any department from
-acting. The Hopkins / Reason analytical framing applies: latent conditions
+hazard over nearly six years; bureaucratic dysfunction prevented any
+department from acting. The Hopkins / Reason analytical framing applies: latent conditions
 accumulated; eventually a foreseeable initiating event encountered the
 accumulated hazard with catastrophic result.
 
@@ -1106,8 +1088,13 @@ known; the political/managerial conditions prevented action; eventually the
 foreseeable event occurred.
 
 ### AU/NZ practice lessons
-- AN storage in AU is regulated under MHF framework (Schedule 15 thresholds
-  apply); storage above 50 tonnes triggers MHF
+- AN storage in AU is regulated under the MHF framework: model WHS
+  Regulations Schedule 15 sets the ammonium nitrate (UN 1942) threshold at
+  2,500 tonnes (5,000 tonnes for AN-based fertilisers), and a facility
+  holding 10% or more of the threshold — 250 tonnes of AN — must notify
+  the regulator. Beirut's 2,750-tonne stockpile exceeded the full
+  threshold; in the AU regime, Hangar 12 would have been a determined
+  major hazard facility
 - Dangerous goods regulation at ports (AMSA + state DG regulators)
 - Custodial chain for abandoned hazardous cargo — legislation exists in AU
   for AMSA to act; Beirut illustrates the consequence of regulatory inaction
@@ -1127,8 +1114,82 @@ response planning content.
 
 ## 13. Citation and Use Guidance
 
-*(Section was previously §9 — content unchanged below; renumbered to reflect
-new cases above.)*
+### When to cite a case study
+
+**In a board paper**: cite when the recommendation is significant, the
+exposure is material, or the question being decided has been the
+subject of a prior catastrophic failure elsewhere. The case provides
+evidentiary depth that turns a recommendation from "the WHS team
+thinks" into "this is what happens when this control is not
+maintained, and here is the body count and the analysis." A board
+paper recommending investment in process safety reporting, for
+example, is materially strengthened by a Texas City reference.
+
+**In training**: cite when the abstract principle is unlikely to
+land without an example. Worked-example pedagogy is most effective
+where the audience lacks the experiential reference to attach the
+principle to. Frontline workers may have personal experience of
+near misses but rarely of catastrophic failures; the case provides
+that reference vicariously.
+
+**In a safety alert**: cite when the lesson transfers directly to
+the recipient's operation. Cold embrittlement (Longford) transfers
+to any operation handling carbon steel in cryogenic or low-temperature
+service. Temporary structure siting (Texas City) transfers to any
+operation with contractor compounds near process plant. Negative
+pressure test interpretation (Deepwater Horizon) transfers to any
+safety-critical test with subjective pass criteria. The alert is
+strengthened when the connection is explicit.
+
+### Citation conventions
+
+The case + the analyst + the year of analysis is the default
+format. Examples in practice:
+
+| Context | Citation form |
+|---|---|
+| Board paper, footnote | "Hopkins A. *Failure to Learn: The BP Texas City Refinery Disaster*. CCH Australia, 2008." |
+| Board paper, in-line | "the failure mode identified by Hopkins (2008) at Texas City" |
+| Training slide | "BP Texas City Refinery, 23 March 2005 — 15 deaths" |
+| Safety alert | "Texas City, 2005 — the same failure mode is present in operations where..." |
+| Investigation report | "Consistent with the Baker Panel (2007) findings on indicator failure" |
+
+For royal commissions and coroners' findings, cite the body, the
+case, and the year:
+- "NZ Royal Commission on the Pike River Coal Mine Tragedy, 2012"
+- "Coroner's findings, Coroners Court of Queensland, 2020 (Dreamworld)"
+- "Grenfell Tower Inquiry Phase 2 Report, 2024"
+
+### Common errors
+
+**Citing the case without the analyst**. "Longford shows that
+production pressure causes accidents" attributes a reading to the
+case itself. The case is a sequence of events. The reading is
+Hopkins'. Citing the analyst makes the inference traceable and
+defensible.
+
+**Cherry-picking a contributing factor to fit a pre-existing
+recommendation**. A complex case has 6–10 contributing factors at
+multiple levels. Selecting only the one that suits the current
+argument is intellectually dishonest and erodes the credibility of
+the citation. If the recommendation requires one factor, cite that
+factor and acknowledge that the case has others.
+
+**Using a case as a moral parable rather than a systemic analysis**.
+"This is what happens when leaders don't care about safety" is a
+moral reading. It does not generate corrective action and it
+misrepresents what the analysts found. Hopkins, Dekker, Hollnagel,
+and the royal commissions universally identified systemic factors —
+not individual character flaws. Use the cases as the analysts
+intended them: as systemic evidence, not as morality plays.
+
+**Treating the case as universally applicable**. Each case is
+embedded in an industry, a regulatory environment, and a historical
+moment. Macondo's BOP failure does not generalise to construction
+plant; Pike River's ventilation inadequacy does not generalise to
+office work. The systemic lessons (multi-PCBU coordination,
+indicator failure, regulator capacity) do generalise. The technical
+specifics typically do not.
 
 ### The Dekker test
 

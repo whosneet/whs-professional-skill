@@ -10,13 +10,13 @@
 
 ## Why are we talking about this?
 
-In April 2026, a building services worker in Brisbane connected a fall arrest
-lanyard to a roof-mounted antenna mast for plant maintenance access. The mast
-was not rated for fall arrest and was secured with corroded fixings to the roof
-substructure. When the worker tested the lanyard with body weight, the mast
-deflected significantly and one of the fixings pulled out of the substrate. No
-fall occurred but the worker was within seconds of a 4-metre fall onto a hard
-plant deck.
+In April 2026, a building services worker in Newcastle (NSW) connected a
+fall arrest lanyard to a roof-mounted antenna mast for plant maintenance
+access. The mast was not rated for fall arrest and was secured with corroded
+fixings to the roof substructure. When the worker tested the lanyard with
+body weight, the mast deflected significantly and one of the fixings pulled
+out of the substrate. No fall occurred but the worker was within seconds of
+a 4-metre fall onto a hard plant deck.
 
 We do similar work — rooftop maintenance, antenna and HVAC servicing, gutter
 clearing, satellite dish access. This is a reminder of what we check before we

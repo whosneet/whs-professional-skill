@@ -25,6 +25,7 @@
 20. [Permit-to-Work Templates (Hot Work, Confined Space, Height, Isolation)](#20-permit-to-work-templates)
 21. [Workers Compensation Claim Review](#21-workers-compensation-claim-review)
 22. [Hazard Report Form](#22-hazard-report-form)
+23. [Regulator Notification Script](#23-regulator-notification-script)
 
 ---
 
@@ -47,12 +48,13 @@ Avoid: passive voice, corporate language, safety clichés.
 
 **HEADER ROW** (two-column)
 | Function: [Business function / division] | Alert Title: [Short, specific title] |
+|---|---|
 
 ---
 **WHAT HAPPENED?** (left column, with image placeholder on right)
 - A simple explanation of what occurred — 2–4 sentences, factual, no names, no blame
-- For Zero Harm alerts: include reference to the critical risk and which controls were
-  absent or failed
+- For alerts involving a critical risk: include reference to the critical risk and
+  which controls were absent or failed
 - Bullet points for key impacts (3 max)
 - Image on the right with caption: descriptive, conveys what the photo is showing
 
@@ -76,6 +78,7 @@ Explain the lessons so the reader fully understands the impact.
 ---
 **FOOTER ROW** (four-column)
 | Further Information | Authorised By | [blank] | Useful Resources |
+|---|---|---|---|
 | Name, Role, Phone, Email | Name, Role, Phone, Email | | Link to Document |
 
 ### Drafting Notes
@@ -85,8 +88,9 @@ Explain the lessons so the reader fully understands the impact.
   actions and distributed separately; include if immediate field actions are needed
 - Discussion questions are fixed in the template — customise only where genuinely
   relevant to the specific hazard
-- For Zero Harm alerts: explicitly name the critical risk category and state which
-  critical control failed or was absent — this is mandatory for HiPo and severity 4–6
+- For alerts involving a critical risk: explicitly name the critical risk category and
+  state which critical control failed or was absent — this is mandatory for HiPo and
+  high-severity incidents
 
 ---
 
@@ -229,17 +233,19 @@ If circumstances change, this advice should be reviewed.*
 ## 4. Preliminary Internal Incident Notification (PIIN)
 
 ### Purpose
-Typically required for incidents at higher classifications (3–6) and all HiPos under most organisations' procedures. Completed online via the incident system, or on paper and then transcribed. This form is the formal internal notification mechanism that initiates the system workflow chain.
+Typically required for incidents at higher severity classifications and all HiPos under most organisations' procedures. Completed online via the incident system, or on paper and then transcribed. This form is the formal internal notification mechanism that initiates the system workflow chain.
 
 Following completion, the originator must confirm whether an ICAM will be prepared. If not, a reason must be provided.
 
 ### When to complete
-| Rating | Deadline |
+*Example pattern only — align these triggers and deadlines to your organisation's
+incident procedure (see `company.md`).*
+
+| Rating | Deadline (example) |
 |---|---|
-| 3 | By start of next shift |
-| 4 | Within 24 hours |
-| 5 | Within 8 hours |
-| 6 | Within 8 hours |
+| 3 | Within 24 hours |
+| 4 | Within 12 hours |
+| 5 | Within 12 hours |
 | HiPo | Within 24 hours |
 
 ### Required Fields
@@ -263,6 +269,7 @@ Following completion, the originator must confirm whether an ICAM will be prepar
 
 **PERSONS INVOLVED**
 | Name | Position | Role in Incident | Statement Taken? ☐ Yes ☐ No |
+|---|---|---|---|
 
 **INJURY DETAILS** (if applicable)
 - Employer: ☐ [Your organisation] ☐ Other
@@ -287,15 +294,15 @@ Following completion, the originator must confirm whether an ICAM will be prepar
 
 ## 5. Alert vs Bulletin — When to Use Which
 
-Alerts are typically **mandatory for notifiable incidents** under most organisations' procedures, unless deemed unnecessary by the relevant business manager or Zero Harm leader.
+Alerts are typically **mandatory for notifiable incidents** under most organisations' procedures, unless deemed unnecessary by the relevant business manager or WHS leader.
 
 Use an **Alert** when: immediate implementation is required prior to the next shift commencing; or there is significant impact on business operations. Displayed on noticeboards and the intranet.
 
 Use a **Bulletin** when: the change can be implemented at the most logical opportunity; or the change is beneficial but does not address a current risk or exposure.
 
-When alerts or bulletins are shared across business groups: write clearly for the broader audience; define all acronyms and BU-specific language; route through the central Zero Harm function for publishing.
+When alerts or bulletins are shared across business groups: write clearly for the broader audience; define all acronyms and BU-specific language; route through the central Group WHS team for publishing.
 
-For investigations subject to legal privilege: contact Group Zero Harm before sharing lessons learnt — sharing privileged information may result in loss of privilege.
+For investigations subject to legal privilege: contact the Group WHS team before sharing lessons learnt — sharing privileged information may result in loss of privilege.
 
 ---
 
@@ -306,13 +313,14 @@ Used for incidents with actual classification 1–3. Data captured here MUST be
 transcribed into the incident system. If an ICAM is required, this form is NOT completed — use
 an ICAM report template instead. Include photos throughout where relevant.
 
-**When ICAM applies instead**: actual classification 4–6, all HiPos, or as directed
-by the Business Manager or EGM/GM Zero Harm.
+**When ICAM applies instead**: actual classification at the top of your organisation's
+severity scale (e.g. Class 4–5), all HiPos, or as directed by the Business Manager or
+Executive GM WHS.
 
 ### System First
 Investigation details can typically be captured directly in the incident management system. This form is a working
 document to capture information in the field before system entry. After transcription
-to the system, the workflow routes for Zero Harm Rep → Site Supervisor/Superintendent
+to the system, the workflow routes for WHS representative → Site Supervisor/Superintendent
 → Project Manager review and approval.
 
 ### Form Structure
@@ -357,6 +365,8 @@ Remediation and Disposal
 
 **Sequence of Events**
 | Sequence | Date | Approx. Time | Event Description |
+|---|---|---|---|
+
 The sequence of events before, during, and following the incident.
 
 **Contributing Factors** — *identify factors and explain how each influenced the incident;
@@ -364,7 +374,7 @@ identify any Failed or Absent defences*
 
 *People* — refer to witness statements, interviews, training records, AOD test results
 ☐ Insufficient training/supervision ☐ Rushing/taking short cuts ☐ Complacency/attitude
-☐ AOD ☐ Fatigue ☐ Attitude to Zero Harm ☐ Inadequate/misunderstood communication ☐ Other
+☐ AOD ☐ Fatigue ☐ Attitude to safety ☐ Inadequate/misunderstood communication ☐ Other
 → Explain:
 
 *Environment* — review the area the hazard/incident occurred and relevant occ. health records
@@ -396,19 +406,21 @@ including the factor (present or absent) that allowed the incident to occur.
 
 **Corrective Action Plan** *(refer to your organisation's risk management procedure for action prioritisation criteria — see `company.md`)*
 | Action | Hierarchy of Control | Responsible Person | Target Date | Risk Ranking (priority) |
+|---|---|---|---|---|
 
 **Investigation Team**
 | Name | Position | Company |
+|---|---|---|
 
 ---
 **SECTION 5 — SIGN-OFF**
 Report Completed By: Name | Signature | Date Entered to System
 
-*After transcribing to the incident system, the workflow ensures Zero Harm Representative,
+*After transcribing to the incident system, the workflow ensures the WHS representative,
 Site Supervisor/Superintendent, and Project Manager review and approve.*
 
 Optional manual sign-off if the system is not immediately accessible:
-- Zero Harm Rep: Name | Signature | Date | Comments
+- WHS Rep: Name | Signature | Date | Comments
 - Site Supervisor: Name | Signature | Date | Comments
 - Project Manager: Name | Signature | Date | Comments
 
@@ -443,6 +455,7 @@ controls for a specific task.
 
 **Worker sign-on** (acknowledge they have read and understood):
 | Name | Role | Signature | Date |
+|---|---|---|---|
 
 ---
 
@@ -606,7 +619,7 @@ the risk register captures *potential* events and the controls in place.
 | Threats / causes | What can initiate the risk (cross-ref bowtie if used) |
 | Inherent risk | Likelihood × Consequence before controls (per organisation matrix — see `company.md`) |
 | Existing controls | What's in place (engineering, administrative, PPE, monitoring) |
-| Control effectiveness | Effective / Generally Sound / Improvement Required (or org rating) |
+| Control effectiveness | e.g. Adequate / Partially Adequate / Inadequate (use your organisation's rating scale — see `company.md`) |
 | Residual risk | Likelihood × Consequence after controls |
 | Risk owner | Named accountable person (not role) |
 | Treatment plan | Further action to reduce; owner; due date |
@@ -619,8 +632,8 @@ the risk register captures *potential* events and the controls in place.
 - Aim for 30–80 risks at enterprise level (more = unworkable; fewer = under-identified)
 - Each risk should map to either a critical risk taxonomy (`company.md` §8) or a
   defined enterprise risk category
-- Risks at residual rating A or B require senior leader acceptance (per
-  `company.md` risk matrix)
+- Risks at the highest residual ratings (e.g. Critical or High) require senior
+  leader acceptance (per `company.md` risk matrix)
 - Treatment plans must be specific, assigned, time-bound
 
 ### Common errors
@@ -785,7 +798,7 @@ C = Consulted (two-way input); I = Informed (one-way notification)
 ## 15. WHS Annual Plan
 
 ### Purpose
-12-month operational programme rolling out the WHS strategy. Distinct from
+12-month operational program rolling out the WHS strategy. Distinct from
 the strategy in being granular, time-bound, and resource-loaded.
 
 ### Structure
@@ -800,18 +813,18 @@ gaps; this year's specific focus areas.
   closure rate, audit conformance, training completion
 - Strategic: capability uplift milestones from the strategy
 
-**3. Programme of work** — quarterly view
+**3. Program of work** — quarterly view
 
 | Initiative | Owner | Q1 | Q2 | Q3 | Q4 | Budget | Success criteria |
 |---|---|---|---|---|---|---|---|
-| Critical risk verification programme | CRO leads | Q1 baseline | Q2 build | Q3 expand | Q4 review | $X | CCV completion >85% by Q4 |
+| Critical risk verification program | CRO leads | Q1 baseline | Q2 build | Q3 expand | Q4 review | $X | CCV completion >85% by Q4 |
 | ISO 45001 surveillance audit | Audit Lead | | Audit | Findings | Close | $Y | Recertification achieved |
 | Sustained engagement campaign | Programs Lead | Plan | Plan | Deliver | Review | $Z | 80% workforce reach |
 | etc. | | | | | | | |
 
 **4. Governance cadence**
 - Monthly: WHS Leadership Team meeting
-- Quarterly: BU Zero Harm reviews; ELT WHS update
+- Quarterly: BU WHS reviews; ELT WHS update
 - Semi-annual: Board safety paper; officer briefings
 - Annual: Strategy review; budget cycle; ISO 45001 management review
 
@@ -956,7 +969,7 @@ One paragraph from CEO / Board Chair on the year's safety position.
 
 **2. Our safety system**
 Brief description of the WHS management system (ISO 45001 status; named
-programme architecture; key elements).
+program architecture; key elements).
 
 **3. Performance**
 - Lagging metrics — TRIFR, LTIFR, fatalities (mandatory), HiPo rate where
@@ -967,7 +980,7 @@ programme architecture; key elements).
   individuals)
 
 **4. Material issues and response**
-Significant WHS topics for the year: critical risk programme,
+Significant WHS topics for the year: critical risk program,
 psychosocial implementation, sector-specific initiative, regulatory
 engagement, fatality investigation outcomes.
 
@@ -1001,7 +1014,10 @@ public records anyway; transparency is the credibility position.
 ### Purpose
 Single-page evidence map demonstrating compliance with the Sex
 Discrimination Act 1984 s 47C positive duty against the AHRC's seven
-standards. Used for AHRC inquiry response and internal governance.
+standards. The s 47C duty was inserted by the Anti-Discrimination and Human
+Rights Legislation Amendment (Respect at Work) Act 2022 and has applied since
+13 December 2022; the AHRC's compliance and enforcement powers commenced
+12 December 2023. Used for AHRC inquiry response and internal governance.
 
 > Legislative basis and practical implementation: cross-ref `legislation.md`
 > §9; worked example advisory note: `examples/03-whs-advisory-note-respect-at-work-positive-duty.md`.
@@ -1057,7 +1073,7 @@ to different hazards; common structure with type-specific content.
 
 **20.1 Hot Work Permit (welding, cutting, grinding, brazing, soldering)**
 
-- Combustibles cleared within 11 m or protected with fire blankets
+- Combustibles cleared from the fire-risk area (AS 1674.1 — commonly applied as 15 m) or protected with fire blankets
 - Atmospheric test for flammables (if applicable): O2 ___, LEL ___
 - Fire watch designated: Name ___ Equipment: ___ extinguisher type
 - Post-work monitoring period: 30 / 45 / 60 minutes
@@ -1195,3 +1211,95 @@ reduces reporting rate.
 - Reporter receives acknowledgement within 24 hours
 - Reporter receives feedback on outcome (closing the loop is the single
   biggest driver of sustained reporting rate)
+
+---
+
+## 23. Regulator Notification Script
+
+### Purpose
+Scripts the first phone call to the WHS regulator after a notifiable incident.
+The model WHS Act s 38 requires the PCBU to notify the regulator **immediately
+after becoming aware** of a notifiable incident, by the fastest possible means
+— in practice, a phone call. The call is the start of the regulatory record:
+be prepared, factual, and complete.
+
+> Notifiable incident criteria and jurisdictional regulator contacts:
+> cross-ref `legislation.md` §5.
+
+### Preparation checklist (minutes, not hours — do not delay the call)
+- [ ] Confirm the incident is notifiable — death, serious injury or illness, or
+      dangerous incident (model WHS Act ss 35–37) — check against `legislation.md`
+- [ ] Confirm who calls — the authorised person under your organisation's
+      procedure (see `company.md`); typically the site/contract manager or the
+      duty WHS manager
+- [ ] Confirm scene preservation is underway (s 39) — site secured; nothing
+      disturbed except to assist an injured person, make the site safe, or as
+      directed by police or an inspector
+- [ ] Assemble the known facts: time, location, people involved, injuries,
+      current care, immediate actions taken
+- [ ] Trigger internal notifications in parallel per `company.md` — the
+      regulator call does not replace the internal chain
+
+### Phone script structure
+
+**1. Caller identification**
+"My name is [name]. I am the [role] at [PCBU legal name]. My direct contact
+number is [number]."
+
+**2. PCBU details**
+- PCBU legal name and ABN
+- Site address where the incident occurred (and site contact if different)
+
+**3. What happened — facts only**
+- 2–4 sentences. Known facts only. No speculation about cause. No admissions.
+- "At approximately [time], [what occurred, in plain factual terms]."
+
+**4. When and where**
+- Date and time of the incident; specific location within the site
+- When the PCBU became aware (if different)
+
+**5. Injured person status and care**
+- Name, age, role (worker / contractor / member of the public)
+- Nature of injuries as currently known
+- Current care: first aid on site / ambulance / hospital (which one)
+
+**6. Immediate actions taken**
+- Care for the injured person; making the area safe; stopping the task;
+  isolating plant; notifying emergency services
+
+**7. Scene preservation status**
+- Confirm the site is secured and undisturbed per s 39; note anything moved to
+  assist the injured person or make the area safe
+
+**8. Close the call**
+- "Can I please have the notification reference number?"
+- Ask whether written notification is required, in what form, and by when
+- Record any directions given (e.g. non-disturbance, inspector attending)
+
+### After the call
+- If directed, provide written notification within 48 hours in the approved
+  form (model WHS Act s 38)
+- Record the call: time, regulator officer's name, reference number, directions
+- Retain a record of the notification for at least 5 years (s 38)
+- Maintain scene preservation until an inspector releases the site or directs
+  otherwise (s 39)
+
+### NZ variant
+Under the Health and Safety at Work Act 2015, notify **WorkSafe New Zealand**
+as soon as possible after becoming aware of a notifiable event (HSWA s 56),
+and preserve the site until authorised (HSWA s 55). The same script structure
+applies; quote the NZBN rather than an ABN.
+
+### Cautions
+- Stick to known facts. Do not speculate on cause, fault, or what "should
+  have" happened — classification and causation come later
+- Do not make admissions of liability — the call is a notification, not a
+  statement
+- If the regulator asks for investigation material or detailed records during
+  the call, take the request on notice and route it through the escalation
+  path — legal professional privilege questions go to legal counsel first
+  (see `company.md`)
+- Note the exact time of the call and everything said — the notifier's
+  contemporaneous record may be the only one
+- Never delay notification to "get the story straight" — notify immediately
+  with what is known and supplement later

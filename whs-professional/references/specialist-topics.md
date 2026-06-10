@@ -62,27 +62,30 @@ psychologists, or WHS generalists.
 ### AIOH — the Australian Institute of Occupational Hygienists
 
 AIOH is the professional body for occupational hygienists in Australia. The institute
-maintains two certification tiers:
+maintains a set of membership grades and a single certification:
 
-| Certification | Full title | Requirements |
-|---|---|---|
-| **COH** | Certified Occupational Hygienist | Tertiary qualification in occupational hygiene or related discipline + 4 years supervised practical experience + written exam + oral exam + ethics + CPD |
-| **ROH** | Registered Occupational Hygienist | Lower tier — entry-level pathway; broader scope; CPD-maintained |
+| Grade / credential | Detail |
+|---|---|
+| **Associate** | Entry membership grade — early-career or allied practitioners |
+| **Provisional** | Practising in occupational hygiene; progressing toward full membership |
+| **Full Member (MAIOH)** | Tertiary qualification in occupational hygiene or a related discipline + 5+ years of professional occupational hygiene practice |
+| **Fellow (FAIOH)** | Awarded for distinguished service and contribution to the profession |
+| **COH®** | Certified Occupational Hygienist — AIOH's only certification. Open to Full Members (MAIOH) with at least five years of professional practice; assessed by oral examination; maintained through CPD; mutual international recognition under the IOHA framework since 2020 |
 
-The COH is the senior credential. Where a contract, regulator, or insurer requires a
-hygienist sign-off, COH is the level that carries evidentiary weight. ROH is appropriate
-for routine sampling, training, and program support.
+The COH® is the credential that carries evidentiary weight. Where a contract, regulator,
+or insurer requires hygienist sign-off, specify COH (or a recognised international
+equivalent). MAIOH indicates professional standing as a Full Member, but it is a
+membership grade, not a certification.
 
 International equivalents include the Certified Industrial Hygienist (CIH, US — ABIH) and
 the Faculty of Occupational Hygiene (FOH, UK — BOHS). Reports from internationally
 credentialled hygienists are typically accepted in AU/NZ practice, but the AIOH credential
 is the local benchmark and is preferred for regulator-facing work.
 
-The AIOH publishes position statements on contemporary exposure issues (engineered stone,
+The AIOH publishes position papers on contemporary exposure issues (engineered stone,
 diesel particulate matter, manganese, beryllium) which carry significant influence with
-regulators and courts. The annual conference, the *Journal of Health and Safety Research
-and Practice*, and the position paper library are the primary technical reference points
-for AU-specific hygiene practice.
+regulators and courts. The position paper library and the annual conference proceedings
+are the primary technical reference points for AU-specific hygiene practice.
 
 ### Air sampling — the methodology library
 
@@ -96,15 +99,16 @@ result. The widely-adopted method libraries are:
 | **NIOSH 0500** | NMAM | Total particulate, gravimetric |
 | **NIOSH 0600** | NMAM | Respirable particulate, gravimetric (cyclone preselector + filter) |
 | **NIOSH 7500** | NMAM | Crystalline silica by X-ray diffraction (after 0600 sampling) |
-| **NIOSH 7300/7301** | NMAM | Metals by ICP-MS |
-| **NIOSH 7400** | NMAM | Asbestos fibres by PCM (phase contrast microscopy) |
+| **NIOSH 7300/7301** | NMAM | Metals by ICP-AES |
+| **NIOSH 7400** | NMAM | Airborne fibres by PCM (phase contrast microscopy) |
+| **Membrane Filter Method [NOHSC:3003(2005)]** | NOHSC (published via Safe Work Australia) | The AU default method for airborne asbestos fibre estimation — membrane filter sampling with PCM fibre counting |
 | **NIOSH 1500/1501/1550** | NMAM | Hydrocarbon and aromatic solvent series |
 | **OSHA ID-125G** | US OSHA | Metals by ICP |
-| **OSHA PV2121** | US OSHA | Isocyanates |
-| **AS 3640** | Standards Australia | Workplace atmosphere — method for sampling and gravimetric determination of inspirable dust |
+| **OSHA 42 / OSHA 47** | US OSHA | Isocyanates (TDI and MDI respectively) — verify the current method code for the specific isocyanate and matrix before sampling |
+| **AS 3640** | Standards Australia | Workplace atmospheres — method for sampling and gravimetric determination of inhalable dust |
 | **AS 3853** | Standards Australia | Health and safety in welding — sampling and analysis of welding fume |
 | **AS 2985** | Standards Australia | Workplace atmospheres — respirable dust |
-| **MDHS 14/4** | UK HSE | Asbestos sampling (alternative to NIOSH 7400) |
+| **MDHS 14/4** | UK HSE | General methods for sampling and gravimetric analysis of respirable, thoracic and inhalable aerosols — not an asbestos method; the UK asbestos analysts' reference is HSG 248 |
 
 For each contaminant, the hygienist selects:
 - The **sampling device** (cyclone, IOM head, filter cassette, sorbent tube, impinger)
@@ -119,8 +123,9 @@ For each contaminant, the hygienist selects:
 ### Workplace Exposure Standards — validation
 
 The Safe Work Australia *Workplace Exposure Standards for Airborne Contaminants* (current
-2024 list) sets the AU regulatory ceiling for around 700 substances. WES values are
-expressed as:
+2024 list — replaced by the Workplace Exposure Limits (WEL) from 1 December 2026; see the
+transition note below) sets the AU regulatory ceiling for around 700 substances. WES
+values are expressed as:
 
 - **TWA** — 8-hour time-weighted average; the most common form
 - **STEL** — Short-Term Exposure Limit; typically 15-minute average; not to be exceeded
@@ -130,6 +135,17 @@ A WES is a **regulatory upper limit**, not a target. Health-based exposure stand
 typically much lower than the regulated WES for the same substance. The SFAIRP duty (s 17
 model WHS Act) requires reduction below the WES where reasonably practicable — being at
 80% of the WES is not "compliance" in any meaningful operational sense.
+
+**WES → WEL transition (1 December 2026)**: from 1 December 2026 the WES list is
+replaced by the *Workplace Exposure Limits for Airborne Contaminants* (WEL). Beyond
+revised limit values, the WEL framework splits the sensitiser notation into **DSEN**
+(dermal sensitiser) and **RSEN** (respiratory sensitiser), introduces a new **OTO**
+notation for ototoxicants (substances that can damage hearing alone or in combination
+with noise — connect these to the noise program), and includes a table of genotoxic
+carcinogens for which exposure should be kept as low as reasonably practicable.
+Exposure assessment reports written across the transition should state which framework
+the results were assessed against; sampling campaigns that will report after
+1 December 2026 should be designed against the WEL values and notations.
 
 WES validation involves:
 - Sampling against a defined methodology (NIOSH or AS method)
@@ -144,6 +160,23 @@ WES validation involves:
 A common trap is presenting a single sample result against a WES with no SEG context, no
 statistical treatment, and no consideration of the uncertainty. This is poor hygiene
 practice and the result will not stand up to regulator or expert scrutiny.
+
+### Respiratory protection — the program, not the mask
+
+Where airborne exposure cannot be reduced below the relevant limit by higher-order
+controls, respiratory protective equipment (RPE) is the control of last resort — and it
+only works inside a managed respiratory protection program. The elements: selection
+against the measured exposure and required protection factor per **AS/NZS 1715**
+(*Selection, use and maintenance of respiratory protective equipment*); equipment
+conforming to **AS/NZS 1716** (*Respiratory protective devices*); **fit testing** of
+tight-fitting facepieces before first use and at least annually (quantitative or
+qualitative methods); clean-shaven policy for tight-fitting RPE; training in donning,
+seal checks, storage and maintenance; cartridge change-out schedules; medical fitness
+to wear; and documented program review. Fit testing competency in Australia is
+benchmarked by **RESP-FIT**, the AIOH-initiated fit tester training and accreditation
+program (launched 2020) — the standard AU competency scheme. Specifying
+RESP-FIT-accredited fit testers is now common in contracts and in silica and asbestos
+program audits.
 
 ### Biological monitoring
 
@@ -165,10 +198,16 @@ Common BM in AU practice:
 | Solvents (BTEX) | Urine, blood, breath | Parent compound or metabolite |
 | Polycyclic aromatic hydrocarbons (PAHs) | Urine | 1-hydroxypyrene |
 
-BM is required by the WHS Regulations for specified substances (Schedule 14 model
-Regulations — lead, asbestos, MOCA, vinyl chloride, etc.). Beyond the regulated list, BM
-is a powerful supplement to air monitoring where dermal absorption is significant or where
-air sampling is technically difficult.
+The statutory regime is **health monitoring**, of which biological monitoring is one
+technique for some substances. Schedule 14 of the model WHS Regulations prescribes
+health monitoring for 14 hazardous chemicals (including MOCA, crystalline silica,
+isocyanates, and vinyl chloride). Lead has its own regime under Part 7.2 — blood lead
+level monitoring with prescribed removal levels at which the worker must be removed
+from lead risk work. Asbestos health monitoring sits under Part 8.5 and has **no**
+biological monitoring component — it is clinical only (demographic and exposure
+history, physical examination, respiratory function testing). Beyond the regulated
+framework, BM is a powerful supplement to air monitoring where dermal absorption is
+significant or where air sampling is technically difficult.
 
 BM results require clinical interpretation — values below the biological exposure index
 (BEI) for the substance, but trending upward, may indicate uncontrolled exposure. An
@@ -229,9 +268,9 @@ A defensible exposure assessment report has a consistent structure:
    during sampling
 8. **Appendices** — raw data; chain of custody; calibration records; laboratory reports
 
-The report should be signed and dated by the COH or ROH (with COH oversight for ROH-led
-work in high-stakes contexts). Reports without signed-off discipline credential are easily
-challenged.
+The report should be signed and dated by a COH; where fieldwork is led by a
+non-certified hygienist, a COH should review and countersign in high-stakes contexts.
+Reports without a signed-off discipline credential are easily challenged.
 
 ### Longitudinal exposure registers
 
@@ -243,14 +282,17 @@ PCBU. The register supports:
 - Health monitoring trend analysis
 - Workers compensation claim verification (presumptive provisions — silicosis, mesothelioma,
   firefighter cancers)
-- Discharge of the PCBU duty to keep exposure records (model WHS Reg 50, 391, 419 etc.)
+- Discharge of the PCBU duty to keep health monitoring and exposure records (model WHS
+  Regulations — hazardous-chemical health monitoring records rr 374/378; lead r 418;
+  asbestos r 444; confirm numbering in the applied jurisdictional regulation)
 - Defence in long-tail disease claims
 - Cohort analysis for control effectiveness
 
 The register is typically held in the HRIS or a dedicated occupational health platform;
-record retention obligations are long — 40 years for asbestos and silica exposure, 30 years
-for lead and many other Schedule 14 substances. Lose the data and the PCBU loses the
-ability to defend long-tail claims that may emerge decades after the exposure.
+record retention obligations are long — 40 years for asbestos health monitoring records,
+30 years for crystalline silica, lead, and the other hazardous-chemical health monitoring
+records. Lose the data and the PCBU loses the ability to defend long-tail claims that may
+emerge decades after the exposure.
 
 > Cross-reference: load `references/hazards.md` §2 (RCS), §3 (asbestos), §14 (noise), §15
 > (vibration) for the operational hazard frameworks that occupational hygiene supports.
@@ -266,7 +308,7 @@ produces poorly-designed programs:
 
 | Stream | Source | Focus |
 |---|---|---|
-| **Psychosocial hazard regulation** | WHS Regulations Part 3.1A (or jurisdictional equivalent); SWA Code of Practice *Managing Psychosocial Hazards at Work* (2022); WorkSafe NZ Good Practice Guide on Workplace Stress (2019) | Regulatory compliance — identify, assess, control psychosocial hazards arising from work design and conduct |
+| **Psychosocial hazard regulation** | Model WHS Regulations rr 55A–55D (in NSW, Part 3.2 Div 11; other jurisdictional equivalents); SWA Code of Practice *Managing Psychosocial Hazards at Work* (2022); WorkSafe NZ *Mentally Healthy Work* guidance (successor to its earlier good-practice guidance on workplace stress) | Regulatory compliance — identify, assess, control psychosocial hazards arising from work design and conduct |
 | **Mental health programs (intervention and prevention)** | Voluntary; informed by clinical practice, public health frameworks, organisational psychology | Workforce mental health outcome — prevent, detect, support, and rehabilitate mental ill-health regardless of work-causation |
 
 The regulator cares about the first stream. The CEO and the workforce care about both —
@@ -341,9 +383,10 @@ is a liability, not an asset.
 ### EAP design — beyond utilisation
 
 Employee Assistance Programs are widely deployed and widely criticised. Utilisation rates
-across AU industry average 3–6% — meaning 94–97% of workers don't use the service. The
-critical questions in EAP design are not whether to have one but how to design one that
-works:
+across AU industry are commonly cited at 3–8% (published figures vary with provider and
+counting method) — meaning the overwhelming majority of workers don't use the service in
+any given year. The critical questions in EAP design are not whether to have one but how
+to design one that works:
 
 | Design choice | Considerations |
 |---|---|
@@ -461,7 +504,7 @@ reporting requirement on entities meeting the revenue threshold. Key provisions:
 | **Reporting period** | Annual financial year |
 | **Lodgement** | Within 6 months of the end of the reporting period (FY ending 30 June → statement due 31 December) |
 | **Approval** | Statement must be approved by the principal governing body (typically the Board) and signed by a director |
-| **Register** | All statements lodged on the publicly-accessible Modern Slavery Statements Register (online.modernslaveryregister.gov.au) |
+| **Register** | All statements lodged on the publicly-accessible Modern Slavery Statements Register (modernslaveryregister.gov.au) |
 | **Voluntary reporting** | Entities below the threshold may report voluntarily |
 
 The Act has no penalty for failure to report — but there is significant reputational,
@@ -527,10 +570,11 @@ product risk mapping.
 
 ### Intersection with WHS contractor management
 
-The Modern Slavery duty to know your supply chain materially overlaps with the WHS
-contractor duty to manage WHS risk in the work of contractors and labour-hire workers
-(s 19(2) model WHS Act). Both require knowing who is doing the work, where, under what
-conditions.
+The Modern Slavery duty to know your supply chain materially overlaps with the WHS duty
+to contractors and labour-hire workers — who are "workers" under s 7 of the model WHS
+Act and are owed the s 19(1) primary duty (s 19(2) is the separate duty to other persons,
+such as visitors and the public). Both regimes require knowing who is doing the work,
+where, under what conditions.
 
 | WHS duty | Modern slavery duty | Common ground |
 |---|---|---|
@@ -650,9 +694,14 @@ GRI 403 (2018) — disclosures:
 | **403-9** | Work-related injuries |
 | **403-10** | Work-related ill health |
 
-GRI 403-9 and 403-10 require quantitative disclosures including fatality rate, high-
-consequence work-related injury rate, recordable rate, lost-day rate, and absentee rate —
-with definitions and calculation methodology disclosed.
+GRI 403-9 requires the number and rate of fatalities from work-related injury, of
+high-consequence work-related injuries (excluding fatalities), and of recordable
+work-related injuries — plus the main injury types and the number of hours worked,
+reported separately for employees and for workers who are not employees but whose work
+or workplace is controlled by the organisation. GRI 403-10 requires the equivalent
+disclosures for work-related ill health (fatalities and recordable cases, with main
+types). Lost-day and absentee rates belonged to the superseded GRI 403 (2016) standard
+and are no longer required disclosures under the 2018 standard.
 
 The 2018 revision substantially upgraded the standard from earlier versions — moving from
 basic injury rate reporting to a comprehensive disclosure of the management system,
@@ -803,6 +852,7 @@ manager-level WHS practitioner should know the full insurance architecture, beca
 
 - WHS incidents have implications across multiple insurance policies, not just workers comp
 - Insurance policy compliance creates operational obligations on the WHS function
+- Statutory bans now prohibit insuring WHS monetary penalties in most jurisdictions
 - Industrial manslaughter and officer due diligence have changed the D&O landscape
 - Broker engagement is part of mature WHS function operating rhythm
 
@@ -817,7 +867,31 @@ The principal insurance arrangements that the WHS function intersects with:
 | **Cyber insurance** | Liability and recovery cost from cyber events | Data breach involving WHS records, incident data, worker health data |
 | **Product liability** | Liability arising from products supplied | Customer injury from product defect |
 | **Environmental impairment liability (EIL)** | Liability for environmental pollution events | Spill, contamination, regulator clean-up order |
-| **Management liability** | Suite policy covering D&O + employment practices + crime + statutory liability | Various |
+| **Management liability** | Suite policy covering D&O + employment practices + crime + statutory liability | Various — note that statutory liability sections cannot lawfully cover WHS monetary penalties where a statutory ban applies (see below); defence and investigation costs remain insurable |
+
+### Statutory bans on insuring WHS penalties — the non-negotiable boundary
+
+The most consequential development in WHS insurance is the statutory prohibition of
+insurance and indemnity arrangements for WHS monetary penalties. Following the Boland
+review of the model WHS laws, the model Act was amended in 2022 to prohibit these
+arrangements, and the major jurisdictions have legislated:
+
+| Jurisdiction | Provision | Effect |
+|---|---|---|
+| **NSW** | WHS Act 2011 (NSW) s 272A (inserted 2020) | Offence to enter into, provide, or take the benefit of insurance or indemnity for a WHS monetary penalty; officers involved in the contravention are personally liable |
+| **WA** | WHS Act 2020 (WA) s 272A | Equivalent prohibition; in force with the Act from 31 March 2022 |
+| **VIC** | OHS Act 2004 (VIC) ss 148–149 (inserted 2021) | Insurance and indemnity arrangements for OHS monetary penalties are void; entering into, providing, or benefiting from them is an offence |
+| **Cth** | WHS Act 2011 (Cth) ss 272A–272C (inserted by the Closing Loopholes amendments) | Equivalent prohibition and officer liability in the Commonwealth jurisdiction |
+| **Model Act** | s 272A (2022 amendment per the Boland review) | Adopted into the model law; remaining harmonised jurisdictions adopt on their own timetables — check current adoption status |
+
+What remains lawfully insurable: **defence and investigation costs** (legal
+representation, regulator interviews, coronial inquests) — and penalties only under
+statutory liability covers in contexts where no ban applies. Any D&O, management
+liability, or statutory liability policy must be read against these provisions: a
+"fines and penalties" extension is void, and entering into or relying on it is itself
+an offence, where a ban applies — regardless of what the policy schedule says. Broker
+renewal papers and board papers describing D&O and statutory liability cover should
+state this plainly.
 
 ### Workers compensation — cross-reference
 
@@ -888,10 +962,12 @@ arising from their conduct in those roles. The policy responds to:
 - Statutory liability for breaches by directors and officers
 
 Industrial manslaughter has shifted the D&O landscape for WHS. Where a director or officer
-faces personal prosecution for industrial manslaughter or breach of WHS duties — and the
-maximum sentence is up to 20–25 years imprisonment depending on jurisdiction — the D&O
-policy is critical to fund the defence (legal costs) even if the policy ultimately cannot
-indemnify a custodial sentence.
+faces personal prosecution for industrial manslaughter or breach of WHS duties — with
+maximum penalties for individuals of up to 20–25 years' imprisonment depending on
+jurisdiction, and life imprisonment in the NT — the D&O policy is critical to fund the
+defence (legal and investigation costs). It can do no more than that: a custodial
+sentence is personal, and monetary penalties are uninsurable wherever a s 272A-style ban
+applies (see the statutory bans section above).
 
 D&O policies in 2024–2026 typically include:
 
@@ -907,7 +983,9 @@ D&O policies in 2024–2026 typically include:
 WHS-relevant exclusions: **deliberate criminal conduct** is typically excluded (so a
 conviction for industrial manslaughter would prevent indemnity for civil consequences,
 though defence costs may be funded until conviction). **Insured vs insured** exclusion
-prevents claims by one director against another. Pollution exclusions vary.
+prevents claims by one director against another. Pollution exclusions vary. And in NSW,
+VIC, WA, and the Commonwealth jurisdiction, WHS monetary penalties are uninsurable by
+statute regardless of policy wording — D&O sections describing penalty cover must say so.
 
 The 2020–2024 period saw significant D&O market hardening — premiums rose, capacity
 contracted, and exclusion language tightened. Post-2024, the market has stabilised but
@@ -940,8 +1018,9 @@ know:
 ### Product liability insurance
 
 Product liability covers the business against claims arising from products supplied. For
-manufacturers, suppliers, and importers (PCBU duties under s 22–23 model WHS Act), the
-overlap between product safety and product liability is significant.
+designers, manufacturers, importers, suppliers, and installers of plant, substances and
+structures (upstream PCBU duties under ss 22–26 model WHS Act), the overlap between
+product safety and product liability is significant.
 
 WHS function involvement is most material where:
 - The business supplies plant or substances and a customer worker is injured

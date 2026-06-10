@@ -51,8 +51,11 @@ products are excluded. Finished engineered stone items that do not require modif
 (jewellery, garden ornaments, sculptures, kitchen sinks) are also outside the ban.
 
 ### Transitional arrangements
-- Contracts entered into on or before **31 December 2023** are exempt from the
-  prohibition if installation was completed by **31 December 2024**.
+- Transitional arrangements were **jurisdiction-specific** — not every state adopted
+  them (Queensland, for example, allowed no transition period). Verify the position
+  in the relevant jurisdiction before advising on legacy contracts.
+- Where adopted, contracts entered into on or before **31 December 2023** were exempt
+  from the prohibition if installation was completed by **31 December 2024**.
 - Work performed under transitional arrangements remained subject to the stronger
   RCS regulations.
 
@@ -94,6 +97,10 @@ from 0.1 mg/m³ in 2020 in response to the silicosis crisis. Health-based exposu
 standards published by Safe Work Australia treat 0.05 mg/m³ as the upper limit, not
 the target — controls should achieve as low as reasonably practicable.
 
+> **WES → WEL transition**: from **1 December 2026** the WES framework is replaced by
+> **Workplace Exposure Limits (WEL)**. The RCS limit of 0.05 mg/m³ (8-hour TWA)
+> carries across — cite the SWA WEL list for work performed from that date.
+
 ### Stronger RCS regulations (1 September 2024)
 From 1 September 2024, model WHS Regulations introduced stronger requirements for
 **all crystalline silica work**, not only engineered stone:
@@ -109,7 +116,9 @@ For HRCSW, the PCBU must:
 - Provide health monitoring to workers who carry out the work
 - Provide training in the SWA approved RCS training package
 - Conduct air monitoring to confirm controls are effective
-- Review the plan at least every five years and on significant change
+- Review (and as necessary revise) the plan whenever the silica processes or the
+  relevant control measures change — the model regulations tie review to
+  control-measure revision, not a fixed periodic cycle
 
 ### Materials containing crystalline silica
 Common materials in FM and refurbishment contracts:
@@ -144,8 +153,8 @@ the contrary is shown. Important for engagement with injured workers and HR/IR t
 ## 3. Asbestos Management Summary
 
 ### Regulatory framework
-Asbestos work is regulated under Part 8.7 of the model WHS Regulations and corresponding
-state provisions. The Code of Practice **How to Safely Remove Asbestos** and the
+Asbestos is regulated under Chapter 8 of the model WHS Regulations and corresponding
+state provisions (Part 8.7 covers asbestos removal work specifically). The Code of Practice **How to Safely Remove Asbestos** and the
 **How to Manage and Control Asbestos in the Workplace** Code apply.
 
 ### Asbestos types
@@ -164,10 +173,17 @@ buildings constructed before 2004.
 - Air monitoring is required for friable asbestos removal and where clearance is needed
 - **Licensed removal** required for friable asbestos (Class A licence) and for
   >10 m² of non-friable asbestos (Class B licence)
-- Workers in asbestos-related work require **health monitoring** (s 435–442
+- Workers in asbestos-related work require **health monitoring** (regs 435–444
   model Regs)
-- **Notifiable work**: friable asbestos removal must be notified to regulator
-  at least 5 days before commencing
+- **Notifiable work**: all licensed asbestos removal work — Class A and Class B —
+  must be notified to the regulator at least 5 days before commencing (reg 466)
+- **Clearance inspections**: Class A (friable) removal requires clearance inspection
+  and air monitoring by an independent **licensed asbestos assessor**; Class B
+  clearance may be carried out by an independent competent person
+- **Laboratory analysis**: asbestos identification samples and air monitoring samples
+  must be analysed by a **NATA-accredited laboratory**
+- **Asbestos assessor licensing**: air monitoring and clearance certification for
+  Class A removal work is restricted to licensed asbestos assessors
 
 ### Practical implications for FM / contract portfolios
 - All pre-2004 buildings in scope (Government IFM, Health, Education) must have
@@ -187,12 +203,18 @@ A PC must be appointed for any **construction project where the cost of the
 construction work is $250,000 or more** (model WHS Reg 293). The PC has additional
 duties beyond a standard PCBU.
 
+> **Victorian note**: Victoria has not adopted the model WHS laws. Under the OHS
+> Regulations 2017 (Vic) the principal-contractor trigger is construction work costing
+> **$350,000 or more**, and the required document is a **health and safety
+> coordination plan**, not the model WHSMP.
+
 PC duties (model WHS Reg 308–315) include:
 - Preparing a written **WHS Management Plan** before work commences
 - Managing risks associated with the project
 - Ensuring SWMS are prepared for all high-risk construction work
-- Inducting workers (Reg 316 — site-specific induction in addition to general
-  construction induction)
+- Inducting workers — ensuring workers hold **general construction induction
+  training** (the white card — Reg 316) and receive site-specific induction covering
+  the WHSMP and site rules (Regs 309–310)
 - Managing the site (access, signage, traffic, emergency, amenities)
 - Notifying the regulator of incidents and high-risk activities
 
@@ -252,7 +274,8 @@ is reasonably practicable depends on:
   of abuse in urine
 - **AS/NZS 4760:2019** — Procedures for specimen collection and detection of drugs
   in oral fluid
-- **AS 3547:2019** — Breath alcohol testing devices for personal use
+- **AS 3547:2019** — Breath alcohol testing devices (covers Type 1 and Type 2
+  devices)
 
 Testing must conform to the relevant standard or the evidentiary value is significantly
 weakened.
@@ -292,7 +315,8 @@ recent use. Manage policy expectations accordingly.
 ### Regulatory basis
 No prescribed heat exposure limit in the WHS Regulations — managed under the
 general SFAIRP duty. Guidance is provided in:
-- Safe Work Australia **Guide on Managing the Risks of Working in Heat** (2024)
+- Safe Work Australia **Guide on Managing the Risks of Working in Heat** (current
+  SWA guide — check the SWA site for the latest edition)
 - WorkSafe state guidance materials (NSW, QLD, NT all maintain practical guides)
 
 ### Heat illness spectrum
@@ -304,8 +328,10 @@ general SFAIRP duty. Guidance is provided in:
 | Heat syncope | Vasodilation + postural change | Sudden |
 | Heat stroke | Thermoregulatory failure; core temp >40°C | Acute medical emergency |
 
-Heat stroke is a notifiable serious injury and requires immediate cooling and
-medical evacuation. Outcomes depend on time to cooling.
+Heat stroke is an acute medical emergency requiring immediate cooling and medical
+evacuation. It is notifiable to the regulator only where it meets the serious injury
+or illness criteria in ss 36–37 of the WHS Act (e.g., the person requires immediate
+treatment as an in-patient in a hospital). Outcomes depend on time to cooling.
 
 ### Risk assessment factors
 - Air temperature
@@ -328,7 +354,7 @@ rate. Use as a planning tool, not an absolute threshold.
 | Elimination | Reschedule work to cooler periods (early morning, evening, night) |
 | Substitution | Mechanise tasks; reduce metabolic load |
 | Engineering | Shade structures; mechanical ventilation; cooled rest areas; pre-cooling (ice vests, slurry) |
-| Administrative | Acclimatisation programs (gradual exposure over 7–14 days); work/rest cycles; buddy system; hydration plan; heat illness training; supervisor monitoring |
+| Administrative | Acclimatisation programs (gradual exposure over 7–14 days); work/rest cycles; buddy system; hydration plan (with a urine colour chart for worker self-monitoring of hydration); heat illness training; supervisor monitoring |
 | PPE | Cooling vests; light-coloured high-vis; wide-brim hard hat attachments (where compatible) |
 
 ### Acclimatisation
@@ -355,12 +381,17 @@ plants, LPG storage, major explosives manufacturing.
 
 ### Regulatory regime
 MHF operators must:
-- **Determine MHF status** and notify the regulator
+- **Notify the regulator** once Schedule 15 chemicals are present (or likely to be
+  present) at **10% or more of the threshold quantity** — the regulator may then
+  determine the facility to be an MHF even where the full threshold is not exceeded
+- Hold an **MHF licence** — a determined facility must be licensed to operate
 - Prepare a **Safety Case** demonstrating that risks have been managed SFAIRP
 - Submit the Safety Case for regulator acceptance and operate under accepted terms
 - Maintain comprehensive **risk control mechanisms** with periodic review
 - Have an **Emergency Plan** developed in consultation with emergency services
 - Conduct **safety assessments** at defined frequencies
+- **Review the Safety Case and renew the licence on a 5-yearly cycle** (MHF licences
+  are granted for a maximum of 5 years)
 - Report **major incidents** to the regulator
 
 The Safety Case approach is fundamentally different from prescriptive WHS — it
@@ -408,9 +439,10 @@ Each category triggers the SWMS requirement (Reg 299), the consultation and
 training obligations, and the requirement for the PC (where appointed) to track
 the work in the WHSMP.
 
-> Jurisdictional note: some states have added categories (e.g. WA includes
-> additional electrical work scopes). Always check state-specific regulations
-> when scoping HRCW.
+> Jurisdictional note: WA mirrors the model 18 HRCW categories. Victoria — which has
+> not adopted the model WHS laws — runs its own equivalent list of **19** high risk
+> construction work items under the OHS Regulations 2017 (Vic). Always check
+> state-specific regulations when scoping HRCW.
 
 ---
 
@@ -427,7 +459,7 @@ AS/NZS 4994 (edge protection); AS/NZS 1576 (scaffolding).
 | Order | Approach | Examples |
 |---|---|---|
 | 1 | Work at ground level | Pre-fabrication; mast climbers assembled at ground |
-| 2 | Passive fall protection | Guardrails, scaffolding, EWPs, perimeter screens, MEWPs |
+| 2 | Passive fall protection | Guardrails, scaffolding, EWPs, perimeter screens |
 | 3 | Work positioning | Travel restraint systems, work positioning belts |
 | 4 | Fall arrest | Full-body harness + lanyard + anchor; arrests after fall begins |
 | 5 | Administrative | Procedures, training, supervision — supports but does not substitute |
@@ -455,11 +487,15 @@ Default to restraint where feasible. Arrest is a higher-consequence backup, not 
   — this is the highest-frequency fall pathway on construction sites
 
 ### Scaffold and EWP competency
+A scaffolding HRWL (any class) is required for scaffolding work where a person or
+object could fall more than **4 m** — the 4 m figure is the threshold for needing a
+licence at all, not the boundary between classes. The classes are cumulative:
+
 | HRWL class | Scope |
 |---|---|
-| Basic scaffolding (SB) | Working platform ≤ 4 m above ground |
-| Intermediate scaffolding (SI) | Any height; suspended; cantilevered; mast climbing |
-| Advanced scaffolding (SA) | Hung; spur; tube-and-coupler; complex configurations |
+| Basic scaffolding (SB) | Prefabricated and modular scaffold (incl. mobile); cantilevered materials hoists with a maximum working load of 500 kg; gin wheels; safety nets and static lines |
+| Intermediate scaffolding (SI) | SB scope + cantilevered crane loading platforms; cantilevered and spur scaffolds; barrow ramps and sloping platforms; mast climbing work platforms; tube-and-coupler scaffold |
+| Advanced scaffolding (SA) | SI scope + hung scaffolds and suspended (swing-stage) scaffolds |
 | Boom-type EWP (WP) | Boom-type EWP with boom length ≥ 11 m |
 
 Scissor lifts and boom-type EWPs <11 m do not require HRWL but require induction and
@@ -508,9 +544,10 @@ while awaiting rescue.
 - AS/NZS 3000:2018 — *Wiring Rules*
 - AS/NZS 4836 — *Safe working on or near low-voltage electrical installations*
 - AS/NZS 3760 / AS/NZS 3012 — test and tag, construction-site electrical
-- State Electrical Safety Acts (e.g., QLD Electrical Safety Act 2002, NSW Electricity
-  Supply Act 1995) impose duties on electrical workers, employers, and persons in
-  control of workplaces in addition to the WHS Act
+- State electrical safety law imposes duties on electrical workers, employers, and
+  persons in control of workplaces in addition to the WHS Act (e.g., QLD Electrical
+  Safety Act 2002; in NSW, electrical work safety sits under the WHS Regulations
+  together with the Gas and Electricity (Consumer Safety) Act 2017 (NSW))
 
 ### De-energise as default
 Energised work is permitted only where there is no other reasonably practicable way to
@@ -574,7 +611,9 @@ Isolation procedures must address all energy types present:
 - HV (>1000 V) work requires additional competency (HV switching authorisations, EWP
   for overhead lines) and is typically not within general electrical contractor scope
 - Test-and-tag program required for portable appliances on most workplaces; cadence
-  varies by environment (3-month construction, 12-month office)
+  varies by environment (3-month construction per AS/NZS 3012; for low-risk office
+  environments AS/NZS 3760:2022 permits intervals up to 5 years — the common
+  12-month office cadence is conservative practice, not a statutory minimum)
 
 ---
 
@@ -609,8 +648,8 @@ unventilated enclosures.
 |---|---|
 | Oxygen | 19.5–23.5% v/v |
 | Lower explosive limit (LEL) | <10% of LEL for any flammable gas/vapour |
-| Hydrogen sulphide (H2S) | <10 ppm STEL (15-min); evacuate at >10 ppm |
-| Carbon monoxide (CO) | <30 ppm STEL |
+| Hydrogen sulphide (H2S) | <10 ppm TWA (8-hour); STEL 15 ppm (15-min) |
+| Carbon monoxide (CO) | <30 ppm TWA (8-hour); no STEL assigned |
 
 Other contaminants tested as relevant to the space's history and contents.
 
@@ -708,13 +747,15 @@ Other contaminants tested as relevant to the space's history and contents.
 |---|---|
 | LF | Forklift (counterbalance + reach) |
 | LO | Order picking forklift |
-| C0 | Slewing mobile crane <20 t |
-| C1 | Slewing mobile crane >20 t |
-| C2 | Slewing mobile crane >60 t |
-| C6 | Slewing mobile crane >100 t |
-| CN | Non-slewing mobile crane >3 t |
+| C2 | Slewing mobile crane — up to 20 t |
+| C6 | Slewing mobile crane — up to 60 t |
+| C1 | Slewing mobile crane — up to 100 t |
+| C0 | Slewing mobile crane — over 100 t (open class) |
+| CN | Non-slewing mobile crane (>3 t capacity) |
 
-Plus EWP classes (WP), vehicle-loading crane (CV), and dogger (DG) / rigger (RB/RI/RA) for load attachment.
+Each slewing mobile crane class includes the lower slewing classes plus CN
+(non-slewing) and CV (vehicle-loading). Plus EWP classes (WP), vehicle-loading crane
+(CV), and dogger (DG) / rigger (RB/RI/RA) for load attachment.
 
 ### Common failure modes
 - Spotter assigned multiple tasks during plant operation
@@ -752,13 +793,16 @@ Australia adopted GHS Rev 7 from 1 January 2021 (transition completed). Labels a
 must use GHS pictograms, signal words, hazard statements (H-codes), and precautionary
 statements (P-codes).
 
-### Schedule 11 (placard) and Schedule 14 (manifest) quantities
+### Placard and manifest quantities (Schedule 11)
 Model WHS Regulations:
-- **Schedule 11** — placard quantities; trigger requirement to display hazard placards
-  at the workplace if total chemical quantity exceeds the listed threshold
-- **Schedule 14** — manifest quantities (higher thresholds); trigger requirement to
-  prepare a manifest of hazardous chemicals + site plan and provide to emergency
-  services. Also triggers notification to the regulator
+- **Schedule 11, Table 11.1** sets both thresholds: **Column 4 — placard quantities**
+  (trigger the requirement to display hazard placards at the workplace if the total
+  chemical quantity exceeds the listed threshold) and **Column 5 — manifest
+  quantities** (higher thresholds; trigger the requirement to prepare a manifest of
+  hazardous chemicals + site plan, provide it to emergency services, and notify the
+  regulator)
+- **Schedule 13** — placarding requirements (placard design, content and placement)
+- **Schedule 14** — health monitoring requirements (not chemical quantities)
 
 ### Placarding and storage standards
 | Standard | Subject |
@@ -768,7 +812,7 @@ Model WHS Regulations:
 | AS 3780 | Storage and handling of corrosive substances |
 | AS 4326 | Storage and handling of oxidising agents |
 | AS 4332 | Storage and handling of gases in cylinders |
-| AS/NZS 4081 | Storage and handling of toxic substances |
+| AS/NZS 4452 | Storage and handling of toxic substances |
 
 ### Safety Data Sheets (SDS)
 - Current version (revised at minimum every 5 years; sooner if hazard information changes)
@@ -815,7 +859,8 @@ Residual hazards remain until the container is decontaminated. "Empty" drums and
 - SDS not current; not accessible at point of use
 - Segregation matrix not applied in storage (oxidisers next to flammables)
 - Decanting without bunding or labelled secondary containers
-- Manifest not prepared or not provided to emergency services for Schedule 14 sites
+- Manifest not prepared or not provided to emergency services for sites exceeding
+  manifest quantities (Schedule 11, Table 11.1, Column 5)
 - Workers untrained in GHS pictograms and SDS use
 
 ### Practical implications for FM / contract portfolios
@@ -823,7 +868,8 @@ Residual hazards remain until the container is decontaminated. "Empty" drums and
   across a portfolio site
 - Maintenance workshops — paint, solvents, oils, batteries — frequently exceed
   Schedule 11 thresholds; manifest may apply
-- Laboratory and healthcare sites have additional Sch 11/14 obligations
+- Laboratory and healthcare sites have additional placard and manifest obligations
+  (Schedule 11)
 - Procurement: substitution to lower-hazard chemicals during specification reduces
   ongoing control burden
 
@@ -877,7 +923,8 @@ exposure) impairs communication and situational awareness — match the class to
 exposure with a margin, not maximum attenuation.
 
 ### Audiometric testing
-Required for workers regularly exposed above LAeq,8h 85 dB or LC,peak 140 dB (Reg 58).
+Required for workers who are **frequently required to use personal hearing protectors**
+to control noise exposure above the exposure standard (Reg 58).
 - Baseline within 3 months of starting exposed work
 - Subsequent tests at least every 2 years
 - More frequently for high-exposure roles
@@ -930,7 +977,7 @@ EAV — trigger for risk assessment, health surveillance, control review.
 ELV — must not be exceeded.
 
 ### Common HAV tools and indicative vibration
-| Tool | Indicative A(8) per hour of use |
+| Tool | Typical vibration magnitude (m/s²) |
 |---|---|
 | Chainsaw | 4–8 m/s² |
 | Jackhammer / breaker | 8–25 m/s² |
@@ -1008,8 +1055,9 @@ machinery and mobile plant.
 Categorised by safety integrity level — must match the hazard severity. Test daily
 where used.
 
-### Plant risk assessment (Reg 207)
-Required before first use of plant and on significant change. Considers:
+### Plant risk assessment (Regs 203–213)
+The plant risk management duties sit in model WHS Regs 203–213. Risk assessment is
+required before first use of plant and on significant change. Considers:
 - Hazards from intended use
 - Hazards from foreseeable misuse
 - Hazards from cleaning, maintenance, set-up
@@ -1020,17 +1068,17 @@ Documented; reviewed when plant or use changes; available at the workplace.
 
 ### Plant registration (Reg 268–270 + Schedule 5)
 Specified plant requires design registration and/or item registration with the
-regulator. Common registrable plant:
+regulator. Schedule 5 of the model WHS Regulations lists both (non-exhaustive
+summary):
 
-| Plant type | Registration |
+| Registration | Plant (Schedule 5) |
 |---|---|
-| Pressure vessels (>250 kPa) | Design + item |
-| Cranes (>10 m total length / >50 m height) | Item |
-| Lifts and escalators | Item |
-| Mobile cranes (>10 t lifting capacity) | Item |
-| EWPs (>11 m boom) | Item |
-| Concrete placing booms | Item |
-| Industrial tractors | Item |
+| Design registration (Part 1) | Boom-type EWPs; tower cranes (incl. self-erecting); gantry cranes >5 t; vehicle hoists; mobile cranes >10 t rated capacity; mast climbing work platforms; hoists with a platform movement >2.4 m designed to lift people; building maintenance units; concrete placing booms; prefabricated scaffolding; amusement devices; lifts and escalators; pressure equipment (boilers, pressure vessels, gas cylinders — by hazard level) |
+| Item registration (Part 2) | Tower cranes (incl. self-erecting); mobile cranes >10 t rated capacity; lifts and escalators; building maintenance units; concrete placing booms; amusement devices; certain boilers and pressure vessels (by hazard level) |
+
+Note: boom-type EWPs require **design** registration regardless of boom length —
+the 11 m boom-length figure is the threshold for the WP high-risk work licence,
+not for plant registration.
 
 Registration is jurisdiction-specific; consult relevant regulator.
 
@@ -1072,9 +1120,10 @@ not in the regulations.
 
 ### Risk factors
 - **Force**: high force exertion; sudden or jerky movements
-- **Posture**: bending or twisting >30°; overhead reach; sustained postures (>30 seconds)
-- **Movement**: repetitive (>2 minutes continuous or >50% of work cycle); long duration
-  without recovery
+- **Posture**: bending or twisting >30°; overhead reach; sustained postures held
+  for more than 30 minutes continuously or more than 2 hours over a shift
+- **Movement**: repetitive — the same or similar movements made **more than twice a
+  minute** (Hazardous Manual Tasks Code); long duration without recovery
 - **Duration**: long-duration exposure to any of the above
 - **Vibration**: cross-reference §15 (HAV and WBV)
 - **Environment**: heat, cold, lighting, working surface, confined work area
@@ -1144,7 +1193,8 @@ mining (state-specific).
 Applies to heavy vehicle drivers (>12 t GVM or fatigue-regulated combinations) across
 all states except WA + NT (which have separate but similar regimes). Three accreditation
 tiers:
-- **Standard hours**: 12 hours work in any 24, 14 hours work in any 24 with rest
+- **Standard hours**: maximum 12 hours work in any 24-hour period (solo drivers),
+  with prescribed rest
 - **Basic Fatigue Management (BFM)**: up to 14 work hours in 24 with additional rest
 - **Advanced Fatigue Management (AFM)**: bespoke schedules approved by NHVR with
   comprehensive fatigue management system
@@ -1215,8 +1265,6 @@ Models support roster design; not a substitute for individual self-assessment.
 
 ---
 
----
-
 ## 19. Crane Lifts and Rigging
 
 ### Standards framework
@@ -1224,7 +1272,7 @@ Models support roster design; not a substitute for individual self-assessment.
   1418.18 crane runways, etc.)
 - AS 2550 series — Cranes — Safe use
 - AS 1418.5 and AS 2550.5 — Mobile cranes specifically
-- Model WHS Reg 81–118 + Schedule 4 — HRWL classes
+- Model WHS Reg 81–118 + Schedule 3 — HRWL classes
 - AS 4991 — Lifting devices
 
 ### Critical lift vs routine lift
@@ -1248,17 +1296,20 @@ defaults):
 | Class | Scope |
 |---|---|
 | **DG** Dogger | Slinging loads; direction of crane via standardised signals |
-| **RB** Basic rigger | Movement of equipment; static lines; safety nets and harness systems; perimeter safety screens |
-| **RI** Intermediate rigger | Rigger basic + cantilever decks, hoists and mast climbers, demolition rigging, dual-load lifts |
-| **RA** Advanced rigger | Rigger intermediate + tilt panels, multi-pole rigging, gin pole rigging |
-| **C0** | Slewing mobile crane <20 t |
-| **C1** | Slewing mobile crane <60 t |
-| **C2** | Slewing mobile crane <100 t |
-| **C6** | Slewing mobile crane >100 t |
-| **CN** | Non-slewing mobile crane >3 t |
-| **CV** | Vehicle-loading crane >10 t/m |
+| **RB** Basic rigger | Movement of plant and equipment; hoists (incl. mast climbing work platforms); static lines, safety nets and perimeter safety screens; cantilevered crane loading platforms |
+| **RI** Intermediate rigger | RB scope + tilt-up panels, demolition rigging, dual-crane (dual-load) lifts |
+| **RA** Advanced rigger | RI scope + gin poles and shear legs, flying foxes and cableways, guyed derricks, suspended and fabricated hung scaffolds |
+| **C2** | Slewing mobile crane — up to 20 t |
+| **C6** | Slewing mobile crane — up to 60 t |
+| **C1** | Slewing mobile crane — up to 100 t |
+| **C0** | Slewing mobile crane — over 100 t (open class) |
+| **CN** | Non-slewing mobile crane (>3 t capacity) |
+| **CV** | Vehicle-loading crane (capacity of 10 metre tonnes or more) |
 | **CT** | Tower crane |
 | **CB** | Bridge / gantry crane |
+
+Each slewing mobile crane class includes the lower slewing classes plus CN
+(non-slewing) and CV (vehicle-loading).
 
 ### Rigging plan content
 
@@ -1319,10 +1370,26 @@ A documented rigging plan for a critical lift includes:
 
 ### Standards framework
 - AS 2601:2001 — *The demolition of structures*
-- AS 4254 (asbestos in demolition) — cross-ref §3
+- Codes of Practice *How to Safely Remove Asbestos* and *How to Manage and Control
+  Asbestos in the Workplace* (asbestos encountered in demolition) — cross-ref §3
 - AS 1216 (hazard signage) — cross-ref §13
 - Model WHS Reg 291 item 3 (demolition of load-bearing structures is HRCW)
-- State-specific demolition licensing (NSW, VIC, QLD have specific schemes)
+- Demolition licensing varies by jurisdiction: NSW issues DE1 (unrestricted) and DE2
+  (restricted) demolition licences; VIC and QLD rely on demolition notification plus
+  building-industry licensing — there is no WHS demolition licence in those states
+
+### Statutory notification of demolition work
+
+Under the model WHS Regulations (the Reg 142 pattern), written notice must be given
+to the regulator **at least 5 days before** commencing:
+- demolition of a structure, or part of a structure, that is load-bearing or otherwise
+  related to the physical integrity of the structure and is **at least 6 m high**
+- demolition work involving load-shifting machinery on a suspended floor
+- demolition work involving **explosives**
+
+Jurisdictional variation applies — some jurisdictions deliver this through licensing
+(e.g. NSW) or modified notification schemes. Confirm the notification or licensing
+pathway with the relevant regulator before mobilisation.
 
 ### Pre-demolition engineering survey
 
@@ -1414,18 +1481,20 @@ WHS Management Plan references the survey.
 ### Standards framework
 - AS 2865 (confined spaces) — applies if the excavation is a confined space;
   cross-ref §11
-- Model WHS Reg 305 — excavation work HRCW
+- Model WHS Reg 291 — work in or near a shaft or trench deeper than 1.5 m, or a
+  tunnel, is HRCW (SWMS required); Regs 305–306 — additional controls for trenches
+  at least 1.5 m deep
 - SWA *Excavation Work* Code of Practice (2018)
-- AS 4744.1 series — Demolition (related)
+- AS 4744.1 — Steel shoring and trench lining equipment (trench support)
 - WorkSafe guidance per jurisdiction
 
 ### Service location before excavation
 
-Mandatory before any excavation. Dial Before You Dig (DBYD —
-www.byda.com.au) provides service location data from utility owners.
-Process:
+Mandatory before any excavation. Before You Dig Australia (BYDA — rebranded from
+Dial Before You Dig in 2022; www.byda.com.au) provides service location data from
+utility owners. Process:
 
-1. DBYD request submitted (online; minimum 2 business days before excavation)
+1. BYDA enquiry submitted (online; minimum 2 business days before excavation)
 2. Plans received from each affected utility (electricity, gas, water,
    sewerage, telecommunications, fuel)
 3. Site walkover with plans — identify markers, ducts, manholes
@@ -1436,16 +1505,21 @@ Process:
 
 ### Cave-in prevention
 
-The model regulation triggers SWMS at >1.5 m depth, but **cave-in risk
-exists at lower depths in unstable soils**. Soil classification (per AS
-3798):
+Reg 291 triggers SWMS at >1.5 m excavated depth, but **cave-in risk exists at
+lower depths in unstable soils**. Australian WHS law has no prescriptive soil
+typology (the Type A/B/C classification is US OSHA, not Australian practice).
+Instead, the SWA *Excavation Work* Code of Practice requires ground conditions to
+be assessed by a **competent person** — a geotechnical assessment covering:
 
-| Soil class | Description | Cave-in risk |
-|---|---|---|
-| Stable rock | Solid mineral with no cracks | Low |
-| Type A | Stable cohesive soil — clay loam, silty clay | Moderate; benching effective |
-| Type B | Less stable — silt loam, low-strength clay | High; shoring recommended |
-| Type C | Unstable — sand, gravel, saturated soils | High; shoring mandatory |
+- Soil type, strength and cohesion (including fissuring and weathering)
+- Water table, seepage and prior saturation
+- Previously disturbed or filled ground
+- Nearby loads and vibration sources (spoil, plant, structures, traffic)
+- Exposure duration and weather
+
+The geotechnical assessment determines the control method (benching, battering,
+shoring or shields) and the safe batter/bench geometry for the actual ground
+conditions.
 
 ### Cave-in prevention methods
 
@@ -1474,7 +1548,9 @@ or where contamination is suspected.
 
 - Edge protection (barriers, fencing) for excavations >1.5 m deep
 - Spoil placed >1 m from edge (load on edge causes cave-in)
-- Ladders or ramps for access; positioned within 25 ft (7.6 m) of any worker
+- Safe means of entry to and exit from the excavation (ladders, ramps, steps)
+  provided and maintained per the SWA *Excavation Work* Code, positioned so workers
+  can exit quickly in an emergency
 - No worker may be left in an excavation without access route maintained
 - Plant interface — minimum 5 m from edge for tracked plant (varies by soil
   and load)
@@ -1488,7 +1564,7 @@ or where contamination is suspected.
 - Lightning protocols for steel sheet piling
 
 ### Common failure modes
-- DBYD not done or not respected
+- BYDA enquiry not lodged, or plans not respected
 - Mechanical excavation without potholing to confirm services
 - Cave-in in marginally classified soil (assumed Type A, actually Type B)
 - Spoil heap loading the edge
@@ -1536,9 +1612,9 @@ Required for hot work outside dedicated welding bays in:
 
 ### Pre-work preparation
 
-1. Combustible materials removed within 11 m (default per AS 1674.1) or
-   protected with non-combustible covers; greater distances for high-risk
-   work
+1. Combustible materials removed from the **fire-risk work area** determined
+   under AS 1674.1 (commonly applied as 15 m from the hot work) or protected
+   with non-combustible covers; greater distances for high-risk work
 2. Atmospheric testing for flammable atmospheres (LEL <10% — cross-ref
    §11); for hot work in confined spaces or on closed vessels containing
    flammable residues
@@ -1553,13 +1629,17 @@ Required for hot work outside dedicated welding bays in:
 
 | Hazard | Control |
 |---|---|
-| **UV radiation** | Helmet with shade rating appropriate to current (DIN/EN 379); barriers to protect adjacent workers ("arc eye") |
-| **Welding fume** | Local exhaust ventilation (LEV); manganese as the critical exposure — WES 1 mg/m³ reduced from 5 in 2024; respiratory protection where LEV inadequate |
+| **UV radiation** | Helmet with filter shade appropriate to the welding current (AS/NZS 1338.1); barriers to protect adjacent workers ("arc eye") |
+| **Welding fume** | Local exhaust ventilation (LEV); welding fume is an IARC Group 1 carcinogen — the WES for **welding fume (not otherwise classified)** was reduced from 5 to 1 mg/m³ in January 2024; individual constituents (e.g. manganese, hexavalent chromium) carry their own, lower exposure standards; respiratory protection where LEV inadequate |
 | **Spatter and slag** | Fire-resistant clothing; gauntlets; eye protection; spatter screens around the work; clear debris from below |
 | **Confined space welding** | LEV + atmospheric monitoring (LEL, O2, fume); standby; rescue plan; cross-ref §11 |
 | **Electric shock (electric arc welding)** | Isolation; RCD where required; voltage reduction devices on stick welders; cross-ref §10 |
 | **Compressed gas (oxy-fuel)** | Cylinder restraint; flashback arrestors; hose inspection; segregation in storage |
 | **Hot work on closed vessels** | Pre-purge with inert gas; never weld on full or recently-emptied flammable container; specialist methodology |
+
+> **WES → WEL transition**: from **1 December 2026** the WES framework is replaced by
+> **Workplace Exposure Limits (WEL)** — confirm welding fume and constituent limits
+> against the SWA WEL list for work performed from that date.
 
 ### Fire watch duties
 

@@ -16,7 +16,7 @@ governance failures in WHS practice.
 5. [Pre-Task and Point-of-Work Risk Assessment Tools](#5-pre-task-and-point-of-work-tools)
 6. [Output Checklist](#6-output-checklist)
 
-> For organisation-specific audit programme, permit types in use, inspection
+> For organisation-specific audit program, permit types in use, inspection
 > cadence, and template numbering, load `references/company.md`.
 
 ---
@@ -172,7 +172,7 @@ risks into the same response category and incentivise minimisation.
 | **ISO/IEC 17021-1** | Requirements for bodies providing audit and certification of management systems (third-party certification) |
 | **ISO 45001:2018** | The OH&S management system being audited (cross-reference `frameworks.md` §3) |
 | **ISO 31000:2018** | Risk management — guidelines (used to frame audit risk assessment) |
-| **AS/NZS 4801:2023** | Withdrawn standard, but still referenced in some legacy contracts and government schedules |
+| **AS/NZS 4801:2001** | Withdrawn (superseded by ISO 45001; the migration of certifications completed around mid-2021), but still referenced in some legacy contracts and government schedules |
 
 ### Audit types
 
@@ -182,18 +182,18 @@ risks into the same response category and incentivise minimisation.
 | **Second party** | Conducted by, or on behalf of, an interested party in the organisation | Typically a client auditing a contractor's WHS system; principal contractor auditing subcontractor |
 | **Third party** | Conducted by an external, independent body | Accredited certification body (e.g., BSI, SAI Global, BV, DNV) for ISO 45001 certification |
 
-### Audit programme vs individual audit
+### Audit program vs individual audit
 
 A common confusion. They are different things, owned by different people.
 
-- **Audit programme** — the multi-year plan covering scope, frequency,
+- **Audit program** — the multi-year plan covering scope, frequency,
   methodology, resources, reporting line, and the cycle by which all areas of
   the management system are audited. Owned by the WHS Manager or equivalent.
   Reviewed annually.
 - **Individual audit** — a specific instance with defined scope, criteria,
   schedule, audit team, and reporting deadline. Assigned to a lead auditor.
 
-The programme exists to ensure no part of the OH&SMS goes unaudited; the
+The program exists to ensure no part of the OH&SMS goes unaudited; the
 individual audit executes one slice of that plan.
 
 ### Audit planning steps
@@ -264,7 +264,7 @@ governance failure — the audit findings cannot be relied on.
   them gives a balanced picture and improves auditee engagement)
 - **Appendices** — audit plan, attendees by session, documents reviewed,
   sampling rationale, photographs (where relevant)
-- **Distribution** — auditee senior management + audit programme owner;
+- **Distribution** — auditee senior management + audit program owner;
   certification body where applicable
 
 ### Corrective action and effectiveness verification
@@ -307,6 +307,14 @@ specified categories of work commence. It is a governance wrapper around
 high-energy or high-consequence work — not a substitute for the underlying
 risk assessment, procedure, or competency.
 
+With one exception, permits are **governance constructs**, required by the
+organisation's management system, the client's contract, or industry
+practice — not by statute. The exception is the **confined space entry
+permit, which is expressly mandated by model WHS Regulation 67**. That is
+why permit types and trigger thresholds legitimately vary between
+organisations, but a confined space entry without a permit is a direct
+regulatory breach, not just a system non-conformance.
+
 ### When permit-to-work applies
 
 PTW is appropriate where:
@@ -324,10 +332,10 @@ PTW is appropriate where:
 | Permit type | Trigger | Key controls |
 |---|---|---|
 | **Hot work permit** | Welding, cutting, grinding, soldering, or any open flame/spark in an area not designated for hot work | Fire watch; atmospheric test for flammables; extinguishers; isolation of flammable sources; post-work fire watch (typically 30–60 min) |
-| **Confined space entry permit** | Any confined space as defined in AS 2865:2009 (cross-reference `hazards.md` §11 once added) | Atmospheric test (O₂, LEL, toxics); standby person; rescue plan; communication; continuous or repeat atmospheric monitoring |
+| **Confined space entry permit** | Any confined space as defined in AS 2865:2009 (cross-reference `hazards.md` §11 once added). **The one statutorily mandated permit — model WHS Reg 67** | Atmospheric test (O₂, LEL, toxics); standby person; rescue plan; communication; continuous or repeat atmospheric monitoring |
 | **Working at height permit** | Above defined threshold (typically >2 m or as per site rule) | Anchor verification; fall arrest or restraint; rescue plan; weather criteria; competent person |
 | **Isolation / Lock-Out Tag-Out (LOTO) permit** | Energy isolation for maintenance, inspection, or cleaning | Six-step isolation; verification (test for dead); personal locks; isolation register; defined removal sequence |
-| **Excavation permit** | Below defined depth (typically >1.5 m per model WHS Reg 297) | Service locates (Dial Before You Dig); shoring/benching/battering; atmospheric test if confined; edge protection; spoil management |
+| **Excavation permit** | Site-defined trigger, commonly trench/shaft ≥1.5 m — aligning with the HRCW definition in model WHS Reg 291; trenches ≥1.5 m attract additional statutory controls (regs 305–306) | Service locates (Dial Before You Dig / Before You Dig Australia); shoring/benching/battering; atmospheric test if confined; edge protection; spoil management |
 | **Electrical work permit** | Energised electrical work where de-energisation is not reasonably practicable (model WHS Reg 158) | Risk assessment; competent licensed person; PPE rated for arc flash; isolation of adjacent circuits; rescue plan |
 | **Live line permit** | Work on energised overhead or underground electrical infrastructure | Network operator authorisation; access permit; safety observer; defined approach distances |
 | **Crane lift permit (critical lift)** | Lift above defined weight, near critical infrastructure, or tandem lift | Lift plan; competent rigger and dogger; ground assessment; exclusion zone; weather criteria |
@@ -425,7 +433,7 @@ They have a defined role and defined limits.
 |---|---|---|
 | **Take 5** | — | Pre-start mental check; typically 5 questions on a card (Stop, Look, Identify, Assess, Manage) |
 | **SLAM** | Stop, Look, Assess, Manage | Pre-task brief; widely used in maintenance and field work |
-| **STAR** | Stop, Think, Act, Review | Point-of-work hazard check ([organisation]-branded; now widely adopted across infrastructure) |
+| **STAR** | Stop, Think, Act, Review | Point-of-work hazard check; widely used across infrastructure and resources |
 | **JSEA / JHA** | Job Safety/Hazard Analysis | Documented task-level risk assessment; more substantial than Take 5; not a SWMS |
 | **SWMS** | Safe Work Method Statement | Statutory document for HRCW (model WHS Reg 299; cross-reference `hazards.md` §4) |
 | **Dynamic risk assessment** | — | Continuous reassessment during changing conditions; typical of emergency services and dynamic environments |
@@ -480,7 +488,7 @@ Before finalising any inspection, audit, or permit output, confirm:
 - [ ] Finding classification (immediate / scheduled / observation) is applied,
       not binary pass/fail
 - [ ] Recurring findings flagged as systemic, not just logged again
-- [ ] Inspection programme effectiveness reviewed against incident data
+- [ ] Inspection program effectiveness reviewed against incident data
 
 ### Audit outputs
 - [ ] Audit scope and criteria explicit at the start of the report
@@ -490,7 +498,7 @@ Before finalising any inspection, audit, or permit output, confirm:
 - [ ] Sample audit findings vs systemic findings distinguished
 - [ ] Effectiveness verification scheduled, not assumed
 - [ ] Auditor independence confirmed; no audit of own work
-- [ ] Distribution includes audit programme owner + auditee senior management
+- [ ] Distribution includes audit program owner + auditee senior management
 
 ### Permit outputs
 - [ ] Permit has authorised issuer (not the holder; not the worker)
@@ -509,5 +517,5 @@ Before finalising any inspection, audit, or permit output, confirm:
 
 ---
 
-For organisation-specific audit programme, permit types in use, and inspection
+For organisation-specific audit program, permit types in use, and inspection
 cadence, load `references/company.md`.

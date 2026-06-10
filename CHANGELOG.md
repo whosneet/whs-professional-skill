@@ -10,6 +10,111 @@ currency updates, and small additions).
 
 ---
 
+## [1.4.0] — 2026-06-10
+
+### Correction and currency release
+
+A full audit of the corpus (~125 findings) was actioned in this release.
+No new top-level scope; the focus was factual accuracy, regulatory
+currency to mid-2026, and packaging hygiene.
+
+### Fixed
+
+- Statutory citation tables across the corpus — officer due diligence
+  (s 27, not s 26), HSWA officer duty (s 44) and Category 1 (s 47),
+  Cth industrial manslaughter (WHS Act s 30A), psychosocial regulations
+  (model WHS Regs rr 55A–55D), construction project threshold (Reg 292,
+  $250K) and principal contractor appointment (Reg 293) / duties
+  (Regs 308–315), SWMS duty (Reg 299), HRWL classes (Schedule 3, with
+  Schedule 4 carrying competency requirements)
+- Industrial manslaughter table — jurisdictions, penalties, commencement
+  dates corrected
+- Penalty quanta — Commonwealth penalty unit $330 from 7 November 2024;
+  whistleblower penalties split into criminal offences (victimisation up
+  to 2 years imprisonment; confidentiality breach 6 months) and civil
+  penalties (individual 5,000 PU; body corporate the greater of 50,000 PU
+  / 3× benefit / 10% turnover capped at 2.5M PU)
+- Whistleblower section mapping — victimisation prohibition s 1317AC,
+  civil remedy gateway s 1317AD (shifted onus s 1317AD(2B)), orders
+  s 1317AE; confidentiality investigation exception reworded (information
+  likely to identify, never the identity itself)
+- State PID landscape — SA now Public Interest Disclosure Act 2018
+  (1993 Act repealed 1 July 2019; OPI/ICAC SA oversight); NT PID Act 2008
+  repealed (protections under the ICAC (NT) regime since 2018)
+- Case-study corrections — including the Whakaari appeal outcome
+  (conviction quashed February 2025, [2025] NZHC 288) and Pike River
+  status (bodies never recovered; workings never re-entered)
+- High-risk work licensing tables — slewing crane classes (C2 ≤20 t,
+  C6 ≤60 t, C1 ≤100 t, C0 open) and related entries
+- Standards index — AS 2675 relabelled (portable consumer kits, 1983;
+  workplace kit contents per the SWA First Aid Code), AS/NZS 4452 (toxic
+  substances storage) replacing the AS 4081 attribution, AS 4839
+  (portable oxy-fuel gas systems), AS 1216 (DG class labels only;
+  workplace pictograms are GHS), AS 4775-2007 designation reconciled,
+  AS/NZS 4979 removed; RIIWHS204 decoupled from HRWL
+- Procurement reference — NICNAS removed (abolished 2020; AICIS holds no
+  incident data) in favour of regulator prosecution registers and SWA
+  statistics; Pegasus noted as acquired by Avetta (2022; now Avetta One /
+  legacy Onsite Track Easy); regulator registers separated from
+  commercial platform status
+- Glossary — MTI ">3 allied health sessions" marked as an organisational
+  convention (not AS 1885.1); CRO redefined (Chief Risk Officer, with
+  Critical Risk Owner/Observation usage flagged); example prompt fixed to
+  the $250K construction project threshold
+
+### Changed
+
+- Currency to mid-2026 — NSW WHS Regulation 2025 and standalone SafeWork
+  NSW; NSW workers compensation psychological injury reforms (2025–26);
+  WA Workers Compensation and Injury Management Act 2023; Victorian
+  psychological health regulations; EPBC reform Acts 2025; WES → WEL
+  transition (1 December 2026); NZ HSWA Amendment Bill
+- `README.md` — repository tree updated (PUBLISHING.md, EVALS.md, CI
+  workflow); packaging instructions replaced with clean-archive commands;
+  roadmap rewritten (delivered items removed, new contribution targets);
+  Ron Westrum added to acknowledged thinkers
+- `PUBLISHING.md` — stale 9-file inventory replaced with a pointer to the
+  README repository tree; packaging commands updated with archive-hygiene
+  exclusions
+- `CONTRIBUTING.md` — style rules aligned to the corpus as written
+
+### Added
+
+- Road transport / HVNL Chain of Responsibility section
+  (`references/sector-regimes.md` §14)
+- Regulator-compelled evidence — s 155 notices, s 171/172 powers
+  (`references/legislation.md`)
+- Enforceable undertakings and limitation periods
+- ISO 45003, psychosocial risk controls, and governance / assurance
+  sections (`references/frameworks.md` §14–§15)
+- SIF/pSIF analytics treatment and glossary entries
+- WHS monetary penalty insurance bans (model WHS Act s 272A)
+- Fair Work Act Part 3-5A sexual harassment chain
+- Regulator notification phone script template
+  (`references/output-templates.md` §23)
+- Whistleblower additions — PID Amendment (Review) Act 2023 (Cth);
+  anonymous disclosure protection statement; s 1317AAD public interest /
+  emergency disclosure preconditions; ASIC v TerraCom (2025) case anchor
+- Commonwealth Anti-Slavery Commissioner (established 2024) noted in the
+  Modern Slavery passage
+- Glossary terms — EU (enforceable undertaking), Category 1/2/3 offences,
+  HAZOP, FMEA, SDS, WEL, SIF/pSIF, CoR, NHVR, CoP usage note; HVNL entry
+  expanded
+- `EVALS.md` — regression evaluation prompts tied to known fixed errors
+- `.github/workflows/package.yml` — CI packaging workflow building a
+  clean skill archive on tagged releases
+- `SKILL.md` frontmatter `version` field
+
+### Security and privacy
+
+- Fictionalised company example — the worked example in
+  `references/company.md` is now Meridian Facilities Group, a fictional
+  organisation; real-organisation content removed from the corpus
+- Packaging hygiene — archives now exclude `.DS_Store` and `__MACOSX/`
+  entries; documentation warns against macOS Finder "Compress"
+
+---
+
 ## [1.3.0] — 2026-05-27
 
 ### Added — Strategic and specialist round

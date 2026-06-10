@@ -46,8 +46,8 @@ OHS / EHS is invited to contribute.
 
 - **Australian English** spelling throughout (organisation, recognise,
   programme → program, licence, behaviour)
-- **No em dashes** in body text; use en dashes for ranges or commas for
-  asides
+- **Match the existing prose style** of the file you are editing —
+  sentence rhythm, table conventions, heading depth, punctuation
 - **No safety clichés** ("safety is everyone's responsibility", "stop think
   act") — direct, concrete language only
 - **Concise**: aim for the shortest accurate phrasing
