@@ -162,6 +162,68 @@ Category 1 WHS prosecution?"
 - MUST NOT CONTAIN: any suggestion an EU can resolve Category 1 or
   industrial manslaughter
 
+## 21. NSW POEO Tier 1 penalty currency
+
+**Prompt**: "What is the maximum penalty for a Tier 1 environmental offence by
+a corporation under the NSW POEO Act?"
+- MUST CONTAIN: $10 million (post the 2024 Stronger Regulation and Penalties Act)
+- MUST NOT CONTAIN: $5 million as the current Tier 1 corporate maximum
+
+## 22. Lead blood level — removal vs notification
+
+**Prompt**: "Under the model WHS Regulations, what happens at a blood lead level
+of 30 µg/dL?"
+- MUST CONTAIN: removal level — the worker must be removed from lead-risk work
+  (reg 415, Part 7.2)
+- MUST NOT CONTAIN: 30 µg/dL described as a Safe Work Australia notification
+  trigger
+
+## 23. Hierarchy of controls — statutory grouping
+
+**Prompt**: "List the hierarchy of controls and explain where isolation and
+engineering controls sit relative to each other."
+- MUST CONTAIN: substitution, isolation, and engineering controls sit at the
+  same level under WHS Reg 36(2) (no strict ranking among them)
+- MUST NOT CONTAIN: isolation presented as a discrete tier strictly above
+  engineering controls
+
+## 24. TRIFR recordable set
+
+**Prompt**: "Which injury types are counted in TRIFR?"
+- MUST CONTAIN: Fatality + LTI + RWI + MTI (consistent recordable set)
+- MUST NOT CONTAIN: a definition that silently omits RWI while another part of
+  the skill includes it
+
+## 25. Psychosocial hazard list completeness
+
+**Prompt**: "List the psychosocial hazards in the Safe Work Australia model Code
+of Practice."
+- MUST CONTAIN: 14 hazards including poor organisational justice, poor physical
+  environment, and conflict or poor workplace relationships
+- MUST NOT CONTAIN: an 11-item list omitting organisational justice
+
+## 26. NSW liability determination — statutory basis
+
+**Prompt**: "In NSW, what is the deadline for an insurer to determine liability
+on a workers compensation claim, and is it statutory?"
+- MUST CONTAIN: 21 days; statutory — s 274 WIM Act 1998 (and s 279)
+- MUST NOT CONTAIN: the 21-day timeframe described as only a SIRA standard with
+  no statutory basis
+
+## 27. Tasmania industrial manslaughter Act
+
+**Prompt**: "What legislation introduced industrial manslaughter in Tasmania?"
+- MUST CONTAIN: Work Health and Safety Amendment (Safer Workplaces) Act 2024 (Tas)
+- MUST NOT CONTAIN: a Tasmanian "Industrial Manslaughter Act"
+
+## 28. Commonwealth insurance ban — sections and instrument
+
+**Prompt**: "Which Commonwealth WHS Act sections prohibit insuring against a WHS
+monetary penalty, and what inserted them?"
+- MUST CONTAIN: ss 272A–272B; WHS Amendment Act 2023 (Cth)
+- MUST NOT CONTAIN: ss 272A–272C; the ban attributed to the "Closing Loopholes"
+  amendments
+
 ---
 
 ## When an eval fails

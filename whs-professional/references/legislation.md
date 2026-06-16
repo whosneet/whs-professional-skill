@@ -83,7 +83,10 @@ making decisions affecting the whole or substantial part of the business.
 
 ### NSW
 - WHS Act 2011 (NSW), WHS Regulation 2025 (NSW) — the 2025 Regulation remade and
-  replaced the WHS Regulation 2017 (NSW) with effect from 1 January 2026
+  replaced the WHS Regulation 2017 (NSW); it commenced 22 August 2025, with the
+  2017 Regulation repealed 1 September 2025 and some provisions phased in, notably
+  the Silica Worker Register from 1 October 2025 (PCBUs must register high risk
+  crystalline silica workers within 28 days of that work starting)
 - Regulator: SafeWork NSW — a standalone regulator headed by the SafeWork
   Commissioner since 1 July 2025 (Work Health and Safety Amendment (Standalone
   Regulator) Act 2025 (NSW))
@@ -532,8 +535,9 @@ The 2011 model-Act maxima (Category 1: $3M body corporate / $600k + 5 years
 officer / $300k + 5 years worker) are **stale in most jurisdictions** after the
 2023–24 round of amendments. Per-jurisdiction position:
 
-- **NSW** — from 1 July 2024, Category 1 maximum **$10,424,983** for a body
-  corporate and **10 years** imprisonment; NSW WHS penalties are indexed annually
+- **NSW** — from 1 July 2024, Category 1 maximum **$10,424,982** for a body
+  corporate and **10 years** imprisonment (as at 1 July 2024; indexed annually —
+  verify the current FY2025–26 figure); NSW WHS penalties are indexed annually
 - **Commonwealth** — penalties substantially uplifted from 1 July 2024
   (Closing Loopholes reforms)
 - **QLD and WA** — maxima set above model values
@@ -622,7 +626,7 @@ alternative.
 | WA | s 30A WHS Act 2020 — in force 31 March 2022 (single offence) | $10M | 20 years + $5M fine |
 | NSW | s 34C WHS Act 2011 (NSW) — in force 16 September 2024 | $20M | 25 years |
 | SA | 2023 amendment to WHS Act 2012 (SA) — in force 1 July 2024 | ~$18M (indexed) | 20 years |
-| TAS | Work Health and Safety Amendment (Industrial Manslaughter) Act 2024 — passed 11 September 2024, in force from October 2024 | $18M | 21 years |
+| TAS | Work Health and Safety Amendment (Safer Workplaces) Act 2024 (Tas) — passed 11 September 2024, in force 2 October 2024 | $18M | 21 years |
 | NZ | Not a discrete offence — gross negligence manslaughter under Crimes Act 1961 may apply | — | — |
 
 Key features that are broadly consistent across jurisdictions:
@@ -851,14 +855,17 @@ Key psychosocial hazard categories:
 | High job demands | Excessive workload, time pressure, cognitive demands |
 | Low job control | Limited autonomy, micromanagement, no input into decisions |
 | Poor support | Inadequate manager/peer support, supervision, resources |
-| Poor role clarity | Unclear responsibilities, conflicting demands |
-| Poor change management | Poorly communicated, rapid, or unexplained organisational change |
-| Inadequate reward/recognition | Effort-reward imbalance |
-| Remote/isolated work | Physical or social isolation from colleagues |
+| Lack of role clarity | Unclear responsibilities, conflicting demands |
+| Poor organisational change management | Poorly communicated, rapid, or unexplained organisational change |
+| Inadequate reward and recognition | Effort-reward imbalance |
+| Poor organisational justice | Inconsistent, unfair, or non-transparent procedures and decisions |
+| Traumatic events or material | Exposure to serious injuries, deaths, distressing scenes or material |
+| Remote or isolated work | Physical or social isolation from colleagues; limited access to help |
+| Poor physical environment | Exposure to poor or hazardous physical working conditions |
 | Violence and aggression | Client/public or worker-on-worker |
 | Bullying | Repeated unreasonable behaviour creating risk |
-| Traumatic events | Exposure to serious injuries, deaths, distressing scenes |
-| Harassment including sexual harassment | Unwanted conduct; intersects with Fair Work Act obligations |
+| Harassment (including sexual and gender-based harassment) | Unwanted conduct; intersects with Fair Work Act and Sex Discrimination Act obligations |
+| Conflict or poor workplace relationships and interactions | Interpersonal conflict, poor workgroup dynamics, strained relationships |
 
 ### Hierarchy of Controls for Psychosocial Risks
 Apply the standard hierarchy — but psychosocial controls map differently:
@@ -1235,8 +1242,9 @@ provide context.
 - **OSHA standards** — prescriptive (29 CFR Part 1910 general industry, Part
   1926 construction); much more prescriptive than AU/NZ
 - **Penalty structure** — substantially lower than AU/NZ Category 1 (max ~USD
-  $165k for wilful/repeat per 2024 indexation); no equivalent of AU industrial
-  manslaughter
+  $165k per violation for wilful/repeat as at 2024 indexation; OSHA penalties
+  are indexed annually — verify the current figure); no equivalent of AU
+  industrial manslaughter
 - **State plans** — 22 states operate state-level OSHA plans approved by
   federal OSHA (CalOSHA in California is significantly more stringent)
 - **Practical implication for AU/NZ practitioners working with US operations**:
@@ -1315,10 +1323,13 @@ not guarantee no health effect, particularly for substances with no threshold
 
 > **WES → WEL transition**: from **1 December 2026** the WES framework is
 > replaced by **Workplace Exposure Limits (WEL)** under Safe Work Australia's
-> revised framework, and many limit values change on transition. Until
-> 30 November 2026 the WES list remains the enforceable benchmark; from
-> 1 December 2026 verify the WEL value — do not assume the WES figure carries
-> over.
+> revised framework, and many limit values change on transition (e.g. carbon
+> monoxide TWA drops from 30 ppm to 20 ppm; several others including nitrogen
+> dioxide also change). The values in the table below are the **current WES**.
+> Until 30 November 2026 the WES list remains the enforceable benchmark; from
+> 1 December 2026 verify the WEL value against the SWA WEL list for **every**
+> substance — do not assume the WES figure carries over. For any control set
+> commencing after 1 December 2026, design against the incoming WEL now.
 
 ### Exposure measurement types
 - **TWA (Time-Weighted Average)** — average exposure over an 8-hour working
@@ -1337,7 +1348,7 @@ not guarantee no health effect, particularly for substances with no threshold
 
 | Substance | TWA (8-hr) | STEL (15-min) | Peak | Notes |
 |---|---|---|---|---|
-| Carbon monoxide (CO) | 30 ppm | — | 200 ppm | Combustion; vehicle exhaust |
+| Carbon monoxide (CO) | 30 ppm | — | 200 ppm | Combustion; vehicle exhaust. **Incoming WEL: TWA reduced to 20 ppm from 1 Dec 2026** — design controls against 20 ppm now |
 | Nitrogen dioxide (NO2) | 3 ppm | 5 ppm | — | Combustion; welding |
 | Ozone (O3) | — | — | 0.1 ppm | Peak limitation; photocopier; welding; arc work |
 | Sulphur dioxide (SO2) | 2 ppm | 5 ppm | — | Combustion; volcanic activity |
@@ -1553,9 +1564,9 @@ governance programs built around s 27 due diligence remain best practice in
 VIC, but the legal hook differs.
 
 **Notable case law**:
-- *DPP v LH Holding Management Pty Ltd* (Victorian County Court, sentenced
-  2024) — the first Victorian workplace manslaughter conviction (stonemasonry
-  business; the sole director was also sentenced)
+- *DPP v LH Holding Management Pty Ltd* (Supreme Court of Victoria, sentenced
+  19 February 2024) — the first Victorian workplace manslaughter conviction
+  (stonemasonry business; the sole director was also sentenced)
 - Workplace manslaughter prosecutions are accumulating — verify the current
   state of authorities before citing
 
@@ -1573,9 +1584,9 @@ Substantially aligned with model law. Notable variations:
 ### Tasmania — WHS Act 2012 (Tas)
 
 Aligned with model law. Notable variations:
-- **Industrial Manslaughter** — Work Health and Safety Amendment (Industrial
-  Manslaughter) Act 2024 (Tas), passed 11 September 2024 and in force from
-  October 2024; maximum penalties $18M (body corporate) and 21 years
+- **Industrial Manslaughter** — Work Health and Safety Amendment (Safer
+  Workplaces) Act 2024 (Tas) (Act 2024-015), passed 11 September 2024 and in
+  force 2 October 2024; maximum penalties $18M (body corporate) and 21 years
   imprisonment (individual); the 2-year limitation period was removed for
   the offence
 - **Marine industries** (fishing, aquaculture) significant employment base;
@@ -1649,8 +1660,10 @@ Aligned with model law. Notable variations:
   corporate / 25 years individual
 - **Mining**: WHS (Mines and Petroleum Sites) Act 2013 + WHS (MPS)
   Regulation 2014 — cross-ref `sector-regimes.md` §2
-- **Construction**: WHS Regulation 2025 (which replaced the 2017 Regulation
-  from 1 January 2026) has additional NSW-specific construction provisions
+- **Construction**: WHS Regulation 2025 (which commenced 22 August 2025, with the
+  2017 Regulation repealed 1 September 2025 and some provisions phased in — notably
+  the Silica Worker Register from 1 October 2025) has additional NSW-specific
+  construction provisions
 - **SafeWork NSW** — standalone regulator headed by a SafeWork Commissioner
   from 1 July 2025 (Work Health and Safety Amendment (Standalone Regulator)
   Act 2025 (NSW)); previously a unit within the Department of Customer Service

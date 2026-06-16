@@ -47,7 +47,7 @@ The definition is broad and intentionally so. An eligible whistleblower is a cur
 | Associate | Of the regulated entity (broad — includes related entities, joint venture partners) |
 | Relative | Spouse, child, dependant, or other relative of any of the above |
 
-A worker on a labour-hire contract supplied to a host PCBU is an eligible whistleblower in respect of both their direct employer and the host. Former workers retain eligibility — there is no time limit after departure.
+A worker on a labour-hire contract is an eligible whistleblower in respect of any regulated entity to which they supply services — this includes their direct employer where it is a regulated entity, and can include the host PCBU where the host is itself a regulated entity (eligibility under s 1317AAA attaches to the discloser's relationship with a specific regulated entity, not automatically to every entity in the supply chain). Former workers retain eligibility — there is no time limit after departure.
 
 ### 2.2 Disclosable matter (s 1317AA)
 
@@ -61,7 +61,7 @@ A disclosure qualifies for protection if the discloser has reasonable grounds to
 
 The "danger to the public" limb is the operative basis for most WHS-relevant disclosures. The Explanatory Memorandum to the 2019 amendments specifically identified workplace health and safety as a category of danger contemplated by the section. A worker disclosing that an employer is concealing a notifiable incident, that critical safety controls are being bypassed under management direction, or that a fatality has been mischaracterised — all sit within the disclosable matter definition.
 
-**Reasonable grounds to suspect** is a low threshold — it requires more than mere speculation but does not require the discloser to be correct. A genuine, evidence-supported belief is sufficient.
+**Reasonable grounds to suspect** requires more than mere suspicion or speculation, but the discloser need not be correct. A genuine, evidence-supported belief is sufficient.
 
 **Excluded matters (s 1317AADA)** — personal work-related grievances are not disclosable matters unless they have a significant implication for the entity beyond the discloser. Pure HR complaints (disagreement about leave, performance management, individual interpersonal conflict) sit outside the regime.
 
@@ -122,10 +122,10 @@ The same conduct can engage both a criminal offence and a civil penalty provisio
 
 **Criminal offences:**
 
-| Offence | Maximum penalty (individual) |
-|---|---|
-| Victimisation — causing or threatening detriment (s 1317AC) | Up to 2 years imprisonment (and/or fine) |
-| Breach of discloser confidentiality (s 1317AAE) | Up to 6 months imprisonment (and/or fine) |
+| Offence | Maximum penalty (individual) | Maximum penalty (body corporate) |
+|---|---|---|
+| Victimisation — causing or threatening detriment (s 1317AC) | Up to 2 years imprisonment and/or 240 penalty units ($79,200 at $330/unit) | 2,400 penalty units ($792,000) |
+| Breach of discloser confidentiality (s 1317AAE) | Up to 6 months imprisonment and/or 60 penalty units ($19,800) | 600 penalty units ($198,000) |
 
 **Civil penalty provisions:**
 
@@ -220,7 +220,7 @@ This is where the WHS practitioner's operational responsibility crystallises. Th
 A construction worker who reports to their site supervisor that a labour-hire crew is being directed by management to operate plant without functioning interlocks is:
 
 - A worker exercising their s 28 WHS Act duty
-- An eligible whistleblower under Corporations Act Part 9.4AAA (if the host entity is a regulated entity — which most construction PCBUs are) — the disclosure represents "a danger to the public"
+- An eligible whistleblower under Corporations Act Part 9.4AAA where the host is a constitutional corporation / regulated entity — frequently but not always the case in construction, since many construction PCBUs are partnerships, sole traders, or trusts that may fall outside the corporate regime — the disclosure represents "a danger to the public"
 - Potentially an eligible discloser under the relevant state PID Act if the project is a state public sector project or contracted public service
 - Protected from victimisation under WHS Act s 104, Corporations Act ss 1317AC–1317AE, and the relevant PID Act
 
@@ -269,7 +269,7 @@ The WHS function does not investigate these matters — it triages, protects the
 
 ### 5.5 Relationship to Respect@Work positive duty disclosure pathways
 
-The Sex Discrimination Act 1984 (Cth) s 47C positive duty (effective 12 December 2022) imposes a proactive obligation on PCBUs to take reasonable and proactive measures to eliminate sexual harassment, sex-based harassment, sex discrimination, and related victimisation. The AHRC has investigation and enforcement powers from 12 December 2023.
+The Sex Discrimination Act 1984 (Cth) s 47C positive duty (effective 13 December 2022, the day after the Anti-Discrimination and Human Rights Legislation Amendment (Respect at Work) Act 2022 received assent on 12 December 2022) imposes a proactive obligation on PCBUs to take reasonable and proactive measures to eliminate sexual harassment, sex-based harassment, sex discrimination, and related victimisation. The AHRC has investigation and enforcement powers from 12 December 2023.
 
 A worker disclosing sexual harassment, sex-based hostile environment, or related victimisation may be:
 
@@ -341,6 +341,7 @@ Before finalising any output that touches whistleblower content, confirm:
 - [ ] Respect@Work s 47C positive duty cross-referenced for harassment-related matters
 - [ ] Record retention requirements specified for whistleblower matters
 - [ ] WHS function role clearly framed as escalation, not investigation
+- [ ] Penalty-unit value and any case citations (e.g. TerraCom) verified against current source before quoting dollar figures or case references
 - [ ] Australian English spelling throughout
 
 ### Cross-references within this skill

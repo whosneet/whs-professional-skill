@@ -41,14 +41,14 @@ for fall arrest unless specifically certified.
 
 - **Eliminate**: Where the work can be done from inside the building or with a
   reach pole, do that instead. Don't go to height for sake of habit.
-- **Engineering**: Use pre-installed certified anchor points (15 kN single-user
-  rating, AS/NZS 1891.4 compliant). The building should have an anchor register
-  with current annual inspection records.
-- **Verification**: Visual check of the anchor before each use — current
-  inspection tag (green); physical integrity of fixings; no visible damage,
-  corrosion, or impact deformation.
-- **Administrative**: Buddy check — a second worker verifies anchor selection
-  before you connect. Two sets of eyes catch what one might miss.
+- **Engineering**: Use pre-installed certified anchor points (commonly applied
+  as a 15 kN single-user rating to AS/NZS 1891.4 — confirm the certified rating
+  against the current edition and the anchor manufacturer's specification). The
+  building should have an anchor register with current annual inspection records.
+- **Administrative**: Pre-use verification and buddy check. Visually check the
+  anchor before each use — current inspection tag (green), physical integrity of
+  fixings, no visible damage, corrosion, or impact deformation — and have a
+  second worker verify anchor selection before you connect.
 - **PPE**: Harness fit, lanyard inspection, helmet. These support the system
   but don't substitute for the anchor.
 
@@ -63,10 +63,9 @@ for fall arrest unless specifically certified.
      nearest thing".
 
 2. What's the difference between a "rated" anchor and a "certified" anchor?
-   → *What to listen for*: rated = the anchor itself is designed to bear the
-     load; certified = an engineer has confirmed the anchor AND the structure
-     it's fixed to will hold the load under the conditions present. You need
-     both.
+   → *What to listen for*: rated = the anchor is designed to bear the load;
+     certified = an engineer has confirmed the anchor AND the structure it's
+     fixed to will hold the load in the conditions present. You need both.
 
 3. If you arrive at a site and there's no anchor register or no green tags on
    the available anchors, what do you do?

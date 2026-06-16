@@ -67,11 +67,11 @@ dispersed workforce.
 
 | Element | Indicative scale | Guidance |
 |---|---|---|
-| Target population | Tens of thousands of workers possible | Scale program to workforce under direct organisational control |
+| Target population | ~11,000 workers (worked example; scalable to tens of thousands) | Scale program — and facilitator numbers — to workforce under direct organisational control |
 | Duration | 8 weeks | Rule of thumb, not an evidence-based threshold: minimum 6 weeks for behaviour change (habit-formation research, e.g. Lally et al. 2010, suggests longer and highly variable timeframes); 8–12 weeks for maximum reach |
 | Cadence | Weekly themed toolbox session | Weekly is optimal — monthly loses momentum, daily is unsustainable |
-| Critical risk topics | 15 topics, one per week + buffer weeks | Cover highest-HiPo critical risks in first 4 weeks |
-| Facilitators | 200+ toolbox facilitators | Target 1 per 50–60 workers for manageable load |
+| Critical risk topics | Topic library of ~15; select ~6–7 per 8-week cycle (one per week + buffer weeks) | Cover highest-HiPo critical risks in first 4 weeks; rotate remaining topics into later cycles |
+| Facilitators | ~200 toolbox facilitators (for ~11,000 workers) | Target 1 per 50–60 workers for manageable load; scale proportionally for larger populations |
 | Physical collateral | Jigsaw puzzle poster + stickers | Completion mechanic drives return engagement |
 
 ### Campaign Architecture Components
@@ -81,7 +81,7 @@ Every program needs a unifying narrative that workers can identify with.
 - Avoid generic: "Safety is Everyone's Responsibility"
 - Use context-specific, aspirational, or identity-based themes
 - Seasonal example: summer hazard management + return-to-work-after-break framing
-- Themed example: F1-themed critical risk verification — competitive, visual, aspirational (see your organisation's campaign brand in `company.md`)
+- Themed example: F1-themed critical risk verification — competitive, visual, aspirational (illustrative only; replace with your organisation's actual campaign theme — see `company.md` Section 9 for named programs)
 
 **2. Weekly Toolbox Structure**
 Each weekly toolbox session should follow a consistent format to reduce facilitator

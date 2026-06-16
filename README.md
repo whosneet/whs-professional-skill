@@ -230,9 +230,10 @@ whs-professional/                  # The Claude skill folder
     │                              #   provisions
     ├── inspections-audits-permits.md  # Workplace inspections, ISO 19011 audits,
     │                              #   permit-to-work systems, pre-task tools
-    ├── case-studies.md            # Worked summaries: Longford, Texas City,
+    ├── case-studies.md            # Eleven landmark cases: Longford, Texas City,
     │                              #   Macondo, Pike River, Dreamworld, Whakaari,
-    │                              #   Grenfell; named-thinker framing; usage
+    │                              #   Grenfell, Costa Concordia, Ranger Uranium,
+    │                              #   Bhopal, Beirut Port; named-thinker framing
     ├── sector-regimes.md          # Mining, maritime, aviation, rail, healthcare
     │                              #   biosafety, defence — sector-specific regimes
     │                              #   that sit alongside or outside the WHS Act
@@ -401,6 +402,27 @@ opportunities for community contribution:
   (currently documented as a workaround in ADAPTING.md)
 - **Utility scripts** — executable calculators for penalty unit values,
   frequency rate calculations, jurisdiction lookups
+
+### Recently added (v1.5.0 — June 2026)
+
+v1.5.0 is an accuracy, consistency, and efficiency release built on a
+full dual-lens audit of the corpus. Highlights (full detail in `CHANGELOG.md`):
+
+- ✓ **Web-verified corrections** — NSW POEO penalties updated to the 2024
+  Stronger Regulation and Penalties Act; NSW WHS Regulation 2025 commencement
+  corrected to 22 August 2025; NSW workers-compensation 21-day liability
+  timeframe re-anchored to s 274 WIM Act 1998; lead 30 µg/dL relabelled as the
+  medical removal level; Commonwealth insurance ban corrected to ss 272A–272B
+  (WHS Amendment Act 2023); whistleblower criminal fine quanta completed;
+  Tasmania *Safer Workplaces Act 2024*; *DPP v LH Holding* court corrected
+- ✓ **Consistency** — the TRIFR/recordable set and the psychosocial hazard list
+  reconciled to a single source of truth across all files; hierarchy of controls
+  aligned to WHS Reg 36 grouping; risk-matrix legends defined
+- ✓ **Efficiency** — `SKILL.md` slimmed ~20% (≈1,800 tokens saved on every load):
+  trigger-first description, jurisdiction section converted to a non-citable
+  index, domain sections collapsed to pointers, reference catalogue compressed
+- ✓ **CI validation** — `scripts/validate.py` now gates packaging: frontmatter,
+  reference + section-link resolution, regression guards, and AU-English checks
 
 ### Recently added (v1.4.0 — June 2026)
 

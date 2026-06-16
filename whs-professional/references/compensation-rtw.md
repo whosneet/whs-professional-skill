@@ -158,8 +158,16 @@ jurisdiction detail.
      notification unless the insurer has a reasonable excuse (s 267 WIM
      Act 1998); provisional weekly payments are capped at **12 weeks**
      (s 275), with provisional medical expenses up to the statutory limit
-  4. Liability determination within **21 days** — a SIRA claims-handling
-     standard, not a statutory deadline
+  4. Liability determination within **21 days** — a **statutory**
+     deadline: **s 274 WIM Act 1998** (weekly payments — within 21 days
+     the insurer must accept liability and commence weekly payments, or
+     dispute liability) and **s 279 WIM Act 1998** (medical/related
+     expenses — accept or dispute within 21 days). Failure to comply is
+     an offence (**s 283**). The 21-day clock can be displaced where the
+     insurer accepts provisional liability (up to 12 weeks, s 274) or
+     relies on a reasonable excuse (s 267), but the default determination
+     obligation is statutory. SIRA's Standard of Practice reinforces and
+     operationalises these timeframes but is not their source
   5. Acceptance > ongoing weekly payments (capped at statutory tiers) +
      medical and related expenses + lump sum permanent impairment (≥11%
      WPI for physical injury; psychological injury thresholds are now
@@ -171,8 +179,12 @@ jurisdiction detail.
 Following the Minns Government's 2024–25 review of icare and the scheme's
 psychological injury performance, two reform Acts restructured NSW
 psychological injury compensation: the **Workers Compensation Legislation
-Amendment Act 2025 (NSW)** (passed 18 November 2025) and a second-stage
-**reform and modernisation Act** (passed 4 February 2026). Key changes:
+Amendment Act 2025 (NSW)** (passed 18 November 2025; assented 24 November
+2025) and the second-stage **Workers Compensation Legislation Amendment
+(Reform and Modernisation) Act 2026 (NSW)** (passed 4 February 2026).
+Several provisions across both Acts were proclaimed to commence 27 March
+2026 — verify commencement and transitional rules for the specific
+provision in issue. Key changes:
 
 - A primary **psychological injury** must now arise from a defined
   **"relevant event"** (a defined list of causal events — e.g. exposure
@@ -271,8 +283,9 @@ Amendment Act 2025 (NSW)** (passed 18 November 2025) and a second-stage
   Workers Rehabilitation and Compensation Act 1986 in major 2015 reform
 - **2015 reform highlights**: weekly payments **capped at 104 weeks**
   for most workers, with Seriously Injured Workers (≥30% WPI) exempt
-  from the cap — under the pre-2015 scheme, payments had instead
-  **stepped down at 130 weeks** rather than ceasing; medical
+  from the cap — under the pre-2015 scheme, weekly payments were not
+  subject to this hard cap but reduced over time through staged
+  "step-down" rate reductions; medical
   entitlements wound back; significantly increased focus on RTW
   outcomes and employer accountability; common law damages largely
   abolished
@@ -436,11 +449,11 @@ change the trajectory.
    regulator action
 4. **Provisional liability** — insurer makes an early determination to
    commence benefits while liability is being investigated. In NSW,
-   provisional weekly payments must commence within 7 days of initial
-   notification absent a reasonable excuse (s 267 WIM Act 1998), and
-   are capped at **12 weeks** (s 275); other schemes operate similar
-   early-pay frameworks. Provisional liability protects worker income
-   during the investigation period
+   provisional weekly payments must commence within 7 days absent a
+   reasonable excuse and are capped at 12 weeks (see §3 NSW for the
+   statutory anchors — ss 267, 275 WIM Act 1998); other schemes operate
+   similar early-pay frameworks. Provisional liability protects worker
+   income during the investigation period
 5. **Investigation and full liability decision** — insurer assesses:
    employment connection, mechanism of injury, medical causation,
    any exclusionary factors (e.g., s 11A NSW for psychological).
@@ -569,7 +582,12 @@ Insurers commission IMEs to:
   recovery?
 - Assess whether treatment is reasonable and necessary
 - Assess causation — is the injury work-related?
-- Assess permanent impairment (whole-person impairment under AMA Guides)
+- Assess permanent impairment — whole-person impairment assessed under
+  the AMA Guides edition prescribed by the relevant scheme (the edition
+  and any jurisdiction-specific guides/modifications vary — e.g. AMA
+  Guides 4th or 5th edition depending on scheme; confirm the edition and
+  approved impairment guidelines for the jurisdiction before relying on
+  any WPI figure)
 - Resolve disputed clinical questions (e.g., where treating doctor and
   insurer disagree)
 
@@ -936,6 +954,13 @@ non-Hodgkin lymphoma, leukaemia, multiple myeloma, breast, testicular,
 oesophageal, prostate, ureter, colorectal, lung cancer (in non-smoker
 firefighters). Qualifying service period varies by cancer (typically
 5–25 years).
+
+The per-jurisdiction cancer counts above are indicative only — the
+prescribed schedule of cancers and qualifying periods has been expanded
+in several jurisdictions since first enactment. Confirm the current
+number of listed cancers and qualifying periods against the applicable
+Act/regulations and the Safe Work Australia comparison table before
+relying on a specific count.
 
 ### Silicosis and dust diseases
 QLD has a verifiable statutory silicosis pathway; elsewhere, dust

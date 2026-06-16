@@ -226,7 +226,19 @@ Apply hierarchy of controls. Reference relevant codes of practice, standards, or
 *This advisory is based on information available at the date of preparation.
 If circumstances change, this advice should be reviewed.*
 
----
+### Drafting Notes
+- Worked legislative citation example (section 2): "Under s 19 of the *Work Health
+  and Safety Act 2011* (NSW), the PCBU has a primary duty to ensure, so far as is
+  reasonably practicable, the health and safety of workers." For NZ: "Under s 36 of
+  the *Health and Safety at Work Act 2015* (NZ), the PCBU has a primary duty of
+  care." Always cite Act + section + jurisdiction; quote the duty precisely where it
+  is load-bearing.
+- Legal privilege: for advisories addressing a compliance gap, a post-incident
+  matter, or anything that may foreseeably be the subject of regulatory or legal
+  proceedings, consider whether the advisory should attract legal professional
+  privilege. Where it should, set Classification to "Privileged", route preparation
+  via or under instruction from legal counsel, and limit distribution — privilege can
+  be lost by wide circulation (cross-ref Sections 5 and 23).
 
 ---
 
@@ -1060,7 +1072,7 @@ to different hazards; common structure with type-specific content.
 | Field | Content |
 |---|---|
 | Permit number | Unique reference |
-| Permit type | Hot work / Confined space / Working at height / Isolation / Excavation / Electrical |
+| Permit type | Hot work / Confined space / Working at height / Isolation |
 | Date and time issued | DD/MM/YYYY HH:MM |
 | Valid until | DD/MM/YYYY HH:MM (max shift; reissue required to extend) |
 | Site / Area | Specific location |

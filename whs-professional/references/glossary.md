@@ -58,7 +58,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **HRCW** | High-Risk Construction Work — the 18 categories listed in model WHS Reg 291. |
 | **HRCSW** | High-Risk Crystalline Silica Work — crystalline silica process with potential for exposure exceeding the WES. |
 | **CSP** | Crystalline Silica Process — any process at a workplace involving material with ≥1% crystalline silica that may generate respirable crystalline silica dust. |
-| **RCS** | Respirable Crystalline Silica — particles small enough to penetrate deep lung; WES 0.05 mg/m³ (8-hr TWA). |
+| **RCS** | Respirable Crystalline Silica — particles small enough to penetrate deep lung; 0.05 mg/m³ (8-hr TWA), this value carrying unchanged into the WEL list applying from 1 December 2026 (a further reduction to 0.025 mg/m³ is proposed but not yet adopted). |
 | **WES** | Workplace Exposure Standard — the airborne concentration limit for a specified substance. Replaced by Workplace Exposure Limits (WEL) from 1 December 2026. |
 | **WEL** | Workplace Exposure Limit — the framework replacing WES from 1 December 2026 (Safe Work Australia reform); revised limits for many substances. |
 | **SDS** | Safety Data Sheet — manufacturer/importer document for a hazardous chemical covering classification, first aid, controls, storage, and disposal; must be obtainable at workplaces using the chemical. |
@@ -83,7 +83,8 @@ Load this file when the user is new to WHS or asks what a term means.
 | **LTI** | Lost Time Injury — work-related injury causing one or more full shifts of lost time after the injury shift. |
 | **MTI** | Medical Treatment Injury — injury requiring treatment by a medical practitioner. Counting >3 allied health sessions as an MTI is a common organisational convention, not an AS 1885.1 requirement. |
 | **FAI / FAC** | First Aid Injury / First Aid Case — injury treated within scope of first aider training. |
-| **TRI** | Total Recordable Injury — combined count of fatalities, LTIs, and MTIs. |
+| **RWI** | Restricted Work Injury — work-related injury where the worker cannot perform their normal duties for a full shift but works restricted/alternate duties (no full shift lost). Recordable; counted in TRI/TRIFR. |
+| **TRI** | Total Recordable Injury — combined count of fatalities, LTIs, RWIs, and MTIs. |
 | **NWI** | Non-Work Injury — injury not connected to work activity. |
 | **ICAM** | Incident Cause Analysis Method — common Australian incident investigation methodology. |
 | **5-Why** | Iterative root cause analysis method. |
@@ -98,7 +99,7 @@ Load this file when the user is new to WHS or asks what a term means.
 
 | Term | Meaning |
 |---|---|
-| **TRIFR** | Total Recordable Injury Frequency Rate — (LTIs + MTIs + Fatalities) ÷ hours worked × 1,000,000. |
+| **TRIFR** | Total Recordable Injury Frequency Rate — (Fatalities + LTIs + RWIs + MTIs) ÷ hours worked × 1,000,000. RWI (restricted work injury) is a US OSHA-origin recordability concept adopted here as a documented organisational convention; under the (now-withdrawn) AS 1885.1 the AU convention was TRIFR = Fatality + LTI + MTI. |
 | **LTIFR** | Lost Time Injury Frequency Rate — LTIs ÷ hours worked × 1,000,000. |
 | **AIFR** | All Injury Frequency Rate — includes FAIs in numerator. |
 | **LTISR** | Lost Time Injury Severity Rate — lost days ÷ hours worked × 1,000,000. |
@@ -226,8 +227,8 @@ Load this file when the user is new to WHS or asks what a term means.
 | **Take 5** | Pre-start mental safety check, typically 5 questions on a card. |
 | **SLAM** | Stop, Look, Assess, Manage — pre-task brief. |
 | **STAR** | Stop, Think, Act, Review — point-of-work hazard check. |
-| **MAC** | Manual Handling Assessment Chart — UK HSE manual handling assessment tool, widely used in AU. |
-| **ART** | Assessment of Repetitive Tasks — upper-limb repetitive task assessment tool. |
+| **MAC** | Manual handling Assessment Charts — UK HSE tool for assessing lifting, carrying and team-handling tasks (not all manual handling); widely used in AU. |
+| **ART** | Assessment of Repetitive Tasks — upper-limb repetitive task assessment tool (covers repetitive upper-limb work, which the MAC does not). |
 
 ---
 
@@ -310,7 +311,7 @@ See `references/sector-regimes.md` for full coverage.
 | **CMSHR** | Coal Mining Safety and Health Regulation 2017 (QLD). |
 | **MQSHR** | Mining and Quarrying Safety and Health Regulation 2017 (QLD). |
 | **WHS (MPS) Act** | Work Health and Safety (Mines and Petroleum Sites) Act 2013 (NSW). |
-| **PC1–PC4** | Physical Containment levels (AS/NZS 2243.3) — laboratory biocontainment from PC1 (basic) to PC4 (Ebola-class; only at AAHL Geelong in AU). |
+| **PC1–PC4** | Physical Containment levels (AS/NZS 2243.3) — laboratory biocontainment from PC1 (basic) to PC4 (Ebola-class; the principal AU PC4/BSL-4 facility is CSIRO's Australian Centre for Disease Preparedness (ACDP, formerly the Australian Animal Health Laboratory / AAHL), Geelong). |
 | **OGTR** | Office of the Gene Technology Regulator — under Gene Technology Act 2000 (Cth). |
 | **AS/NZS 2243.3** | Safety in laboratories Part 3: Microbiological safety and containment (2022). |
 | **DSMS** | Defence Safety Management System — internal management system layered on WHS Act. |
@@ -341,7 +342,7 @@ See `references/workplace-controls.md` for full coverage.
 | **MHFA** | Mental Health First Aid — separate certification; 2-day standard course. |
 | **BCP** | Business Continuity Plan — recovery framework distinct from emergency response. |
 | **FDV** | Family and Domestic Violence — emerging PCBU duty intersection for home-based / hybrid workplaces. |
-| **RTD** | Right to Disconnect — Fair Work Act amendment effective 26 Aug 2024 (large employers) / 2025 (small). |
+| **RTD** | Right to Disconnect — Fair Work Act amendment effective 26 Aug 2024 (non-small-business employers) / 26 Aug 2025 (small-business employers, fewer than 15 employees). |
 | **PIN** | Provisional Improvement Notice — HSR-issued (after approved training). |
 
 ---

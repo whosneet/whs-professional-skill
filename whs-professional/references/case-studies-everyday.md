@@ -18,6 +18,32 @@ organisation-specific severity classification and investigation triggers, see
 All cases below are fictional but constructed from common AU/NZ incident
 patterns. Names, locations, and reference numbers are illustrative.
 
+### Risk-band legend and matrix note
+
+Each case rates risk on a generic illustrative 5×5 matrix using lettered
+bands:
+
+| Band | Meaning |
+|---|---|
+| **A** | Extreme / Critical |
+| **B** | High |
+| **C** | Moderate |
+| **D** | Low |
+
+The Consequence (1–5) × Likelihood mapping used in the worked examples
+below follows the canonical 5×5 matrix in `references/company.md` §3
+(rating output Low / Moderate / High / Critical). For reference, on that
+matrix Consequence 5 (Severe) × Possible = **Critical (Band A)**;
+5 × Unlikely = High (Band B); 4 × Possible = High (Band B);
+4 × Unlikely = High (Band B); 1 × Possible = Low (Band D).
+
+**These ratings are illustrative.** Before relying on any rating in an
+output, re-derive it on your organisation's actual risk matrix — the
+band, the consequence descriptors, and the likelihood anchors may differ
+from the generic matrix used here. See `references/company.md` §3 for the
+worked organisational matrix, likelihood frequency anchors, and
+consequence descriptors.
+
 ---
 
 ## Table of Contents
@@ -105,7 +131,7 @@ known and not challenged.
 | 4 | 14:20 | Operator A enters Aisle 14 in reverse to align with rack face |
 | 5 | 14:22 | Forklift comes within 1 m of Pedestrian B; operator alerted by colleague shout; emergency stop |
 | 6 | 14:30 | Incident reported; Aisle 14 closed |
-| 7 | 16:00 | Incident raised in system; preliminary incident investigation notification (PIIN) issued within 24 hours |
+| 7 | 16:00 | Incident raised in system; internal preliminary incident investigation notification (PIIN) issued within 24 hours — an organisation-internal step, distinct from the statutory notifiable-incident notification to the regulator under WHS Act s 38 |
 
 ### PEEPO summary
 - **People** — Operator A: current HRWL (LF class), 6 years on this
@@ -135,7 +161,7 @@ known and not challenged.
 
 ### Risk assessment
 - **Actual**: Consequence 1 (no injury) × Likelihood Possible — Risk D (Low)
-- **Potential**: Consequence 5 (single fatality) × Likelihood Possible — Risk B (High)
+- **Potential**: Consequence 5 (single fatality) × Likelihood Possible — Risk A (Critical)
 
 Potential rationale: 2.5-tonne counterbalance forklift in reverse at
 ~6 km/h with a pedestrian on the blind side creates a credible
@@ -647,7 +673,11 @@ Worker F was wearing branded kitchen footwear with slip-resistant
 soles, supplied as part of the uniform — marked SRC under EN ISO
 20345 (slip resistance tested to the EN ISO 13287 method; note the
 SRA/SRB/SRC marking scheme was superseded in the 2022 revision of
-the standard).
+the standard, which replaced the three SRA/SRB/SRC marks with a
+single mandatory "SR" slip test). In AU/NZ workplaces, footwear is
+more commonly specified to AS/NZS 2210 — check the actual standard
+marked on the supplied footwear rather than assuming the EN ISO
+series.
 Sole tread on the right shoe was approximately 70% worn; the
 uniform policy provided for free replacement on request, but
 Worker F had not requested replacement.
@@ -919,10 +949,10 @@ Worker reported the collision to the supervisor on the following
 shift. The compensation position is jurisdiction-specific:
 Queensland retains journey claims (*Workers' Compensation and
 Rehabilitation Act 2003* (Qld) s 35), so an injury on a direct
-drive home would have been prima facie compensable — the
-restrictive journey-claim schemes are NSW and Victoria, not
-Queensland. The WHS question is separate either way: whether the
-work design contributed.
+drive home would have been prima facie compensable — whereas NSW and
+Victoria restrict ordinary-commute journey claims under their
+workers compensation schemes. The WHS question is separate either
+way: whether the work design contributed.
 
 ### What happened
 Worker H was on the night shift (19:00–07:00) at a
@@ -972,7 +1002,7 @@ local-resident workers.
 | 2 | ~18 months prior | Fatigue management plan adopted; covers DIDO workers but not local-resident workers |
 | 3 | Night 1 (3 nights prior) | Worker H commences four-night roster sequence |
 | 4 | Night 2 (2 nights prior) | Cumulative sleep debt building; Worker H sleeps ~5 hours during day |
-| 5 | Night 3 (1 night prior) | Worker H sleeps ~5 hours; total sleep across 72 hours ~16 hours (deficit ~6 hours) |
+| 5 | Night 3 (1 night prior) | Worker H sleeps ~5 hours; total sleep across 72 hours ~15 hours, against a ~24-hour need (8 h/night) — accumulated deficit ~9 hours |
 | 6 | Shift 4, 07:05 | Shift ends; handover completed |
 | 7 | Shift 4, 07:15 | Worker H leaves site car park |
 | 8 | Shift 4, 07:37 | Low-speed rear-end collision at roundabout; both vehicles damaged; no injury |
@@ -986,8 +1016,10 @@ local-resident workers.
   children — daytime sleep environment includes noise and
   caregiving demands.
 - **Environment** — Drive home: ~30 km of suburban arterial
-  road; ~22 minutes; morning light. Route includes 6 sets of
-  traffic lights and 4 roundabouts.
+  road; ~35 minutes end to end; morning light. Route includes 6 sets of
+  traffic lights and 4 roundabouts. The collision occurred ~22 minutes
+  into the drive, ~2 km from home (i.e. with ~13 minutes / ~2 km
+  remaining).
 - **Equipment** — Worker H's personal vehicle, current
   registration and roadworthy.
 - **Procedures** — Site fatigue management plan covers DIDO
@@ -1012,7 +1044,7 @@ local-resident workers.
 - **Actual**: Consequence 1 (property damage, no injury) ×
   Likelihood Possible — Risk D (Low)
 - **Potential**: Consequence 5 (fatal motor vehicle accident,
-  worker or third party) × Likelihood Possible — Risk B (High)
+  worker or third party) × Likelihood Possible — Risk A (Critical)
 
 Potential rationale: Fatigue-related motor vehicle accidents at
 the end of a 12-hour night shift have a well-documented
@@ -1037,15 +1069,24 @@ and WA).
 
 ### Lessons
 - Compensability and the WHS duty are different questions, and the
-  compensation answer is jurisdiction-specific. Queensland, WA, the
-  NT, and the ACT cover journey claims (in QLD, WCRA 2003 s 35,
+  compensation answer is jurisdiction-specific. Queensland and the
+  ACT cover ordinary-commute journey claims (in QLD, WCRA 2003 s 35,
   subject to the substantial delay/deviation/interruption
-  exclusions); NSW and Victoria restrict them heavily — NSW
-  requires a "real and substantial connection" between the
-  employment and the accident. Either way, the PCBU duty to manage
-  risks SFAIRP applies regardless of compensability. Work design
-  that produces predictable fatigue, and the drive home that the
-  work produces, are within scope
+  exclusions); NSW restricts them — it requires a "real and
+  substantial connection" between the employment and the accident —
+  and Victoria's WorkCover scheme does not cover ordinary-commute
+  journey claims (a transport accident on the commute is instead a
+  TAC matter). Western Australia, under the Workers Compensation and
+  Injury Management Act 2023, generally does not cover ordinary
+  commutes. The Northern Territory recognises journey claims, but a
+  motor vehicle accident on a normal commute is dealt with under the
+  NT Motor Accidents Compensation scheme rather than workers
+  compensation — so for the MVA in this case the NT route is the MAC
+  scheme, not a journey claim. Confirm the current position in the
+  relevant jurisdiction before relying on it. Either way, the PCBU
+  duty to manage risks SFAIRP applies regardless of compensability.
+  Work design that produces predictable fatigue, and the drive home
+  that the work produces, are within scope
 - 4-on / 4-off 12-hour night shifts produce predictable cumulative
   fatigue at end of roster — the science is settled (see
   `hazards.md` §18); the roster is a management decision, not an

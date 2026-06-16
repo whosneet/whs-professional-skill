@@ -13,7 +13,7 @@ governance failures in WHS practice.
 2. [Workplace Inspection Program Design](#2-workplace-inspection-program-design)
 3. [WHS Audit Methodology](#3-whs-audit-methodology)
 4. [Permit-to-Work Systems](#4-permit-to-work-systems)
-5. [Pre-Task and Point-of-Work Risk Assessment Tools](#5-pre-task-and-point-of-work-tools)
+5. [Pre-Task and Point-of-Work Risk Assessment Tools](#5-pre-task-and-point-of-work-risk-assessment-tools)
 6. [Output Checklist](#6-output-checklist)
 
 > For organisation-specific audit program, permit types in use, inspection
@@ -41,10 +41,13 @@ and evidentiary standard.
 - **Different purpose** — inspection looks for hazards; audit looks for system
   failures; verification confirms control health. Conflating them produces
   outputs that do none of the three well.
-- **Different methodology** — auditors must be independent of the area being
-  audited (ISO 19011 5.5.4). Inspectors and verifiers typically are not — and
-  do not need to be. Treating an inspection as an audit creates an evidence
-  trail that fails on independence grounds when scrutinised.
+- **Different methodology** — auditors should be independent of the area being
+  audited wherever practicable (ISO 19011 cl 5.5.4 addresses impartiality and
+  objectivity in team selection; for third-party certification ISO/IEC 17021-1
+  imposes a firmer impartiality requirement). Inspectors and verifiers
+  typically are not independent — and do not need to be. Treating an inspection
+  as an audit creates an evidence trail that is weak on independence grounds
+  when scrutinised.
 - **Different competency** — a lead auditor qualification (5-day course + audit
   experience) is not interchangeable with inspection technique training (half
   day). A trained CCV verifier is not necessarily competent to lead an internal
@@ -172,7 +175,7 @@ risks into the same response category and incentivise minimisation.
 | **ISO/IEC 17021-1** | Requirements for bodies providing audit and certification of management systems (third-party certification) |
 | **ISO 45001:2018** | The OH&S management system being audited (cross-reference `frameworks.md` §3) |
 | **ISO 31000:2018** | Risk management — guidelines (used to frame audit risk assessment) |
-| **AS/NZS 4801:2001** | Withdrawn (superseded by ISO 45001; the migration of certifications completed around mid-2021), but still referenced in some legacy contracts and government schedules |
+| **AS/NZS 4801:2001** | Withdrawn (superseded by ISO 45001). JAS-ANZ accredited certification to AS/NZS 4801 ceased on 13 July 2023, after which it is unavailable absent documented evidence of an imposed legislative or contractual requirement. Still referenced in some legacy contracts and government schedules |
 
 ### Audit types
 
@@ -221,16 +224,20 @@ individual audit executes one slice of that plan.
 
 | Role | Competency |
 |---|---|
-| Lead auditor (third-party / external) | ISO 45001 Lead Auditor qualification (5-day Exemplar Global certified course); demonstrated audit experience (typically 20 audit days minimum for IRCA / Exemplar Global certification); continual development (10–15 hours CPD per year typical) |
+| Lead auditor (third-party / external) | ISO 45001 Lead Auditor qualification (5-day Exemplar Global certified course); scheme-specific demonstrated audit experience (Exemplar Global cites evidence of ~10 audit days; CQI/IRCA is structured differently); continual development (10–15 hours CPD per year typical) |
 | Internal auditor (first-party) | Shorter qualification (1–3 day internal auditor course) is sufficient; should still have demonstrated audit experience under supervision before leading internal audits |
 | Technical expert | Subject matter expertise (engineering, occupational hygiene, process safety); typically supports the audit team rather than leading |
 | Auditor in training | Conducts audits under direct supervision of qualified lead auditor; logs experience for future certification |
 
-**Independence requirement**: Auditor must not audit work for which they are
-responsible, or work performed by their direct reports. This is implicit in the
-model WHS Regulations (effective risk review requires independence) and
-explicit in ISO 19011 (5.5.4). Breaches of independence are a structural
-governance failure — the audit findings cannot be relied on.
+**Independence requirement**: As a matter of good practice, an auditor should
+not audit work for which they are responsible, or work performed by their
+direct reports. ISO 19011 (cl 5.5.4) frames this as objectivity and
+impartiality to be achieved wherever practicable, rather than an absolute rule;
+ISO/IEC 17021-1 imposes a firmer impartiality expectation on certification
+bodies. Note the model WHS Regulations require effective review of controls
+(Reg 38) but do not expressly mandate auditor independence. Breaches of
+independence are a structural governance weakness — the audit findings are
+difficult to rely on.
 
 ### Evidence collection techniques
 
@@ -332,7 +339,7 @@ PTW is appropriate where:
 | Permit type | Trigger | Key controls |
 |---|---|---|
 | **Hot work permit** | Welding, cutting, grinding, soldering, or any open flame/spark in an area not designated for hot work | Fire watch; atmospheric test for flammables; extinguishers; isolation of flammable sources; post-work fire watch (typically 30–60 min) |
-| **Confined space entry permit** | Any confined space as defined in AS 2865:2009 (cross-reference `hazards.md` §11 once added). **The one statutorily mandated permit — model WHS Reg 67** | Atmospheric test (O₂, LEL, toxics); standby person; rescue plan; communication; continuous or repeat atmospheric monitoring |
+| **Confined space entry permit** | Any confined space as defined in AS 2865:2009 (cross-reference `hazards.md` §11). **The one statutorily mandated permit — model WHS Reg 67** | Atmospheric test (O₂, LEL, toxics); standby person; rescue plan; communication; continuous or repeat atmospheric monitoring |
 | **Working at height permit** | Above defined threshold (typically >2 m or as per site rule) | Anchor verification; fall arrest or restraint; rescue plan; weather criteria; competent person |
 | **Isolation / Lock-Out Tag-Out (LOTO) permit** | Energy isolation for maintenance, inspection, or cleaning | Six-step isolation; verification (test for dead); personal locks; isolation register; defined removal sequence |
 | **Excavation permit** | Site-defined trigger, commonly trench/shaft ≥1.5 m — aligning with the HRCW definition in model WHS Reg 291; trenches ≥1.5 m attract additional statutory controls (regs 305–306) | Service locates (Dial Before You Dig / Before You Dig Australia); shoring/benching/battering; atmospheric test if confined; edge protection; spoil management |
@@ -415,9 +422,10 @@ attached. The standard sequence:
 7. Remove personal locks in reverse sequence; restore in defined order
 8. Functional check after re-energisation
 
-> Cross-reference `hazards.md` §10 (energy isolation / LOTO methodology) once
-> added; for electrical isolation specifically, AS/NZS 4836:2023 sets the
-> standard for safe work on low-voltage electrical installations.
+> Cross-reference `hazards.md` §10 (energy isolation / LOTO methodology); for
+> electrical isolation specifically, AS/NZS 4836:2023 *Safe working on or near
+> low-voltage and extra-low voltage electrical installations and equipment*
+> sets the standard.
 
 ---
 
@@ -435,7 +443,7 @@ They have a defined role and defined limits.
 | **SLAM** | Stop, Look, Assess, Manage | Pre-task brief; widely used in maintenance and field work |
 | **STAR** | Stop, Think, Act, Review | Point-of-work hazard check; widely used across infrastructure and resources |
 | **JSEA / JHA** | Job Safety/Hazard Analysis | Documented task-level risk assessment; more substantial than Take 5; not a SWMS |
-| **SWMS** | Safe Work Method Statement | Statutory document for HRCW (model WHS Reg 299; cross-reference `hazards.md` §4) |
+| **SWMS** | Safe Work Method Statement | Statutory document for HRCW (model WHS Reg 299; cross-reference `hazards.md` §8 for the 18 HRCW categories, §4 for general construction WHS context) |
 | **Dynamic risk assessment** | — | Continuous reassessment during changing conditions; typical of emergency services and dynamic environments |
 | **Pre-start meeting / toolbox** | — | Crew-level briefing at shift start; covers task, hazards, controls, coordination |
 

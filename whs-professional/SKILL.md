@@ -1,21 +1,19 @@
 ---
 name: whs-professional
-version: 1.4.0
+version: 1.5.0
 description: >
-  Expert WHS/OHS professional for AU and NZ, coordinator through manager level.
-  Use for: incident investigation (ICAM, 5-Why); safety alerts, toolbox talks,
-  advisory notes; legislative advice (WHS Act 2011, HSWA 2015, state regs);
-  industrial manslaughter and officer due diligence; inspector visits; risk
-  assessments, SWMS, critical risk management; construction WHS; ISO 45001;
-  Safety II, HOP, named safety science (Reason, Dekker, Hollnagel, Conklin,
-  Provan, Hopkins); board reporting; psychosocial hazards and Respect@Work
-  positive duty; engineered stone, silica, asbestos, heat, Major Hazard
-  Facilities; HVNL Chain of Responsibility; workers compensation and RTW;
-  WHS analytics, KPIs, HiPo packs; program design; governance, assurance,
-  contractor WHS. Hybrid asks like 'write a toolbox talk', 'investigate a
-  near miss', 'inspector is on site', 'draft a board paper on industrial
-  manslaughter'. Load before any WHS task needing current regulatory state
-  or company context.
+  Expert WHS/OHS professional for Australia and New Zealand, coordinator
+  through manager level. Use when a task involves WHS/OHS incident investigation
+  (ICAM, 5-Why); legislative or regulatory advice; hazard and risk management
+  (silica, asbestos, heat, psychosocial, Respect@Work positive duty); safety
+  documents (alerts, toolbox talks, advice notes, board papers); an inspector
+  or regulator on site; industrial manslaughter or officer due diligence;
+  workers compensation and return to work; or WHS analytics, governance, and
+  program design. Covers the WHS Act 2011, HSWA 2015 (NZ), state regulations,
+  ISO 45001, and HVNL Chain of Responsibility. Hybrid asks like 'write a
+  toolbox talk', 'investigate a near miss', 'inspector is on site', 'draft a
+  board paper on industrial manslaughter'. Load before any WHS task needing
+  current AU/NZ regulatory state or organisation-specific context.
 ---
 
 # WHS Professional Skill
@@ -129,6 +127,7 @@ load `references/company.md` alongside the generic file(s).
 | **Road transport / heavy vehicle** (HVNL Chain of Responsibility, NHVR, fatigue hours, load restraint) | `references/sector-regimes.md` §14 |
 | **Additional case studies** (Costa Concordia, Ranger Uranium, Bhopal, Beirut Port) | `references/case-studies.md` §9–§12 |
 | **Strategic and governance templates** (risk register, bowtie, WHS strategy, RACI, annual plan, officer briefing, site walk, annual report, AHRC evidence map, PTW, claim review, hazard report, regulator notification script) | `references/output-templates.md` §11–§23 |
+| Terminology, acronyms, "what does X mean" (TRIFR, PCBU, SFAIRP, ICAM, HiPo, WES/WEL) | `references/glossary.md` |
 | General WHS advice (catch-all) | `references/legislation.md` + `references/frameworks.md` |
 
 If the task spans multiple types, load all relevant reference files.
@@ -158,26 +157,32 @@ HSR powers, industrial manslaughter availability, and psychosocial regulations �
 giving advice without anchoring to a jurisdiction creates a high risk of
 misdirection.
 
-- **National** — Model WHS Act / Model Regulations (Safe Work Australia)
-- **NSW** — WHS Act 2011 (NSW), WHS Regulation 2025 (NSW) (remade — replaced the 2017 Regulation from 1 Jan 2026); SafeWork NSW a standalone regulator since 1 July 2025; Industrial Manslaughter (s 34C) effective 16 Sept 2024
-- **VIC** — OHS Act 2004, OHS Regulations 2017 (Victoria uses OHS terminology; SFAIRP standard applies via s 21); Workplace Manslaughter in force since 1 July 2020
-- **QLD** — WHS Act 2011 (QLD), WHS Regulation 2011 (QLD); Industrial Manslaughter since 2017
-- **WA** — Work Health and Safety Act 2020 (commenced 31 Mar 2022); Industrial Manslaughter (s 30A)
-- **SA** — WHS Act 2012 (SA); Industrial Manslaughter (2023 amendment, in force 1 July 2024)
-- **TAS** — WHS Act 2012 (TAS); Industrial Manslaughter (passed 11 Sept 2024, in force from Oct 2024)
-- **ACT** — WHS Act 2011 (ACT); Industrial Manslaughter in the WHS Act via 2021 amendment (offence first enacted in the Crimes Act in 2004)
-- **NT** — WHS (National Uniform Legislation) Act 2011; Industrial Manslaughter since 1 Feb 2020
-- **NZ** — Health and Safety at Work Act 2015 (HSWA), with WorkSafe NZ as regulator; ACC scheme for injury compensation; WEPR Regulations 2016 for worker engagement; Pike River royal commission shaped HSWA structure; HSWA reform under way — Health and Safety at Work Amendment Bill before Parliament (2026) (see `legislation.md` §3 for full NZ treatment)
-- **Commonwealth** — WHS Act 2011 (Cth); Industrial Manslaughter (s 30A, inserted by the Closing Loopholes amendments) since 1 July 2024
+> **This is an index, not a citable source.** Industrial manslaughter is now
+> available in every Australian jurisdiction and the Commonwealth, but
+> commencement dates, section numbers, penalty maxima, and the status of recent
+> reforms change frequently and are indexed annually. **Load
+> `references/legislation.md` §6 (enforcement, penalties, industrial
+> manslaughter) and §16 (state-by-state detail) before quoting any date,
+> section, or figure in an output.**
+
+- **Model law** — Model WHS Act / Model Regulations (Safe Work Australia); adopted with variations by each jurisdiction below
+- **NSW** — WHS Act 2011 (NSW), WHS Regulation 2025 (NSW); SafeWork NSW a standalone regulator; industrial manslaughter available
+- **VIC** — OHS Act 2004, OHS Regulations 2017 (Victoria uses OHS terminology; SFAIRP standard via s 21); workplace manslaughter in force; psychosocial health regulated separately
+- **QLD** — WHS Act 2011 (QLD), WHS Regulation 2011 (QLD); industrial manslaughter in force
+- **WA** — Work Health and Safety Act 2020 (WA); industrial manslaughter in force
+- **SA** — WHS Act 2012 (SA); industrial manslaughter in force
+- **TAS** — WHS Act 2012 (TAS); industrial manslaughter in force
+- **ACT** — WHS Act 2011 (ACT); industrial manslaughter in force
+- **NT** — WHS (National Uniform Legislation) Act 2011; industrial manslaughter in force
+- **NZ** — Health and Safety at Work Act 2015 (HSWA); WorkSafe NZ regulator; ACC scheme for injury compensation; HSWA reform under way (see `legislation.md` §3 for full NZ treatment)
+- **Commonwealth** — WHS Act 2011 (Cth); industrial manslaughter in force (Comcare scheme)
 
 If jurisdiction is ambiguous, state assumptions clearly and note where state/territory
 regulations differ materially from the model law.
 
-Penalty maxima and commencement dates change frequently (and most penalties are
-indexed annually) — when citing a specific figure or date, flag it for verification
-against the current consolidated Act.
-
-> For full legislative detail, load `references/legislation.md`
+> For full legislative detail — Acts, sections, penalties, commencement dates, NZ
+> HSWA, psychosocial regulations, and the inspector playbook — load
+> `references/legislation.md`.
 
 ---
 
@@ -252,178 +257,107 @@ ISO 31000 or the organisation's existing matrix. Map controls to the hierarchy e
 > choice — alternative frames exist and are valid in their contexts, but the
 > skill is consistent and explicit about the lens it applies.
 
-When the task involves learning from incidents, program design, or worker engagement,
-integrate Safety II, Human and Organisational Performance (HOP), and Forge Works
-Blueprint principles:
-
 > **Attribution note**: The Forge Works Blueprint is a consulting framework
 > developed by Dr David Provan (CEO, Forge Works, Melbourne; Adjunct Research
-> Fellow, Griffith University Safety Science Innovation Lab). The principles
-> below reflect publicly available concepts from Provan's body of work — the
-> Safety of Work podcast, published papers, and conference presentations — and
-> are summarised here for practitioner use. Visit <https://forgeworks.com> for
-> the source material.
+> Fellow, Griffith University Safety Science Innovation Lab). Concepts referenced
+> here reflect publicly available material from Provan's body of work — the
+> Safety of Work podcast, published papers, and conference presentations. Visit
+> <https://forgeworks.com> for the source material.
 
-- Work-as-Done ≠ Work-as-Imagined — investigate what actually happened, not what the
-  procedure said should happen
-- Error is normal — system design, not individual blame, is the lever
-- Context drives behaviour — understand the pressures, goals, and environment workers
-  operated in at the time
-- Capacity vs demand — when demand exceeds capacity, failures are predictable
-- Seek out what goes right (Safety II) as much as what goes wrong (Safety I)
+When the task involves learning from incidents, program design, or worker
+engagement, apply the core principles: Work-as-Done ≠ Work-as-Imagined
+(investigate what actually happened); error is normal — system design, not
+individual blame, is the lever; context drives behaviour; capacity vs demand
+(when demand exceeds capacity, failures are predictable); and seek out what goes
+right (Safety II), not only what goes wrong. The Forge Works additions —
+systemic goal management, decentralised decision-making, resilience-capacity
+frameworks, advanced (beyond-TRIFR) metrics, and worker engagement as
+intelligence — extend this where relevant.
 
-**Forge Works Blueprint additions** (integrate where relevant):
-- **Systemic goal management** — safety goals must cascade into operational decision-making,
-  not sit as parallel obligations that compete with production goals
-- **Decentralised decision-making** — frontline workers need authority, tools, and
-  psychological safety to act on safety concerns without escalating every decision
-- **Resilience capacity frameworks** — measure and build the organisation's ability to
-  anticipate, adapt, absorb, and learn from disruptions
-- **Advanced metrics** — move beyond TRIFR/LTIFR to capacity, engagement, and learning
-  indicators; lagging rates are outcomes of systemic performance, not drivers of it
-- **Worker engagement as intelligence** — workers are the primary source of WAD knowledge;
-  engagement programs must extract and act on that intelligence, not just push messages
+**Name the source of concepts** when credibility, audience expectation, or
+evidentiary rigour demands it (board, ELT, regulator, senior-client level) —
+attribute to the researchers whose work established them: Reason (Swiss Cheese,
+Just Culture), Dekker (human error as symptom, drift), Hollnagel (Safety I/II,
+FRAM, ETTO), Conklin (HOP), Edmondson (psychological safety), Provan (Safety
+Differently), Rasmussen (SRK, AcciMap), Hopkins (case-study analysis), Weick
+(HROs). Use sparingly — one or two named citations per document.
 
-### Naming the source of concepts
-When credibility, audience expectation, or evidentiary rigour demands it, attribute
-concepts to the researchers whose work established them. Knowing the source elevates
-"the safety industry says" to "the foundational research shows" — useful at board,
-ELT, regulator, and senior client level. Default attributions:
-
-- **Swiss Cheese Model, latent vs active failure, Just Culture** → James Reason
-- **Human error as symptom, Just Culture practitioner framing, drift** → Sidney Dekker
-- **Safety I vs Safety II, FRAM, ETTO, resilience capacities** → Erik Hollnagel
-- **HOP and the 5 Principles** → Todd Conklin
-- **Psychological safety, learning organisation** → Amy Edmondson
-- **Safety Differently, safety professional role** → David Provan (with Dekker)
-- **Skills-Rules-Knowledge, drift into failure, AcciMap** → Jens Rasmussen
-- **Failure to Learn, Disastrous Decisions (case studies)** → Andrew Hopkins
-- **High Reliability Organisations, sensemaking** → Karl Weick (with Sutcliffe)
-
-Use sparingly — one or two named citations per board paper or strategic document
-establishes evidentiary grounding without being academic. See `references/frameworks.md`
-Section 12 for full citation detail.
-
-See `references/frameworks.md` for full HOP/Safety II/Forge Works application guidance.
+> For the full HOP / Safety II / Forge Works application guidance and the
+> named-thinker attribution table with citation detail, load
+> `references/frameworks.md` (§11–§12).
 
 ---
 
 ## 7. Psychosocial Hazards
 
-Psychosocial hazards are now a distinct regulated category under the model WHS
-Regulations (rr 55A–55D, inserted 2022 — located in NSW as Part 3.2 Div 11 — and
-commenced 2022–2024 by jurisdiction; Victoria regulates separately via the OHS
-Amendment (Psychological Health) Regulations, in force 1 December 2025). Treat them
-with the same rigour as physical hazards — apply the hierarchy of controls, document
-SFAIRP reasoning.
+Psychosocial hazards are a distinct regulated category under the model WHS
+Regulations (rr 55A–55D; Victoria regulates separately via the OHS Amendment
+(Psychological Health) Regulations). Treat them with the same rigour as physical
+hazards — apply the hierarchy of controls and document SFAIRP reasoning. EAP is a
+supporting resource, not a control in itself.
 
-**Primary psychosocial hazards (SWA model Code of Practice, 2022):**
-High job demands, low job control, poor support, lack of role clarity, poor
-organisational change management, inadequate reward and recognition, poor
-organisational justice, traumatic events, remote or isolated work, poor physical
-environment, violence and aggression, bullying, harassment (including sexual
-harassment), and conflict or poor workplace relationships.
+**Canonical psychosocial hazard list (SWA model Code of Practice, 2022)** — the
+single source of truth for this list across the skill: high job demands; low job
+control; poor support; lack of role clarity; poor organisational change
+management; inadequate reward and recognition; poor organisational justice;
+traumatic events or material; remote or isolated work; poor physical environment;
+violence and aggression; bullying; harassment (including sexual and gender-based
+harassment); and conflict or poor workplace relationships and interactions.
 
-**Regulatory obligations:**
-- PCBU must identify psychosocial hazards and manage risks SFAIRP
-- Cannot treat psychological health separately from physical health — same PCBU duty applies
-- WHS entry permit holders have rights to investigate psychosocial complaints in most jurisdictions
-
-**Key outputs for psychosocial tasks:**
-- Psychosocial risk assessment (same HIRAC process, different hazard types)
-- Psychosocial hazard register
-- EAP program governance (not a control in itself — supporting resource only)
-- Return-to-work considerations for psychological injuries
-
-> For legislative basis by jurisdiction, load `references/legislation.md` (Section 9)
-> For control frameworks, hierarchy of controls, and Safety II application to
-> psychosocial risk, load `references/frameworks.md`
+> For the legislative basis by jurisdiction (regulation numbers, commencement,
+> adoption status), load `references/legislation.md` §9. For control frameworks,
+> hierarchy of controls, and Safety II application to psychosocial risk, load
+> `references/frameworks.md` §14.
 
 ---
 
 ## 8. WHS Data Analytics & Intelligence Reporting
 
-When the task involves WHS metrics, dashboards, KPI design, or intelligence packs for
-management or board audiences:
+For WHS metrics, dashboards, KPI design, or board/ELT intelligence packs:
+distinguish **leading** indicators (inputs — CCV completion, hazard reports,
+corrective-action close-out) from **lagging** indicators (outcomes — TRIFR,
+LTIFR, HiPo rate); lead with HiPo signal — the highest-value signal in any WHS
+dataset — analysed by critical-risk type, BU, and trend, not just headline count;
+always pair point-in-time figures with trend (rolling 12 months vs prior year);
+and tell a story — data without so-what analysis adds noise.
 
-- Distinguish **lagging indicators** (TRIFR, LTIFR, HiPo rate — outcomes) from
-  **leading indicators** (CCV completion, hazard reports, corrective action close-out — inputs)
-- HiPo intelligence is the highest-value signal in any WHS dataset — always analyse
-  distribution by critical risk type, BU, and trend, not just headline count
-- Board/ELT packs must tell a story — data without narrative and so-what analysis adds noise
-- Always present trend (rolling 12 months vs prior year) alongside point-in-time figures
-- CCV-to-HiPo alignment dashboards: gap between critical control verification
-  activity and incident distribution is the key diagnostic question for resource
-  allocation
-
-**Common WHS analytics tasks:**
-- TRIFR/LTIFR/AIFR trend analysis by BU, contract, or region
-- HiPo intelligence packs (distribution by critical risk, BU, investigation status)
-- CCV completion vs planned — critical control health heatmaps
-- Leading vs lagging indicator dashboards
-- Hazard report rate per worker — engagement proxy
-- Corrective action close-out rate and age analysis
-- EAP utilisation reporting (AU + NZ combined, trend, service type)
-
-> Load `references/analytics.md` for KPI definitions, calculation methods, Power BI
-> patterns, and intelligence pack structure.
+> Load `references/analytics.md` for KPI definitions and calculation methods, the
+> HiPo intelligence pack structure, dashboard design, and Power BI patterns; load
+> `references/company.md` for system names.
 
 ---
 
 ## 9. Zero Harm Program Design
 
-When the task involves designing a safety program, campaign, engagement initiative,
-or facilitator framework:
+For designing a safety program, campaign, engagement initiative, or facilitator
+framework: programs must solve a defined problem (not activity for its own sake);
+gamification works only when it lifts intrinsic motivation (completion rates ≠
+engagement); frontline-generated content outperforms top-down material;
+critical-risk topics need repetition across formats and across a program cycle;
+and facilitator quality is the biggest variable in outcomes.
 
-- Programs must solve a defined problem — not activity for its own sake
-- Gamification works when it increases intrinsic motivation; it fails when it becomes
-  a compliance exercise (completion rates ≠ engagement)
-- Frontline-generated content (videos, alerts, discussions) consistently outperforms
-  top-down material in credibility and uptake
-- Critical risk topics require repetition across multiple formats across a program cycle —
-  one toolbox is not sufficient for behaviour or awareness change
-- Facilitator quality is the biggest variable in program outcomes — invest in training,
-  feedback loops, and recognition
-
-**Program design components:**
-- Problem definition and target population
-- Theory of change — what will change and why?
-- Content architecture — topics, formats, cadence, channels
-- Facilitator strategy — selection, training, support, accountability
-- Measurement framework — activity metrics AND outcome metrics
-- Iteration mechanism — how will the program learn and adapt?
-
-> Load `references/programs.md` for full program design framework, gamification principles,
-> facilitator development guide, and sustained-campaign architecture.
+> Load `references/programs.md` for the full program-design framework (problem
+> definition, theory of change, content architecture, facilitator strategy,
+> measurement, iteration), gamification principles, facilitator development, and
+> sustained-campaign architecture; load `references/company.md` for named programs.
 
 ---
 
 ## 10. WHS Governance & Assurance
 
-When the task involves governance framework design, template suites, audit programs,
-management system assurance, or PMO reporting:
+For governance framework design, template suites, audit programs, management-
+system assurance, or PMO reporting: governance is the system of accountability,
+authority, and decision-making (not administration); distinguish **audit**
+(systematic, independent, evidence-based examination of conformance) from
+**assurance** (ongoing confirmation that controls are in place and effective —
+closer to CCV than audit); design template suites for the user, not the author;
+and treat Lessons Learnt as a living process linked to the risk register, not a
+post-project exercise.
 
-- Governance is not administration — it is the system of accountability, authority, and
-  decision-making that ensures WHS obligations are met and managed
-- Distinguish **audit** (systematic, independent, evidence-based examination of system
-  conformance) from **assurance** (ongoing confirmation that controls are in place and
-  effective — closer to CCV than audit)
-- Template suites must be designed for the user, not the author — clarity, navigability,
-  and proportionality determine whether they get used
-- Lessons Learnt must be a living process, not a post-project exercise — capture at
-  project close AND at key milestones; link outcomes to the CRO/risk register
-
-**Governance outputs:**
-- Project governance framework and template suites (per your organisation's
-  document numbering convention — see `company.md`)
-- WHS management system gap analysis (ISO 45001 structure)
-- Audit program design (scope, frequency, methodology, reporting chain)
-- Assurance register and critical control verification calendar
-- Lessons Learnt register (per your organisation's template — see `company.md`)
-
-> Load `references/frameworks.md` for ISO 45001 clause map, assurance frameworks,
-> and board/ELT reporting structure. Load `references/company.md` for organisation-
-> specific governance documents, template suites, and reporting cadence.
+> Load `references/frameworks.md` (§15) for the ISO 45001 clause map, assurance
+> frameworks, audit-program design, and board/ELT reporting structure; load
+> `references/company.md` for organisation-specific governance documents, template
+> numbering, and reporting cadence.
 
 ---
 
@@ -448,118 +382,37 @@ Before finalising any output, confirm:
 
 ## 12. Reference Files
 
-Load these files as needed based on the routing table in Section 1:
+Load these files as needed per the routing table in Section 1. **Load
+`references/company.md` first for any task needing organisation-specific context**
+(risk matrix, incident classification, document numbering, systems, critical-risk
+taxonomy, named programs, governance cadence). It is pre-filled with the fictional
+Meridian Facilities Group worked example — replace it with your own organisation's
+content to repurpose the skill.
 
-- **`references/company.md`** — **Load this first when working on any task that
-  needs organisation-specific context.** Holds the company's risk matrix,
-  incident classification, document numbering, system references, critical risk
-  taxonomy, named programs, and governance cadence. Comes pre-filled with a
-  template structure plus one worked example (Meridian Facilities Group — a
-  fictional organisation). Replace the worked example with your own
-  organisation's content to repurpose the skill
-- **`references/legislation.md`** — Detailed AU/NZ legislative provisions, key
-  sections, penalty units, regulator contacts, NZ HSWA structure, psychosocial
-  hazard regulations, industrial manslaughter offences by jurisdiction,
-  Respect@Work positive duty, inspector visit playbook, enforceable
-  undertakings and limitation periods, and the WES table (with the 1 Dec 2026
-  WEL transition noted)
-- **`references/investigation.md`** — ICAM methodology, 5-Why, contributing factors
-  taxonomy, bowtie analysis, generic ICAM report template, named cognitive biases,
-  common pitfalls, PEEPO question bank, PEACE witness interviewing, compelled vs
-  voluntary statements, ICAM variants, AcciMap, and legal privilege management
-- **`references/output-templates.md`** — Safety alert, toolbox talk, advisory note,
-  policy/procedure, and contractor WHS templates, plus a strategic/governance
-  suite (§11–§23: risk register, bowtie, strategy, RACI, annual plan, officer
-  briefing, site walk, annual report, AHRC evidence map, PTW, claim review,
-  hazard report, regulator notification script)
-- **`references/frameworks.md`** — Hierarchy of controls, SFAIRP, ISO 45001 clause
-  map, Safety II/HOP/Forge Works principles, resilience engineering, critical risk
-  management, board reporting frameworks, psychosocial risk controls (§14), WHS
-  governance and assurance (§15), named safety science thinkers and foundational
-  models
-- **`references/analytics.md`** — WHS data analytics, KPI definitions and
-  calculations, HiPo intelligence pack structure, dashboard design principles,
-  Power BI patterns
-- **`references/programs.md`** — Zero Harm program design, gamification principles,
-  facilitator frameworks, sustained-campaign architecture, engagement measurement
-- **`references/hazards.md`** — Hazard-specific operational WHS: engineered stone
-  ban, respirable crystalline silica, asbestos, construction WHS (PC/WHSMP/HRCW/SWMS),
-  drug and alcohol testing, working in heat, Major Hazard Facilities, and the
-  18 categories of high-risk construction work
-- **`references/glossary.md`** — Acronyms, abbreviations, and frequently used
-  WHS terminology. Load when the user is new to WHS or asks what a term means.
-- **`references/environment.md`** — Environmental (the E in EHS): AU/NZ regulatory
-  framework (EPBC, NGER, NPI, state EPA Acts, RMA), ISO 14001:2015 clause map,
-  environmental aspects/impacts, EPA notification thresholds, hazardous chemicals
-  and dangerous goods storage, spill response, contamination assessment, waste
-  hierarchy, emissions and discharge licensing, biodiversity and Aboriginal
-  heritage, climate-WHS intersection
-- **`references/compensation-rtw.md`** — Workers compensation across AU
-  state schemes (icare, WorkSafe VIC, WorkCover QLD, RTWSA, etc.) and NZ ACC;
-  claim lifecycle, provisional liability, premium mechanics, IMEs, suitable
-  employment, RTW coordinator role, psychological injury claims, journey
-  claim coverage, presumptive provisions, common manager-level traps
-- **`references/inspections-audits-permits.md`** — Workplace inspection
-  program design; WHS audit methodology (ISO 19011, first/second/third party,
-  finding classification); permit-to-work systems (hot work, confined space,
-  height, isolation, excavation, electrical); pre-task / point-of-work risk
-  assessment tools (Take 5, SLAM, STAR, JSEA, SWMS)
-- **`references/case-studies.md`** — Worked summaries of eleven landmark
-  cases (Esso Longford 1998, BP Texas City 2005, Deepwater Horizon 2010,
-  Pike River 2010, Dreamworld 2016, Whakaari/White Island 2019, Grenfell
-  Tower 2017, Costa Concordia 2012, Ranger Uranium 2013, Bhopal 1984,
-  Beirut Port 2020) with named-thinker analytical framing; guidance on using
-  case studies in board papers, training, and safety alerts
-- **`references/sector-regimes.md`** — Sector-specific regulatory regimes
-  that sit outside or alongside the WHS Act: mining (NSW/QLD/WA/SA Acts),
-  maritime (AMSA, Navigation Act, NOPSEMA, Maritime NZ), aviation (CASA,
-  CASR), rail (ONRSR, RSNL), road transport (HVNL Chain of Responsibility,
-  NHVR), healthcare biosafety (AS/NZS 2243.3, PC levels, infection control,
-  radiation), defence (SafetyMan, DEFGRAM, explosive ordnance)
-- **`references/workplace-controls.md`** — Universal everyday workplace
-  controls: first aid (Code, AS 2675, ratios, HLTAID units, AED),
-  emergency preparedness and evacuation (AS 3745, ECO, drills, business
-  continuity distinction), lone working / remote work, working from home /
-  hybrid arrangements (PCBU duty for home workplace, Right to Disconnect,
-  FDV intersection)
-- **`references/capability-culture.md`** — Behavioural-based safety
-  (origins, design, critiques from Dekker/Hopkins/Provan, evidence base);
-  maturity assessment frameworks (Hudson, DuPont Bradley, IOGP, Heinrich
-  critique); safety culture vs climate measurement (Edmondson, Reason,
-  NOSACQ, survey design principles)
-- **`references/strategy-function.md`** — WHS strategy development
-  (multi-year roadmap, capability uplift, beyond-TRIFR objectives);
-  WHS function design (org chart by org size, RACI, in-house vs outsourced,
-  advisor ratios); WHS budget and economics (visible vs hidden cost, ROI
-  approaches, business case structure); WHS leadership selection and
-  development (chartered status pathway); crisis management distinct
-  from emergency response (CMT, family liaison, coronial process, media,
-  legal privilege)
-- **`references/specialist-topics.md`** — Occupational hygiene practice
-  (AIOH credentials, sampling methods, exposure assessment); workplace
-  mental health programs (beyond psychosocial regs — MHFA, peer support,
-  EAP design); Modern Slavery Act 2018 supply chain due diligence; ESG and
-  WHS intersection (GRI 403, SASB, TCFD/ISSB); insurance arrangements
-  (PI, PL, D&O, cyber)
-- **`references/diversity-inclusion.md`** — Indigenous workforce
-  considerations (cultural load, cultural heritage on Country, Sorry
-  Business); reasonable adjustments for disability (DDA + WHS intersection);
-  neurodivergent worker accommodation; multi-language safety communication
-  (translation governance, pictographic standards); gendered violence at
-  work depth (third-party harassment, hybrid equity)
-- **`references/whs-procurement.md`** — WHS in the procurement process;
-  buyer-side WHS evaluation (prequalification platforms, criteria,
-  high-risk categories); WHS in tender response (supplier side);
-  Modern Slavery DD overlap; ongoing contractor performance management
-- **`references/whistleblower.md`** — Whistleblower protections and WHS
-  reporting intersection: Corporations Act 2001 Part 9.4AAA (eligible
-  whistleblower, disclosable matter, protections); Public Interest
-  Disclosure Act 2013 (Cth); state PID Acts; design of reporting paths
-  that capture statutory protection
-- **`references/case-studies-everyday.md`** — Worked everyday incidents
-  for training and ICAM calibration: forklift HiPo, manual handling MSI,
-  psychosocial complaint, electrical near-miss, slip-trip-fall, chemical
-  decant spill, fatigue-related vehicle incident
+| File | Covers |
+|---|---|
+| `legislation.md` | AU/NZ statutory detail: duties, penalties, industrial manslaughter, NZ HSWA, psychosocial regs, Respect@Work positive duty, inspector playbook, enforceable undertakings, training, WES/WEL table (1 Dec 2026 transition), Codes of Practice, state-by-state detail |
+| `investigation.md` | ICAM, 5-Why, contributing-factors taxonomy, bowtie, report template, cognitive biases, PEEPO, PEACE interviewing, compelled vs voluntary statements, ICAM variants, AcciMap, legal privilege |
+| `frameworks.md` | Hierarchy of controls, SFAIRP, ISO 45001 clause map, Safety II/HOP/Forge Works (§11), named safety-science thinkers (§12), M&A due diligence (§13), psychosocial controls (§14), governance & assurance (§15), board reporting |
+| `hazards.md` | Engineered stone, RCS/silica, asbestos, construction (PC/WHSMP/HRCW/SWMS), D&A, heat, Major Hazard Facilities, electrical/LOTO, confined space, plant, noise, manual tasks, fatigue, high-risk-activity playbooks |
+| `output-templates.md` | Safety alert, toolbox talk, advisory note, policy/procedure, contractor WHS, plus a strategic/governance template suite (§11–§23) |
+| `analytics.md` | KPI definitions and calculations, HiPo intelligence pack structure, dashboard design, Power BI patterns |
+| `programs.md` | Zero Harm program design, gamification, facilitator frameworks, sustained-campaign architecture, engagement measurement |
+| `company.md` | Organisation layer: risk matrix, incident classification, document numbering, systems, critical-risk taxonomy, named programs, governance cadence (Meridian worked example) |
+| `glossary.md` | WHS acronyms, abbreviations, and terminology — load when new to WHS or when a term needs defining |
+| `environment.md` | EHS: AU/NZ environmental law (EPBC, NGER, NPI, state EPA Acts, RMA), ISO 14001, aspects/impacts, EPA notification, dangerous goods, spills, contamination, waste, emissions, climate-WHS |
+| `compensation-rtw.md` | Workers compensation across AU schemes and NZ ACC; claim lifecycle, provisional liability, premium mechanics, IMEs, suitable employment, RTW coordinator, psychological injury, presumptive provisions |
+| `inspections-audits-permits.md` | Inspection program design; WHS audit methodology (ISO 19011); permit-to-work systems; pre-task risk tools (Take 5, SLAM, STAR, JSEA, SWMS) |
+| `case-studies.md` | Eleven landmark cases (Longford, Texas City, Macondo, Pike River, Dreamworld, Whakaari, Grenfell, Costa Concordia, Ranger Uranium, Bhopal, Beirut Port) with named-thinker framing |
+| `case-studies-everyday.md` | Worked everyday incidents for training and ICAM calibration (forklift, manual handling, psychosocial, electrical, slip/trip, chemical, fatigue) |
+| `sector-regimes.md` | Sector regimes outside/alongside the WHS Act: mining, maritime, aviation, rail, road transport (HVNL Chain of Responsibility), healthcare biosafety, defence, additional sectors |
+| `workplace-controls.md` | First aid, emergency preparedness/evacuation, lone/remote working, working from home / hybrid, Right to Disconnect |
+| `capability-culture.md` | Behavioural-based safety (with critiques), maturity assessment frameworks, safety culture vs climate measurement |
+| `strategy-function.md` | WHS strategy, function design, budget/economics, leadership development, crisis management |
+| `specialist-topics.md` | Occupational hygiene, workplace mental health programs, Modern Slavery Act, ESG/WHS, insurance |
+| `diversity-inclusion.md` | Indigenous workforce, reasonable adjustments, neurodivergent accommodation, multi-language communication, gendered violence depth |
+| `whs-procurement.md` | WHS in procurement, supplier evaluation, tender response, contractor performance management |
+| `whistleblower.md` | Whistleblower protections (Corporations Act Part 9.4AAA, PIDA, state PID Acts) and the WHS reporting intersection |
 
 A worked-examples directory (`examples/`) sits alongside `references/` with
 realised outputs (safety alert, toolbox talk, advisory note, ICAM exec

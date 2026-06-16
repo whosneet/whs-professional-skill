@@ -371,11 +371,17 @@ clean-up costs across criminal, civil, and private actions.
 
 ### AU/NZ practice lessons
 - **Offshore petroleum regulation in Australia**. NOPSEMA (the National
-  Offshore Petroleum Safety and Environmental Management Authority) was
-  established in 2012, partly in response to the Macondo blowout, as
-  Australia's dedicated offshore safety regulator. The structural
-  separation of safety regulation from resource management reflects the
-  MMS critique.
+  Offshore Petroleum Safety and Environmental Management Authority)
+  commenced on 1 January 2012 as Australia's dedicated offshore safety
+  and environmental regulator. The primary domestic driver was the 2009
+  **Montara wellhead blowout** in the Timor Sea and the Montara Commission
+  of Inquiry (2010), whose recommendations the Government accepted in 2011;
+  the Macondo blowout was a reinforcing international factor. Montara is a
+  citable AU offshore case in its own right — an H1 well integrity barrier
+  failure that produced an uncontrolled release lasting roughly 74 days —
+  and prefigures the same pass/fail-criteria and well-integrity lessons
+  drawn from Macondo below. The structural separation of safety regulation
+  from resource management reflects the MMS critique.
 - **Pass/fail criteria for safety-critical tests**. Test procedures that
   rely on real-time judgement are vulnerable to ETTO (efficiency-thoroughness
   trade-off — see frameworks.md §12 Hollnagel) under cost or schedule
@@ -558,9 +564,11 @@ statements and the systemic deficiencies the inquest exposed.
 
 ### Regulatory outcome
 Ardent Leisure was prosecuted under the *Work Health and Safety Act
-2011 (Qld)* on three category 2 charges and pleaded guilty in 2020.
-The Magistrates Court imposed a fine of **A$3.6 million** — at the
-time the highest WHS fine in Queensland history. The Queensland
+2011 (Qld)* on three charges under **section 32 (category 2)** and
+pleaded guilty in 2020. Against a statutory maximum of A$4.5 million
+(three charges at A$1.5 million each), the Southport Magistrates Court
+imposed a fine of **A$3.6 million** — at the time the highest WHS fine
+in Queensland history. The Queensland
 Government implemented coronial recommendations on amusement device
 regulation, including more frequent independent engineering review
 requirements and clearer responsibilities for legacy plant assessment.
@@ -882,6 +890,14 @@ were institutional.
 
 ### AU/NZ practice lessons
 - Cruise industry oversight under AMSA Navigation Act and IMO frameworks
+- **WHS / maritime coverage boundary**. For seafarers on regulated
+  Australian vessels, occupational health and safety is governed primarily
+  by the Navigation Act 2012 (Cth) and the Marine Orders made under it
+  (administered by AMSA), not by the model WHS Act — the WHS regime
+  generally does not displace the maritime safety regime for those workers.
+  Practitioners advising on shipboard work must identify which scheme
+  applies before assuming WHS Act duties attach; the boundary turns on
+  vessel type, flag, and operation.
 - Master authority on AU-flagged vessels under Navigation Act 2012 + Marine
   Orders — bridge resource management (BRM) training now embedded
 - Passenger vessel evacuation requirements significantly tightened post-Concordia
@@ -1020,7 +1036,12 @@ intellectual lineage with Bhopal — the same systemic mechanism, scaled.
 
 ### AU/NZ practice lessons
 - MHF regulation framework (cross-reference `hazards.md` §7) is the direct
-  legislative descendant of post-Bhopal global thinking
+  legislative descendant of post-Bhopal global thinking. The siting and
+  inventory lessons are operationalised in AU through the Schedule 11
+  placard, manifest and notification triggers for hazardous chemicals at a
+  workplace, and the Schedule 15 MHF threshold-quantity and determination
+  triggers for major hazard facilities (cross-reference `hazards.md` §7) —
+  the same machinery the Beirut entry below references for ammonium nitrate
 - Process Safety Management crystallised internationally (cross-reference
   §2 Longford and §3 Texas City above for the same systemic lineage in
   Hopkins' analyses)
@@ -1089,12 +1110,12 @@ foreseeable event occurred.
 
 ### AU/NZ practice lessons
 - AN storage in AU is regulated under the MHF framework: model WHS
-  Regulations Schedule 15 sets the ammonium nitrate (UN 1942) threshold at
-  2,500 tonnes (5,000 tonnes for AN-based fertilisers), and a facility
-  holding 10% or more of the threshold — 250 tonnes of AN — must notify
-  the regulator. Beirut's 2,750-tonne stockpile exceeded the full
-  threshold; in the AU regime, Hangar 12 would have been a determined
-  major hazard facility
+  Regulations Schedule 15 (Table 15.1) sets the ammonium nitrate (UN 1942)
+  threshold quantity at 2,500 tonnes (5,000 tonnes for AN-based fertilisers,
+  UN 2067–2072), and a facility holding 10% or more of the threshold —
+  250 tonnes of AN — must notify the regulator and may be determined an MHF.
+  Beirut's 2,750-tonne stockpile exceeded the full threshold; in the AU
+  regime, Hangar 12 would have been a determined major hazard facility
 - Dangerous goods regulation at ports (AMSA + state DG regulators)
 - Custodial chain for abandoned hazardous cargo — legislation exists in AU
   for AMSA to act; Beirut illustrates the consequence of regulatory inaction

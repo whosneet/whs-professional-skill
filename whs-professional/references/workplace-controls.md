@@ -123,6 +123,31 @@ Flushing equipment must be tested weekly (visual + functional) and serviced
 annually per AS 4775. Contaminated, low-flow, or non-tepid equipment is a Major
 NC at audit and a notifiable contributing factor in chemical injury incidents.
 
+### First aid room
+The Code of Practice indicates a first aid room should be considered where the
+workplace is a **low-risk workplace with 200 or more workers**, or a
+**high-risk workplace with 100 or more workers** — but these are indicative
+triggers, not absolutes. The decision is risk-assessment-driven: a first aid
+room should be provided wherever the assessment shows that administering first
+aid at the workplace would otherwise be difficult (remoteness, injury type,
+privacy, the need to stabilise a casualty pending ambulance arrival), even
+below these numbers.
+
+Where provided, the Code's indicative facilities and equipment for a first aid
+room include:
+- Located to allow easy access (including by stretcher or wheelchair), close to
+  hand-washing and toilet facilities, and clearly signposted
+- A bed or couch with waterproof surface, plus blankets and pillows
+- A first aid kit appropriate to the workplace, plus a basin with running water,
+  a cupboard for storage, and a chair and table or desk
+- Electrical power points, adequate lighting and ventilation, and a telephone or
+  other means of communication
+- Where indicated by the risk assessment, an AED and additional equipment
+  matched to the workplace hazards
+
+A first aid room does not displace the first aider, kit, and AED arrangements
+above — it supplements them for larger or higher-risk sites.
+
 ### Automated External Defibrillators (AEDs)
 AEDs are not regulated as mandatory equipment under model WHS Regulations — but
 their availability is strongly recommended by the Code of Practice, and the
@@ -174,7 +199,7 @@ three-yearly), and workplace first aider registers should enforce them.
 | Unit | Title | Currency | Typical application |
 |---|---|---|---|
 | **HLTAID009** | Provide cardiopulmonary resuscitation | **12 months** | CPR component; required to maintain HLTAID011 currency |
-| **HLTAID010** | Provide basic emergency life support | 3 years (CPR 12 months) | Basic first aid; superseded in most workplace contexts by HLTAID011 |
+| **HLTAID010** | Provide basic emergency life support | 3 years (CPR 12 months) | Basic emergency life support; a current, separately accredited unit (narrower scope than HLTAID011) — less commonly used as the standalone workplace qualification, as most workplaces require HLTAID011 |
 | **HLTAID011** | Provide first aid | **3 years** (CPR component 12 months) | Standard workplace first aider qualification — the default certification |
 | **HLTAID012** | Provide first aid in an education and care setting | 3 years (CPR 12 months) | Childcare, schools, OOSH; covers anaphylaxis, asthma in children, ASCIA action plan |
 | **HLTAID013** | Provide first aid in remote or isolated site | 3 years (CPR 12 months) | Remote workplaces with extended emergency response time |
@@ -198,6 +223,12 @@ the person to professional services.
 | Youth MHFA | 2 days | For staff working with adolescents |
 | Aboriginal and Torres Strait Islander MHFA | 2 days | Culturally specific delivery |
 | Refresher | 4 hours (every 3 years) | Maintain currency |
+
+MHFA course structure and the recommended refresher duration/cycle are set by
+MHFA Australia (an independent training body) and change periodically — treat
+the hours and three-yearly cycle above as indicative and confirm against the
+current MHFA Australia program before relying on them in policy or training
+schedules.
 
 MHFA is **not a substitute** for clinical mental health care, EAP, or
 psychological injury response. It is a recognition-and-referral capability that
@@ -233,6 +264,11 @@ ambulance handover, and hospital care. Coordination requirements:
   emergency services from the gate or entry point
 - Casualty handover documented; first aider's notes retained (potential
   evidentiary value if outcome is poor or matter becomes notifiable)
+- Where a first-aid event meets the notifiable-incident threshold (a death,
+  serious injury or illness, or dangerous incident under model WHS Act ss 35–39
+  / equivalent), the regulator must be notified immediately and the scene
+  preserved until the regulator permits otherwise (cross-reference
+  `legislation.md` §5)
 
 Cross-reference §2 of this file — first aid sits within the broader emergency
 response framework.
@@ -260,8 +296,9 @@ response framework.
 - Cleaning and security shifts are commonly under-covered — the WHS team's
   daytime view of first aider numbers does not reflect 2am reality
 - AED deployment across a portfolio is a defensible position to take to ELT —
-  unit cost (~$2–3K) is modest, the residual liability of not having one in a
-  high-occupancy or remote site is substantial
+  unit cost is modest (typically a low four-figure capital cost, roughly $1.5–3K
+  depending on model; treat current pricing as verifiable), and the residual
+  liability of not having one in a high-occupancy or remote site is substantial
 - For multi-tenanted buildings, building manager and tenants have overlapping
   duties — clarify whose first aiders cover whose workers in shared areas
 - Subcontractor prequalification should verify their first aider arrangements
@@ -968,7 +1005,10 @@ Control approaches:
   alternate accommodation support
 - 1800RESPECT national hotline visibility; state FDV service awareness
 - Our Watch *Workplace Equality and Respect* resources and Champions of
-  Change Coalition guidance for policy and training
+  Change Coalition guidance for policy and training (named third-party
+  programs and hotlines are current at time of writing but can be rebranded or
+  restructured — confirm the current service name and resource before
+  publishing)
 
 ### Mental health and EAP for distributed workforces
 EAP utilisation patterns differ for distributed workforces. Workers who

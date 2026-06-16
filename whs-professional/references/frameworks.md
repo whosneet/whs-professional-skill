@@ -810,8 +810,12 @@ Additional documents and considerations:
 - **Indigenous land use agreements** — cross-ref `diversity-inclusion.md`
   §1; native title obligations transfer
 - **Mining-specific regulator engagement** — NSW Resources Regulator, RSHQ
-  (QLD), WorkSafe WA (mines safety under the WHS Act 2020 (WA); the former
-  regulator DMIRS was dissolved in June 2025); cross-ref `sector-regimes.md` §2
+  (QLD), WorkSafe WA (mines safety under the WHS Act 2020 (WA)); note the WA
+  machinery-of-government change: the former department DMIRS was renamed DEMIRS
+  (Department of Energy, Mines, Industry Regulation and Safety) on 1 December
+  2023 and dissolved on 30 June 2025, with WHS/mines-safety functions (WorkSafe)
+  moving to the Department of Local Government, Industry Regulation and Safety
+  (LGIRS) from 1 July 2025; cross-ref `sector-regimes.md` §2
 
 #### Healthcare sector overlay
 

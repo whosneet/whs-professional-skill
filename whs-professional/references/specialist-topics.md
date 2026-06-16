@@ -55,6 +55,13 @@ Occupational hygiene covers three agent categories:
 | **Biological agents** | Legionella, bloodborne pathogens, mould spores, zoonotic agents, bacterial bioaerosols in wastewater and composting, healthcare-associated pathogens |
 | **Physical agents** | Noise, vibration (hand-arm, whole-body), ionising and non-ionising radiation, ultraviolet, thermal stress (heat, cold), electromagnetic fields, lighting and illuminance |
 
+Vibration has no mandated AU WHS exposure standard, but practice benchmarks the daily
+exposure normalised to 8 hours, A(8): for hand-arm vibration (AS 2763 / ISO 5349) an
+exposure action value of 2.5 m/s² and an exposure limit value of 5 m/s²; for whole-body
+vibration (ISO 2631) an action value of 0.5 m/s² and a limit value of 1.15 m/s² (the
+widely-applied EU benchmark values). See `references/hazards.md` §15 for the operational
+vibration framework.
+
 Ergonomic and psychosocial agents sit at the edge of the discipline — some hygienists work
 in those areas, but they are more commonly the domain of ergonomists, organisational
 psychologists, or WHS generalists.
@@ -146,6 +153,8 @@ carcinogens for which exposure should be kept as low as reasonably practicable.
 Exposure assessment reports written across the transition should state which framework
 the results were assessed against; sampling campaigns that will report after
 1 December 2026 should be designed against the WEL values and notations.
+(Maintenance note: this WES → WEL treatment is the detailed home — keep it in sync with
+the shorter `references/hazards.md` §2 copy if the date or notation detail changes.)
 
 WES validation involves:
 - Sampling against a defined methodology (NIOSH or AS method)
@@ -189,7 +198,7 @@ Common BM in AU practice:
 
 | Substance | Matrix | Indicator |
 |---|---|---|
-| Lead | Blood | Blood lead level (BLL); SWA notification > 30 µg/dL adult worker (lower for women of reproductive age) |
+| Lead | Blood | Blood lead level (BLL); removal level (Part 7.2 model WHS Regs, reg 415) 30 µg/dL (1.45 µmol/L) for males and females not of reproductive capacity, 10 µg/dL (0.48 µmol/L) for females of reproductive capacity — the BLL at which the PCBU must remove the worker from lead risk work |
 | Mercury | Urine | Urinary mercury |
 | Manganese | Blood | Whole blood manganese |
 | Cadmium | Blood, urine | Blood cadmium; urinary cadmium and β2-microglobulin |
@@ -200,8 +209,8 @@ Common BM in AU practice:
 
 The statutory regime is **health monitoring**, of which biological monitoring is one
 technique for some substances. Schedule 14 of the model WHS Regulations prescribes
-health monitoring for 14 hazardous chemicals (including MOCA, crystalline silica,
-isocyanates, and vinyl chloride). Lead has its own regime under Part 7.2 — blood lead
+health monitoring for a defined list of hazardous chemicals (including MOCA, crystalline
+silica, isocyanates, and vinyl chloride). Lead has its own regime under Part 7.2 — blood lead
 level monitoring with prescribed removal levels at which the worker must be removed
 from lead risk work. Asbestos health monitoring sits under Part 8.5 and has **no**
 biological monitoring component — it is clinical only (demographic and exposure
@@ -294,8 +303,9 @@ record retention obligations are long — 40 years for asbestos health monitorin
 records. Lose the data and the PCBU loses the ability to defend long-tail claims that may
 emerge decades after the exposure.
 
-> Cross-reference: load `references/hazards.md` §2 (RCS), §3 (asbestos), §14 (noise), §15
-> (vibration) for the operational hazard frameworks that occupational hygiene supports.
+> Cross-reference: load `references/hazards.md` §2 (RCS), §3 (asbestos), §13 (hazardous
+> chemicals), §14 (noise), §15 (vibration) for the operational hazard frameworks that
+> occupational hygiene supports.
 
 ---
 
@@ -606,8 +616,9 @@ $100M threshold). NSW government suppliers have specific obligations.
 
 Other states have not enacted comparable legislation, but **Victoria** and **WA**
 periodically review the question. The Commonwealth Statutory Review (McMillan 2023)
-recommended consideration of a federal Anti-Slavery Commissioner — appointment of an
-inaugural Federal Anti-Slavery Commissioner was announced in 2024.
+recommended consideration of a federal Anti-Slavery Commissioner — Chris Evans was
+appointed the inaugural Australian Anti-Slavery Commissioner (appointed 7 November 2024,
+commenced 2 December 2024) under the Modern Slavery Act 2018 (Cth).
 
 ### Risk-based, not isolated cases
 
@@ -873,15 +884,16 @@ The principal insurance arrangements that the WHS function intersects with:
 
 The most consequential development in WHS insurance is the statutory prohibition of
 insurance and indemnity arrangements for WHS monetary penalties. Following the Boland
-review of the model WHS laws, the model Act was amended in 2022 to prohibit these
-arrangements, and the major jurisdictions have legislated:
+review of the model WHS laws, the model WHS law was amended (Safe Work Australia) in 2022
+to recommend prohibiting these arrangements, and jurisdictions are legislating on their
+own timetables:
 
 | Jurisdiction | Provision | Effect |
 |---|---|---|
 | **NSW** | WHS Act 2011 (NSW) s 272A (inserted 2020) | Offence to enter into, provide, or take the benefit of insurance or indemnity for a WHS monetary penalty; officers involved in the contravention are personally liable |
 | **WA** | WHS Act 2020 (WA) s 272A | Equivalent prohibition; in force with the Act from 31 March 2022 |
 | **VIC** | OHS Act 2004 (VIC) ss 148–149 (inserted 2021) | Insurance and indemnity arrangements for OHS monetary penalties are void; entering into, providing, or benefiting from them is an offence |
-| **Cth** | WHS Act 2011 (Cth) ss 272A–272C (inserted by the Closing Loopholes amendments) | Equivalent prohibition and officer liability in the Commonwealth jurisdiction |
+| **Cth** | WHS Act 2011 (Cth) ss 272A–272B (inserted by the Work Health and Safety Amendment Act 2023 (Cth), Act No. 9 of 2023) | Offence to enter into, provide, or take the benefit of insurance or indemnity for a WHS monetary penalty (s 272A); officers of a body corporate knowingly concerned in the contravention are personally liable (s 272B). Defence and inquiry/investigation costs remain insurable |
 | **Model Act** | s 272A (2022 amendment per the Boland review) | Adopted into the model law; remaining harmonised jurisdictions adopt on their own timetables — check current adoption status |
 
 What remains lawfully insurable: **defence and investigation costs** (legal

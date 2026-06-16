@@ -231,7 +231,9 @@ scheme for coal mine workers, not the inspectorate's funding source.)
 - Major incident review boards — Boards of Inquiry can be appointed for
   catastrophic events (Moura No.2 Warden's Inquiry 1994 — a Warden's /
   Commission of Inquiry, not a Royal Commission; Grosvenor Board of Inquiry
-  2020 following the 6 May 2020 methane explosion)
+  2020 following the 6 May 2020 underground gas ignition / serious accident
+  (5 workers injured) — the Board of Inquiry considered spontaneous combustion
+  the probable cause, against a backdrop of repeated methane exceedances)
 
 **Industry-funded inspectorate** — RSHQ is funded by the coal and metalliferous
 mining and explosives industries through the statutory safety and health fees,
@@ -492,7 +494,12 @@ in maritime operations. HSWA 2015 applies to:
 
 The Whakaari / White Island prosecution (cf. `legislation.md` §3.6) is the
 landmark NZ case on overlap — WorkSafe NZ prosecuted under HSWA, not under
-the Maritime Transport Act.
+the Maritime Transport Act. The jurisdiction/overlap point is sound and
+unaffected by appeal; note for currency, however, that Whakaari Management
+Ltd's s 37 HSWA conviction was quashed by the High Court on 27 February 2025
+(the Court holding WML had no s 37 duty as it did not actively manage or
+control the walking-tour workplace), so read the cross-referenced material with
+that development in mind.
 
 ### 3.5 HSWA / WHS Act intersection at port
 
@@ -1006,11 +1013,20 @@ PCBU must have a documented PEP pathway with 24/7 access.
 | Exposure | Setting | Key controls |
 |---|---|---|
 | **Anaesthetic gases** | Operating theatres, recovery, dental | Scavenging systems; periodic monitoring (N2O <25 ppm typical guideline); workspace ventilation; pregnancy considerations |
-| **Cytotoxic drugs (chemotherapy)** | Oncology, pharmacy preparation, administration | AS 2639 (cytotoxic preparation); BSC Class II Type B2 or isolator; closed system transfer devices; spill kits; spill response protocol; specialised waste streams |
+| **Cytotoxic drugs (chemotherapy)** | Oncology, pharmacy preparation, administration | AS 2639-1994 and AS 2567 (laminar-flow cytotoxic drug safety cabinets — dated; confirm current status and pair with the relevant state cytotoxic-drug handling handbook and ISOPP/closed-system-transfer-device guidance); BSC Class II Type B2 or isolator; closed system transfer devices; spill kits; spill response protocol; specialised waste streams |
 | **Formaldehyde / formalin** | Pathology, anatomy, embalming | Engineering ventilation; substitution with formalin alternatives where possible; WES (NES) 1 ppm TWA — Safe Work Australia revised 2020 |
 | **Ethylene oxide (EtO)** | Sterilisation in some hospital and industrial contexts | Enclosed systems; ventilation; gas detection; aeration cycles; carcinogen — substitution with alternatives (gamma, e-beam, low-temperature steam) preferred |
 | **Glutaraldehyde** | Endoscope reprocessing (legacy use); declining | Substitute with peracetic acid or other alternatives; ventilation; PPE |
 | **Mercury (legacy)** | Sphygmomanometers, thermometers (legacy) | Removal program complete in most jurisdictions; spill response capability for remaining devices |
+
+**Cross-reference (silica / engineered stone)**: respirable crystalline silica
+exposure relevant to clinical, pathology, and education science-lab settings —
+and the national **engineered stone prohibition** (model WHS Regulations;
+prohibition on the manufacture, supply, processing and installation of
+engineered stone benchtops, panels and slabs, commenced **1 July 2024**) — are
+covered in `hazards.md` §2 (RCS/silica). Sector readers touching fabrication,
+processing, or installation work should be routed there for the prohibition
+detail and the current regulation provision.
 
 ### 6.8 Aggression and violence
 
@@ -1043,7 +1059,7 @@ specific standards layer on:
 | **Biosafety** | AS/NZS 2243.3 + Gene Technology Act + OGTR licensing |
 | **Radiation** | State Radiation Protection Acts + ARPANSA standards |
 | **Infection control** | NHMRC Guidelines + state-issued infection control standards |
-| **Cytotoxics** | AS 2639 + state health departmental policy |
+| **Cytotoxics** | AS 2639-1994 / AS 2567 (cytotoxic drug safety cabinets — dated; verify current status) + state health departmental cytotoxic-handling handbooks + ISOPP guidance |
 | **Therapeutic goods** | Therapeutic Goods Act 1989 (Cth) — device safety, including engineered sharps safety devices |
 | **National standards** | National Safety and Quality Health Service Standards (NSQHS) — accreditation framework for hospitals administered by Australian Commission on Safety and Quality in Health Care |
 
@@ -1236,9 +1252,18 @@ many SME suppliers — is subject to:
   attention)
 - Industrial manslaughter — the Commonwealth industrial manslaughter offence
   (s 30A of the WHS Act 2011 (Cth), inserted by the Closing Loopholes Act 2023
-  and in force from 1 July 2024 — not a Criminal Code offence) applies to
-  Defence and Defence contractors in respect of workers killed in Commonwealth
-  workplaces
+  and in force from 1 July 2024 — not a Criminal Code offence) has deliberately
+  limited application: it reaches only PCBUs and officers covered by the
+  Commonwealth WHS Act — i.e. Defence as a Commonwealth PCBU, other Commonwealth
+  entities, and non-Commonwealth (Comcare-licensed) entities in the Comcare
+  scheme. It is **not** a generally applicable Defence-industry offence. Most
+  private Defence contractors (e.g. BAE Systems, Thales, Lockheed Martin
+  Australia) operating at state-located workplaces are PCBUs under the relevant
+  **state** WHS Act, not the Commonwealth Act, and a workplace death there would
+  engage that **state's** industrial manslaughter offence — not s 30A — unless
+  the contractor holds a Comcare licence. Whether s 30A or a state offence
+  applies turns on which scheme (Comcare vs state) covers the entity at that
+  workplace
 
 ---
 

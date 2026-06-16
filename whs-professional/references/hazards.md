@@ -199,9 +199,10 @@ buildings constructed before 2004.
 ## 4. Construction WHS
 
 ### Principal Contractor (PC) appointment
-A PC must be appointed for any **construction project where the cost of the
-construction work is $250,000 or more** (model WHS Reg 293). The PC has additional
-duties beyond a standard PCBU.
+A PC must be appointed for any **construction project** — defined as a project for
+construction work where the cost of the construction work is **$250,000 or more**
+(model WHS Reg 292). The client must appoint the PC under model WHS Reg 293. The PC
+has additional duties beyond a standard PCBU.
 
 > **Victorian note**: Victoria has not adopted the model WHS laws. Under the OHS
 > Regulations 2017 (Vic) the principal-contractor trigger is construction work costing
@@ -233,7 +234,7 @@ Section 8 of this file. SWMS must be prepared **before** HRCW commences, kept on
 site, and reviewed when work changes or after any incident.
 
 ### SWMS requirements
-A SWMS must:
+A SWMS is required for all high-risk construction work (model WHS Reg 299). A SWMS must:
 - Identify the work being carried out
 - Identify hazards and risks
 - Describe how risks will be controlled, having regard to the hierarchy of controls
@@ -270,8 +271,9 @@ is reasonably practicable depends on:
 - Worker consultation (s 47–49 model Act)
 
 ### Standards
-- **AS/NZS 4308:2008** — Procedures for specimen collection and detection of drugs
-  of abuse in urine
+- **AS/NZS 4308:2023** — Procedures for specimen collection and detection of drugs
+  of abuse in urine (fourth edition; superseded the 2008 edition, with a transition
+  period to November 2026)
 - **AS/NZS 4760:2019** — Procedures for specimen collection and detection of drugs
   in oral fluid
 - **AS 3547:2019** — Breath alcohol testing devices (covers Type 1 and Type 2
@@ -1190,9 +1192,11 @@ regimes apply to heavy vehicle drivers (HVNL), rail (RSNL), aviation (CASR), and
 mining (state-specific).
 
 ### Heavy Vehicle National Law (HVNL)
-Applies to heavy vehicle drivers (>12 t GVM or fatigue-regulated combinations) across
-all states except WA + NT (which have separate but similar regimes). Three accreditation
-tiers:
+The HVNL applies to heavy vehicles over 4.5 t GVM across all states except WA + NT
+(which have separate but similar regimes). The fatigue work/rest-hours regime applies
+to fatigue-regulated heavy vehicles — generally those over 12 t GVM, plus buses over
+4.5 t GVM fitted to carry 12 or more adults (including the driver) and certain
+combinations. Three accreditation tiers:
 - **Standard hours**: maximum 12 hours work in any 24-hour period (solo drivers),
   with prescribed rest
 - **Basic Fatigue Management (BFM)**: up to 14 work hours in 24 with additional rest

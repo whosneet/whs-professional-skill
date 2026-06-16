@@ -5,7 +5,7 @@
 ## Table of Contents
 1. [Metric Definitions & Calculations](#1-metric-definitions--calculations)
 2. [HiPo Intelligence Pack Structure](#2-hipo-intelligence-pack-structure)
-3. [CRO vs HiPo Alignment Analysis](#3-cro-vs-hipo-alignment-analysis)
+3. [CCV vs HiPo Alignment Analysis](#3-ccv-vs-hipo-alignment-analysis)
 4. [Dashboard Design Principles](#4-dashboard-design-principles)
 5. [Leading Indicator Design](#5-leading-indicator-design)
 6. [EAP Utilisation Reporting](#6-eap-utilisation-reporting)
@@ -22,7 +22,7 @@ All frequency rates use **1,000,000 exposure hours** as the denominator (AU stan
 
 | Metric | Formula | Notes |
 |---|---|---|
-| **TRIFR** | (Recordable injuries ÷ hours worked) × 1,000,000 | Recordable (TRI) = Fatality + LTI + RWI + MTI |
+| **TRIFR** | (Recordable injuries ÷ hours worked) × 1,000,000 | Recordable (TRI) = Fatality + LTI + RWI + MTI (see note below) |
 | **LTIFR** | (LTIs ÷ hours worked) × 1,000,000 | LTI = 1+ full shift lost |
 | **AIFR** | (All injuries incl. FAI ÷ hours worked) × 1,000,000 | Broadest measure |
 | **LTISR** | (Lost days ÷ hours worked) × 1,000,000 | Severity measure |
@@ -46,6 +46,19 @@ pre-injury duties (restricted or alternate duties) without losing a full
 shift. RWI sits between LTI and MTI in severity and **is recordable** —
 omitting RWI from the recordable set understates TRIFR and silently rewards
 moving injured workers onto restricted duties to avoid an LTI classification.
+
+> **Provenance note on RWI.** RWI is a US OSHA-origin recordability concept
+> (restricted-work/job-transfer cases under 29 CFR 1904.7) adopted here as a
+> documented organisational convention; under the (now-withdrawn) AS 1885.1
+> the AU convention was TRIFR = Fatality + LTI + MTI, with AS 1885.1 itself
+> classifying occurrences as lost-time vs no-lost-time rather than defining a
+> distinct "RWI" recordable tier. Counting restricted-duty cases as
+> recordable and including them in TRIFR is, however, mainstream current AU
+> practice — SafeWork NSW's *Measuring and reporting WHS information* guidance
+> treats restricted-duty cases as recordable injuries within TRIFR. This skill
+> therefore adopts the four-tier set (Fatality + LTI + RWI + MTI) as its
+> canonical TRI definition. Apply it consistently and document it in the data
+> dictionary so the figure remains comparable across reporting periods.
 
 ### Hours Worked
 Use **actual hours worked** (exclude leave, RDO, sick time). If actual hours are
@@ -118,8 +131,8 @@ to fatalities or serious injuries. Analyse them disproportionately.
 
 **Critical Risk Distribution**
 - HiPo events by critical risk category (falls, electrical, vehicles, etc.)
-- Compare against CRO verification activity distribution — gap = misalignment of effort
-- Over-represented critical risks in HiPos vs CRO = under-investment in control verification
+- Compare against CCV verification activity distribution — gap = misalignment of effort
+- Over-represented critical risks in HiPos vs CCV = under-investment in control verification
 
 **Business Unit Breakdown**
 - HiPo count and rate by BU / contract cluster
@@ -166,9 +179,9 @@ to fatalities or serious injuries. Analyse them disproportionately.
 
 ---
 
-## 3. CRO vs HiPo Alignment Analysis
+## 3. CCV vs HiPo Alignment Analysis
 
-The gap between where CRO (Critical Risk Operations / verification) activity is concentrated
+The gap between where CCV (critical control verification) activity is concentrated
 and where HiPo incidents are occurring is a primary strategic diagnostic.
 
 ### Why This Gap Matters
@@ -310,7 +323,14 @@ differ between AU and NZ populations. Combining without normalisation obscures t
 - Aggregate to minimum group size ≥10 before reporting breakdowns
 - State clearly in reports: "Data provided by EAP provider in aggregated form; no
   individual identifying information was shared or requested"
-- In AU: EAP data handling should align with Privacy Act 1988 (Cth) health information provisions
+- In AU: EAP data handling should align with the Privacy Act 1988 (Cth) health
+  information provisions. Note the Australian Privacy Principles bind APP entities
+  (generally organisations with turnover >$3m, plus health-service providers
+  regardless of size), so small PCBUs may fall outside the Act — treat alignment
+  as the floor for good practice either way.
+- In NZ: NZ EAP data handling should align with the Privacy Act 2020 and the
+  Health Information Privacy Code 2020, which gives extra protection to health
+  information held by health agencies
 
 ### Interpreting EAP Utilisation
 - Low utilisation ≠ low distress — may indicate access barriers, stigma, or lack of awareness
@@ -336,8 +356,8 @@ differ between AU and NZ populations. Combining without normalisation obscures t
 - Top emerging risk theme with management action
 
 **Page 3: Critical Risk Status**
-- CRO verification completion heatmap: Critical Risk × BU
-- Alignment gap summary (where HiPos exceed CRO activity)
+- CCV verification completion heatmap: Critical Risk × BU
+- Alignment gap summary (where HiPos exceed CCV activity)
 - Degraded controls flagged and action status
 
 **Page 4: Program Performance**
@@ -398,18 +418,32 @@ CALCULATE(
 )
 ```
 
+**Relationship assumptions (important):** the TRIFR measure draws incidents from
+`fact_incidents` and hours from `fact_hours_worked`. For the rate to evaluate
+over a consistent grain, both fact tables must share **active relationships to
+the common dimensions** (`dim_date` and `dim_contract`) in a star schema. Without
+that shared filter context, the numerator and denominator can be evaluated over
+mismatched grains and the measure will return a plausible-looking but wrong rate.
+The `[recordable]` flag must be populated per the canonical TRI definition in
+§1 (Fatality + LTI + RWI + MTI) so the measure matches the documented metric.
+
 ### Visualisation Recommendations
 
 | Analysis | Chart type | Notes |
 |---|---|---|
 | Frequency rate trend | Line chart (rolling 12m) | Include target line |
 | HiPo by critical risk | Stacked bar or treemap | Normalise by hours |
-| CRO vs HiPo alignment | Radar / spider chart | Two series; gap = misalignment |
+| CCV vs HiPo alignment | Radar / spider chart | Two series; gap = misalignment |
 | Corrective action status | Donut + bar | Status breakdown + age analysis |
 | BU performance comparison | Small multiples or matrix | Consistent scale across BUs |
 | EAP utilisation trend | Line with area fill | Monthly trend; separate AU/NZ |
 
 ### Data Source Connections
+> The organisation's actual incident/WHS systems are defined in
+> `references/company.md`. The vendor products named below are illustrative
+> examples of the system categories only — not recommendations. Confirm the
+> real systems in company.md before building connections.
+
 - **Incident management system** (e.g. INX, Cintellate, Donesafe, Mango): primary incident data; extract via scheduled report or API
 - **WHS management system platform** (e.g. Lucidity, Ideagen): organisational structure, contract mapping; use for hierarchy alignment
 - **Rapid Global**: contractor management data; check API/export options for prequalification status

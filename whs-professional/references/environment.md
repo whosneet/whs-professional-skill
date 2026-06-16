@@ -116,7 +116,8 @@ carries imprisonment for individuals).
 
 **2025 federal environmental law reform — transition in progress (as at
 June 2026)**: the Commonwealth environmental reform package passed the
-Parliament on **28 November 2025** (assent 1 December 2025), comprising:
+Parliament on **28 November 2025** (assent 1 December 2025), the principal Acts
+being (alongside related and consequential Acts):
 
 - **Environment Protection Reform Act 2025** — restructures the EPBC
   assessment and approval framework around new **National Environmental
@@ -232,8 +233,12 @@ held.
 any person engaging in an activity that may give rise to risks of harm to human
 health or the environment. Test mirrors SFAIRP: state of knowledge, likelihood,
 nature and severity of harm, availability and suitability of ways to eliminate
-or reduce, cost. Criminal offence; maximum penalty $1.97M for a body corporate
-(2024 indexation).
+or reduce, cost. Criminal offence; maximum penalty **10,000 penalty units for a
+body corporate** for a standard breach (~$2.04M at the 2025-26 penalty unit
+value), rising to **20,000 penalty units** for an aggravated (intentional or
+reckless) breach (~$4.07M). The penalty unit value is indexed annually — confirm
+the current dollar figure against the Victorian penalty unit rate before citing
+a dollar amount.
 
 **Practical implication**: In VIC, QLD, SA and NT, every PCBU has an environmental
 duty equivalent in form to the WHS PCBU duty. Risk assessment, control selection,
@@ -248,12 +253,20 @@ is the model many other states converge towards:
 
 - **Tier 1** — wilful or negligent disposal of waste/cause of pollution that
   causes substantial harm; or supply false/misleading information. Maximum
-  penalty $5M corporation / $1M individual + 7 years imprisonment
+  penalty (wilful) **$10M corporation / $2M individual**; (negligent)
+  **$4M corporation / $1M individual**; + 7 years imprisonment
 - **Tier 2** — strict liability for pollution offences (water, air, noise,
-  land); failure to notify pollution incidents. Maximum penalty $1M
-  corporation / $250K individual
+  land); failure to notify pollution incidents. Maximum penalty
+  (general/non-asbestos offences) **$2M corporation / $500K individual**;
+  (asbestos-related offences) **$4M corporation / $1M individual**
 - **Tier 3** — penalty notice (on-the-spot fine) offences for lower-level
   breaches
+
+> The Tier 1 and Tier 2 monetary maxima above were doubled by the
+> **Environment Protection Legislation Amendment (Stronger Regulation and
+> Penalties) Act 2024 (NSW)**, which commenced 3 April 2024 (the 7-year
+> Tier 1 imprisonment term is unchanged). Offences committed before that date
+> attract the former maxima ($5M/$1M Tier 1 wilful; $1M/$250K Tier 2).
 
 The Tier 2 strict liability layer is the operational risk most FM and
 construction operators face — a spill or unauthorised discharge attracts
@@ -533,8 +546,15 @@ environment is caused or threatened. The notification must include:
 In NSW, multiple agencies must be notified concurrently: EPA, local council,
 Ministry of Health, SafeWork NSW (where worker exposure), and Fire and Rescue
 NSW (where fire/explosive). A single phone call to one does not discharge the
-duty for the others. Maximum penalty for failure to notify: $2M corporation /
-$500K individual + daily continuing offence.
+duty for the others. Maximum penalty for failure to notify (POEO Act Part 5.7,
+s 148/s 152): **$4M corporation / $1M individual** (increased from the former
+$2M / $500K by the Environment Protection Legislation Amendment (Stronger
+Regulation and Penalties) Act 2024 (NSW), in force for offences committed on or
+after 3 April 2024), **plus a daily continuing-offence penalty** — for serious
+offences currently $240,000/day for a corporation and $120,000/day for an
+individual per NSW EPA guidance. The 2024 Act increased daily continuing-offence
+penalties; confirm the amount applicable to the specific offence against the
+current POEO Act s 152.
 
 ### 6.4 Internal Escalation Parallel to WHS
 
@@ -625,8 +645,11 @@ guidelines. The two percentages apply to **different storage configurations**
   within the bund (covers catastrophic failure of the largest tank with a
   margin)
 - **Package stores** (drums, IBCs, packaged containers): bund capacity ≥
-  **25% of the aggregate volume stored** in the bunded area — check the
-  applicable AS 1940 clause for the store type and quantity band
+  **25% of the aggregate volume stored OR 100% of the largest single
+  package/container, whichever is the greater** — the "100% of largest" limb
+  governs where one large container (e.g. a single IBC) dominates the store, so
+  the bund is not undersized. Check the applicable AS 1940 clause for the store
+  type and quantity band
 - **Uncovered / outdoor bunds**: an additional **rainfall/freeboard
   allowance** on top of the relevant capacity above, sized to a defined
   design rainfall event per state EPA bunding guidance — check the relevant
@@ -1099,8 +1122,9 @@ Before finalising any environmental output, confirm:
 - [ ] Aspects/impacts thinking applied to operational risk tasks (not just hazards)
 - [ ] Waste hierarchy applied top-down to disposal/treatment recommendations
 - [ ] Bunding capacity rule matched to storage type (≥110% of largest tank for
-      tank storage; ≥25% of aggregate volume for package stores) plus rainfall
-      allowance for uncovered bunds
+      tank storage; for package stores ≥25% of aggregate volume OR 100% of the
+      largest single package, whichever is greater) plus rainfall allowance for
+      uncovered bunds
 - [ ] Spill response sequence covers stop > contain > notify > assess > remediate
 - [ ] Climate adaptation considerations included for outdoor/heat-exposed tasks
 - [ ] Heritage and native title engagement noted where ground disturbance involved

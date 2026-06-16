@@ -114,8 +114,13 @@ with a strong personal safety culture, declining LTI rates, and an active BBS
 program, that suffered a process safety catastrophe killing 15 workers because
 the underlying process safety management system had degraded over years. High BBS
 scores were not a leading indicator of the incident; they were a distraction from
-the indicators that mattered. Hopkins argues this is not an isolated case — Longford,
-Deepwater Horizon, and other major-accident reviews show the same pattern. The 2006
+the indicators that mattered. The primary investigation findings are in the US
+Chemical Safety Board's *Refinery Explosion and Fire* report (CSB, 2007) and the
+*Report of the BP U.S. Refineries Independent Safety Review Panel* (the Baker
+Panel report, 2007); cite these directly when defending the point to a board or
+regulator, rather than relying on Hopkins' secondary account alone. Hopkins argues
+this is not an isolated case — Longford, Deepwater Horizon, and other
+major-accident reviews show the same pattern. The 2006
 paper also records the long-standing union critique: Australian unions have opposed
 BBS as a "blame the worker" approach that shifts attention from the employer's duty
 to control hazards — a critique any AU deployment will meet in consultation.
@@ -160,10 +165,14 @@ The published evidence is mixed and weaker than the marketing suggests.
 | Substantial selection and publication bias | Most BBS evidence comes from studies funded by BBS providers; comparative studies against non-BBS interventions are rare |
 | Confounding with broader management attention | A BBS deployment typically coincides with elevated leadership focus on safety, training, and resource — attributing improvement to BBS alone is methodologically unsound |
 
-Reviews and meta-analyses (e.g., Tuncel et al., 2006; Grindle, Dickinson &
-Boettcher, 2000) suggest a small
-short-term effect on personal safety behaviours, with weak external validity and
-no demonstrated effect on serious injury frequency.
+Reviews and meta-analyses (e.g., Tuncel, Lotlikar, Salem & Daraiseh, 2006,
+"Effectiveness of behaviour based safety interventions to reduce accidents and
+injuries in workplaces: critical appraisal and meta-analysis", *Theoretical
+Issues in Ergonomics Science*, 7(3):191–209; Grindle, Dickinson & Boettcher,
+2000, "Behavioral Safety Research in Manufacturing Settings: A Review of the
+Literature", *Journal of Organizational Behavior Management*, 20(1):29–68)
+suggest a small short-term effect on personal safety behaviours, with weak
+external validity and no demonstrated effect on serious injury frequency.
 
 ### When BBS Is and Isn't Appropriate
 
@@ -335,11 +344,12 @@ science, and one of the most persistent in practice.
   pyramid is not a measurement; it is an assertion.
 - **Hopkins** (*Failure to Learn*, 2008) — the mechanisms that produce minor
   injuries are not the same as the mechanisms that produce major accidents.
-  Process safety failures (Texas City) and major-accident events do not
-  predictably follow from elevated minor-injury rates; in some cases the
-  reverse is true (the organisation is so focused on personal safety that
-  process safety degrades unnoticed). The pyramid is a Safety I artefact that
-  doesn't survive contact with the major-accident literature.
+  Process safety failures (Texas City — see the CSB and Baker Panel reports cited
+  in §1) and major-accident events do not predictably follow from elevated
+  minor-injury rates; in some cases the reverse is true (the organisation is so
+  focused on personal safety that process safety degrades unnoticed). The pyramid
+  is a Safety I artefact that doesn't survive contact with the major-accident
+  literature.
 - **Modern incident data** — multiple post-Heinrich studies have failed to
   reproduce the ratios in any consistent form; the proportions vary by
   industry, by classification convention, and by reporting culture, and they
@@ -475,23 +485,31 @@ with it the visibility the organisation depends on.
 
 ### Edmondson — Psychological Safety
 
-Edmondson (*The Fearless Organization*, 2018; original Harvard research from
-the late 1990s) established psychological safety as a measurable team-level
-construct. Cross-reference `frameworks.md` §12 for Edmondson's citation.
+Edmondson (*The Fearless Organization*, 2018) established psychological safety
+as a measurable team-level construct, building on her earlier academic work — the
+error-detection study in hospital teams (Edmondson, 1996, *Journal of Applied
+Behavioral Science*, 32(1):5–32) and the validated Team Psychological Safety
+scale (Edmondson, 1999, *Administrative Science Quarterly*, 44:350–383).
+Cross-reference `frameworks.md` §12 for Edmondson's citation.
 
 Psychological safety is the belief that one will not be punished or humiliated
 for speaking up with ideas, questions, concerns, or mistakes. It is the
 precondition for reporting culture and learning culture — without psychological
 safety, workers will not report.
 
-Edmondson's seminal finding (1996, in hospital teams) was that higher-performing
-teams reported *more* errors, not fewer, because reporting was psychologically
-safe. The teams with low error rates were not actually making fewer errors;
-they were hiding them. This is the empirical foundation for the modern case
-against punitive responses to error.
+Edmondson's seminal finding (1996, *Journal of Applied Behavioral Science*, in
+hospital teams) was that higher-performing teams reported *more* errors, not
+fewer, because reporting was psychologically safe. The teams with low error rates
+were not actually making fewer errors; they were hiding them. This is the
+empirical foundation for the modern case against punitive responses to error.
 
-Edmondson's **Team Psychological Safety scale** (7 items) is validated, widely
-used in research and practice, and free to use with attribution. Items include:
+Edmondson's **Team Psychological Safety scale** (7 items, validated in Edmondson,
+1999, *Administrative Science Quarterly*) is widely used in research and practice.
+It is freely accessible and commonly described as free to use with attribution,
+but the precise permitted-use terms are not formally published — for any deployed
+survey, and especially any commercial deployment, attribute the instrument
+explicitly to Edmondson (1999) and confirm permitted-use terms before
+reproducing the full scale. Items include:
 
 - If you make a mistake on this team, it is often held against you (reverse scored)
 - Members of this team are able to bring up problems and tough issues
@@ -516,7 +534,7 @@ ones:
 | Instrument | Origin | Length | Notes |
 |---|---|---|---|
 | **NOSACQ-50** (Nordic Safety Climate Questionnaire) | Kines et al., 2011; National Research Centre for the Working Environment (Denmark) | 50 items, 7 dimensions | Validated across multiple languages and industries; free to use with registration; standard Nordic / European choice |
-| **HSE Safety Climate Tool (SCT)** | UK Health and Safety Executive (sold through HSE's commercial publishing arm) | 40 statements across 8 factors | Commercial licensed product — licence fee plus setup charge, not free; UK regulator lineage; widely used in UK process industries |
+| **HSE Safety Climate Tool (SCT)** | UK Health and Safety Executive (sold through HSE Books / its commercial publishing arm) | Around 40 statements across 8 factors | Commercially licensed (licence purchased per workforce size; not free); UK regulator lineage; widely used in UK process industries. Confirm current item count and licence terms with HSE Books before relying on specifics |
 | **Loughborough Safety Climate Tool** | Loughborough University | Variable | Academic instrument; often used in research |
 | **In-house / consultant-built instruments** | Varies | Varies | Common in large organisations; validation quality varies widely |
 
@@ -567,10 +585,10 @@ scoring routinely emerge in the comments.
 
 **Sub-group reporting**
 
-Sub-group reporting only with minimum n=10 to protect anonymity, and never
-reported in a way that allows identification of individual responses. Where
-sub-group breakdowns are reported, suppress cells below the threshold and state
-the suppression rule in the methodology.
+Apply the same minimum reporting-group size set out under "Anonymity is
+non-negotiable" above (n=10): never report sub-group breakdowns in a way that
+allows identification of individual responses, suppress cells below the
+threshold, and state the suppression rule in the methodology.
 
 ### What to Measure
 
@@ -584,7 +602,7 @@ A defensible safety climate survey covers, at minimum:
 | Psychological safety | Edmondson 7-item scale, validated | See §3 above |
 | Worker engagement on safety decisions | Whether workers feel consulted on decisions that affect their safety | "I am consulted on safety decisions that affect how I do my work" |
 | Critical control awareness | Whether workers know the critical controls for their work | "I know what the critical controls are for the high-risk tasks I do" |
-| Wellbeing / psychological safety in psychosocial terms | Aligns with psychosocial hazard regulations (see SKILL.md §7) | "I am not exposed to behaviour at work that affects my mental health" |
+| Psychosocial wellbeing | Exposure to psychosocial hazards (e.g. harmful workplace behaviour); aligns with psychosocial hazard regulations (see SKILL.md §7) | "I am not exposed to behaviour at work that affects my mental health" |
 
 The list should be calibrated to the organisation. Adding domains because
 "we want to ask about X" without a clear use for the data is a common failure mode.

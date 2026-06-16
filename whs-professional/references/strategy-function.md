@@ -2,7 +2,7 @@
 
 This reference covers the senior-manager and executive end of the WHS discipline — the work that sits above operational delivery. Strategy development, function design, economics, leadership selection, and crisis management each demand a different lens than the day-to-day toolkit. The material below is for HSE Directors, Group Heads of WHS, Heads of Safety in operating divisions, GMs Zero Harm, and the CHRO/COO/CEO line that sponsors them.
 
-> Cross-references: `frameworks.md` §8 (Board reporting), §11 (Forge Works), §13 (M&A); `analytics.md` §7 (Board pack); `programs.md` §8 (Program governance); `compensation-rtw.md` (premium mechanics); `legislation.md` §6 (officer due diligence); `company.md` (organisation-specific governance cadence, reporting authority, function structure).
+> Cross-references: see §7 for the full cross-reference map and current sibling-file section numbers (the single source of truth). In summary, this file works most closely with `frameworks.md` (Board reporting, Forge Works, M&A, named safety thinkers), `analytics.md` (Board pack, leading indicators), `compensation-rtw.md` (premium mechanics), `legislation.md` (officer due diligence, incident notification, regulator engagement), and `company.md` (organisation-specific governance, reporting authority, function structure, incident category taxonomy).
 
 ---
 
@@ -75,6 +75,8 @@ A WHS strategy that doesn't name the organisational strategy document(s) it alig
 ### Setting strategic objectives beyond TRIFR
 
 The single most common strategic failure in WHS strategy is anchoring to TRIFR as the primary outcome measure. TRIFR is a rare-event statistic that fluctuates randomly at most organisational sample sizes. It is necessary for external benchmarking and regulator transparency, but it is a terrible strategic objective on its own.
+
+A second caution applies whenever TRIFR or LTIFR is used for **external** benchmarking: the definitions and denominators vary by organisation and scheme — per million hours worked versus per 200,000 (or per 100) hours, what counts as "recordable" versus "lost time", and where the medical-treatment classification threshold sits. A rate is only comparable like-for-like once the calculation basis is confirmed; comparing two TRIFRs on different denominators or classification rules is meaningless.
 
 A balanced objective set covers four domains:
 
@@ -266,6 +268,8 @@ Group Head WHS / CSO / HSE Director
 | Policy and standard authorship | Responsible | Consulted | Accountable (approval) | Consulted |
 | Worker consultation infrastructure (HSC, HSR) | Responsible | Consulted | Informed | Responsible (participation) |
 
+**Incident category (Cat 1 / Cat 2-3):** The category scheme above is an organisation-specific severity/potential taxonomy — there is no standardised WHS classification — so the definitions must come from the organisation's own incident procedure (see `investigation.md` for methodology tiers and `company.md` for the organisation's category thresholds). As a workable default where no local scheme exists: **Cat 1** = actual or realistic-potential fatality or permanent disability (and notifiable incidents) — function-led investigation; **Cat 2** = serious injury/illness or significant property/process loss, or a high-potential near miss — line-led with function support; **Cat 3** = minor injury or low-potential event — line-led. Confirm the organisation's own thresholds before applying this RACI.
+
 The non-negotiable principle: **safety is line accountable, supported by the WHS function — never the other way around.** A function that owns safety outcomes lets the line off the hook and inverts the duty structure. The WHS function provides the system, the technical expertise, the assurance, and the advice; the line owns the work and its risk.
 
 ### In-house vs outsourced models
@@ -309,12 +313,13 @@ The WHS Business Partner (WHS BP) is the workhorse of the modern WHS function. T
 - Develops frontline leader capability through coaching, not one-off training
 - Holds the line on critical risk where commercial pressure pushes against it
 
-**Capabilities required:**
-- Operational credibility — has worked in or alongside the business
-- Commercial literacy — reads a P&L, understands contract margin, can size an investment ask in business terms
-- Influence without authority — most of the work is persuasion
-- Regulatory expertise — must know the Act and Regs, not just the procedures
-- Strategic awareness — connects operational decisions to multi-year exposure
+**Capabilities required:** The WHS BP draws on the same four competency domains as senior WHS leaders (Technical, Commercial, Influence, Strategic — see §4), but with a BP-specific emphasis:
+- Operational credibility — has worked in or alongside the business; this is the BP-specific entry ticket
+- Influence without authority — most of the work is persuasion at the BU coalface, not directive
+- Commercial literacy pitched at the BU — reads the contract margin and can size an investment ask in the GM's terms
+- Regulatory expertise applied operationally — knows the Act and Regs well enough to hold the line on a live call, not just cite procedures
+
+(The full four-domain framework, including the strategic, multi-year dimension, is set out in §4; the BP role weights operational credibility and BU-level influence most heavily.)
 
 **Common mis-hires:**
 - Strong technical advisor with no commercial fluency — becomes the "safety person", marginalised
@@ -550,7 +555,7 @@ A strong WHS leader candidate will demonstrate:
 - Evidence of leading through a major incident or regulatory event — and learning from it
 - Credibility with senior operational leaders in their references — not just other WHS people
 - A view on what they would change in their first 100 days, anchored in something specific to your organisation
-- Chartered status or equivalent (ChOHSP, AIOH; UK CMIOSH; Canadian CRSP) — not mandatory but a signal of professional commitment
+- Chartered status or equivalent (ChOHSP, AIOH; overseas designations such as UK CMIOSH or Canadian CRSP) — not mandatory but a signal of professional commitment; note that overseas designations do not by themselves confer AU/NZ standing (see chartered-status note below)
 - Comfortable with data — can articulate what HiPo distribution tells them, not just TRIFR
 - A view on Safety II / HOP / new view safety — not as a slogan, but as something they have applied
 - A clear answer to "what would you do if the CEO asked you to sign off on something you weren't comfortable with?" — and the answer isn't "I'd find a way to support the business"
@@ -587,6 +592,8 @@ A strong WHS leader candidate will demonstrate:
 For AU/NZ generalist WHS leaders, **ChOHSP (AIHS) is the dominant designation**. For specialist hygiene work (silica, asbestos, respiratory protection, chemical exposure), **AIOH membership and COH** is the technical standard.
 
 Chartered status is not legally required but increasingly expected for senior roles and for credibility with regulators, boards, and customers. Major clients now require chartered status in tender specifications for WHS leadership positions.
+
+A framing note on the overseas designations in the table (CMIOSH, CSP, CRSP): these signal genuine professional commitment and international portability, but none confers AU/NZ regulatory standing or eligibility for the relevant professional register. A candidate holding only CMIOSH, CSP, or CRSP is not, on that basis alone, listed on the HASANZ Register (NZ) or accredited through the AIHS/AIOH/NZISM pathways that underpin AU/NZ regulator and tender credibility. For AU/NZ roles, treat overseas designations as a positive signal and a portability asset, but expect local accreditation (AIHS ChOHSP/AIOH for AU; NZISM accreditation plus HASANZ-register listing for NZ) for the senior-role credibility the table's AU/NZ designations carry.
 
 ### Succession planning for the WHS function
 
@@ -659,6 +666,8 @@ Activation thresholds — the conditions that elevate an incident or issue into 
 | Significant cyber incident touching safety systems | Integrity of incident reporting, permit systems, training records compromised |
 
 A clear principle: **err on the side of activation.** A crisis team stood up unnecessarily can stand down quickly with minimal cost. A crisis missed in the first 24 hours rarely recovers.
+
+**First legal obligations — before anything else.** For any fatality, serious injury/illness, or dangerous (notifiable) incident — the file's headline crisis triggers — the first statutory duties are immediate regulator notification and site preservation, and these are a common point of failure under crisis pressure. Under the WHS Act 2011 the PCBU must notify the regulator **immediately** on becoming aware of a notifiable incident, by the fastest possible means (s 38), and the person with management or control of the workplace must ensure, so far as is reasonably practicable, that the incident site is **not disturbed** until an inspector arrives or directs otherwise (s 39). (In NZ, the equivalent duties under HSWA 2015 are notification of a notifiable event to WorkSafe and not interfering with the site.) The crisis plan must hard-wire these as the first two actions on activation, ahead of media and legal-positioning work. See `legislation.md` §6 and §10 for the notification and regulator-engagement detail.
 
 ### Crisis management team structure
 

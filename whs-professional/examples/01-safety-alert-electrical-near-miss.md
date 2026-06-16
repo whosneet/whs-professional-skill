@@ -9,8 +9,8 @@
 
 During quarterly switchboard cleaning at a commercial site in Parramatta NSW,
 a maintenance worker contacted an unisolated 415V bus bar while removing dust
-from the rear of the panel. No sustained shock: small contact area, and the
-worker's insulating gloves were rated for the voltage.
+from the rear of the panel. No sustained shock occurred — small contact area,
+and insulating gloves rated for the voltage.
 
 Initial inquiry confirmed:
 - The switchboard was not electrically isolated before cleaning began
@@ -29,30 +29,30 @@ Initial inquiry confirmed:
 
 - Cleaning within arm's reach of live components is electrical work — plan it
   that way, not as cleaning
-- "Routine" tasks erode isolation discipline; low-risk labels attract less
+- "Routine" labels erode isolation discipline; low-risk tasks attract less
   control attention over time
-- Contractor competency for switchboard work was not assessed; the contractor
-  followed a scope that omitted isolation
+- Contractor competency for switchboard work was not assessed; the scope
+  omitted isolation
 
 ---
 
 ## Required action
 
 - Update all switchboard cleaning work orders by 14 June 2026 to require
-  formal isolation (LOTO) and a worker competent for switchboard work
+  formal isolation (LOTO) and a switchboard-competent worker
 - Property Services to classify all site switchboards by access requirement
   within 30 days
-- Issue contractor scope variations specifying electrical isolation
-  requirements; cleaning of energised switchboards is prohibited
+- Issue contractor scope variations specifying isolation requirements;
+  cleaning of energised switchboards is prohibited
 
 ---
 
 ## Discussion questions
 
-- How could this happen on your site? Are routine tasks on electrical
-  equipment isolated before work begins?
-- When "cleaning" appears on a work order for an electrical room or panel, do
-  you know whether the panel is live — and is the right competency on site?
+- Could this happen on your site? Are routine tasks on electrical equipment
+  isolated before work begins?
+- When "cleaning" appears on a work order for an electrical panel, do you know
+  whether it's live — and is the right competency on site?
 
 ---
 

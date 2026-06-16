@@ -77,7 +77,7 @@ shutdown that becomes a WHS matter.
 | Jurisdiction | Primary instrument | Practical scope |
 |---|---|---|
 | Federal | Aboriginal and Torres Strait Islander Heritage Protection Act 1984 | Emergency declarations where state law inadequate; rarely invoked |
-| NSW | National Parks and Wildlife Act 1974 (NSW), Part 6 | No standalone ACH Act in NSW — Aboriginal objects and declared Aboriginal places are protected under the NPW Act; Aboriginal Heritage Impact Permits (AHIPs); due diligence code of practice; standalone ACH legislation remains a committed reform, not yet enacted |
+| NSW | National Parks and Wildlife Act 1974 (NSW), Part 6 | No standalone ACH Act in NSW — Aboriginal objects and declared Aboriginal places are protected under the NPW Act; Aboriginal Heritage Impact Permits (AHIPs); due diligence code of practice; standalone ACH legislation remains a committed reform — a draft Aboriginal Cultural Heritage Bill was in stakeholder consultation through 2025 but is not yet enacted (as at mid-2026) |
 | VIC | Aboriginal Heritage Act 2006 (VIC) | CHMP required for prescribed activities in cultural-heritage-sensitivity areas; Registered Aboriginal Parties consulted; Victorian Aboriginal Heritage Council oversight |
 | QLD | Aboriginal Cultural Heritage Act 2003 (QLD) + Torres Strait Islander CHA 2003 | Cultural Heritage Duty of Care — every person doing an activity must take all reasonable and practicable measures to avoid harming Aboriginal cultural heritage |
 | WA | Aboriginal Heritage Act 1972 (reinstated 2023 after ACH Act 2021 repeal) | s 18 consent regime; Juukan Gorge response and subsequent reversal; reform ongoing |
@@ -308,7 +308,8 @@ adjustments approved but not delivered are a frequent audit finding.
 ### Conversation tools and funded resources
 
 Australian Disability Network (renamed from the Australian Network on
-Disability in 2023) and its Inclusion@Work program provide structured
+Disability, with the new name taking effect 15 January 2024) and its
+Inclusion@Work program provide structured
 conversation tools for managers initiating adjustment discussions:
 - Adjustment conversation guide — questions that elicit information without
   requiring disclosure beyond worker choice
@@ -366,9 +367,10 @@ s 47 consultation must be meaningful, which means:
 ### Disclosed vs undisclosed disability
 
 A meaningful proportion of workers with disability do not disclose — fearing
-discrimination, career impact, assumption of incompetence. ABS data
-consistently shows disability prevalence rates significantly higher than
-employer-reported rates. Implications:
+discrimination, career impact, assumption of incompetence. The ABS Survey of
+Disability, Ageing and Carers (SDAC) 2022 — the latest release — found
+5.5 million Australians (21.4%) have disability, a prevalence consistently
+well above employer-reported rates. Implications:
 - Workplaces designed for the disclosed population serve a fraction of the
   actual population
 - Universal design — accessible buildings, accessible documents, captioned
@@ -503,7 +505,7 @@ providers — Altogether Autism, ADHD NZ, Workbridge.
 
 ### Emerging legal context
 
-DDA case law on neurodivergence is developing. Key positions as of 2025:
+DDA case law on neurodivergence is developing. Key positions as at mid-2026:
 - Diagnosed autism, ADHD, dyslexia, dyspraxia are accepted disabilities
   under the DDA s 4 definition (broad — "the malfunction, malformation or
   disfigurement of a part of the person's body" and "a disorder, illness or
@@ -524,7 +526,7 @@ DDA case law on neurodivergence is developing. Key positions as of 2025:
 
 27.6% of Australians were born overseas at the 2021 Census (ABS); later
 ABS estimated resident population figures put the overseas-born share above
-30%. Approximately 23% speak a language other than English at home (2021
+30%. Approximately 22.3% speak a language other than English at home (2021
 Census). Concentrations are sector-
 specific — construction, cleaning, hospitality, food processing, aged care,
 transport, and parts of healthcare have CALD workforce proportions
@@ -593,7 +595,7 @@ imagery adapted to be meaningful to the target audience.
 |---|---|
 | ISO 7010 *Graphical symbols — Safety colours and safety signs* | International standard for safety signs; prohibition, mandatory, warning, safe condition, fire safety |
 | AS 1216 *Class labels for dangerous goods* | Australian standard for dangerous goods labelling; aligned with UN system |
-| GHS pictograms (Globally Harmonized System) | Nine hazard pictograms for chemicals; adopted in AU under WHS Reg 335 (model) |
+| GHS pictograms (Globally Harmonized System) | Nine hazard pictograms for chemicals; adopted in AU under the model WHS Regulations Chapter 7 (labelling at reg 335); Australia is on GHS 7, mandatory since 1 January 2023 |
 | AS 1319 *Safety signs for the occupational environment* | Australian standard for workplace safety signs; complementary to ISO 7010 |
 | AS 2293 *Emergency escape lighting and exit signs* | Egress signage; widely understood across language groups |
 
@@ -726,8 +728,10 @@ regimes, and a competent response engages all of them:
   with work — covering workers, prospective workers, and persons
   conducting a business or undertaking. An aggrieved person can apply to
   the FWC for a **stop-sexual-harassment order** (preventative, while the
-  working relationship continues — continuing the jurisdiction first
-  created in September 2021) and/or ask the FWC to **deal with the dispute**
+  working relationship continues — this sits in **Part 6-4B**, the
+  stop-bullying jurisdiction extended to sexual harassment from
+  11 September 2021, distinct from the Part 3-5A prohibition itself) and/or
+  ask the FWC to **deal with the dispute**
   (a new jurisdiction: conciliation; if unresolved, arbitration by consent
   or court proceedings for compensation). Employers are **vicariously
   liable** for contraventions by employees or agents in connection with

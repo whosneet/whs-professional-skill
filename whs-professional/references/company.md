@@ -159,9 +159,9 @@ Rating output: Low / Moderate / High / Critical.
 
 | Rating | Frequency anchor | Qualitative criteria |
 |---|---|---|
-| Almost Certain | More than once a year | Expected to occur in most circumstances across the group |
-| Likely | About once a year | Will probably occur; has occurred at MFG in recent years |
-| Possible | Once in 1–5 years | Could occur; has occurred somewhere in the industry |
+| Almost Certain | Several times a year | Expected to occur in most circumstances across the group |
+| Likely | About once a year (once in 1–2 years) | Will probably occur; has occurred at MFG in recent years |
+| Possible | Once in 2–5 years | Could occur; has occurred somewhere in the industry |
 | Unlikely | Once in 5–20 years | Not expected to occur, but conceivable |
 | Rare | Less than once in 20 years | Would occur only in exceptional circumstances |
 
@@ -232,12 +232,14 @@ actual outcome.
 |---|---|---|---|---|---|---|
 | **5** | Catastrophic | Fatality or permanent total incapacity (one or more people) | Long-term environmental damage extending off site | $20m+ loss or loss of an entire facility | Prosecution with potential officer liability | Group crisis footing; sustained executive involvement |
 | **4** | Major | Permanent partial incapacity; LTI with extended recovery | Serious harm requiring external remediation | $2m+ damage; extended service interruption | Enforceable undertaking or significant fine | BU leadership engaged over weeks; client escalation |
-| **3** | Moderate | LTI; or restricted work >2 weeks | Moderate harm contained on site | $200k+ damage; short service interruption | Notifiable to a regulator; improvement notice possible | Contract leadership attention over days to weeks |
+| **3** | Moderate | LTI (up to 4 weeks); or restricted work >2 weeks | Moderate harm contained on site | $200k+ damage; short service interruption | Notifiable to a regulator; improvement notice possible | Contract leadership attention over days to weeks |
 | **2** | Minor | Medical treatment injury, no lost time | Minor impact remediated immediately | $20k+ damage; minor disruption | Minor breach corrected internally | Local management attention |
 | **1** | Negligible | First aid only | Negligible impact | Cosmetic damage absorbed in maintenance | No breach | Routine supervision |
 
 **Critical Incident** = actual consequence Class 4 or 5. Activates the Crisis
-Management Team.
+Management Team (CMT) — the standing crisis-response body convened under the
+MFG Crisis Management Plan (`MFG-WHS-PR-070`), chaired by the relevant BU
+General Manager with the Group GM WHS as a standing member.
 
 **HiPo** = any event that could realistically have resulted in a Class 4 or 5
 consequence (permanent incapacity or death), regardless of the actual outcome.
@@ -254,6 +256,15 @@ Rated on potential consequence.
 | First Aid Injury | FAI | Treatment within the scope of first aid training only. Not recordable |
 | Occupational Illness | OI | Illness arising from workplace exposure over time (including psychological injury, noise-induced hearing loss, silicosis). Managed and reported separately from injury statistics |
 
+The **Recordable** column above is the single source of truth for MFG's
+recordable set, which drives the rate formulas in `analytics.md` §2: total
+recordable injuries (TRI) = Fatality + LTI + RWI + MTI, and
+TRIFR = TRI / hours worked × 1,000,000. RWI (restricted work injury) is
+recordable and is counted in the numerator. RWI is a US OSHA-origin
+recordability concept adopted here as a documented organisational convention;
+under the (now-withdrawn) AS 1885.1 the AU convention was
+TRIFR = Fatality + LTI + MTI.
+
 **Statistical inclusion — the Operational Control Rule**: an incident is
 included in MFG's recordable statistics only where MFG had **operational
 control** of the work — MFG set the work method, supervised the task, and the
@@ -265,7 +276,11 @@ in the incident system.
 
 **Internal Notification Requirements (MFG-WHS-PR-002 Schedule 2)** — verbal
 means person-to-person; an unanswered message does not discharge the
-notification:
+notification. HiPo notification is set by **actual** harm (the event caused
+little or no injury), so its internal chain is deliberately lighter than the
+equivalent actual Class 4–5 event; the **potential** severity instead drives
+the investigation rigour (ICAM at Class 4–5/HiPo per Schedule 3) and the
+incident review call:
 
 | Class | Verbal | Written / incident system |
 |---|---|---|
@@ -274,6 +289,14 @@ notification:
 | 4 | Immediate to BU WHS Manager and BU General Manager | Incident system entry + PIIN within 12 hrs |
 | 5 | Immediate to BU General Manager, Group GM WHS, and CEO | Incident system entry + PIIN within 12 hrs |
 | HiPo | Immediate to BU WHS Manager | Incident system entry + PIIN within 24 hrs |
+
+**Regulator-notifiable incidents**: whether an incident is notifiable to the
+WHS regulator is determined against the jurisdictional triggers in
+`legislation.md` §5 (death, serious injury/illness, dangerous incident).
+The **Group GM WHS** owns the regulator-notification decision and ensures it is
+made and recorded within the statutory timeframe; the determination and its
+basis are documented in the incident system. Notification to the regulator does
+not displace the internal notification requirements above.
 
 **Investigation Requirements (MFG-WHS-PR-002 Schedule 3)**:
 
@@ -380,7 +403,7 @@ dashboards.
   verification walk
 - Findings feed the CCV dashboard and the quarterly BU WHS review
 
-Format reference: see `programs.md` Section 2 for the sustained-campaign
+Format reference: see `programs.md` §2 for the sustained-campaign
 architecture these programs use.
 
 ### 10. Governance & Reporting Cadence

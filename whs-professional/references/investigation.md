@@ -8,7 +8,7 @@
 3. [Contributing Factors Taxonomy](#3-contributing-factors-taxonomy)
 4. [Bowtie Analysis](#4-bowtie-analysis)
 5. [ICAM Report Template](#5-icam-report-template)
-6. [Common Investigation Pitfalls & Cognitive Biases](#6-common-pitfalls)
+6. [Common Pitfalls](#6-common-pitfalls)
 7. [Corrective Action Framework](#7-corrective-action-framework)
 8. [PEEPO Question Bank](#8-peepo-question-bank)
 9. [Witness Interview Technique](#9-witness-interview-technique)
@@ -52,9 +52,21 @@ actions, and conditions to the organisational factors that explain them.
 
 **Step 1 — Preserve and Secure the Scene**
 - Notify regulator if notifiable — the duty to notify is WHS Act s 38;
-  s 35 defines "notifiable incident" (see legislation.md)
+  s 35 defines "notifiable incident" (see legislation.md). NZ equivalent:
+  HSWA "notifiable event" is defined in ss 23–25 (s 23 notifiable death/
+  injury or illness; s 24 notifiable incident; s 25 the consolidated
+  meaning), with the duty to notify WorkSafe NZ as soon as possible after
+  becoming aware of it. The s 155/171/172 numbers cited in §10 are
+  model-WHS-jurisdiction-specific; for the NZ equivalents see legislation.md
 - Preserve scene before disturbance (WHS Act s 39 duty to preserve the
-  incident site)
+  incident site). The duty rests on the person with management or control
+  of the workplace, who must ensure — so far as is reasonably practicable —
+  that the site is not disturbed until an inspector arrives or any earlier
+  time an inspector directs. The duty does not prevent action to assist an
+  injured person, remove a deceased person, make the site safe or minimise
+  the risk of a further notifiable incident, or that a police investigation
+  requires (s 39(3)). NZ equivalent: HSWA s 55 (preserve the site until an
+  inspector releases it)
 - Photograph, video, diagram the scene
 - Identify and secure physical evidence (plant, equipment, substances)
 - Record environmental conditions (weather, lighting, noise, time of day)
@@ -479,17 +491,26 @@ All corrective actions must be:
 - **Linked**: Mapped to the contributing factor it addresses
 
 Apply hierarchy of controls to all corrective actions:
-| Hierarchy level | Example |
-|---|---|
-| Eliminate | Remove the hazard entirely |
-| Substitute | Replace with a less hazardous alternative |
-| Isolate | Physical separation — barriers, enclosures, exclusion zones |
-| Engineering | Guards, interlocks, ventilation, ergonomic redesign |
-| Administrative | Procedures, training, supervision, permits, rosters |
-| PPE | Last resort — gloves, helmets, respiratory protection |
+| Statutory level | Hierarchy of controls | Example |
+|---|---|---|
+| 1 — Eliminate (WHS Reg 35) | Eliminate | Remove the hazard entirely |
+| 2 — Minimise (WHS Reg 36(3)) | Substitute | Replace with a less hazardous alternative |
+| 2 — Minimise (WHS Reg 36(3)) | Isolate | Physical separation — barriers, enclosures, exclusion zones |
+| 2 — Minimise (WHS Reg 36(3)) | Engineering | Guards, interlocks, ventilation, ergonomic redesign |
+| 3 — Minimise (WHS Reg 36(4)) | Administrative | Procedures, training, supervision, permits, rosters |
+| 3 — Minimise (WHS Reg 36(5)) | PPE | Last resort — gloves, helmets, respiratory protection |
 
-Actions at the Administrative or PPE level require justification for why higher-order
-controls are not practicable. This justification must be documented.
+Under WHS Reg 36(3), substitution, isolation and engineering controls sit at the
+same statutory level and may be applied singly or in combination, so far as is
+reasonably practicable — there is no strict ordinal ranking between isolation and
+engineering controls; selection is driven by what is reasonably practicable and a
+combination may be used where a single control is not sufficient. (The position is
+identical in NZ under the Health and Safety at Work (General Risk and Workplace
+Management) Regulations 2016 reg 6, which mirrors the same grouping.)
+
+Actions at the Administrative or PPE level require justification for why elimination
+or the level 2 minimisation controls (substitution, isolation, engineering) are not
+reasonably practicable. This justification must be documented.
 
 ### Effectiveness Verification
 After the due date, the corrective action owner and an independent WHS representative
@@ -678,7 +699,12 @@ procedurally:
   the choice
 - **Recording** — increasingly the default; explain why (accuracy, dispute
   resolution); two-recorder redundancy for serious matters; written record
-  produced from recording
+  produced from recording. Obtain and document the interviewee's informed
+  consent to recording, captured on the recording itself at the start. Covert
+  recording may breach state/territory surveillance and listening-device
+  legislation (eg Surveillance Devices Acts in WA/NT/Vic, Listening Devices
+  Act NSW, Invasion of Privacy Act QLD) and the equivalent NZ law, and can
+  render a recording inadmissible or unlawful — never record covertly
 - **Timing** — promptly after the event for memory accuracy; not within
   hours where the worker is in shock or fatigued; not in the middle of a
   shift if it can be avoided
@@ -718,8 +744,12 @@ and how well it survives scrutiny in later proceedings.
 
 A well-formed witness statement contains:
 
-- **Identification** — full name, role, age (or DOB), employer, contact
-  details, signature, date
+- **Identification** — identifying details sufficient to locate the witness:
+  full name, role, employer, contact details, signature, date. Date of birth
+  or age only where genuinely required (eg a formal coronial brief) — it is
+  personal information under the Privacy Act / APPs (and the NZ Privacy Act
+  2020) and is not needed for a routine workplace witness statement, so avoid
+  over-collecting it
 - **Capacity** — the witness's connection to the event (eg, "I was working
   on Aisle 14 conducting stocktake from 14:05 until the incident at 14:22")
 - **Source of knowledge** — what the witness saw, heard, did personally;
@@ -859,8 +889,10 @@ ICAM is not the only systemic method in commercial use. Two proprietary
 alternatives are regularly encountered in AU/NZ, particularly where a global
 parent or client mandates them:
 
-- **Tripod Beta** — Shell lineage, now stewarded through the Energy
-  Institute / Stichting Tripod Foundation. Shares ICAM's Reason ancestry:
+- **Tripod Beta** — Shell lineage; custodianship sits with the Stichting
+  Tripod Foundation (established by Shell in 1998), with the Energy Institute
+  as its publishing and accreditation partner since 2012. Shares ICAM's
+  Reason ancestry:
   builds a tree of events, objects, and barriers, then traces each failed
   barrier back through immediate causes and preconditions to underlying
   causes (Basic Risk Factors). Strong in process safety environments.
@@ -1005,7 +1037,7 @@ For each threat, the barriers that should prevent it:
 |---|---|
 | Fatal fall | Fall arrest system that catches the falling worker; fall clearance calculation ensures the worker cannot strike the surface below |
 | Serious injury | Fall arrest equipment correctly fitted to limit deceleration forces; rescue arrives quickly; first aid on site; medical evacuation plan |
-| Suspension trauma | Trauma straps deployed by worker; rescue plan rehearsed and equipment present; rescue within 5-15 minutes |
+| Suspension trauma | Trauma straps deployed by worker; rescue plan rehearsed and equipment present; rescue as rapidly as possible (current guidance — eg ANZCOR Guideline 9.1.5 — does not rely on a fixed survival window, and post-rescue positioning advice has been revised away from immediate horizontal recovery) |
 | Minor injury | First aid; return to work assessment; root cause investigation regardless of outcome |
 
 **Degradation factors (controls that can degrade barriers)**:

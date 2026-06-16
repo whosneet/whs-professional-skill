@@ -10,6 +10,74 @@ currency updates, and small additions).
 
 ---
 
+## [1.5.0] — 2026-06-16
+
+### Accuracy, consistency, and efficiency release
+
+A full dual-lens audit (WHS-professional + technical) of the corpus was
+actioned: 176 findings reviewed, the highest-risk legal/factual claims
+web-verified against primary sources, and corrections applied across all 22
+reference files, the examples, the entry point, and the build pipeline. No new
+top-level scope.
+
+#### Corrected (web-verified against primary sources)
+
+- **NSW POEO penalties** (`environment.md`) updated to the Environment
+  Protection Legislation Amendment (Stronger Regulation and Penalties) Act 2024
+  (NSW): Tier 1 $10M/$2M, Tier 2 and s 148 failure-to-notify $4M/$1M, plus the
+  daily continuing-offence penalty
+- **NSW WHS Regulation 2025** (`legislation.md`, `SKILL.md`) commencement
+  corrected from "1 Jan 2026" to **22 August 2025** (2017 Regulation repealed
+  1 September 2025; Silica Worker Register from 1 October 2025)
+- **NSW compensation 21-day liability timeframe** (`compensation-rtw.md`)
+  re-anchored to the statutory source — s 274 / s 279 / s 283 WIM Act 1998 —
+  rather than a SIRA standard
+- **Lead 30 µg/dL** (`specialist-topics.md`) relabelled as the medical removal
+  level (reg 415, Part 7.2), not a Safe Work Australia notification trigger
+- **Commonwealth insurance ban** (`specialist-topics.md`) corrected to
+  ss 272A–272B, inserted by the WHS Amendment Act 2023 (Cth) (not "Closing
+  Loopholes")
+- **Whistleblower criminal penalties** (`whistleblower.md`) completed with the
+  omitted fine quanta (s 1317AC, s 1317AAE)
+- **Tasmania industrial manslaughter** (`legislation.md`) corrected to the Work
+  Health and Safety Amendment (Safer Workplaces) Act 2024 (Tas); *DPP v LH
+  Holding* corrected to the Supreme Court of Victoria; NSW Category 1 maximum
+  corrected to $10,424,982; anti-slavery commissioners (Cockayne, Evans) verified
+- **Hierarchy of controls** (`investigation.md`) aligned to WHS Reg 36(2):
+  substitution / isolation / engineering sit at the same statutory level
+
+#### Consistency (single source of truth)
+
+- **TRIFR / recordable set** reconciled across `analytics.md`, `glossary.md`, and
+  `company.md` (RWI recordable, with an OSHA-origin provenance note)
+- **Psychosocial hazard list** reconciled to the canonical 14 (SWA Code of
+  Practice 2022) across `SKILL.md`, `legislation.md`, and `frameworks.md`
+- **Risk-matrix legends** defined in `case-studies-everyday.md`; `company.md`
+  consequence/severity LTI thresholds harmonised
+
+#### Efficiency
+
+- **`SKILL.md` slimmed ~20%** (≈1,800 tokens saved on every load): trigger-first
+  description, §3 jurisdiction converted to a non-citable index, §6–§10 collapsed
+  to stubs + pointers, §12 reference catalogue compressed to a table, glossary
+  routing row added
+
+#### Tooling
+
+- **`scripts/validate.py`** added and wired into CI (`package.yml`) as a gate
+  before packaging: frontmatter validation, reference + section-link resolution,
+  regression guards (MUST-NOT strings), hygiene, and AU-English checks
+- `EVALS.md` expanded with regressions for the v1.5.0 corrections
+
+#### Deferred
+
+- Physical split of the three monolith files (`sector-regimes.md`,
+  `legislation.md`, `hazards.md`) into per-domain files is deferred to v1.6.0,
+  where the ~70 inbound section-numbered cross-references can be re-pointed and
+  validated atomically by the new CI reference resolver.
+
+---
+
 ## [1.4.0] — 2026-06-10
 
 ### Correction and currency release

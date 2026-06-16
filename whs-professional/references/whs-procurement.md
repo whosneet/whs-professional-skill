@@ -20,7 +20,7 @@ downstream — not just whether they get used.
 > For organisation-specific prequalification platforms in use, contractor
 > categorisation, scorecard structure, and termination protocols, load
 > `references/company.md`. For the contractor WHS brief template, load
-> `references/output-templates.md` §10.
+> `references/output-templates.md` §10 "Contractor WHS Requirements Brief".
 
 ---
 
@@ -64,6 +64,13 @@ responsibility as a defence. The duty to consult, cooperate, and coordinate
 with other PCBUs holds the principal to a positive obligation to engage with
 contractor WHS — not to delegate it. The buyer-side selection and management of
 contractors is where this duty is operationally discharged.
+
+> Jurisdictional note: section and regulation numbers cited throughout this
+> file are model WHS. Victoria operates under the OHS Act 2004 / OHS
+> Regulations 2017 (different section and regulation numbering, and a different
+> construction/SWMS regime), and New Zealand under HSWA 2015 (PCBU and
+> "overlapping duties" terminology, with no equivalent numbered s 272). Map
+> the principle to the applicable instrument in VIC and NZ.
 
 > Cross-reference `legislation.md` §4 for overlapping duties and the 3Cs duty
 > in detail.
@@ -113,7 +120,8 @@ beyond the surface layer, and engagement with the supplier's WHS leadership.
 
 > Cross-reference `inspections-audits-permits.md` §3 for second-party audit
 > methodology (the principal auditing the contractor's WHS system) and `output
-> -templates.md` §10 for the contractor WHS requirements brief.
+> -templates.md` §10 "Contractor WHS Requirements Brief" for the contractor
+> WHS requirements brief.
 
 ---
 
@@ -132,7 +140,7 @@ in scope, depth, sector coverage, and cost.
 | **Cm3** | Originally OHS-focused; now expanded to broader compliance | Strong in property, retail, FM sectors; assesses WHS systems against ISO 45001-aligned criteria |
 | **Avetta** | Global platform; large in resources and energy | Connects principals and contractors; verifies WHS, insurance, financial stability |
 | **ISNetworld** | Global platform originating in US; established in AU resources sector | RAVS (Review and Verification Services) verifies safety management programs |
-| **Pegasus** (acquired by Avetta, 2022; now Avetta One / legacy Onsite Track Easy) | Workforce management + contractor management; common in resources, utilities, infrastructure | Combines individual worker competency (LMS) with company-level prequalification |
+| **Pegasus** (acquired by Avetta, 2021; integrated into Avetta One Workforce Management 2022; legacy Onsite Track Easy) | Workforce management + contractor management; common in resources, utilities, infrastructure | Combines individual worker competency (LMS) with company-level prequalification |
 | **MyComply / Site Pass / Linksafe** | Workforce-centric (worker inductions, ticket verification) | Used at site level; not a full company prequalification platform |
 
 The platform is the tool — the principal still owns the decision. A "Rapid
@@ -216,14 +224,14 @@ separately, or has a track record of catastrophic outcomes.
 |---|---|---|
 | **Construction (especially HRCW)** | High-fatality sector; principal contractor appointment (model WHS Reg 293) and duties (Regs 308–315); SWMS regime (Reg 299); WHSMP requirement (Reg 309) | WHSMP review; SWMS sample audit; site visit to a current project; verification of HRWL register |
 | **Mining services** | Separate regulatory regimes (NSW WHS (Mines and Petroleum Sites) Act, QLD CMSH/MQSH Acts, WA Mines Safety regulations); statutory positions (mine manager, ventilation officer) | Statutory position verification; mine safety management plan review; competency mapping |
-| **Hazardous chemicals** | Stored / handled / transported quantities trigger MHF, dangerous goods, environmental, and workplace exposure regulations simultaneously | Dangerous goods licences; carrier accreditation; MSDS/SDS sample review; emergency response capability |
+| **Hazardous chemicals** | Stored / handled / transported quantities trigger MHF, dangerous goods, environmental, and workplace exposure regulations simultaneously; placard and manifest obligations are triggered at Schedule 11 threshold quantities, and MHF status at Schedule 15 threshold quantities (model WHS Regulations) | Dangerous goods licences; carrier accreditation; MSDS/SDS sample review; emergency response capability |
 | **Demolition** | High-energy work, hazardous materials (asbestos, lead, PCBs), structural collapse risk; licensing required in most jurisdictions | Demolition licence verification; hazardous materials survey capability; sequence and method statement |
 | **Asbestos removal** | Class A (friable) and Class B (non-friable) licensing; air monitoring; clearance certification | Licence class verification; sample air monitoring records; clearance certifier accreditation |
-| **Working at heights / rope access** | Falls remain leading cause of construction fatalities; rope access (IRATA) has separate competency framework | IRATA / SPRAT certification; rescue plan capability; sample anchor verification records |
+| **Working at heights / rope access** | Falls remain leading cause of construction fatalities; rope access has a separate competency framework (IRATA is dominant in AU, with SPRAT also accepted) | IRATA / SPRAT certification; rescue plan capability; sample anchor verification records |
 | **Confined space** | High-consequence work; rescue plan must be credible (not just documented) | Rescue plan walkthrough; atmospheric monitoring equipment; trained standby personnel |
 | **Electrical (live work)** | Restricted to specific competencies under model WHS Reg 158; arc flash risk; network operator authorisation often required | Electrical licence verification; arc flash assessment capability; live work justification |
 | **Major plant operations (crane, EWP, mobile plant)** | Combination of operator competency, plant currency, lift planning competency; consequence of failure is fatal | HRWL register; plant compliance plate records; critical lift planning capability |
-| **Labour hire** | Host PCBU and labour hire PCBU both owe duties; supervision and induction quality is often the failure point | Labour hire licence (VIC, QLD, SA, ACT require licensing); worker induction process; supervision model |
+| **Labour hire** | Host PCBU and labour hire PCBU both owe duties; supervision and induction quality is often the failure point; a host that knowingly engages an unlicensed provider faces its own penalties (six-figure exposure in the licensing states) | Labour hire licence (VIC, QLD, ACT, and SA — SA's scheme broadened to cover all industries from 29 Jan 2026, with newly captured providers required to be licensed by 29 Jul 2026); worker induction process; supervision model |
 
 ### Buyer-side site verification before mobilisation
 
@@ -306,8 +314,10 @@ and a competitive positioning element (selectively presented).
   project is structurally different from a maintenance contract or a head
   office; tenders sometimes evaluate apples-to-oranges
 - Definition matters — TRIFR calculation differs across organisations
-  (AS 1885.1 base, hours included, recordability criteria); state the
-  definition used
+  (AS 1885.1:1990 is now withdrawn but remains the de facto recordability
+  basis many organisations still use; Safe Work Australia counting rules are
+  the contemporary reference — there is no single current AS equivalent, and
+  hours included and recordability criteria vary); state the definition used
 - HiPo disclosure is mixed — some tenders ask, some don't; volunteering it
   signals maturity (you are looking for them) but creates comparability
   challenges with suppliers who do not report them
@@ -317,8 +327,11 @@ and a competitive positioning element (selectively presented).
   or serious injury, the relationship and the contract are at risk
 - Do not over-cite headline figures without context — "zero LTIs in 12 months"
   for an organisation that doesn't typically have LTIs is not meaningful
-- Do not omit prosecutions — these are public; omission is treated as
-  dishonesty
+- Do not omit prosecutions — most WHS prosecutions and enforceable
+  undertakings appear on the relevant regulator's public register (registers
+  are per-regulator and vary in coverage and retention, so there is no single
+  national register); assume discoverability and disclose where the tender
+  asks, as omission is treated as dishonesty
 
 ### The difference between mandatory disclosure and competitive positioning
 
@@ -608,8 +621,10 @@ attendance is the standard mechanism.
 - Incident records (minimum 7 years; longer for HRCW, asbestos exposure,
   workers compensation claims)
 - Training records and HRWL currency
-- Worker exposure records (silica, asbestos, lead, noise) — long-term
-  retention obligations (typically 30+ years for occupational exposure data)
+- Worker exposure and health monitoring records (silica, asbestos, lead,
+  noise) — long-term retention obligations: health monitoring reports kept at
+  least 30 years generally, and at least 40 years for asbestos-related health
+  monitoring records under the model WHS Regulations
 - SWMS, risk assessments, audit reports
 - Worker compensation claims and RTW records
 
@@ -726,7 +741,8 @@ Before finalising any procurement / contractor WHS output, confirm:
 For organisation-specific prequalification platforms in use, contractor
 categorisation tiers, scorecard structure, and termination protocols, load
 `references/company.md`. For the contractor WHS requirements brief template,
-load `references/output-templates.md` §10. For the audit methodology
+load `references/output-templates.md` §10 "Contractor WHS Requirements
+Brief". For the audit methodology
 underpinning second-party audit of contractors, load
 `references/inspections-audits-permits.md` §3. For workers compensation and
 latent disease retention obligations affecting off-boarding, load

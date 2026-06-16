@@ -1,10 +1,23 @@
-name: Package skill
+name: Validate and package skill
 on:
   push:
+    branches: ['**']
     tags: ['v*']
+  pull_request:
   workflow_dispatch:
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Validate skill (frontmatter, reference + section links, regressions, hygiene, AU English)
+        run: python3 scripts/validate.py
   package:
+    needs: validate
+    if: startsWith(github.ref, 'refs/tags/v') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
