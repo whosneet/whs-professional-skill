@@ -22,8 +22,8 @@ It is designed to be **organisation-agnostic at the framework layer** and
 ## Table of Contents
 
 - [What this is and is not](#what-this-is-and-is-not)
-- [Quick start: install via Claude Code (easiest)](#quick-start-install-via-claude-code-easiest)
-- [Quick start: install in Claude](#quick-start-install-in-claude)
+- [Quick start — Option A: install in Claude.ai](#quick-start--option-a-install-in-claudeai)
+- [Quick start — Option B: install via Claude Code](#quick-start--option-b-install-via-claude-code)
 - [Quick start: adapt to your organisation](#quick-start-adapt-to-your-organisation)
 - [Example prompts](#example-prompts)
 - [Repository structure](#repository-structure)
@@ -60,16 +60,57 @@ It is designed to be **organisation-agnostic at the framework layer** and
 
 ---
 
-## Quick start: install via Claude Code (easiest)
+## Quick start — Option A: install in Claude.ai
 
-If you use **Claude Code** — Anthropic's desktop or command-line app — this
-is the simplest way to install the skill. There are no files to download or
-upload. Three short commands and you are done.
+Use this option if you access Claude through a web browser at
+<https://claude.ai>. You will download a file and upload it to your account.
+
+The skill installs as a single packaged archive — a `.zip` of the skill
+folder. Release assets also include a `.skill` copy: it is the same ZIP
+under optional legacy naming.
+
+**Step 1 — Download the skill file**
+On this repository's GitHub page, navigate to the **Releases** section (right
+sidebar) and download the latest `whs-professional.zip` (or the identical
+`whs-professional.skill`). If there is no Release yet, download the
+repository as a ZIP using the green "Code" button → "Download ZIP", then
+extract it; you can package the skill yourself (see
+[Packaging](#packaging-the-skill-yourself) below).
+
+**Step 2 — Open Claude.ai settings**
+1. Go to <https://claude.ai>
+2. Sign in (Claude Pro or Team account required for skills)
+3. Click your profile → **Settings**
+4. Find the **Skills** or **Capabilities** section
+
+**Step 3 — Upload the skill**
+1. Click **Add skill** or **Upload skill**
+2. Select the `whs-professional.zip` (or `.skill`) file you downloaded
+3. Confirm install
+
+**Step 4 — Test it**
+Open a new conversation and try:
+
+> "Walk me through investigating a near miss where a worker had a slip in a wet
+> kitchen but didn't injure themselves. Use ICAM."
+
+If the skill activated, the response will reference ICAM methodology, PEEPO
+domains, contributing factors taxonomy, and corrective action framework. It
+will not invent specific severity classifications (since you haven't populated
+`company.md` yet).
+
+---
+
+## Quick start — Option B: install via Claude Code
+
+Use this option if you use **Claude Code** — Anthropic's desktop or
+command-line app. There are no files to download or upload. Three short
+commands and you are done.
 
 > **Not sure if you have Claude Code?**
 > Look for a Claude icon in your Applications folder (Mac) or Start menu
-> (Windows). If you only use Claude through a browser at claude.ai, skip
-> to the next section — the manual ZIP install works just as well.
+> (Windows). If you only use Claude through a browser at claude.ai, use
+> Option A above instead.
 > Claude Code is free to download at <https://claude.ai/code>.
 
 ---
@@ -137,44 +178,6 @@ To view all your installed plugins and skills at any time:
 ```
 /plugin list
 ```
-
----
-
-## Quick start: install in Claude
-
-The skill installs as a single packaged archive — a `.zip` of the skill
-folder — that you upload to Claude. Release assets also include a `.skill`
-copy: it is the same ZIP under optional legacy naming.
-
-**Step 1 — Download the skill file**
-On this repository's GitHub page, navigate to the **Releases** section (right
-sidebar) and download the latest `whs-professional.zip` (or the identical
-`whs-professional.skill`). If there is no Release yet, download the
-repository as a ZIP using the green "Code" button → "Download ZIP", then
-extract it; you can package the skill yourself (see
-[Packaging](#packaging-the-skill-yourself) below).
-
-**Step 2 — Open Claude settings**
-1. Go to <https://claude.ai>
-2. Sign in (Claude Pro or Team account required for skills)
-3. Click your profile → **Settings**
-4. Find the **Skills** or **Capabilities** section
-
-**Step 3 — Upload the skill**
-1. Click **Add skill** or **Upload skill**
-2. Select the `whs-professional.zip` (or `.skill`) file you downloaded
-3. Confirm install
-
-**Step 4 — Test it**
-Open a new conversation and try:
-
-> "Walk me through investigating a near miss where a worker had a slip in a wet
-> kitchen but didn't injure themselves. Use ICAM."
-
-If the skill activated, the response will reference ICAM methodology, PEEPO
-domains, contributing factors taxonomy, and corrective action framework. It
-will not invent specific severity classifications (since you haven't populated
-`company.md` yet).
 
 ---
 
