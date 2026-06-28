@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/anthropics/claude-code/main/schemas/marketplace.schema.json",
+  "name": "whs-professional",
+  "description": "WHS/OHS professional skill for Australian and New Zealand workplace health and safety",
+  "owner": {
+    "name": "Neet Singh",
+    "email": "iamavneetsingh@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "whs-professional",
+      "source": {
+        "source": "github",
+        "repo": "whosneet/whs-professional-skill",
+        "ref": "main"
+      },
+      "description": "Turns Claude into an experienced WHS/OHS professional calibrated to Australian and New Zealand regulatory frameworks. Covers incident investigation (ICAM, 5-Why), risk assessments, legislation, ISO 45001, psychosocial hazards, and more.",
+      "version": "1.5.0",
+      "author": {
+        "name": "Neet Singh"
+      },
+      "homepage": "https://github.com/whosneet/whs-professional-skill",
+      "repository": "https://github.com/whosneet/whs-professional-skill",
+      "license": "CC-BY-SA-4.0",
+      "keywords": ["whs", "ohs", "ehs", "safety", "workplace", "australia", "new-zealand", "health-safety", "incident-investigation", "risk-assessment"],
+      "category": "professional"
+    }
+  ]
+}
