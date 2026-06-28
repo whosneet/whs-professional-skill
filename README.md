@@ -22,6 +22,7 @@ It is designed to be **organisation-agnostic at the framework layer** and
 ## Table of Contents
 
 - [What this is and is not](#what-this-is-and-is-not)
+- [Quick start: install via Claude Code (easiest)](#quick-start-install-via-claude-code-easiest)
 - [Quick start: install in Claude](#quick-start-install-in-claude)
 - [Quick start: adapt to your organisation](#quick-start-adapt-to-your-organisation)
 - [Example prompts](#example-prompts)
@@ -56,6 +57,86 @@ It is designed to be **organisation-agnostic at the framework layer** and
 - A global resource. The skill is built around AU and NZ frameworks; some
   content is broadly applicable, but the regulatory layer assumes those
   jurisdictions.
+
+---
+
+## Quick start: install via Claude Code (easiest)
+
+If you use **Claude Code** — Anthropic's desktop or command-line app — this
+is the simplest way to install the skill. There are no files to download or
+upload. Three short commands and you are done.
+
+> **Not sure if you have Claude Code?**
+> Look for a Claude icon in your Applications folder (Mac) or Start menu
+> (Windows). If you only use Claude through a browser at claude.ai, skip
+> to the next section — the manual ZIP install works just as well.
+> Claude Code is free to download at <https://claude.ai/code>.
+
+---
+
+### Step 1 — Add the marketplace
+
+Open Claude Code and paste the following into the message box, then press
+**Enter**:
+
+```
+/plugin marketplace add whosneet/whs-professional-skill
+```
+
+This tells Claude Code where to find the WHS Professional skill. **You only
+need to do this once** — it stays registered on your computer.
+
+You will see a confirmation message when it is done. It takes about
+five seconds.
+
+---
+
+### Step 2 — Install the skill
+
+Still in Claude Code, paste this and press **Enter**:
+
+```
+/plugin install whs-professional@whs-professional
+```
+
+Claude Code will download and install the skill. Wait for the confirmation
+message — it usually takes under ten seconds.
+
+---
+
+### Step 3 — Use the skill
+
+You can now start a WHS session at any time by typing:
+
+```
+/whs-professional:whs-professional
+```
+
+Claude will respond as an experienced WHS/OHS professional. Try one of the
+[example prompts](#example-prompts) below to test it.
+
+---
+
+### Keeping the skill up to date
+
+The skill is updated periodically with regulatory corrections and new
+content. To pull the latest version, type:
+
+```
+/plugin marketplace update
+```
+
+That is all — no downloading or re-uploading required.
+
+---
+
+### See what you have installed
+
+To view all your installed plugins and skills at any time:
+
+```
+/plugin list
+```
 
 ---
 
