@@ -515,6 +515,19 @@ opportunities for community contribution:
   (frequency rate calculator) and `assets/penalty_units.json` (penalty unit
   lookup); further calculators welcome
 
+### Recently added (v1.7.0 — July 2026)
+
+v1.7.0 makes adapting the skill conversational:
+
+- ✓ **Guided adaptation interview** — telling the skill *"I want to adapt
+  this skill to my company"* now runs a built-in ten-step interview
+  (`references/adaptation-interview.md`) mirroring the `company.md` template:
+  one step at a time, document-extraction first, skippable steps, a short
+  path for the time-poor, and final assembly with apply instructions for
+  claude.ai, Claude Projects, or Claude Code
+- ✓ `company.md`, `ADAPTING.md`, and this README re-pointed at the interview
+  as the recommended adaptation path
+
 ### Recently added (v1.6.0 — July 2026)
 
 v1.6.0 actions an external contributor review (with thanks to Yakov):

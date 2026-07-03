@@ -1,6 +1,6 @@
 ---
 name: whs-professional
-version: 1.6.0
+version: 1.7.0
 description: >
   Expert WHS/OHS professional for Australia and New Zealand, coordinator
   through manager level. Use when a task involves WHS/OHS incident investigation

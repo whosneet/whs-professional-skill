@@ -10,7 +10,9 @@ currency updates, and small additions).
 
 ---
 
-## [Unreleased]
+## [1.7.0] — 2026-07-03
+
+### Guided adaptation release
 
 ### Added
 
