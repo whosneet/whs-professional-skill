@@ -12,8 +12,9 @@ description: >
   program design. Covers the WHS Act 2011, HSWA 2015 (NZ), state regulations,
   ISO 45001, and HVNL Chain of Responsibility. Hybrid asks like 'write a
   toolbox talk', 'investigate a near miss', 'inspector is on site', 'draft a
-  board paper on industrial manslaughter'. Load before any WHS task needing
-  current AU/NZ regulatory state or organisation-specific context.
+  board paper on industrial manslaughter', 'adapt this skill to my company'
+  (guided company.md setup). Load before any WHS task needing current AU/NZ
+  regulatory state or organisation-specific context.
 ---
 
 # WHS Professional Skill
@@ -34,11 +35,13 @@ The skill is built in two layers:
 2. **Organisation layer** — the company's specific configuration. Lives in
    `references/company.md`, pre-filled with a fictional worked example
    (Meridian Facilities Group). **Replace it with your own organisation's
-   context before relying on the skill for company-specific tasks.** For
-   consultants or multi-divisional groups maintaining several profiles, see
-   `references/company.md` § "Multi-tenant use" or keep `company.md` generic
-   and hold each organisation's profile in a Claude Project's knowledge
-   instead — no re-packaging required per client.
+   context before relying on the skill for company-specific tasks.** When the
+   user asks to adapt or set up the skill for their organisation, load
+   `references/adaptation-interview.md` and run its guided ten-step
+   interview. For consultants or multi-divisional groups maintaining several
+   profiles, see `references/company.md` § "Multi-tenant use" or keep
+   `company.md` generic and hold each organisation's profile in a Claude
+   Project's knowledge instead — no re-packaging required per client.
 
 Without a populated `company.md`, the skill still produces sound generic AU/NZ
 WHS guidance — it just won't anchor to a specific risk matrix, severity
@@ -70,6 +73,7 @@ topic, check `references/INDEX.md` first — it is a compact keyword index.
 | File | Load when the task involves | Key sections |
 |---|---|---|
 | `company.md` | Anything org-specific: risk matrix, severity/HiPo thresholds, document numbering, incident system, critical-risk taxonomy, named programs, governance cadence | Template §1–§10; Active Reference |
+| `adaptation-interview.md` | **Adapting/configuring the skill to an organisation or client**: "adapt this skill to my company", populate or update `company.md`, first-time setup, creating a client profile (multi-tenant) — run the guided ten-step interview | all |
 | `legislation.md` | Legislative or regulatory advice; duties; notices; **industrial manslaughter / officer due diligence** (§6, incl. operational toolkit); **inspector on site** (§10); **NZ / HSWA / WorkSafe NZ / ACC** (§3); **psychosocial regs & Respect@Work positive duty** (§9); training requirements by jurisdiction (§11); volunteers (§12); international comparison — ILO/OSHA/HSE/EU (§13); **WES→WEL table, transition 1 Dec 2026** (§14); Codes of Practice summaries (§15); **state-by-state detail incl. VIC OHS Act 2004** (§16) | §3, §6, §9–§16 |
 | `investigation.md` | Incident investigation: ICAM, 5-Why, triage, contributing-factors taxonomy, cognitive biases; **PEEPO question bank** (§8); **PEACE / cognitive interviewing, statement admissibility** (§9–§10); ICAM variants, AcciMap, bowtie worked example, legal privilege (§11–§14) | §1–§14 |
 | `frameworks.md` | Risk assessment, SFAIRP, hierarchy of controls; ISO 45001 / management systems / gap analysis; **Safety II / HOP / Forge Works** (§11); **named safety-science thinkers & citations** (§12); WHS in M&A and due diligence incl. sector overlays (§13); psychosocial control frameworks (§14); **governance & assurance, audit programs, board reporting** (§15) | §11–§15 |

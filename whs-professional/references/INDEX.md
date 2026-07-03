@@ -86,4 +86,5 @@ procurement, tenders, supplier evaluation, contractor performance | whs-procurem
 whistleblower, Part 9.4AAA, PIDA, public interest disclosure | whistleblower.md | all
 acronyms, terminology, definitions | glossary.md | all
 organisation config, risk matrix, severity, HiPo threshold, document codes, named programs | company.md | all
+adapt the skill, set up for my company, configure organisation, populate company.md, client profile, guided setup interview | adaptation-interview.md | all
 penalty unit values by jurisdiction | ../assets/penalty_units.json | lookup

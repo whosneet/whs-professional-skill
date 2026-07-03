@@ -193,19 +193,31 @@ Group**, left in as calibration reference — and a template structure above it.
 
 **Two ways to do this:**
 
-**Option A — Use Claude to fill it in (recommended)**
+**Option A — The guided interview (recommended)**
 
-Once the skill is installed, paste the following prompt into Claude:
+Once the skill is installed, just tell Claude:
 
-> "I want to adapt the WHS Professional skill for my organisation. Walk me
-> through the `company.md` template one section at a time. For each section,
-> ask me the questions you need to populate it, then show me the filled-in
-> content for that section. Start with Section 1 (Organisation Identity)."
+> "I want to adapt this skill to my company."
 
-Claude will then ask you focused questions and produce the filled content
-section by section. When you're done, copy the result into a new `company.md`
-file (overwriting the Meridian example) and re-package the skill (see
-[Packaging](#packaging-the-skill-yourself)).
+The skill runs a built-in **ten-step interview**. It explains what it needs
+and what documents to have handy, then works through the sections one at a
+time — Step 1 organisation identity, Step 2 management system and document
+numbering, Step 3 risk matrix, Step 4 hierarchy-of-controls framing, Step 5
+incident classification and notification, Step 6 templates and forms, Step 7
+systems, Step 8 critical risks, Step 9 programs, Step 10 governance.
+
+Along the way you can:
+- **Paste or upload source documents** (risk management standard, incident
+  procedure, document register) and Claude extracts the answers instead of
+  asking questions
+- **Skip any step** you don't have — the skill falls back to generic defaults
+  for that section
+- **Take the short path** (Steps 1, 3 and 5 only) if you're time-poor
+
+At the end it assembles the finished `company.md` content and gives you
+apply instructions for your setup — replace-and-re-zip for claude.ai, a
+Project-knowledge document for consultants, or a direct file edit for
+Claude Code.
 
 **Option B — Edit `company.md` directly**
 
@@ -216,8 +228,9 @@ file (overwriting the Meridian example) and re-package the skill (see
 4. Save
 5. Re-package the skill (see [Packaging](#packaging-the-skill-yourself))
 
-See `ADAPTING.md` for a detailed walkthrough including the questions to answer
-for each section and where to find the information inside your organisation.
+See `ADAPTING.md` for the manual walkthrough — the questions each section
+answers and where to find the information inside your organisation. It
+follows the same 1–10 structure as the interview.
 
 ---
 
@@ -298,6 +311,8 @@ whs-professional/                  # The Claude skill folder
     ├── INDEX.md                   # Keyword → file → section lookup across
     │                              #   all reference files
     ├── company.md                 # ★ Your organisation's context (edit this)
+    ├── adaptation-interview.md    # Guided ten-step setup: "adapt this skill
+    │                              #   to my company" runs this interview
     ├── legislation.md             # AU/NZ WHS legislation incl. expanded NZ
     │                              #   coverage (HSWA, ACC, WEPR, Pike River,
     │                              #   geothermal, NZ industrial manslaughter);

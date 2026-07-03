@@ -10,6 +10,25 @@ currency updates, and small additions).
 
 ---
 
+## [Unreleased]
+
+### Added
+
+- **Guided adaptation interview** (`references/adaptation-interview.md`) —
+  "I want to adapt this skill to my company" now triggers a structured
+  ten-step interview mirroring the `company.md` Template §1–§10: one step at
+  a time, document-extraction first (paste the risk standard / incident
+  procedure and the skill pulls the answers), skippable steps with generic
+  fallbacks, a short path (Steps 1, 3, 5), and assembly with per-setup apply
+  instructions (claude.ai re-zip, Claude Project knowledge, or Claude Code
+  file edit). Routed from the SKILL.md table, INDEX.md, and the frontmatter
+  description
+- `company.md` and `ADAPTING.md` re-pointed at the interview as the
+  recommended path; README "adapt to your organisation" section rewritten
+  around it
+
+---
+
 ## [1.6.0] — 2026-07-03
 
 ### Contributor review release — efficiency, verification discipline, automation

@@ -21,6 +21,12 @@ If no Active Reference is provided, the skill will produce generic AU/NZ WHS
 guidance without organisation-specific tailoring. The other reference files will
 still work — they just won't be anchored to a particular company's framework.
 
+**The easy way to fill this in**: tell the skill *"I want to adapt this skill
+to my company"*. It runs the guided ten-step interview in
+`adaptation-interview.md` — one section at a time, extracting from your source
+documents where you can paste them, and assembling the finished Active
+Reference for you. Each Template section below maps 1:1 to an interview step.
+
 ---
 
 ## Template

@@ -11,15 +11,26 @@ replacing that fictional example with your organisation's real context.
 
 You have three paths depending on how comfortable you are with editing files:
 
-- **Path A — Let Claude do it**: paste prompts into Claude (with the skill
-  installed) and answer questions; copy the result into `company.md`
+- **Path A — The guided interview (recommended)**: with the skill installed,
+  just tell Claude **"I want to adapt this skill to my company."** The skill
+  runs a built-in ten-step interview
+  (`whs-professional/references/adaptation-interview.md`): it explains what
+  it needs, works through one section at a time, extracts answers from any
+  source documents you paste (risk standard, incident procedure, document
+  register), lets you skip what you don't have, and assembles the finished
+  `company.md` content with instructions for applying it. No preparation
+  needed beyond having your key WHS documents within reach.
 - **Path B — Edit manually**: open `company.md`, read the Template section,
-  rewrite the Active Reference section with your content
+  rewrite the Active Reference section with your content. The section-by-
+  section reference below tells you what each section captures, the questions
+  to answer, and where to find the information.
 - **Path C — Workshop with your team**: print the questions in this guide,
   run a 90-minute working session, then populate `company.md` from the output
+  (or run Path A afterwards using the workshop notes as the source document).
 
 All three produce the same result. Path A is fastest; Path C produces the
-strongest organisational buy-in.
+strongest organisational buy-in. The interview steps and the sections below
+follow the same 1–10 structure — if you change one, keep the other in sync.
 
 ---
 
