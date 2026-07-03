@@ -11,6 +11,14 @@ Method: load the skill in a fresh conversation, paste the prompt verbatim,
 and assess the first response. Assertions are about substance, not exact
 phrasing — accept paraphrases that preserve the fact.
 
+**Automated run**: all 28 evals below are ported to `promptfooconfig.yaml`
+at the repository root — `npx promptfoo@latest eval` (requires
+`ANTHROPIC_API_KEY`) runs them as an automated suite. This file remains the
+human-readable ledger of *why* each eval exists; keep the two in sync when
+adding or retiring an eval. The automated suite does not test claude.ai
+skill *triggering* — still do a fresh-conversation smoke test before
+release.
+
 ---
 
 ## 1. Officer due diligence section

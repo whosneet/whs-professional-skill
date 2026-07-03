@@ -320,10 +320,26 @@ Each update follows the same flow:
 
 ## Multi-tenancy — consultants and shared-services WHS teams
 
-The skill currently supports one `company.md` configuration at a time. Many
+The packaged skill carries one `company.md` configuration at a time. Many
 practitioners — consultants, shared-services WHS teams, group WHS functions
 supporting multiple operating entities — work across multiple client or
-business contexts. The current workaround:
+business contexts. Four supported patterns, most to least recommended:
+
+### Recommended — Claude Project knowledge (claude.ai)
+
+Keep the packaged skill's `company.md` generic (or leave the fictional
+Meridian worked example in place) and hold each organisation's profile as a
+document in a separate **Claude Project's knowledge** — one Project per
+client or operating entity. When you work inside a Project, the skill reads
+the organisation context from the Project's knowledge; switching client is
+just switching Project. No re-packaging, no re-install, and the packaged
+skill stays identical for every tenant.
+
+To set it up: copy the Template structure from `references/company.md` into
+a document (e.g. `client-a-whs-context.md`), populate it per the sections
+above, and add it to the Project's knowledge with an instruction like:
+*"Treat this document as the active `company.md` organisation layer for the
+WHS Professional skill."*
 
 ### Option 1 — Multiple skill installations
 
@@ -383,6 +399,8 @@ between clients without re-packaging.
 
 ### Roadmap
 
-A more elegant multi-tenant mechanism (e.g., active-client selector at
-conversation start; `company-<slug>.md` convention with dynamic loading)
-is on the roadmap. Community contributions welcomed.
+The Claude Project knowledge pattern above is the documented multi-tenant
+path (closing the earlier roadmap item). A file-format mechanism inside the
+package (e.g., an active-client selector; `company-<slug>.md` convention
+with dynamic loading) remains a possible future addition. Community
+contributions welcomed.

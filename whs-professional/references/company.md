@@ -438,3 +438,23 @@ architecture these programs use.
 content above with your own — mirroring the Template structure. The other
 reference files are organisation-agnostic and will read your context through
 this file.*
+
+---
+
+## Multi-tenant use
+
+For consultants or multi-divisional groups maintaining several organisation
+profiles, two supported patterns:
+
+1. **Claude Project knowledge (recommended for claude.ai)** — keep this file
+   generic (or as the fictional worked example) and hold each organisation's
+   profile in a Claude Project's knowledge. The skill reads whichever profile
+   the active Project supplies; no re-packaging per client.
+2. **Profile files (for packaged/repo use)** — keep one file per client
+   (`company-<client>.md`) alongside this file and copy or symlink the active
+   one to `company.md` before packaging. See `ADAPTING.md` in the repository
+   root for the full workflow.
+
+Whichever pattern is used, treat the active profile as the single source of
+truth for risk matrix values, severity classifications, document codes, and
+named programs — never blend two organisations' configuration in one output.

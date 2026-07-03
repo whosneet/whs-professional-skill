@@ -83,8 +83,9 @@ for fn in ref_files:
     # accept both "## N." and "### N." numbered headings (company.md uses h3)
     sec_index[fn] = set(re.findall(r"^#{2,3}\s+(\d+)\.", t, re.M))
 
-# Match `file.md` §N  (also catches §N.M -> integer part N, and ranges via the first number)
-xref_re = re.compile(r"`?([a-z0-9-]+\.md)`?\s*§\s*(\d+)")
+# Match `file.md` §N  (also catches §N.M -> integer part N, and ranges via the
+# first number). [\s|]* also matches INDEX.md's `keywords | file.md | §N` rows.
+xref_re = re.compile(r"`?([a-z0-9-]+\.md)`?[\s|]*§\s*(\d+)")
 for p in skill_md_files:
     t = read(p)
     for mm in xref_re.finditer(t):

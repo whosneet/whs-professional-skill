@@ -10,6 +10,74 @@ currency updates, and small additions).
 
 ---
 
+## [1.6.0] — 2026-07-03
+
+### Contributor review release — efficiency, verification discipline, automation
+
+Actions an external contributor review (with thanks to Yakov): SKILL.md
+consolidation, an operative currency-verification rule, bundled deterministic
+resources, an automated regression suite, and release hygiene in CI. No new
+top-level scope.
+
+#### Changed
+
+- **`SKILL.md` consolidated (v1.6.0)** — the ~60-row task-routing table (§1)
+  and the 23-row file-coverage table (§12) were near-duplicates; merged into a
+  single per-file routing table preserving every keyword and section anchor
+  from both (~19% smaller entry point on every activation)
+- **Hard currency rule (§3)** — the passive "always validate" disclaimer is
+  now an operative instruction: penalty amounts, penalty unit values,
+  commencement dates, and prosecution/appeal status must be verified against
+  a primary source before quoting when web search is available; otherwise
+  quoted with the reference file's "as at" date shown and flagged
+- **Verification footer (§5)** — every regulatory output now ends with a
+  block listing statutes cited and whether figures were web-verified or
+  carried from the reference "as at" date
+- **Multi-tenant use documented** — the Claude Project knowledge pattern is
+  now the documented multi-tenant path (`ADAPTING.md`, new
+  `company.md` § Multi-tenant use), closing the roadmap item
+- **README** — install path now points at the CI-built Release artefact as
+  the primary route; repository structure updated for the new resources
+
+#### Added
+
+- **`scripts/frequency_rates.py`** — deterministic TRIFR / LTIFR / MTIFR /
+  RWIFR / AIFR / severity-rate calculator; point-in-time from CLI flags or a
+  rolling 12-month series anchored to the last closed period from a monthly
+  CSV; default basis 1,000,000 hours (AU convention), `--basis 200000` for
+  the US convention. Numerator conventions locked to `analytics.md` /
+  `glossary.md`: TRIFR = Fatality + LTI + RWI + MTI; LTIFR = LTIs only;
+  AIFR includes FAIs
+- **`assets/penalty_units.json`** — penalty unit values by jurisdiction with
+  effective dates, indexation mechanism, source, and `verified_as_at`;
+  unverified jurisdictions ship as explicit `verify_before_use` entries
+- **`references/INDEX.md`** — compact keyword → file → section lookup across
+  all reference files, checked by the validator's cross-reference gate
+- **`promptfooconfig.yaml`** — all 28 `EVALS.md` regression evals ported to
+  an automated suite (`npx promptfoo@latest eval`); `EVALS.md` remains the
+  human-readable ledger
+- **SKILL.md §11 Scripts & Assets** — instructs running the calculator and
+  looking up penalty units rather than computing in-context
+
+#### CI / release hygiene
+
+- **Version gate** — the packaging workflow fails if the `SKILL.md`
+  frontmatter version does not match the release tag
+- **Shipping guard** — the workflow fails if real-organisation identifiers
+  are detected anywhere in the skill folder (word-boundary match)
+- **Release attachment** — the validated skill archive is now attached to
+  the GitHub Release automatically on every version tag
+- **Validator** — cross-reference resolution extended to `INDEX.md`'s
+  `keywords | file | §N` row format
+
+#### Removed
+
+- Historical references to the pre-v1.4.0 real-organisation worked example
+  removed from repository documentation; repository history rewritten to
+  remove the pre-sanitisation `company.md` content
+
+---
+
 ## [1.5.0] — 2026-06-16
 
 ### Accuracy, consistency, and efficiency release
@@ -412,7 +480,8 @@ Six new reference files:
   framework, frontline content strategy, engagement measurement, critical
   risk topic integration, program governance
 - `references/company.md` (395 lines) — Organisation-specific template
-  plus [organisation] [incident system] worked example
+  plus a worked example (superseded in v1.4.0 by the fictional Meridian
+  Facilities Group example)
 - `references/glossary.md` (142 lines) — Acronyms and frequently used
   terms across AU and NZ WHS practice
 - `README.md` (332 lines) — Project overview, install/quick-start,

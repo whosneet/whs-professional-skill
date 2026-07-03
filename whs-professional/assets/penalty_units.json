@@ -1,0 +1,91 @@
+{
+  "_schema": {
+    "purpose": "Penalty unit values by jurisdiction for fine calculation. Look up, multiply by the offence's prescribed units, and cite the effective date in the output.",
+    "rules": [
+      "Apply the value in force at the date the offence was committed, not the sentencing date.",
+      "If value is null, or verified_as_at is more than 6 months old, web-verify against the source before use (SKILL.md section 3 hard currency rule).",
+      "Some jurisdictions (e.g. WA, SA) prescribe most WHS penalties as dollar amounts rather than penalty units; check the offence provision itself before assuming a penalty-unit calculation applies.",
+      "Several harmonised jurisdictions converted WHS Act penalties from dollar amounts to penalty units via post-2022 amendment Acts - confirm the offence provision's current expression in the consolidated Act."
+    ]
+  },
+  "jurisdictions": {
+    "CTH": {
+      "value_aud": 364.0,
+      "effective_from": "2026-07-01",
+      "previous": [
+        {"value_aud": 330.0, "effective_from": "2024-11-07", "effective_to": "2026-06-30"},
+        {"value_aud": 313.0, "effective_from": "2023-07-01", "effective_to": "2024-11-06"}
+      ],
+      "indexation": "CPI-indexed every 3 years from 1 July 2026 (Crimes Act 1914 (Cth) s 4AA(3))",
+      "source": "Crimes Act 1914 (Cth) s 4AA; ACCC fines and penalties page",
+      "verified_as_at": "2026-07-02"
+    },
+    "NSW": {
+      "value_aud": 110.0,
+      "effective_from": null,
+      "indexation": "Fixed - not automatically indexed (Crimes (Sentencing Procedure) Act 1999 (NSW) s 17). Note: many NSW WHS Act penalties are expressed as CPI-indexed dollar amounts, not penalty units - check the provision.",
+      "source": "Crimes (Sentencing Procedure) Act 1999 (NSW) s 17",
+      "verified_as_at": "2026-07-02"
+    },
+    "VIC": {
+      "value_aud": 209.1,
+      "effective_from": "2026-07-01",
+      "effective_to": "2027-06-30",
+      "previous": [
+        {"value_aud": 203.51, "effective_from": "2025-07-01", "effective_to": "2026-06-30"}
+      ],
+      "indexation": "Fixed annually by the Treasurer under the Monetary Units Act 2004 (Vic), effective 1 July.",
+      "source": "Victoria Government Gazette No. S 234 (5 May 2026); Department of Justice and Community Safety Victoria",
+      "verified_as_at": "2026-07-03"
+    },
+    "QLD": {
+      "value_aud": 172.7,
+      "effective_from": "2026-07-01",
+      "indexation": "Indexed annually (default 3.5% unless the Treasurer sets otherwise) under the Penalties and Sentences Act 1992 (Qld) s 5A",
+      "source": "Penalties and Sentences Act 1992 (Qld) s 5A; Qld Department of Local Government",
+      "verified_as_at": "2026-07-02"
+    },
+    "WA": {
+      "value_aud": null,
+      "indexation": "WA prescribes most WHS penalties as dollar amounts in the WHS Act 2020 (WA), not penalty units; penalty units exist for some other WA statutes.",
+      "source": "Work Health and Safety Act 2020 (WA)",
+      "verified_as_at": null,
+      "verify_before_use": true
+    },
+    "SA": {
+      "value_aud": null,
+      "indexation": "SA generally prescribes fines as dollar amounts (divisional or specified) rather than penalty units.",
+      "source": "WHS Act 2012 (SA)",
+      "verified_as_at": null,
+      "verify_before_use": true
+    },
+    "TAS": {
+      "value_aud": null,
+      "indexation": "Indexed annually under the Penalty Units and Other Penalties Act 1987 (Tas), effective 1 July.",
+      "source": "Penalty Units and Other Penalties Act 1987 (Tas)",
+      "verified_as_at": null,
+      "verify_before_use": true
+    },
+    "ACT": {
+      "value_aud": null,
+      "indexation": "Legislation Act 2001 (ACT) s 133; separate values for individuals and corporations - confirm both.",
+      "source": "Legislation Act 2001 (ACT) s 133",
+      "verified_as_at": null,
+      "verify_before_use": true
+    },
+    "NT": {
+      "value_aud": null,
+      "indexation": "Indexed annually under the Penalty Units Act 2009 (NT), effective 1 July.",
+      "source": "Penalty Units Act 2009 (NT)",
+      "verified_as_at": null,
+      "verify_before_use": true
+    },
+    "NZ": {
+      "value_aud": null,
+      "indexation": "Not applicable - NZ HSWA 2015 penalties are prescribed as dollar maxima in the Act (e.g. ss 47-49), not penalty units.",
+      "source": "Health and Safety at Work Act 2015 (NZ)",
+      "verified_as_at": null,
+      "verify_before_use": true
+    }
+  }
+}

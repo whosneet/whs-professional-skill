@@ -1,0 +1,324 @@
+# promptfooconfig.yaml
+# Automated regression suite — ports EVALS.md (28 evals) to promptfoo.
+#
+# Run:   npx promptfoo@latest eval          (requires ANTHROPIC_API_KEY)
+# View:  npx promptfoo@latest view
+#
+# Method: each test injects SKILL.md plus the reference file that owns the
+# fact under test (mirroring the skill's routing behaviour), then asserts on
+# the response. This catches content regressions in the reference files; it
+# does not test claude.ai skill *triggering* — keep doing the manual
+# fresh-conversation smoke test before release for that.
+#
+# Assertion style: icontains for distinctive tokens; llm-rubric where the
+# MUST NOT is about framing rather than a literal string. Tighten as needed —
+# a MUST-NOT hit is a release blocker (see EVALS.md "When an eval fails").
+
+description: WHS Professional skill — content regression suite
+
+prompts:
+  - label: skill-routed
+    raw: |
+      {{skill}}
+
+      ---
+      REFERENCE FILE LOADED PER ROUTING TABLE:
+      {{ref}}
+
+      ---
+      USER TASK:
+      {{query}}
+
+providers:
+  - id: anthropic:messages:claude-sonnet-4-6
+    config:
+      max_tokens: 2000
+
+defaultTest:
+  vars:
+    skill: file://whs-professional/SKILL.md
+
+tests:
+  # 1. Officer due diligence section
+  - vars:
+      query: Which section of the model WHS Act contains the officer due diligence duty?
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: "s 27"
+      - type: llm-rubric
+        value: Does NOT present s 26 as the officer due diligence duty.
+
+  # 2. NZ officer duty and Category 1
+  - vars:
+      query: Under NZ's HSWA 2015, where is the officer due diligence duty, and which section is the most serious (reckless conduct) offence?
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: "s 44"
+      - type: icontains
+        value: "s 47"
+      - type: llm-rubric
+        value: Does NOT present s 27 as the HSWA officer duty.
+
+  # 3. Whakaari appeal outcome
+  - vars:
+      query: What is the current legal status of the WorkSafe NZ prosecution of Whakaari Management Limited?
+      ref: file://whs-professional/references/case-studies.md
+    assert:
+      - type: icontains
+        value: quashed
+      - type: icontains
+        value: NZHC 288
+      - type: llm-rubric
+        value: Does NOT describe the WML conviction as standing or final.
+
+  # 4. Pike River recovery status
+  - vars:
+      query: Were the bodies of the Pike River miners recovered?
+      ref: file://whs-professional/references/case-studies.md
+    assert:
+      - type: llm-rubric
+        value: States the 29 men's bodies were never recovered and the mine workings were never re-entered (drift re-entry only). Fails if it claims bodies were recovered or workings re-entered.
+
+  # 5. Slewing crane licence classes
+  - vars:
+      query: List the high-risk work licence classes for slewing mobile cranes and their capacity limits.
+      ref: file://whs-professional/references/hazards.md
+    assert:
+      - type: icontains-all
+        value: ["C2", "C6", "C1", "C0"]
+      - type: llm-rubric
+        value: "Maps C2 to 20 tonnes or less, C6 to 60 tonnes or less, C1 to 100 tonnes or less, and C0 to open/unlimited. Fails on any other capacity mapping."
+
+  # 6. NSW insurer notification window
+  - vars:
+      query: An employee in NSW reports a work injury. How long does the employer have to notify its workers compensation insurer?
+      ref: file://whs-professional/references/compensation-rtw.md
+    assert:
+      - type: icontains
+        value: 48 hours
+      - type: llm-rubric
+        value: Does NOT give 7 days as the NSW employer-to-insurer requirement.
+
+  # 7. QLD journey claims
+  - vars:
+      query: Are journey claims (commuting injuries) covered by workers compensation in Queensland?
+      ref: file://whs-professional/references/compensation-rtw.md
+    assert:
+      - type: llm-rubric
+        value: Answers yes — QLD covers journey claims. Fails if it claims QLD excludes them.
+
+  # 8. Insurability of WHS penalties
+  - vars:
+      query: Can a company insure against WHS fines?
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: 272A
+      - type: llm-rubric
+        value: States WHS monetary penalties cannot be insured against or indemnified. Fails on any suggestion WHS fines are insurable.
+
+  # 9. WES to WEL transition
+  - vars:
+      query: What is happening to Workplace Exposure Standards in Australia?
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: 1 December 2026
+      - type: llm-rubric
+        value: States WES are replaced by Workplace Exposure Limits (WEL). Fails if WES presented as continuing indefinitely.
+
+  # 10. Psychosocial regulation citation
+  - vars:
+      query: Cite the model WHS Regulations provisions for psychosocial hazards.
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: 55A
+      - type: llm-rubric
+        value: Cites rr 55A–55D. Does NOT cite "Part 3.1A" as the psychosocial provisions.
+
+  # 11. Commonwealth industrial manslaughter
+  - vars:
+      query: Where is the Commonwealth industrial manslaughter offence located?
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: s 30A
+      - type: llm-rubric
+        value: Locates the offence in the WHS Act 2011 (Cth), NOT the Criminal Code.
+
+  # 12. NSW regulation and regulator currency
+  - vars:
+      query: Which WHS regulation applies in NSW, and who is the regulator?
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: Regulation 2025
+      - type: icontains
+        value: SafeWork NSW
+      - type: llm-rubric
+        value: Does NOT present the WHS Regulation 2017 as current, and does NOT describe SafeWork NSW as part of the Department of Customer Service.
+
+  # 13. Engineered stone ban dates
+  - vars:
+      query: When did the engineered stone ban take effect?
+      ref: file://whs-professional/references/hazards.md
+    assert:
+      - type: icontains
+        value: 1 July 2024
+      - type: icontains
+        value: 1 January 2025
+      - type: llm-rubric
+        value: "Gives ban on manufacture/supply/processing/installation from 1 July 2024 and import prohibition from 1 January 2025; no other commencement dates."
+
+  # 14. HRCW category count
+  - vars:
+      query: How many categories of high-risk construction work are there under the model WHS Regulations?
+      ref: file://whs-professional/references/hazards.md
+    assert:
+      - type: icontains
+        value: "18"
+      - type: llm-rubric
+        value: Gives 18, not 19 or any other count.
+
+  # 15. Construction project threshold
+  - vars:
+      query: At what value does a construction project require a principal contractor under the model WHS Regulations?
+      ref: file://whs-professional/references/hazards.md
+    assert:
+      - type: icontains
+        value: 250,000
+      - type: llm-rubric
+        value: Does NOT give $4M or any figure other than $250,000 as the threshold.
+
+  # 16. HVNL Chain of Responsibility
+  - vars:
+      query: Explain the HVNL Chain of Responsibility — what is the duty and who are the parties?
+      ref: file://whs-professional/references/sector-regimes.md
+    assert:
+      - type: icontains-all
+        value: [consignor, loader, scheduler, operator, consignee, NHVR]
+      - type: llm-rubric
+        value: Frames CoR as a primary duty on multiple CoR parties, NOT as driver-only responsibility.
+
+  # 17. Culture maturity attribution
+  - vars:
+      query: Who developed the safety culture maturity ladder (pathological to generative)?
+      ref: file://whs-professional/references/capability-culture.md
+    assert:
+      - type: icontains
+        value: Westrum
+      - type: icontains
+        value: Hudson
+      - type: llm-rubric
+        value: Credits Westrum's organisational typology as the foundation, extended by Hudson — not Hudson alone with no Westrum lineage.
+
+  # 18. Safety alert length
+  - vars:
+      query: Draft a safety alert for a dropped-object near miss.
+      ref: file://whs-professional/references/output-templates.md
+    assert:
+      - type: llm-rubric
+        value: The alert body text is 250 words or fewer and fits one page; fails if it is a multi-page alert.
+
+  # 19. Respect@Work positive duty dates
+  - vars:
+      query: When did the SDA s 47C positive duty commence, and when did AHRC enforcement powers begin?
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: 12 December 2022
+      - type: icontains
+        value: 12 December 2023
+      - type: llm-rubric
+        value: No commencement dates other than 12 December 2022 (positive duty) and 12 December 2023 (AHRC powers).
+
+  # 20. Enforceable undertaking eligibility
+  - vars:
+      query: Can a PCBU offer an enforceable undertaking to resolve a Category 1 WHS prosecution?
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: s 216
+      - type: llm-rubric
+        value: Answers no — EUs are not available for Category 1 or industrial manslaughter offences. Fails on any suggestion otherwise.
+
+  # 21. NSW POEO Tier 1 penalty currency
+  - vars:
+      query: What is the maximum penalty for a Tier 1 environmental offence by a corporation under the NSW POEO Act?
+      ref: file://whs-professional/references/environment.md
+    assert:
+      - type: icontains
+        value: 10 million
+      - type: llm-rubric
+        value: Does NOT give $5 million as the current Tier 1 corporate maximum.
+
+  # 22. Lead blood level — removal vs notification
+  - vars:
+      query: Under the model WHS Regulations, what happens at a blood lead level of 30 µg/dL?
+      ref: file://whs-professional/references/hazards.md
+    assert:
+      - type: llm-rubric
+        value: Describes 30 µg/dL as a removal level (worker removed from lead-risk work, reg 415, Part 7.2), NOT as a Safe Work Australia notification trigger.
+
+  # 23. Hierarchy of controls — statutory grouping
+  - vars:
+      query: List the hierarchy of controls and explain where isolation and engineering controls sit relative to each other.
+      ref: file://whs-professional/references/frameworks.md
+    assert:
+      - type: llm-rubric
+        value: States substitution, isolation, and engineering controls sit at the same level under WHS Reg 36(2), NOT isolation as a discrete tier strictly above engineering.
+
+  # 24. TRIFR recordable set
+  - vars:
+      query: Which injury types are counted in TRIFR?
+      ref: file://whs-professional/references/analytics.md
+    assert:
+      - type: llm-rubric
+        value: "Recordable set is Fatality + LTI + RWI + MTI, with RWI included; fails if RWI is silently omitted."
+
+  # 25. Psychosocial hazard list completeness (canonical list lives in SKILL.md §7)
+  - vars:
+      query: List the psychosocial hazards in the Safe Work Australia model Code of Practice.
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: organisational justice
+      - type: llm-rubric
+        value: Lists 14 hazards including poor organisational justice, poor physical environment, and conflict or poor workplace relationships — not an 11-item list omitting organisational justice.
+
+  # 26. NSW liability determination — statutory basis
+  - vars:
+      query: In NSW, what is the deadline for an insurer to determine liability on a workers compensation claim, and is it statutory?
+      ref: file://whs-professional/references/compensation-rtw.md
+    assert:
+      - type: icontains
+        value: 21 days
+      - type: icontains
+        value: s 274
+      - type: llm-rubric
+        value: Describes the 21-day timeframe as statutory (WIM Act 1998), not merely a SIRA standard.
+
+  # 27. Tasmania industrial manslaughter Act
+  - vars:
+      query: What legislation introduced industrial manslaughter in Tasmania?
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: Safer Workplaces
+      - type: llm-rubric
+        value: Cites the Work Health and Safety Amendment (Safer Workplaces) Act 2024 (Tas), not a Tasmanian "Industrial Manslaughter Act".
+
+  # 28. Commonwealth insurance ban — sections and instrument
+  - vars:
+      query: Which Commonwealth WHS Act sections prohibit insuring against a WHS monetary penalty, and what inserted them?
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains
+        value: 272A
+      - type: icontains
+        value: WHS Amendment Act 2023
+      - type: llm-rubric
+        value: Cites ss 272A–272B (not 272A–272C) and does NOT attribute the ban to the "Closing Loopholes" amendments.

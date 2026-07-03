@@ -72,9 +72,9 @@ under optional legacy naming.
 **Step 1 — Download the skill file**
 On this repository's GitHub page, navigate to the **Releases** section (right
 sidebar) and download the latest `whs-professional.zip` (or the identical
-`whs-professional.skill`). If there is no Release yet, download the
-repository as a ZIP using the green "Code" button → "Download ZIP", then
-extract it; you can package the skill yourself (see
+`whs-professional.skill`). Release artefacts are built, validated, and
+attached automatically by CI on every tagged release — always prefer them
+over packaging by hand (kept as a fallback under
 [Packaging](#packaging-the-skill-yourself) below).
 
 **Step 2 — Open Claude.ai settings**
@@ -288,7 +288,15 @@ whs-professional/                  # The Claude skill folder
 │   ├── 04-icam-executive-summary-forklift-near-miss.md
 │   ├── 05-board-paper-extract-hipo-intelligence.md
 │   └── 06-hipo-intelligence-pack-page.md
+├── scripts/
+│   └── frequency_rates.py         # Deterministic TRIFR/LTIFR/MTIFR/RWIFR/AIFR
+│                                  #   + severity calculator; rolling 12-month series
+├── assets/
+│   └── penalty_units.json         # Penalty unit values by jurisdiction with
+│                                  #   effective dates, sources, verification dates
 └── references/
+    ├── INDEX.md                   # Keyword → file → section lookup across
+    │                              #   all reference files
     ├── company.md                 # ★ Your organisation's context (edit this)
     ├── legislation.md             # AU/NZ WHS legislation incl. expanded NZ
     │                              #   coverage (HSWA, ACC, WEPR, Pike River,
@@ -360,13 +368,15 @@ ADAPTING.md                        # Detailed walkthrough for adapting company.m
 DISCLAIMER.md                      # Legal disclaimer (no legal advice etc.)
 CONTRIBUTING.md                    # How to contribute
 PUBLISHING.md                      # GitHub publication walkthrough
-EVALS.md                           # Regression evaluation prompts (run after edits)
+EVALS.md                           # Regression evaluation ledger (the "why" of each eval)
+promptfooconfig.yaml               # Automated regression suite (npx promptfoo eval)
 LICENSE                            # Licence terms
 CHANGELOG.md                       # Version history of the skill
 .gitignore                         # Git ignore patterns (artefacts, IDE noise)
 .github/
 └── workflows/
-    └── package.yml                # CI: builds the skill .zip on tagged releases
+    └── package.yml                # CI: validates, guards, builds and attaches the
+                                   #   skill archive to the Release on tagged releases
 ```
 
 ---
@@ -481,11 +491,41 @@ opportunities for community contribution:
 - **WHS in procurement v2** — sector-specific overlays (resources tender
   WHS sections, construction tender WHS sections, government tender WHS
   sections)
-- **Multi-tenant company.md framework** — formal mechanism for
-  consultants to maintain configurations across multiple clients
-  (currently documented as a workaround in ADAPTING.md)
-- **Utility scripts** — executable calculators for penalty unit values,
-  frequency rate calculations, jurisdiction lookups
+- **Multi-tenant company.md file mechanism** — an in-package selector for
+  consultants maintaining configurations across multiple clients. The
+  documented path is now the Claude Project knowledge pattern (see
+  `ADAPTING.md` — closed in v1.6.0); an in-package file mechanism remains
+  open for contribution
+- ~~**Utility scripts**~~ — ✓ closed in v1.6.0: `scripts/frequency_rates.py`
+  (frequency rate calculator) and `assets/penalty_units.json` (penalty unit
+  lookup); further calculators welcome
+
+### Recently added (v1.6.0 — July 2026)
+
+v1.6.0 actions an external contributor review (with thanks to Yakov):
+efficiency, verification discipline, and automation. Highlights (full detail
+in `CHANGELOG.md`):
+
+- ✓ **SKILL.md consolidation** — the task-routing and file-coverage tables
+  merged into a single per-file routing table (~19% smaller entry point,
+  no loss of routing coverage)
+- ✓ **Hard currency rule** — penalty amounts, penalty unit values,
+  commencement dates, and prosecution/appeal status must be web-verified
+  against a primary source before quoting (or carried with the reference
+  "as at" date and flagged); every regulatory output now ends with a
+  verification footer
+- ✓ **Bundled resources** — `scripts/frequency_rates.py` (deterministic
+  TRIFR/LTIFR/MTIFR/RWIFR/AIFR + severity calculator with rolling 12-month
+  series), `assets/penalty_units.json` (penalty unit values with effective
+  dates and sources), `references/INDEX.md` (keyword → file → section lookup)
+- ✓ **Automated regression suite** — all 28 EVALS.md evals ported to
+  `promptfooconfig.yaml` (`npx promptfoo@latest eval`); EVALS.md remains the
+  human-readable ledger
+- ✓ **Release hygiene** — CI now verifies the SKILL.md version matches the
+  release tag, guards against real-organisation identifiers shipping in the
+  package, and attaches the skill archive to the GitHub Release automatically
+- ✓ **Multi-tenant documentation** — the Claude Project knowledge pattern is
+  now the documented path for consultants and multi-divisional groups
 
 ### Recently added (v1.5.0 — June 2026)
 
@@ -566,9 +606,9 @@ publications, state and territory regulator guidance, and WorkSafe NZ
 materials, all of which are public-domain or publicly accessible. Specific
 citations appear inline where used.
 
-The skill structure was authored by Neet (Avneet Singh), Zero Harm
-Performance & Programs Manager at [organisation] Social Infrastructure & Citizen
-Services, with iterative development on Claude.
+The skill structure was authored by Neet (Avneet Singh), a Zero Harm
+performance and programs manager working in the Australian integrated
+facilities-services sector, with iterative development on Claude.
 
 The worked example in `company.md` describes **Meridian Facilities Group**, a
 fictional Australian integrated facilities-services organisation, and shows
