@@ -878,10 +878,8 @@ seller has reciprocal interest in clean documentation).
 This section covers the **control frameworks** for psychosocial risk. For the
 legal layer — the model WHS Regulations psychosocial amendments, jurisdictional
 adoption status, and the SWA Code of Practice — load `legislation.md` §9. For
-the canonical psychosocial hazard list (job demands, job control, support, role
-clarity, change management, reward and recognition, organisational justice,
-remote/isolated work, violence and aggression, bullying, harassment, traumatic
-events), see SKILL.md §7.
+the canonical psychosocial hazard list, see SKILL.md §7 — the single source of
+truth (14 hazards; do not restate it here).
 
 ### Core principle: same discipline as physical hazards
 

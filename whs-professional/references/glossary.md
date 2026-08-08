@@ -170,7 +170,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **EMS** | Environmental Management System — typically ISO 14001 aligned. |
 | **ISO 14001** | International environmental management system standard (2015). |
 | **EPBC Act** | Environment Protection and Biodiversity Conservation Act 1999 (Cth) — matters of national environmental significance; controlled actions. |
-| **NGER** | National Greenhouse and Energy Reporting (Act 2007) — Scope 1, 2, and 3 emissions reporting. |
+| **NGER** | National Greenhouse and Energy Reporting (Act 2007) — Scope 1 and 2 emissions reporting (Scope 3 is not mandated under NGER). |
 | **NPI** | National Pollutant Inventory — annual public-domain reporting of substance emissions. |
 | **NEPM** | National Environment Protection Measure — Council-set environmental standard (e.g., ASC NEPM for contamination). |
 | **EPA** | Environment Protection Authority (varies by state — NSW, VIC, SA, TAS, ACT, NT have EPAs; QLD uses DES; WA uses DWER). |

@@ -677,7 +677,8 @@ convictions, acquittals, and withdrawals across the proceedings:
   the workplace for the purposes of s 37. Granting a licence to
   access land is not, of itself, management or control of the
   workplace.
-- **The tour-operator convictions stand.** Multiple tour operator
+- **The tour-operator convictions stand** (position as at August 2026 — no
+  further appeal on record; verify before citing). Multiple tour operator
   companies were convicted and sentenced to fines and reparations;
   the tour-operator penalties taken alone were materially less than
   NZD $10 million. The widely reported ~NZD $10.2 million figure

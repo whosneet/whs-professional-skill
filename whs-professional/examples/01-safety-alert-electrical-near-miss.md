@@ -1,7 +1,8 @@
 # Safety Alert — Electrical Contact during Switchboard Cleaning
 
 | **Function**: Property Services / Building Maintenance | **Alert ref**: SA-2026-014 |
-| **Incident date**: 26 May 2026 | **Alert issued**: 2 June 2026 |
+|---|---|
+| **Incident date**: 26 May 2026 | **Alert issued**: 28 May 2026 |
 
 ---
 

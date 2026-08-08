@@ -497,9 +497,9 @@ response and reduces error during the event:
 - **Building plans** — current site plan, building plan, internal floor plan
   accessible to emergency services on arrival (key safe, fire panel, monitoring
   centre)
-- **Current chemical manifest** — for Schedule 14 quantities (cross-reference
-  `hazards.md` §13); for sites below manifest threshold, a hazardous chemicals
-  list with locations, quantities, SDS references
+- **Current chemical manifest** — for Schedule 11 manifest quantities
+  (cross-reference `hazards.md` §13); for sites below manifest threshold, a
+  hazardous chemicals list with locations, quantities, SDS references
 - **Site access information** — gate codes, after-hours contact, key holder
   details; updated whenever access controls change
 - **ECO contact details** — Chief Warden, Deputy, after-hours emergency

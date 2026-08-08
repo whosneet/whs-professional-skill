@@ -590,8 +590,8 @@ manifests for emergency services, transport.
 
 | Schedule | Threshold | Trigger |
 |---|---|---|
-| **Schedule 11** | Placard quantities | Where exceeded, workplace must be placarded (outer warning placards) and SDS/register made available to emergency services |
-| **Schedule 14** | Manifest quantities | Where exceeded, a written **Manifest of Hazardous Chemicals** must be prepared and held at the workplace AND provided to the WHS regulator and emergency services |
+| **Schedule 11 — placard quantities** (Table 11.1 col 4) | Placarding trigger | Where exceeded, workplace must be placarded (outer warning placards) and SDS/register made available to emergency services |
+| **Schedule 11 — manifest quantities** (Table 11.1 col 5) | Manifest trigger | Where exceeded, a written **Manifest of Hazardous Chemicals** must be prepared, kept at the workplace, and made available to emergency services; the WHS regulator must be **notified in writing** that manifest quantities are exceeded. (Schedule 14 of the model Regulations is health monitoring — it contains no chemical quantities) |
 
 Examples of common Schedule 11 placard quantities:
 - Class 3 (flammable liquids) PG II: 250 L
@@ -601,7 +601,7 @@ Examples of common Schedule 11 placard quantities:
 - Class 8 (corrosive) PG II: 250 L
 - Combustible liquids C1: 10,000 L
 
-Examples of Schedule 14 manifest quantities:
+Examples of Schedule 11 manifest quantities:
 - Class 3 PG II: 2,500 L
 - Class 3 PG III: 10,000 L
 - Class 8 PG II: 2,500 L

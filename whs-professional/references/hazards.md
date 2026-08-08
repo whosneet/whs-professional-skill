@@ -783,8 +783,10 @@ Each slewing mobile crane class includes the lower slewing classes plus CN
 ## 13. Hazardous Chemicals — Operational Detail
 
 This section covers operational chemical management beyond Major Hazard Facilities
-(see §7). MHF coverage is limited to facilities exceeding Schedule 15 threshold
-quantities — but the principles below apply to any workplace with hazardous chemicals.
+(see §7). MHF status attaches to facilities at or approaching Schedule 15 threshold
+quantities — the regulator can determine a facility to be an MHF from 10% of
+threshold (§7) — but the principles below apply to any workplace with hazardous
+chemicals.
 
 ### Classification — GHS
 The Globally Harmonised System of Classification and Labelling of Chemicals classifies
@@ -1573,7 +1575,8 @@ or where contamination is suspected.
 ### Common failure modes
 - BYDA enquiry not lodged, or plans not respected
 - Mechanical excavation without potholing to confirm services
-- Cave-in in marginally classified soil (assumed Type A, actually Type B)
+- Cave-in in ground assessed as stable or cohesive that is actually fissured,
+  water-affected, or previously disturbed
 - Spoil heap loading the edge
 - Shoring removed or shifted to accommodate other work
 - Worker accessing excavation without ladder during plant operation

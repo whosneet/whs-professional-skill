@@ -46,12 +46,12 @@ evidentiary expectation is documented action against each of the seven
 standards. Our current psychosocial risk register and EAP arrangements address
 the WHS duty but do not explicitly map to the AHRC framework.
 
-Likelihood of inquiry: low–moderate (no current public complaints; sector
+Likelihood of inquiry: Unlikely–Possible (no current public complaints; sector
 profile attracts periodic AHRC attention; recent industry inquiries have
 covered comparable organisations).
 Consequence if inquiry finds non-compliance: compliance notice, potential
 enforceable undertaking, reputational impact, ongoing regulatory engagement
-burden. Estimated risk under organisational matrix: B.
+burden. Estimated risk under organisational matrix: Possible × Major = High.
 
 ## 4. Current state
 
@@ -103,7 +103,10 @@ October meeting.
 
 ---
 
-*This advisory is based on AHRC guidance current at 27 May 2026 and the
-organisation's current psychosocial risk register. Material changes to AHRC
-enforcement posture or to the organisation's risk profile should trigger
-review.*
+> **Verification** — Statutes/sources cited: Sex Discrimination Act 1984 (Cth)
+> s 47C; Anti-Discrimination and Human Rights Legislation Amendment (Respect at
+> Work) Act 2022 (Cth); model WHS Regulations rr 55A–55D (NSW WHS Regulation
+> Part 3.2 Division 11); AHRC Guidelines on the positive duty (August 2023).
+> Figures verified: AHRC guidance current at, and web-verified, 27 May 2026.
+> Check against the current consolidated Act/Regulation for the Commonwealth
+> and NSW before relying on this advice.

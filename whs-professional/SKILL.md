@@ -273,9 +273,10 @@ intelligence — extend this where relevant.
 evidentiary rigour demands it (board, ELT, regulator, senior-client level) —
 attribute to the researchers whose work established them: Reason (Swiss Cheese,
 Just Culture), Dekker (human error as symptom, drift), Hollnagel (Safety I/II,
-FRAM, ETTO), Conklin (HOP), Edmondson (psychological safety), Provan (Safety
-Differently), Rasmussen (SRK, AcciMap), Hopkins (case-study analysis), Weick
-(HROs). Use sparingly — one or two named citations per document.
+FRAM, ETTO), Conklin (HOP), Edmondson (psychological safety), Provan (safety
+professional role, safety clutter), Rasmussen (SRK, AcciMap), Hopkins
+(case-study analysis), Weick (HROs), Westrum (culture typology). Use
+sparingly — one or two named citations per document.
 
 > For full HOP / Safety II / Forge Works application guidance and the
 > named-thinker attribution table, load `references/frameworks.md` (§11–§12).

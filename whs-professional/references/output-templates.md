@@ -226,6 +226,11 @@ Apply hierarchy of controls. Reference relevant codes of practice, standards, or
 *This advisory is based on information available at the date of preparation.
 If circumstances change, this advice should be reviewed.*
 
+> **Verification** — Statutes/sources cited: [list, with section numbers].
+> Figures verified: [web-verified DD Mon YYYY | from skill reference "as at"
+> DD Mon YYYY — verify before use]. Check against the current consolidated
+> Act/Regulation for [jurisdiction] before relying on this advice.
+
 ### Drafting Notes
 - Worked legislative citation example (section 2): "Under s 19 of the *Work Health
   and Safety Act 2011* (NSW), the PCBU has a primary duty to ensure, so far as is
@@ -271,9 +276,9 @@ incident procedure (see `company.md`).*
 - Reportable Incident? ☐ Yes ☐ No
 - Event Type (dropdown)
 
-**CLASSIFICATION** *(refer to your organisation's severity rating schema — see `company.md`)*
-- Actual Consequence: ☐ 1 ☐ 2 ☐ 3 ☐ 4 ☐ 5 ☐ 6
-- Potential Consequence: ☐ 1 ☐ 2 ☐ 3 ☐ 4 ☐ 5 ☐ 6
+**CLASSIFICATION** *(1–5 shown; your organisation's severity rating schema governs — see `company.md`)*
+- Actual Consequence: ☐ 1 ☐ 2 ☐ 3 ☐ 4 ☐ 5
+- Potential Consequence: ☐ 1 ☐ 2 ☐ 3 ☐ 4 ☐ 5
 
 **DESCRIPTION**
 - Description of the event (summarise incident, key details, locations, times, outcomes)
@@ -347,9 +352,9 @@ to the system, the workflow routes for WHS representative → Site Supervisor/Su
 | Reported By (Position) | Reported To (Position) |
 | Incident System Reference | Reportable Incident? ☐ Yes ☐ No |
 
-**Classification** *(refer to your organisation's severity rating schema — see `company.md`)*
-- Actual Consequence: ☐ 1 ☐ 2 ☐ 3 ☐ 4 ☐ 5 ☐ 6
-- Potential Consequence: ☐ 1 ☐ 2 ☐ 3 ☐ 4 ☐ 5 ☐ 6
+**Classification** *(1–5 shown; your organisation's severity rating schema governs — see `company.md`)*
+- Actual Consequence: ☐ 1 ☐ 2 ☐ 3 ☐ 4 ☐ 5
+- Potential Consequence: ☐ 1 ☐ 2 ☐ 3 ☐ 4 ☐ 5
 
 Description of the event (summary including key details, locations, times, outcomes)
 
@@ -787,8 +792,8 @@ for typical WHS work.
 
 | Activity | GM WHS | BP | Coord | Specialist | Operational Mgr | ELT | Worker / HSR |
 |---|---|---|---|---|---|---|---|
-| Set WHS strategy | A | C | I | C | C | R | I |
-| Approve WHS annual plan | A | C | I | I | C | R | I |
+| Set WHS strategy | R | C | I | C | C | A | I |
+| Approve WHS annual plan | R | C | I | I | C | A | I |
 | Incident investigation lead | I | A | R | C | C | I | C |
 | Critical risk verification | I | A | R | C | C | I | C |
 | Toolbox talk delivery | I | C | A | I | R | I | C |
@@ -866,7 +871,7 @@ due diligence and equip officers to discharge their s 27 / s 44 duty.
 
 | Field | Content |
 |---|---|
-| Period covered | Q3 2026 (1 January – 31 March) |
+| Period covered | Q3 FY26 (1 January – 31 March 2026) |
 | Date of briefing | 27 April 2026 |
 | Officers present | Names, roles |
 | Briefing leader | Name, role |
@@ -1235,8 +1240,8 @@ after becoming aware** of a notifiable incident, by the fastest possible means
 — in practice, a phone call. The call is the start of the regulatory record:
 be prepared, factual, and complete.
 
-> Notifiable incident criteria and jurisdictional regulator contacts:
-> cross-ref `legislation.md` §5.
+> Notifiable incident criteria: cross-ref `legislation.md` §5. Jurisdictional
+> regulator contacts: cross-ref `legislation.md` §7.
 
 ### Preparation checklist (minutes, not hours — do not delay the call)
 - [ ] Confirm the incident is notifiable — death, serious injury or illness, or
@@ -1291,6 +1296,8 @@ number is [number]."
 ### After the call
 - If directed, provide written notification within 48 hours in the approved
   form (model WHS Act s 38)
+- Any written follow-up to the regulator ends with the verification footer
+  (SKILL.md §5)
 - Record the call: time, regulator officer's name, reference number, directions
 - Retain a record of the notification for at least 5 years (s 38)
 - Maintain scene preservation until an inspector releases the site or directs

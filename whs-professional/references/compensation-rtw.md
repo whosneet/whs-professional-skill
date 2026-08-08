@@ -157,7 +157,7 @@ jurisdiction detail.
   3. Provisional weekly payments commence within **7 days** of initial
      notification unless the insurer has a reasonable excuse (s 267 WIM
      Act 1998); provisional weekly payments are capped at **12 weeks**
-     (s 275), with provisional medical expenses up to the statutory limit
+     (ss 267, 274), with provisional medical expenses up to the statutory limit
   4. Liability determination within **21 days** — a **statutory**
      deadline: **s 274 WIM Act 1998** (weekly payments — within 21 days
      the insurer must accept liability and commence weekly payments, or
@@ -374,7 +374,7 @@ five separate **accounts**, each funded by a distinct levy:
 | **Earners' Account** | Earners' levy paid by employees through PAYE | Non-work injuries to earners |
 | **Non-Earners' Account** | Government funding from general taxation | Injuries to non-earners (children, retirees, unemployed) |
 | **Motor Vehicle Account** | Petrol levy + vehicle registration component | Motor vehicle injuries (including work-related driving) |
-| **Treatment Injury Account** | Levies on relevant practitioners + Crown | Injuries caused by medical treatment |
+| **Treatment Injury Account** | Funded by transfers from the Earners' and Non-Earners' Accounts (by the injured person's earner status), not practitioner levies | Injuries caused by medical treatment |
 
 ### Levy structure for employers
 The Work levy is set per industry classification (CU — Classification
@@ -457,7 +457,7 @@ change the trajectory.
    commence benefits while liability is being investigated. In NSW,
    provisional weekly payments must commence within 7 days absent a
    reasonable excuse and are capped at 12 weeks (see §3 NSW for the
-   statutory anchors — ss 267, 275 WIM Act 1998); other schemes operate
+   statutory anchors — ss 267, 274 WIM Act 1998); other schemes operate
    similar early-pay frameworks. Provisional liability protects worker
    income during the investigation period
 5. **Investigation and full liability decision** — insurer assesses:
@@ -741,7 +741,7 @@ function.
 | Jurisdiction | Threshold | Source |
 |---|---|---|
 | NSW | Category 1 employer — **Average Performance Premium >$50,000**, OR self-insurer, OR insured by a specialised insurer — must appoint an RTW Coordinator and maintain a tailored RTW program; Category 2 (all others) need a standard RTW program | SIRA Guidelines for workplace return to work programs, made under **s 52 WIM Act 1998** |
-| QLD | s 226 WCRA two-limb test: annual wages above the indexed general threshold, OR employer in a prescribed high-risk industry with wages above a lower indexed threshold (dollar figures indexed annually — verify current WorkSafe QLD guidance); self-insurers also captured | s 226 WCRA |
+| QLD | s 226 WCRA two-limb test: annual wages above the indexed general threshold, OR employer in a prescribed high-risk industry with wages above a lower indexed threshold (dollar figures indexed annually — verify current WorkCover Queensland / Workers' Compensation Regulator guidance); self-insurers also captured | s 226 WCRA |
 | VIC | Employers at/above the remuneration threshold (~$2.4M rateable remuneration, indexed) must have an RTW coordinator **at all times**; employers below the threshold must appoint one **as soon as a worker has an incapacity** — the obligation is not voluntary at any size | WIRC Act + WorkSafe Victoria guidance |
 | SA | Designated employer thresholds | RTW Act 2014 |
 | WA | Injury management system + return-to-work programs required; coordinator function commonly assigned | WC&IM Act 2023 Pt 3 |

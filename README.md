@@ -618,8 +618,8 @@ This skill draws on the published work of many safety scientists, including:
 - **Erik Hollnagel** (Safety I/II, FRAM, ETTO, Resilience Engineering)
 - **Todd Conklin** (Human and Organisational Performance)
 - **Amy Edmondson** (Psychological Safety)
-- **David Provan** (Safety Differently, Forge Works Blueprint, Safety of Work
-  podcast)
+- **David Provan** (safety professional role research, safety clutter, Forge
+  Works Blueprint, Safety of Work podcast)
 - **Jens Rasmussen** (Skills-Rules-Knowledge, Drift, AcciMap)
 - **Andrew Hopkins** (Failure to Learn, Disastrous Decisions, Lessons from
   Esso/Texas City)

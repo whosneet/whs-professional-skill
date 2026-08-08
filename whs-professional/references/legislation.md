@@ -205,13 +205,15 @@ The Accident Compensation Corporation (ACC) scheme is a no-fault universal injur
 scheme, separate from but closely linked to the HSWA framework. It is administered under
 the Accident Compensation Act 2001.
 
-**Levy structure** — funded through four accounts:
+**Levy structure** — funded through five accounts:
 - **Work Account** — Work levy paid by employers, calculated on liable earnings × industry
   classification levy rate. Industry rates reflect historical claims experience by sector.
 - **Earners' Account** — Earners' levy paid by employees through PAYE on earnings.
 - **Motor Vehicle Account** — funded through vehicle registration and petrol levies; covers
   motor vehicle injuries including journey claims.
 - **Non-Earners' Account** — Crown-funded; covers non-earners and pre-employment injuries.
+- **Treatment Injury Account** — no direct levy; funded by transfers from the Earners' and
+  Non-Earners' Accounts (by the injured person's earner status); covers treatment injury.
 
 **Experience Rating Programme** — applies to employers with levy >NZD $10,000. Claims
 experience over a defined window (typically 3 years lagged) drives levy adjustments up or
@@ -359,11 +361,11 @@ the evidentiary expectation on officer activity is consequently high.
 HSWA does not contain a discrete industrial manslaughter offence — a deliberate choice
 during the 2015 Act's design.
 
-**Manslaughter via gross negligence** is available under the Crimes Act 1961 (s 150A
-duty of persons in charge of dangerous things; s 156 duty of persons doing dangerous
-acts; s 160 culpable homicide / manslaughter). The legal threshold for gross negligence
-manslaughter is high — a major departure from the standard of care a reasonable person
-would exercise.
+**Manslaughter via gross negligence** is available under the Crimes Act 1961 (s 155
+duty of persons doing dangerous acts; s 156 duty of persons in charge of dangerous
+things; s 160 culpable homicide / manslaughter). The legal threshold is high —
+s 150A requires a **major departure** from the standard of care a reasonable
+person would exercise.
 
 **Reform debate** — the case for a discrete corporate/industrial manslaughter offence
 has been canvassed through the 2013 Independent Taskforce on Workplace Health and
@@ -626,10 +628,10 @@ alternative.
 | Jurisdiction | Offence and commencement | Max penalty (corporate) | Max penalty (individual) |
 |---|---|---|---|
 | Commonwealth | s 30A WHS Act 2011 (Cth), inserted by the Closing Loopholes Act 2023 — in force 1 July 2024 | $18M | 25 years |
-| QLD | s 34C WHS Act 2011 (QLD) — in force 2017 (first in AU) | 100,000 penalty units (~$16.1M at the 2024–25 penalty unit of $161.30; PU indexed) | 20 years |
-| VIC | Workplace manslaughter — OHS Act 2004 s 39G (Part 5A) — in force 1 July 2020 | $19.8M (approx., penalty-unit based, indexed) | 25 years |
+| QLD | s 34C WHS Act 2011 (QLD) — in force 2017 (first under a WHS Act; the ACT's Crimes Act offence, 2004, was first overall) | 100,000 penalty units (~$17.3M at the penalty unit of $172.70 from 1 July 2026; PU indexed — see `assets/penalty_units.json`) | 20 years |
+| VIC | Workplace manslaughter — OHS Act 2004 s 39G (Part 5A) — in force 1 July 2020 | 100,000 penalty units (~$20.9M at the FY2026–27 unit of $209.10; indexed — see `assets/penalty_units.json`) | 25 years |
 | ACT | WHS Act 2011 (ACT) — offence held by the Crimes Act 1900 (ACT) from 2004, relocated into the WHS Act by 2021 amendment | $16.5M (indexed) | 20 years |
-| NT | s 34B WHS (NUL) Act — in force 1 February 2020 | $11.4M (penalty-unit based) | Life imprisonment |
+| NT | s 34B WHS (NUL) Act — in force 1 February 2020 | Penalty-unit based (~$11.4M at the 2024–25 NT unit — NT unit not re-verified; check `assets/penalty_units.json` and the current provision) | Life imprisonment |
 | WA | s 30A WHS Act 2020 — in force 31 March 2022 (single offence) | $10M | 20 years + $5M fine |
 | NSW | s 34C WHS Act 2011 (NSW) — in force 16 September 2024 | $20M | 25 years |
 | SA | 2023 amendment to WHS Act 2012 (SA) — in force 1 July 2024 | ~$18M (indexed) | 20 years |
@@ -1001,8 +1003,8 @@ with the regulator.
 |---|---|---|
 | Enter without warrant | s 163 | Workplaces, places suspected to be workplaces, vehicles used in connection with work |
 | Inspect, examine, observe | s 165 | Documents, plant, substances, work areas; photograph and record |
-| Require production of documents | s 165(1)(j) | Records, registers, plans, risk assessments, training records |
-| Require answers to questions | s 165(1)(k) | Persons present; right to silence applies (see below) |
+| Require production of documents | s 171 | Records, registers, plans, risk assessments, training records |
+| Require answers to questions | s 171 | Persons present; right to silence applies (see below) |
 | Seize and remove items | s 175 | Evidence of contravention; receipt must be issued |
 | Issue improvement / prohibition / non-disturbance notices | s 191, s 195, s 198 | On-the-spot enforcement |
 | Reasonable assistance | s 188 | PCBU must provide; refusal is an offence |
@@ -1334,7 +1336,8 @@ provide context.
 
 ### Regulatory basis
 Workplace Exposure Standards are set by Safe Work Australia and adopted into
-model WHS Regulations (Reg 50). PCBUs must ensure no worker is exposed to a
+model WHS Regulations (Reg 49; Reg 50 carries the related air-monitoring
+duty). PCBUs must ensure no worker is exposed to a
 substance above the WES. WES are health-based — exposure below the WES does
 not guarantee no health effect, particularly for substances with no threshold
 (e.g., RCS). Cost is not a defence to exceeding a WES; the duty is absolute.
@@ -1539,6 +1542,11 @@ The model WHS Act is the baseline; each jurisdiction's enactment has
 material variations. The summary below covers divergences that materially
 affect practice beyond the §2 high-level overview.
 
+> **Currency note**: penalty maxima quoted in this section are as at
+> **June–August 2026** unless a different date is shown. Apply the SKILL.md §3
+> hard currency rule — web-verify any figure (and any penalty-unit conversion,
+> via `assets/penalty_units.json`) before quoting it in an output.
+
 ### Victoria — Occupational Health and Safety Act 2004
 
 VIC remains outside the WHS harmonisation; structural and operational
@@ -1559,7 +1567,9 @@ practical standard as model WHS Act s 19, different wording.
 
 **Workplace Manslaughter** (OHS Act s 39G, in force 1 July 2020): negligent
 conduct by a body corporate (or its officer) causing the death of an employee
-or member of the public. Max penalty: $19.8M body corporate; 25 years individual.
+or member of the public. Max penalty: 100,000 penalty units body corporate
+(~$20.9M at the FY2026–27 unit of $209.10 — see `assets/penalty_units.json`);
+25 years individual.
 
 **Labour hire host duty** (s 21A, March 2022): host employers owe the same
 OHS duty to labour hire workers as to direct employees.
@@ -1587,7 +1597,10 @@ VIC, but the legal hook differs.
 **Notable case law**:
 - *DPP v LH Holding Management Pty Ltd* (Supreme Court of Victoria, sentenced
   19 February 2024) — the first Victorian workplace manslaughter conviction
-  (stonemasonry business; the sole director was also sentenced)
+  (stonemasonry business; the sole director was also sentenced). On the DPP's
+  sentence appeal the Court of Appeal **more than doubled the company's fine
+  to $3M** (April 2025); the director's community correction order stood
+  (position as at August 2026)
 - Workplace manslaughter prosecutions are accumulating — verify the current
   state of authorities before citing
 
@@ -1662,17 +1675,20 @@ considerations:
 ### Queensland — WHS Act 2011 (QLD)
 
 Aligned with model law. Notable variations:
-- **Industrial Manslaughter** (s 34C, in force 2017) — first AU jurisdiction;
-  100,000 penalty units body corporate (~$16.1M at the 2024–25 penalty unit of
-  $161.30; indexed) / 20 years individual
+- **Industrial Manslaughter** (s 34C, in force 2017) — first under a WHS Act
+  (the ACT's 2004 Crimes Act offence was first overall); 100,000 penalty units
+  body corporate (~$17.3M at the $172.70 penalty unit from 1 July 2026;
+  indexed — see `assets/penalty_units.json`) / 20 years individual
 - **Coal mining and quarrying** under separate regimes (Coal Mining Safety
   and Health Act 1999; Mining and Quarrying Safety and Health Act 1999) —
   cross-ref `sector-regimes.md` §2
 - **Electrical Safety Act 2002** overlays WHS Act for electrical work
 - **Office of Industrial Relations (OIR)** oversees WHS, workers comp, and
-  electrical safety; WHSQ sits within OIR (consistent with §2)
-- **Mandatory RTW Coordinator** for employers >$1.5M premium or >20 workers
-  (cross-ref `compensation-rtw.md` §9)
+  electrical safety; WHSQ sits within OIR (see §2)
+- **Mandatory RTW Coordinator** where the s 226 WCRA wages-based test is met
+  (annual wages above the indexed general threshold, or a prescribed
+  high-risk-industry employer above a lower indexed threshold) — cross-ref
+  `compensation-rtw.md` §9
 
 ### New South Wales — WHS Act 2011 (NSW)
 
