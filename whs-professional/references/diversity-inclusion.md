@@ -257,7 +257,7 @@ but distinct from the WHS Act.
 | Concept | DDA framing | WHS framing |
 |---|---|---|
 | Adjustment | Reasonable adjustment enables participation | Hazard control reduces risk to the worker |
-| Standard | Unjustifiable hardship is the only defence | SFAIRP — only grossly disproportionate cost justifies non-implementation |
+| Standard | Principal defences: unjustifiable hardship (s 21B), and inability to meet the inherent requirements of the role even with reasonable adjustments (s 21A) | SFAIRP — only grossly disproportionate cost justifies non-implementation |
 | Scope | Employment access, retention, progression, conditions | Health and safety while at work |
 | Trigger | Worker has disability and asks (or PCBU is aware) | Hazard exists and could foreseeably cause harm |
 | Consultation duty | Implicit — the worker is the expert on their disability | Express — s 47 model WHS Act |
@@ -326,9 +326,13 @@ NZ equivalents — Workbridge, CCS Disability Action, Government employment
 services. HSWA 2015 operates alongside Human Rights Act 1993 in NZ; broadly
 parallel structure.
 
-### Unjustifiable hardship — the only defence
+### Unjustifiable hardship — the primary adjustment defence
 
-DDA s 11(1) sets out the factors:
+Not the only defence: in employment the DDA also excuses discrimination where
+the person could not carry out the **inherent requirements** of the particular
+work even with reasonable adjustments (s 21A), and permits **special measures**
+(s 45). Unjustifiable hardship is the defence that governs adjustment
+cost and burden. DDA s 11(1) sets out the factors:
 - (a) the nature of the benefit or detriment likely to accrue to, or to be
   suffered by, any persons concerned
 - (b) the effect of the disability of any person concerned
@@ -728,9 +732,11 @@ regimes, and a competent response engages all of them:
   with work — covering workers, prospective workers, and persons
   conducting a business or undertaking. An aggrieved person can apply to
   the FWC for a **stop-sexual-harassment order** (preventative, while the
-  working relationship continues — this sits in **Part 6-4B**, the
-  stop-bullying jurisdiction extended to sexual harassment from
-  11 September 2021, distinct from the Part 3-5A prohibition itself) and/or
+  working relationship continues — for conduct from 6 March 2023 the order
+  power sits in **Part 3-5A itself** (s 527J, within the dispute
+  jurisdiction); it originally sat in Part 6-4B, the stop-bullying
+  jurisdiction, extended to sexual harassment from **11 November 2021**,
+  which now covers only pre-6-March-2023 conduct and bullying) and/or
   ask the FWC to **deal with the dispute**
   (a new jurisdiction: conciliation; if unresolved, arbitration by consent
   or court proceedings for compensation). Employers are **vicariously

@@ -159,7 +159,7 @@ misdirection.
 - **TAS** — WHS Act 2012 (TAS); industrial manslaughter in force
 - **ACT** — WHS Act 2011 (ACT); industrial manslaughter in force
 - **NT** — WHS (National Uniform Legislation) Act 2011; industrial manslaughter in force
-- **NZ** — Health and Safety at Work Act 2015 (HSWA); WorkSafe NZ regulator; ACC scheme for injury compensation; HSWA reform under way (see `legislation.md` §3)
+- **NZ** — Health and Safety at Work Act 2015 (HSWA); WorkSafe NZ regulator; ACC scheme for injury compensation; HSWA Amendment Act 2026 passed — main provisions commence 1 April 2027 (see `legislation.md` §3)
 - **Commonwealth** — WHS Act 2011 (Cth); industrial manslaughter in force (Comcare scheme)
 
 If jurisdiction is ambiguous, state assumptions clearly and note where

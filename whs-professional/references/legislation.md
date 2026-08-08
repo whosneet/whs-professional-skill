@@ -45,7 +45,8 @@ The model WHS Act and model WHS Regulations are the baseline. Most jurisdictions
 | s 28 | Duties of workers |
 | s 29 | Duties of other persons at workplace |
 | s 35 | What is a notifiable incident |
-| s 36–38 | Duty to notify regulator |
+| s 36–37 | Definitions: serious injury or illness (s 36); dangerous incident (s 37) |
+| s 38 | Duty to notify regulator |
 | s 39 | Duty to preserve incident site |
 | s 46 | Duty to consult with other duty holders |
 | s 47–49 | Duty to consult workers; nature of consultation |
@@ -126,7 +127,8 @@ making decisions affecting the whole or substantial part of the business.
 - Work Health and Safety (General) Regulations 2022 (WA)
 - Regulator: WorkSafe WA, within the Department of Energy, Mines, Industry
   Regulation and Safety (DEMIRS — renamed from DMIRS in 2023)
-- Mines: Mine Safety and Inspection Act 1994 remains separate
+- Mines: WHS (Mines) Regulations 2022 (WA) under the WHS Act 2020 — the former
+  Mine Safety and Inspection Act 1994 regime was replaced on commencement (§16)
 - WA harmonised later than other states; practitioners transitioning from 1984 Act
   should note significant structural changes
 
@@ -408,19 +410,23 @@ fact resulted.)
 prosecution for Category 2 and Category 3 offences (not Category 1). The undertaking
 requires demonstrable WHS outcomes proportionate to the conduct.
 
-### 3.10 HSWA reform (2025–26)
+### 3.10 HSWA reform — Amendment Act passed; commences 1 April 2027
 
-The **Health and Safety at Work Amendment Bill** was introduced on **8 February
-2026** (select committee report due mid-2026). Key proposals:
+The **Health and Safety at Work Amendment Act 2026** received Royal Assent on
+**9 July 2026** (introduced 8 February 2026; reported back by the Education and
+Workforce Committee 16 June 2026). Its main provisions **commence 1 April
+2027** (deferred from an earlier-signalled late-2026 date). Key changes:
 
 - A small-PCBU tier: PCBUs with **fewer than 20 workers** (outside prescribed
-  high-risk sectors) would have duties focused on **critical risks** only
+  high-risk sectors) have duties focused on **critical risks** only
 - **ACoP compliance as a safe harbour** — deemed compliance with the relevant
   duty, a material change from the current evidentiary status under s 226
-- Consequential amendments to the GRWM Regulations
+- A statutory **critical risk** concept; clarified officer due diligence,
+  land-use and notification provisions; consequential GRWM amendments
 
-**Current law still applies.** The Bill is not law; track its progress, but do
-not advise on the basis of proposed provisions.
+**Current law applies until commencement.** Until 1 April 2027, advise on the
+existing HSWA provisions; flag the incoming changes where transition planning
+is relevant (position as at August 2026 — verify status before relying).
 
 ---
 
@@ -525,9 +531,10 @@ Notify WorkSafe NZ as soon as practicable by phone; written notification follows
 > **Currency note**: Penalty quanta change frequently and the indexation
 > mechanisms differ. NSW expresses WHS maximum penalties as **dollar amounts
 > indexed annually**; penalty-unit jurisdictions adjust the unit value
-> periodically (e.g., the Commonwealth penalty unit is $330 from 7 November
-> 2024). Validate against current jurisdiction publications before relying on
-> any specific dollar figure.
+> periodically (e.g., the Commonwealth penalty unit rose from $330 to **$364 on
+> 1 July 2026** — take current values from `assets/penalty_units.json`).
+> Validate against current jurisdiction publications before relying on any
+> specific dollar figure.
 
 ### AU Penalty Structure (Category 1–3 offences)
 
@@ -537,7 +544,7 @@ officer / $300k + 5 years worker) are **stale in most jurisdictions** after the
 
 - **NSW** — from 1 July 2024, Category 1 maximum **$10,424,982** for a body
   corporate and **10 years** imprisonment (as at 1 July 2024; indexed annually —
-  verify the current FY2025–26 figure); NSW WHS penalties are indexed annually
+  verify the current financial year's figure); NSW WHS penalties are indexed annually
 - **Commonwealth** — penalties substantially uplifted from 1 July 2024
   (Closing Loopholes reforms)
 - **QLD and WA** — maxima set above model values
@@ -786,6 +793,16 @@ function's role is to make the second easy so the first is sustainable.
 - First Aid in the Workplace
 - Work Health and Safety Consultation, Cooperation and Coordination
 
+**Legal status (AU)**: under the model Act an approved Code is admissible in
+proceedings as evidence of what is known about a hazard, risk, or control and
+of what is reasonably practicable (model WHS Act s 275). **Exception — QLD and
+NSW**: s 26A of each State's WHS Act makes approved Codes effectively
+mandatory — the PCBU must either comply with the Code or manage the hazard in
+a way that provides a standard **equal to or higher than** the Code (QLD since
+2018; **NSW from 1 July 2026**, inserted by the Industrial Relations and Other
+Legislation Amendment (Workplace Protections) Act 2025 (NSW)). Advice for QLD
+or NSW must not present Codes as merely evidentiary.
+
 ### Recently Issued / Updated Codes (Safe Work Australia)
 - **Managing Psychosocial Hazards at Work** (2022) — companion to the
   rr 55A–55D psychosocial regulations; gives effect to the duty in practical terms
@@ -800,7 +817,8 @@ function's role is to make the second easy so the first is sustainable.
 ### NZ Approved Codes of Practice
 Approved Codes of Practice (ACoPs) are admissible in proceedings as evidence of
 what is reasonably practicable (HSWA s 226) — not a deemed-compliance
-presumption (see §3.10 for the proposed reform). Key ACoPs include:
+presumption (see §3.10 — the Amendment Act 2026 converts ACoP compliance into
+a deemed-compliance safe harbour from 1 April 2027). Key ACoPs include:
 - Health and Safety in Employment — General Safety in the Workplace
 - Safe Work with Machinery
 - Working at Heights
@@ -1402,7 +1420,10 @@ in mining, healthcare, and emergency services where 12-hour shifts are routine.
 Each model Code of Practice issued by Safe Work Australia translates the
 general PCBU duty into practical implementation. Compliance with an approved
 Code is admissible in court as evidence of compliance (or as evidence of
-breach where Code provisions are not followed without justification).
+breach where Code provisions are not followed without justification). **In QLD
+and NSW this understates the position**: s 26A of each State's WHS Act makes
+approved Codes comply-or-equivalent — follow the Code or achieve an equal or
+higher standard (NSW from 1 July 2026; see §8).
 
 The summary below covers the operational requirements of priority Codes. Full
 Code text is available at safeworkaustralia.gov.au.

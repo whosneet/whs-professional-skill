@@ -1037,7 +1037,7 @@ For each threat, the barriers that should prevent it:
 |---|---|
 | Fatal fall | Fall arrest system that catches the falling worker; fall clearance calculation ensures the worker cannot strike the surface below |
 | Serious injury | Fall arrest equipment correctly fitted to limit deceleration forces; rescue arrives quickly; first aid on site; medical evacuation plan |
-| Suspension trauma | Trauma straps deployed by worker; rescue plan rehearsed and equipment present; rescue as rapidly as possible (current guidance — eg ANZCOR Guideline 9.1.5 — does not rely on a fixed survival window, and post-rescue positioning advice has been revised away from immediate horizontal recovery) |
+| Suspension trauma | Trauma straps deployed by worker; rescue plan rehearsed and equipment present; rescue as rapidly as possible (current guidance — eg ANZCOR Guideline 9.1.5 — does not rely on a fixed survival window, and the old "keep the casualty semi-upright" positioning advice has been withdrawn: position the rescued person supine and manage as any other casualty) |
 | Minor injury | First aid; return to work assessment; root cause investigation regardless of outcome |
 
 **Degradation factors (controls that can degrade barriers)**:

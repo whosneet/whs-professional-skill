@@ -175,16 +175,18 @@ jurisdiction detail.
   6. Denial > worker may request internal review > Personal Injury
      Commission (PIC) for dispute resolution
 
-#### NSW 2025–26 reforms (dated subsection — position as at June 2026)
+#### NSW 2025–26 reforms (dated subsection — position as at August 2026)
 Following the Minns Government's 2024–25 review of icare and the scheme's
 psychological injury performance, two reform Acts restructured NSW
 psychological injury compensation: the **Workers Compensation Legislation
 Amendment Act 2025 (NSW)** (passed 18 November 2025; assented 24 November
 2025) and the second-stage **Workers Compensation Legislation Amendment
-(Reform and Modernisation) Act 2026 (NSW)** (passed 4 February 2026).
-Several provisions across both Acts were proclaimed to commence 27 March
-2026 — verify commencement and transitional rules for the specific
-provision in issue. Key changes:
+(Reform and Modernisation) Act 2026 (NSW)** (passed 4 February 2026;
+assented 11 February 2026). Procedural provisions (e.g. ss 43A, 58A)
+commenced 27 March 2026; the substantive psychological-injury parameters
+commenced **1 July 2026** (final regulation and guidelines published
+26 June 2026) — verify transitional rules for the specific provision in
+issue. Key changes:
 
 - A primary **psychological injury** must now arise from a defined
   **"relevant event"** (a defined list of causal events — e.g. exposure
@@ -192,9 +194,12 @@ provision in issue. Key changes:
   **the main contributing factor** — a materially higher bar than the
   former "substantial contributing factor" test
 - Weekly payments for psychological injury are **capped at 130 weeks**
-  unless the worker's permanent impairment is **≥21% WPI**
-- The **lump-sum / common-law WPI threshold for psychological injury
-  rises to 25% from 1 July 2026** (the pre-reform threshold was 15%
+  unless the worker's permanent impairment is **at least 25% WPI**; workers
+  at **21–24% WPI** receive only a further 52 weeks at a reduced rate. The
+  continuation threshold **steps up for later claims** — more than 26%
+  from 1 July 2027, at least 28% from 1 July 2029
+- The **lump-sum / common-law WPI threshold for psychological injury is
+  25%, in force since 1 July 2026** (the pre-reform threshold was 15%
   under s 65A)
 - **s 11A** of the Workers Compensation Act 1987 (reasonable management
   action) was reworked as part of the package — pre-reform s 11A case
@@ -269,9 +274,10 @@ provision in issue. Key changes:
   pre-injury position or a comparable suitable position available for
   12 months) sit in Pt 3 of the 2023 Act — confirm specific section
   numbers against the current Act before citing
-- **Notable**: WA retains journey claims coverage; mining and resources
-  sector dominates premium profile; common law damages available with
-  election rules
+- **Notable**: WA generally **excludes ordinary commute journey claims**
+  (long-standing position, maintained under the 2023 Act) — travel in the
+  course of employment is covered; mining and resources sector dominates
+  premium profile; common law damages available with election rules
 - **Self-insurance**: available — historically a number of large mining
   and resources companies operate as self-insurers
 
@@ -891,9 +897,9 @@ frequent source of confusion in multi-jurisdictional employers.
 | Jurisdiction | Journey claims coverage | Notes |
 |---|---|---|
 | NSW | Limited — "real and substantial" connection to employment required (s 10 Workers Compensation Act 1987); direct route between residence and workplace | Substantially narrowed in 2012 reforms |
-| VIC | **Excluded** since 2010 reforms | Not compensable except where journey is in the course of employment (work travel) |
+| VIC | **Excluded** for ordinary commutes since the December 1992 amendments | Not compensable except where journey is in the course of employment (work travel); transport-accident commutes fall to the TAC scheme |
 | QLD | **Covered** — journeys between the worker's home and place of employment are compensable (s 35 WCRA); excluded where there is a substantial delay, interruption or deviation from the journey | s 35 WCRA |
-| WA | **Covered** | Recognised under WC&IM Act; direct journey + reasonable deviation |
+| WA | **Not covered** (ordinary commute) | Long-standing exclusion, maintained under the WC&IM Act 2023; travel in the course of employment (employer direction, work-related travel, attending treatment) is covered |
 | SA | **Excluded** since RTW Act 2014 reforms | Not compensable as separate category |
 | TAS | Limited | Workers Rehabilitation and Compensation Act |
 | NT | **Covered** | Return to Work Act 1986 (NT) |
@@ -913,7 +919,7 @@ A traveller going to a work meeting in another city — covered. A worker
 driving from home to their usual workplace — depends on jurisdiction.
 
 ### Practical implications
-- Multi-site employers in journey-excluded jurisdictions (VIC, SA) need
+- Multi-site employers in journey-excluded jurisdictions (VIC, SA, WA) need
   to communicate the position to workers — common assumption is that
   commute is always covered
 - Fleet vehicle policies, on-call arrangements, and hybrid working

@@ -138,9 +138,12 @@ SafeWork NSW.
 | Role | Function |
 |---|---|
 | Mine Operator | The PCBU with overall management or control of the mine; equivalent to PCBU under general WHS Act but with mine-specific duties |
-| Site Senior Executive (SSE) | Single person accountable for management of WHS at the mine; cannot be more than one SSE per mine at any time |
-| Statutory Function holders | Specific competency-based roles — Open Cut Examiner, Underground Mine Manager, Ventilation Officer, Electrical Engineer, Mechanical Engineer, Surveyor |
+| Nominated statutory functions | NSW uses a **nomination model, not an SSE**: the operator nominates competent persons to exercise the statutory functions in Sch 10 of the WHS(MPS) Regulation 2022 — e.g. mining engineering manager, quarry manager, Open Cut Examiner, underground mine manager, ventilation officer, electrical/mechanical engineering manager |
 | Operator of Petroleum Site | Equivalent role for petroleum sites |
+
+> Note: the **Site Senior Executive (SSE)** is QLD terminology (CMSHA/MQSHA —
+> where only one SSE may hold the role per mine) and, since 2022, WA
+> terminology. It has no equivalent under the NSW WHS(MPS) framework.
 
 **Operational principles:**
 - Dual regulation — the general WHS Act 2011 (NSW) applies in addition to
@@ -289,9 +292,12 @@ specialist technical capability.
 **Transition period implications:**
 - Practitioners with experience under MSIA must reorient — terminology,
   duty structure, and notification frameworks have changed substantially
-- Statutory positions retained: Registered Manager, Quarry Manager,
-  Underground Manager, Ventilation Officer — with redefined accountabilities
-  under the new framework
+- Statutory positions restructured: the MSIA **registered manager was
+  abolished**; the WHS(Mines) Regulations 2022 created the **site senior
+  executive (SSE)** (reg 675ZI — SSE and exploration manager appointments are
+  notified to the regulator), with the remaining statutory positions
+  (underground manager, quarry manager, ventilation officer etc.) carried in
+  Schedule 26 with redefined accountabilities
 - Notifiable mining incidents are now defined under WHS(Mines) Reg + general
   WHS Reg Part 12 — broader than the MSIA reportable incidents list
 - High-risk activities (longwall, secondary support, shaft work) retain
@@ -357,7 +363,7 @@ features:
 
 | Principle | Application |
 |---|---|
-| **Statutory positions** | Single accountable senior executive (SSE / Registered Manager); statutory technical functions (UMM, OCE, Ventilation Officer); these are not delegable in the same way as general management roles |
+| **Statutory positions** | Single accountable senior executive (SSE — QLD, and WA since 2022) or operator-nominated statutory functions (NSW); statutory technical functions (UMM, OCE, Ventilation Officer); these are not delegable in the same way as general management roles |
 | **Principal Hazard Management Plans** | Written plans for defined principal hazards — strata, gas, inrush, fire, explosives, electricity — with risk assessment, controls, monitoring, emergency response |
 | **High-Potential Incident reporting** | Discrete reporting framework distinct from general WHS notifiable incidents; HPI dataset is a key safety performance indicator and regulatory focus |
 | **Mine record book** | Statutory document recording inspections, examinations, incidents, and management decisions; admissible in court; entries must be made by appropriate statutory function holders |
@@ -686,7 +692,7 @@ hazardous substances) is the general workplace set.
 | **Foreign object debris (FOD)** | Anything on the apron, taxiway, or runway that can damage aircraft engines or systems — bolts, tools, plastic, gravel. FOD walk-downs at shift start; tool control; FOD damage can ground aircraft and kill engines on takeoff (CASR Part 139 + ICAO Annex 14) |
 | **Hot work in fuelled aircraft** | Welding, grinding, or any spark-generating work in or near a fuelled aircraft is high-consequence. Defuelling and inerting may be required; permit-to-work systems mandatory; specific MRO procedures |
 | **Hypoxia for high-altitude maintenance** | Cabin pressurisation testing, work on aircraft at altitude on test flights, work in pressure chambers. Hypoxia onset is insidious — supplemental oxygen and time-of-useful-consciousness awareness required |
-| **Fatigue** | Fatigue Risk Management System (FRMS) is mandated for AOC holders under CASR Part 119 / 121. Flight time limitations, duty period limits, rest period requirements; international long-haul operations particularly complex |
+| **Fatigue** | Flight-crew fatigue is regulated under **CAO 48.1 Instrument 2019**: operators either fly to the prescriptive flight/duty/rest limits (Appendices 1–6) or adopt an **optional Fatigue Risk Management System (FRMS)** under Appendix 7 with CASA approval — FRMS is a pathway, not a mandate. CASR Part 119 mandates an SMS (fatigue management sits within it). International long-haul operations particularly complex |
 | **Chemical exposure** | Avionics solvents, hydraulic fluid (Skydrol — irritant), de-icing fluids, fuel vapours, composite materials (carbon fibre dust during repair) |
 | **Lasers** | Inadvertent laser strikes from ground are a hazard to flight crew (CASA has prosecution powers under Criminal Code); industrial lasers in MRO have own controls |
 | **Lithium batteries** | Cargo lithium battery fires — regulated under IATA Dangerous Goods Regulations and ICAO Technical Instructions; aircraft cargo fires from lithium have caused multiple hull losses |

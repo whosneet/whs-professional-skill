@@ -110,9 +110,10 @@ nine MNES:
 **Controlled action** = action likely to have a significant impact on an MNES;
 requires assessment and approval under Part 9 of the EPBC Act. Penalties for
 unauthorised controlled actions are severe (civil penalty up to 50,000 penalty
-units for a body corporate — **$16.5M at the $330 penalty unit value** — and
-the 2025 reform package raises maximum penalties further; criminal offence
-carries imprisonment for individuals).
+units for a body corporate — **$18.2M at the $364 penalty unit value (1 July
+2026; see `assets/penalty_units.json`)** — and the 2025 reform package raises
+maximum penalties further; criminal offence carries imprisonment for
+individuals).
 
 **2025 federal environmental law reform — transition in progress (as at
 June 2026)**: the Commonwealth environmental reform package passed the

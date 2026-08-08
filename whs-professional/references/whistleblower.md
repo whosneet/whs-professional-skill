@@ -124,17 +124,17 @@ The same conduct can engage both a criminal offence and a civil penalty provisio
 
 | Offence | Maximum penalty (individual) | Maximum penalty (body corporate) |
 |---|---|---|
-| Victimisation — causing or threatening detriment (s 1317AC) | Up to 2 years imprisonment and/or 240 penalty units ($79,200 at $330/unit) | 2,400 penalty units ($792,000) |
-| Breach of discloser confidentiality (s 1317AAE) | Up to 6 months imprisonment and/or 60 penalty units ($19,800) | 600 penalty units ($198,000) |
+| Victimisation — causing or threatening detriment (s 1317AC) | Up to 2 years imprisonment and/or 240 penalty units ($87,360 at $364/unit) | 2,400 penalty units ($873,600) |
+| Breach of discloser confidentiality (s 1317AAE) | Up to 6 months imprisonment and/or 60 penalty units ($21,840) | 600 penalty units ($218,400) |
 
 **Civil penalty provisions:**
 
 | Contravention | Maximum civil penalty (individual) | Maximum civil penalty (body corporate) |
 |---|---|---|
-| Victimisation (s 1317AC) or confidentiality breach (s 1317AAE) | 5,000 penalty units | The greater of: 50,000 penalty units; 3× the benefit derived or detriment avoided; or 10% of annual turnover (capped at 2.5 million penalty units) |
+| Victimisation (s 1317AC) or confidentiality breach (s 1317AAE) | The greater of: 5,000 penalty units; or 3× the benefit derived or detriment avoided | The greater of: 50,000 penalty units; 3× the benefit derived or detriment avoided; or 10% of annual turnover (capped at 2.5 million penalty units) |
 | Failure to have a compliant policy (s 1317AI) | — | 60 penalty units |
 
-The Commonwealth penalty unit is **$330 from 7 November 2024** (it was $313 from 1 July 2023); the value is indexed — validate before quoting dollar figures. At $330 per unit, the corporate civil maximum runs to the tens of millions of dollars for large entities. Criminal liability for individuals (officers, managers, or any person involved) is available where the conduct meets the criminal threshold.
+The Commonwealth penalty unit is **$364 from 1 July 2026** (it was $330 from 7 November 2024); the value is indexed — take the current value from `assets/penalty_units.json` and validate before quoting dollar figures. At $364 per unit, the corporate civil maximum runs to the tens of millions of dollars for large entities. Criminal liability for individuals (officers, managers, or any person involved) is available where the conduct meets the criminal threshold.
 
 **Case anchor — ASIC v TerraCom Ltd (No 3) [2025] FCA 1017**: the Federal Court ordered TerraCom to pay a $7.5 million civil penalty (plus ASIC's costs) over ASX announcements and an open letter that publicly disparaged a whistleblower's allegations — the first civil penalty imposed for whistleblower victimisation under Part 9.4AAA. The detriment was reputational and the conduct was the public messaging itself; no dismissal was needed to engage the provisions. Validate case details against the judgment before citing in formal outputs.
 

@@ -199,10 +199,13 @@ buildings constructed before 2004.
 ## 4. Construction WHS
 
 ### Principal Contractor (PC) appointment
-A PC must be appointed for any **construction project** — defined as a project for
-construction work where the cost of the construction work is **$250,000 or more**
-(model WHS Reg 292). The client must appoint the PC under model WHS Reg 293. The PC
-has additional duties beyond a standard PCBU.
+Every **construction project** — construction work costing **$250,000 or more**
+(model WHS Reg 292) — has a principal contractor. Under model WHS Reg 293 the
+PCBU that **commissions the project is the PC by default**; it may instead
+engage another PCBU as PC and authorise them to manage or control the
+workplace. There is no over-threshold project without a PC — "we didn't appoint
+one" means the client holds the role. The PC has additional duties beyond a
+standard PCBU.
 
 > **Victorian note**: Victoria has not adopted the model WHS laws. Under the OHS
 > Regulations 2017 (Vic) the principal-contractor trigger is construction work costing
