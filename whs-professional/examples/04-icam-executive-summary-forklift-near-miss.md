@@ -6,7 +6,7 @@
 |---|---|
 | Incident system reference | INC-2026-04-0237 |
 | Incident severity rating | Actual: 1 (no injury) / Potential: 5 (single fatality) — HiPo |
-| Business group | Logistics & Distribution |
+| Business group | Hospitality & Catering |
 | Business unit | NSW Operations |
 | Location | Sydney Distribution Centre, Aisle 14, dry goods |
 | Date of incident | 18 April 2026, 14:22 |

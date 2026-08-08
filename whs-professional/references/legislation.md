@@ -108,8 +108,8 @@ making decisions affecting the whole or substantial part of the business.
 - Insurance against OHS penalties is a criminal offence (Sept 2022 amendment)
 - Workplace Manslaughter offence added by the Workplace Safety Legislation
   Amendment (Workplace Manslaughter and Other Matters) Act 2019 (Vic) — see Section 6
-- Psychological health: Occupational Health and Safety Amendment (Psychological
-  Health) Regulations in force 1 December 2025 — see Section 9
+- Psychological health: Occupational Health and Safety (Psychological Health)
+  Regulations 2025 in force 1 December 2025 — see Section 9
 - Prohibition notices and improvement notices issued by inspectors
 - The Victorian WorkCover Authority **is** WorkSafe Victoria — one statutory
   entity (trading as WorkSafe Victoria) administering both workers compensation
@@ -864,7 +864,7 @@ physical hazards. Key provisions:
 | ACT | WHS Amendment Regulation 2023 |
 | NT | Model psychosocial amendments commenced 2023 |
 | WA | Model psychosocial regulations adopted into the WHS (General) Regulations 2022 (WA) — commenced 2022 |
-| VIC | Not model law — Occupational Health and Safety Amendment (Psychological Health) Regulations in force **1 December 2025**; before that, psychosocial risk was regulated through the general duties (psychological health sits within the s 5 definition of "health") |
+| VIC | Not model law — Occupational Health and Safety (Psychological Health) Regulations 2025 (S.R. 103/2025 — no "Amendment" in the made title) in force **1 December 2025**, supported by the Compliance Code — Psychological Health (Edition 1, September 2025); before that, psychosocial risk was regulated through the general duties (psychological health sits within the s 5 definition of "health") |
 | NZ | HSWA 2015 already covers psychosocial risks under the primary duty; WorkSafe NZ Good Practice Guide on Workplace Stress (2019) |
 
 ### Safe Work Australia Code of Practice — Managing Psychosocial Hazards (2022)

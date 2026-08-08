@@ -76,8 +76,8 @@ topic, check `references/INDEX.md` first — it is a compact keyword index.
 | `company.md` | Anything org-specific: risk matrix, severity/HiPo thresholds, document numbering, incident system, critical-risk taxonomy, named programs, governance cadence | Template §1–§10; Active Reference |
 | `adaptation-interview.md` | **Adapting/configuring the skill to an organisation or client**: "adapt this skill to my company", populate or update `company.md`, first-time setup, creating a client profile (multi-tenant) — run the guided ten-step interview | all |
 | `legislation.md` | Legislative or regulatory advice; duties; notices; **industrial manslaughter / officer due diligence** (§6, incl. operational toolkit); **inspector on site** (§10); **NZ / HSWA / WorkSafe NZ / ACC** (§3); **psychosocial regs & Respect@Work positive duty** (§9); training requirements by jurisdiction (§11); volunteers (§12); international comparison — ILO/OSHA/HSE/EU (§13); **WES→WEL table, transition 1 Dec 2026** (§14); Codes of Practice summaries (§15); **state-by-state detail incl. VIC OHS Act 2004** (§16) | §3, §6, §9–§16 |
-| `investigation.md` | Incident investigation: ICAM, 5-Why, triage, contributing-factors taxonomy, cognitive biases; **PEEPO question bank** (§8); **PEACE / cognitive interviewing, statement admissibility** (§9–§10); ICAM variants, AcciMap, bowtie worked example, legal privilege (§11–§14) | §1–§14 |
-| `frameworks.md` | Risk assessment, SFAIRP, hierarchy of controls; ISO 45001 / management systems / gap analysis; **Safety II / HOP / Forge Works** (§11); **named safety-science thinkers & citations** (§12); WHS in M&A and due diligence incl. sector overlays (§13); psychosocial control frameworks (§14); **governance & assurance, audit programs, board reporting** (§15) | §11–§15 |
+| `investigation.md` | Incident investigation: ICAM, 5-Why, contributing-factors taxonomy, cognitive biases (severity-based investigation triggers live in `company.md` §5); **PEEPO question bank** (§8); **PEACE / cognitive interviewing, statement admissibility** (§9–§10); ICAM variants, AcciMap, bowtie worked example, legal privilege (§11–§14) | §1–§14 |
+| `frameworks.md` | Risk assessment, SFAIRP, hierarchy of controls; ISO 45001 / management systems / gap analysis (clause map §3); **Safety II / HOP / Forge Works** (§4–§6, §11); **named safety-science thinkers & citations** (§12); WHS in M&A and due diligence incl. sector overlays (§13); psychosocial control frameworks (§14); **governance & assurance, audit programs, board reporting** (§8, §15) | §3–§6, §11–§15 |
 | `hazards.md` | Engineered stone & RCS (§1–§2); asbestos (§3); **construction — PC, WHSMP, HRCW, SWMS** (§4, §8); D&A (§5); heat/WBGT (§6); MHF (§7); height, electrical/LOTO, confined space, mobile plant, hazardous chemicals, noise, vibration, plant, manual tasks, fatigue (§9–§18); **high-risk activity playbooks — crane lifts, demolition, excavation, hot work** (§19–§22) | §1–§22 |
 | `output-templates.md` | Producing a deliverable: safety alert, toolbox talk, advisory note, policy/procedure, contractor WHS docs; strategic/governance suite — risk register, bowtie, WHS strategy, RACI, annual plan, officer briefing, site walk, annual report, AHRC evidence map, PTW, claim review, hazard report, regulator notification script (§11–§23) | §1–§23 |
 | `analytics.md` | WHS metrics, KPIs, TRIFR/LTIFR calculation, dashboards, Power BI patterns, HiPo intelligence pack structure | all |
@@ -85,9 +85,9 @@ topic, check `references/INDEX.md` first — it is a compact keyword index.
 | `environment.md` | EHS/environmental: EPA notification, ISO 14001, dangerous goods, spills, contamination, waste, emissions, biodiversity, heritage, climate-WHS | all |
 | `compensation-rtw.md` | Workers compensation (AU schemes + NZ ACC), claim lifecycle, premiums, IMEs, suitable employment, RTW coordinator, psychological injury claims, presumptive provisions | all |
 | `inspections-audits-permits.md` | Workplace inspections; WHS audits (ISO 19011/45001); permit-to-work; pre-task tools (Take 5, SLAM, STAR, JSEA) | all |
-| `case-studies.md` | Landmark cases for board papers, training, alerts: Longford, Texas City, Macondo, Pike River, Dreamworld, Whakaari, Grenfell, Costa Concordia, Ranger Uranium, Bhopal, Beirut Port | §1–§12 |
+| `case-studies.md` | Landmark cases for board papers, training, alerts: Longford, Texas City, Macondo, Pike River, Dreamworld, Whakaari, Grenfell, Costa Concordia, Ranger Uranium, Bhopal, Beirut Port; citation and use guidance §13 | §1–§13 |
 | `case-studies-everyday.md` | Everyday incidents for training and ICAM calibration: forklift, manual handling, psychosocial, electrical, slip/trip, chemical, fatigue | all |
-| `sector-regimes.md` | Sector regimes alongside/outside the WHS Act: mining, maritime, aviation, rail, healthcare biosafety, defence (§1–§7); petrochemical, telecoms, agriculture, hospitality, education, retail (§8–§13); **road transport / HVNL Chain of Responsibility, NHVR, fatigue hours, load restraint** (§14) | §1–§14 |
+| `sector-regimes.md` | Sector regimes alongside/outside the WHS Act: regime selection §1; mining, maritime, aviation, rail, healthcare biosafety, defence (§2–§7); petrochemical, telecoms, agriculture, hospitality, education, retail (§8–§13); **road transport / HVNL Chain of Responsibility, NHVR, fatigue hours, load restraint** (§14); cross-sector themes §15 | §1–§15 |
 | `workplace-controls.md` | First aid, emergency preparedness/evacuation, lone/remote working, WFH & hybrid, Right to Disconnect, FDV | all |
 | `capability-culture.md` | Behavioural-based safety (with critiques), maturity frameworks (Westrum/Hudson, Bradley, IOGP), culture vs climate measurement | all |
 | `strategy-function.md` | WHS strategy, function design, budget economics, leadership development, crisis management (distinct from emergency response) | all |
@@ -151,9 +151,9 @@ misdirection.
 > `assets/penalty_units.json` (each entry carries effective dates and a source)
 > and re-verify any entry whose `verified_as_at` date is more than 6 months old.
 
-- **Model law** — Model WHS Act / Model Regulations (Safe Work Australia); adopted with variations by each jurisdiction below
-- **NSW** — WHS Act 2011 (NSW), WHS Regulation 2025 (NSW); SafeWork NSW a standalone regulator; industrial manslaughter available
-- **VIC** — OHS Act 2004, OHS Regulations 2017 (Victoria uses OHS terminology; SFAIRP standard via s 21); workplace manslaughter in force; psychosocial health regulated separately
+- **Model law** — Model WHS Act / Model Regulations (Safe Work Australia); adopted with variations by every jurisdiction below **except Victoria**, which never adopted the model law
+- **NSW** — WHS Act 2011 (NSW), WHS Regulation 2025 (NSW); SafeWork NSW a standalone regulator; industrial manslaughter in force
+- **VIC** — did not adopt the model law: OHS Act 2004, OHS Regulations 2017 (OHS terminology; SFAIRP standard via s 21); workplace manslaughter in force; psychosocial health regulated separately
 - **QLD** — WHS Act 2011 (QLD), WHS Regulation 2011 (QLD); industrial manslaughter in force
 - **WA** — Work Health and Safety Act 2020 (WA); industrial manslaughter in force
 - **SA** — WHS Act 2012 (SA); industrial manslaughter in force
@@ -221,8 +221,9 @@ Short (one page, under 250 words), visual-first, incident-based. See
 See `references/output-templates.md` for structure.
 
 ### WHS Advice Notes
-Structured memo format: Issue → Legislative/Standard Basis → Risk Assessment →
-Recommendation → Next Steps. See `references/output-templates.md`.
+Structured memo format: Issue → Legislative/Standard Basis → Current State →
+Risk Assessment → Recommendation → Next Steps. See
+`references/output-templates.md`.
 
 ### Risk Assessments / SWMS
 Follow hierarchy of controls. Include likelihood × consequence risk matrix using
@@ -286,8 +287,8 @@ sparingly — one or two named citations per document.
 ## 7. Psychosocial Hazards
 
 Psychosocial hazards are a distinct regulated category under the model WHS
-Regulations (rr 55A–55D; Victoria regulates separately via the OHS Amendment
-(Psychological Health) Regulations). Treat them with the same rigour as physical
+Regulations (rr 55A–55D; Victoria regulates separately via the OHS
+(Psychological Health) Regulations 2025). Treat them with the same rigour as physical
 hazards — apply the hierarchy of controls and document SFAIRP reasoning. EAP is
 a supporting resource, not a control in itself.
 
@@ -317,8 +318,8 @@ count; always pair point-in-time figures with trend (rolling 12 months vs prior
 year); and tell a story — data without so-what analysis adds noise.
 
 > **Never hand-calculate frequency rates.** Run
-> `scripts/frequency_rates.py` for TRIFR / LTIFR / MTIFR / severity rate and
-> rolling 12-month series anchored to the last closed period — deterministic
+> `scripts/frequency_rates.py` for TRIFR / LTIFR / MTIFR / RWIFR / AIFR /
+> severity rate and rolling 12-month series anchored to the last closed period — deterministic
 > arithmetic, consistent rounding, no transposition errors in board packs.
 > Load `references/analytics.md` for KPI definitions, the HiPo intelligence
 > pack structure, dashboard design, and Power BI patterns; load
@@ -351,8 +352,9 @@ effective — closer to CCV than audit); design template suites for the user, no
 the author; and treat Lessons Learnt as a living process linked to the risk
 register, not a post-project exercise.
 
-> Load `references/frameworks.md` (§15) for the ISO 45001 clause map, assurance
-> frameworks, audit-program design, and board/ELT reporting structure; load
+> Load `references/frameworks.md` §3 for the ISO 45001 clause map, and §15 for
+> assurance frameworks, audit-program design, and board/ELT reporting
+> structure (board reporting detail also §8); load
 > `references/company.md` for organisation-specific governance documents,
 > template numbering, and reporting cadence.
 
@@ -362,7 +364,7 @@ register, not a post-project exercise.
 
 | Resource | Use for |
 |---|---|
-| `scripts/frequency_rates.py` | TRIFR/LTIFR/MTIFR/severity rate calculation; rolling 12-month series anchored to last closed period. Run it — do not calculate rates in-context. |
+| `scripts/frequency_rates.py` | TRIFR/LTIFR/MTIFR/RWIFR/AIFR/severity rate calculation; rolling 12-month series anchored to last closed period. Run it — do not calculate rates in-context. |
 | `assets/penalty_units.json` | Penalty unit values by jurisdiction with effective dates and sources. Look up, multiply, cite the effective date. Re-verify entries whose `verified_as_at` is >6 months old or whose `value` is null. |
 
 ---
