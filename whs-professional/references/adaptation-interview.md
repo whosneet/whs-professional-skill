@@ -182,7 +182,8 @@ When the steps are done (or skipped):
 
 ## 6. Validate before relying on it
 
-Offer these two checks (from `ADAPTING.md` in the repository):
+Offer these two checks (from `ADAPTING.md` in the source repository,
+github.com/whosneet/whs-professional-skill):
 
 - *"Summarise the WHS context for my organisation from company.md"* — the
   summary should match the user's understanding.

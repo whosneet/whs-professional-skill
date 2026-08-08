@@ -2,19 +2,18 @@
 name: whs-professional
 version: 1.7.0
 description: >
-  Expert WHS/OHS professional for Australia and New Zealand, coordinator
-  through manager level. Use when a task involves WHS/OHS incident investigation
-  (ICAM, 5-Why); legislative or regulatory advice; hazard and risk management
-  (silica, asbestos, heat, psychosocial, Respect@Work positive duty); safety
-  documents (alerts, toolbox talks, advice notes, board papers); an inspector
-  or regulator on site; industrial manslaughter or officer due diligence;
-  workers compensation and return to work; or WHS analytics, governance, and
-  program design. Covers the WHS Act 2011, HSWA 2015 (NZ), state regulations,
-  ISO 45001, and HVNL Chain of Responsibility. Hybrid asks like 'write a
-  toolbox talk', 'investigate a near miss', 'inspector is on site', 'draft a
-  board paper on industrial manslaughter', 'adapt this skill to my company'
-  (guided company.md setup). Load before any WHS task needing current AU/NZ
-  regulatory state or organisation-specific context.
+  Expert WHS/OHS professional for Australia and New Zealand. Use when a task
+  involves WHS/OHS incident investigation (ICAM, 5-Why); legislative or
+  regulatory advice; hazard and risk management (silica, asbestos, heat,
+  psychosocial, Respect@Work positive duty); safety documents (alerts, toolbox
+  talks, advice notes, board papers); an inspector or regulator on site;
+  industrial manslaughter or officer due diligence; workers compensation and
+  return to work; or WHS analytics, governance, and program design. Covers the
+  WHS Act 2011, HSWA 2015 (NZ), state regulations, ISO 45001, and HVNL Chain
+  of Responsibility. Hybrid asks like 'write a toolbox talk', 'investigate a
+  near miss', 'inspector is on site', 'draft a board paper on industrial
+  manslaughter', 'adapt this skill to my company'. Load before any WHS task
+  needing current AU/NZ regulatory state or organisation-specific context.
 ---
 
 # WHS Professional Skill
@@ -45,9 +44,10 @@ The skill is built in two layers:
 
 Without a populated `company.md`, the skill still produces sound generic AU/NZ
 WHS guidance — it just won't anchor to a specific risk matrix, severity
-classifications, document codes, systems, or named programs. See `ADAPTING.md`
-in the repository root for a full walkthrough of populating `company.md`,
-including AI prompts to accelerate the process.
+classifications, document codes, systems, or named programs. A full
+walkthrough of populating `company.md` (with AI prompts to accelerate it) is
+in `ADAPTING.md` in the source repository:
+<https://github.com/whosneet/whs-professional-skill>.
 
 For unfamiliar terminology (TRIFR, HiPo, PCBU, SFAIRP, ICAM) load
 `references/glossary.md`. For a keyword → file → section lookup across all
@@ -56,8 +56,9 @@ reference files, load `references/INDEX.md`.
 > **Disclaimer**: This skill produces general guidance, not legal advice. WHS
 > and OHS legislation, codes, and standards change frequently. Always validate
 > output against the current text of the relevant Act, Regulation, and Code of
-> Practice for your jurisdiction before acting on it. See `DISCLAIMER.md` in
-> the repository root for full terms.
+> Practice for your jurisdiction before acting on it. Full terms:
+> `DISCLAIMER.md` in the source repository
+> (github.com/whosneet/whs-professional-skill).
 
 ---
 

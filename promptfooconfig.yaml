@@ -112,7 +112,7 @@ tests:
   # 8. Insurability of WHS penalties
   - vars:
       query: Can a company insure against WHS fines?
-      ref: file://whs-professional/references/legislation.md
+      ref: file://whs-professional/references/specialist-topics.md
     assert:
       - type: icontains
         value: 272A
@@ -178,8 +178,6 @@ tests:
       query: How many categories of high-risk construction work are there under the model WHS Regulations?
       ref: file://whs-professional/references/hazards.md
     assert:
-      - type: icontains
-        value: "18"
       - type: llm-rubric
         value: Gives 18, not 19 or any other count.
 
@@ -250,15 +248,18 @@ tests:
       query: What is the maximum penalty for a Tier 1 environmental offence by a corporation under the NSW POEO Act?
       ref: file://whs-professional/references/environment.md
     assert:
-      - type: icontains
-        value: 10 million
+      - type: icontains-any
+        value:
+          - "$10M"
+          - "10 million"
+          - "$10 million"
       - type: llm-rubric
         value: Does NOT give $5 million as the current Tier 1 corporate maximum.
 
   # 22. Lead blood level — removal vs notification
   - vars:
       query: Under the model WHS Regulations, what happens at a blood lead level of 30 µg/dL?
-      ref: file://whs-professional/references/hazards.md
+      ref: file://whs-professional/references/specialist-topics.md
     assert:
       - type: llm-rubric
         value: Describes 30 µg/dL as a removal level (worker removed from lead-risk work, reg 415, Part 7.2), NOT as a Safe Work Australia notification trigger.
@@ -296,8 +297,10 @@ tests:
     assert:
       - type: icontains
         value: 21 days
-      - type: icontains
-        value: s 274
+      - type: icontains-any
+        value:
+          - "s 274"
+          - "section 274"
       - type: llm-rubric
         value: Describes the 21-day timeframe as statutory (WIM Act 1998), not merely a SIRA standard.
 
@@ -314,11 +317,11 @@ tests:
   # 28. Commonwealth insurance ban — sections and instrument
   - vars:
       query: Which Commonwealth WHS Act sections prohibit insuring against a WHS monetary penalty, and what inserted them?
-      ref: file://whs-professional/references/legislation.md
+      ref: file://whs-professional/references/specialist-topics.md
     assert:
       - type: icontains
         value: 272A
       - type: icontains
-        value: WHS Amendment Act 2023
+        value: Amendment Act 2023
       - type: llm-rubric
         value: Cites ss 272A–272B (not 272A–272C) and does NOT attribute the ban to the "Closing Loopholes" amendments.

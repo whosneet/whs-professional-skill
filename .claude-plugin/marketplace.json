@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/anthropics/claude-code/main/schemas/marketplace.schema.json",
   "name": "whs-professional",
   "description": "WHS/OHS professional skill for Australian and New Zealand workplace health and safety",
   "owner": {
@@ -15,7 +14,7 @@
         "ref": "main"
       },
       "description": "Turns Claude into an experienced WHS/OHS professional calibrated to Australian and New Zealand regulatory frameworks. Covers incident investigation (ICAM, 5-Why), risk assessments, legislation, ISO 45001, psychosocial hazards, and more.",
-      "version": "1.5.0",
+      "version": "1.7.0",
       "author": {
         "name": "Neet Singh"
       },

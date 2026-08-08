@@ -31,14 +31,16 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Verify SKILL.md version matches tag
+      - name: Verify SKILL.md and manifest versions match tag
         if: startsWith(github.ref, 'refs/tags/v')
         run: |
           TAG="${GITHUB_REF_NAME#v}"
-          VER=$(grep -m1 '^version:' whs-professional/SKILL.md | awk '{print $2}')
-          echo "tag=$TAG skill=$VER"
-          if [ "$TAG" != "$VER" ]; then
-            echo "::error::SKILL.md version ($VER) does not match tag ($GITHUB_REF_NAME). Bump the frontmatter before tagging."
+          VER=$(grep -m1 '^version:' whs-professional/SKILL.md | awk '{print $2}' | tr -d '"'"'"'')
+          PJ=$(python3 -c "import json;print(json.load(open('.claude-plugin/plugin.json'))['version'])")
+          MJ=$(python3 -c "import json;print(json.load(open('.claude-plugin/marketplace.json'))['plugins'][0]['version'])")
+          echo "tag=$TAG skill=$VER plugin.json=$PJ marketplace.json=$MJ"
+          if [ "$TAG" != "$VER" ] || [ "$TAG" != "$PJ" ] || [ "$TAG" != "$MJ" ]; then
+            echo "::error::Version mismatch — tag ($GITHUB_REF_NAME) must match SKILL.md ($VER), plugin.json ($PJ), and marketplace.json ($MJ). Bump all before tagging."
             exit 1
           fi
       - name: Build clean skill archive

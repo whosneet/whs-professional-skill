@@ -411,7 +411,7 @@ in `frameworks.md` §3 to support integrated gap analysis.
 | 9 | Performance evaluation | Monitoring; evaluation of compliance; internal audit; management review |
 | 9.1.1 | General | Monitoring/measurement methods; equipment calibrated/verified |
 | 9.1.2 | Evaluation of compliance | Periodic evaluation of fulfilment of compliance obligations |
-| 9.2 | Internal audit | Programme; criteria; competent auditors; report to management |
+| 9.2 | Internal audit | "Internal audit programme" (clause wording); criteria; competent auditors; report to management |
 | 9.3 | Management review | Periodic; agenda includes compliance evaluation, incidents, objectives progress |
 | 10 | Improvement | Nonconformity + corrective action; continual improvement |
 | 10.1 | General | Improve to enhance environmental performance |

@@ -458,8 +458,8 @@ profiles, two supported patterns:
    the active Project supplies; no re-packaging per client.
 2. **Profile files (for packaged/repo use)** — keep one file per client
    (`company-<client>.md`) alongside this file and copy or symlink the active
-   one to `company.md` before packaging. See `ADAPTING.md` in the repository
-   root for the full workflow.
+   one to `company.md` before packaging. The full workflow is in `ADAPTING.md`
+   in the source repository (github.com/whosneet/whs-professional-skill).
 
 Whichever pattern is used, treat the active profile as the single source of
 truth for risk matrix values, severity classifications, document codes, and
