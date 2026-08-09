@@ -63,7 +63,7 @@ WHS Act:
 |---|---|---|
 | **Overlay** | Sector Act/Regulation applies in addition to the general WHS Act. Both apply concurrently; PCBU has duties under both | NSW mining (WHS Act 2011 + WHS(MPS) Act 2013); AU rail (RSNL + state WHS Act); aviation airside (CASR + WHS Act) |
 | **Replacement** | Sector regime substantially displaces the general WHS Act for in-scope work; the WHS Act may still apply to support activities | QLD coal and minerals mining (CMSHA / MQSHA replace WHS Act for in-mine activities); Commonwealth maritime under OPGGS Act for offshore petroleum |
-| **Carve-out** | Specific activities or workforces are excluded from general WHS coverage and regulated separately | Defence Force members under DFDA for service-specific matters; aircraft in flight under CASR |
+| **Carve-out** | Specific activities or workforces are excluded from general WHS coverage and regulated separately | Defence Force members under DFDA for service-specific matters (aircraft in flight are not a true carve-out — CASR is the primary, operationally specific framework, but WHS Act s 8 includes aircraft and PCBU duties to crew are not ousted) |
 
 ### How to determine which regime applies
 Sequential test for any WHS task involving a sector-specific industry:
@@ -222,7 +222,8 @@ scheme for coal mine workers, not the inspectorate's funding source.)
 | Electrical Engineering Manager (EEM) | Required | Required where applicable |
 | Mechanical Engineering Manager (MEM) | Required | Required where applicable |
 | Underground Mine Worker (UMW) competency | Required for all underground workers | — |
-| Industry Safety and Health Representative (ISHR) | Worker-elected; statutory function under CMSHA Part 7 | Equivalent under MQSHA |
+| Site Safety and Health Representative (SSHR) | Elected by coal mine workers at the site; statutory functions under CMSHA Part 7 | Equivalent site-level representative under MQSHA |
+| Industry Safety and Health Representative (ISHR) | Appointed by the relevant union; industry-wide statutory functions under CMSHA Part 7 (not site-elected) | District workers' representative under MQSHA |
 
 **Operational principles:**
 - CMSHA and MQSHA operate as substantially complete regimes — the general WHS
@@ -337,7 +338,7 @@ or WA. The regulatory framework is correspondingly less elaborate, but the
 fundamental dual-regulation model applies.
 
 **Notable**: SA hosts unique mining workplaces including Olympic Dam
-(BHP — uranium, copper, gold) and Roxby Downs — these involve concurrent
+(BHP — uranium, copper, gold) — these involve concurrent
 WHS, radiation protection, and uranium-specific regulatory regimes.
 
 ### 2.5 NT, TAS, VIC — Mining
@@ -409,7 +410,7 @@ seafarer certification, marine pollution response, and search and rescue.
 | Marine Order 11 | Living and working conditions on vessels (Maritime Labour Convention 2006 implementation) |
 | Marine Order 12 | Construction subdivision and stability, machinery and electrical installations |
 | Marine Order 21 | Safety of navigation and emergency procedures |
-| Marine Order 28 | Crew lists, off-signing and accident reporting |
+| Marine Order 28 | Operations standards and procedures — including STCW minimum hours of rest |
 | Marine Order 32 | Cargo handling equipment |
 | Marine Order 41 | Carriage of dangerous goods |
 | Marine Order 57 | Helicopter operations |
@@ -436,9 +437,11 @@ the Department of Industry to become the single offshore petroleum regulator.
 
 **Scope**: Regulates occupational health and safety, well integrity, and
 environmental management of offshore petroleum operations in
-Commonwealth waters (generally beyond 3 nautical miles from coastal baseline).
-State waters are regulated by state authorities (e.g., NOPTA for resource
-title management).
+Commonwealth waters (generally beyond 3 nautical miles from coastal baseline);
+the National Offshore Petroleum Titles Administrator (NOPTA) — also a
+Commonwealth body — administers petroleum titles in Commonwealth waters.
+Coastal (state) waters are regulated by the relevant state or NT resources
+department under mirror legislation.
 
 **Safety Case regime** — operators of offshore facilities must prepare and
 submit a written Safety Case to NOPSEMA demonstrating that risks to workers
@@ -457,8 +460,10 @@ design, drilling, completion, intervention, and abandonment.
 - Mandatory third-party verification of safety-critical equipment
 - Strengthened well integrity requirements (barrier philosophy)
 - Enhanced operator competency requirements
-- Worker representation framework (Occupational Health and Safety Member —
-  OHSM equivalent of HSR)
+
+**Worker representation** — OPGGS Act Schedule 3 provides for health and
+safety representatives selected by designated work groups (a framework that
+predates Macondo).
 
 ### 3.3 State maritime regulators — domestic commercial vessels
 
@@ -539,8 +544,8 @@ operator, and port authority are discharged through the 3Cs (WHS Act s 46).
 |---|---|---|
 | **Confined space** | Tanks, holds, cofferdams, void spaces — high frequency on ships. Atmosphere can develop oxygen deficiency rapidly from cargo offgassing (grain, coal, timber, fish, scrap metal). Marine Order 21 sets confined space requirements | `hazards.md` §11 |
 | **Working at height** | Mast, deck cranes, hatch covers, container stacks. Falls from height are a leading cause of vessel fatality. Restraint preferred; rescue planning critical at sea | `hazards.md` §9 |
-| **Lifting and rigging** | Vessel cranes, container handling, cargo gear. Inspection regimes under Marine Order 32; load testing per AS 1418 series and ISO 4309 (wire rope) | `hazards.md` §12, §16 |
-| **Fatigue** | Hours of work and rest under MLC 2006 / Marine Order 11 — minimum 10 hours rest in 24 hours and 77 hours in 7 days. Heavy Vehicle National Law (HVNL) equivalent does not apply at sea; Marine Order 28 governs reporting | `hazards.md` §18 |
+| **Lifting and rigging** | Vessel cranes, container handling, cargo gear. Inspection regimes under Marine Order 32; load testing per AS 1418 series and ISO 4309 (wire rope) | `hazards.md` §19 |
+| **Fatigue** | Hours of rest under Marine Order 28 (Operations standards and procedures), implementing the STCW minima — minimum 10 hours rest in 24 hours and 77 hours in 7 days; MLC 2006 living and working conditions are implemented through Marine Order 11. Heavy Vehicle National Law (HVNL) equivalent does not apply at sea | `hazards.md` §18 |
 | **Helicopter transfers offshore** | Marine Order 57; HUET (Helicopter Underwater Escape Training) required for offshore personnel; survival suits, EBS (Emergency Breathing System) mandatory in many operations |  |
 | **Engine room** | Noise (often exceeds 90 dB(A)); heat; rotating machinery; fuel and oil systems; CO2 fixed fire suppression hazard during release | `hazards.md` §14, §6 |
 | **Mooring operations** | Mooring line failure — high-energy snap-back; AMSA has issued multiple safety alerts following fatalities; mooring SWMS and line condition monitoring essential |  |
@@ -610,16 +615,16 @@ Manual and a Safety Management System (SMS) compliant with CASR Part 119.
 - Transport Safety Investigation Act 2003 (Cth)
 - Transport Safety Investigation Regulations 2003
 
-**Regulator**: Australian Transport Safety Bureau (ATSB) — Commonwealth
-statutory agency. Investigates aviation, rail, and marine transport accidents
-and serious incidents.
+**Agency (no-blame investigator)**: Australian Transport Safety Bureau (ATSB)
+— Commonwealth statutory agency. Investigates aviation, rail, and marine
+transport accidents and serious incidents.
 
 **Critical distinction — ATSB vs CASA:**
 - **ATSB** conducts no-blame safety investigations under TSI Act to identify
   contributing factors and improve safety. Investigation reports are explicitly
   not for the purpose of attributing blame or determining liability
   (TSI Act s 7).
-- **CASA** conducts regulatory enforcement — license suspension or cancellation,
+- **CASA** conducts regulatory enforcement — licence suspension or cancellation,
   prosecution, civil aviation order action. Enforcement uses CASA's own
   investigative powers under the Civil Aviation Act.
 
@@ -668,7 +673,7 @@ Same no-blame investigation principle as ATSB.
 
 | Workplace | Applicable framework |
 |---|---|
-| Aircraft in flight | CASR (AU) / CARs (NZ) — exclusive |
+| Aircraft in flight | CASR (AU) / CARs (NZ) — primary, operationally specific framework; WHS Act / HSWA duties to crew are not ousted (WHS Act s 8 includes aircraft as workplaces) |
 | Cockpit / flight deck (in flight) | CASR — fatigue rules, crew rest, operational procedures |
 | Cabin (in flight) | CASR — cabin crew procedures, in-flight emergencies |
 | Airside ramp | WHS Act / HSWA — concurrent with CASR Part 139 aerodrome requirements |
@@ -909,7 +914,7 @@ administrative, and procedural controls for each.
 | **PC1** | RG1 — unlikely to cause disease in healthy adults | Non-pathogenic E. coli, baker's yeast, low-risk environmental organisms | Basic laboratory; sink for handwashing; no special air handling | Teaching, low-risk research |
 | **PC2** | RG2 — pathogens of moderate hazard, low community risk | Most clinical pathology specimens, Staphylococcus aureus, Salmonella, influenza, HBV, HIV (clinical handling) | Biosafety Cabinet Class II for aerosol-generating procedures; autoclave for waste; restricted access; biohazard signage | Hospital pathology, clinical research, vaccine production |
 | **PC3** | RG3 — pathogens of high hazard, low to moderate community risk | Mycobacterium tuberculosis (cultures), Bacillus anthracis, SARS-CoV-2 (some procedures), Coxiella burnetii | Dedicated facility; HVAC with HEPA filtration; negative pressure; double-door entry; BSC Class II minimum; PPE including respiratory protection; entry controls | Reference laboratories, certain research, specialist diagnostics |
-| **PC4** | RG4 — pathogens of high hazard, high community risk; no effective treatment | Ebola, Marburg, Lassa, Nipah, Hendra (some procedures), Crimean-Congo haemorrhagic fever | Maximum containment; Class III BSC or positive-pressure suit; airlocks; effluent decontamination; very limited number of facilities globally | Australian Centre for Disease Preparedness (formerly AAHL), Geelong — only AU PC4 facility |
+| **PC4** | RG4 — pathogens of high hazard, high community risk; no effective treatment | Ebola, Marburg, Lassa, Nipah, Hendra (some procedures), Crimean-Congo haemorrhagic fever | Maximum containment; Class III BSC or positive-pressure suit; airlocks; effluent decontamination; very limited number of facilities globally | Australian Centre for Disease Preparedness (formerly AAHL), Geelong — the only AU PC4 facility for large animals and exotic zoonotic agents; VIDRL's National High Security Quarantine Laboratory (Melbourne) is also PC4 |
 
 **The AAHL / ACDP Geelong** facility is operated by CSIRO and is one of a small
 number of PC4 facilities globally. Operates under AS/NZS 2243.3 + biosecurity
@@ -1030,7 +1035,7 @@ exposure relevant to clinical, pathology, and education science-lab settings —
 and the national **engineered stone prohibition** (model WHS Regulations;
 prohibition on the manufacture, supply, processing and installation of
 engineered stone benchtops, panels and slabs, commenced **1 July 2024**) — are
-covered in `hazards.md` §2 (RCS/silica). Sector readers touching fabrication,
+covered in `hazards.md` §1–§2 (engineered stone prohibition; RCS/silica). Sector readers touching fabrication,
 processing, or installation work should be routed there for the prohibition
 detail and the current regulation provision.
 
@@ -1233,7 +1238,8 @@ many SME suppliers — is subject to:
 - WHS Act 2011 (Cth) or relevant state WHS Act, depending on the workplace
   location and contracting jurisdiction
 - Defence-specific contractual WHS requirements — typically aligned to
-  AS/NZS 4801 or ISO 45001, with Defence-specific overlays for ordnance,
+  AS/NZS 4801 (withdrawn/superseded — legacy certifications only) or
+  ISO 45001, with Defence-specific overlays for ordnance,
   classified work, and specific platforms (aviation, maritime, weapons)
 - Defence Industry Security Program (DISP) — security accreditation; not a WHS
   framework but intersects (cleared facilities have additional access controls
@@ -1349,8 +1355,9 @@ driven by integrity of containment, not individual injury rates.
   3-5 yearly for the whole unit; immediately for significant change
 - The distinction between MHF (regulated) and "non-MHF but process hazard"
   matters in tender response and insurance pricing
-- Contractor coordination on process sites is high-risk — TLA (Texas City)
-  was a contractor-on-shutdown issue
+- Contractor coordination on process sites is high-risk — the Texas City
+  explosion occurred during ISOM unit startup after a turnaround, killing
+  contractors in poorly sited trailers near the unit
 
 ---
 
@@ -1365,8 +1372,8 @@ and confined space.
 - **Radiocommunications Act 1992** (Cth) + **ACMA** (Australian Communications
   and Media Authority) regulates spectrum, infrastructure
 - **ARPANSA** (Australian Radiation Protection and Nuclear Safety Agency)
-  publishes **RPS S-1** (Radiation Protection Standard for Maximum Exposure
-  Levels to Radiofrequency Fields)
+  publishes **RPS S-1** (Standard for Limiting Exposure to Radiofrequency
+  Fields – 100 kHz to 300 GHz, 2021)
 - **Telecommunications Act 1997** — carrier powers and immunities for
   infrastructure work
 - **AS/NZS 3835** series — *Earth potential rise: protection of
@@ -1434,10 +1441,10 @@ long hours — create distinct WHS challenges.
   Agricultural and Veterinary Chemicals (Control of Use) Act 1992) —
   governs application
 - **Quad bike standards** — ACCC Consumer Goods (Quad Bikes) Safety
-  Standard 2019 (post-NSW Coroner's recommendations); ROPS (rollover
-  protective structures) mandatory on new quad bikes since 11 October 2021
-- **Workers Compensation** — sector-specific schemes in some states
-  (e.g., GIO Agribusiness in NSW)
+  Standard 2019 (post-NSW Coroner's recommendations); operator protection
+  devices (OPDs) mandatory on new general-use quad bikes since 11 October 2021
+- **Workers Compensation** — no agriculture-specific scheme; in NSW cover
+  sits with icare (Nominal Insurer) or a SIRA-licensed specialised insurer
 
 ### Specific hazards
 - **Quad bikes and SSVs** — the single largest fatality cause; rollover,
@@ -1497,7 +1504,7 @@ operating context (long hours, alcohol, late trading) shape WHS profile.
 
 ### Specific hazards
 - **Slips, trips, falls** — wet kitchen floors, beverage spills, grease,
-  steam condensate; cross-reference `case-studies-everyday.md` §5
+  steam condensate; cross-reference `case-studies-everyday.md` §6
 - **Knife and food prep injuries** — laceration, puncture; cumulative MSI
   from prep work
 - **Hot surfaces and oil** — burns from cooking surfaces, deep fryer oil
@@ -1553,7 +1560,7 @@ across age groups, and intersection with child protection.
 - **Education Acts** (state-specific) — schools and TAFE governance
 - **Higher Education Standards Framework** (TEQSA) — university quality
   + safety
-- **Education and Care Services National Regulations 2012** — early
+- **Education and Care Services National Regulations 2011** — early
   childhood
 - **National Quality Framework** (ACECQA) — early childhood quality
 - **Working with Children Checks** — state-specific (NSW WWCC, VIC WWCC,
@@ -1626,7 +1633,7 @@ profile (low-frequency high-consequence robbery; high-frequency MSI).
 
 ### Specific hazards
 - **Slip, trip, fall** — wet floors from cleaning, spills, weather entry;
-  display fixtures; cross-reference `case-studies-everyday.md` §5
+  display fixtures; cross-reference `case-studies-everyday.md` §6
 - **Manual handling** — stock replenishment, deliveries from trucks,
   unboxing, fixture set-up; cross-reference `hazards.md` §17
 - **Robbery and aggression** — physical robbery (cash, controlled goods);
