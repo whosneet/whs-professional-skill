@@ -247,7 +247,8 @@ but distinct from the WHS Act.
   to unjustifiable hardship (s 11). A standalone DDA positive duty,
   mirroring the SDA s 47C duty introduced by the Anti-Discrimination and
   Human Rights Legislation Amendment (Respect at Work) Act 2022, is a
-  Disability Royal Commission recommendation only — not yet law
+  Disability Royal Commission recommendation only — not yet law (as at
+  mid-2026)
 - State equal opportunity Acts (NSW ADA 1977, VIC EOA 2010, QLD ADA 1991,
   etc.) provide parallel protections at state level
 - WHS Act s 19 model primary duty requires the PCBU to ensure SFAIRP the
@@ -372,7 +373,8 @@ s 47 consultation must be meaningful, which means:
 
 A meaningful proportion of workers with disability do not disclose — fearing
 discrimination, career impact, assumption of incompetence. The ABS Survey of
-Disability, Ageing and Carers (SDAC) 2022 — the latest release — found
+Disability, Ageing and Carers (SDAC) 2022 — the latest release (as at
+mid-2026) — found
 5.5 million Australians (21.4%) have disability, a prevalence consistently
 well above employer-reported rates. Implications:
 - Workplaces designed for the disclosed population serve a fraction of the
@@ -511,10 +513,12 @@ providers — Altogether Autism, ADHD NZ, Workbridge.
 
 DDA case law on neurodivergence is developing. Key positions as at mid-2026:
 - Diagnosed autism, ADHD, dyslexia, dyspraxia are accepted disabilities
-  under the DDA s 4 definition (broad — "the malfunction, malformation or
-  disfigurement of a part of the person's body" and "a disorder, illness or
-  disease that affects a person's thought processes, perception of reality,
-  emotions or judgment")
+  under the DDA s 4 definition (broad — limb (f), "a disorder or
+  malfunction that results in the person learning differently from a
+  person without the disorder or malfunction", and limb (g), "a disorder,
+  illness or disease that affects a person's thought processes, perception
+  of reality, emotions or judgment or that results in disturbed
+  behaviour")
 - Reasonable adjustment failures are actionable; unjustifiable hardship
   defence rarely available for low-cost adjustments
 - WHS-related psychological injury claims following sustained failure to
@@ -567,10 +571,11 @@ If not, the training has not landed.
 
 ### Translation governance
 
-**Professional translation** — by an accredited translator:
-- **NAATI accreditation** (National Accreditation Authority for Translators
-  and Interpreters) — the Australian standard; Recognised Practising and
-  Certified Translator levels
+**Professional translation** — by a certified translator:
+- **NAATI certification** (National Accreditation Authority for Translators
+  and Interpreters) — the Australian standard; Certified Translator and
+  Recognised Practising Translator credentials (the latter for languages
+  in which NAATI does not offer certification testing)
 - Industry-specific experience — safety, construction, healthcare,
   manufacturing terminology
 - Knowledge of target audience literacy — translation for university-
@@ -615,7 +620,7 @@ conversation. Widespread and largely uncompensated.
 
 | Status | Practical reality |
 |---|---|
-| Formal interpretation | NAATI-accredited interpreter engaged for specific events (induction, formal training, incident investigation); paid, time-allocated, recognised |
+| Formal interpretation | NAATI-certified interpreter engaged for specific events (induction, formal training, incident investigation); paid, time-allocated, recognised |
 | Informal peer interpretation | Co-worker translating on the fly; not paid, not time-allocated, impacts the peer's own work; quality variable |
 | Bilingual supervisor or trainer | Supervisor delivers training to bilingual or non-English-fluent crew; effective where genuinely bilingual; problematic where second language is conversational only |
 | Bilingual induction crew | Designated bilingual workers conduct induction for new starters in their language group; semi-formal arrangement common in large construction and meat processing |
@@ -714,7 +719,7 @@ The positive duty is the statutory frame. Daily practice includes:
   confidentiality protected, witness support
 - Reporting and analytics — incident classification specifically identifying
   gendered violence, sexual harassment, sex-based harassment; trend
-  visibility; dis-aggregation by department, role, demographic
+  visibility; disaggregation by department, role, demographic
 
 The WHS function holds the hazard management framework. HR and Legal
 typically hold investigation and consequence management. The boundary is a
@@ -933,7 +938,7 @@ produces predictable failures:
 - Psychosocial hazards specific to underrepresented groups (sexual
   harassment, racism, cultural load, ableism) are managed under
   discrimination frameworks but not WHS frameworks; controls are weaker
-- Investigation conducted with HR rigor rather than WHS rigor; root cause
+- Investigation conducted with HR rigour rather than WHS rigour; root cause
   analysis often shallow
 - Boards see workforce engagement and incident data side by side without
   the connection drawn; equity gaps appear as engagement issues rather than
@@ -997,7 +1002,7 @@ gendered violence and equity, confirm:
 
 ### Multi-language communication
 - [ ] CALD workforce composition known for the workplace or sector
-- [ ] Translation by NAATI-accredited translator for high-stakes material
+- [ ] Translation by NAATI-certified translator for high-stakes material
 - [ ] Back-translation verification for safety-critical content
 - [ ] Pictographic standards applied (ISO 7010, GHS, AS 1216, AS 1319)
 - [ ] Induction includes translation, demonstration, supervised practice, comprehension check
@@ -1010,7 +1015,7 @@ gendered violence and equity, confirm:
 - [ ] FW Act Part 3-5A and SDA ss 28B / 28M remedy pathways identified alongside the WHS psychosocial duty
 - [ ] Third-party harassment exposures identified for client / customer / patient-facing roles
 - [ ] WGEA reporting alignment for in-scope employers
-- [ ] Psychological safety data dis-aggregated by gender and intersecting characteristics
+- [ ] Psychological safety data disaggregated by gender and intersecting characteristics
 - [ ] Flexible work refusals reviewed for systemic patterns
 - [ ] Hybrid arrangement equity considered — frontline workforce explicitly addressed
 - [ ] FDV workplace safety planning in place; Fair Work Act ss 106A–106E FDV leave accessible

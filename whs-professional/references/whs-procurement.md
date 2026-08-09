@@ -69,7 +69,8 @@ contractors is where this duty is operationally discharged.
 > file are model WHS. Victoria operates under the OHS Act 2004 / OHS
 > Regulations 2017 (different section and regulation numbering, and a different
 > construction/SWMS regime), and New Zealand under HSWA 2015 (PCBU and
-> "overlapping duties" terminology, with no equivalent numbered s 272). Map
+> "overlapping duties" terminology; the analogue is HSWA s 28 — a duty
+> imposed under the Act cannot be transferred to another person). Map
 > the principle to the applicable instrument in VIC and NZ.
 
 > Cross-reference `legislation.md` §4 for overlapping duties and the 3Cs duty
@@ -119,9 +120,9 @@ answered by site verification, references checked properly, document review
 beyond the surface layer, and engagement with the supplier's WHS leadership.
 
 > Cross-reference `inspections-audits-permits.md` §3 for second-party audit
-> methodology (the principal auditing the contractor's WHS system) and `output
-> -templates.md` §10 "Contractor WHS Requirements Brief" for the contractor
-> WHS requirements brief.
+> methodology (the principal auditing the contractor's WHS system) and
+> `output-templates.md` §10 "Contractor WHS Requirements Brief" for the
+> contractor WHS requirements brief.
 
 ---
 
@@ -618,8 +619,10 @@ must transfer. A formal off-boarding meeting with the WHS function in
 attendance is the standard mechanism.
 
 **Retention of records**:
-- Incident records (minimum 7 years; longer for HRCW, asbestos exposure,
-  workers compensation claims)
+- Incident records — the statutory minimum for notifiable-incident records
+  is 5 years (model WHS Act s 38(7)); 7+ years is recommended practice
+  aligned to limitation periods, and longer again for HRCW, asbestos
+  exposure, and workers compensation claims
 - Training records and HRWL currency
 - Worker exposure and health monitoring records (silica, asbestos, lead,
   noise) — long-term retention obligations: health monitoring reports kept at

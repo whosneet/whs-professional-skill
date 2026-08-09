@@ -39,7 +39,7 @@ WHS Acts and workers compensation Acts are two parallel regulatory regimes
 that apply concurrently to the same workforce. They are not interchangeable
 and their purposes diverge:
 
-| Regime | Purpose | Operative Acts | Regulator |
+| Regime | Purpose | Operative Acts | Scheme bodies |
 |---|---|---|---|
 | **WHS / OHS** | Prevention — duty to manage risks SFAIRP before harm occurs | WHS Act 2011 (model); OHS Act 2004 (VIC); HSWA 2015 (NZ) | SafeWork NSW, WorkSafe VIC, WHSQ, etc. |
 | **Workers Compensation** | Compensation and rehabilitation — restoring an injured worker after harm has occurred | Workers Compensation Act 1987 (NSW); WIRC Act 2013 (VIC); WCRA 2003 (QLD); state equivalents | icare/SIRA, WorkSafe VIC, WorkCover QLD, etc. |
@@ -84,7 +84,7 @@ axes:
 |---|---|---|
 | **Centralised (monopoly)** | Single statutory insurer underwrites all policies; private insurers cannot compete | QLD (WorkCover Queensland), SA (ReturnToWorkSA), NSW (icare — Nominal Insurer), Comcare |
 | **Decentralised (private market)** | Multiple licensed insurers compete; regulator approves and oversees | WA, TAS, NT, ACT (private sector), NSW (self-insurers operating alongside icare) |
-| **Hybrid** | Single statutory insurer with appointed agents handling claims administration | VIC (WorkSafe Victoria + agents EML, Allianz, Gallagher Bassett) |
+| **Hybrid** | Single statutory insurer with appointed agents handling claims administration | VIC (WorkSafe Victoria + agents EML, Allianz, Gallagher Bassett, DXC) |
 
 ### No-fault principle
 Most AU schemes (and NZ ACC) are no-fault: a worker injured in the course
@@ -95,7 +95,8 @@ employer negligence remain available in some jurisdictions subject to
 impairment thresholds or election rules (notably VIC, QLD, WA — and the ACT,
 which retains broad common law access); they are abolished or heavily
 restricted in others (notably the NT, where common law access was abolished,
-SA, and NZ).
+SA, NZ, and NSW — where common law is confined to "work injury damages"
+claims for past and future economic loss only, available at ≥15% WPI).
 
 ### Premium funding model
 Premium is calculated using a three-factor formula common to most schemes:
@@ -225,13 +226,14 @@ issue. Key changes:
   2. Employer notifies agent within **10 days**
   3. Agent makes liability decision within **28 days** of receiving the
      claim
-  4. Acceptance > weekly payments (first 13 weeks at 95% PIAWE; 14–130
-     weeks at 80%; >130 weeks subject to capacity reassessment) +
-     medical + impairment benefits
+  4. Acceptance > weekly payments (first 13 weeks at 95% of pre-injury
+     average weekly earnings (PIAWE); 14–130 weeks at 80%; >130 weeks
+     subject to capacity reassessment) + medical + impairment benefits
   5. Common law damages available if **30% WPI (whole-person impairment)**
      threshold met (serious injury gateway under s 335 WIRC), or via
      narrative test
-- **Notable**: VIC has no journey claims coverage (abolished 2010);
+- **Notable**: VIC has no journey claims coverage for ordinary commutes
+  (excluded since the December 1992 amendments);
   uses OHS not WHS terminology; Workplace Manslaughter offence has
   meaningful interplay with serious WC claims that involve fatal injury
 
@@ -248,8 +250,10 @@ issue. Key changes:
   1. Worker lodges claim directly with WorkCover (online or paper) or
      via employer
   2. WorkCover decides claim within **20 business days** (s 134 WCRA)
-  3. Acceptance > statutory benefits (NWE-based weekly payments,
-     medical, rehabilitation) + lump sum DPI for permanent impairment
+  3. Acceptance > statutory benefits (weekly payments based on normal
+     weekly earnings (NWE), medical, rehabilitation) + lump sum for
+     permanent impairment based on the degree of permanent impairment
+     (DPI)
   4. Statutory and common law are concurrent — worker can pursue common
      law damages after statutory entitlement is exhausted, subject to
      DPI threshold and notice of claim requirements (Personal Injuries
@@ -428,7 +432,7 @@ when:
 - Reparation orders under the Sentencing Act 2002 against a convicted
   employer may include sums payable to the injured worker over and
   above ACC benefits
-- The Accredited Employer Programme requires WorkSafe-aligned safety
+- The Accredited Employers Programme (AEP) requires WorkSafe-aligned safety
   management capability as a precondition
 
 > For HSWA detail (PCBU duty, officer due diligence, notifiable events,
@@ -463,7 +467,10 @@ change the trajectory.
 5. **Investigation and full liability decision** — insurer assesses:
    employment connection, mechanism of injury, medical causation,
    any exclusionary factors (e.g., s 11A NSW for psychological).
-   Timeframes typically 60–90 days from notification
+   Where the insurer is paying on provisional liability, the full
+   decision typically lands 60–90 days from notification; otherwise
+   the statutory determination windows in §3 apply (e.g. NSW 21 days,
+   VIC 28 days, QLD 20 business days)
 6. **Acceptance** — weekly payments continue; medical and related
    expenses paid; RTW planning commences with employer and worker
 7. **RTW management** — graduated return through suitable employment;
@@ -542,7 +549,7 @@ push the experience modification factor up materially:
 
 ### What drives cost (and therefore premium)
 - **Claim duration** matters more than claim count. A short claim
-  costing $5K does relatively little. A 18-month claim costing $250K
+  costing $5K does relatively little. An 18-month claim costing $250K
   is the cost driver
 - **Psychological injury claims** consistently the highest cost per
   claim — see §10
@@ -660,9 +667,10 @@ of the RTW framework in every AU scheme.
   worker who has current work capacity, where reasonably practicable
 - VIC: ss 103–104 WIRC Act — return to work obligations including
   suitable employment
-- QLD: s 232 WCRA — obligation to participate in rehabilitation and
-  RTW; s 232A duty to take all reasonable steps to provide suitable
-  duties
+- QLD: s 228 WCRA — employer's obligation to take all reasonable steps
+  to provide rehabilitation, including suitable duties; the worker's
+  corresponding duty to participate in rehabilitation and mitigate
+  loss is s 232
 - SA: s 18 RTW Act 2014 — provide suitable employment
 - WA: WC&IM Act 2023 Pt 3 — duty to keep the worker's pre-injury
   position, or a comparable suitable position, available (the former
@@ -740,7 +748,7 @@ function.
 
 | Jurisdiction | Threshold | Source |
 |---|---|---|
-| NSW | Category 1 employer — **Average Performance Premium >$50,000**, OR self-insurer, OR insured by a specialised insurer — must appoint an RTW Coordinator and maintain a tailored RTW program; Category 2 (all others) need a standard RTW program | SIRA Guidelines for workplace return to work programs, made under **s 52 WIM Act 1998** |
+| NSW | Category 1 employer — **basic tariff premium >$50,000**, OR self-insurer, OR insured by a specialised insurer and employing >20 workers — must appoint an RTW Coordinator and maintain a tailored RTW program; Category 2 (all others) need a standard RTW program | SIRA Guidelines for workplace return to work programs, made under **s 52 WIM Act 1998** |
 | QLD | s 226 WCRA two-limb test: annual wages above the indexed general threshold, OR employer in a prescribed high-risk industry with wages above a lower indexed threshold (dollar figures indexed annually — verify current WorkCover Queensland / Workers' Compensation Regulator guidance); self-insurers also captured | s 226 WCRA |
 | VIC | Employers at/above the remuneration threshold (~$2.4M rateable remuneration, indexed) must have an RTW coordinator **at all times**; employers below the threshold must appoint one **as soon as a worker has an incapacity** — the obligation is not voluntary at any size | WIRC Act + WorkSafe Victoria guidance |
 | SA | Designated employer thresholds | RTW Act 2014 |
@@ -766,7 +774,8 @@ specific legacy courses/refreshers are no longer the statutory test.
 
 ### Coordinator functions
 - **Initial contact** — typically within 3 business days of injury
-  notification (statutory in most schemes)
+  notification (required by scheme standards of practice in most
+  jurisdictions)
 - **Develop and document the RTW plan** — tripartite plan with worker,
   treating practitioner, and (where required) insurer
 - **Liaise with the insurer** — manage information flow, dispute
@@ -826,7 +835,7 @@ employment-causation test:
 | Jurisdiction | Test | Source |
 |---|---|---|
 | NSW | **From the 2025–26 reforms**: a primary psychological injury must arise from a defined **"relevant event"** AND employment must be **the main contributing factor**. (Former position, pre-reform: employment a "substantial contributing factor" under s 9A.) Verify current SIRA guidance and transitional rules | Workers Compensation Act 1987 as amended by the 2025–26 reform Acts |
-| VIC | Mental injury where employment is the "predominant cause" | s 18 WIRC Act |
+| VIC | Mental injury where employment is the "predominant cause" | s 39(1A) WIRC Act ("mental injury" defined s 3(1); recurrence/aggravation s 40(2A); stress/burnout exclusion s 40(1A)) |
 | QLD | Psychiatric/psychological injury where employment is "the major significant contributing factor" | s 32 WCRA |
 | SA | Psychiatric injury compensable only where employment is **"the significant contributing cause"** (a deliberately higher bar than for physical injury) | s 7(2)(b) RTW Act 2014 (SA) |
 | Comcare | Employment "significantly contributed" to the injury | s 5B SRC Act |

@@ -36,15 +36,15 @@ Part 9.4AAA is the principal corporate whistleblower regime in Australia. In its
 
 ### 2.1 Eligible whistleblower (s 1317AAA)
 
-The definition is broad and intentionally so. An eligible whistleblower is a current or former:
+The definition is broad and intentionally so, but it covers **individuals only** — a company or other entity is never itself an eligible whistleblower (s 1317AAA). An eligible whistleblower is an individual who is or has been a:
 
 | Category | Detail |
 |---|---|
 | Officer | Director, secretary, senior manager, person making or participating in decisions that affect the whole or substantial part of the business |
 | Employee | Current or former employee of the regulated entity |
 | Contractor | Including individuals supplying goods or services to the entity |
-| Supplier | Individuals or entities supplying goods or services |
-| Associate | Of the regulated entity (broad — includes related entities, joint venture partners) |
+| Supplier | Individuals supplying goods or services to the entity, and employees of those suppliers |
+| Associate | An individual who is an associate of the regulated entity (e.g. a director of a related body corporate) |
 | Relative | Spouse, child, dependant, or other relative of any of the above |
 
 A worker on a labour-hire contract is an eligible whistleblower in respect of any regulated entity to which they supply services — this includes their direct employer where it is a regulated entity, and can include the host PCBU where the host is itself a regulated entity (eligibility under s 1317AAA attaches to the discloser's relationship with a specific regulated entity, not automatically to every entity in the supply chain). Former workers retain eligibility — there is no time limit after departure.
@@ -86,7 +86,7 @@ The disclosure must be made to an eligible recipient for the protection to attac
 
 **Public interest and emergency disclosures (s 1317AAD)** — disclosure to a journalist or parliamentarian is protected only where strict preconditions are met. For a *public interest disclosure*: a prior disclosure must have been made to ASIC, APRA, or a prescribed Commonwealth authority; at least 90 days must have passed; the discloser must have reasonable grounds to believe that no adequate action is being or has been taken and that further disclosure would be in the public interest; and the discloser must first give the original recipient body written notification identifying the earlier disclosure and stating the intention to make a public interest disclosure. For an *emergency disclosure*: a prior disclosure must have been made; the discloser must have reasonable grounds to believe the information concerns a substantial and imminent danger to the health or safety of one or more persons or to the financial system; written notification is again required; and the extent of the information disclosed must be no greater than necessary to inform the recipient of the danger. A worker considering going external should obtain advice first — a disclosure that misses the s 1317AAD preconditions loses the protection.
 
-### 2.4 Protections (s 1317AB–AE)
+### 2.4 Protections (ss 1317AAE, 1317AB–AE)
 
 The protections are substantial and automatic — they attach by operation of law once the disclosure meets the requirements, without any formal labelling by the discloser.
 
@@ -179,7 +179,7 @@ The mandatory authorised internal recipient model is a key difference from the c
 
 ### 3.3 Practical implication for WHS
 
-Cth-regulated WHS practitioners (Comcare-covered entities — Commonwealth Public Service, ADF civilian operations, federal statutory authorities, and some self-insured corporations like Australia Post, Telstra) operate under the PID Act regime for public sector WHS matters. A WHS coordinator in a Cth agency receiving a report of a serious safety concealment must understand both their WHS Act obligations and the PID Act pathway — the two operate concurrently, not as alternatives.
+Cth public sector WHS practitioners (Commonwealth Public Service agencies, ADF civilian operations, federal statutory authorities, and Commonwealth companies such as Australia Post) operate under the PID Act regime for public sector WHS matters — Comcare coverage alone does not bring an entity within the PID Act, and privatised Comcare self-insurance licensees sit outside it. A WHS coordinator in a Cth agency receiving a report of a serious safety concealment must understand both their WHS Act obligations and the PID Act pathway — the two operate concurrently, not as alternatives.
 
 ---
 
