@@ -24,6 +24,8 @@ All frequency rates use **1,000,000 exposure hours** as the denominator (AU stan
 |---|---|---|
 | **TRIFR** | (Recordable injuries ÷ hours worked) × 1,000,000 | Recordable (TRI) = Fatality + LTI + RWI + MTI (see note below) |
 | **LTIFR** | (LTIs ÷ hours worked) × 1,000,000 | LTI = 1+ full shift lost |
+| **RWIFR** | (RWIs ÷ hours worked) × 1,000,000 | RWI = restricted/alternate duties without a full shift lost (see definition below) |
+| **MTIFR** | (MTIs ÷ hours worked) × 1,000,000 | MTI = medical treatment beyond first aid; no lost shift, no restricted duties |
 | **AIFR** | (All injuries incl. FAI ÷ hours worked) × 1,000,000 | Broadest measure |
 | **LTISR** | (Lost days ÷ hours worked) × 1,000,000 | Severity measure |
 | **HiPo Rate** | (HiPo events ÷ hours worked) × 1,000,000 | Most predictive lagging metric |
@@ -67,13 +69,13 @@ inconsistent hours calculation is the primary source of misleading frequency rat
 
 ### Rolling 12-Month vs Calendar Year
 Always present both:
-- **Rolling 12 months** from report date: smooths seasonal variation, reflects current
-  performance trajectory
+- **Rolling 12 months** — the 12 closed months ending at the last closed reporting
+  period: smooths seasonal variation, reflects current performance trajectory
 - **Calendar year to date**: aligns with budgets, targets, and year-on-year comparisons
 Point-in-time statistics (single month TRIFR) are misleading at low injury counts —
 a 200-person team works roughly 32,000 hours a month, so a single LTI moves the
 monthly rate by about 30 points (1 ÷ 32,000 × 1,000,000 ≈ 31); the same LTI moves
-the rolling 12-month rate (~384,000 hours) by only ~2.5 points.
+the rolling 12-month rate (~384,000 hours) by only ~2.6 points.
 
 ### SIF / pSIF — Serious Injury & Fatality Classification
 
@@ -398,8 +400,9 @@ differ between AU and NZ populations. Combining without normalisation obscures t
 - `dim_date` — standard date dimension with financial year, rolling periods
 - `dim_contract` — contract details including BU, region, Division
 - `dim_critical_risk` — critical risk categories for consistent classification
-- `dim_injury_type` — LTI, RWI, MTI, FAI, HiPo, etc. with recordable flag
-  (recordable = fatality, LTI, RWI, MTI)
+- `dim_injury_type` — LTI, RWI, MTI, FAI, etc. with recordable flag
+  (recordable = fatality, LTI, RWI, MTI). HiPo is an event-level flag on
+  `fact_incidents`, not an injury type (see §1)
 
 **Calculated measures (DAX patterns)**
 ```
@@ -408,13 +411,22 @@ DIVIDE(
     CALCULATE(COUNTROWS(fact_incidents), 
         fact_incidents[recordable] = TRUE()),
     SUM(fact_hours_worked[hours]),
-    0
+    BLANK()  // not 0 — a zero here reports missing hours data as a genuine TRIFR of 0.0
 ) * 1000000
 
 Rolling12mTRIFR = 
+// Anchor to the last closed period — the last date with posted hours — not
+// LASTDATE(dim_date): a full-calendar date dimension would otherwise drag
+// the 12-month window across open or future months.
+VAR LastClosedPeriod =
+    CALCULATE(
+        LASTNONBLANK(dim_date[date], CALCULATE(SUM(fact_hours_worked[hours]))),
+        REMOVEFILTERS(dim_date)
+    )
+RETURN
 CALCULATE(
     [TRIFR],
-    DATESINPERIOD(dim_date[date], LASTDATE(dim_date[date]), -12, MONTH)
+    DATESINPERIOD(dim_date[date], LastClosedPeriod, -12, MONTH)
 )
 ```
 

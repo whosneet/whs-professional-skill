@@ -26,10 +26,12 @@ Point-in-time:
         --fatalities 0 --lti 6 --rwi 9 --mti 22 --fai 31
 
 Rolling 12-month series from a CSV (columns: period,hours,fatalities,lti,rwi,mti
-and optionally fai, where period is YYYY-MM; rows must be closed months):
+and optionally fai, where period is YYYY-MM; rows must be at least 12 unique,
+consecutive closed months — gaps and duplicates are rejected):
     python3 frequency_rates.py --csv monthly.csv --rolling
 
-Severity rate (days lost per million hours):
+Severity rate (days lost per million hours; point-in-time or aggregated CSV
+only — not valid with --rolling, as monthly rows carry no days-lost column):
     python3 frequency_rates.py --hours 4823500 --days-lost 312 --severity
 """
 
@@ -68,11 +70,37 @@ def all_rates(hours: float, fatalities: int = 0, lti: int = 0, rwi: int = 0,
     return out
 
 
+def _month_index(period) -> int:
+    """Parse a YYYY-MM period into an absolute month number; raises ValueError
+    on any other format."""
+    s = str(period).strip()
+    parts = s.split("-")
+    if len(parts) != 2 or len(parts[0]) != 4 or len(parts[1]) != 2:
+        raise ValueError(f"Invalid period {s!r}: expected YYYY-MM.")
+    try:
+        year, month = int(parts[0]), int(parts[1])
+    except ValueError:
+        raise ValueError(f"Invalid period {s!r}: expected YYYY-MM.")
+    if not 1 <= month <= 12:
+        raise ValueError(f"Invalid period {s!r}: month must be 01-12.")
+    return year * 12 + (month - 1)
+
+
 def rolling_12(rows: list, basis: float = DEFAULT_BASIS) -> list:
     """rows: list of dicts with period (YYYY-MM), hours, and event fields,
-    sorted ascending, closed months only. Returns a rolling 12-month series —
-    each entry is anchored to (ends at) that closed period."""
+    closed months only. Periods must be unique and consecutive — a duplicate,
+    gap, or malformed period raises ValueError. Returns a rolling 12-month
+    series — each entry is anchored to (ends at) that closed period. Fewer
+    than 12 rows yields an empty series (the CLI rejects that with an error)."""
     rows = sorted(rows, key=lambda r: r["period"])
+    months = [_month_index(r["period"]) for r in rows]
+    for prev, cur, row in zip(months, months[1:], rows[1:]):
+        if cur == prev:
+            raise ValueError(f"Duplicate period {row['period']!r}: "
+                             "rolling input needs unique months.")
+        if cur != prev + 1:
+            raise ValueError(f"Gap in periods before {row['period']!r}: "
+                             "rolling input needs consecutive months.")
     series = []
     for i in range(11, len(rows)):
         window = rows[i - 11: i + 1]
@@ -105,17 +133,23 @@ def main() -> int:
                    help="Total days lost (enables severity rate)")
     p.add_argument("--severity", action="store_true",
                    help="Require severity rate (errors if --days-lost missing)")
-    p.add_argument("--csv", help="Monthly CSV: period,hours,fatalities,lti,rwi,mti")
+    p.add_argument("--csv", help="Monthly CSV: period,hours,fatalities,lti,rwi,mti[,fai]")
     p.add_argument("--rolling", action="store_true",
                    help="Output rolling 12-month series from --csv")
     a = p.parse_args()
 
+    if a.rolling and (a.severity or a.days_lost is not None):
+        p.error("--severity/--days-lost cannot be combined with --rolling: "
+                "monthly rolling rows carry no days-lost column")
     if a.severity and a.days_lost is None:
         p.error("--severity requires --days-lost")
 
     if a.csv:
         rows = _read_csv(a.csv)
         if a.rolling:
+            if len(rows) < 12:
+                p.error("--rolling requires at least 12 monthly rows; "
+                        f"CSV has {len(rows)}")
             result = rolling_12(rows, basis=a.basis)
         else:
             hours = sum(float(r["hours"]) for r in rows)

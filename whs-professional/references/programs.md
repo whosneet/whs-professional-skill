@@ -97,7 +97,7 @@ CORE DISCUSSION (8–10 min)
   - 2–3 discussion questions designed to surface WAD, not test procedure knowledge
   - Facilitator guidance notes: what to listen for, common misconceptions to address
 
-ACTIONS (2–3 min)
+ACTIONS (2 min)
   - What will we do differently as a result of this discussion?
   - What will we check or report before next week?
   - Record commitments where practicable
@@ -384,7 +384,7 @@ Workers
 |---|---|---|
 | Content development | WHS team time + design | Allow 4–6 hours per weekly toolbox session |
 | Collateral production | Print run + fulfilment | Jigsaw posters: quote based on size and quantity |
-| Facilitator training | WHS team time + venue | 1 day per cohort of 20–30 facilitators |
+| Facilitator training | WHS team time + venue | Three sessions totalling 7+ hours per cohort of 20–30 facilitators (see §4) |
 | Tracking system | Dev time if bespoke | Python system: 20–40 hours one-time development |
 | Video production | Worker time + minimal editing | Budget for 2–4 hours per video including debrief |
 | Recognition/awards | Contract manager awards | Keep modest; symbolic recognition often sufficient |

@@ -76,7 +76,7 @@ A WHS strategy that doesn't name the organisational strategy document(s) it alig
 
 The single most common strategic failure in WHS strategy is anchoring to TRIFR as the primary outcome measure. TRIFR is a rare-event statistic that fluctuates randomly at most organisational sample sizes. It is necessary for external benchmarking and regulator transparency, but it is a terrible strategic objective on its own.
 
-A second caution applies whenever TRIFR or LTIFR is used for **external** benchmarking: the definitions and denominators vary by organisation and scheme — per million hours worked versus per 200,000 (or per 100) hours, what counts as "recordable" versus "lost time", and where the medical-treatment classification threshold sits. A rate is only comparable like-for-like once the calculation basis is confirmed; comparing two TRIFRs on different denominators or classification rules is meaningless.
+A second caution applies whenever TRIFR or LTIFR is used for **external** benchmarking: the definitions and denominators vary by organisation and scheme — per million hours worked versus per 200,000 hours (equivalent to per 100 full-time workers per year), what counts as "recordable" versus "lost time", and where the medical-treatment classification threshold sits. A rate is only comparable like-for-like once the calculation basis is confirmed; comparing two TRIFRs on different denominators or classification rules is meaningless.
 
 A balanced objective set covers four domains:
 
@@ -290,7 +290,7 @@ The conventional anti-pattern: a 1,500-worker high-risk operation with a single 
 | Model | Description | Strengths | Weaknesses |
 |---|---|---|---|
 | **Shared service** | WHS team sits centrally; serves the business on a service-request basis | Consistency, efficiency, scale economies on technical work | Distance from operational context; lower influence; reactive |
-| **Embedded BP** | WHS advisors physically and reportingly embedded in business units | Operational context, influence, proactive engagement | Inconsistency across BUs; cultural capture; harder to drive group standards |
+| **Embedded BP** | WHS advisors physically embedded in business units, with reporting lines into them | Operational context, influence, proactive engagement | Inconsistency across BUs; cultural capture; harder to drive group standards |
 | **Hybrid (matrix)** | BPs embedded in business + technical specialists central | Best of both — most common in mid-large organisations | Reporting line tension; requires clear protocols |
 
 The matrix model is the dominant pattern in AU/NZ organisations of 1,000+ workers. The key design choices:
@@ -654,7 +654,7 @@ Activation thresholds — the conditions that elevate an incident or issue into 
 | Trigger | Notes |
 |---|---|
 | Multiple fatality event | Always crisis status; activate immediately |
-| Single fatality with significant aggravating factor | Aggravating: viral media, executive presence, contractor with established reputation, indigenous worker, young worker, apprentice |
+| Single fatality with significant aggravating factor | Aggravating: viral media, executive presence, contractor with established reputation, Indigenous worker, young worker, apprentice |
 | Industrial manslaughter charge or investigation | Highest-exposure trigger; potential officer prosecution |
 | Hostile regulator action | Inspector with stated intent to prosecute; investigation team site presence |
 | Prohibition notice with material operational impact | Sites stopped; revenue impact; cascading customer impact |
@@ -691,7 +691,7 @@ Crisis Manager (named in plan; typically Group Head WHS, COO,
 
 Key principles:
 
-- **The Crisis Manager is not always the WHS leader.** For industrial manslaughter or major regulatory exposure, General Counsel often leads. For media-dominant crises, the CEO or Communications lead. For operational continuity crises, the COO.
+- **The Crisis Manager is not always the WHS leader.** For industrial manslaughter or major regulatory exposure, General Counsel often leads. For media-dominant crises, the Communications lead. For operational continuity crises, the COO.
 - **The CEO is always the Sponsor.** They may not be in the room every day, but they own the strategic decisions and the public positions.
 - **External advisors are engaged early.** Specialist crisis lawyers, crisis communications firms, forensic engineers, family liaison specialists — engage in the first 24 hours, not when the situation has compounded.
 - **Cadence is daily for the first week, then steps down.** Daily CMT meeting (often twice daily for the first 48 hours) with a clear agenda, action register, and chronology document.
@@ -717,7 +717,7 @@ This is not cynical — done badly it is far worse than not done at all, because
 
 ### Coronial process management
 
-For workplace fatalities, the coronial process is the dominant external proceeding for the 12–36 months following the event. Coroners have wide investigative powers and produce findings that become public record. The discipline:
+For workplace fatalities where no WHS prosecution is on foot, the coronial process is typically the dominant external proceeding in the 12–36 months following the event; where the regulator prosecutes, the inquest is generally suspended until the prosecution concludes and may run years later. Coroners have wide investigative powers and produce findings that become public record, but cannot make findings of criminal or civil liability. The discipline:
 
 - **Engage external coronial counsel early.** This is specialist work — not standard commercial litigation. Use lawyers with demonstrated coronial inquest experience in your jurisdiction.
 - **Cooperate fully with the coroner's investigation.** Adversarial posture is counterproductive — the coroner has full powers and is not the regulator. Cooperation supports the family and produces better findings.
@@ -725,7 +725,7 @@ For workplace fatalities, the coronial process is the dominant external proceedi
 - **Recommendations from the coroner are public.** The organisation will be expected to respond publicly to any recommendations directed at it. Develop response positions in advance of the inquest, not afterward.
 - **The family is present and represented.** Family counsel will ask the questions the family wants asked. Engagement with the family throughout the coronial period — through family liaison — affects the questions and the dynamic.
 
-In most AU jurisdictions, coronial findings on workplace fatalities are referenced in subsequent prosecutions (or absence of prosecutions). The coronial process is also where the systemic issues become matter of public record — handled well, it can be a genuine learning opportunity for the organisation. Handled poorly, it locks in a narrative that follows the organisation for years.
+Because a WHS prosecution generally runs before the inquest, coronial findings rarely feed into prosecution decisions; the coroner's role is to establish the cause and circumstances of the death and make prevention recommendations — not to determine criminal or civil liability — though a coroner can refer conduct to the regulator or the DPP. The coronial process is also where the systemic issues become matter of public record — handled well, it can be a genuine learning opportunity for the organisation. Handled poorly, it locks in a narrative that follows the organisation for years.
 
 ### Media management
 
