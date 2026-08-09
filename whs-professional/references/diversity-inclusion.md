@@ -309,9 +309,10 @@ adjustments approved but not delivered are a frequent audit finding.
 ### Conversation tools and funded resources
 
 Australian Disability Network (renamed from the Australian Network on
-Disability, with the new name taking effect 15 January 2024) and its
-Inclusion@Work program provide structured
-conversation tools for managers initiating adjustment discussions:
+Disability, with the new name taking effect 15 January 2024) — whose employer
+programs include the Disability Confident Recruiter (DCR) program, the Access
+and Inclusion Index, Stepping Into internships, and PACE mentoring — provides
+structured conversation tools for managers initiating adjustment discussions:
 - Adjustment conversation guide — questions that elicit information without
   requiring disclosure beyond worker choice
 - Permissible questions under DDA and Privacy Act 1988
@@ -502,8 +503,8 @@ Manager capability is the highest leverage point. Training should cover:
 - Recognising signs of distress (burnout, masking exhaustion, sensory
   overload)
 - Responding to disclosure — what to say, what to do, what not to ask
-- Adjustment conversation tools — Australian Disability Network
-  Inclusion@Work resources
+- Adjustment conversation tools — Australian Disability Network employer
+  resources (Disability Confident Recruiter, Access and Inclusion Index)
 
 AU providers — Untapped Group, Specialisterne, Aspect (Autism Spectrum
 Australia), DXC Dandelion, individual neurodivergent-led consultancies. NZ

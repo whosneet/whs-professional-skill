@@ -453,11 +453,15 @@ common workplace wellbeing interventions is mixed at best:
 | **Yoga, meditation, fitness classes at work** | Wellbeing benefit for participants; selection effect; no evidence of broader workforce mental health impact |
 | **Wearables and tracking** | No robust evidence of mental health benefit; privacy and surveillance concerns |
 
-The 2024 *Workplace Wellbeing* paper from the University of Oxford (William J Fleming),
-analysing 46,000 UK workers, found **no measurable benefit** from individual-level
+William J Fleming's 2024 University of Oxford study ("Employee well-being outcomes
+from individual-level mental health interventions: Cross-sectional evidence from the
+United Kingdom", *Industrial Relations Journal* 55(2): 162–182), analysing 46,336 UK
+workers across 233 organisations, found **no measurable benefit** from individual-level
 wellbeing interventions (mindfulness, resilience training, wellbeing apps) — the only
-intervention associated with improved wellbeing was reduced working hours. This finding
-was widely reported and is influencing program design choices in 2024–2026.
+intervention positively associated with wellbeing was charity or volunteering work.
+Fleming points to organisational-level change (workload, scheduling, management
+practice, job design) as the more promising lever. This finding was widely reported
+and is influencing program design choices in 2024–2026.
 
 The implication for practitioners is not that wellbeing programs are pointless — it is
 that the burden of evidence is on those proposing the program to articulate the theory of
@@ -892,9 +896,12 @@ jurisdictions are legislating on their own timetables:
 |---|---|---|
 | **NSW** | WHS Act 2011 (NSW) s 272A (inserted 2020) | Offence to enter into, provide, or take the benefit of insurance or indemnity for a WHS monetary penalty; officers involved in the contravention are personally liable |
 | **WA** | WHS Act 2020 (WA) s 272A | Equivalent prohibition; in force with the Act from 31 March 2022 |
-| **VIC** | OHS Act 2004 (VIC) ss 148–149 (inserted 2021) | Insurance and indemnity arrangements for OHS monetary penalties are void; entering into, providing, or benefiting from them is an offence |
+| **VIC** | OHS Act 2004 (VIC) ss 148A–148B (inserted by the Workplace Safety Legislation and Other Matters Amendment Act 2021 (Vic)) | s 148A voids insurance and indemnity terms for OHS pecuniary penalties (from 22 September 2021); s 148B makes entering into, providing, or benefiting from such cover an indictable offence (from 22 September 2022); defence-cost cover remains lawful |
 | **Cth** | WHS Act 2011 (Cth) ss 272A–272B (inserted by the Work Health and Safety Amendment Act 2023 (Cth), Act No. 9 of 2023) | Offence to enter into, provide, or take the benefit of insurance or indemnity for a WHS monetary penalty (s 272A); officers of a body corporate knowingly concerned in the contravention are personally liable (s 272B). Defence and inquiry/investigation costs remain insurable |
-| **Model Act** | s 272A (2022 amendment per the Boland review) | Adopted into the model law; remaining harmonised jurisdictions adopt on their own timetables — check current adoption status |
+| **ACT** | WHS Act 2011 (ACT) ss 272A–272B | Equivalent prohibition; in force from 31 July 2023 |
+| **QLD** | WHS Act 2011 (QLD) s 272A | Offence to enter into or provide insurance or indemnity for a WHS monetary penalty from 28 September 2024; the taking-the-benefit limb commenced 28 September 2025 |
+| **SA** | WHS Act 2012 (SA) ss 272A–272B | Equivalent prohibition; in force from 1 September 2024 |
+| **Model Act** | s 272A (2022 amendment per the Boland review) | Adopted into the model law; TAS and the NT had not commenced equivalent bans as at mid-2026 — check current adoption status |
 
 What remains lawfully insurable: **defence and investigation costs** (legal
 representation, regulator interviews, coronial inquests) — and penalties only under
@@ -996,8 +1003,9 @@ WHS-relevant exclusions: **deliberate criminal conduct** is typically excluded (
 conviction for industrial manslaughter would prevent indemnity for civil consequences,
 though defence costs may be funded until conviction). **Insured vs insured** exclusion
 prevents claims by one director against another. Pollution exclusions vary. And in NSW,
-VIC, WA, and the Commonwealth jurisdiction, WHS monetary penalties are uninsurable by
-statute regardless of policy wording — D&O sections describing penalty cover must say so.
+VIC, QLD, WA, SA, the ACT, and the Commonwealth jurisdiction, WHS monetary penalties are
+uninsurable by statute regardless of policy wording (TAS and the NT had not commenced
+equivalent bans as at mid-2026) — D&O sections describing penalty cover must say so.
 
 The 2020–2024 period saw significant D&O market hardening — premiums rose, capacity
 contracted, and exclusion language tightened. Post-2024, the market has stabilised but

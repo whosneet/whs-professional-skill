@@ -317,13 +317,14 @@ specialist technical capability.
 **Primary instruments:**
 - Work Health and Safety Act 2012 (SA) + **Chapter 10 of the Work Health and
   Safety Regulations 2012 (SA)** — this is the operative mine safety regime in
-  SA. Since 2014, mine-specific health and safety has been regulated through
-  Chapter 10 of the general WHS Regulations rather than a standalone mining
-  safety statute
+  SA. Since 1 January 2013, mine-specific health and safety has been regulated
+  through Chapter 10 (Mines) of the general WHS Regulations rather than a
+  standalone mining safety statute
 - Mines and Works Inspection Act 1920 (SA) — historically the principal mining
-  safety Act, but now largely of historical interest only: its subordinate
-  regulations were revoked in 1998 and operative mine safety duties now sit
-  under the WHS Act / Regulations
+  safety Act, now largely of historical interest: its subordinate Mines and
+  Works Inspection Regulations were made in 1998 (remade 2013), and operative
+  mine safety duties moved to the WHS Act 2012 (SA) and WHS Regulations
+  Chapter 10 (Mines) from 1 January 2013
 - Petroleum and Geothermal Energy Act 2000 (SA)
 - Radiation Protection and Control Act 2021 (SA) — applies to uranium operations
 
@@ -344,7 +345,10 @@ WHS, radiation protection, and uranium-specific regulatory regimes.
 ### 2.5 NT, TAS, VIC — Mining
 
 **NT**: Mining Management Act 2001 (NT) + WHS (National Uniform Legislation)
-Act 2011 (NT). Regulator: Department of Industry, Tourism and Trade.
+Act 2011 (NT). Mining WHS is regulated by **NT WorkSafe** under the WHS (NUL)
+Act; the Mining Management Act 2001 is administered by the **Department of
+Mining and Energy** (established September 2024 — verify the current host
+department at time of use).
 
 **TAS**: Mines Work Health and Safety (Supplementary Requirements) Act 2012 +
 WHS Act 2012 (Tas). Regulator: WorkSafe Tasmania.
@@ -424,7 +428,9 @@ Control inspections verify compliance for vessels in AU ports.
 
 **Primary instruments:**
 - Offshore Petroleum and Greenhouse Gas Storage Act 2006 (Cth) (OPGGS Act)
-- Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2009
+- Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2024
+  (remade from and replacing the 2009 Safety Regulations; substantive
+  provisions in effect from 12 June 2025)
 - Offshore Petroleum and Greenhouse Gas Storage (Environment) Regulations 2023
   (remade from and replacing the 2009 Environment Regulations)
 
@@ -532,8 +538,9 @@ workers. The 3Cs duty under WHS Act s 46 applies between these duty holders.
 
 **Stevedoring duties** — stevedoring runs under the general WHS Act / HSWA as
 the operative framework, supported by the Safe Work Australia model Code of
-Practice *Stevedoring* (container handling, mobile plant, ship/shore interface,
-traffic management on the wharf). The vessel/shore interface is coordinated with
+Practice *Managing risks in stevedoring* (container handling, mobile plant,
+ship/shore interface, traffic management on the wharf). The vessel/shore
+interface is coordinated with
 AMSA (vessel safety, gangway and access, cargo-handling gear under Marine Order
 32) and the port authority. Concurrent PCBU duties between the stevedore, vessel
 operator, and port authority are discharged through the 3Cs (WHS Act s 46).
@@ -600,7 +607,8 @@ Authority (which had combined regulatory and service provision functions).
 | Part 137 | Aerial application (agricultural spraying and spreading operations) |
 | Part 138 | Aerial work operations |
 | Part 139 | Aerodromes |
-| Part 142 | Flight training |
+| Part 141 | Flight training — non-integrated recreational, private and commercial pilot training |
+| Part 142 | Integrated and multi-crew pilot flight training; contracted recurrent training and checking |
 | Part 145 | Approved maintenance organisations |
 | Part 147 | Aircraft maintenance training organisations |
 | Part 175 | Aeronautical information service |
@@ -699,7 +707,7 @@ hazardous substances) is the general workplace set.
 | **Hypoxia for high-altitude maintenance** | Cabin pressurisation testing, work on aircraft at altitude on test flights, work in pressure chambers. Hypoxia onset is insidious — supplemental oxygen and time-of-useful-consciousness awareness required |
 | **Fatigue** | Flight-crew fatigue is regulated under **CAO 48.1 Instrument 2019**: operators either fly to the prescriptive flight/duty/rest limits (Appendices 1–6) or adopt an **optional Fatigue Risk Management System (FRMS)** under Appendix 7 with CASA approval — FRMS is a pathway, not a mandate. CASR Part 119 mandates an SMS (fatigue management sits within it). International long-haul operations particularly complex |
 | **Chemical exposure** | Avionics solvents, hydraulic fluid (Skydrol — irritant), de-icing fluids, fuel vapours, composite materials (carbon fibre dust during repair) |
-| **Lasers** | Inadvertent laser strikes from ground are a hazard to flight crew (CASA has prosecution powers under Criminal Code); industrial lasers in MRO have own controls |
+| **Lasers** | Laser strikes from ground are a hazard to flight crew — investigated by police (AFP/state) and prosecuted by the CDPP or state DPPs under the Crimes (Aviation) Act 1991 (Cth) (endangering/prejudicing safe operation, up to 20 years' imprisonment) and state laser-pointer laws; CASA's role is safety education and reporting. Industrial lasers in MRO have own controls |
 | **Lithium batteries** | Cargo lithium battery fires — regulated under IATA Dangerous Goods Regulations and ICAO Technical Instructions; aircraft cargo fires from lithium have caused multiple hull losses |
 
 **Practical implications:**
@@ -725,7 +733,9 @@ regulator. Unlike mining, rail has achieved cross-jurisdictional harmonisation.
   uniformly across all AU states and territories
 - Rail Safety National Law National Regulations 2012 — single set of
   regulations adopted in each jurisdiction
-- Approved Codes of Practice (ACOPs) issued by ONRSR
+- Code of Practice: Train Visibility at Level Crossings (December 2024) — the
+  first ministerially approved code under the RSNL, admissible as evidence of
+  RSNL compliance; industry standards and codes are developed by RISSB
 
 **Regulator**: Office of the National Rail Safety Regulator (ONRSR).
 Established 20 January 2013 under an intergovernmental agreement; took on
@@ -741,11 +751,12 @@ all states and territories.
 
 ### 5.2 Rail Transport Operator (RTO) accreditation
 
-**Two types of accreditation** (RSNL s 62):
-- **Accredited Rail Transport Operator** — operator of rolling stock or rail
-  infrastructure; full accreditation
-- **Registered Rail Transport Operator** — limited operations (private sidings,
-  some heritage railways); reduced obligations
+**Two mechanisms** (RSNL Part 3):
+- **Accreditation** (Division 4) — rail transport operators (rail
+  infrastructure managers and rolling stock operators); operating without
+  accreditation is an offence (s 62)
+- **Registration** (Division 5) — rail infrastructure managers of private
+  sidings; a lighter regime (heritage operators are generally accredited)
 
 **Accreditation requirements** include:
 - Demonstrated competency to manage rail safety
@@ -835,8 +846,11 @@ to the WHS regulator.
 
 ### 5.7 ATSB rail investigation
 
-ATSB has national rail investigation jurisdiction since the post-2009
-restructure (consolidating from state rail safety investigators). ATSB
+ATSB became the national rail safety investigator with the 2013 national rail
+reform (alongside ONRSR's establishment). NSW's Office of Transport Safety
+Investigations (OTSI) and Victoria's Chief Investigator, Transport Safety
+conduct rail investigations in their states under the TSI Act on the ATSB's
+behalf, under a tri-partite collaboration agreement in place since 2013. ATSB
 investigates serious accidents and incidents under the TSI Act with the same
 no-blame principle as aviation and maritime. ONRSR investigates for
 regulatory enforcement purposes. As with aviation, parallel investigations
@@ -872,7 +886,7 @@ national rail safety law equivalent to Australia's RSNL.
 
 | Hazard | Sector context | Cross-reference |
 |---|---|---|
-| **Track worker pedestrian/train interface (PTI)** | Highest-frequency rail fatality cause; worker struck by train. Controls: track possessions, lookouts, separation, exclusion zones, automatic warning systems. RSNL ACOP on Track Worker Safety | `hazards.md` §12 |
+| **Track worker pedestrian/train interface (PTI)** | Highest-frequency rail fatality cause; worker struck by train. Controls: track possessions, lookouts, separation, exclusion zones, automatic warning systems. ONRSR guidance and RISSB standards (no RSNL ACoP exists for track worker safety) | `hazards.md` §12 |
 | **Level crossing** | Collision with road vehicles or pedestrians. Active controls (booms, lights), passive controls (signage), grade separation. Public-facing safety integration with road authorities | |
 | **Electrical (overhead and third rail)** | Overhead 1.5 kV DC, 25 kV AC; third rail 750 V DC. Approach distances, isolation, earthing procedures. AS 7470 (overhead line systems) | `hazards.md` §10 |
 | **Fatigue** | Driver fatigue in long single-driver runs; controller fatigue in 24/7 operations. RSNL Fatigue Management Standard; FRMS | `hazards.md` §18 |
@@ -1123,7 +1137,7 @@ operational activities.
   members; covers service-specific offences
 - Work Health and Safety Act 2011 (Cth) — applies to Defence as a Commonwealth
   entity PCBU; covers civilian and military workforce
-- Defence Regulations 2016
+- Defence Regulation 2016
 - Defence (Inquiry) Regulations 2018
 
 **Regulator**: Comcare administers the Commonwealth WHS Act 2011 in respect of
@@ -1197,12 +1211,13 @@ the relevant Defence policy.
 
 Defence ordnance handling is governed by a specialised framework:
 
-- **Defence Explosive Ordnance Publication (DEOP) 101** — Department of
-  Defence Explosive Ordnance Regulations
-- **Defence Explosive Ordnance Safety Branch (DEOSB)** — the regulatory
-  authority within Defence for ordnance safety
-- **State Munitions Officers (SMOs)** — appointed officers with statutory
-  ordnance safety functions; competency-certified
+- **eDEOP 101 — Defence Explosive Ordnance Publication 101, *Department of
+  Defence Explosives Regulations*** — the governing Defence explosives
+  publication
+- **Explosive Ordnance Safety Regulator (EOSR)** — the technical regulator
+  role for explosive ordnance safety within Defence, held by the **Director
+  General Explosive Ordnance (DGEO)**, consolidating the Directorate of
+  Ordnance Safety's technical-regulator functions
 - Storage, handling, transport, and disposal subject to dedicated quantity-
   distance rules, magazine standards, and personnel competency requirements
 
@@ -1404,7 +1419,9 @@ and confined space.
 
 ### Operator structure in AU
 - **Carriers** — Telstra, Optus, TPG, Vocus operate physical infrastructure
-- **Tower companies** — Axicom, Indara, ATC own and lease tower
+- **Tower companies** — Amplitel (Telstra), Indara (formerly Australia Tower
+  Network + Axicom, merged 2022), and Waveconn (formerly Stilmark; acquired
+  American Tower's Australian sites in 2024) own and lease tower
   infrastructure to carriers
 - **Service contractors** — third-party tower riggers, antenna installers,
   electrical contractors deliver the work
@@ -1555,8 +1572,9 @@ across age groups, and intersection with child protection.
   ensure their safety
 - **Child Wellbeing and Safety legislation** — state-specific Reportable
   Conduct schemes (NSW Children's Guardian Act 2019; VIC Reportable Conduct
-  Scheme; QLD Education and Care Services Act 2013) — mandatory reporting
-  intersection
+  Scheme; QLD Child Safe Organisations Act 2024 — child safe standards phased
+  from 1 October 2025, reportable conduct scheme from 1 July 2026, QFCC
+  oversight) — mandatory reporting intersection
 - **Education Acts** (state-specific) — schools and TAFE governance
 - **Higher Education Standards Framework** (TEQSA) — university quality
   + safety
@@ -1571,8 +1589,9 @@ across age groups, and intersection with child protection.
   university; reagent storage, fume cupboards, eye/safety showers; PC2
   upwards in research (cross-reference §6)
 - **Physical education and sport** — sprains, fractures, head injury;
-  contact sport concussion management (post-Storm and other concussion
-  litigation context)
+  contact sport concussion management (in the context of the AFL concussion
+  class action — Rooke v AFL, Supreme Court of Victoria, filed 2023 — and
+  related player litigation)
 - **Excursions and outdoor education** — risk assessment for off-site
   activities; water, climbing, camp, transport
 - **Adventure activities by school providers** — Adventure Activities

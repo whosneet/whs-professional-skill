@@ -567,7 +567,8 @@ demand it.
 - *Drift into Failure* (2011) — slow, incremental departure from safe operating
   envelopes; failure is normal in complex systems undergoing competitive pressure.
   Connects to systemic goal management.
-- *Just Culture: Balancing Safety and Accountability* (2007; 3rd ed. 2016) —
+- *Just Culture* (2007, subtitled *Balancing Safety and Accountability*; 3rd
+  ed. 2016 retitled *Restoring Trust and Accountability in Your Organization*) —
   distinguishes retributive from restorative responses to incidents. Restorative
   just culture asks "who is hurt, what do they need, whose obligation is it to
   meet that need?"

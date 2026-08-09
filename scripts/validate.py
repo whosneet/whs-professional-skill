@@ -196,6 +196,7 @@ for p in skill_md_files:
 SPELLING_ALLOW = (
     "international labour organization",   # ILO official name
     "the fearless organization",           # Edmondson book title
+    "accountability in your organization", # Dekker Just Culture 3rd ed. title
     "behavior-based safety process",       # Krause/Hidley/Hodson book title
     "journal of organizational behavior",  # journal name
     "accredited employer programme",       # ACC (NZ) official program names

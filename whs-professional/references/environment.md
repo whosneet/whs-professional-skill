@@ -317,17 +317,20 @@ Resource consents are administered by:
 
 **RMA reform context (2024–2026)**: The current Government repealed the
 Natural and Built Environment Act 2023 and Spatial Planning Act 2023 (passed
-under the previous Government) and is replacing the RMA with two new statutes
-based on the enjoyment of property rights and natural environment limits.
-Transitional provisions apply; the RMA remains the operative statute through
-the transition. Confirm current status before producing advice that depends on
-specific statutory provisions.
+under the previous Government) and is replacing the RMA with two new statutes —
+the **Planning Bill** and the **Natural Environment Bill**, introduced December
+2025 (select committee reported 20 July 2026; not yet passed as at August 2026)
+— based on the enjoyment of property rights and natural environment limits.
+The RMA remains the operative statute through the transition. Confirm current
+status before producing advice that depends on specific statutory provisions.
 
 ### 3.2 Climate Change Response Act 2002 and the NZ ETS
 
 The Climate Change Response Act establishes:
 - The 2050 emissions targets (net zero for all GHGs except biogenic methane;
-  10% reduction in biogenic methane by 2030 and 24–47% by 2050)
+  10% reduction in biogenic methane by 2030 and 14–24% below 2017 levels by
+  2050, as reset by the Climate Change Response (2050 Target and Other
+  Matters) Amendment Act 2025; a further methane target review is due by 2040)
 - Emissions budgets set by the Climate Change Commission
 - The **New Zealand Emissions Trading Scheme (NZ ETS)**
 
@@ -552,10 +555,10 @@ s 148/s 152): **$4M corporation / $1M individual** (increased from the former
 $2M / $500K by the Environment Protection Legislation Amendment (Stronger
 Regulation and Penalties) Act 2024 (NSW), in force for offences committed on or
 after 3 April 2024), **plus a daily continuing-offence penalty** — for serious
-offences currently $240,000/day for a corporation and $120,000/day for an
-individual per NSW EPA guidance. The 2024 Act increased daily continuing-offence
-penalties; confirm the amount applicable to the specific offence against the
-current POEO Act s 152.
+offences $480,000/day for a corporation and $240,000/day for an individual per
+NSW EPA guidance (as at August 2026; the 2024 Act doubled the daily
+continuing-offence penalties). Confirm the amount applicable to the specific
+offence against the current POEO Act s 152.
 
 ### 6.4 Internal Escalation Parallel to WHS
 
@@ -822,7 +825,7 @@ Reportable Priority Waste under EP Act 2017); WA Environmental Protection
 |---|---|---|
 | **NSW** | WasteLocate + trackable waste consignment tracking (two distinct systems) | **WasteLocate**: asbestos waste (loads >100 kg or >10 m² of sheeting) and waste tyres. **Separately**: POEO trackable wastes (scheduled liquid/hazardous wastes) move under the EPA's consignment-tracking requirements |
 | **VIC** | Reportable Priority Waste (RPW) | EPA Waste Tracker (electronic) |
-| **QLD** | Regulated Waste Tracking | QLDe-Waste tracker; required for listed waste >250 kg/L |
+| **QLD** | Regulated Waste Tracking | DETSI Online Services waste tracking (electronic waste transport certificates) under the EP Regulation 2019; required for listed waste >250 kg/L |
 | **WA** | Controlled Waste | Controlled Waste Tracking System (CWTS) |
 
 Movement of **interstate** controlled waste is regulated under the **Movement of

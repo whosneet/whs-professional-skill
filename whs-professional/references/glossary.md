@@ -175,7 +175,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **NGER** | National Greenhouse and Energy Reporting (Act 2007) — Scope 1 and 2 emissions reporting (Scope 3 is not mandated under NGER). |
 | **NPI** | National Pollutant Inventory — annual public-domain reporting of substance emissions. |
 | **NEPM** | National Environment Protection Measure — Council-set environmental standard (e.g., ASC NEPM for contamination). |
-| **EPA** | Environment Protection Authority (varies by state — NSW, VIC, SA, TAS, ACT, NT have EPAs; QLD uses DES; WA uses DWER). |
+| **EPA** | Environment Protection Authority (varies by state — NSW, VIC, SA, TAS, ACT, NT have EPAs; QLD uses DETSI (formerly DES, renamed November 2024); WA uses DWER). |
 | **GED** | General Environmental Duty — overarching duty in VIC, QLD, SA, NT environmental Acts to take reasonably practicable measures to avoid harm. |
 | **EPL** | Environment Protection Licence — issued by state EPA for scheduled premises or activities. |
 | **RMA** | Resource Management Act 1991 (NZ) — primary NZ environmental statute. |
@@ -207,7 +207,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **NWE** | Normal Weekly Earnings — the earnings basis for weekly compensation payments in the QLD (WCRA) and Comcare (SRC Act) schemes. |
 | **DPI** | Degree of Permanent Impairment — assessed whole-person impairment percentage that determines lump-sum entitlement and claim thresholds (QLD WCRA terminology; other schemes use WPI — whole person impairment). |
 | **RTW** | Return to Work — process of returning an injured worker to work. |
-| **RTWC** | Return to Work Coordinator — accredited role required in NSW (and QLD for employers above thresholds). |
+| **RTWC** | Return to Work Coordinator — accredited role required in NSW (and QLD for employers above thresholds); in VIC, WIRC Act 2013 s 106 requires a RTW Coordinator at all times for employers at or above the indexed remuneration threshold ($3,059,120 in 2025–26), and while return-to-work obligations apply for smaller employers. |
 | **Suitable employment** | Statutory concept of work appropriate to a worker's post-injury capacity, skills, and location. |
 | **Premium impact** | Effect of claims on employer's workers compensation premium via experience rating. |
 | **Presumptive provision** | Statutory presumption that a defined condition is work-related (e.g., firefighter cancer, silicosis, PTSD for first responders). |
@@ -280,10 +280,10 @@ hazard list.
 | **WorkSafe NZ** | NZ regulator under HSWA. |
 | **ACC** | Accident Compensation Corporation — NZ no-fault injury cover scheme. |
 | **WEPR** | Worker Engagement, Participation and Representation Regulations 2016 (NZ). |
-| **ACoP** | Approved Code of Practice (NZ) — compliance creates presumption of SFAIRP. |
+| **ACoP** | Approved Code of Practice (NZ) — admissible as evidence of compliance (HSWA s 226); a court may rely on it in determining what is reasonably practicable. |
 | **CHASNZ** | Construction Health and Safety NZ — industry leadership body. |
 | **FISC** | Forest Industry Safety Council (NZ). |
-| **NZECP 34** | NZ Electrical Code of Practice. |
+| **NZECP 34** | New Zealand Electrical Code of Practice for Electrical Safe Distances (NZECP 34:2001) — mandatory minimum safe distances near overhead electric lines. |
 | **MNZ** | Maritime New Zealand — maritime safety regulator. |
 | **CAA NZ** | Civil Aviation Authority of New Zealand. |
 | **GRWM Regs** | Health and Safety at Work (General Risk and Workplace Management) Regulations 2016 (NZ). |
@@ -326,7 +326,7 @@ See `references/sector-regimes.md` for full coverage.
 | **RTO** | Rail Transport Operator — accredited under RSNL. |
 | **PTI** | Pedestrian-Train Interface — common rail safety hazard category. |
 | **RSHQ** | Resources Safety and Health Queensland — independent QLD mining/quarrying regulator (since 2020). |
-| **DEMIRS** | Department of Energy, Mines, Industry Regulation and Safety (WA) — renamed from DMIRS on 1 July 2023; machinery-of-government names change, so verify the current departmental name before citing. |
+| **LGIRS** | Department of Local Government, Industry Regulation and Safety (WA) — hosts WorkSafe WA since the former DEMIRS (renamed from DMIRS on 1 July 2023) was abolished on 1 July 2025; mining tenure moved to the Department of Mines, Petroleum and Exploration (DMPE). Machinery-of-government names change, so verify the current departmental name before citing. |
 | **CMSHR** | Coal Mining Safety and Health Regulation 2017 (QLD). |
 | **MQSHR** | Mining and Quarrying Safety and Health Regulation 2017 (QLD). |
 | **WHS (MPS) Act** | Work Health and Safety (Mines and Petroleum Sites) Act 2013 (NSW). |
@@ -338,7 +338,7 @@ See `references/sector-regimes.md` for full coverage.
 | **DSM** | Defence Safety Manual. |
 | **DEOPs** | Defence Explosive Ordnance Publications. |
 | **DISP** | Defence Industry Security Program. |
-| **Comcare** | Cth WHS regulator — covers Cth public sector, ACT public sector, and licensed self-insurers nationally. |
+| **Comcare** | Cth WHS regulator — covers non-corporate Cth entities, Cth public authorities, and non-Commonwealth licensees nationally. WHS regulation of the ACT public sector sits with WorkSafe ACT; ACT public servants' workers compensation sits under the SRC Act (the ACT Government has been a self-insurer since 2019). |
 
 ---
 
@@ -441,7 +441,6 @@ See `references/specialist-topics.md` §1 and `references/legislation.md` §14.
 |---|---|
 | **AIOH** | Australian Institute of Occupational Hygienists — professional body. |
 | **COH** | Certified Occupational Hygienist (AIOH certification). |
-| **ROH** | Recognised Occupational Hygienist (AIOH certification — entry tier). |
 | **NIOSH** | US National Institute for Occupational Safety and Health — sampling methods widely adopted (e.g., NIOSH 0500 for total dust, 0600 for respirable dust). |
 | **AS 3640** | Workplace atmospheres — Method for sampling and gravimetric determination of inhalable dust. |
 | **AS 3853** | Health and safety in welding and allied processes — Sampling of airborne particles. |

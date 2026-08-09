@@ -16,7 +16,7 @@ Reference for WHS practitioners on the Australian whistleblower legislative land
 
 ## 1. Why This Matters for WHS
 
-Every hazard report, near-miss, and incident notification is, in effect, a worker disclosing information about something they consider unsafe — exactly the function that whistleblower regimes are designed to protect. The WHS Act s 28 worker duty obliges workers to take reasonable care for the health and safety of themselves and others; that duty is reinforced by s 104 (model Act) prohibiting discriminatory or coercive action against workers who exercise WHS rights. The formal whistleblower regimes — Corporations Act Part 9.4AAA, the Cth PID Act, and state PID Acts — sit on top of that, providing statutory protections that elevate the disclosure into a different legal category.
+Every hazard report, near-miss, and incident notification is, in effect, a worker disclosing information about something they consider unsafe — exactly the function that whistleblower regimes are designed to protect. The WHS Act s 28 worker duty obliges workers to take reasonable care for the health and safety of themselves and others; that duty is reinforced by the model Act's protections for workers who exercise WHS rights: s 104 prohibits discriminatory conduct for a prohibited reason, and s 108 separately prohibits coercion or inducement (s 109 misrepresentation). The formal whistleblower regimes — Corporations Act Part 9.4AAA, the Cth PID Act, and state PID Acts — sit on top of that, providing statutory protections that elevate the disclosure into a different legal category.
 
 **Why a WHS practitioner needs to understand this:**
 
@@ -102,7 +102,7 @@ The shifted onus in s 1317AD(2B) is significant — once the claimant points to 
 
 ### 2.5 Mandatory whistleblower policy (s 1317AI)
 
-Public companies, large proprietary companies, and corporate trustees of registrable superannuation entities must have a whistleblower policy. Required content includes:
+Public companies, large proprietary companies, and corporate trustees of registrable superannuation entities must have a whistleblower policy. Required content (prescribed by s 1317AI(5)) includes:
 
 - Protections available to whistleblowers
 - To whom disclosures may be made and how
@@ -112,7 +112,7 @@ Public companies, large proprietary companies, and corporate trustees of registr
 - How the policy will be made available
 - Any matters prescribed by regulations
 
-**Penalty for non-compliance**: 60 penalty units for the entity (s 1317AI(5)) — but the reputational and operational consequence of a non-compliant policy in a litigated whistleblower matter is materially greater.
+**Penalty for non-compliance**: 60 penalty units for the entity for failing to have or make available a compliant policy (s 1317AI(1)–(4); strict liability via s 1311(1)) — but the reputational and operational consequence of a non-compliant policy in a litigated whistleblower matter is materially greater.
 
 The policy must be operationally real — it cannot be a static document on the intranet. ASIC's Regulatory Guide 270 sets out expectations including training, escalation pathways, governance oversight, and periodic review.
 
@@ -259,7 +259,7 @@ The following categories of WHS concern should always be escalated into the form
 |---|---|
 | Suspected concealment of notifiable incidents | s 38 model Act / s 56 HSWA obligation; concealment is a contravention; danger to the public limb engaged |
 | Suspected falsification of safety records | Records, audit trails, training records, CCV — falsification engages corporate offence regime |
-| Suspected suppression of HSR reports or worker concerns | s 104 victimisation; potentially Corporations Act s 1317AD if regulated entity |
+| Suspected suppression of HSR reports or worker concerns | ss 104/108 victimisation or coercion; potentially Corporations Act s 1317AD if regulated entity |
 | Suspected officer-level direction to ignore identified hazards | Engages officer due diligence (s 27 model / s 44 HSWA) and disclosable matter limb (c) |
 | Suspected deliberate non-compliance with regulator directions | Improvement/prohibition/non-disturbance notices ignored — contravention of WHS Act |
 | Fatalities or serious incidents where the initial narrative does not align with available evidence | Risk of cover-up; needs independent escalation |

@@ -57,7 +57,9 @@ moving injured workers onto restricted duties to avoid an LTI classification.
 > distinct "RWI" recordable tier. Counting restricted-duty cases as
 > recordable and including them in TRIFR is, however, mainstream current AU
 > practice — SafeWork NSW's *Measuring and reporting WHS information* guidance
-> treats restricted-duty cases as recordable injuries within TRIFR. This skill
+> (based on Safe Work Australia's 2017 report *Measuring and reporting on work
+> health and safety*, by Dr Sharron O'Neill) treats restricted-duty cases as
+> recordable injuries within TRIFR. This skill
 > therefore adopts the four-tier set (Fatality + LTI + RWI + MTI) as its
 > canonical TRI definition. Apply it consistently and document it in the data
 > dictionary so the figure remains comparable across reporting periods.
@@ -328,8 +330,9 @@ differ between AU and NZ populations. Combining without normalisation obscures t
 - In AU: EAP data handling should align with the Privacy Act 1988 (Cth) health
   information provisions. Note the Australian Privacy Principles bind APP entities
   (generally organisations with turnover >$3m, plus health-service providers
-  regardless of size), so small PCBUs may fall outside the Act — treat alignment
-  as the floor for good practice either way.
+  regardless of size), so small PCBUs may fall outside the Act (removal of the
+  small-business exemption remains an unlegislated tranche-2 proposal as at
+  mid-2026) — treat alignment as the floor for good practice either way.
 - In NZ: NZ EAP data handling should align with the Privacy Act 2020 and the
   Health Information Privacy Code 2020, which gives extra protection to health
   information held by health agencies

@@ -106,7 +106,8 @@ making decisions affecting the whole or substantial part of the business.
 - Employer / employee terminology is retained instead of PCBU / worker
 - Labour hire amendments (22 March 2022) — host employers owe the same OHS duty
   to labour hire workers as to direct employees
-- Insurance against OHS penalties is a criminal offence (Sept 2022 amendment)
+- Insurance against OHS penalties is a criminal offence (ss 148A–148B; offence
+  limbs from 22 Sep 2022)
 - Workplace Manslaughter offence added by the Workplace Safety Legislation
   Amendment (Workplace Manslaughter and Other Matters) Act 2019 (Vic) — see Section 6
 - Psychological health: Occupational Health and Safety (Psychological Health)
@@ -1579,8 +1580,12 @@ or member of the public. Max penalty: 100,000 penalty units body corporate
 **Labour hire host duty** (s 21A, March 2022): host employers owe the same
 OHS duty to labour hire workers as to direct employees.
 
-**Insurance prohibition** (s 154A, September 2022): insuring against OHS
-fines or penalties is a criminal offence.
+**Insurance prohibition** (ss 148A–148B, inserted by the Workplace Safety
+Legislation and Other Matters Amendment Act 2021 (Vic)): s 148A voids
+insurance and indemnity terms for OHS pecuniary penalties (from 22 September
+2021); s 148B makes entering into, providing, or benefiting from such cover
+an indictable offence (from 22 September 2022). Defence-cost cover remains
+lawful.
 
 **HSR powers**: substantial — PIN issue (s 60), direct cessation of work
 (s 74), training (5-day approved); broadly equivalent to model law but

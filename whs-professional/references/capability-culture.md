@@ -488,7 +488,7 @@ with it the visibility the organisation depends on.
 Edmondson (*The Fearless Organization*, 2018) established psychological safety
 as a measurable team-level construct, building on her earlier academic work — the
 error-detection study in hospital teams (Edmondson, 1996, *Journal of Applied
-Behavioral Science*, 32(1):5–32) and the validated Team Psychological Safety
+Behavioral Science*, 32(1):5–28) and the validated Team Psychological Safety
 scale (Edmondson, 1999, *Administrative Science Quarterly*, 44:350–383).
 Cross-reference `frameworks.md` §12 for Edmondson's citation.
 

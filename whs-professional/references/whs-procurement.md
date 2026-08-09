@@ -142,7 +142,7 @@ in scope, depth, sector coverage, and cost.
 | **Avetta** | Global platform; large in resources and energy | Connects principals and contractors; verifies WHS, insurance, financial stability |
 | **ISNetworld** | Global platform originating in US; established in AU resources sector | RAVS (Review and Verification Services) verifies safety management programs |
 | **Pegasus** (acquired by Avetta, 2021; integrated into Avetta One Workforce Management 2022; legacy Onsite Track Easy) | Workforce management + contractor management; common in resources, utilities, infrastructure | Combines individual worker competency (LMS) with company-level prequalification |
-| **MyComply / Site Pass / Linksafe** | Workforce-centric (worker inductions, ticket verification) | Used at site level; not a full company prequalification platform |
+| **Sitepass (INX) / LinkSafe / Damstra** | Workforce-centric (worker inductions, ticket verification) | Used at site level; not a full company prequalification platform |
 
 The platform is the tool — the principal still owns the decision. A "Rapid
 compliant" status is not a determination that the contractor is safe to engage;
@@ -358,8 +358,9 @@ about the system:
 - **Scope** — does the certification cover the specific work, sites,
   jurisdictions? A certified system for office operations does not certify
   field construction operations
-- **Certification body** — JAS-ANZ accredited bodies (BSI, SAI Global, BV,
-  DNV, TÜV) carry weight; non-accredited certifications do not
+- **Certification body** — bodies accredited by JAS-ANZ or another IAF MLA
+  signatory accreditation body (e.g., BSI, Intertek SAI Global, Bureau
+  Veritas, DNV, TÜV) carry weight; non-accredited certifications do not
 - **Audit findings** — the surveillance audit report (with non-conformities,
   observations, OFIs) tells the buyer what the system actually looks like;
   selective sharing of findings (especially closed Major NCs and the

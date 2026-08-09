@@ -16,7 +16,7 @@ codes of practice summaries | legislation.md | §15
 state detail, VIC OHS Act 2004, jurisdiction variations | legislation.md | §16
 enforceable undertakings, EU eligibility, s 216 | legislation.md | §6
 insurance ban, s 272A, indemnity prohibition | specialist-topics.md | §5
-VIC insurance ban, s 154A | legislation.md | §16
+VIC insurance ban, ss 148A-148B | legislation.md | §16
 notifiable incidents, notification triggers, serious injury definition | legislation.md | §5
 PCBU duties, primary duty, key duties in detail | legislation.md | §4
 regulator contacts, who to call, regulator phone numbers | legislation.md | §7
