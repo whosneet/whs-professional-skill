@@ -35,7 +35,8 @@ below follows the canonical 5×5 matrix in `references/company.md` §3
 (rating output Low / Moderate / High / Critical). For reference, on that
 matrix Consequence 5 (Severe) × Possible = **Critical (Band A)**;
 5 × Unlikely = High (Band B); 4 × Possible = High (Band B);
-4 × Unlikely = High (Band B); 1 × Possible = Low (Band D).
+4 × Unlikely = High (Band B); 3 × Likely = High (Band B);
+1 × Possible = Low (Band D).
 
 **These ratings are illustrative.** Before relying on any rating in an
 output, re-derive it on your organisation's actual risk matrix — the
@@ -131,7 +132,7 @@ known and not challenged.
 | 4 | 14:20 | Operator A enters Aisle 14 in reverse to align with rack face |
 | 5 | 14:22 | Forklift comes within 1 m of Pedestrian B; operator alerted by colleague shout; emergency stop |
 | 6 | 14:30 | Incident reported; Aisle 14 closed |
-| 7 | 16:00 | Incident raised in system; internal preliminary incident investigation notification (PIIN) issued within 24 hours — an organisation-internal step, distinct from the statutory notifiable-incident notification to the regulator under WHS Act s 38 |
+| 7 | 16:00 | Incident raised in system; Preliminary Internal Incident Notification (PIIN) issued within 24 hours — an organisation-internal step, distinct from the statutory notifiable-incident notification to the regulator under WHS Act s 38 |
 
 ### PEEPO summary
 - **People** — Operator A: current HRWL (LF class), 6 years on this
@@ -173,12 +174,18 @@ the safety system.
 
 | Action | Factor addressed | Control level |
 |---|---|---|
-| Apply physical exclusion zones (barriers + signage) to all stocktake activity in active aisles | Absent control: physical exclusion zone | Isolation / Administrative |
+| Apply physical exclusion zones (barriers + signage) to all stocktake activity in active aisles | Absent control: physical exclusion zone | Engineering / Administrative |
 | Retrofit reverse cameras and proximity-warning systems to Sydney DC forklift fleet | Engineering control gap | Engineering |
 | Rescind verbal "spot-check" authorisation; require written TMP-aligned authorisation for any aisle pedestrian activity | Organisational drift in TMP application | Administrative |
 | Toolbox to all forklift operators and pedestrian workers on blind-spot risk and 360° check discipline | Individual action factors | Administrative |
 | Quarterly TMP compliance audit added to assurance program; results to BU GM Zero Harm | Assurance gap | Administrative |
 | Network-wide review of TMP application across DC portfolio | Pattern unlikely isolated to this site | Administrative |
+
+*Control-level note: the barriers are an engineering control and the
+signage administrative (matching `examples/04`). Classifying the
+barriers as isolation would be equally defensible — substitution,
+isolation and engineering share the same statutory tier under WHS
+Reg 36(3), so nothing turns on the label.*
 
 ### Lessons
 - HiPo classification on potential, not actual — the investigation
@@ -291,6 +298,9 @@ returned to direct care.
   Likelihood Likely (given 18-month exposure pattern) — Risk B (High)
 - **Potential**: Consequence 4 (permanent functional impairment, role
   loss) × Likelihood Possible — Risk B (High)
+- **Classification note**: the potential Consequence 4 rating meets a
+  potential-based HiPo definition (see `company.md` §5) — the case is
+  a HiPo as well as an LTI; the two labels are not mutually exclusive
 
 Potential rationale: Repeated cumulative lumbar disc injury at the
 L4-L5 level commonly progresses to chronic pain and functional
@@ -376,8 +386,9 @@ and the workplace was male-majority. The Respect@Work positive duty
 under SDA s 47C was considered in scoping the investigation.
 
 A workers compensation claim for psychological injury was lodged
-during the investigation period; the claim went into the insurer's
-extended liability decision window pending investigation outcome.
+shortly before the investigation commenced; the claim went into the
+insurer's extended liability decision window pending investigation
+outcome.
 
 ### Sequence of events
 
@@ -425,11 +436,16 @@ extended liability decision window pending investigation outcome.
 | Open-office voice-raising not addressed by witnesses or manager's manager | | Sustained underperformance with visible peer exposure | EAP utilisation rate increased in the team over 8 months but not reported as a signal |
 
 ### Risk assessment
-- **Actual**: Consequence 3 (psychological injury, accepted claim
-  pending, LTI) × Likelihood Possible — Risk B (High)
+- **Actual**: Consequence 3 (psychological injury, claim liability
+  pending; ~2 weeks lost time, classified as occupational illness
+  (OI) rather than LTI for statistical purposes — see `company.md`
+  §5) × Likelihood Possible — Risk B (High)
 - **Potential**: Consequence 4 (sustained psychological injury,
   role loss) × Likelihood Likely if conditions continue — Risk A
-  (Extreme)
+  (Critical)
+- **Classification note**: potential Consequence 4 meets a
+  potential-based HiPo definition (see `company.md` §5), so the case
+  is flagged HiPo alongside its occupational-illness handling
 
 Potential rationale: The same risk factor profile is present for
 the rest of the team. EAP utilisation has increased over 8 months,
@@ -489,9 +505,10 @@ medical leave during the process.
 ## 5. Case 4 — Electrical Near-Miss
 
 ### Scenario
-A cleaning contractor working alone in a commercial office foyer
-made unintentional contact with the front face of an active 415 V
-main switchboard while cleaning the wall above the board. No
+A cleaning contractor working alone in the main electrical room of
+a mid-rise commercial building made unintentional contact with the
+front face of an active 415 V main switchboard while cleaning the
+wall above the board. No
 electrical contact occurred — the board front panel remained
 closed — but the contact was hard enough to dislodge a panel screw.
 Reported by the contractor's supervisor on the following shift.
@@ -729,12 +746,15 @@ Worker F had not requested replacement.
 | Footwear inspection not embedded in pre-service routine | | Heat and steam reduce floor-surface friction further | Head chef promoted without people-management training; housekeeping-during-service not part of operational KPIs |
 
 ### Risk assessment
-- **Actual**: Consequence 2 (LTI 5 days, recoverable) ×
+- **Actual**: Consequence 3 (LTI 5 days, recoverable) ×
   Likelihood Likely (given the conditions, a slip in this section
-  was foreseeable) — Risk C (Moderate)
+  was foreseeable) — Risk B (High)
 - **Potential**: Consequence 4 (serious fall, possible fracture
   on hot equipment or against fryer side) × Likelihood Possible —
   Risk B (High)
+- **Classification note**: potential Consequence 4 meets a
+  potential-based HiPo definition (see `company.md` §5) — the case is
+  both an LTI and a HiPo
 
 Potential rationale: A slip immediately adjacent to a deep fryer
 operating at ~180°C oil temperature, with a narrow gap to the next
@@ -843,7 +863,7 @@ serious injury.
 | 5 | Day 0, 09:22 | Worker G adjusts grip; drum tips further than intended; ~2 L overflows |
 | 6 | Day 0, 09:23 | Worker G splashed on forearm and lower coveralls; moves to safety shower |
 | 7 | Day 0, 09:24 | Worker G commences forearm flush; supervisor notified |
-| 8 | Day 0, 09:38 | Flush concludes; coveralls removed; area barricaded |
+| 8 | Day 0, 09:39 | Flush concludes; coveralls removed; area barricaded |
 | 9 | Day 0, 11:00 | Spill cleaned by competent operator with neutralising kit; floor neutralised and rinsed |
 | 10 | Day 0, 14:00 | Incident raised in system; HiPo classification confirmed |
 
@@ -963,7 +983,7 @@ H left the site car park at 07:15 and commenced the ~30 km drive
 home.
 
 At approximately 07:37, while approaching a roundabout
-approximately 2 km from home, Worker H failed to brake adequately
+approximately 11 km from home, Worker H failed to brake adequately
 and ran into the rear of a stationary vehicle waiting to enter the
 roundabout. Speed at impact was estimated at ~25 km/h. Both
 vehicles sustained rear/front damage; airbags did not deploy;
@@ -1018,7 +1038,7 @@ local-resident workers.
 - **Environment** — Drive home: ~30 km of suburban arterial
   road; ~35 minutes end to end; morning light. Route includes 6 sets of
   traffic lights and 4 roundabouts. The collision occurred ~22 minutes
-  into the drive, ~2 km from home (i.e. with ~13 minutes / ~2 km
+  into the drive, ~11 km from home (i.e. with ~13 minutes / ~11 km
   remaining).
 - **Equipment** — Worker H's personal vehicle, current
   registration and roadworthy.
@@ -1037,7 +1057,7 @@ local-resident workers.
 |---|---|---|---|
 | Site fatigue management plan does not address post-shift driving home for local-resident workers | Worker H did not raise fatigue at end of shift | Sleep debt accumulated across 4 consecutive 12-hour night shifts | 12-hour night shift × 4 consecutive nights creates predictable cumulative fatigue at end of roster |
 | No nap room or rest facility available on site for post-shift recovery before driving | Worker H drove home rather than waiting / napping (no policy supporting wait) | Daytime sleep environment includes household noise and caregiving demands | Roster design optimises commuting frequency over per-shift fatigue exposure |
-| Pre-drive fatigue self-assessment not embedded in shift end procedure | | Drive home occurred at the circadian low window (07:30 is post-shift but still in the wake-impairment window for a night worker) | Fatigue management plan scope does not cover the population that performs the longest cumulative driving (post-shift home commutes) |
+| Pre-drive fatigue self-assessment not embedded in shift end procedure | | Drive home occurred within the post-night-shift wake-impairment window (the circadian low has passed but impairment persists) | Fatigue management plan scope does not cover the population that performs the longest cumulative driving (post-shift home commutes) |
 | Roster forward-rotation principle not applied | | | DIDO-focused fatigue management plan misses the larger local-resident worker population |
 
 ### Risk assessment
@@ -1088,7 +1108,9 @@ and WA).
   Work design that produces predictable fatigue, and the drive home
   that the work produces, are within scope
 - 4-on / 4-off 12-hour night shifts produce predictable cumulative
-  fatigue at end of roster — the science is settled (see
+  fatigue at end of roster — the evidence on cumulative sleep debt
+  across consecutive 12-hour nights is well established, although the
+  net risk of 12-hour shifts in general is context-dependent (see
   `hazards.md` §18); the roster is a management decision, not an
   inevitability
 - Local-resident shift workers are the largest population doing
@@ -1221,7 +1243,7 @@ Suggested onboarding sequence:
 | Week | Reading | Outcome |
 |---|---|---|
 | Week 1 | `SKILL.md`, `legislation.md` (overview), `investigation.md` | Understand the regulatory and methodological frame |
-| Week 2 | Cases 1 and 5 (forklift HiPo, slip-trip-fall) | Calibrate on classic everyday incidents — one HiPo, one LTI |
+| Week 2 | Cases 1 and 5 (forklift HiPo, slip-trip-fall) | Calibrate on classic everyday incidents — a no-injury HiPo and an LTI that is itself HiPo on potential |
 | Week 3 | Cases 2 and 6 (manual handling, chemical decant) | Calibrate on cumulative-injury and HiPo no-injury investigations |
 | Week 4 | Cases 4 and 7 (electrical, fatigue vehicle) | Calibrate on contractor / multi-PCBU and work-design investigations |
 | Week 5 | Case 3 (psychosocial) | Calibrate on complaint-based and psychosocial investigation, including Respect@Work positive duty |

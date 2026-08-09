@@ -53,9 +53,10 @@ actions, and conditions to the organisational factors that explain them.
 **Step 1 — Preserve and Secure the Scene**
 - Notify regulator if notifiable — the duty to notify is WHS Act s 38;
   s 35 defines "notifiable incident" (see legislation.md). NZ equivalent:
-  HSWA "notifiable event" is defined in ss 23–25 (s 23 notifiable death/
-  injury or illness; s 24 notifiable incident; s 25 the consolidated
-  meaning), with the duty to notify WorkSafe NZ as soon as possible after
+  HSWA "notifiable event" is defined in ss 23–25 (s 23 notifiable
+  injury or illness; s 24 notifiable incident; s 25 notifiable event —
+  the consolidated meaning, which adds death of a person), with the
+  duty to notify WorkSafe NZ as soon as possible after
   becoming aware of it. The s 155/171/172 numbers cited in §10 are
   model-WHS-jurisdiction-specific; for the NZ equivalents see legislation.md
 - Preserve scene before disturbance (WHS Act s 39 duty to preserve the
@@ -232,7 +233,8 @@ analysing whether controls are degraded.
 
 ## 5. ICAM Report Template
 
-**Triggers**: Actual severity rating 4, 5, or 6, or all HiPo incidents (commonly).
+**Triggers**: Actual severity rating at the top of the organisation's scale
+(e.g. Class 4–5), or all HiPo incidents (commonly).
 Some organisations require ICAM for level-3 incidents at the discretion of business
 or WHS leadership. Where ICAM is conducted, a separate standard investigation
 form is generally not required.
@@ -372,6 +374,11 @@ Rationale for Risk Rating:
 | Medium | 3 | ☐ |
 | Low | 2 | N/A |
 | Very Low | 1 | N/A |
+
+> The 1–6 scale above is a generic default — replace it with your
+> organisation's own severity scale (the worked example in
+> `references/company.md`, for instance, classifies incidents on
+> Classes 1–5).
 
 ### 9. Recommended Corrective Actions
 Actions to prevent occurrence of similar incidents. Where required, include amendments
@@ -702,9 +709,10 @@ procedurally:
   produced from recording. Obtain and document the interviewee's informed
   consent to recording, captured on the recording itself at the start. Covert
   recording may breach state/territory surveillance and listening-device
-  legislation (eg Surveillance Devices Acts in WA/NT/Vic, Listening Devices
-  Act NSW, Invasion of Privacy Act QLD) and the equivalent NZ law, and can
-  render a recording inadmissible or unlawful — never record covertly
+  legislation (eg the Surveillance Devices Act 2007 (NSW), Surveillance
+  Devices Acts in WA/NT/Vic, Invasion of Privacy Act QLD) and the
+  equivalent NZ law, and can render a recording inadmissible or
+  unlawful — never record covertly
 - **Timing** — promptly after the event for memory accuracy; not within
   hours where the worker is in shock or fatigued; not in the middle of a
   shift if it can be avoided

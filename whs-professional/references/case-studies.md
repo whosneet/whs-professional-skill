@@ -48,11 +48,12 @@ The cases below were selected because each one:
   processing, refining, mining, or theme parks
 
 ### Using cases in board papers (Hopkins' rationale)
-Andrew Hopkins' three case study monographs (Longford 2000; Texas City 2008;
-Deepwater Horizon 2012) were written for senior managers and directors, not for
-academic audiences. Hopkins' rationale: boards understand stories about other
-boards. A case study that names the named factors — production pressure,
-indicator failure, the gap between personal and process safety — does the
+Andrew Hopkins' case study monographs on three of these events (Longford 2000;
+Texas City 2008; Deepwater Horizon 2012) were written for senior managers and
+directors, not for academic audiences. Hopkins' rationale: boards understand
+stories about other boards. A case study that names the causal factors —
+production pressure, indicator failure, the gap between personal and process
+safety — does the
 analytical work for the reader. Cite the case to ground a recommendation in
 evidence that the board can verify independently. Use the case to short-circuit
 the question "has this been a real problem somewhere?" — the answer is yes,
@@ -206,7 +207,7 @@ substantially.
 BP's Texas City refinery, on the Gulf Coast of Texas, was the third-largest
 oil refinery in the United States with capacity of around 460,000 barrels per
 day. At the time of the incident, BP had acquired the site as part of the
-1998 merger with Amoco; the refinery had a long pre-existing safety reputation
+1998 merger with Amoco; the refinery had a long-standing poor safety record
 and chronic capital underinvestment.
 
 The incident occurred in the Isomerisation (ISOM) Unit, specifically the
@@ -787,7 +788,7 @@ building industry, regulatory framework, and product manufacturers.
 | Product disclosure | Cladding panel manufacturers withheld or misrepresented combustibility data; the panels installed had performed catastrophically in earlier testing that was not publicly disclosed |
 | Insulation | The insulation behind the cladding was also combustible — principally Celotex RS5000, a polyisocyanurate (PIR) foam, with Kingspan K15 (a phenolic foam) used in smaller quantities; the system as installed exceeded the fire risk of either component alone |
 | Building certification | Multiple consultants and certifiers reviewed the design without identifying the combustibility hazard |
-| Local authority | The building owner had not maintained fire risk assessment currency and had not implemented multiple prior fire safety improvement recommendations |
+| Building owner/manager (RBKC/KCTMO) | The tenant management organisation (KCTMO), managing the tower for RBKC as owner, had not maintained fire risk assessment currency and had not implemented multiple prior fire safety improvement recommendations |
 | Fire service | Stay-put advice persisted past the point of survivability; the operational doctrine had not been updated to account for cladding fire dynamics |
 | Resident concerns | Residents had raised fire safety concerns repeatedly in the years before the fire; concerns had been dismissed |
 
@@ -1090,7 +1091,9 @@ infrastructure destruction.
 | Governance | Lebanese governance crisis context; corruption; institutional dysfunction |
 
 ### Regulatory outcome
-- Lebanese investigation ongoing (subject to political interference)
+- Lebanese investigation ongoing, subject to political interference (as at
+  August 2026 — Judge Bitar's probe resumed January 2025; verify current
+  status)
 - No conclusive accountability outcome at the level of senior officials
 - International investigations by Human Rights Watch, FBI (limited scope),
   and journalist investigations
