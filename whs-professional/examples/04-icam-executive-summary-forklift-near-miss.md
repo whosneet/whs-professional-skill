@@ -12,6 +12,7 @@
 | Date of incident | 18 April 2026, 14:22 |
 | Date of report | 12 May 2026 |
 | Brief description | A counterbalance forklift travelling in reverse came within 1 m of a pedestrian worker conducting a stocktake in Aisle 14. No contact; no injury. Classified HiPo based on potential consequence. |
+| Key findings and actions | The physical exclusion zone required by the Traffic Management Plan was not applied; a verbal "spot-check" authorisation route had normalised this bypass for at least 18 months. Corrective actions require exclusion zones for all aisle stocktake activity, retrofit of reverse vision aids to the Sydney DC fleet, and a network-wide review of TMP application. |
 | Will a Lessons Learnt be developed? | ☒ Yes ☐ No |
 | Report prepared by | A. Singh, Head of WHS (Investigation Lead) |
 
@@ -22,7 +23,8 @@
 | Lead Investigator | A. Singh | (signed) | 12 May 2026 |
 | Site Manager | M. Donato | (signed) | 13 May 2026 |
 | BU GM | K. Phillips | (signed) | 15 May 2026 |
-| BU GM WHS | J. Tan | (signed) | 16 May 2026 |
+| BU WHS Manager (review) | J. Tan | (signed) | 16 May 2026 |
+| Group GM WHS (endorsement) | E. Walsh | (signed) | 16 May 2026 |
 
 ---
 
@@ -67,7 +69,7 @@ reported the incident within the hour.
 | 4 | 18 Apr 2026 | 14:20 | Operator A enters Aisle 14 in reverse to align with rack face |
 | 5 | 18 Apr 2026 | 14:22 | Forklift comes within 1 m of Pedestrian B; operator alerted by colleague; emergency stop |
 | 6 | 18 Apr 2026 | 14:30 | Incident reported to Shift Supervisor; Aisle 14 closed for stocktake completion |
-| 7 | 18 Apr 2026 | 16:00 | INC-2026-04-0237 raised; preliminary incident information notice (PIIN) issued within 24 hours |
+| 7 | 18 Apr 2026 | 16:00 | INC-2026-04-0237 raised; Preliminary Internal Incident Notification (PIIN) issued within 24 hours |
 
 ## 5. PEEPO summary
 
@@ -91,10 +93,10 @@ reported the incident within the hour.
 
 | Critical risk | Critical controls | Evaluation | Comments |
 |---|---|---|---|
-| Vehicles and Mobile Plant | Traffic Management Plan with separated ped/plant flow | ☐ Adequate ☒ Inadequate ☐ Absent | TMP exists but routinely bypassed for "small" stocktake activity |
-| Vehicles and Mobile Plant | Physical exclusion zones for pedestrian activity | ☐ Adequate ☐ Inadequate ☒ Absent | Not applied to stocktake activity this shift |
-| Vehicles and Mobile Plant | Spotter for high-risk plant movements | ☐ Adequate ☐ Inadequate ☒ Absent | Not required by current procedure for routine aisle movements |
-| Vehicles and Mobile Plant | Reverse cameras / 360° vision systems | ☐ Adequate ☒ Inadequate ☐ Absent | Reverse alarm only; visibility aids do not address blind spot |
+| Mobile Plant & Pedestrian Interaction | Traffic Management Plan with separated ped/plant flow | ☐ Adequate ☒ Partially Adequate ☐ Inadequate | TMP exists but routinely bypassed for "small" stocktake activity |
+| Mobile Plant & Pedestrian Interaction | Physical exclusion zones for pedestrian activity | ☐ Adequate ☐ Partially Adequate ☒ Inadequate | Not applied to stocktake activity this shift |
+| Mobile Plant & Pedestrian Interaction | Spotter for high-risk plant movements | ☐ Adequate ☐ Partially Adequate ☒ Inadequate | Not required by current procedure for routine aisle movements |
+| Mobile Plant & Pedestrian Interaction | Reverse cameras / 360° vision systems | ☐ Adequate ☒ Partially Adequate ☐ Inadequate | Reverse alarm only; visibility aids do not address blind spot |
 
 ## 7. ICAM analysis
 
@@ -106,8 +108,8 @@ reported the incident within the hour.
 
 ## 8. Incident risk assessment
 
-**Actual risk**: Consequence 1 (no injury) × Likelihood Possible = D
-**Potential risk**: Consequence 5 (single fatality) × Likelihood Possible = B
+**Actual risk**: Consequence 1 (no injury) × Likelihood Possible = Low
+**Potential risk**: Consequence 5 (single fatality) × Likelihood Possible = Critical
 
 **Potential rationale**: A 2.5-tonne forklift travelling in reverse at ~6 km/h
 with a pedestrian on the blind side creates a credible worst-case outcome of
@@ -123,8 +125,8 @@ system.
 | Retrofit reverse cameras and proximity-warning systems to forklift fleet at Sydney DC | Engineering control gap | Engineering | S. Keller (Procurement Manager) | 31 December 2026 |
 | Rescind verbal "spot-check" authorisation route; require written TMP-aligned authorisation for any aisle pedestrian activity | Organisational drift in TMP application | Administrative | T. Nguyen (Operations Manager) | 30 June 2026 |
 | Toolbox talk to all forklift operators and pedestrian workers on blind-spot risk and 360° check discipline | Individual action and pedestrian action factors | Administrative | L. Okafor (Site WHS Coordinator) | 30 June 2026 |
-| Quarterly TMP compliance audit added to assurance program; results to BU GM WHS | Organisational factor: assurance gap | Administrative | J. Tan (BU GM WHS) | First audit by 30 September 2026 |
-| Network-wide review of TMP application across DC portfolio | Organisational factor: pattern likely beyond this site | Administrative | E. Walsh (Group WHS Manager) | 31 December 2026 |
+| Quarterly TMP compliance audit added to assurance program; results to BU WHS Manager | Organisational factor: assurance gap | Administrative | J. Tan (BU WHS Manager) | First audit by 30 September 2026 |
+| Network-wide review of TMP application across DC portfolio | Organisational factor: pattern likely beyond this site | Administrative | E. Walsh (Group GM WHS) | 31 December 2026 |
 
 ## 10. Conclusions
 

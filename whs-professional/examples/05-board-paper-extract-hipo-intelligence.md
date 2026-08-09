@@ -2,14 +2,14 @@
 
 **For**: Board of Directors
 **Period**: 1 January – 31 March 2026
-**Prepared by**: Group Head of WHS
+**Prepared by**: Group GM WHS
 **Date**: 27 April 2026
 
 ---
 
 ## Safety performance snapshot
 
-| Metric | Q3 FY26 | Rolling 12m | Prior year RY | Target |
+| Metric | Q3 FY26 | Rolling 12m | Prior RY | Target |
 |---|---|---|---|---|
 | TRIFR | 4.2 | 5.1 | 6.8 | <5.0 |
 | LTIFR | 1.3 | 1.6 | 2.1 | <2.0 |
@@ -32,7 +32,7 @@ Distribution by critical risk:
 
 | Critical risk | HiPo count | % of total | vs prior period |
 |---|---|---|---|
-| Mobile plant / pedestrian interface | 7 | 30% | +3 |
+| Mobile Plant & Pedestrian Interaction | 7 | 30% | +3 |
 | Working at height | 5 | 22% | +1 |
 | Electrical safety | 4 | 17% | −1 |
 | Confined space | 2 | 9% | −1 |
@@ -51,7 +51,7 @@ have been escalated to BU GMs.
 
 ## Critical risk status
 
-CCV completion across the eight critical risks for the quarter is 91% against
+CCV completion across the twelve critical risks for the quarter is 91% against
 plan. Two critical risks are below 80% completion (Working at Height in the
 NSW Property portfolio, and Confined Space in the QLD Services portfolio) —
 named action with the relevant Critical Risk Owners.
@@ -60,10 +60,10 @@ A heatmap of critical risk × business unit is provided at Appendix B.
 
 ## Program performance
 
-SafeStart Summer 2026 program completed in March 2026. 89% workforce
-participation across the 8-week program; 14% increase in hazard report rate
-during and following the program in participating BUs. Independent review
-(Appendix C) recommends continuation with topic refresh.
+SafeStart Summer 2026 program completed in January 2026. 85% of the rostered
+workforce participated across the 6-week program; 14% increase in hazard
+report rate during and following the program in participating BUs. Independent
+review (Appendix C) recommends continuation with topic refresh.
 
 ## Regulatory and compliance
 
@@ -96,7 +96,7 @@ A separate paper on each matter is included in the Board pack.
 ---
 
 *Paper prepared in accordance with the Board Safety Reporting Framework
-(BSF-2024-01). For metric definitions and methodology, see the WHS Data
+(MFG-WHS-ST-012). For metric definitions and methodology, see the WHS Data
 Glossary (Appendix A). Acronyms expanded on first use in this paper:
 TRIFR — Total Recordable Injury Frequency Rate; LTIFR — Lost Time Injury
 Frequency Rate; HiPo — High Potential Incident; CCV — Critical Control

@@ -26,7 +26,8 @@
 
 Safe Work Australia develops the model laws; each jurisdiction enacts its own version.
 The model WHS Act and model WHS Regulations are the baseline. Most jurisdictions
-(except VIC and WA, which have slightly different schemes) are substantially harmonised.
+(except VIC, which never adopted the model law; WA adopted late — 2022 — with
+more variations than most) are substantially harmonised.
 
 **Key model WHS Act provisions:**
 
@@ -175,7 +176,7 @@ structure, SFAIRP standard (termed "so far as is reasonably practicable").
 | s 25 | Meaning of notifiable event |
 | s 55 | Duty to preserve incident site |
 | s 56–57 | Duty to notify WorkSafe NZ; keep records of notifiable events |
-| s 58–60 | Worker engagement and participation duties |
+| s 58–61 | Worker engagement (ss 58–60); worker participation practices (s 61) |
 | s 62 + Sch 2 | Health and safety representatives (election; functions and powers) |
 | s 83–85 | Right to cease unsafe work (s 83); HSR direction to cease (s 84) |
 | ss 101–111 | Enforcement notices — improvement (ss 101–103), prohibition (ss 105–107), non-disturbance (ss 108–111) |
@@ -239,7 +240,7 @@ direct lever on levy cost.
 Made under HSWA s 60. Define when worker participation practices must be in place and how
 elected representation operates.
 
-**PCBU duty (s 58–60 HSWA)**: every PCBU must have worker participation practices that
+**PCBU duty (s 61 HSWA; engagement duties ss 58–60)**: every PCBU must have worker participation practices that
 provide reasonable opportunities for workers to participate effectively in improving WHS
 on an ongoing basis.
 
@@ -513,8 +514,9 @@ prompt regulator notification. PCBUs should respond constructively, not adversar
 - Accidental contact with electricity causing injury potential
 - Exposure to biological, chemical, or radiological substance creating health risk
 
-**Duty to notify**: immediately (or as soon as practicable) to the regulator by phone.
-Written notification (using regulator's form) within 48 hours.
+**Duty to notify**: immediately after becoming aware, by the fastest possible
+means (s 38) — in practice, phone. Written notification (using the regulator's
+form) within 48 hours if the regulator requires it.
 
 **Duty to preserve scene**: Do not disturb site until regulator permits, unless to:
 - Assist injured persons
@@ -524,7 +526,7 @@ Written notification (using regulator's form) within 48 hours.
 
 ### NZ — HSWA s 25
 **Notifiable event** = notifiable death, notifiable injury/illness, or notifiable incident
-Notify WorkSafe NZ as soon as practicable by phone; written notification follows.
+Notify WorkSafe NZ as soon as possible (s 56 wording) by phone; written notification follows.
 
 ---
 
@@ -840,7 +842,8 @@ provide evidence of SFAIRP compliance but are not mandatory unless called up by 
 Safe Work Australia amended the model WHS Regulations in 2022 to add an explicit
 psychosocial risk management duty: **rr 55A–55D** (model numbering — NSW locates
 the provisions in Part 3.2 Division 11 of its Regulation). Commencement ran
-2022–2024 across the harmonised jurisdictions. The regulations create a specific
+2022–2023 across the harmonised jurisdictions (see the adoption table below;
+Victoria's separate regulations followed in December 2025). The regulations create a specific
 obligation to manage psychosocial risks using the same SFAIRP framework as
 physical hazards. Key provisions:
 
@@ -1380,7 +1383,7 @@ not guarantee no health effect, particularly for substances with no threshold
 | Welding fume (not otherwise classified) | 1 mg/m³ | — | — | TWA reduced from 5 mg/m³ in January 2024; IARC Group 1 carcinogen (constituent-specific WES — e.g. manganese, chromium VI — apply in addition) |
 | Lead (inorganic, as Pb) | 0.05 mg/m³ | — | — | Health monitoring mandatory under Reg 415 |
 | Mercury (inorganic) | 0.025 mg/m³ | — | — | Skin notation — dermal absorption |
-| Respirable crystalline silica (RCS) | 0.05 mg/m³ | — | — | Reduced from 0.1 in 2020; no threshold — ALARP (cross-ref `hazards.md` §2) |
+| Respirable crystalline silica (RCS) | 0.05 mg/m³ | — | — | Reduced from 0.1 in 2020; no safe threshold — minimise SFAIRP (cross-ref `hazards.md` §2) |
 | Respirable coal dust | 1.5 mg/m³ | — | — | NSW and QLD coal mines both apply 1.5 |
 | Total inhalable dust (nuisance, where no specific WES) | 10 mg/m³ | — | — | Default for unclassified dust |
 | Respirable dust (nuisance, where no specific WES) | 3 mg/m³ | — | — | Default for respirable fraction |
@@ -1390,7 +1393,7 @@ not guarantee no health effect, particularly for substances with no threshold
 | Xylene (isomers) | 80 ppm | 150 ppm | — | Solvent; skin notation |
 | Acetone | 500 ppm | 1000 ppm | — | Solvent |
 | Methyl ethyl ketone (MEK) | 150 ppm | 300 ppm | — | Solvent |
-| Diesel particulate matter (as elemental carbon) | No national WES | — | — | Widely applied guideline value 0.05 mg/m³ (underground mining focus); IARC Group 1 carcinogen |
+| Diesel particulate matter (as elemental carbon) | No national WES (a WEL of 0.01 mg/m³ EC applies from 1 December 2026) | — | — | AIOH guideline 0.1 mg/m³ EC, action level 0.05 (underground mining focus); IARC Group 1 carcinogen |
 
 ### Adjustments for non-standard work patterns
 The standard WES assumes 8-hour day, 5-day week. For extended shifts (10-, 12-,
@@ -1470,7 +1473,8 @@ shoring) for excavations >1.5m; atmospheric testing for confined spaces;
 edge protection; exclusion zones; emergency plan.
 
 ### Confined Spaces (2018)
-Identification; entry permit; atmospheric testing (O2 19.5–23.5%, LEL <10%);
+Identification; entry permit; atmospheric testing (O2 19.5–23.5%; flammables
+<5% LEL unrestricted, 5–10% only with continuous monitoring, ≥10% no entry);
 continuous monitoring during entry; standby person; rescue plan; cross-ref
 `hazards.md` §11 for full operational depth.
 
@@ -1704,7 +1708,8 @@ Aligned with model law. Notable variations:
 - **SafeWork NSW** — standalone regulator headed by a SafeWork Commissioner
   from 1 July 2025 (Work Health and Safety Amendment (Standalone Regulator)
   Act 2025 (NSW)); previously a unit within the Department of Customer Service
-- **icare** (insurer of last resort) for workers comp — cross-ref
+- **icare** (manages the Nominal Insurer — the default workers-comp insurer
+  for most NSW employers) — cross-ref
   `compensation-rtw.md` §3
 - **Self-insurers** prominent (Coles, Woolworths, major councils, etc.)
 - **HSR cessation power** explicit in NSW; well-tested case law
