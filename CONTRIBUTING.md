@@ -96,5 +96,5 @@ that covers the rest of the work.
 
 ## Questions?
 
-Open a discussion on the repository or contact the maintainer through the
-profile linked in the README.
+Open a discussion on the repository or raise an issue at
+<https://github.com/whosneet/whs-professional-skill/issues>.

@@ -25,10 +25,11 @@ You will need:
 The repository structure you will publish is the full tree shown in the
 **Repository structure** section of `README.md` — root documentation files
 plus the `whs-professional/` skill folder. The skill folder currently
-contains 1 `SKILL.md`, 22 reference files under `references/`, and the
-`examples/` folder. That inventory grows over time, so treat the README
-tree as the source of truth and **package the whole `whs-professional/`
-folder — do not hand-pick files**.
+contains 1 `SKILL.md`, 24 reference files under `references/`, the
+`examples/` folder, `scripts/frequency_rates.py`, and
+`assets/penalty_units.json`. That inventory grows over time, so treat the
+README tree as the source of truth and **package the whole
+`whs-professional/` folder — do not hand-pick files**.
 
 ---
 
@@ -60,6 +61,10 @@ You won't install anything; you'll do everything in a web browser.
    - `ADAPTING.md`
    - `DISCLAIMER.md`
    - `CONTRIBUTING.md`
+   - `PUBLISHING.md`
+   - `CHANGELOG.md`
+   - `EVALS.md`
+   - `promptfooconfig.yaml`
    - `LICENSE`
 3. Scroll to the bottom; in **Commit changes**, write a short description
    (e.g. "Initial publication of repository documentation")
@@ -79,13 +84,19 @@ you upload files into a folder you create.
 5. Scroll down; commit changes ("Add SKILL.md")
 
 6. Repeat for every file in the skill folder — each reference file under
-   `whs-professional/references/` and each file under
-   `whs-professional/examples/`. The complete file list is the repository
-   tree in `README.md` (currently 1 `SKILL.md` + 22 reference files +
-   the `examples/` folder). Do not hand-pick a subset — the skill folder
-   ships whole.
+   `whs-professional/references/`, each file under
+   `whs-professional/examples/`, plus
+   `whs-professional/scripts/frequency_rates.py` and
+   `whs-professional/assets/penalty_units.json`. The complete file list is
+   the repository tree in `README.md` (currently 1 `SKILL.md` + 24
+   reference files + the `examples/`, `scripts/`, and `assets/` folders).
+   Do not hand-pick a subset — the skill folder ships whole.
 
-7. After all files are uploaded, your repository should match the
+7. Use the same filename-box technique for the repository's other folder
+   files: `scripts/validate.py`, `.github/workflows/package.yml`,
+   `.claude-plugin/plugin.json`, and `.claude-plugin/marketplace.json`.
+
+8. After all files are uploaded, your repository should match the
    structure shown in `README.md`.
 
 ### Step 4 — Add a Release with the packaged skill archive
@@ -158,9 +169,13 @@ GitHub Desktop is a free graphical tool from GitHub. Install from
 1. Open the local folder GitHub Desktop created (it will show the path)
 2. Copy in all your files following the structure shown above:
    - `README.md`, `ADAPTING.md`, `DISCLAIMER.md`, `CONTRIBUTING.md`,
-     `LICENSE`, `PUBLISHING.md` at the root
-   - `whs-professional/` folder containing `SKILL.md` and the `references/`
-     subfolder
+     `LICENSE`, `PUBLISHING.md`, `CHANGELOG.md`, `EVALS.md`, and
+     `promptfooconfig.yaml` at the root
+   - the `scripts/` (`validate.py`), `.github/` (`workflows/package.yml`),
+     and `.claude-plugin/` (`plugin.json`, `marketplace.json`) folders at
+     the root
+   - `whs-professional/` folder containing `SKILL.md` and the
+     `references/`, `examples/`, `scripts/`, and `assets/` subfolders
 
 ### Step 3 — Commit and publish
 

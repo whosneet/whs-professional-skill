@@ -342,8 +342,12 @@ whs-professional/                  # The Claude skill folder
     │                              #   Grenfell, Costa Concordia, Ranger Uranium,
     │                              #   Bhopal, Beirut Port; named-thinker framing
     ├── sector-regimes.md          # Mining, maritime, aviation, rail, healthcare
-    │                              #   biosafety, defence — sector-specific regimes
-    │                              #   that sit alongside or outside the WHS Act
+    │                              #   biosafety, defence, petrochemical,
+    │                              #   telecommunications, agriculture, hospitality,
+    │                              #   education, retail, road transport (HVNL /
+    │                              #   Chain of Responsibility) — sector-specific
+    │                              #   regimes that sit alongside or outside the
+    │                              #   WHS Act
     ├── workplace-controls.md      # First aid, emergency prep / evacuation,
     │                              #   lone working / remote work, working from
     │                              #   home / hybrid (Right to Disconnect, FDV)
@@ -387,7 +391,12 @@ EVALS.md                           # Regression evaluation ledger (the "why" of 
 promptfooconfig.yaml               # Automated regression suite (npx promptfoo eval)
 LICENSE                            # Licence terms
 CHANGELOG.md                       # Version history of the skill
+scripts/
+└── validate.py                    # CI validation gate: frontmatter, refs, versions
 .gitignore                         # Git ignore patterns (artefacts, IDE noise)
+.claude-plugin/
+├── plugin.json                    # Claude Code plugin manifest (name, version)
+└── marketplace.json               # Marketplace listing (/plugin marketplace add)
 .github/
 └── workflows/
     └── package.yml                # CI: validates, guards, builds and attaches the
