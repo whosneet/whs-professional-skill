@@ -75,9 +75,11 @@ and air monitoring.
 ### Exemption framework
 The regulator may grant an exemption only if the standard of health and safety achieved
 will be at least equivalent to that achieved without the exemption. Applicants must
-consult Safe Work Australia's social partners before applying. Exemptions are also
-available for genuine research, analysis, sampling and identification of engineered
-stone.
+consult Safe Work Australia's social partners before applying. Separately, the
+prohibition does not apply to work for genuine research and analysis or to sample
+and identify engineered stone — built-in exceptions in the regulations
+(rr 529E–529F; legacy removal/repair/minor-modification/disposal work sits under
+r 529F with r 529G notification), no exemption required.
 
 ### Practical implications for FM / large-portfolio contracts
 - Cabinetmakers, joiners, fit-out contractors must be prequalified against engineered
@@ -114,7 +116,8 @@ From 1 September 2024, model WHS Regulations introduced stronger requirements fo
 For HRCSW, the PCBU must:
 - Prepare a written **Silica Risk Control Plan** before work commences
 - Provide health monitoring to workers who carry out the work
-- Provide training in the SWA approved RCS training package
+- Provide crystalline silica training — a course that is nationally accredited or
+  approved by the WHS regulator (model Reg 529CD); keep training records for 5 years
 - Conduct air monitoring to confirm controls are effective
 - Review (and as necessary revise) the plan whenever the silica processes or the
   relevant control measures change — the model regulations tie review to
@@ -122,8 +125,8 @@ For HRCSW, the PCBU must:
 
 ### Materials containing crystalline silica
 Common materials in FM and refurbishment contracts:
-- Concrete and concrete products (cured: typically 20–35% crystalline silica)
-- Mortar, brick, tile, sandstone, granite
+- Concrete and mortar (typically 25–70% crystalline silica)
+- Brick, tile, sandstone, granite
 - Tunnel and earthworks excavation materials
 - Refractory brick (high-temp installations)
 - Some fillers and abrasives
@@ -223,7 +226,7 @@ PC duties (model WHS Reg 308–315) include:
   training** (the white card — Reg 316) and receive site-specific induction covering
   the WHSMP and site rules (Regs 309–310)
 - Managing the site (access, signage, traffic, emergency, amenities)
-- Notifying the regulator of incidents and high-risk activities
+- Notifying the regulator of notifiable incidents (WHS Act ss 35–39)
 
 ### WHS Management Plan (WHSMP)
 The WHSMP (Reg 309) is a document covering:
@@ -232,7 +235,6 @@ The WHSMP (Reg 309) is a document covering:
 - Arrangements for managing incidents
 - Site-specific safety rules
 - How SWMS will be obtained, assessed, monitored, and reviewed
-- High-risk construction work being undertaken and how it will be managed
 
 ### High-Risk Construction Work (HRCW)
 HRCW (Reg 291) is construction work involving any of the 18 categories listed in
@@ -604,8 +606,11 @@ Isolation procedures must address all energy types present:
 - Type A minimum for general single-phase circuits
 - Type B for circuits feeding variable-speed drives or rectifiers (Type A misses
   DC residual current)
-- Push-test monthly (operator-level); full operational test 6-monthly or annually
-  per AS/NZS 3760 (general) or AS/NZS 3012 (construction)
+- Push-button test by the user — portable RCDs daily/before use and fixed RCDs
+  monthly on construction sites (AS/NZS 3012:2019), fixed RCDs 6-monthly elsewhere
+  (AS/NZS 3760:2022); operating-time (trip-time) test by a competent person —
+  3-monthly portable / 12-monthly fixed on construction sites, 12-monthly in most
+  other environments (AS/NZS 3760 Table 4)
 - Required for portable equipment on construction sites, damp areas, and (in most
   jurisdictions) for all hire equipment
 
@@ -718,7 +723,8 @@ Other contaminants tested as relevant to the space's history and contents.
 
 ### Standards framework
 - AS 2359 series — industrial trucks (forklifts and similar)
-- AS 4324 — mobile equipment for surface mining (broadly applied)
+- AS 4324.1 — mobile equipment for continuous handling of bulk materials
+  (structural design of stackers, reclaimers, shiploaders)
 - ISO 3691 — industrial truck safety requirements
 - AS 1418 series — cranes, hoists and winches
 
@@ -863,12 +869,15 @@ guidance.
   is not sufficient for solvents)
 
 ### Bulk storage
-- Bunding capacity ≥ 110% of largest container volume + 25% rainfall capture (open
-  bunds) per AS 1940; specific calculations for AS 3780 and AS 4326
+- Tank compound net capacity ≥ 110% of the largest tank per AS 1940:2017 (package
+  stores: ≥ 110% of the largest container or ≥ 25% of aggregate volume, whichever
+  is greater); maintain net capacity by draining accumulated rainwater from open
+  bunds; specific calculations for AS 3780 and AS 4326
 - Bund integrity: regular inspection; bund drainage controlled with closed valve;
   bunded area free from non-bund-rated penetrations
-- Tank inspections per AS/NZS 1692 (steel tanks for flammable liquids) or AS 4979
-  (FRP tanks)
+- Tank inspections per AS/NZS 1692 (steel tanks for flammable and combustible
+  liquids); GRP/FRP tanks per AS 2634 (GRP chemical plant equipment); polyethylene
+  tanks per AS/NZS 4766
 
 ### Empty containers
 Residual hazards remain until the container is decontaminated. "Empty" drums and IBCs:
@@ -1091,7 +1100,7 @@ required before first use of plant and on significant change. Considers:
 
 Documented; reviewed when plant or use changes; available at the workplace.
 
-### Plant registration (Reg 268–270 + Schedule 5)
+### Plant registration (Regs 243–246 + Schedule 5)
 Specified plant requires design registration and/or item registration with the
 regulator. Schedule 5 of the model WHS Regulations lists both (non-exhaustive
 summary):
@@ -1221,7 +1230,7 @@ mining (state-specific).
 The HVNL applies to heavy vehicles over 4.5 t GVM across all states except WA + NT
 (which have separate but similar regimes). The fatigue work/rest-hours regime applies
 to fatigue-regulated heavy vehicles — generally those over 12 t GVM, plus buses over
-4.5 t GVM fitted to carry 12 or more adults (including the driver) and certain
+4.5 t GVM built or fitted to carry more than 12 adults (including the driver) and certain
 combinations. Three accreditation tiers:
 - **Standard hours**: maximum 12 hours work in any 24-hour period (solo drivers),
   with prescribed rest
@@ -1317,8 +1326,9 @@ defaults):
 - Tandem (multi-crane) lifts
 - Lifts of fragile, irregular, or unstable loads
 - Lifts requiring crane setup on non-standard surfaces (slopes, soft ground)
-- Lifts near energised electrical lines (within Safe Approach Distance — see
-  AS 3007 / state regulation)
+- Lifts near energised electrical lines (within the Safe Approach Distance set by
+  state electrical safety regulation; model WHS Reg 166 duty; AS 2550.1 safe-use
+  guidance)
 - Lifts during marginal weather conditions
 
 ### HRWL classes for crane and lifting work
@@ -1625,8 +1635,8 @@ non-hot-work maintenance.
 ### Standards framework
 - AS 1674.1 — Safety in welding and allied processes — Fire precautions
 - AS 1674.2 — Safety in welding and allied processes — Electrical
-- AS/NZS 1336 — Eye and face protection — welding
-- AS 4839 — Safety in welding
+- AS/NZS 1336 — Eye and face protection — Guidelines
+- AS 4839 — Safe use of portable and mobile oxy-fuel gas systems
 - Permit-to-work for hot work in non-routine locations (cross-ref
   `inspections-audits-permits.md` §4)
 

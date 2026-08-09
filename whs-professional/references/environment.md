@@ -524,7 +524,7 @@ themselves separate offences in most jurisdictions.
 | Jurisdiction | Statutory basis | Trigger | Timing | To whom |
 |---|---|---|---|---|
 | **NSW** | POEO Act 1997 s 148 | Pollution incident causing or threatening material harm | Immediately; written follow-up within 7 days | NSW EPA, local council, Ministry of Health, SafeWork NSW, FRNSW |
-| **VIC** | EP Act 2017 s 32 | Notifiable incident (defined in Reg 24 — fire, explosion, contamination of waters/land, asbestos release, significant discharge) | As soon as practicable | EPA Victoria 1300 372 842 |
+| **VIC** | EP Act 2017 ss 30, 32 | Notifiable incident (s 30): a pollution incident that causes or threatens material harm ('material harm' per s 5, incl. the ≥$10,000 clean-up-cost threshold; near misses captured by 'threatens'). Separate duty for notifiable contamination of land (EP Regulations 2021 regs 8–12) | As soon as practicable (s 32) | EPA Victoria 1300 372 842 |
 | **QLD** | EP Act 1994 s 320 + s 320A | Material/serious environmental harm or risk of | Within 24 hrs of becoming aware | Administering authority (DETSI or local govt) |
 | **WA** | EP Act 1986 s 72 | Discharge of waste causing pollution | As soon as practicable | DWER |
 | **SA** | EP Act 1993 s 83 | Serious or material environmental harm | As soon as reasonably practicable | EPA SA |
@@ -627,7 +627,7 @@ change to the manifest information.
 | AS 1216 | Class labels for dangerous goods (placarding designs) |
 | **AS 1940:2017** | Storage and handling of flammable and combustible liquids |
 | AS 4326:2008 | Storage and handling of oxidising agents |
-| AS 3780:2008 | Storage and handling of corrosive substances |
+| AS 3780:2023 | The storage and handling of corrosive substances |
 | AS 4332:2004 | Storage and handling of gases in cylinders |
 | AS/NZS 2243.10 | Safety in laboratories — storage of chemicals |
 | AS 2187.0-2.1 | Explosives — storage, transport, use |
@@ -676,8 +676,9 @@ caustic; a bund holding diesel cannot share with a Class 5.1 oxidiser. AS 1940
 
 ### 7.4 Transport — ADG Code 7.9
 
-The **Australian Dangerous Goods Code (ADG Code) Edition 7.9** (effective from
-2024) regulates the transport of dangerous goods by road and rail. Administered
+The **Australian Dangerous Goods Code (ADG Code) Edition 7.9** (in use from
+1 October 2024; mandatory from 1 October 2025) regulates the transport of
+dangerous goods by road and rail. Administered
 by state/territory transport regulators; mirrors UN Recommendations on the
 Transport of Dangerous Goods (UN Model Regulations).
 

@@ -1039,8 +1039,8 @@ PCBU must have a documented PEP pathway with 24/7 access.
 |---|---|---|
 | **Anaesthetic gases** | Operating theatres, recovery, dental | Scavenging systems; periodic monitoring (N2O <25 ppm typical guideline); workspace ventilation; pregnancy considerations |
 | **Cytotoxic drugs (chemotherapy)** | Oncology, pharmacy preparation, administration | AS 2639-1994 and AS 2567 (laminar-flow cytotoxic drug safety cabinets — dated; confirm current status and pair with the relevant state cytotoxic-drug handling handbook and ISOPP/closed-system-transfer-device guidance); BSC Class II Type B2 or isolator; closed system transfer devices; spill kits; spill response protocol; specialised waste streams |
-| **Formaldehyde / formalin** | Pathology, anatomy, embalming | Engineering ventilation; substitution with formalin alternatives where possible; WES (NES) 1 ppm TWA — Safe Work Australia revised 2020 |
-| **Ethylene oxide (EtO)** | Sterilisation in some hospital and industrial contexts | Enclosed systems; ventilation; gas detection; aeration cycles; carcinogen — substitution with alternatives (gamma, e-beam, low-temperature steam) preferred |
+| **Formaldehyde / formalin** | Pathology, anatomy, embalming | Engineering ventilation; substitution with formalin alternatives where possible; WES 1 ppm TWA / 2 ppm STEL — unchanged under the WEL list from 1 December 2026 |
+| **Ethylene oxide (EtO)** | Sterilisation in some hospital and industrial contexts | Enclosed systems; ventilation; gas detection; aeration cycles; carcinogen — substitution with alternatives (gamma, e-beam, low-temperature steam) preferred; WES 1 ppm TWA; from 1 Dec 2026 listed as a non-threshold genotoxic carcinogen — numeric limit removed, minimise exposure so far as is reasonably practicable |
 | **Glutaraldehyde** | Endoscope reprocessing (legacy use); declining | Substitute with peracetic acid or other alternatives; ventilation; PPE |
 | **Mercury (legacy)** | Sphygmomanometers, thermometers (legacy) | Removal program complete in most jurisdictions; spill response capability for remaining devices |
 
@@ -1221,9 +1221,11 @@ Defence ordnance handling is governed by a specialised framework:
 - Storage, handling, transport, and disposal subject to dedicated quantity-
   distance rules, magazine standards, and personnel competency requirements
 
-Civilian dangerous goods regulations (Australian Code for the Transport of
-Dangerous Goods by Road and Rail — ADG Code; HCB regulations) apply at the
-civilian / Defence interface (e.g., ordnance transport on public roads).
+Civilian explosives transport law (Australian Code for the Transport of
+Explosives by Road and Rail — AE Code, 3rd ed., applied under state/territory
+explosives legislation) applies at the civilian / Defence interface (e.g.,
+ordnance transport on public roads); the ADG Code governs dangerous goods
+other than Class 1.
 
 ### 7.5 Security clearance intersection
 

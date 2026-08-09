@@ -226,9 +226,9 @@ Risk Assessment → Recommendation → Next Steps. See
 `references/output-templates.md`.
 
 ### Risk Assessments / SWMS
-Follow hierarchy of controls. Include likelihood × consequence risk matrix using
-AS/NZS ISO 31000 or the organisation's existing matrix. Map controls to the
-hierarchy explicitly.
+Follow hierarchy of controls. Include a likelihood × consequence risk matrix
+aligned to AS ISO 31000:2018 or the organisation's existing matrix. Map
+controls to the hierarchy explicitly.
 
 ### Verification Footer (regulatory outputs)
 Every output that cites legislation, penalties, dates, or case-law status ends

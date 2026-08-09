@@ -10,6 +10,110 @@ currency updates, and small additions).
 
 ---
 
+## [Unreleased] — full-corpus audit correction round (August 2026)
+
+Actions the 8 August 2026 full-corpus audit (`AUDIT-2026-08-08.md` — 98
+tracker items covering ~230 findings from a 16-agent deep-read, cross-file
+sweep, and primary-source web verification). All items closed. Highlights:
+
+### Fixed — act-on-it-wrong facts (P0)
+- Suspension-trauma first aid un-inverted: position the rescued casualty
+  supine; the withdrawn semi-upright advice is no longer implied
+  (`investigation.md`)
+- WA mines re-anchored to the WHS (Mines) Regulations 2022 (§2 had kept the
+  superseded MSI Act 1994); NSW/WA mining statutory roles un-swapped — NSW
+  nomination model (Sch 10 statutory functions), WA SSE created and
+  registered manager abolished (`legislation.md`, `sector-regimes.md`)
+- Aviation fatigue: FRMS is the optional CAO 48.1 Appendix 7 pathway, not a
+  CASR mandate (`sector-regimes.md`)
+- NZ reform: the Health and Safety at Work Amendment Act 2026 received Royal
+  Assent 9 July 2026, main provisions commence 1 April 2027 (§3.10 had "the
+  Bill is not law"); NSW s 26A comply-or-equivalent codes of practice from
+  1 July 2026 added alongside QLD's (`legislation.md`, `SKILL.md`)
+- NSW psychological-injury reforms: 130-week continuation gate corrected to
+  ≥25% WPI with the 2027/2029 step-ups; parameters commenced 1 July 2026
+  (`compensation-rtw.md`)
+- WA journey claims corrected to not-covered for ordinary commutes (the
+  corpus said the opposite in two places); VIC exclusion re-dated to the
+  December 1992 amendments (`compensation-rtw.md`)
+- Duty-to-notify citation fixed (s 38 alone; ss 36–37 are definitions);
+  principal-contractor default under Reg 293 corrected (the commissioning
+  PCBU is the PC unless another is engaged); FWC stop-sexual-harassment
+  orders relocated to FW Act Part 3-5A (s 527J) with the 11 Nov 2021
+  commencement; DDA defences completed (s 21A inherent requirements, s 45);
+  Commonwealth penalty-unit prose updated to $364 from 1 July 2026 with
+  derived figures recomputed; NSW POEO daily continuing-offence maxima
+  updated to the doubled $480k/$240k
+- VIC WHS-fine insurance ban corrected to ss 148A–148B (the cited s 154A
+  does not exist); uninsurable-jurisdiction list extended to QLD, SA and the
+  ACT (`specialist-topics.md`, `legislation.md`)
+
+### Fixed — contradictions, misroutes, worked examples
+- QLD-vs-ACT "first industrial manslaughter" double-claim reconciled;
+  inspector document/answer powers re-cited s 165 → s 171; ACC accounts
+  four → five; psychosocial hazard list restated only in SKILL.md §7
+  (frameworks recap deleted); manifest quantities re-anchored Schedule 14 →
+  Schedule 11 everywhere; *Safety Differently* re-attributed to Dekker
+- The Meridian worked-example universe realigned to `company.md` (risk
+  language, twelve critical risks, SafeStart 6-week Dec–Jan, PIIN
+  expansion, role titles, document codes, BU structure); the SKILL.md §5
+  verification footer now appears in the advisory-note template, regulator
+  notification script, and example 03
+- ~12 semantic cross-reference misroutes fixed (targets whose §-numbers
+  existed but topics didn't match), including the INDEX s 272A row and the
+  ISO 45001 clause-map pointers
+- Case-study evidentiary corrections web-verified: Telos survey timing
+  (Jan 2005), Macondo BOP defects as post-incident DNV findings, Grenfell
+  refurbishment window and fatal-precedent list, Beirut yield range and
+  Schedule 15 UN listing, LH Holding $3M appeal outcome, Whakaari as-at
+  treatment
+
+### Fixed — citations, standards, currency (web-verified)
+- Standards glosses corrected: AS 2634/AS-NZS 4766 (tanks), Reg 166 +
+  AS 2550.1 (crane SADs), AS/NZS 1336 and AS 4839 titles, AS 4324.1,
+  AS 1940:2017 bunding rule, AS/NZS 3012:2019 + 3760:2022 RCD intervals,
+  AS 3780:2023, AS ISO 31000:2018 designation, ISO 19011:2026 (May 2026),
+  ISO 45001/Amd 1:2024 climate note
+- Model-Regs anchors corrected: plant registration rr 243–246; hazardous-
+  chemicals health monitoring rr 368–378 + Sch 14 (lead rr 405–407); WHSMP
+  r 309(2) items; silica training r 529CD; engineered-stone exceptions
+  rr 529E–529G vs regulator exemptions; PIN periods (s 92 / s 100); WEPR
+  empowering provisions; NZ ACoP list relabelled (guidance vs ACoP;
+  NZECP 34:2001 full title); VIC non-disturbance notices s 110
+- Currency: VIC psych regs retitled to the made instrument (OHS
+  (Psychological Health) Regulations 2025); HVNL fatigue-bus definition
+  (more than 12 adults); QLD reportable conduct (Child Safe Organisations
+  Act 2024); OPGGS Safety Regulations 2024; NT/WA/QLD machinery-of-
+  government names; telco tower majors; NZ RMA-replacement bills named;
+  biogenic methane 14–24%; Fleming 2024 finding corrected
+  (charity/volunteering, not reduced hours); NSW firefighter cancer-list
+  expansion (6 Aug 2025); fabricated referents removed ("State Munitions
+  Officers", "DEOSB", "ROH", "RSNL ACOP", "QLDe-Waste tracker", "GIO
+  Agribusiness", "Storm" litigation)
+
+### Changed — deployment, tooling, docs
+- Skill folder no longer references unpackaged repo-root files (ADAPTING /
+  DISCLAIMER now carry the source-repo URL); `.claude-plugin` manifests
+  synced to the skill version and `skills` path fixed for pre-v2.1.221
+  Claude Code; SKILL.md description trimmed to restore frontmatter headroom
+- `scripts/validate.py` upgraded: description-scoped 1024 limit,
+  case-insensitive reference checks (INDEX.md and SKILL.md §-refs now
+  validated), manifest version sync, packaged-reference guard, 7 new
+  regression guards, official-titles spelling allowlist (13 standing
+  warnings → 0); CI tag gate now verifies both manifests
+- promptfoo: three evals re-pointed at the file that actually carries the
+  asserted fact; brittle assertions replaced
+- Glossary gained a Psychosocial section, MTIFR/RWIFR/PIAWE/NWE/DPI
+  entries; INDEX gained 13 verified keyword rows; the adaptation chain
+  (Template / interview / ADAPTING) aligned so all paths capture the same
+  ten sections; `frequency_rates.py` now errors on <12-month rolling CSVs
+  and rolling+severity misuse, and validates month contiguity
+- README repository tree completed; PUBLISHING inventory and upload lists
+  corrected; CONTRIBUTING contact link fixed; analytics rolling-12-month
+  DAX re-anchored to the last closed period
+
+---
+
 ## [1.7.0] — 2026-07-03
 
 ### Guided adaptation release

@@ -599,7 +599,7 @@ A defensible safety climate survey covers, at minimum:
 | Reporting culture | Workers' willingness to report hazards and near-misses without fear | "I feel comfortable reporting safety concerns to my supervisor" |
 | Just culture perception | Perceived fairness when something goes wrong | "When incidents happen, the focus is on understanding what happened, not blaming individuals" |
 | Leadership commitment | Whether workers see leaders prioritising safety in practice, not slogans | "My senior leaders' decisions show that safety is genuinely a priority" |
-| Psychological safety | Edmondson 7-item scale, validated | See §3 above |
+| Psychological safety | Edmondson 7-item scale, validated | See the Edmondson scale earlier in this section |
 | Worker engagement on safety decisions | Whether workers feel consulted on decisions that affect their safety | "I am consulted on safety decisions that affect how I do my work" |
 | Critical control awareness | Whether workers know the critical controls for their work | "I know what the critical controls are for the high-risk tasks I do" |
 | Psychosocial wellbeing | Exposure to psychosocial hazards (e.g. harmful workplace behaviour); aligns with psychosocial hazard regulations (see SKILL.md §7) | "I am not exposed to behaviour at work that affects my mental health" |

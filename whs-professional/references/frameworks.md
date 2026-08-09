@@ -4,15 +4,15 @@
 
 ## Table of Contents
 1. [Hierarchy of Controls](#1-hierarchy-of-controls)
-2. [So Far As Is Reasonably Practicable (SFAIRP)](#2-sfairp)
-3. [ISO 45001:2018 — OH&S Management System](#3-iso-45001)
+2. [So Far As Is Reasonably Practicable (SFAIRP)](#2-so-far-as-is-reasonably-practicable-sfairp)
+3. [ISO 45001:2018 — OH&S Management System](#3-iso-450012018--ohs-management-system)
 4. [Safety II and New View Safety](#4-safety-ii-and-new-view-safety)
 5. [Human and Organisational Performance (HOP)](#5-human-and-organisational-performance-hop)
 6. [Resilience Engineering](#6-resilience-engineering)
 7. [Critical Risk Management](#7-critical-risk-management)
-8. [Board and ELT Safety Reporting](#8-board--elt-safety-reporting)
-9. [Leading and Lagging Indicators](#9-leading--lagging-indicators)
-10. [Worker Engagement and Participation](#10-worker-engagement--participation)
+8. [Board and ELT Safety Reporting](#8-board-and-elt-safety-reporting)
+9. [Leading and Lagging Indicators](#9-leading-and-lagging-indicators)
+10. [Worker Engagement and Participation](#10-worker-engagement-and-participation)
 11. [Forge Works Blueprint](#11-forge-works-blueprint)
 12. [Safety Science — Named Thinkers](#12-safety-science--named-thinkers)
 13. [WHS in M&A and Due Diligence](#13-whs-in-ma-and-due-diligence)
@@ -64,7 +64,9 @@ including:
 5. **Cost** — relevant, but with a clear favourability of safety ahead of cost; cost must be **grossly disproportionate** to the risk before it justifies not implementing a control. If a duty holder cannot afford a reasonably practicable control, they should not engage in the activity.
 
 **Key distinction**: SFAIRP (the standard in AU and NZ WHS law) is not the same
-as ALARP (As Low As Reasonably Practicable — used in UK and petroleum sectors).
+as ALARP (As Low As Reasonably Practicable — the convention in UK HSE guidance
+and petroleum/major-hazard practice; the UK statute itself uses 'so far as is
+reasonably practicable').
 SFAIRP requires weighing all factors and applying the best available controls
 unless cost is grossly disproportionate. When advising under AU/NZ WHS frameworks,
 use SFAIRP, not ALARP.
@@ -73,7 +75,11 @@ use SFAIRP, not ALARP.
 
 ## 3. ISO 45001:2018 — OH&S Management System
 
-### 5.1 Clause Map
+Note: ISO 45001:2018/Amd 1:2024 (Climate action changes, February 2024) requires
+organisations to consider whether climate change is a relevant issue in clause 4
+context analysis (no transition period).
+
+### 3.1 Clause Map
 
 | Clause | Title | Key requirements |
 |---|---|---|
@@ -85,7 +91,7 @@ use SFAIRP, not ALARP.
 | 5 | Leadership and worker participation | Top management commitment; policy; roles |
 | 5.1 | Leadership and commitment | Active engagement, not delegation |
 | 5.2 | OH&S Policy | Committed to: preventing injury/illness; meeting legal obligations; worker consultation; continual improvement |
-| 5.3 | Roles, responsibilities, accountabilities | Assign and communicate |
+| 5.3 | Organizational roles, responsibilities and authorities | Assign and communicate (accountability sits here in practice) |
 | 5.4 | Consultation and participation | All levels; all stages; barrier-free reporting |
 | 6 | Planning | Risks and opportunities; hazard identification; legal obligations; objectives |
 | 6.1.1 | General | Address risks/opportunities; consider abnormal/emergency situations |

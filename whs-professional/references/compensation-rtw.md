@@ -229,9 +229,11 @@ issue. Key changes:
   4. Acceptance > weekly payments (first 13 weeks at 95% of pre-injury
      average weekly earnings (PIAWE); 14–130 weeks at 80%; >130 weeks
      subject to capacity reassessment) + medical + impairment benefits
-  5. Common law damages available if **30% WPI (whole-person impairment)**
-     threshold met (serious injury gateway under s 335 WIRC), or via
-     narrative test
+  5. Common law damages available for a **'serious injury'** (s 325
+     WIRC — deemed where WPI (whole-person impairment) is assessed at
+     30% or more, or via the narrative test), accessed through a
+     serious injury certificate or leave (s 328) before proceedings
+     may be brought (s 335)
 - **Notable**: VIC has no journey claims coverage for ordinary commutes
   (excluded since the December 1992 amendments);
   uses OHS not WHS terminology; Workplace Manslaughter offence has
@@ -259,9 +261,12 @@ issue. Key changes:
      DPI threshold and notice of claim requirements (Personal Injuries
      Proceedings Act 2002 parallels)
 - **Notable**: QLD retains the strongest common law damages access
-  among AU jurisdictions; presumptive silicosis (2019) and first
-  responder PTSD (presumption passed 20 May 2021) provisions are in
-  the WCRA
+  among AU jurisdictions; the 2019 WCRA amendments strengthened
+  latent-onset dust-disease entitlements (terminal-condition widening,
+  pneumoconiosis re-scoring by imaging, funded medical examinations
+  for engineered-stone workers) — an examination/support pathway, not
+  a presumption; first responder PTSD (presumption passed 20 May 2021)
+  provisions are in the WCRA
 
 ### Western Australia
 - **Insurer**: multi-insurer private market — approximately 8 licensed
@@ -966,9 +971,13 @@ schedule of cancers and a qualifying period of service:
 
 The schedule of cancers typically includes: brain, bladder, kidney,
 non-Hodgkin lymphoma, leukaemia, multiple myeloma, breast, testicular,
-oesophageal, prostate, ureter, colorectal, lung cancer (in non-smoker
-firefighters). Qualifying service period varies by cancer (typically
-5–25 years).
+oesophageal, prostate, ureter, colorectal. Qualifying service period
+varies by cancer (typically 5–25 years).
+
+NSW expanded its schedule by ten cancers — including primary site lung
+cancer and female reproductive cancers — for diagnoses from
+6 August 2025; the non-smoker lung-cancer qualifier belongs to
+Canadian schemes, not Australian lists.
 
 The per-jurisdiction cancer counts above are indicative only — the
 prescribed schedule of cancers and qualifying periods has been expanded

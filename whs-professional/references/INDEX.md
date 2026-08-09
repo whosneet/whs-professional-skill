@@ -35,7 +35,7 @@ legal privilege, LPP management | investigation.md | §14
 ## Frameworks & governance
 hierarchy of controls, SFAIRP, risk assessment | frameworks.md | §1-§10
 Safety II, HOP, resilience engineering, Forge Works | frameworks.md | §4-§6, §11
-named thinkers, Reason, Dekker, Hollnagel, Conklin, Edmondson, Provan, Rasmussen, Hopkins, Weick | frameworks.md | §12
+named thinkers, Reason, Dekker, Hollnagel, Conklin, Edmondson, Provan, Rasmussen, Hopkins, Weick, Westrum | frameworks.md | §12
 M&A, due diligence, acquisition, integration, sector overlays | frameworks.md | §13
 psychosocial controls, hierarchy for psychosocial | frameworks.md | §14
 governance, assurance, audit program | frameworks.md | §15

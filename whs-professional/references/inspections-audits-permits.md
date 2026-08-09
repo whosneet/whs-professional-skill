@@ -171,7 +171,7 @@ risks into the same response category and incentivise minimisation.
 
 | Standard | Application |
 |---|---|
-| **ISO 19011:2018** | Guidelines for auditing management systems — THE reference for audit methodology, planning, conduct, and auditor competency |
+| **ISO 19011:2026** | Guidelines for auditing management systems — THE reference for audit methodology, planning, conduct, and auditor competency (4th ed., May 2026 — supersedes :2018; adds formal remote/hybrid audit methods, strengthened risk-based approach) |
 | **ISO/IEC 17021-1** | Requirements for bodies providing audit and certification of management systems (third-party certification) |
 | **ISO 45001:2018** | The OH&S management system being audited (cross-reference `frameworks.md` §3) |
 | **ISO 31000:2018** | Risk management — guidelines (used to frame audit risk assessment) |

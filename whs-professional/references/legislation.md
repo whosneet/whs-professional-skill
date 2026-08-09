@@ -238,8 +238,8 @@ direct lever on levy cost.
 
 ### 3.2 Worker Engagement, Participation and Representation (WEPR) Regulations 2016
 
-Made under HSWA s 60. Define when worker participation practices must be in place and how
-elected representation operates.
+Made under the regulation-making powers in HSWA ss 211, 214 and 218. Define when worker
+participation practices must be in place and how elected representation operates.
 
 **PCBU duty (s 61 HSWA; engagement duties ss 58–60)**: every PCBU must have worker participation practices that
 provide reasonable opportunities for workers to participate effectively in improving WHS
@@ -280,13 +280,19 @@ evidence of what is reasonably practicable, not a deemed-compliance presumption
 
 | ACoP | Subject |
 |---|---|
-| Working at Heights (2012, currently under review) | Fall prevention hierarchy; scaffold, EWPs, fall arrest |
 | Safety in Excavation and Shafts | Trench and shaft work; cave-in prevention |
 | Forest Operations (Approved by Minister) | Tree felling, log haulage, breaking out |
 | Safe Use of Agrichemicals (NZS 8409) | Handling, storage, application, PPE |
-| NZECP 34 Electrical Code of Practice | Electrical safety; low and high voltage |
 | Demolition | Structural assessment, hazardous materials, exclusion zones |
 | Management and Removal of Asbestos (2016) | Identification, control, removal licensing |
+
+Often cited as ACoPs but not approved under HSWA:
+- **Working at Heights (2012)** — WorkSafe good-practice guidance (fall prevention
+  hierarchy; scaffold, EWPs, fall arrest); the guidance is under review, with an
+  ACOP in development
+- **NZECP 34:2001 — NZ Electrical Code of Practice for Electrical Safe Distances**
+  (approved under Electricity Act 1992 s 38) — mandatory safe distances near
+  overhead lines; not an HSWA ACoP
 
 ### 3.4 NZ high-fatality sectors and WorkSafe NZ focus areas
 
@@ -482,7 +488,7 @@ HSRs have substantive statutory powers; the scope varies by jurisdiction.
 
 | Power | Jurisdictions | Notes |
 |---|---|---|
-| Issue Provisional Improvement Notice (PIN) | All harmonised jurisdictions + VIC | HSR must have completed approved training (5 days). PCBU has 7 days to comply or seek review by regulator |
+| Issue Provisional Improvement Notice (PIN) | All harmonised jurisdictions + VIC | HSR must have completed approved training (5 days). PIN must allow at least 8 days for compliance (s 92); recipient may seek regulator-appointed inspector review within 7 days of issue (s 100) |
 | Direct workers to cease unsafe work | NSW, QLD, SA, TAS, ACT, NT, WA (post-2022); VIC | Subject to attempted issue resolution first, unless risk is immediate. HSR must have completed approved training |
 | Accompany an inspector | All | Right of attendance during inspections |
 | Request workplace inspections | All | PCBU must facilitate |
@@ -825,10 +831,14 @@ what is reasonably practicable (HSWA s 226) — not a deemed-compliance
 presumption (see §3.10 — the Amendment Act 2026 converts ACoP compliance into
 a deemed-compliance safe harbour from 1 April 2027). Key ACoPs include:
 - Health and Safety in Employment — General Safety in the Workplace
-- Safe Work with Machinery
-- Working at Heights
 - Petrochemical Industry
-- NZ Electrical Code of Practice (NZECP)
+- Management and Removal of Asbestos (2016)
+
+Not ACoPs: **Safe Work with Machinery** and **Working at Heights** are WorkSafe
+good-practice guidance (the working-at-height guidance is under review, with an
+ACOP in development); **NZECP 34:2001** (NZ Electrical Code of Practice for
+Electrical Safe Distances, approved under Electricity Act 1992 s 38) sets
+mandatory safe distances near overhead lines and is not an HSWA ACoP.
 
 ### Hierarchy of Guidance
 Legislation → Regulations → Codes of Practice → Standards (AS/NZS) → Guidance material
@@ -1383,7 +1393,7 @@ not guarantee no health effect, particularly for substances with no threshold
 | Formaldehyde (HCHO) | 1 ppm | 2 ppm | — | Carcinogen (IARC Group 1) — keep exposure ALARP |
 | Isocyanates (TDI, MDI as -NCO) | 0.02 mg/m³ | 0.07 mg/m³ | — | 2-pack paints, polyurethane foam; respiratory sensitiser |
 | Welding fume (not otherwise classified) | 1 mg/m³ | — | — | TWA reduced from 5 mg/m³ in January 2024; IARC Group 1 carcinogen (constituent-specific WES — e.g. manganese, chromium VI — apply in addition) |
-| Lead (inorganic, as Pb) | 0.05 mg/m³ | — | — | Health monitoring mandatory under Reg 415 |
+| Lead (inorganic, as Pb) | 0.05 mg/m³ | — | — | Health monitoring mandatory for lead risk work under Regs 405–407 |
 | Mercury (inorganic) | 0.025 mg/m³ | — | — | Skin notation — dermal absorption |
 | Respirable crystalline silica (RCS) | 0.05 mg/m³ | — | — | Reduced from 0.1 in 2020; no safe threshold — minimise SFAIRP (cross-ref `hazards.md` §2) |
 | Respirable coal dust | 1.5 mg/m³ | — | — | NSW and QLD coal mines both apply 1.5 |
@@ -1484,7 +1494,7 @@ continuous monitoring during entry; standby person; rescue plan; cross-ref
 Inventory and manifest (Schedule 11 placard quantities, Schedule 14 manifest
 quantities — cross-ref `hazards.md` §13); SDS access; GHS labelling;
 segregation; emergency response; health monitoring for prescribed substances
-(Reg 415–438); ventilation; PPE.
+(Regs 368–378 + Schedule 14); ventilation; PPE.
 
 ### Managing Electrical Risks in the Workplace (2018)
 De-energise as default (Reg 158); risk assessment for energised work;
@@ -1592,7 +1602,7 @@ lawful.
 under different procedural provisions.
 
 **Inspector powers**: Improvement Notices (s 111), Prohibition Notices
-(s 112), Non-disturbance Notices (s 113). WorkSafe Victoria publishes
+(s 112), Non-disturbance Notices (s 110). WorkSafe Victoria publishes
 guidance and conducts inspections.
 
 **Officer liability — contrast with model law**: the OHS Act contains **no
