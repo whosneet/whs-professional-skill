@@ -10,11 +10,27 @@ currency updates, and small additions).
 
 ---
 
-## [Unreleased] — full-corpus audit correction round (August 2026)
+## [1.8.0] — 2026-08-09
 
-Actions the 8 August 2026 full-corpus audit (`AUDIT-2026-08-08.md` — 98
-tracker items covering ~230 findings from a 16-agent deep-read, cross-file
-sweep, and primary-source web verification). All items closed. Highlights:
+Accuracy and optimisation release. Actions the 8 August 2026 full-corpus
+audit (`AUDIT-2026-08-08.md` — 98 tracker items covering ~230 findings from
+a 16-agent deep-read, cross-file sweep, and primary-source web verification;
+all items closed), plus a multi-surface optimisation pass for claude.ai
+(web), Claude Desktop, Cowork, and Claude Code. Highlights:
+
+### Optimised — multi-surface performance
+- `sector-regimes.md` compressed below the 2,000-line single-read boundary
+  (Claude Code's default Read window) with zero content loss — a naive
+  full-file read no longer silently truncates §15
+- SKILL.md now instructs section-targeted loading of the large reference
+  files (grep `INDEX.md`/file ToCs; offset reads in Claude Code, sandbox
+  grep on claude.ai/Desktop/Cowork) instead of whole-file loads
+- Graceful no-code-execution fallback documented for
+  `scripts/frequency_rates.py` (show full arithmetic + verification flag;
+  `penalty_units.json` quotable without execution)
+- README install docs now cover Claude Desktop and Cowork explicitly (one
+  claude.ai upload serves all three surfaces) and the code-execution
+  requirement for the bundled calculator
 
 ### Fixed — act-on-it-wrong facts (P0)
 - Suspension-trauma first aid un-inverted: position the rescued casualty

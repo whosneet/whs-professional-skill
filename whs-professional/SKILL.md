@@ -1,6 +1,6 @@
 ---
 name: whs-professional
-version: 1.7.0
+version: 1.8.0
 description: >
   Expert WHS/OHS professional for Australia and New Zealand. Use when a task
   involves WHS/OHS incident investigation (ICAM, 5-Why); legislative or
@@ -70,6 +70,12 @@ document codes, system names, critical-risk topics, named programs, governance
 cadence), load `references/company.md` alongside the generic file(s). If a task
 spans multiple rows, load all relevant files. When unsure which file covers a
 topic, check `references/INDEX.md` first — it is a compact keyword index.
+
+**Load sections, not whole files.** The larger reference files run 60–110 KB;
+each carries a numbered ToC. Grep `INDEX.md` (or the file's ToC) for the §
+you need and read that section — via offset/limit reads in Claude Code, or
+grep/sed in the code-execution sandbox on claude.ai, Claude Desktop, and
+Cowork — rather than pulling a whole file into context.
 
 | File | Load when the task involves | Key sections |
 |---|---|---|
@@ -366,6 +372,13 @@ register, not a post-project exercise.
 |---|---|
 | `scripts/frequency_rates.py` | TRIFR/LTIFR/MTIFR/RWIFR/AIFR/severity rate calculation; rolling 12-month series anchored to last closed period. Run it — do not calculate rates in-context. |
 | `assets/penalty_units.json` | Penalty unit values by jurisdiction with effective dates and sources. Look up, multiply, cite the effective date. Re-verify entries whose `verified_as_at` is >6 months old or whose `value` is null. |
+
+> **If code execution is unavailable** (e.g. claude.ai with the analysis tool
+> disabled): do not silently hand-calculate. Say the deterministic calculator
+> could not be run, show the arithmetic in full (rate = events × 1,000,000 ÷
+> hours, rounded to 2 dp), and flag the figures for verification.
+> `assets/penalty_units.json` values can always be quoted directly with their
+> effective dates — no execution needed.
 
 ---
 

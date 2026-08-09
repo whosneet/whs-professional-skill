@@ -63,7 +63,15 @@ It is designed to be **organisation-agnostic at the framework layer** and
 ## Quick start — Option A: install in Claude.ai
 
 Use this option if you access Claude through a web browser at
-<https://claude.ai>. You will download a file and upload it to your account.
+<https://claude.ai>, through the **Claude Desktop app**, or through
+**Cowork**. You will download a file and upload it to your account once —
+skills attach to your Claude account, so a single claude.ai upload makes the
+skill available across web, Desktop, and Cowork sessions.
+
+> For the bundled calculator (`scripts/frequency_rates.py`) to run on these
+> surfaces, code execution (the analysis tool) must be enabled in your
+> settings. Without it the skill still works — it shows its arithmetic in
+> full and flags figures for verification instead (see SKILL.md §11).
 
 The skill installs as a single packaged archive — a `.zip` of the skill
 folder. Release assets also include a `.skill` copy: it is the same ZIP
@@ -523,6 +531,28 @@ opportunities for community contribution:
 - ~~**Utility scripts**~~ — ✓ closed in v1.6.0: `scripts/frequency_rates.py`
   (frequency rate calculator) and `assets/penalty_units.json` (penalty unit
   lookup); further calculators welcome
+
+### Recently added (v1.8.0 — August 2026)
+
+v1.8.0 is an accuracy and optimisation release built on a full-corpus audit:
+
+- ✓ **Full-corpus audit actioned** — a 16-agent deep-read, cross-file
+  consistency sweep, and primary-source web-verification pass produced
+  ~230 findings (`AUDIT-2026-08-08.md`, retained as the closed tracker);
+  every finding fixed, including 14 practitioner-facing factual errors,
+  ~70 web-verified statute/standard corrections, and the realignment of
+  the worked examples to the Meridian configuration
+- ✓ **Multi-surface optimisation** — `sector-regimes.md` compressed under
+  the 2,000-line single-read boundary; section-targeted loading guidance
+  for large files; a no-code-execution fallback for the bundled
+  calculator; install docs now cover claude.ai web, Claude Desktop,
+  Cowork, and Claude Code explicitly
+- ✓ **Tooling hardening** — `scripts/validate.py` now checks description
+  length semantics, manifest version sync, packaged-reference integrity,
+  and carries seven new regression guards plus an official-titles spelling
+  allowlist (0 warnings standing); CI verifies all three version fields at
+  tag time; the promptfoo evals were re-pointed at the files that actually
+  carry the asserted facts
 
 ### Recently added (v1.7.0 — July 2026)
 

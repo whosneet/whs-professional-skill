@@ -1,6 +1,6 @@
 {
   "name": "whs-professional",
   "description": "WHS/OHS professional skill for Australian and New Zealand workplace health and safety",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "skills": ["./whs-professional"]
 }

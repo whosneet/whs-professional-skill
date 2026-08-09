@@ -41,19 +41,11 @@ identification and risk management. It is deliberately principles-based.
 
 Sector-specific regimes exist where:
 
-- The hazard profile is sufficiently distinctive (underground gas, aviation
-  airworthiness, marine vessel stability, biosafety containment) that prescriptive
-  rules are warranted alongside general duties
-- Catastrophic-event history has driven legislative response (Pike River for NZ
-  mining; Macondo for offshore petroleum; Moura, Box Flat, Appin for AU coal
-  mining; Westray for Canadian mining)
-- International conventions impose obligations that must be domestically enacted
-  (SOLAS, ICAO Annex 19, IMO conventions)
-- Inspector competency requires specialist technical knowledge that general WHS
-  inspectorates cannot maintain (longwall geotechnics, aircraft maintenance,
-  rail signalling, nuclear regulation)
-- Industry funding models are baked into the inspectorate (industry-funded
-  safety regulators, e.g. RSHQ in QLD coal mining)
+- The hazard profile is sufficiently distinctive (underground gas, aviation airworthiness, marine vessel stability, biosafety containment) that prescriptive rules are warranted alongside general duties
+- Catastrophic-event history has driven legislative response (Pike River for NZ mining; Macondo for offshore petroleum; Moura, Box Flat, Appin for AU coal mining; Westray for Canadian mining)
+- International conventions impose obligations that must be domestically enacted (SOLAS, ICAO Annex 19, IMO conventions)
+- Inspector competency requires specialist technical knowledge that general WHS inspectorates cannot maintain (longwall geotechnics, aircraft maintenance, rail signalling, nuclear regulation)
+- Industry funding models are baked into the inspectorate (industry-funded safety regulators, e.g. RSHQ in QLD coal mining)
 
 ### Regime hierarchy — overlay vs replacement
 Sector-specific regimes operate in one of three modes relative to the general
@@ -68,17 +60,11 @@ WHS Act:
 ### How to determine which regime applies
 Sequential test for any WHS task involving a sector-specific industry:
 
-1. **Identify the workplace** — what is the physical location, vessel, aircraft,
-   facility, mine?
-2. **Identify the activity** — what work is being performed? Is it operational
-   (in-scope of sector regime) or ancillary (administrative, catering,
-   maintenance — may fall under general WHS Act only)?
-3. **Identify the duty holders** — who is the PCBU, mine operator, RTO, AOC
-   holder, vessel operator? Multiple parties typically have concurrent duties.
-4. **Identify the jurisdiction** — state, Commonwealth, or international waters /
-   airspace?
-5. **Identify the regulator** — which inspectorate has primary jurisdiction?
-   Where multiple regulators have jurisdiction, which leads investigation?
+1. **Identify the workplace** — what is the physical location, vessel, aircraft, facility, mine?
+2. **Identify the activity** — what work is being performed? Is it operational (in-scope of sector regime) or ancillary (administrative, catering, maintenance — may fall under general WHS Act only)?
+3. **Identify the duty holders** — who is the PCBU, mine operator, RTO, AOC holder, vessel operator? Multiple parties typically have concurrent duties.
+4. **Identify the jurisdiction** — state, Commonwealth, or international waters / airspace?
+5. **Identify the regulator** — which inspectorate has primary jurisdiction? Where multiple regulators have jurisdiction, which leads investigation?
 
 ### Common multi-regime situations
 | Scenario | Regimes that may apply |
@@ -92,16 +78,10 @@ Sequential test for any WHS task involving a sector-specific industry:
 | Underground coal miner | State Coal Mining Safety Act + general state WHS Act (for ancillary activities) |
 
 **Practical implications**:
-- Never assume the WHS Act is the only applicable instrument when working in
-  these sectors
-- When multiple regimes apply, identify the more specific instrument for the
-  specific hazard and apply both
-- Concurrent duty under multiple regimes is the norm, not the exception — the
-  3Cs framework (consultation, cooperation, coordination) under WHS Act s 46
-  applies between PCBUs even where different statutory regimes govern each
-- Investigation jurisdiction is often shared — a single event can trigger
-  parallel WHS regulator and sector regulator investigations, with separate
-  evidence collection, witness interviews, and enforcement decisions
+- Never assume the WHS Act is the only applicable instrument when working in these sectors
+- When multiple regimes apply, identify the more specific instrument for the specific hazard and apply both
+- Concurrent duty under multiple regimes is the norm, not the exception — the 3Cs framework (consultation, cooperation, coordination) under WHS Act s 46 applies between PCBUs even where different statutory regimes govern each
+- Investigation jurisdiction is often shared — a single event can trigger parallel WHS regulator and sector regulator investigations, with separate evidence collection, witness interviews, and enforcement decisions
 
 > For the general WHS / HSWA legislative framework that sits behind every
 > sector-specific regime, load `references/legislation.md`. For organisation-
@@ -120,11 +100,7 @@ Act plus general WHS Act — applies in most jurisdictions.
 
 **Primary instruments:**
 - Work Health and Safety (Mines and Petroleum Sites) Act 2013 (NSW)
-- Work Health and Safety (Mines and Petroleum Sites) Regulation 2022 (NSW) —
-  remade from and replacing the 2014 Regulation (now repealed); coal-specific
-  provisions sit within this MPS Regulation rather than a standalone coal
-  instrument (the former predecessor coal mining statutes were repealed when
-  the WHS(MPS) regime commenced)
+- Work Health and Safety (Mines and Petroleum Sites) Regulation 2022 (NSW) — remade from and replacing the 2014 Regulation (now repealed); coal-specific provisions sit within this MPS Regulation rather than a standalone coal instrument (the former predecessor coal mining statutes were repealed when the WHS(MPS) regime commenced)
 - General WHS Act 2011 (NSW) applies concurrently
 
 **Regulator**: NSW Resources Regulator. The Regulator's departmental home has
@@ -146,17 +122,10 @@ SafeWork NSW.
 > terminology. It has no equivalent under the NSW WHS(MPS) framework.
 
 **Operational principles:**
-- Dual regulation — the general WHS Act 2011 (NSW) applies in addition to
-  WHS(MPS) Act, not in substitution
-- Mine operator must prepare and maintain a written Safety Management System
-  (SMS) covering principal mining hazards
-- Notifiable incidents under the WHS(MPS) Regulation 2022 (verify the current
-  clause numbers against the 2022 Regulation — the renumbering on remake means
-  the former 2014 cl 179–180 references should not be relied on) are broader
-  than general WHS Act s 35 — additional triggers include strata failure, fires
-  underground, inrushes, gas outbursts, electrical incidents underground
-- Inspector powers expanded — Resources Regulator inspectors can suspend
-  operations on safety grounds; mine record book entries are statutory documents
+- Dual regulation — the general WHS Act 2011 (NSW) applies in addition to WHS(MPS) Act, not in substitution
+- Mine operator must prepare and maintain a written Safety Management System (SMS) covering principal mining hazards
+- Notifiable incidents under the WHS(MPS) Regulation 2022 (verify the current clause numbers against the 2022 Regulation — the renumbering on remake means the former 2014 cl 179–180 references should not be relied on) are broader than general WHS Act s 35 — additional triggers include strata failure, fires underground, inrushes, gas outbursts, electrical incidents underground
+- Inspector powers expanded — Resources Regulator inspectors can suspend operations on safety grounds; mine record book entries are statutory documents
 
 **Principal mining hazards** (WHS(MPS) Regulation 2022; verify the current
 schedule/clause against the 2022 Regulation):
@@ -183,24 +152,17 @@ against the 2022 Regulation):
 - Diesel engine operation underground (over defined power thresholds)
 
 **Practical implications:**
-- A general WHS consultant cannot advise on NSW mines without working knowledge
-  of the WHS(MPS) framework — statutory role accountability is fundamentally
-  different
-- Mine record book is a legally significant document; entries are admissible
-  and influence prosecution
-- Resources Regulator publishes weekly safety bulletins, fortnightly significant
-  incident reports — track these for situational awareness
+- A general WHS consultant cannot advise on NSW mines without working knowledge of the WHS(MPS) framework — statutory role accountability is fundamentally different
+- Mine record book is a legally significant document; entries are admissible and influence prosecution
+- Resources Regulator publishes weekly safety bulletins, fortnightly significant incident reports — track these for situational awareness
 
 ### 2.2 QLD — Coal and Minerals Mining
 
 **Primary instruments:**
-- Coal Mining Safety and Health Act 1999 (QLD) + Coal Mining Safety and Health
-  Regulation 2017 (QLD) — coal mining
-- Mining and Quarrying Safety and Health Act 1999 (QLD) + Mining and Quarrying
-  Safety and Health Regulation 2017 (QLD) — minerals, quarries, opal, exploration
+- Coal Mining Safety and Health Act 1999 (QLD) + Coal Mining Safety and Health Regulation 2017 (QLD) — coal mining
+- Mining and Quarrying Safety and Health Act 1999 (QLD) + Mining and Quarrying Safety and Health Regulation 2017 (QLD) — minerals, quarries, opal, exploration
 - Petroleum and Gas (Production and Safety) Act 2004 (QLD) — petroleum and gas
-- General WHS Act 2011 (QLD) **does not apply** to operational activities at
-  coal mines, minerals mines, or quarries — it is substantially displaced
+- General WHS Act 2011 (QLD) **does not apply** to operational activities at coal mines, minerals mines, or quarries — it is substantially displaced
 
 **Regulator**: Resources Safety and Health Queensland (RSHQ). Established as an
 independent statutory body in **2020** following the Brady Review (2019), which
@@ -226,18 +188,10 @@ scheme for coal mine workers, not the inspectorate's funding source.)
 | Industry Safety and Health Representative (ISHR) | Appointed by the relevant union; industry-wide statutory functions under CMSHA Part 7 (not site-elected) | District workers' representative under MQSHA |
 
 **Operational principles:**
-- CMSHA and MQSHA operate as substantially complete regimes — the general WHS
-  Act is not the operative framework for in-mine activities
-- Site Senior Executive is the single accountable person — comparable in
-  structure to but distinct from the PCBU concept
-- High-Potential Incident (HPI) definitions and reporting are specified in the
-  Acts; failure to report is an offence
-- Major incident review boards — Boards of Inquiry can be appointed for
-  catastrophic events (Moura No.2 Warden's Inquiry 1994 — a Warden's /
-  Commission of Inquiry, not a Royal Commission; Grosvenor Board of Inquiry
-  2020 following the 6 May 2020 underground gas ignition / serious accident
-  (5 workers injured) — the Board of Inquiry considered spontaneous combustion
-  the probable cause, against a backdrop of repeated methane exceedances)
+- CMSHA and MQSHA operate as substantially complete regimes — the general WHS Act is not the operative framework for in-mine activities
+- Site Senior Executive is the single accountable person — comparable in structure to but distinct from the PCBU concept
+- High-Potential Incident (HPI) definitions and reporting are specified in the Acts; failure to report is an offence
+- Major incident review boards — Boards of Inquiry can be appointed for catastrophic events (Moura No.2 Warden's Inquiry 1994 — a Warden's / Commission of Inquiry, not a Royal Commission; Grosvenor Board of Inquiry 2020 following the 6 May 2020 underground gas ignition / serious accident (5 workers injured) — the Board of Inquiry considered spontaneous combustion the probable cause, against a backdrop of repeated methane exceedances)
 
 **Industry-funded inspectorate** — RSHQ is funded by the coal and metalliferous
 mining and explosives industries through the statutory safety and health fees,
@@ -248,28 +202,19 @@ and technical capacity exceed what general WHS regulators provide.
 **Brady Review (2019)** — Dr Sean Brady's review of QLD mining safety
 performance (2000–2019) following multiple fatalities. Key findings:
 - Fatality rate had not improved meaningfully over the review period
-- Regulatory and operator focus on lagging indicators had crowded out attention
-  to high-potential incidents and systemic risk
-- Drift toward "normal" practices that no longer aligned with original risk
-  controls
-- The Review's recommendations drove the establishment of RSHQ as an
-  independent industry-funded regulator and a renewed focus on HPI intelligence
+- Regulatory and operator focus on lagging indicators had crowded out attention to high-potential incidents and systemic risk
+- Drift toward "normal" practices that no longer aligned with original risk controls
+- The Review's recommendations drove the establishment of RSHQ as an independent industry-funded regulator and a renewed focus on HPI intelligence
 
 **Practical implications:**
-- A WHS Act prosecution cannot proceed for in-mine activity in QLD — CMSHA /
-  MQSHA prosecutions are the available pathway
-- HPI reporting is statutory and time-bound; under-reporting is a discrete
-  offence; the HPI dataset informs both regulator focus and industry-wide
-  intelligence
-- Inspector engagement is technically sophisticated — practitioners should
-  expect inspectors to interrogate ventilation calculations, strata management
-  plans, electrical protection systems, and ground control at engineering depth
+- A WHS Act prosecution cannot proceed for in-mine activity in QLD — CMSHA / MQSHA prosecutions are the available pathway
+- HPI reporting is statutory and time-bound; under-reporting is a discrete offence; the HPI dataset informs both regulator focus and industry-wide intelligence
+- Inspector engagement is technically sophisticated — practitioners should expect inspectors to interrogate ventilation calculations, strata management plans, electrical protection systems, and ground control at engineering depth
 
 ### 2.3 WA — Mines
 
 **Primary instruments:**
-- Work Health and Safety (Mines) Regulations 2022 (WA) — made under the general
-  WHS Act 2020 (WA)
+- Work Health and Safety (Mines) Regulations 2022 (WA) — made under the general WHS Act 2020 (WA)
 - Work Health and Safety Act 2020 (WA) — commenced 31 March 2022
 
 **Historical context**: Until 31 March 2022, WA mines operated under the
@@ -291,40 +236,20 @@ specific function at time of use. The mines safety inspectorate retains
 specialist technical capability.
 
 **Transition period implications:**
-- Practitioners with experience under MSIA must reorient — terminology,
-  duty structure, and notification frameworks have changed substantially
-- Statutory positions restructured: the MSIA **registered manager was
-  abolished**; the WHS(Mines) Regulations 2022 created the **site senior
-  executive (SSE)** (reg 675ZI — SSE and exploration manager appointments are
-  notified to the regulator), with the remaining statutory positions
-  (underground manager, quarry manager, ventilation officer etc.) carried in
-  Schedule 26 with redefined accountabilities
-- Notifiable mining incidents are now defined under WHS(Mines) Reg + general
-  WHS Reg Part 12 — broader than the MSIA reportable incidents list
-- High-risk activities (longwall, secondary support, shaft work) retain
-  specific regulatory treatment under WHS(Mines) Reg
+- Practitioners with experience under MSIA must reorient — terminology, duty structure, and notification frameworks have changed substantially
+- Statutory positions restructured: the MSIA **registered manager was abolished**; the WHS(Mines) Regulations 2022 created the **site senior executive (SSE)** (reg 675ZI — SSE and exploration manager appointments are notified to the regulator), with the remaining statutory positions (underground manager, quarry manager, ventilation officer etc.) carried in Schedule 26 with redefined accountabilities
+- Notifiable mining incidents are now defined under WHS(Mines) Reg + general WHS Reg Part 12 — broader than the MSIA reportable incidents list
+- High-risk activities (longwall, secondary support, shaft work) retain specific regulatory treatment under WHS(Mines) Reg
 
 **Practical implications:**
-- Reference materials, SOPs, and risk registers prepared under MSIA require
-  review against WHS(Mines) Regulations 2022 — drift between old and new
-  frameworks is a known compliance gap
-- The harmonisation does not import QLD's industry-funded model — WA mine
-  safety regulation (now within LGIRS) is funded through consolidated revenue
-  plus a mining safety levy
+- Reference materials, SOPs, and risk registers prepared under MSIA require review against WHS(Mines) Regulations 2022 — drift between old and new frameworks is a known compliance gap
+- The harmonisation does not import QLD's industry-funded model — WA mine safety regulation (now within LGIRS) is funded through consolidated revenue plus a mining safety levy
 
 ### 2.4 SA — Mines
 
 **Primary instruments:**
-- Work Health and Safety Act 2012 (SA) + **Chapter 10 of the Work Health and
-  Safety Regulations 2012 (SA)** — this is the operative mine safety regime in
-  SA. Since 1 January 2013, mine-specific health and safety has been regulated
-  through Chapter 10 (Mines) of the general WHS Regulations rather than a
-  standalone mining safety statute
-- Mines and Works Inspection Act 1920 (SA) — historically the principal mining
-  safety Act, now largely of historical interest: its subordinate Mines and
-  Works Inspection Regulations were made in 1998 (remade 2013), and operative
-  mine safety duties moved to the WHS Act 2012 (SA) and WHS Regulations
-  Chapter 10 (Mines) from 1 January 2013
+- Work Health and Safety Act 2012 (SA) + **Chapter 10 of the Work Health and Safety Regulations 2012 (SA)** — this is the operative mine safety regime in SA. Since 1 January 2013, mine-specific health and safety has been regulated through Chapter 10 (Mines) of the general WHS Regulations rather than a standalone mining safety statute
+- Mines and Works Inspection Act 1920 (SA) — historically the principal mining safety Act, now largely of historical interest: its subordinate Mines and Works Inspection Regulations were made in 1998 (remade 2013), and operative mine safety duties moved to the WHS Act 2012 (SA) and WHS Regulations Chapter 10 (Mines) from 1 January 2013
 - Petroleum and Geothermal Energy Act 2000 (SA)
 - Radiation Protection and Control Act 2021 (SA) — applies to uranium operations
 
@@ -391,13 +316,9 @@ with substantial complexity at the vessel/shore-side interface.
 ### 3.1 AMSA — Australian Maritime Safety Authority
 
 **Primary instruments:**
-- Navigation Act 2012 (Cth) — primary maritime safety law for Australian
-  regulated vessels and seafarers
-- Marine Safety (Domestic Commercial Vessel) National Law Act 2012 (Cth) —
-  national system for domestic commercial vessels (transitioning from
-  state-based regulation)
-- Marine Orders (made under the Navigation Act) — operational requirements
-  for vessel construction, equipment, crewing, safety management
+- Navigation Act 2012 (Cth) — primary maritime safety law for Australian regulated vessels and seafarers
+- Marine Safety (Domestic Commercial Vessel) National Law Act 2012 (Cth) — national system for domestic commercial vessels (transitioning from state-based regulation)
+- Marine Orders (made under the Navigation Act) — operational requirements for vessel construction, equipment, crewing, safety management
 
 **Regulator**: Australian Maritime Safety Authority (AMSA) — Commonwealth
 statutory authority, established 1990.
@@ -428,11 +349,8 @@ Control inspections verify compliance for vessels in AU ports.
 
 **Primary instruments:**
 - Offshore Petroleum and Greenhouse Gas Storage Act 2006 (Cth) (OPGGS Act)
-- Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2024
-  (remade from and replacing the 2009 Safety Regulations; substantive
-  provisions in effect from 12 June 2025)
-- Offshore Petroleum and Greenhouse Gas Storage (Environment) Regulations 2023
-  (remade from and replacing the 2009 Environment Regulations)
+- Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2024 (remade from and replacing the 2009 Safety Regulations; substantive provisions in effect from 12 June 2025)
+- Offshore Petroleum and Greenhouse Gas Storage (Environment) Regulations 2023 (remade from and replacing the 2009 Environment Regulations)
 
 **Regulator**: National Offshore Petroleum Safety and Environmental Management
 Authority (NOPSEMA). Established **1 January 2012**, replacing NOPSA, in
@@ -558,14 +476,9 @@ operator, and port authority are discharged through the 3Cs (WHS Act s 46).
 | **Mooring operations** | Mooring line failure — high-energy snap-back; AMSA has issued multiple safety alerts following fatalities; mooring SWMS and line condition monitoring essential |  |
 
 **Practical implications:**
-- Maritime work requires familiarity with the specific Marine Order or
-  Maritime Rule covering the activity — general WHS analysis is insufficient
-  for the vessel side
-- Port-side / shore-side WHS work proceeds under WHS Act / HSWA but must
-  recognise vessel jurisdiction and coordinate access
-- Offshore petroleum work is NOPSEMA-regulated under a Safety Case regime
-  fundamentally different from prescriptive WHS — Safety Case competency is a
-  specialist discipline
+- Maritime work requires familiarity with the specific Marine Order or Maritime Rule covering the activity — general WHS analysis is insufficient for the vessel side
+- Port-side / shore-side WHS work proceeds under WHS Act / HSWA but must recognise vessel jurisdiction and coordinate access
+- Offshore petroleum work is NOPSEMA-regulated under a Safety Case regime fundamentally different from prescriptive WHS — Safety Case competency is a specialist discipline
 
 ---
 
@@ -580,10 +493,8 @@ regulation.
 
 **Primary instruments:**
 - Civil Aviation Act 1988 (Cth)
-- Civil Aviation Regulations 1988 (CAR) — older regulatory framework, largely
-  superseded by CASR
-- Civil Aviation Safety Regulations 1998 (CASR) — primary modern regulatory
-  instrument
+- Civil Aviation Regulations 1988 (CAR) — older regulatory framework, largely superseded by CASR
+- Civil Aviation Safety Regulations 1998 (CASR) — primary modern regulatory instrument
 - Civil Aviation Orders (CAOs) — operational orders made under the Act
 - Manual of Standards (MOS) for specific CASR Parts
 
@@ -628,13 +539,8 @@ Manual and a Safety Management System (SMS) compliant with CASR Part 119.
 transport accidents and serious incidents.
 
 **Critical distinction — ATSB vs CASA:**
-- **ATSB** conducts no-blame safety investigations under TSI Act to identify
-  contributing factors and improve safety. Investigation reports are explicitly
-  not for the purpose of attributing blame or determining liability
-  (TSI Act s 7).
-- **CASA** conducts regulatory enforcement — licence suspension or cancellation,
-  prosecution, civil aviation order action. Enforcement uses CASA's own
-  investigative powers under the Civil Aviation Act.
+- **ATSB** conducts no-blame safety investigations under TSI Act to identify contributing factors and improve safety. Investigation reports are explicitly not for the purpose of attributing blame or determining liability (TSI Act s 7).
+- **CASA** conducts regulatory enforcement — licence suspension or cancellation, prosecution, civil aviation order action. Enforcement uses CASA's own investigative powers under the Civil Aviation Act.
 
 **The no-blame culture** — TSI Act s 60 provides protection for restricted
 information (e.g., voluntary safety reports, cockpit voice recordings) from
@@ -652,8 +558,7 @@ bodies.
 ### 4.3 CAA NZ — Civil Aviation Authority New Zealand
 
 **Primary instruments:**
-- Civil Aviation Act 1990 (NZ) — replaced by Civil Aviation Act 2023 (NZ),
-  in force from 5 April 2025
+- Civil Aviation Act 1990 (NZ) — replaced by Civil Aviation Act 2023 (NZ), in force from 5 April 2025
 - Civil Aviation Rules (Part 100-series)
 
 **Regulator**: Civil Aviation Authority of New Zealand (CAA NZ) — Crown entity.
@@ -711,13 +616,9 @@ hazardous substances) is the general workplace set.
 | **Lithium batteries** | Cargo lithium battery fires — regulated under IATA Dangerous Goods Regulations and ICAO Technical Instructions; aircraft cargo fires from lithium have caused multiple hull losses |
 
 **Practical implications:**
-- Airside workplace WHS proceeds under the WHS Act / HSWA — but coordination
-  with CASR-regulated operator (the airline) is required
-- MRO organisations have parallel CASA approval (Part 145) and WHS Act / HSWA
-  obligations — Safety Management System under Part 145 typically integrates
-  WHS, airworthiness, and flight safety in one framework
-- A general WHS consultant working at an airport must understand the air
-  operator's SMS and the aerodrome operator's safety management plan
+- Airside workplace WHS proceeds under the WHS Act / HSWA — but coordination with CASR-regulated operator (the airline) is required
+- MRO organisations have parallel CASA approval (Part 145) and WHS Act / HSWA obligations — Safety Management System under Part 145 typically integrates WHS, airworthiness, and flight safety in one framework
+- A general WHS consultant working at an airport must understand the air operator's SMS and the aerodrome operator's safety management plan
 
 ---
 
@@ -729,13 +630,9 @@ regulator. Unlike mining, rail has achieved cross-jurisdictional harmonisation.
 ### 5.1 ONRSR — Office of National Rail Safety Regulator
 
 **Primary instruments:**
-- Rail Safety National Law (RSNL) — enacted in each jurisdiction; applies
-  uniformly across all AU states and territories
-- Rail Safety National Law National Regulations 2012 — single set of
-  regulations adopted in each jurisdiction
-- Code of Practice: Train Visibility at Level Crossings (December 2024) — the
-  first ministerially approved code under the RSNL, admissible as evidence of
-  RSNL compliance; industry standards and codes are developed by RISSB
+- Rail Safety National Law (RSNL) — enacted in each jurisdiction; applies uniformly across all AU states and territories
+- Rail Safety National Law National Regulations 2012 — single set of regulations adopted in each jurisdiction
+- Code of Practice: Train Visibility at Level Crossings (December 2024) — the first ministerially approved code under the RSNL, admissible as evidence of RSNL compliance; industry standards and codes are developed by RISSB
 
 **Regulator**: Office of the National Rail Safety Regulator (ONRSR).
 Established 20 January 2013 under an intergovernmental agreement; took on
@@ -752,11 +649,8 @@ all states and territories.
 ### 5.2 Rail Transport Operator (RTO) accreditation
 
 **Two mechanisms** (RSNL Part 3):
-- **Accreditation** (Division 4) — rail transport operators (rail
-  infrastructure managers and rolling stock operators); operating without
-  accreditation is an offence (s 62)
-- **Registration** (Division 5) — rail infrastructure managers of private
-  sidings; a lighter regime (heritage operators are generally accredited)
+- **Accreditation** (Division 4) — rail transport operators (rail infrastructure managers and rolling stock operators); operating without accreditation is an offence (s 62)
+- **Registration** (Division 5) — rail infrastructure managers of private sidings; a lighter regime (heritage operators are generally accredited)
 
 **Accreditation requirements** include:
 - Demonstrated competency to manage rail safety
@@ -860,17 +754,10 @@ are common after serious events.
 
 RSNL and the general WHS Act / HSWA apply concurrently:
 
-- **Rail-specific safety** (signals, train movements, track work, rail
-  infrastructure) — RSNL is the operative framework
-- **General workplace safety** (manual handling in offices, slips and trips,
-  electrical work in non-rail facilities, plant in maintenance workshops) —
-  WHS Act / HSWA
-- **Worker engagement** — RTOs typically establish a single integrated
-  consultation framework that satisfies both RSNL worker engagement
-  requirements and WHS Act HSR / consultation provisions
-- **Officer duties** — Officers of an RTO have due diligence obligations under
-  both RSNL s 55 and WHS Act s 27 / HSWA s 44; the evidentiary requirements
-  are functionally similar but cited separately
+- **Rail-specific safety** (signals, train movements, track work, rail infrastructure) — RSNL is the operative framework
+- **General workplace safety** (manual handling in offices, slips and trips, electrical work in non-rail facilities, plant in maintenance workshops) — WHS Act / HSWA
+- **Worker engagement** — RTOs typically establish a single integrated consultation framework that satisfies both RSNL worker engagement requirements and WHS Act HSR / consultation provisions
+- **Officer duties** — Officers of an RTO have due diligence obligations under both RSNL s 55 and WHS Act s 27 / HSWA s 44; the evidentiary requirements are functionally similar but cited separately
 
 **NZ rail** — the **Railways Act 2005 (NZ)** is the lead instrument. NZ
 Transport Agency (Waka Kotahi) is the rail safety regulator: it licenses rail
@@ -896,14 +783,9 @@ national rail safety law equivalent to Australia's RSNL.
 | **Working at height** | Overhead line work, double-deck rolling stock maintenance, structures | `hazards.md` §9 |
 
 **Practical implications:**
-- RTO accreditation is not a formality — the SMS is interrogated by ONRSR
-  during accreditation review and on change
-- Track work and possession arrangements are specialised disciplines requiring
-  industry experience; generic WHS work-at-height or PTI controls are not
-  sufficient
-- Investigation of rail incidents commonly involves both ONRSR and the WHS
-  regulator with statutory information barriers between regulatory enforcement
-  and ATSB no-blame investigation
+- RTO accreditation is not a formality — the SMS is interrogated by ONRSR during accreditation review and on change
+- Track work and possession arrangements are specialised disciplines requiring industry experience; generic WHS work-at-height or PTI controls are not sufficient
+- Investigation of rail incidents commonly involves both ONRSR and the WHS regulator with statutory information barriers between regulatory enforcement and ATSB no-blame investigation
 
 ---
 
@@ -981,11 +863,9 @@ medical and dental imaging. ARPANSA also operates the National Radiation
 Dose Register for occupationally exposed workers.
 
 **Clinical applications**:
-- **Diagnostic imaging** — X-ray, CT, fluoroscopy, mammography; nuclear
-  medicine (PET, SPECT)
+- **Diagnostic imaging** — X-ray, CT, fluoroscopy, mammography; nuclear medicine (PET, SPECT)
 - **Radiotherapy** — linear accelerators, brachytherapy, proton therapy
-- **Industrial radiography** — non-destructive testing in construction,
-  manufacturing, mining
+- **Industrial radiography** — non-destructive testing in construction, manufacturing, mining
 - **Research** — sealed and unsealed radioactive sources
 
 **Key controls** — time, distance, shielding, dose monitoring (TLD or OSL
@@ -998,16 +878,11 @@ security, transport regulations (IAEA/IATA), disposal pathways.
 Control of Infection in Healthcare* (2019 edition; periodically updated). Sets
 out the framework for:
 
-- **Standard precautions** — applied to all patients and all clinical
-  encounters: hand hygiene, PPE for risk of body fluid exposure, safe handling
-  of sharps, environmental cleaning, respiratory hygiene
-- **Transmission-based precautions** — applied in addition to standard
-  precautions when transmission risk is identified:
+- **Standard precautions** — applied to all patients and all clinical encounters: hand hygiene, PPE for risk of body fluid exposure, safe handling of sharps, environmental cleaning, respiratory hygiene
+- **Transmission-based precautions** — applied in addition to standard precautions when transmission risk is identified:
   - Contact precautions — gloves and gown for contact (e.g., MRSA, C. difficile)
-  - Droplet precautions — surgical mask, eye protection (e.g., influenza,
-    pertussis)
-  - Airborne precautions — P2/N95 respirator, negative pressure room (e.g.,
-    TB, measles, COVID-19 in some clinical contexts)
+  - Droplet precautions — surgical mask, eye protection (e.g., influenza, pertussis)
+  - Airborne precautions — P2/N95 respirator, negative pressure room (e.g., TB, measles, COVID-19 in some clinical contexts)
 
 **Workplace duties** intersect with WHS Act / HSWA — workers exposed to
 infectious agents must be provided with information, training, PPE, and
@@ -1018,15 +893,10 @@ medical surveillance.
 Needlestick injury (NSI) remains a significant clinical WHS exposure.
 
 **Controls hierarchy:**
-- Eliminate — substitute with non-injection administration where clinically
-  appropriate
-- Substitute — engineered safety devices (retracting needles, blunt-fill
-  needles, needleless connectors); regulated under therapeutic goods
-  framework
-- Engineering — sharps containers at point of use; no recapping (single-handed
-  technique only if recapping is essential)
-- Administrative — training; protocols; post-exposure procedure; immediate
-  reporting culture
+- Eliminate — substitute with non-injection administration where clinically appropriate
+- Substitute — engineered safety devices (retracting needles, blunt-fill needles, needleless connectors); regulated under therapeutic goods framework
+- Engineering — sharps containers at point of use; no recapping (single-handed technique only if recapping is essential)
+- Administrative — training; protocols; post-exposure procedure; immediate reporting culture
 - PPE — gloves provide partial protection only; do not prevent NSI
 
 **Post-exposure prophylaxis (PEP)** — for HIV, HBV, HCV exposure. Time-critical
@@ -1061,8 +931,7 @@ AU. This is treated as a **psychosocial hazard** under the WHS framework as
 well as a physical hazard.
 
 **Controls:**
-- Environmental design (sightlines, alarm activation points, secure spaces,
-  exit pathways)
+- Environmental design (sightlines, alarm activation points, secure spaces, exit pathways)
 - Triage of risk (use of risk assessment tools at presentation)
 - De-escalation training (mandatory for clinical and security staff)
 - Security presence (graduated; permanent in high-risk settings)
@@ -1089,15 +958,9 @@ specific standards layer on:
 | **National standards** | National Safety and Quality Health Service Standards (NSQHS) — accreditation framework for hospitals administered by Australian Commission on Safety and Quality in Health Care |
 
 **Practical implications:**
-- Healthcare WHS practitioners must operate across multiple regulatory
-  frameworks; siloed compliance (WHS only, infection control only, radiation
-  only) produces gaps
-- The NSQHS framework (Standards 1–8) drives much hospital operational policy
-  — WHS integration with NSQHS accreditation is the standard governance
-  pattern
-- Aged care has its own framework — Aged Care Quality and Safety Commission +
-  Aged Care Quality Standards — that overlaps significantly with WHS,
-  infection control, and psychosocial requirements
+- Healthcare WHS practitioners must operate across multiple regulatory frameworks; siloed compliance (WHS only, infection control only, radiation only) produces gaps
+- The NSQHS framework (Standards 1–8) drives much hospital operational policy — WHS integration with NSQHS accreditation is the standard governance pattern
+- Aged care has its own framework — Aged Care Quality and Safety Commission + Aged Care Quality Standards — that overlaps significantly with WHS, infection control, and psychosocial requirements
 
 ### 6.10 Aged care — SIRS and the Aged Care Act 2024
 
@@ -1133,21 +996,15 @@ operational activities.
 
 **Primary instruments:**
 - Defence Act 1903 (Cth) — establishes the Defence Force; command authority
-- Defence Force Discipline Act 1982 (Cth) (DFDA) — military justice for ADF
-  members; covers service-specific offences
-- Work Health and Safety Act 2011 (Cth) — applies to Defence as a Commonwealth
-  entity PCBU; covers civilian and military workforce
+- Defence Force Discipline Act 1982 (Cth) (DFDA) — military justice for ADF members; covers service-specific offences
+- Work Health and Safety Act 2011 (Cth) — applies to Defence as a Commonwealth entity PCBU; covers civilian and military workforce
 - Defence Regulation 2016
 - Defence (Inquiry) Regulations 2018
 
 **Regulator**: Comcare administers the Commonwealth WHS Act 2011 in respect of
 Commonwealth entities, including Defence. Defence is also subject to:
-- Inspector-General ADF (IGADF) — internal inquiry function for serious
-  incidents involving ADF members
-- Defence-specific safety regulators for specialised domains (e.g., the Defence
-  Aviation Safety Authority — DASA — for military aviation; the Defence
-  Seaworthiness Regulator — DSwR — operating the Defence Seaworthiness
-  Management System (DSwMS) for naval vessels and maritime materiel)
+- Inspector-General ADF (IGADF) — internal inquiry function for serious incidents involving ADF members
+- Defence-specific safety regulators for specialised domains (e.g., the Defence Aviation Safety Authority — DASA — for military aviation; the Defence Seaworthiness Regulator — DSwR — operating the Defence Seaworthiness Management System (DSwMS) for naval vessels and maritime materiel)
 
 ### 7.2 WHS Act application to Defence
 
@@ -1169,9 +1026,7 @@ maintenance of Australia's defence. (Some earlier commentary labelled s 12C an
 "operational exclusion" — verify the provision labels against the in-force
 compilation; s 12D is the operative Defence declaration power.) In addition:
 
-- The declaration power is typically engaged for activities undertaken for the
-  purposes of operations against an enemy, or in support of UN or other
-  international operations
+- The declaration power is typically engaged for activities undertaken for the purposes of operations against an enemy, or in support of UN or other international operations
 - Specific operational training exemptions may apply where declared
 - The Defence Act and DFDA may apply to military-specific matters
 
@@ -1189,19 +1044,10 @@ Defence; it is an enterprise reference, not a single-Service publication). Key
 components:
 
 - **Defence Work Health and Safety Strategy** — published periodically
-- **SafetyMan** — the enterprise Defence WHS management system documentation;
-  the authoritative WHS policy and guidance reference for the Defence
-  enterprise, superseding the legacy stand-alone safety manuals
-- **DEFGRAMs** (Defence General Routine Administrative Messages) — formal
-  directives on specific WHS matters; carry policy authority
-- **Domain-specific safety frameworks** — specialist Defence regulators
-  administer their own frameworks above the enterprise WHS baseline: the Defence
-  Aviation Safety Authority (DASA) administers the **Defence Aviation Safety
-  Framework (DASF)** for military aviation; the Defence Seaworthiness Regulator
-  (DSwR) administers the **Defence Seaworthiness Management System (DSwMS)** for
-  maritime materiel; explosive ordnance has its own publication set (see §7.4)
-- **Hazard- and activity-specific instructions** for high-risk activities
-  (live-fire, explosive ordnance, parachuting, diving, helicopter operations)
+- **SafetyMan** — the enterprise Defence WHS management system documentation; the authoritative WHS policy and guidance reference for the Defence enterprise, superseding the legacy stand-alone safety manuals
+- **DEFGRAMs** (Defence General Routine Administrative Messages) — formal directives on specific WHS matters; carry policy authority
+- **Domain-specific safety frameworks** — specialist Defence regulators administer their own frameworks above the enterprise WHS baseline: the Defence Aviation Safety Authority (DASA) administers the **Defence Aviation Safety Framework (DASF)** for military aviation; the Defence Seaworthiness Regulator (DSwR) administers the **Defence Seaworthiness Management System (DSwMS)** for maritime materiel; explosive ordnance has its own publication set (see §7.4)
+- **Hazard- and activity-specific instructions** for high-risk activities (live-fire, explosive ordnance, parachuting, diving, helicopter operations)
 
 The DSMS layers on top of the WHS Act framework — it does not replace it.
 Defence supervisors and officers must understand both the WHS Act duty and
@@ -1211,15 +1057,9 @@ the relevant Defence policy.
 
 Defence ordnance handling is governed by a specialised framework:
 
-- **eDEOP 101 — Defence Explosive Ordnance Publication 101, *Department of
-  Defence Explosives Regulations*** — the governing Defence explosives
-  publication
-- **Explosive Ordnance Safety Regulator (EOSR)** — the technical regulator
-  role for explosive ordnance safety within Defence, held by the **Director
-  General Explosive Ordnance (DGEO)**, consolidating the Directorate of
-  Ordnance Safety's technical-regulator functions
-- Storage, handling, transport, and disposal subject to dedicated quantity-
-  distance rules, magazine standards, and personnel competency requirements
+- **eDEOP 101 — Defence Explosive Ordnance Publication 101, *Department of Defence Explosives Regulations*** — the governing Defence explosives publication
+- **Explosive Ordnance Safety Regulator (EOSR)** — the technical regulator role for explosive ordnance safety within Defence, held by the **Director General Explosive Ordnance (DGEO)**, consolidating the Directorate of Ordnance Safety's technical-regulator functions
+- Storage, handling, transport, and disposal subject to dedicated quantity-distance rules, magazine standards, and personnel competency requirements
 
 Civilian explosives transport law (Australian Code for the Transport of
 Explosives by Road and Rail — AE Code, 3rd ed., applied under state/territory
@@ -1234,12 +1074,9 @@ information that is security-classified. Key implications:
 
 - Witness statements may contain classified operational information
 - Photographs and incident scene records may be classified
-- Investigation reports must be classified appropriately (typically PROTECTED
-  or SECRET depending on operational context)
-- Distribution of reports to inspectors, prosecutors, or external parties
-  requires security clearance verification and Need-to-Know assessment
-- Legal professional privilege management is more complex when classified
-  information is in scope
+- Investigation reports must be classified appropriately (typically PROTECTED or SECRET depending on operational context)
+- Distribution of reports to inspectors, prosecutors, or external parties requires security clearance verification and Need-to-Know assessment
+- Legal professional privilege management is more complex when classified information is in scope
 
 **Practical implications**: Defence WHS practitioners must hold appropriate
 security clearance (Baseline, NV1, NV2, PV) commensurate with the work; civilian
@@ -1252,47 +1089,21 @@ Defence industry — Major Service Providers (MSPs), Lockheed Martin Australia,
 Thales Australia, BAE Systems Australia, Raytheon Australia, NIOA, and the
 many SME suppliers — is subject to:
 
-- WHS Act 2011 (Cth) or relevant state WHS Act, depending on the workplace
-  location and contracting jurisdiction
-- Defence-specific contractual WHS requirements — typically aligned to
-  AS/NZS 4801 (withdrawn/superseded — legacy certifications only) or
-  ISO 45001, with Defence-specific overlays for ordnance,
-  classified work, and specific platforms (aviation, maritime, weapons)
-- Defence Industry Security Program (DISP) — security accreditation; not a WHS
-  framework but intersects (cleared facilities have additional access controls
-  that affect emergency response and inspector engagement)
-- Industry Specific Security Standards for specific platforms (e.g., aviation
-  safety standards under DASA, naval/maritime seaworthiness standards under the
-  DSwR / DSwMS)
+- WHS Act 2011 (Cth) or relevant state WHS Act, depending on the workplace location and contracting jurisdiction
+- Defence-specific contractual WHS requirements — typically aligned to AS/NZS 4801 (withdrawn/superseded — legacy certifications only) or ISO 45001, with Defence-specific overlays for ordnance, classified work, and specific platforms (aviation, maritime, weapons)
+- Defence Industry Security Program (DISP) — security accreditation; not a WHS framework but intersects (cleared facilities have additional access controls that affect emergency response and inspector engagement)
+- Industry Specific Security Standards for specific platforms (e.g., aviation safety standards under DASA, naval/maritime seaworthiness standards under the DSwR / DSwMS)
 
 **Contractor WHS — Defence-specific patterns:**
-- WHS Management Plans (WHSMPs) prepared to Defence template; often more
-  detailed than typical commercial WHSMPs
+- WHS Management Plans (WHSMPs) prepared to Defence template; often more detailed than typical commercial WHSMPs
 - Site Specific Safety Plans (SSSPs) for specific Defence sites
 - Pre-Mobilisation Briefings with Defence WHS representatives
 - Joint incident investigation arrangements between contractor and Defence
 
 **Practical implications:**
-- Defence is a sophisticated WHS regulator-equivalent for its contractors —
-  contractual WHS audit and assurance is substantial
-- The Comcare jurisdiction for Defence does not exclude state WHS regulators
-  from investigation where state-located workplaces are involved (e.g., a
-  Defence training accident in NSW may attract both Comcare and SafeWork NSW
-  attention)
-- Industrial manslaughter — the Commonwealth industrial manslaughter offence
-  (s 30A of the WHS Act 2011 (Cth), inserted by the Closing Loopholes Act 2023
-  and in force from 1 July 2024 — not a Criminal Code offence) has deliberately
-  limited application: it reaches only PCBUs and officers covered by the
-  Commonwealth WHS Act — i.e. Defence as a Commonwealth PCBU, other Commonwealth
-  entities, and non-Commonwealth (Comcare-licensed) entities in the Comcare
-  scheme. It is **not** a generally applicable Defence-industry offence. Most
-  private Defence contractors (e.g. BAE Systems, Thales, Lockheed Martin
-  Australia) operating at state-located workplaces are PCBUs under the relevant
-  **state** WHS Act, not the Commonwealth Act, and a workplace death there would
-  engage that **state's** industrial manslaughter offence — not s 30A — unless
-  the contractor holds a Comcare licence. Whether s 30A or a state offence
-  applies turns on which scheme (Comcare vs state) covers the entity at that
-  workplace
+- Defence is a sophisticated WHS regulator-equivalent for its contractors — contractual WHS audit and assurance is substantial
+- The Comcare jurisdiction for Defence does not exclude state WHS regulators from investigation where state-located workplaces are involved (e.g., a Defence training accident in NSW may attract both Comcare and SafeWork NSW attention)
+- Industrial manslaughter — the Commonwealth industrial manslaughter offence (s 30A of the WHS Act 2011 (Cth), inserted by the Closing Loopholes Act 2023 and in force from 1 July 2024 — not a Criminal Code offence) has deliberately limited application: it reaches only PCBUs and officers covered by the Commonwealth WHS Act — i.e. Defence as a Commonwealth PCBU, other Commonwealth entities, and non-Commonwealth (Comcare-licensed) entities in the Comcare scheme. It is **not** a generally applicable Defence-industry offence. Most private Defence contractors (e.g. BAE Systems, Thales, Lockheed Martin Australia) operating at state-located workplaces are PCBUs under the relevant **state** WHS Act, not the Commonwealth Act, and a workplace death there would engage that **state's** industrial manslaughter offence — not s 30A — unless the contractor holds a Comcare licence. Whether s 30A or a state offence applies turns on which scheme (Comcare vs state) covers the entity at that workplace
 
 ---
 
@@ -1309,8 +1120,7 @@ that apply across all scales.
 - **MHF Regulations** under state WHS — Schedule 15 substance thresholds
 - **State EPA licensing** for emissions, discharges, contaminated land
 - **State Dangerous Goods Acts** for storage and transport
-- **Process Safety**: not separately regulated in AU, but practitioner
-  expectation is alignment with API/CCPS frameworks
+- **Process Safety**: not separately regulated in AU, but practitioner expectation is alignment with API/CCPS frameworks
 
 ### Process safety vs personal safety distinction
 
@@ -1327,54 +1137,32 @@ driven by integrity of containment, not individual injury rates.
 | Manual handling | Safety Instrumented System (SIS) availability |
 
 ### Standards and frameworks
-- **API 754** (Process Safety Performance Indicators for the Refining and
-  Petrochemical Industries) — Tier 1 (loss of primary containment), Tier 2
-  (LOPC of lesser consequence), Tier 3 (challenges to safety systems),
-  Tier 4 (operating discipline). Used as the international metric framework.
-- **CCPS** (Center for Chemical Process Safety) Risk-Based Process Safety
-  20 elements — voluntary but widely adopted
+- **API 754** (Process Safety Performance Indicators for the Refining and Petrochemical Industries) — Tier 1 (loss of primary containment), Tier 2 (LOPC of lesser consequence), Tier 3 (challenges to safety systems), Tier 4 (operating discipline). Used as the international metric framework.
+- **CCPS** (Center for Chemical Process Safety) Risk-Based Process Safety 20 elements — voluntary but widely adopted
 - **IEC 61511** — Functional safety (SIS) for the process industry
-- **AS/NZS 60079** series — Hazardous area classification and equipment
-  (Zone 0/1/2 for gas; Zone 20/21/22 for dust)
+- **AS/NZS 60079** series — Hazardous area classification and equipment (Zone 0/1/2 for gas; Zone 20/21/22 for dust)
 - **API 581** — Risk-based inspection methodology
 
 ### Specific hazards beyond general MHF coverage
-- **Hydrocarbon release** — loss of containment from piping, vessels, flanges,
-  pump seals; the dominant initiating event in process incidents
-- **Fire and explosion** — vapour cloud, flash fire, jet fire, BLEVE
-  (Boiling Liquid Expanding Vapour Explosion)
-- **Toxic gas release** — H2S in sour service, mercury in some streams,
-  ammonia in fertiliser/refrigeration
-- **High pressure and high temperature** — operating envelope discipline;
-  thermal runaway
-- **Hot work** in process areas — cross-reference `hazards.md` §22; permit
-  discipline is the operative control
-- **Pyrophoric materials** — iron sulfide in vessels; auto-ignition risk
-  during shutdown
+- **Hydrocarbon release** — loss of containment from piping, vessels, flanges, pump seals; the dominant initiating event in process incidents
+- **Fire and explosion** — vapour cloud, flash fire, jet fire, BLEVE (Boiling Liquid Expanding Vapour Explosion)
+- **Toxic gas release** — H2S in sour service, mercury in some streams, ammonia in fertiliser/refrigeration
+- **High pressure and high temperature** — operating envelope discipline; thermal runaway
+- **Hot work** in process areas — cross-reference `hazards.md` §22; permit discipline is the operative control
+- **Pyrophoric materials** — iron sulfide in vessels; auto-ignition risk during shutdown
 
 ### Operational disciplines
 
-- **Management of Change (MOC)** — every modification of process, equipment,
-  procedure, or organisation reviewed for safety impact; pre-startup safety
-  review (PSSR) before recommissioning
-- **Mechanical integrity** — inspection, testing, maintenance regime for
-  containment systems; risk-based inspection (RBI) for pressure equipment;
-  asset integrity for ageing assets
-- **Emergency response** — site emergency response team, mutual aid,
-  community notification, NOPSEMA / EPA / WHS regulator coordination
-- **Operator training and certification** — DCS operator competency,
-  permit-to-work issuer competency, hot work training
+- **Management of Change (MOC)** — every modification of process, equipment, procedure, or organisation reviewed for safety impact; pre-startup safety review (PSSR) before recommissioning
+- **Mechanical integrity** — inspection, testing, maintenance regime for containment systems; risk-based inspection (RBI) for pressure equipment; asset integrity for ageing assets
+- **Emergency response** — site emergency response team, mutual aid, community notification, NOPSEMA / EPA / WHS regulator coordination
+- **Operator training and certification** — DCS operator competency, permit-to-work issuer competency, hot work training
 
 ### Practical implications
-- Process safety metric reporting alongside personal safety in board packs
-  (cross-reference `analytics.md` §7)
-- Process Hazard Analysis (HAZOP, LOPA, What-If) cadence — typically
-  3-5 yearly for the whole unit; immediately for significant change
-- The distinction between MHF (regulated) and "non-MHF but process hazard"
-  matters in tender response and insurance pricing
-- Contractor coordination on process sites is high-risk — the Texas City
-  explosion occurred during ISOM unit startup after a turnaround, killing
-  contractors in poorly sited trailers near the unit
+- Process safety metric reporting alongside personal safety in board packs (cross-reference `analytics.md` §7)
+- Process Hazard Analysis (HAZOP, LOPA, What-If) cadence — typically 3-5 yearly for the whole unit; immediately for significant change
+- The distinction between MHF (regulated) and "non-MHF but process hazard" matters in tender response and insurance pricing
+- Contractor coordination on process sites is high-risk — the Texas City explosion occurred during ISOM unit startup after a turnaround, killing contractors in poorly sited trailers near the unit
 
 ---
 
@@ -1386,61 +1174,32 @@ and confined space.
 
 ### Regulatory framework
 - **WHS Act** applies primarily; no separate sector Act
-- **Radiocommunications Act 1992** (Cth) + **ACMA** (Australian Communications
-  and Media Authority) regulates spectrum, infrastructure
-- **ARPANSA** (Australian Radiation Protection and Nuclear Safety Agency)
-  publishes **RPS S-1** (Standard for Limiting Exposure to Radiofrequency
-  Fields – 100 kHz to 300 GHz, 2021)
-- **Telecommunications Act 1997** — carrier powers and immunities for
-  infrastructure work
-- **AS/NZS 3835** series — *Earth potential rise: protection of
-  telecommunication network users, personnel and plant*. This standard concerns
-  earth potential rise and network protection — **not** working at height. For
-  height-safety on towers, rely on the AS/NZS 1891 fall-protection series and
-  carrier/tower-company climbing procedures (verify the standard applicable to
-  the specific structure and task)
-- **AS/NZS 4853** — Electrical hazards on metallic pipelines (relevant for
-  telecoms cabling near pipelines)
+- **Radiocommunications Act 1992** (Cth) + **ACMA** (Australian Communications and Media Authority) regulates spectrum, infrastructure
+- **ARPANSA** (Australian Radiation Protection and Nuclear Safety Agency) publishes **RPS S-1** (Standard for Limiting Exposure to Radiofrequency Fields – 100 kHz to 300 GHz, 2021)
+- **Telecommunications Act 1997** — carrier powers and immunities for infrastructure work
+- **AS/NZS 3835** series — *Earth potential rise: protection of telecommunication network users, personnel and plant*. This standard concerns earth potential rise and network protection — **not** working at height. For height-safety on towers, rely on the AS/NZS 1891 fall-protection series and carrier/tower-company climbing procedures (verify the standard applicable to the specific structure and task)
+- **AS/NZS 4853** — Electrical hazards on metallic pipelines (relevant for telecoms cabling near pipelines)
 
 ### Specific hazards
-- **Working at height on towers** — cross-ref `hazards.md` §9; tower
-  climbing is high-frequency exposure with distinct rescue challenges
-  (limited rescue routes; long suspension time)
-- **RF exposure** — ARPANSA RPS S-1 sets exposure limits (varies by
-  frequency, occupational vs general public); risk assessment required
-  before close-approach work on active antennas; rigger LOTO of transmission
-  may be needed
-- **Electrical hazards** — induction from nearby high-voltage lines;
-  battery banks (50V+ DC) at base stations; lightning protection systems
-- **Confined space** — antenna pits, underground equipment rooms,
-  microwave radomes (atmospheric and thermal hazards in summer)
-- **Lone working at remote sites** — cross-ref `workplace-controls.md` §3;
-  rooftop sites in CBD; mountaintop sites with no road access
-- **Lightning** — tower workers must descend immediately on lightning
-  warning; protocols vary by carrier
+- **Working at height on towers** — cross-ref `hazards.md` §9; tower climbing is high-frequency exposure with distinct rescue challenges (limited rescue routes; long suspension time)
+- **RF exposure** — ARPANSA RPS S-1 sets exposure limits (varies by frequency, occupational vs general public); risk assessment required before close-approach work on active antennas; rigger LOTO of transmission may be needed
+- **Electrical hazards** — induction from nearby high-voltage lines; battery banks (50V+ DC) at base stations; lightning protection systems
+- **Confined space** — antenna pits, underground equipment rooms, microwave radomes (atmospheric and thermal hazards in summer)
+- **Lone working at remote sites** — cross-ref `workplace-controls.md` §3; rooftop sites in CBD; mountaintop sites with no road access
+- **Lightning** — tower workers must descend immediately on lightning warning; protocols vary by carrier
 
 ### Operator structure in AU
 - **Carriers** — Telstra, Optus, TPG, Vocus operate physical infrastructure
-- **Tower companies** — Amplitel (Telstra), Indara (formerly Australia Tower
-  Network + Axicom, merged 2022), and Waveconn (formerly Stilmark; acquired
-  American Tower's Australian sites in 2024) own and lease tower
-  infrastructure to carriers
-- **Service contractors** — third-party tower riggers, antenna installers,
-  electrical contractors deliver the work
-- **Subcontractor chains** common — WHS coordination across multiple PCBUs
-  is the operative challenge
+- **Tower companies** — Amplitel (Telstra), Indara (formerly Australia Tower Network + Axicom, merged 2022), and Waveconn (formerly Stilmark; acquired American Tower's Australian sites in 2024) own and lease tower infrastructure to carriers
+- **Service contractors** — third-party tower riggers, antenna installers, electrical contractors deliver the work
+- **Subcontractor chains** common — WHS coordination across multiple PCBUs is the operative challenge
 
 ### Practical implications
-- Tower rigger competency is a specialist combination (HRWL rigging classes
-  + tower-specific training); verify before engagement
-- RF assessment must be done before any close-approach work; the assumption
-  that "the antenna's off" is unsafe — multiple carriers' antennas typically
-  share a tower
-- Rescue plan must address tower-specific recovery (not all fire and rescue
-  services have tower rescue capability)
+- Tower rigger competency is a specialist combination (HRWL rigging classes + tower-specific training); verify before engagement
+- RF assessment must be done before any close-approach work; the assumption that "the antenna's off" is unsafe — multiple carriers' antennas typically share a tower
+- Rescue plan must address tower-specific recovery (not all fire and rescue services have tower rescue capability)
 - Energy isolation of base station equipment requires carrier coordination
-- Site access often requires multiple authorisations (land owner, local
-  council if applicable, carrier, tower company)
+- Site access often requires multiple authorisations (land owner, local council if applicable, carrier, tower company)
 
 ---
 
@@ -1451,57 +1210,31 @@ characteristics — family farms, small enterprises, lone working, mechanisation
 long hours — create distinct WHS challenges.
 
 ### Regulatory framework
-- **WHS Act** applies (with exemptions for very small operations in some
-  jurisdictions)
-- **Agricultural and Veterinary Chemicals Code Act 1994** (Cth) + APVMA
-  (Australian Pesticides and Veterinary Medicines Authority) — registers
-  chemicals
-- State **agvet chemical use** legislation (NSW Pesticides Act 1999; VIC
-  Agricultural and Veterinary Chemicals (Control of Use) Act 1992) —
-  governs application
-- **Quad bike standards** — ACCC Consumer Goods (Quad Bikes) Safety
-  Standard 2019 (post-NSW Coroner's recommendations); operator protection
-  devices (OPDs) mandatory on new general-use quad bikes since 11 October 2021
-- **Workers Compensation** — no agriculture-specific scheme; in NSW cover
-  sits with icare (Nominal Insurer) or a SIRA-licensed specialised insurer
+- **WHS Act** applies (with exemptions for very small operations in some jurisdictions)
+- **Agricultural and Veterinary Chemicals Code Act 1994** (Cth) + APVMA (Australian Pesticides and Veterinary Medicines Authority) — registers chemicals
+- State **agvet chemical use** legislation (NSW Pesticides Act 1999; VIC Agricultural and Veterinary Chemicals (Control of Use) Act 1992) — governs application
+- **Quad bike standards** — ACCC Consumer Goods (Quad Bikes) Safety Standard 2019 (post-NSW Coroner's recommendations); operator protection devices (OPDs) mandatory on new general-use quad bikes since 11 October 2021
+- **Workers Compensation** — no agriculture-specific scheme; in NSW cover sits with icare (Nominal Insurer) or a SIRA-licensed specialised insurer
 
 ### Specific hazards
-- **Quad bikes and SSVs** — the single largest fatality cause; rollover,
-  pedestrian impact, head injury; helmet use and crush protection central
-- **Tractor rollover** — ROPS retrofit programs; older tractors without
-  ROPS still in widespread use
-- **Agrichemicals** — exposure during application; respiratory and dermal;
-  organophosphate poisoning historically; reproductive toxicity
-- **Livestock handling** — kick, crush, gore; cattle yard design; horse-
-  related (high incidence on equine operations)
-- **Sun exposure** — skin cancer is the dominant occupational illness;
-  cross-reference `environment.md` (climate-WHS intersection)
-- **Working alone in remote locations** — cross-reference `workplace-controls.md`
-  §3; rescue time can be hours
-- **Machinery entanglement** — augers, PTOs (power take-offs), balers,
-  silage equipment
-- **Confined space** — silos (oxygen depletion, grain engulfment), tanks,
-  pits
-- **Heat stress** — outdoor work in extreme conditions; cross-reference
-  `hazards.md` §6
-- **Mental health** — drought, isolation, financial stress; significantly
-  elevated suicide rate
+- **Quad bikes and SSVs** — the single largest fatality cause; rollover, pedestrian impact, head injury; helmet use and crush protection central
+- **Tractor rollover** — ROPS retrofit programs; older tractors without ROPS still in widespread use
+- **Agrichemicals** — exposure during application; respiratory and dermal; organophosphate poisoning historically; reproductive toxicity
+- **Livestock handling** — kick, crush, gore; cattle yard design; horse-related (high incidence on equine operations)
+- **Sun exposure** — skin cancer is the dominant occupational illness; cross-reference `environment.md` (climate-WHS intersection)
+- **Working alone in remote locations** — cross-reference `workplace-controls.md` §3; rescue time can be hours
+- **Machinery entanglement** — augers, PTOs (power take-offs), balers, silage equipment
+- **Confined space** — silos (oxygen depletion, grain engulfment), tanks, pits
+- **Heat stress** — outdoor work in extreme conditions; cross-reference `hazards.md` §6
+- **Mental health** — drought, isolation, financial stress; significantly elevated suicide rate
 
 ### Practical implications
-- Family farm enterprises — many are not formally PCBUs of multiple workers;
-  s 5(8) volunteer association test rarely applies (paid family members =
-  workers)
-- Engaging contractors (shearers, harvest crews, fencers) — WHS coordination
-  in remote and seasonal work
-- Sector-specific bodies — National Farmers' Federation, state farming
-  organisations, AgVet authorities, Workplace Health and Safety Queensland
-  agriculture team
-- Rural worker dispute resolution — Fair Work Commission Pastoral Award has
-  specific WHS-relevant provisions
-- Training providers — Primary Industries Training Council, TAFE rural
-  programs; rural-specific HRWL and chemical handler accreditations
-- Mental health support — Beyond Blue, Lifeline, Rural Adversity Mental
-  Health Program (RAMHP) integration
+- Family farm enterprises — many are not formally PCBUs of multiple workers; s 5(8) volunteer association test rarely applies (paid family members = workers)
+- Engaging contractors (shearers, harvest crews, fencers) — WHS coordination in remote and seasonal work
+- Sector-specific bodies — National Farmers' Federation, state farming organisations, AgVet authorities, Workplace Health and Safety Queensland agriculture team
+- Rural worker dispute resolution — Fair Work Commission Pastoral Award has specific WHS-relevant provisions
+- Training providers — Primary Industries Training Council, TAFE rural programs; rural-specific HRWL and chemical handler accreditations
+- Mental health support — Beyond Blue, Lifeline, Rural Adversity Mental Health Program (RAMHP) integration
 
 ---
 
@@ -1512,36 +1245,21 @@ operating context (long hours, alcohol, late trading) shape WHS profile.
 
 ### Regulatory framework
 - **WHS Act** applies
-- **Food Standards Code** + state Food Acts (NSW Food Act 2003; VIC Food
-  Act 1984) — food safety is separate from WHS but shares hazard ground
-- **Liquor licensing** — state-specific (NSW Liquor Act 2007; VIC Liquor
-  Control Reform Act 1998) — Responsible Service of Alcohol (RSA)
-  certification for service staff
-- **Restaurant Industry Award 2020** (MA000119) + **Hospitality Industry
-  (General) Award 2020** (MA000009) — Fair Work Act instruments with
-  WHS-relevant provisions (rosters, breaks, junior pay)
+- **Food Standards Code** + state Food Acts (NSW Food Act 2003; VIC Food Act 1984) — food safety is separate from WHS but shares hazard ground
+- **Liquor licensing** — state-specific (NSW Liquor Act 2007; VIC Liquor Control Reform Act 1998) — Responsible Service of Alcohol (RSA) certification for service staff
+- **Restaurant Industry Award 2020** (MA000119) + **Hospitality Industry (General) Award 2020** (MA000009) — Fair Work Act instruments with WHS-relevant provisions (rosters, breaks, junior pay)
 
 ### Specific hazards
-- **Slips, trips, falls** — wet kitchen floors, beverage spills, grease,
-  steam condensate; cross-reference `case-studies-everyday.md` §6
-- **Knife and food prep injuries** — laceration, puncture; cumulative MSI
-  from prep work
-- **Hot surfaces and oil** — burns from cooking surfaces, deep fryer oil
-  splash, steam scald
-- **Cleaning chemicals** — acid/alkali contact, chlorine bleach (mixing
-  with acids generates chlorine gas), surface degreasers; cross-reference
-  `hazards.md` §13
-- **Manual handling** — kegs, crates, bain-marie transfer, table set-up;
-  cross-reference `hazards.md` §17
-- **Worker violence** — intoxicated patron aggression; venue-on-staff;
-  domestic spillover at family-run venues
-- **Working alone** — late-trading venue closures; small-format venues;
-  cross-reference `workplace-controls.md` §3
+- **Slips, trips, falls** — wet kitchen floors, beverage spills, grease, steam condensate; cross-reference `case-studies-everyday.md` §6
+- **Knife and food prep injuries** — laceration, puncture; cumulative MSI from prep work
+- **Hot surfaces and oil** — burns from cooking surfaces, deep fryer oil splash, steam scald
+- **Cleaning chemicals** — acid/alkali contact, chlorine bleach (mixing with acids generates chlorine gas), surface degreasers; cross-reference `hazards.md` §13
+- **Manual handling** — kegs, crates, bain-marie transfer, table set-up; cross-reference `hazards.md` §17
+- **Worker violence** — intoxicated patron aggression; venue-on-staff; domestic spillover at family-run venues
+- **Working alone** — late-trading venue closures; small-format venues; cross-reference `workplace-controls.md` §3
 - **Sun exposure** — outdoor service (beer gardens, beach cafés)
-- **Sexual harassment** — chef culture, customer harassment, junior staff
-  vulnerability; cross-reference `legislation.md` §9
-- **Hours of work and fatigue** — late finishes, split shifts, double
-  weekends; cross-reference `hazards.md` §18
+- **Sexual harassment** — chef culture, customer harassment, junior staff vulnerability; cross-reference `legislation.md` §9
+- **Hours of work and fatigue** — late finishes, split shifts, double weekends; cross-reference `hazards.md` §18
 
 ### Young worker considerations
 
@@ -1553,14 +1271,10 @@ Hospitality has the highest proportion of under-25 workers in AU.
 - Higher hazard report likelihood with poor supervision
 
 ### Practical implications
-- Casual workforce + high turnover → induction must be efficient and
-  effective; reliance on experienced co-workers is the operative training
-  in most venues
+- Casual workforce + high turnover → induction must be efficient and effective; reliance on experienced co-workers is the operative training in most venues
 - Multi-language workforce — cross-reference `diversity-inclusion.md` §4
-- Lone closing is a high-risk pattern; consider buddy systems, panic
-  alarms, late-night transport assistance
-- Sexual harassment proactive duty (cross-ref `legislation.md` §9) — RSA
-  staff facing customer harassment is a particular concern
+- Lone closing is a high-risk pattern; consider buddy systems, panic alarms, late-night transport assistance
+- Sexual harassment proactive duty (cross-ref `legislation.md` §9) — RSA staff facing customer harassment is a particular concern
 
 ---
 
@@ -1570,71 +1284,41 @@ Distinct PCBU duty profile (workers + students + visitors), specific hazards
 across age groups, and intersection with child protection.
 
 ### Regulatory framework
-- **WHS Act** applies — students are "other persons" under s 19(2); duty to
-  ensure their safety
-- **Child Wellbeing and Safety legislation** — state-specific Reportable
-  Conduct schemes (NSW Children's Guardian Act 2019; VIC Reportable Conduct
-  Scheme; QLD Child Safe Organisations Act 2024 — child safe standards phased
-  from 1 October 2025, reportable conduct scheme from 1 July 2026, QFCC
-  oversight) — mandatory reporting intersection
+- **WHS Act** applies — students are "other persons" under s 19(2); duty to ensure their safety
+- **Child Wellbeing and Safety legislation** — state-specific Reportable Conduct schemes (NSW Children's Guardian Act 2019; VIC Reportable Conduct Scheme; QLD Child Safe Organisations Act 2024 — child safe standards phased from 1 October 2025, reportable conduct scheme from 1 July 2026, QFCC oversight) — mandatory reporting intersection
 - **Education Acts** (state-specific) — schools and TAFE governance
-- **Higher Education Standards Framework** (TEQSA) — university quality
-  + safety
-- **Education and Care Services National Regulations 2011** — early
-  childhood
+- **Higher Education Standards Framework** (TEQSA) — university quality + safety
+- **Education and Care Services National Regulations 2011** — early childhood
 - **National Quality Framework** (ACECQA) — early childhood quality
-- **Working with Children Checks** — state-specific (NSW WWCC, VIC WWCC,
-  QLD Blue Card) — mandatory for staff with child contact
+- **Working with Children Checks** — state-specific (NSW WWCC, VIC WWCC, QLD Blue Card) — mandatory for staff with child contact
 
 ### Specific hazards
-- **Chemicals in science labs** — particularly senior secondary and
-  university; reagent storage, fume cupboards, eye/safety showers; PC2
-  upwards in research (cross-reference §6)
-- **Physical education and sport** — sprains, fractures, head injury;
-  contact sport concussion management (in the context of the AFL concussion
-  class action — Rooke v AFL, Supreme Court of Victoria, filed 2023 — and
-  related player litigation)
-- **Excursions and outdoor education** — risk assessment for off-site
-  activities; water, climbing, camp, transport
-- **Adventure activities by school providers** — Adventure Activities
-  Standards (Outdoor Council of Australia); not the same regime as
-  commercial AAR in NZ
-- **Asbestos in older school buildings** — cross-ref `hazards.md` §3;
-  registers and management plans for pre-2004 stock
-- **Bullying and harassment** of staff — student-on-staff, parent-on-staff,
-  staff-on-staff; psychosocial framework (cross-ref `legislation.md` §9)
-- **Lone working** for cleaners, after-hours staff (cross-ref
-  `workplace-controls.md` §3)
+- **Chemicals in science labs** — particularly senior secondary and university; reagent storage, fume cupboards, eye/safety showers; PC2 upwards in research (cross-reference §6)
+- **Physical education and sport** — sprains, fractures, head injury; contact sport concussion management (in the context of the AFL concussion class action — Rooke v AFL, Supreme Court of Victoria, filed 2023 — and related player litigation)
+- **Excursions and outdoor education** — risk assessment for off-site activities; water, climbing, camp, transport
+- **Adventure activities by school providers** — Adventure Activities Standards (Outdoor Council of Australia); not the same regime as commercial AAR in NZ
+- **Asbestos in older school buildings** — cross-ref `hazards.md` §3; registers and management plans for pre-2004 stock
+- **Bullying and harassment** of staff — student-on-staff, parent-on-staff, staff-on-staff; psychosocial framework (cross-ref `legislation.md` §9)
+- **Lone working** for cleaners, after-hours staff (cross-ref `workplace-controls.md` §3)
 - **Radiation** — physics teaching, university research; cross-ref §6
-- **Workshop hazards** — secondary D&T and TAFE — same as industry
-  workshop (cross-ref `hazards.md` §16)
-- **Manual handling** — early childhood educators (lifting children),
-  primary teachers (set-up, classroom management)
+- **Workshop hazards** — secondary D&T and TAFE — same as industry workshop (cross-ref `hazards.md` §16)
+- **Manual handling** — early childhood educators (lifting children), primary teachers (set-up, classroom management)
 
 ### Child protection intersection
 
 WHS function typically does not own child protection but must understand
 the intersection:
-- Reportable Conduct schemes have specific mandatory reporting timeframes
-  and pathways (state-specific)
-- Disclosure of harm or risk to child triggers obligations separate from
-  WHS incident reporting
-- Worker WHS incident involving a child requires both WHS notification and
-  child protection notification
-- Working with Children Check currency is verified by HR; WHS function may
-  need to verify for contractors and visitors performing child-facing work
+- Reportable Conduct schemes have specific mandatory reporting timeframes and pathways (state-specific)
+- Disclosure of harm or risk to child triggers obligations separate from WHS incident reporting
+- Worker WHS incident involving a child requires both WHS notification and child protection notification
+- Working with Children Check currency is verified by HR; WHS function may need to verify for contractors and visitors performing child-facing work
 
 ### Practical implications
-- Higher education has additional research hazards (cross-reference §6 for
-  PC2-PC4, gene technology, radiation, animal handling)
-- Excursion risk assessment requires sign-off chain including parent/carer
-  consent
-- Volunteer parents and helpers — cross-reference `legislation.md` §12
-  volunteer coverage
-- Boarding schools have residential WHS overlay (kitchen, accommodation,
-  swimming pool, first aid)
-- TAFE workshop training requires industry-standard guarding and
-  competency development at student level
+- Higher education has additional research hazards (cross-reference §6 for PC2-PC4, gene technology, radiation, animal handling)
+- Excursion risk assessment requires sign-off chain including parent/carer consent
+- Volunteer parents and helpers — cross-reference `legislation.md` §12 volunteer coverage
+- Boarding schools have residential WHS overlay (kitchen, accommodation, swimming pool, first aid)
+- TAFE workshop training requires industry-standard guarding and competency development at student level
 
 ---
 
@@ -1645,63 +1329,41 @@ profile (low-frequency high-consequence robbery; high-frequency MSI).
 
 ### Regulatory framework
 - **WHS Act** applies
-- **Australian Consumer Law** + state Fair Trading Acts — separate from
-  WHS but shares some hazard ground (product safety)
-- **General Retail Industry Award 2020** — Fair Work Act instrument with
-  WHS-relevant provisions
-- **Tobacco, liquor, gambling licensing** — state-specific; intersection
-  with worker safety where applicable
+- **Australian Consumer Law** + state Fair Trading Acts — separate from WHS but shares some hazard ground (product safety)
+- **General Retail Industry Award 2020** — Fair Work Act instrument with WHS-relevant provisions
+- **Tobacco, liquor, gambling licensing** — state-specific; intersection with worker safety where applicable
 
 ### Specific hazards
-- **Slip, trip, fall** — wet floors from cleaning, spills, weather entry;
-  display fixtures; cross-reference `case-studies-everyday.md` §6
-- **Manual handling** — stock replenishment, deliveries from trucks,
-  unboxing, fixture set-up; cross-reference `hazards.md` §17
-- **Robbery and aggression** — physical robbery (cash, controlled goods);
-  customer aggression (impatient, intoxicated, mentally distressed)
-- **Lone working** — late trading, small-format stores, opening/closing,
-  delivery acceptance; cross-reference `workplace-controls.md` §3
-- **Hours of work and fatigue** — late closes, early opens, double
-  weekends, retail trading hours peak periods (Christmas, EOFY sales)
-- **Customer-on-worker harassment** — sexual harassment from customers;
-  abusive customers; the third-party harassment dimension of the SDA
-  positive duty (cross-reference `diversity-inclusion.md` §5)
+- **Slip, trip, fall** — wet floors from cleaning, spills, weather entry; display fixtures; cross-reference `case-studies-everyday.md` §6
+- **Manual handling** — stock replenishment, deliveries from trucks, unboxing, fixture set-up; cross-reference `hazards.md` §17
+- **Robbery and aggression** — physical robbery (cash, controlled goods); customer aggression (impatient, intoxicated, mentally distressed)
+- **Lone working** — late trading, small-format stores, opening/closing, delivery acceptance; cross-reference `workplace-controls.md` §3
+- **Hours of work and fatigue** — late closes, early opens, double weekends, retail trading hours peak periods (Christmas, EOFY sales)
+- **Customer-on-worker harassment** — sexual harassment from customers; abusive customers; the third-party harassment dimension of the SDA positive duty (cross-reference `diversity-inclusion.md` §5)
 - **Ergonomics** — POS standing posture, sustained postures, cash handling
-- **Young workers** — high proportion under 25; same considerations as
-  hospitality §11
+- **Young workers** — high proportion under 25; same considerations as hospitality §11
 
 ### Specific high-risk retail subsectors
 - **Service stations** — robbery, fuel handling, lone working at night
 - **Pharmacy** — controlled drug security, aggressive client behaviour
-- **Liquor stores** — robbery, customer aggression, identity check
-  obligations
-- **Gambling venues / casinos** — extended late trading, aggressive
-  patron behaviour, addiction-related distress
-- **Discount/dollar stores** — high churn workforce, cheaper non-compliant
-  product safety, organised retail crime
+- **Liquor stores** — robbery, customer aggression, identity check obligations
+- **Gambling venues / casinos** — extended late trading, aggressive patron behaviour, addiction-related distress
+- **Discount/dollar stores** — high churn workforce, cheaper non-compliant product safety, organised retail crime
 
 ### Robbery prevention and response
 - Cash management (timed safes, frequent drops, limited cash on hand)
-- Physical design (sightlines, lighting, cash counter elevation, escape
-  routes)
+- Physical design (sightlines, lighting, cash counter elevation, escape routes)
 - Two-person opening and closing
 - Time-locked safe procedures
-- Trained behaviour for robbery (compliance, no resistance, observation
-  for police statement)
-- Post-incident debrief and EAP (cross-reference `compensation-rtw.md` §10
-  psychological injury)
+- Trained behaviour for robbery (compliance, no resistance, observation for police statement)
+- Post-incident debrief and EAP (cross-reference `compensation-rtw.md` §10 psychological injury)
 
 ### Practical implications
-- Casual workforce + high turnover (similar to hospitality) → induction
-  challenge
-- Cross-organisational tenancies (shopping centres) — multiple PCBUs in
-  one workplace, 3Cs duty (cross-reference `legislation.md` §4)
-- Loss prevention vs worker safety — workers should not be expected to
-  intervene against shoplifters; policy must be explicit
-- Sexual harassment proactive duty — front-line retail workers face
-  significant exposure
-- Online order fulfilment from stores adds new hazards (back-of-house
-  picking, parcel handling, customer parcel collection)
+- Casual workforce + high turnover (similar to hospitality) → induction challenge
+- Cross-organisational tenancies (shopping centres) — multiple PCBUs in one workplace, 3Cs duty (cross-reference `legislation.md` §4)
+- Loss prevention vs worker safety — workers should not be expected to intervene against shoplifters; policy must be explicit
+- Sexual harassment proactive duty — front-line retail workers face significant exposure
+- Online order fulfilment from stores adds new hazards (back-of-house picking, parcel handling, customer parcel collection)
 
 ---
 
@@ -1716,26 +1378,14 @@ account for the Heavy Vehicle National Law in addition to the WHS Act.
 ### 14.1 The HVNL and the NHVR
 
 **Primary instrument:**
-- **Heavy Vehicle National Law (HVNL)** — applies to heavy vehicles over 4.5
-  tonnes gross vehicle mass. It is **host-jurisdiction legislation**: enacted as
-  the Heavy Vehicle National Law (Queensland) and applied as law in each
-  participating jurisdiction (NSW, VIC, QLD, SA, TAS, ACT).
-- **National Heavy Vehicle Regulator (NHVR)** — the single national regulator
-  administering the HVNL across participating jurisdictions; on-road enforcement
-  is delivered by NHVR officers and by state police under delegation.
-- Subordinate national regulations cover fatigue, mass/dimension/loading,
-  vehicle standards, and accreditation.
+- **Heavy Vehicle National Law (HVNL)** — applies to heavy vehicles over 4.5 tonnes gross vehicle mass. It is **host-jurisdiction legislation**: enacted as the Heavy Vehicle National Law (Queensland) and applied as law in each participating jurisdiction (NSW, VIC, QLD, SA, TAS, ACT).
+- **National Heavy Vehicle Regulator (NHVR)** — the single national regulator administering the HVNL across participating jurisdictions; on-road enforcement is delivered by NHVR officers and by state police under delegation.
+- Subordinate national regulations cover fatigue, mass/dimension/loading, vehicle standards, and accreditation.
 
 **Jurisdictions that do not participate:**
-- **Western Australia** — does not apply the HVNL. Heavy vehicles are regulated
-  under WA legislation (the Road Traffic (Vehicles) Act 2012 and related laws),
-  administered by Main Roads WA, with fatigue and mass/load rules under WA
-  instruments.
-- **Northern Territory** — does not apply the HVNL; heavy vehicles are regulated
-  under NT transport legislation.
-- For interstate operators the practical consequence is a **regime change at the
-  WA and NT borders** — fatigue accreditation, work-diary obligations, and some
-  mass/dimension rules differ. Verify the operating rules for each leg.
+- **Western Australia** — does not apply the HVNL. Heavy vehicles are regulated under WA legislation (the Road Traffic (Vehicles) Act 2012 and related laws), administered by Main Roads WA, with fatigue and mass/load rules under WA instruments.
+- **Northern Territory** — does not apply the HVNL; heavy vehicles are regulated under NT transport legislation.
+- For interstate operators the practical consequence is a **regime change at the WA and NT borders** — fatigue accreditation, work-diary obligations, and some mass/dimension rules differ. Verify the operating rules for each leg.
 
 ### 14.2 Primary duty — s 26C
 
@@ -1808,17 +1458,9 @@ are core evidence in any fatigue investigation.
 
 ### 14.7 Mass, dimension, and loading
 
-- **Mass and dimension limits** — General Mass Limits (GML), Concessional Mass
-  Limits (CML), and Higher Mass Limits (HML) regulate axle and gross mass;
-  oversize/overmass vehicles require permits and may be restricted to defined
-  routes and times.
-- **Load restraint** — loads must be restrained so they cannot move in a way
-  that affects safety. The **Load Restraint Guide 2018** (NTC / NHVR) is the
-  authoritative reference for restraint methods and performance standards (the
-  load must withstand the standard restraint forces — typically 0.8 g forward,
-  0.5 g rearward and sideways, 0.2 g vertically).
-- Loading and restraint failures are shared CoR exposures — the loader, loading
-  manager, packer, and operator can all be in scope.
+- **Mass and dimension limits** — General Mass Limits (GML), Concessional Mass Limits (CML), and Higher Mass Limits (HML) regulate axle and gross mass; oversize/overmass vehicles require permits and may be restricted to defined routes and times.
+- **Load restraint** — loads must be restrained so they cannot move in a way that affects safety. The **Load Restraint Guide 2018** (NTC / NHVR) is the authoritative reference for restraint methods and performance standards (the load must withstand the standard restraint forces — typically 0.8 g forward, 0.5 g rearward and sideways, 0.2 g vertically).
+- Loading and restraint failures are shared CoR exposures — the loader, loading manager, packer, and operator can all be in scope.
 
 ### 14.8 Vehicle standards and maintenance
 
@@ -1835,55 +1477,29 @@ The NHVR and police have a graduated toolkit:
 
 - **Improvement notices** and formal warnings for compliance deficiencies
 - **Prohibition notices** stopping an activity that poses a serious safety risk
-- **Supervisory intervention orders** and prohibition orders against
-  systemically non-compliant operators
+- **Supervisory intervention orders** and prohibition orders against systemically non-compliant operators
 - **Embargo notices** on goods, and direction powers at the roadside
-- **Court-imposed penalties** structured like the WHS categories: a **Category 1
-  offence** (engaging in conduct that exposes a person to a risk of death or
-  serious injury, **recklessly** and without reasonable excuse) carries the
-  highest maxima — of the order of **$3 million-plus for a corporation**, with
-  very substantial individual penalties and possible imprisonment, and lower
-  Category 2 and 3 tiers below. **Penalty figures are indexed and periodically
-  amended — verify the current maxima against the in-force HVNL before citing.**
+- **Court-imposed penalties** structured like the WHS categories: a **Category 1 offence** (engaging in conduct that exposes a person to a risk of death or serious injury, **recklessly** and without reasonable excuse) carries the highest maxima — of the order of **$3 million-plus for a corporation**, with very substantial individual penalties and possible imprisonment, and lower Category 2 and 3 tiers below. **Penalty figures are indexed and periodically amended — verify the current maxima against the in-force HVNL before citing.**
 
 ### 14.10 Interface with the WHS Act
 
 HVNL and WHS duties are **concurrent**, not alternative:
 
-- A transport operator's depot, loading dock, and yard are workplaces under the
-  **WHS Act**; the in-transit and on-road transport-safety activities are
-  regulated under the **HVNL**. A loading-dock incident can engage both.
-- A CoR party is typically also a **PCBU** with WHS primary duties; the s 26C
-  primary duty and the WHS s 19 primary duty are discharged together, and the
-  **3Cs** (WHS Act s 46) apply between consignor, operator, and consignee where
-  they share a workplace or activity.
-- **Which regulator attends** — for an on-road crash, police and the NHVR lead;
-  for a workplace incident at a depot or loading site, the **state WHS
-  regulator** attends and may run a parallel investigation. A fatality can draw
-  the WHS regulator, the NHVR, police, and the coroner concurrently.
-- **Industrial manslaughter** under the applicable WHS Act may apply to a
-  workplace death in addition to HVNL Category 1 exposure.
+- A transport operator's depot, loading dock, and yard are workplaces under the **WHS Act**; the in-transit and on-road transport-safety activities are regulated under the **HVNL**. A loading-dock incident can engage both.
+- A CoR party is typically also a **PCBU** with WHS primary duties; the s 26C primary duty and the WHS s 19 primary duty are discharged together, and the **3Cs** (WHS Act s 46) apply between consignor, operator, and consignee where they share a workplace or activity.
+- **Which regulator attends** — for an on-road crash, police and the NHVR lead; for a workplace incident at a depot or loading site, the **state WHS regulator** attends and may run a parallel investigation. A fatality can draw the WHS regulator, the NHVR, police, and the coroner concurrently.
+- **Industrial manslaughter** under the applicable WHS Act may apply to a workplace death in addition to HVNL Category 1 exposure.
 
 ### 14.11 Practical CoR program elements
 
 A defensible Chain of Responsibility program typically includes:
 
-- **Scheduling reviews** — auditing trip plans and timeslots against lawful
-  work/rest hours and realistic transit times; removing schedules that can only
-  be met by breaching fatigue or speed limits
-- **Loading documentation** — restraint certificates, mass declarations,
-  container weight declarations, and dock procedures that evidence compliance
-- **Contract clauses** — CoR compliance warranties, the right to refuse unsafe
-  tasks, and prohibition on demands that would cause breaches, embedded in
-  freight and customer contracts
-- **Subcontractor assurance** — pre-engagement checks (accreditation, insurance,
-  maintenance systems, fatigue management), ongoing monitoring, and audit rights
-  over subcontracted carriers
-- **Telematics and EWDs** — GPS, speed, and electronic work-diary data used both
-  as a control (real-time fatigue and speed monitoring) and as evidence of due
-  diligence
-- **Executive due-diligence reporting** — board / executive visibility of CoR
-  risk, incidents, and assurance, matching the WHS officer due-diligence cadence
+- **Scheduling reviews** — auditing trip plans and timeslots against lawful work/rest hours and realistic transit times; removing schedules that can only be met by breaching fatigue or speed limits
+- **Loading documentation** — restraint certificates, mass declarations, container weight declarations, and dock procedures that evidence compliance
+- **Contract clauses** — CoR compliance warranties, the right to refuse unsafe tasks, and prohibition on demands that would cause breaches, embedded in freight and customer contracts
+- **Subcontractor assurance** — pre-engagement checks (accreditation, insurance, maintenance systems, fatigue management), ongoing monitoring, and audit rights over subcontracted carriers
+- **Telematics and EWDs** — GPS, speed, and electronic work-diary data used both as a control (real-time fatigue and speed monitoring) and as evidence of due diligence
+- **Executive due-diligence reporting** — board / executive visibility of CoR risk, incidents, and assurance, matching the WHS officer due-diligence cadence
 
 > **When to load this section**: load whenever a task involves heavy-vehicle
 > transport, freight scheduling, loading/unloading operations, distribution
@@ -1900,14 +1516,9 @@ A defensible Chain of Responsibility program typically includes:
 Where multiple regulatory regimes apply to the same hazard, the more specific
 instrument generally prevails for that hazard. Examples:
 
-- Helicopter operations offshore — OPGGS Act + CASR; CASR is the more specific
-  instrument for flight operations, OPGGS Act for the offshore facility
-- Track work next to an active rail line on a mining lease — RSNL is the more
-  specific instrument for rail hazards; state mining Act for mining hazards;
-  WHS Act for general workplace hazards
-- Aircraft maintenance at a Defence base — CASR Part 145 for maintenance
-  organisation duties; WHS Act 2011 (Cth) for general workplace duties; DSMS
-  for Defence-specific layered requirements
+- Helicopter operations offshore — OPGGS Act + CASR; CASR is the more specific instrument for flight operations, OPGGS Act for the offshore facility
+- Track work next to an active rail line on a mining lease — RSNL is the more specific instrument for rail hazards; state mining Act for mining hazards; WHS Act for general workplace hazards
+- Aircraft maintenance at a Defence base — CASR Part 145 for maintenance organisation duties; WHS Act 2011 (Cth) for general workplace duties; DSMS for Defence-specific layered requirements
 
 The "more specific prevails" principle is not always neat — overlapping
 duties commonly produce concurrent obligations that all must be discharged.
@@ -1922,22 +1533,15 @@ s 34 duty applies — duty holders must consult, cooperate, and coordinate
 with each other to discharge their respective duties.
 
 Key principles:
-- Duties do **not** transfer between PCBUs — each PCBU retains their own duty
-  even where contractual arrangements purport to allocate responsibility
+- Duties do **not** transfer between PCBUs — each PCBU retains their own duty even where contractual arrangements purport to allocate responsibility
 - Each PCBU must comply with their own duty SFAIRP
-- The 3Cs duty is itself a discrete legal obligation; failure to consult,
-  cooperate, or coordinate is enforceable independently of any underlying
-  hazard outcome
+- The 3Cs duty is itself a discrete legal obligation; failure to consult, cooperate, or coordinate is enforceable independently of any underlying hazard outcome
 
 **Practical patterns in sector-specific environments:**
-- Joint Safety Committees between operators sharing a facility (offshore
-  petroleum, port operations, mining lease shared with rail)
-- Interface agreements between rail infrastructure managers and accredited
-  rolling stock operators
-- Coordinated emergency response between Defence base and contractor
-  workforces
-- Joint inspector engagement protocols where multiple regulators may attend
-  the same incident
+- Joint Safety Committees between operators sharing a facility (offshore petroleum, port operations, mining lease shared with rail)
+- Interface agreements between rail infrastructure managers and accredited rolling stock operators
+- Coordinated emergency response between Defence base and contractor workforces
+- Joint inspector engagement protocols where multiple regulators may attend the same incident
 
 **Cross-reference**: For the 3Cs framework in the general WHS context, load
 `references/legislation.md` §4.
@@ -1957,17 +1561,10 @@ investigation (ATSB / TAIC) and regulatory enforcement (CASA / WHS regulators
 | Internal organisational investigation (ICAM) | Organisational learning; control improvement | Limited statutory protection; legal privilege management critical | Internal report; corrective actions |
 
 **Practical implications:**
-- Information sharing between investigations is statutorily controlled — do
-  not assume documents provided to ATSB are available to CASA or to WHS
-  regulators
-- Witness interview protocols differ — workers may have different rights
-  (right to silence, support person) under different investigation regimes
-- Legal professional privilege management requires deliberate structuring at
-  the outset of an investigation, not retrofitting once enforcement is
-  threatened
-- Engineering or operational analysis prepared for one investigation may be
-  required by another — version control and contemporaneous record keeping is
-  essential
+- Information sharing between investigations is statutorily controlled — do not assume documents provided to ATSB are available to CASA or to WHS regulators
+- Witness interview protocols differ — workers may have different rights (right to silence, support person) under different investigation regimes
+- Legal professional privilege management requires deliberate structuring at the outset of an investigation, not retrofitting once enforcement is threatened
+- Engineering or operational analysis prepared for one investigation may be required by another — version control and contemporaneous record keeping is essential
 
 **Cross-reference**: For general investigation methodology (ICAM, 5-Why) and
 the relationship between internal investigation and regulator investigation,
@@ -1978,21 +1575,11 @@ attendance playbook, load `references/legislation.md` §10.
 
 WHS practitioners working across sectors face structural challenges:
 
-- **Terminology drift** — the same physical hazard is described differently
-  across sectors (e.g., "confined space" in WHS Act vs "enclosed space" in
-  some maritime contexts; "high-risk construction work" in WHS Reg vs
-  "high-potential incident" in mining)
-- **Reporting cadence differences** — sector regulators may require
-  notification at different time thresholds (immediate, 24 hours, 72 hours,
-  monthly) and via different channels
-- **Inspector expertise** — sector inspectors are technically specialised;
-  generic WHS responses to inspector queries are inadequate
-- **Insurance and indemnity** — sector-specific insurance regimes (Coal Mines
-  Insurance in NSW coal, maritime mutual / P&I cover, aviation hull and
-  liability) interact with workers compensation and public liability frameworks
-- **Industrial relations** — sector-specific unions (Mining and Energy Union,
-  MUA, AFAP, RTBU, TWU in road transport) have substantial WHS engagement and
-  HSR involvement specific to the sector
+- **Terminology drift** — the same physical hazard is described differently across sectors (e.g., "confined space" in WHS Act vs "enclosed space" in some maritime contexts; "high-risk construction work" in WHS Reg vs "high-potential incident" in mining)
+- **Reporting cadence differences** — sector regulators may require notification at different time thresholds (immediate, 24 hours, 72 hours, monthly) and via different channels
+- **Inspector expertise** — sector inspectors are technically specialised; generic WHS responses to inspector queries are inadequate
+- **Insurance and indemnity** — sector-specific insurance regimes (Coal Mines Insurance in NSW coal, maritime mutual / P&I cover, aviation hull and liability) interact with workers compensation and public liability frameworks
+- **Industrial relations** — sector-specific unions (Mining and Energy Union, MUA, AFAP, RTBU, TWU in road transport) have substantial WHS engagement and HSR involvement specific to the sector
 
 **The principle for cross-sector practitioners**: do not assume the general
 WHS framework is sufficient for sector-specific work. Identify the relevant
@@ -2004,24 +1591,15 @@ operationally complex.
 
 Before finalising any sector-specific WHS output, confirm:
 
-- [ ] Sector-specific regime identified and cited (mining Act, RSNL, OPGGS,
-      CASR, HVNL, AS/NZS 2243.3, DSMS, etc.) — not just the general WHS Act
-- [ ] Specific regulator identified (RSHQ vs general WHS regulator; NOPSEMA
-      vs state regulator; ONRSR vs WHS regulator; CASA vs WHS regulator;
-      NHVR vs WHS regulator)
-- [ ] Statutory roles correctly identified where relevant (SSE, UMM, OCE,
-      RTO, AOC holder, CoR party)
+- [ ] Sector-specific regime identified and cited (mining Act, RSNL, OPGGS, CASR, HVNL, AS/NZS 2243.3, DSMS, etc.) — not just the general WHS Act
+- [ ] Specific regulator identified (RSHQ vs general WHS regulator; NOPSEMA vs state regulator; ONRSR vs WHS regulator; CASA vs WHS regulator; NHVR vs WHS regulator)
+- [ ] Statutory roles correctly identified where relevant (SSE, UMM, OCE, RTO, AOC holder, CoR party)
 - [ ] Concurrent jurisdiction acknowledged where multiple regimes apply
-- [ ] Notification framework correctly identified — sector-specific reporting
-      is typically in addition to (not in substitution for) WHS Act notifiable
-      incident reporting
-- [ ] Investigation jurisdiction articulated — ATSB / TAIC vs regulator vs
-      coroner vs internal
+- [ ] Notification framework correctly identified — sector-specific reporting is typically in addition to (not in substitution for) WHS Act notifiable incident reporting
+- [ ] Investigation jurisdiction articulated — ATSB / TAIC vs regulator vs coroner vs internal
 - [ ] 3Cs duty considered where multiple PCBUs / duty holders are in scope
-- [ ] Industry-specific competency / accreditation / licensing requirements
-      noted (HRWL classes, statutory positions, sector accreditations)
-- [ ] Cross-references to relevant general WHS framework (legislation,
-      hazards, investigation) included
+- [ ] Industry-specific competency / accreditation / licensing requirements noted (HRWL classes, statutory positions, sector accreditations)
+- [ ] Cross-references to relevant general WHS framework (legislation, hazards, investigation) included
 - [ ] Australian English spelling checked
 - [ ] No safety clichés or filler phrases; direct and action-oriented
 
