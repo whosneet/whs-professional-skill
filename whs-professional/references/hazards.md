@@ -35,7 +35,7 @@ specific hazard category rather than a general legislative question.
 
 ## 1. Engineered Stone Prohibition
 
-The use, supply, manufacture, processing and installation of engineered stone benchtops,
+The manufacture, supply, processing and installation of engineered stone benchtops,
 panels and slabs is prohibited across Australia from **1 July 2024**. The ban was adopted
 under the model WHS Regulations and given effect by each jurisdiction. A customs
 prohibition on imports took effect from **1 January 2025**.
@@ -95,7 +95,7 @@ stone.
 The WES for RCS is **0.05 mg/m³** as an 8-hour time-weighted average. This was reduced
 from 0.1 mg/m³ in 2020 in response to the silicosis crisis. Health-based exposure
 standards published by Safe Work Australia treat 0.05 mg/m³ as the upper limit, not
-the target — controls should achieve as low as reasonably practicable.
+the target — controls should minimise exposure so far as is reasonably practicable.
 
 > **WES → WEL transition**: from **1 December 2026** the WES framework is replaced by
 > **Workplace Exposure Limits (WEL)**. The RCS limit of 0.05 mg/m³ (8-hour TWA)
@@ -131,11 +131,14 @@ Common materials in FM and refurbishment contracts:
 ### Control hierarchy for RCS
 | Level | Application |
 |---|---|
-| Elimination | Substitute with low-silica or silica-free product where available |
-| Substitution | Engineered stone with porcelain/sintered alternatives |
+| Elimination | Design the silica-generating task out of the work (off-site prefabrication; direct-fix methods that avoid cutting, grinding or drilling silica-containing products) |
+| Substitution | Low-silica or silica-free products; engineered stone with porcelain/sintered alternatives |
 | Engineering | Water suppression; on-tool extraction (HEPA); local exhaust ventilation; enclosed work areas with negative pressure |
 | Administrative | Job rotation; restricted access zones; SWMS; training; signage; air monitoring |
 | PPE | P2/P3 respirators (last resort; not a substitute for engineering controls) |
+
+Isolation controls (separating people from the hazard) sit in the same minimisation
+tier as substitution and engineering controls under model WHS Reg 36(3).
 
 ### Health monitoring
 Required where workers are carrying out HRCSW, or where exposure may exceed the WES.
@@ -362,6 +365,9 @@ rate. Use as a planning tool, not an absolute threshold.
 | Administrative | Acclimatisation programs (gradual exposure over 7–14 days); work/rest cycles; buddy system; hydration plan (with a urine colour chart for worker self-monitoring of hydration); heat illness training; supervisor monitoring |
 | PPE | Cooling vests; light-coloured high-vis; wide-brim hard hat attachments (where compatible) |
 
+Isolation controls (separating people from the hazard) sit in the same minimisation
+tier as substitution and engineering controls under model WHS Reg 36(3).
+
 ### Acclimatisation
 Workers new to heat exposure (new hire, returning from leave, recently relocated
 from cooler climate) require gradual increase in exposure — typically 7–14 days
@@ -459,6 +465,11 @@ and be injured. The 2-metre threshold in Reg 291 triggers HRCW + SWMS, but the d
 manage fall risk applies at any height where injury is foreseeable. Codes: SWA
 *Managing the Risk of Falls at Workplaces*; AS/NZS 1891 series (fall arrest systems);
 AS/NZS 4994 (edge protection); AS/NZS 1576 (scaffolding).
+
+> **Victorian note**: Victoria — which has not adopted the model WHS laws — applies
+> its prescriptive fall-prevention duties (OHS Regulations 2017 (Vic), Part 3.3)
+> where a person could fall **more than 2 metres**; fall risks at or below that
+> height are managed under the general duties of the OHS Act 2004 (Vic).
 
 ### Hierarchy for work at height
 | Order | Approach | Examples |
@@ -652,11 +663,15 @@ unventilated enclosures.
 | Parameter | Acceptable range |
 |---|---|
 | Oxygen | 19.5–23.5% v/v |
-| Lower explosive limit (LEL) | <10% of LEL for any flammable gas/vapour |
+| Lower explosive limit (LEL) | <5% of LEL for unrestricted entry; 5% to <10% entry only with continuous monitoring; ≥10% no entry — evacuate |
 | Hydrogen sulphide (H2S) | <10 ppm TWA (8-hour); STEL 15 ppm (15-min) |
 | Carbon monoxide (CO) | <30 ppm TWA (8-hour); no STEL assigned |
 
 Other contaminants tested as relevant to the space's history and contents.
+
+> **WES → WEL transition**: from **1 December 2026** the WES framework is replaced by
+> **Workplace Exposure Limits (WEL)** — confirm the H2S and CO limits against the
+> SWA WEL list for work performed from that date.
 
 ### Atmospheric testing — instrument and method
 - Four-gas detector minimum (O2, LEL, H2S, CO); add specific sensors as needed
@@ -675,8 +690,8 @@ Other contaminants tested as relevant to the space's history and contents.
 ### Rescue arrangements
 - **Non-entry rescue first** — tripod + winch + retrieval harness allows rescue
   without rescuer entry. Plan and equipment in place before entry.
-- **Entry rescue** — only by trained confined space rescue team with SCBA; tower of
-  control with separate rescue standby
+- **Entry rescue** — only by trained confined space rescue team with SCBA, under a
+  clear chain of command with a separate rescue standby
 - Rescue plan documented, equipment present, rescuers competent, rescue time
   consistent with hazard (oxygen-deficient atmosphere: rescue within minutes, not
   the response time of emergency services)
@@ -916,6 +931,9 @@ This is the "exchange rate" of 3 dB. Some legacy standards use 5 dB exchange rat
 | Administrative | Job rotation, exposure time limits, signage, hearing conservation program |
 | PPE | Hearing protection (last resort; only effective if worn correctly 100% of exposure) |
 
+Isolation controls (separating people from the hazard) sit in the same minimisation
+tier as substitution and engineering controls under model WHS Reg 36(3).
+
 ### Hearing protection — classification
 AS/NZS 1270 classifies hearing protectors by SLC80 (Sound Level Conversion at 80th
 percentile) into classes 1–5:
@@ -1152,6 +1170,9 @@ not in the regulations.
 | Engineering | Mechanical aids: hoists, lifters, vacuum lifts, jib cranes, height-adjustable benches |
 | Administrative | Job rotation, team lifts, training in technique, work scheduling |
 | PPE | Limited role — gloves, knee pads; not a primary control |
+
+Isolation controls (separating people from the hazard) sit in the same minimisation
+tier as substitution and engineering controls under model WHS Reg 36(3).
 
 ### Office and screen-based work
 - Workstation set-up: monitor top at eye level; elbows at desk height; feet supported
@@ -1625,8 +1646,9 @@ Required for hot work outside dedicated welding bays in:
 1. Combustible materials removed from the **fire-risk work area** determined
    under AS 1674.1 (commonly applied as 15 m from the hot work) or protected
    with non-combustible covers; greater distances for high-risk work
-2. Atmospheric testing for flammable atmospheres (LEL <10% — cross-ref
-   §11); for hot work in confined spaces or on closed vessels containing
+2. Atmospheric testing for flammable atmospheres (tiered LEL criteria per §11:
+   <5% unrestricted; 5% to <10% only with continuous monitoring; ≥10% stop work
+   and evacuate); for hot work in confined spaces or on closed vessels containing
    flammable residues
 3. Fire watch designated — competent worker, not the welder, equipped with
    extinguishers, monitoring during work and for 30-60 minutes after

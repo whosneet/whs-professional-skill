@@ -145,7 +145,7 @@ risks into the same response category and incentivise minimisation.
 | Pre-task inspection (HRCW) | Task-specific training; SWMS familiarity; competency to identify control failure |
 | Statutory plant inspection | Relevant HRWL (e.g., crane, EWP, scaffold) or trade qualification (electrical, mechanical) |
 | Confined space, hazardous chemicals, asbestos | Task-specific training (confined space entry, asbestos awareness, hazardous chemicals handling) |
-| HSR-initiated inspection | Completion of approved HSR training (5 days, model WHS Act s 72) |
+| HSR-initiated inspection | Completion of approved HSR training (an entitlement under model WHS Act s 72; the 5-day initial course is prescribed by model WHS Reg 21) |
 | Critical Control Verification | CCV training specific to the control; competency demonstrated, not assumed |
 | Executive safety walk | WHS escort briefs the executive; structured engagement script; no expectation of independent hazard identification |
 
@@ -339,7 +339,7 @@ PTW is appropriate where:
 | Permit type | Trigger | Key controls |
 |---|---|---|
 | **Hot work permit** | Welding, cutting, grinding, soldering, or any open flame/spark in an area not designated for hot work | Fire watch; atmospheric test for flammables; extinguishers; isolation of flammable sources; post-work fire watch (typically 30–60 min) |
-| **Confined space entry permit** | Any confined space as defined in AS 2865:2009 (cross-reference `hazards.md` §11). **The one statutorily mandated permit — model WHS Reg 67** | Atmospheric test (O₂, LEL, toxics); standby person; rescue plan; communication; continuous or repeat atmospheric monitoring |
+| **Confined space entry permit** | Any confined space as defined in model WHS Reg 5, with AS 2865:2009 as guidance (cross-reference `hazards.md` §11). **The one statutorily mandated permit — model WHS Reg 67** | Atmospheric test (O₂, LEL, toxics); standby person; rescue plan; communication; continuous or repeat atmospheric monitoring |
 | **Working at height permit** | Above defined threshold (typically >2 m or as per site rule) | Anchor verification; fall arrest or restraint; rescue plan; weather criteria; competent person |
 | **Isolation / Lock-Out Tag-Out (LOTO) permit** | Energy isolation for maintenance, inspection, or cleaning | Six-step isolation; verification (test for dead); personal locks; isolation register; defined removal sequence |
 | **Excavation permit** | Site-defined trigger, commonly trench/shaft ≥1.5 m — aligning with the HRCW definition in model WHS Reg 291; trenches ≥1.5 m attract additional statutory controls (regs 305–306) | Service locates (Dial Before You Dig / Before You Dig Australia); shoring/benching/battering; atmospheric test if confined; edge protection; spoil management |
@@ -410,7 +410,9 @@ PTW is appropriate where:
 
 Isolation is the mechanism; the permit is the governance wrapper. Each
 isolation point must be identified in the permit, with an isolation register
-attached. The standard sequence:
+attached. The eight-step **permit-integration sequence** below places
+isolation within the permit lifecycle; the six-step electrical isolation
+procedure in `hazards.md` §10 is the task-level procedure it wraps:
 
 1. Identify all energy sources affecting the work (electrical, mechanical,
    hydraulic, pneumatic, chemical, thermal, gravity, stored)
@@ -422,7 +424,8 @@ attached. The standard sequence:
 7. Remove personal locks in reverse sequence; restore in defined order
 8. Functional check after re-energisation
 
-> Cross-reference `hazards.md` §10 (energy isolation / LOTO methodology); for
+> Cross-reference `hazards.md` §10 (six-step electrical isolation procedure and
+> LOTO methodology); for
 > electrical isolation specifically, AS/NZS 4836:2023 *Safe working on or near
 > low-voltage and extra-low voltage electrical installations and equipment*
 > sets the standard.
@@ -442,7 +445,7 @@ They have a defined role and defined limits.
 | **Take 5** | — | Pre-start mental check; typically 5 questions on a card (Stop, Look, Identify, Assess, Manage) |
 | **SLAM** | Stop, Look, Assess, Manage | Pre-task brief; widely used in maintenance and field work |
 | **STAR** | Stop, Think, Act, Review | Point-of-work hazard check; widely used across infrastructure and resources |
-| **JSEA / JHA** | Job Safety/Hazard Analysis | Documented task-level risk assessment; more substantial than Take 5; not a SWMS |
+| **JSEA / JHA** | Job Safety and Environmental Analysis / Job Hazard Analysis | Documented task-level risk assessment; more substantial than Take 5; not a SWMS |
 | **SWMS** | Safe Work Method Statement | Statutory document for HRCW (model WHS Reg 299; cross-reference `hazards.md` §8 for the 18 HRCW categories, §4 for general construction WHS context) |
 | **Dynamic risk assessment** | — | Continuous reassessment during changing conditions; typical of emergency services and dynamic environments |
 | **Pre-start meeting / toolbox** | — | Crew-level briefing at shift start; covers task, hazards, controls, coordination |

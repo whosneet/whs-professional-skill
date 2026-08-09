@@ -1363,7 +1363,8 @@ not guarantee no health effect, particularly for substances with no threshold
 - **Peak** — instantaneous concentration not to be exceeded; for highly
   reactive or irritant substances
 - **Carcinogen designation** — Cat 1A or 1B carcinogen substances require
-  exposure to be ALARP, not just below WES
+  exposure to be minimised so far as is reasonably practicable, not just
+  kept below the WES
 
 ### Common substance WES values (as at June 2026)
 

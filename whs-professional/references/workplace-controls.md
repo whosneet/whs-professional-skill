@@ -112,7 +112,7 @@ Each kit must:
 ### Eye wash, emergency showers, antidote stations
 For workplaces with hazardous chemical exposure (cross-reference `hazards.md` §13):
 
-| Equipment | Standard | Application |
+| Equipment | Standard / type | Application |
 |---|---|---|
 | Emergency eyewash and shower | **AS 4775:2007** *Emergency eyewash and shower equipment* | Required where chemicals capable of causing eye or skin injury are handled; location within 10 seconds travel (~16 metres) and on the same level as the hazard; tepid water 16–38°C; minimum 15 minutes flow |
 | Plumbed eyewash | Drench shower combined with eyewash | Preferred for areas with corrosive or toxic chemical exposure |
@@ -225,7 +225,7 @@ the person to professional services.
 | Refresher | 4 hours (every 3 years) | Maintain currency |
 
 MHFA course structure and the recommended refresher duration/cycle are set by
-MHFA Australia (an independent training body) and change periodically — treat
+MHFA Australia and change periodically — treat
 the hours and three-yearly cycle above as indicative and confirm against the
 current MHFA Australia program before relying on them in policy or training
 schedules.
@@ -310,12 +310,17 @@ response framework.
 
 ### Regulatory basis
 Model WHS Regulation 43 requires the PCBU to ensure that an **emergency plan**
-is prepared for the workplace. The plan must provide for:
-- Emergency procedures (response to identified emergencies)
-- Testing of the procedures, including frequency
-- Information, training, and instruction to relevant workers
-- Contact details of relevant authorities
-- Medical treatment and assistance
+is prepared for the workplace. Under r 43(1) the plan must provide for:
+- **Emergency procedures**, including:
+  - an effective response to an emergency
+  - evacuation procedures
+  - notifying emergency service organisations at the earliest opportunity
+  - medical treatment and assistance
+  - effective communication between the person authorised to coordinate the
+    emergency response and all persons at the workplace
+- **Testing of the emergency procedures**, including the frequency of testing
+- **Information, training and instruction** to relevant workers in relation to
+  implementing the emergency procedures
 
 The plan must be implemented in the event of an emergency.
 
@@ -328,9 +333,11 @@ incorporating the Building Code of Australia) imposes parallel
 emergency-management duties on building owners and managers via state
 Building Acts.
 
-In NZ, the equivalent flows from HSWA s 36 and is operationalised through
-WorkSafe NZ guidance; the **Fire and Emergency NZ Act 2017** and the NZ
-Building Code provide parallel duties on building owners.
+In NZ, the emergency plan duty sits in the **Health and Safety at Work
+(General Risk and Workplace Management) Regulations 2016, r 14**, under the
+HSWA s 36 duty and operationalised through WorkSafe NZ guidance; the
+**Fire and Emergency NZ Act 2017** and the NZ Building Code provide parallel
+duties on building owners.
 
 ### Emergency Plan elements
 Per Reg 43, the emergency plan must cover specific topics. Mapped to AS 3745
@@ -458,7 +465,7 @@ Beyond fire, the emergency plan must address scenarios specific to the site:
 
 | Emergency type | Key planning considerations |
 |---|---|
-| **Chemical release** | Spill response, atmospheric monitoring, evacuation vs shelter-in-place decision logic, emergency services notification, manifest available (cross-reference `hazards.md` §13) |
+| **Chemical release** | Spill response, atmospheric monitoring, evacuation vs shelter-in-place decision logic, emergency services notification, manifest available (cross-reference `hazards.md` §13; `environment.md` §6 for environmental incident notification and §8 for spill response) |
 | **Medical emergency** | First aid activation, triple-zero call, paramedic guidance, AED deployment, single-casualty vs multiple-casualty triage |
 | **Bomb threat** | Threat assessment, evacuation vs search vs continuation, police notification, phone threat checklist for call recording (AS 3745 Appendix H; ANZCTC national guidance) |
 | **Active armed offender** | Escape / Hide / Tell protocol (ANZCTC *Active Armed Offender Guidelines for Crowded Places*, adapted from the UK's Run / Hide / Tell; endorsed by AFP and state police); lockdown; communication discipline; post-event support. Lessons from Lindt Cafe siege (2014) and Port Arthur (1996) shaped contemporary planning |
@@ -515,7 +522,7 @@ with different time horizons and different owners.
 | Discipline | Time horizon | Purpose | Typical owner |
 |---|---|---|---|
 | **Emergency response** | Minutes to hours | Protect life and prevent escalation during the event | WHS / Facilities / ECO |
-| **Crisis management** | Hours to days | Manage organisational impact, stakeholders, communications during the crisis period | Executive crisis team |
+| **Crisis management** | Days to months | Manage organisational impact, stakeholders, communications during the crisis period (cross-reference `strategy-function.md` §5) | Executive crisis team |
 | **Business continuity** | Hours to weeks | Restore operations and services; alternate site activation; staffing continuity | Operations / Risk / IT |
 | **Disaster recovery** | Days to months | Rebuild capability; insurance management; long-term restoration | Risk / Property / Finance |
 
@@ -644,7 +651,7 @@ worker's actual circumstances. Options:
 | Method | Application | Limits |
 |---|---|---|
 | **Mobile phone** | Where coverage is reliable; metro and most regional roles | Coverage gaps; battery; not effective if worker incapacitated |
-| **Satellite communicator** (Garmin inReach, ZOLEO, Spot X) | Remote and back-country work; emergency SOS button; two-way text via satellite | Cost ($300–500 device + subscription); battery; latency |
+| **Satellite communicator** (Garmin inReach, ZOLEO, Spot X) | Remote and back-country work; emergency SOS button; two-way text via satellite | Cost ($300–500 device + subscription; treat current pricing as verifiable); battery; latency |
 | **Satellite phone** | Remote work requiring voice contact | Cost; physical size; requires line of sight to satellites |
 | **Two-way radio** | Closed-loop sites (mine, large industrial, security network); repeaters cover defined area | Range limited; requires base station / repeater infrastructure |
 | **Scheduled check-in (call or text)** | Most lone-worker contexts | Only as effective as the escalation when check-in is missed |
@@ -669,11 +676,11 @@ response. Design considerations:
 | Variable | Pre-arranged per task | Real estate open homes (per inspection); rural call-outs (per job) |
 
 Escalation procedure when check-in is missed:
-1. Wait one check-in cycle? Some protocols require immediate response;
-   others allow a brief delay if comms are known to be patchy
+1. Apply the protocol's defined response window — immediate response, or a
+   short, defined delay only where communications are known to be patchy
 2. Call the worker on primary number
 3. Call worker on secondary number / send text
-4. Call the worker's vehicle GPS or app GPS for last known location
+4. Check vehicle/app GPS for last known location
 5. Call worker's next of kin to confirm not at home / not unwell
 6. Deploy field response — colleague, supervisor, on-call manager
 7. Involve emergency services — police welfare check, ambulance, SES
@@ -764,8 +771,8 @@ the WHS duty applies. Specific controls:
 - **In-vehicle hazards** — first aid kit, fire extinguisher (where applicable),
   recovery equipment for off-road; warning triangle, hi-vis vest, torch
 - **Driver licensing and competency** — verify currency; defensive driving
-  training for high-exposure roles; 4WD competency for off-road; HR/HC licence
-  for combination vehicles
+  training for high-exposure roles; 4WD competency for off-road; HC/MC licence
+  for combination vehicles (HR is the heavy rigid class)
 
 ### Common failure modes
 - **Assuming mobile coverage** — coverage maps reflect optimal conditions; in
@@ -865,7 +872,7 @@ Typical checklist content:
 | **Workstation ergonomics** | Chair adjustable; lumbar support; monitor at eye level; keyboard and mouse position; desk height; feet supported; sustained-use vs occasional |
 | **Lighting** | Adequate task lighting; minimised glare on screen; natural light; reading material illumination |
 | **Electrical** | RCD on circuits; leads in good condition; sockets not overloaded; extension cords appropriate use |
-| **Fire safety** | Smoke alarm in working order (legal requirement in all AU/NZ residences); clear exit path; fire extinguisher (recommended); fire blanket in kitchen (recommended) |
+| **Fire safety** | Smoke alarm in working order (a legal requirement for most AU homes and for NZ rental properties and new builds); clear exit path; fire extinguisher (recommended); fire blanket in kitchen (recommended) |
 | **Slips, trips, falls** | Walkways clear; rugs secured; cables routed; stair condition; lighting at night |
 | **Security** | Doors and windows lockable; reasonable security for work equipment and data; visitors during work hours |
 | **Mental health and work-life** | Defined work area (separation from personal space); defined work hours; breaks; informal connection with colleagues; manager check-ins; awareness of EAP |
@@ -884,7 +891,7 @@ is the SFAIRP expectation. Standard provision:
 
 | Equipment | Provision approach |
 |---|---|
-| **Chair** | Office-grade adjustable chair (height, tilt, lumbar, armrest); typically $400–800 |
+| **Chair** | Office-grade adjustable chair (height, tilt, lumbar, armrest); typically $400–800 (treat current pricing as verifiable) |
 | **Desk** | Adjustable height or fixed; sit-stand if budget permits; minimum dimensions for monitor + keyboard + paper |
 | **Monitor** | External monitor 22"+ ; second monitor for dual-screen workflows |
 | **Keyboard and mouse** | External (not laptop keyboard/trackpad for sustained use); ergonomic where requested |
@@ -941,7 +948,7 @@ The Fair Work Act 2009 was amended by the **Fair Work Legislation Amendment
 | Effective date — non-small business employers | **26 August 2024** |
 | Effective date — small business employers (<15 employees) | **26 August 2025** |
 | Section | Fair Work Act s 333M |
-| Scope | An employee may refuse to monitor, read or respond to contact from their employer outside of the employee's working hours, unless the refusal is unreasonable |
+| Scope | An employee may refuse to monitor, read or respond to contact, or attempted contact, from their employer outside of the employee's working hours, unless the refusal is unreasonable; s 333M(2) extends the same right to work-related contact, or attempted contact, from a third party |
 
 Factors in assessing whether a refusal is unreasonable include:
 - Reason for the contact
@@ -960,8 +967,9 @@ mechanism (similar to the bullying stop-order).
 - After-hours contact protocols need explicit treatment in policy:
   what contact is acceptable, what counts as emergency, what is the
   expectation for response
-- Manager training on the Right to Disconnect is required (most large
-  PCBUs ran updated training in mid-late 2024)
+- Manager training on the Right to Disconnect is expected practice rather
+  than a statutory requirement (most large PCBUs ran updated training in
+  mid-late 2024)
 - Communication tooling defaults should support the Right to Disconnect —
   delayed-send, do-not-disturb, scheduled email, "out of hours" autoresponse
 - The provision applies to all employees regardless of work location, but
