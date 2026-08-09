@@ -246,7 +246,7 @@ and Andrew Hopkins' *Failure to Learn: The BP Texas City Refinery Disaster*
 | Procedural | Temporary trailer siting policy did not address blast or vapour cloud exposure for trailers near operating units |
 | Organisational | Maintenance backlog was substantial; deferred maintenance items included known process safety risks |
 | Organisational | Cost reduction targets had been pursued aggressively; safety-related expenditure had been deprioritised |
-| Organisational | Internal safety culture survey two years before the incident had flagged serious concerns; the survey results had not driven action |
+| Organisational | The Telos safety culture survey, reported in January 2005 — about two months before the incident — had flagged serious concerns including "an exceptional degree of fear of catastrophic incidents"; internal audits and studies from 2002–2004 had given similar warnings; none had driven effective action |
 | Indicator failure | Site LTIFR was below industry average and used as evidence of safety performance; process safety indicators were not separately tracked or reported to leadership |
 | Organisational learning | The CSB documented approximately eight prior hydrocarbon releases from blowdown stacks at the site since 1994; the precursors had not driven replacement of the atmospheric blowdown design or other proportionate corrective action |
 
@@ -346,7 +346,7 @@ drift and complex systems failure.
 | Cost-time pressure | The well was significantly over budget and over schedule; abandonment was the path back to revenue generation |
 | Cement design | The cement job had used nitrogen-foamed cement in a configuration that was at the edge of established practice |
 | Decision authority | Multiple decisions on the day required reconciliation across BP, Transocean, and Halliburton personnel; no single decision-maker had end-to-end authority |
-| BOP maintenance | The BOP had known defects, including a partially discharged solenoid battery; testing intervals had been extended |
+| BOP maintenance | The BOP had known hydraulic leaks and deferred/overdue maintenance, and testing intervals had been extended; post-incident forensic examination (DNV, 2011) found a depleted AMF/deadman battery in the blue control pod and a miswired solenoid valve in the yellow pod — defects not known before the blowout |
 | Organisational | BP had a history of process safety failures (Texas City 2005, Prudhoe Bay 2006) and had publicly committed to improvement; the cultural change had not penetrated the offshore drilling operation |
 | Indicator | Personal safety indicators were strong; the rig had recently received a safety award |
 | Regulatory | The U.S. Minerals Management Service (MMS) regulator was structurally compromised — collecting royalties and regulating safety in the same agency, with under-resourced inspectorate |
@@ -740,15 +740,19 @@ substantial industry change in adventure activity risk assessment.
 Grenfell Tower was a 24-storey residential tower block in North
 Kensington, London, owned by the Royal Borough of Kensington and
 Chelsea and managed by the Kensington and Chelsea Tenant Management
-Organisation. The building had been refurbished in 2015–2016,
+Organisation. The building had been refurbished between 2014 and 2016
+(design and procurement from 2012; completion certified July 2016),
 including installation of aluminium composite material (ACM) cladding
 panels with a polyethylene core on the external facade.
 
 ACM cladding with polyethylene core is highly combustible — the
 polyethylene burns intensely when ignited. The combustible cladding
 hazard had been recognised internationally for over two decades,
-including in fatal cladding fires in the United Arab Emirates and
-France.
+including in spectacular but essentially non-fatal ACM tower fires in
+the United Arab Emirates (Tamweel Tower 2012; Torch Tower and Address
+Downtown 2015) and in fatal facade fires in Shanghai (2010, 58
+deaths), Roubaix, France (Mermoz tower, 2012) and Baku, Azerbaijan
+(2015, 15 deaths).
 
 In Australia, the **Lacrosse Tower fire** in Melbourne's Docklands
 on 25 November 2014 had demonstrated the same hazard on a 21-storey
@@ -1075,7 +1079,8 @@ On 4 August 2020 at approximately 18:08 local time, a fire began in Hangar
 12 (origin under investigation — possibly hot work, possibly fireworks
 also stored at the site). The fire detonated the ammonium nitrate stockpile.
 The explosion was one of the largest non-nuclear explosions in history,
-estimated equivalent to 1.1 kilotons TNT. Approximately 218 people killed,
+estimated at 0.5–1.1 kilotons TNT equivalent (best estimates around
+0.5–0.6 kt). Approximately 218 people killed,
 7,000 injured, 300,000 made homeless; estimated USD $15B damage; widespread
 infrastructure destruction.
 
@@ -1115,8 +1120,10 @@ foreseeable event occurred.
 ### AU/NZ practice lessons
 - AN storage in AU is regulated under the MHF framework: model WHS
   Regulations Schedule 15 (Table 15.1) sets the ammonium nitrate (UN 1942)
-  threshold quantity at 2,500 tonnes (5,000 tonnes for AN-based fertilisers,
-  UN 2067–2072), and a facility holding 10% or more of the threshold —
+  threshold quantity at 2,500 tonnes (5,000 tonnes for ammonium nitrate
+  fertilisers, listed against UN 2067, 2068, 2069 and 2070 — the latter
+  three being legacy UN numbers since consolidated into UN 2067), and a
+  facility holding 10% or more of the threshold —
   250 tonnes of AN — must notify the regulator and may be determined an MHF.
   Beirut's 2,750-tonne stockpile exceeded the full threshold; in the AU
   regime, Hangar 12 would have been a determined major hazard facility
