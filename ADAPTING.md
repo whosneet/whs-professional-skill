@@ -28,8 +28,8 @@ You have three paths depending on how comfortable you are with editing files:
   run a 90-minute working session, then populate `company.md` from the output
   (or run Path A afterwards using the workshop notes as the source document).
 
-All three produce the same result. Path A is fastest; Path C produces the
-strongest organisational buy-in. The interview steps and the sections below
+All three populate the same ten sections. Path A is fastest; Path C produces
+the strongest organisational buy-in. The interview steps and the sections below
 follow the same 1–10 structure — if you change one, keep the other in sync.
 
 ---
@@ -84,6 +84,9 @@ status, document numbering convention.
    group prefix, WHS function, Procedure 002). Some use simpler numbering.
 4. What are the type codes for: Standard, Procedure, Work Instruction,
    Template, Form, Guideline?
+5. What are your key parent standards — the small set of top-level documents
+   outputs should cite (e.g. enterprise risk management standard, WHS risk
+   management standard, incident management procedure)?
 
 **Where to find it**: management system manual, document control register,
 intranet document repository, internal audit reports.
@@ -113,6 +116,8 @@ assessment, board paper, and incident report.
    immediate action and senior leader acceptance; D risks managed routinely)
 6. What is your control effectiveness rating? (e.g. Adequate / Partially
    Adequate / Inadequate, or similar)
+7. What is your corrective action priority scheme? (e.g. P1 immediate / P2
+   urgent / P3 planned, with timeframes for each)
 
 **Where to find it**: enterprise risk management standard, WHS risk
 management procedure, project risk register template, integrated management
@@ -171,6 +176,10 @@ the entire post-incident workflow.
    Mango, in-house tool)
 7. Do you have a statistical inclusion rule for what counts in performance
    statistics (e.g. "operational control" vs "commercial interest only")?
+8. What are your injury classifications (e.g. LTI, RWI, MTI, FAI,
+   occupational illness), and which of them count as recordable?
+9. Where does incident-related discipline interface with a fair / just
+   culture procedure? (document reference if one exists)
 
 **Where to find it**: incident management procedure, incident reporting
 form, incident investigation procedure.
@@ -193,6 +202,7 @@ from inside your organisation rather than generic.
 document reference (number and title)?
 - Safety alert (portrait and landscape variants if both exist)
 - Bulletin
+- Toolbox talk
 - Preliminary internal incident notification (PIIN)
 - Standard incident investigation form
 - ICAM investigation report
@@ -234,6 +244,11 @@ document reference (number and title)?
 **Where to find it**: IT services catalogue, intranet system index, WHS team
 desktop.
 
+**AI prompt**:
+> "I'll list the systems we use for incident management, our WHS platform,
+> analytics, task management, contractor management, audits, permits, and
+> document storage. Format them into the Section 7 table in company.md."
+
 ---
 
 ## Section 8 — Critical Risk Taxonomy
@@ -252,6 +267,11 @@ governance around them.
 **Where to find it**: critical risk register, critical control verification
 schedule, ELT risk dashboard.
 
+**AI prompt**:
+> "Help me document my organisation's critical risk taxonomy for company.md.
+> I'll list our critical risk categories, the ownership model, and our
+> critical control verification cadence and reporting; you draft Section 8."
+
 ---
 
 ## Section 9 — Engagement Programs & Campaigns
@@ -269,6 +289,11 @@ organisation runs.
 
 **Where to find it**: WHS team annual plan, internal communications
 calendar, intranet campaign pages.
+
+**AI prompt**:
+> "Help me document our safety engagement programs for company.md. I'll
+> describe each named program with its cadence, reach, themes, and
+> recognition mechanics; you draft Section 9."
 
 ---
 
@@ -290,6 +315,12 @@ and how often safety reports flow upward.
 
 **Where to find it**: safety governance charter, board terms of reference,
 WHS team organisation chart.
+
+**AI prompt**:
+> "Help me document our WHS governance and reporting cadence for company.md.
+> I'll describe our board and ELT reporting cycles, officer due diligence
+> framework, key WHS roles, and any peer review process; you draft
+> Section 10."
 
 ---
 

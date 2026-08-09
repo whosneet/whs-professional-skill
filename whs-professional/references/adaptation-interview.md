@@ -67,6 +67,7 @@ When the interview triggers, respond with (adapt wording, keep substance):
    - Enterprise / WHS risk management standard (steps 3–4)
    - Incident management procedure (steps 5–6)
    - Document control register or template library index (steps 2, 6)
+   - Critical risk register / CCV schedule (step 8)
    - WHS annual plan or campaign calendar (step 9)
    - Safety governance charter / board reporting calendar (step 10)
    Offer: *"Paste or upload any of these and I'll extract what I need —
@@ -123,10 +124,11 @@ methodology by severity; incident management system; disciplinary interface
 *Source: incident management procedure and its schedules.*
 
 ### Step 6 — Document templates and forms
-Document references (number + title) for: safety alert, bulletin, preliminary
-incident notification, standard investigation, ICAM report, ICAM interview
-record, 5-Why, lessons learnt, risk registers, plant / chemicals / manual
-tasks risk assessments, SWMS, traffic management plan, point-of-work check.
+Document references (number + title) for: safety alert, bulletin, toolbox
+talk, preliminary incident notification, standard investigation, ICAM report,
+ICAM interview record, 5-Why, lessons learnt, risk registers, plant /
+chemicals / manual tasks risk assessments, SWMS, traffic management plan,
+point-of-work check.
 *Source: document control register, template library. Format as the Section 6
 table; omit rows the organisation doesn't have.*
 
@@ -160,8 +162,8 @@ When the steps are done (or skipped):
 
 1. **Assemble** the full Active Reference in the exact `company.md` structure:
    the heading `## Active Reference: [Organisation Name]`, then sections
-   §1–§10 in order, skipped sections marked *Not configured*. Keep the
-   Template section untouched above it.
+   §1–§10 in order, skipped sections marked *Not configured — skill uses
+   generic AU/NZ defaults*. Keep the Template section untouched above it.
 2. **Deliver it the right way for how the user runs the skill** — ask which
    applies, then give only the matching instructions:
    - **claude.ai, single organisation**: download/copy the assembled

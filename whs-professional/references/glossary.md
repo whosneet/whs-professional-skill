@@ -17,7 +17,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **WorkSafe NZ** | New Zealand's WHS regulator under HSWA. |
 | **SDA** | Sex Discrimination Act 1984 (Cth) — source of the s 47C positive duty. |
 | **AHRC** | Australian Human Rights Commission — enforces the SDA positive duty from Dec 2023. |
-| **MHF** | Major Hazard Facility — regulated under Schedule 15 of model WHS Regulations. |
+| **MHF** | Major Hazard Facility — regulated under Chapter 9 of the model WHS Regulations; Schedule 15 lists the chemicals and threshold quantities that determine MHF status. |
 | **CoP** | Code of Practice — approved practical guidance under the WHS Act (s 274); admissible in proceedings as evidence of what is known about a hazard and what is reasonably practicable. In this corpus "CoP" always means Code of Practice, not Community of Practice. |
 
 ---
@@ -56,7 +56,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **JSEA / JHA** | Job Safety and Environmental Analysis / Job Hazard Analysis — task-level risk assessment used for non-routine work. |
 | **SWMS** | Safe Work Method Statement — written document required before high-risk construction work commences (model WHS Reg 299). |
 | **HRCW** | High-Risk Construction Work — the 18 categories listed in model WHS Reg 291. |
-| **HRCSW** | High-Risk Crystalline Silica Work — crystalline silica process with potential for exposure exceeding the WES. |
+| **HRCSW** | High-Risk Crystalline Silica Work — a crystalline silica process that may generate RCS at concentrations exceeding the WES, or where uncontrolled exposure could occur. |
 | **CSP** | Crystalline Silica Process — any process at a workplace involving material with ≥1% crystalline silica that may generate respirable crystalline silica dust. |
 | **RCS** | Respirable Crystalline Silica — particles small enough to penetrate deep lung; 0.05 mg/m³ (8-hr TWA), this value carrying unchanged into the WEL list applying from 1 December 2026 (a further reduction to 0.025 mg/m³ is proposed but not yet adopted). |
 | **WES** | Workplace Exposure Standard — the airborne concentration limit for a specified substance. Replaced by Workplace Exposure Limits (WEL) from 1 December 2026. |
@@ -69,7 +69,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **Bowtie** | Risk visualisation showing threats, top event, consequences, preventive controls, and recovery controls. |
 | **Critical Control** | Control whose failure would result in a top-event-level outcome; cannot be substituted by another. |
 | **CCV** | Critical Control Verification — structured assurance that a critical control is in place and effective. |
-| **CRO** | Chief Risk Officer (corporate role). Some organisations also use CRO for Critical Risk Owner or Critical Risk Observation — confirm local usage before relying on the acronym. This skill uses CCV (critical control verification) for verification activity. |
+| **CRO** | Critical Risk Owner — the named senior leader accountable for a critical risk and its controls (the usage throughout this corpus; see company.md §8). Externally, CRO often means Chief Risk Officer (corporate role) or Critical Risk Observation — confirm local usage before relying on the acronym. This skill uses CCV (critical control verification) for verification activity. |
 
 ---
 
@@ -81,7 +81,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **Notifiable Incident** | Death, serious injury/illness, or dangerous incident requiring notification to the regulator (model WHS Act s 35). |
 | **HiPo / HIPO** | High-Potential Incident — an event that could realistically have resulted in permanent disability or death, regardless of actual outcome. |
 | **LTI** | Lost Time Injury — work-related injury causing one or more full shifts of lost time after the injury shift. |
-| **MTI** | Medical Treatment Injury — injury requiring treatment by a medical practitioner. Counting >3 allied health sessions as an MTI is a common organisational convention, not an AS 1885.1 requirement. |
+| **MTI** | Medical Treatment Injury — treatment by a medical practitioner beyond first aid, with no lost or restricted time (an injury that also loses time or restricts duties is counted as an LTI or RWI, not an MTI). Counting >3 allied health sessions as an MTI is a common organisational convention, not an AS 1885.1 requirement. |
 | **FAI / FAC** | First Aid Injury / First Aid Case — injury treated within scope of first aider training. |
 | **RWI** | Restricted Work Injury — work-related injury where the worker cannot perform their normal duties for a full shift but works restricted/alternate duties (no full shift lost). Recordable; counted in TRI/TRIFR. |
 | **TRI** | Total Recordable Injury — combined count of fatalities, LTIs, RWIs, and MTIs. |
@@ -101,8 +101,10 @@ Load this file when the user is new to WHS or asks what a term means.
 |---|---|
 | **TRIFR** | Total Recordable Injury Frequency Rate — (Fatalities + LTIs + RWIs + MTIs) ÷ hours worked × 1,000,000. RWI (restricted work injury) is a US OSHA-origin recordability concept adopted here as a documented organisational convention; under the (now-withdrawn) AS 1885.1 the AU convention was TRIFR = Fatality + LTI + MTI. |
 | **LTIFR** | Lost Time Injury Frequency Rate — LTIs ÷ hours worked × 1,000,000. |
+| **MTIFR** | Medical Treatment Injury Frequency Rate — MTIs ÷ hours worked × 1,000,000. |
+| **RWIFR** | Restricted Work Injury Frequency Rate — RWIs ÷ hours worked × 1,000,000. |
 | **AIFR** | All Injury Frequency Rate — includes FAIs in numerator. |
-| **LTISR** | Lost Time Injury Severity Rate — lost days ÷ hours worked × 1,000,000. |
+| **LTISR** | Lost Time Injury Severity Rate — lost days ÷ hours worked × 1,000,000. Named simply the **severity rate** elsewhere in this corpus (analytics.md §1; `scripts/frequency_rates.py`). |
 | **HiPo Rate** | HiPo events ÷ hours worked × 1,000,000. |
 | **Leading Indicator** | Input or activity metric predicting future outcomes (hazard reports, CCV completion). |
 | **Lagging Indicator** | Outcome metric measuring what has already occurred (TRIFR, LTIFR). |
@@ -192,7 +194,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | Term | Meaning |
 |---|---|
 | **WC** | Workers compensation — statutory injury compensation scheme. |
-| **icare** | Insurance & Care NSW — public corporation; insurer of last resort for NSW workers compensation. |
+| **icare** | Insurance & Care NSW — public corporation managing the NSW workers compensation Nominal Insurer (the default insurer for most NSW employers). |
 | **SIRA** | State Insurance Regulatory Authority — NSW workers compensation regulator. |
 | **WIM Act** | Workplace Injury Management and Workers Compensation Act 1998 (NSW). |
 | **WIRC Act** | Workplace Injury Rehabilitation and Compensation Act 2013 (VIC). |
@@ -201,6 +203,9 @@ Load this file when the user is new to WHS or asks what a term means.
 | **ACC** | Accident Compensation Corporation (NZ) — no-fault universal injury cover scheme. |
 | **IME** | Independent Medical Examination — insurer-commissioned assessment of capacity, treatment, causation. |
 | **MMI** | Maximum Medical Improvement — point at which further treatment is unlikely to materially improve outcome. |
+| **PIAWE** | Pre-Injury Average Weekly Earnings — the earnings basis for weekly compensation payments in the NSW and VIC schemes. |
+| **NWE** | Normal Weekly Earnings — the earnings basis for weekly compensation payments in the QLD (WCRA) and Comcare (SRC Act) schemes. |
+| **DPI** | Degree of Permanent Impairment — assessed whole-person impairment percentage that determines lump-sum entitlement and claim thresholds (QLD WCRA terminology; other schemes use WPI — whole person impairment). |
 | **RTW** | Return to Work — process of returning an injured worker to work. |
 | **RTWC** | Return to Work Coordinator — accredited role required in NSW (and QLD for employers above thresholds). |
 | **Suitable employment** | Statutory concept of work appropriate to a worker's post-injury capacity, skills, and location. |
@@ -229,6 +234,20 @@ Load this file when the user is new to WHS or asks what a term means.
 | **STAR** | Stop, Think, Act, Review — point-of-work hazard check. |
 | **MAC** | Manual handling Assessment Charts — UK HSE tool for assessing lifting, carrying and team-handling tasks (not all manual handling); widely used in AU. |
 | **ART** | Assessment of Repetitive Tasks — upper-limb repetitive task assessment tool (covers repetitive upper-limb work, which the MAC does not). |
+
+---
+
+## Psychosocial
+
+See `references/legislation.md` §9 (regulatory framework) and
+`references/frameworks.md` §14 (controls). SKILL.md §7 holds the canonical
+hazard list.
+
+| Term | Meaning |
+|---|---|
+| **Psychosocial hazard** | A hazard arising from the design or management of work, the work environment, plant, or workplace interactions and behaviours that may cause psychological (and sometimes physical) harm — regulated under model WHS Regulations rr 55A–55D; Victoria regulates separately via the OHS (Psychological Health) Regulations 2025. |
+| **Canonical psychosocial hazard list** | The 14 hazards in the SWA model Code of Practice (2022): high job demands; low job control; poor support; lack of role clarity; poor organisational change management; inadequate reward and recognition; poor organisational justice; traumatic events or material; remote or isolated work; poor physical environment; violence and aggression; bullying; harassment (including sexual and gender-based harassment); and conflict or poor workplace relationships and interactions. SKILL.md §7 is the single source of truth for this list — do not improvise variants. |
+| **Positive duty (Respect@Work)** | SDA s 47C duty on employers and PCBUs to take reasonable and proportionate measures to eliminate, as far as possible, sexual harassment, sex discrimination, and related unlawful conduct; enforced by the AHRC (compliance powers from December 2023). Distinct from, and additional to, the WHS duty for psychosocial hazards. |
 
 ---
 
@@ -307,7 +326,7 @@ See `references/sector-regimes.md` for full coverage.
 | **RTO** | Rail Transport Operator — accredited under RSNL. |
 | **PTI** | Pedestrian-Train Interface — common rail safety hazard category. |
 | **RSHQ** | Resources Safety and Health Queensland — independent QLD mining/quarrying regulator (since 2020). |
-| **DMIRS** | Department of Energy, Mines, Industry Regulation and Safety (WA). |
+| **DEMIRS** | Department of Energy, Mines, Industry Regulation and Safety (WA) — renamed from DMIRS on 1 July 2023; machinery-of-government names change, so verify the current departmental name before citing. |
 | **CMSHR** | Coal Mining Safety and Health Regulation 2017 (QLD). |
 | **MQSHR** | Mining and Quarrying Safety and Health Regulation 2017 (QLD). |
 | **WHS (MPS) Act** | Work Health and Safety (Mines and Petroleum Sites) Act 2013 (NSW). |
@@ -338,7 +357,7 @@ See `references/workplace-controls.md` for full coverage.
 | **HLTAID011** | Provide first aid — standard workplace first aid unit of competency. |
 | **HLTAID009** | Provide CPR — 12-monthly refresh component. |
 | **HLTAID012** | Provide first aid in education and care setting (children-specific). |
-| **HLTAID014** | Provide advanced first aid — workplace responder, includes oxygen/Epi. |
+| **HLTAID014** | Provide advanced first aid — workplace first-response coordinator; incident management and multiple-casualty care. Oxygen therapy sits in HLTAID015 (Provide advanced resuscitation and oxygen therapy), not HLTAID014. |
 | **MHFA** | Mental Health First Aid — separate certification; 2-day standard course. |
 | **BCP** | Business Continuity Plan — recovery framework distinct from emergency response. |
 | **FDV** | Family and Domestic Violence — emerging PCBU duty intersection for home-based / hybrid workplaces. |
@@ -361,7 +380,7 @@ See `references/capability-culture.md` for full coverage.
 | **DuPont Bradley curve** | Four-stage maturity model (Reactive / Dependent / Independent / Interdependent) — DuPont consulting product. |
 | **IOGP** | International Association of Oil & Gas Producers — publishes HSE Capability framework widely used in resource sector. |
 | **NOSACQ-50** | Nordic Occupational Safety Climate Questionnaire — 50-item validated safety climate instrument. |
-| **Heinrich pyramid** | The 300:29:1 ratio of unsafe acts to minor injuries to major injuries (1931); widely cited despite repeated critique (Manuele; Hopkins). |
+| **Heinrich pyramid** | The 300:29:1 ratio of no-injury accidents (near misses) to minor injuries to major injuries (1931); widely cited despite repeated critique (Manuele; Hopkins). |
 | **Safety culture** | The underlying assumptions and norms — slow-changing; Reason's five subcultures (informed, reporting, learning, just, flexible). |
 | **Safety climate** | Observable expression of culture in attitudes and behaviours at a point in time — measurable via survey. |
 
@@ -511,7 +530,7 @@ See `references/diversity-inclusion.md` §2, §3.
 |---|---|
 | **DDA** | Disability Discrimination Act 1992 (Cth). |
 | **Reasonable adjustment** | Modification to enable participation; statutory duty under DDA + WHS. |
-| **AND** | Australian Network on Disability — peak inclusion body. |
+| **AND** | Australian Disability Network — peak disability inclusion body (renamed from the Australian Network on Disability, 15 January 2024). |
 | **JobAccess** | Federal program providing reasonable adjustment funding (Cth Dept of Employment). |
 | **Neurodivergent** | Cognitive variation including autism spectrum, ADHD, dyslexia, dyspraxia, Tourette's. |
 | **NAATI** | National Accreditation Authority for Translators and Interpreters. |
@@ -550,7 +569,7 @@ appears repeatedly, the canonical entry is here.
 | **AS/NZS 1680** | Interior and workplace lighting |
 | **AS/NZS 1715** | Selection, use and maintenance of respiratory protective equipment |
 | **AS/NZS 1716** | Respiratory protective devices |
-| **AS/NZS 1885.1** | Workplace injury and disease recording standard (AU recordability) |
+| **AS 1885.1** | Workplace injury and disease recording — the legacy AU recordability standard (withdrawn) |
 | **AS/NZS 1891** (series) | Industrial fall-arrest systems and devices |
 | **AS/NZS 1940** | Storage and handling of flammable and combustible liquids |
 | **AS/NZS 2243.3** | Safety in laboratories — Microbiological safety and containment (PC1–PC4) |

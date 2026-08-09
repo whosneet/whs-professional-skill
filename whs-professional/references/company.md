@@ -55,6 +55,7 @@ that don't apply can be left blank or removed.
 - Control effectiveness rating scale
 - Risk level response requirements (action thresholds, acceptance authorities,
   monitoring cadence)
+- Corrective action priority scheme (e.g. P1/P2/P3 with timeframes)
 
 ### 4. Hierarchy of Controls — Local Framing
 - Any organisation-specific framing layered onto the standard hierarchy
@@ -65,10 +66,13 @@ that don't apply can be left blank or removed.
 - Severity rating system (typically 1–5 or 1–6 scale)
 - HiPo definition (potential severity threshold)
 - Notifiable incident thresholds
+- Injury classifications and the recordable set
+- Statistical inclusion rule (e.g. operational control)
 - Internal notification chain by severity — who is notified, by when, by what method
 - Investigation methodology mandated (ICAM, TapRoot, 5-Why, etc.)
 - Investigation requirements by severity (who leads, who reviews, what is produced)
 - Incident management system / database
+- Disciplinary interface (fair and just culture procedure)
 
 ### 6. Document Templates & Forms
 - Safety alert format and template reference
@@ -88,6 +92,7 @@ that don't apply can be left blank or removed.
 - Contractor management / prequalification
 - Audit & inspection platform
 - Permit-to-work system (if applicable)
+- Document storage / lessons sharing platform
 
 ### 8. Critical Risk Taxonomy
 - The organisation's critical risk categories
@@ -232,7 +237,10 @@ unless it is grossly disproportionate to the risk.
 
 **Severity Classes (1–5)** — rate on the highest consequence across any
 dimension; for near misses, rate on credible **potential** consequence, not the
-actual outcome.
+actual outcome. The class labels below (Negligible → Catastrophic) are
+deliberately distinct from the §3 risk-matrix consequence labels
+(Insignificant → Severe): §3 rates risk, this scale classifies incidents — the
+numeric levels align 1:1.
 
 | Class | Label | Health & Safety | Environment | Plant & Property | Legal/Compliance | Management Impact |
 |---|---|---|---|---|---|---|
@@ -248,8 +256,9 @@ MFG Crisis Management Plan (`MFG-WHS-PR-070`), chaired by the relevant BU
 General Manager with the Group GM WHS as a standing member.
 
 **HiPo** = any event that could realistically have resulted in a Class 4 or 5
-consequence (permanent incapacity or death), regardless of the actual outcome.
-Rated on potential consequence.
+consequence (e.g. permanent incapacity, fatality, or an extended-recovery LTI
+at credible potential), regardless of the actual outcome. Rated on potential
+consequence.
 
 **Injury Classifications**:
 
@@ -263,7 +272,7 @@ Rated on potential consequence.
 | Occupational Illness | OI | Illness arising from workplace exposure over time (including psychological injury, noise-induced hearing loss, silicosis). Managed and reported separately from injury statistics |
 
 The **Recordable** column above is the single source of truth for MFG's
-recordable set, which drives the rate formulas in `analytics.md` §2: total
+recordable set, which drives the rate formulas in `analytics.md` §1: total
 recordable injuries (TRI) = Fatality + LTI + RWI + MTI, and
 TRIFR = TRI / hours worked × 1,000,000. RWI (restricted work injury) is
 recordable and is counted in the numerator. RWI is a US OSHA-origin
@@ -341,6 +350,7 @@ Fair and Just Culture Procedure.
 |---|---|
 | Safety Alert | MFG-WHS-TP-010 |
 | Safety Bulletin | MFG-WHS-TP-011 |
+| Toolbox Talk | MFG-WHS-TP-012 |
 | Preliminary Internal Incident Notification (PIIN) | MFG-WHS-FM-020 |
 | Standard Incident Investigation | MFG-WHS-FM-021 |
 | ICAM Investigation Report | MFG-WHS-TP-022 |
@@ -450,7 +460,9 @@ this file.*
 ## Multi-tenant use
 
 For consultants or multi-divisional groups maintaining several organisation
-profiles, two supported patterns:
+profiles, two primary patterns (two further variants are documented in
+`ADAPTING.md` in the source repository,
+github.com/whosneet/whs-professional-skill):
 
 1. **Claude Project knowledge (recommended for claude.ai)** — keep this file
    generic (or as the fictional worked example) and hold each organisation's
