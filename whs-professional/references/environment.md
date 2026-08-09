@@ -23,10 +23,10 @@ ratings, internal classification thresholds, and reporting cadence, load
 1. [Scope and EHS Integration](#1-scope-and-ehs-integration)
 2. [AU Environmental Regulatory Framework](#2-au-environmental-regulatory-framework)
 3. [NZ Environmental Regulatory Framework](#3-nz-environmental-regulatory-framework)
-4. [ISO 14001:2015 EMS Clause Map](#4-iso-14001-2015-ems-clause-map)
+4. [ISO 14001:2015 EMS Clause Map](#4-iso-140012015-ems-clause-map)
 5. [Environmental Aspects and Impacts](#5-environmental-aspects-and-impacts)
 6. [Environmental Incident Classification & Notification](#6-environmental-incident-classification--notification)
-7. [Hazardous Chemicals & Dangerous Goods — Storage](#7-hazardous-chemicals--dangerous-goods-storage)
+7. [Hazardous Chemicals & Dangerous Goods — Storage](#7-hazardous-chemicals--dangerous-goods--storage)
 8. [Spill Response and Site Contamination](#8-spill-response-and-site-contamination)
 9. [Waste Management Hierarchy & Tracked Waste](#9-waste-management-hierarchy--tracked-waste)
 10. [Air Emissions and Water Discharge](#10-air-emissions-and-water-discharge)
@@ -181,7 +181,7 @@ substance, per facility) to report annual emissions of 93 listed substances to
 air, water, and land. Administered by DCCEEW under the **National Environment
 Protection (National Pollutant Inventory) Measure 1998**.
 
-**Thresholds** vary by substance — three categories:
+**Thresholds** vary by substance — several threshold categories:
 - **Category 1**: based on quantity used, produced or stored (e.g. 10 tonnes
   per year for most Category 1 substances)
 - **Category 1a**: total VOCs (25 tonnes per year)
@@ -491,7 +491,7 @@ organisation-specific consequence and likelihood criteria.
 | Diesel refuelling of plant | Diesel use; potential spill | GHG emission; soil/groundwater contamination | Significant (compliance + community) | Bunded fuel cell; spill kit; dispenser interlock; quarterly bund integrity check |
 | HVAC servicing | Refrigerant handling | Ozone depletion (legacy gases); GHG (HFCs) | Significant (compliance — ARC tradesperson licence) | Licensed technician only; refrigerant tracking log; recovery cylinders |
 | Vehicle washbay | Wastewater discharge | Trade waste to sewer | Significant (trade waste consent) | Triple-interceptor pit; quarterly sludge removal; trade waste agreement with utility |
-| Yard stormwater runoff | Sediment, hydrocarbons | Discharge to receiving waters | Significant (POEO/EP Act licensing) | Capture and treatment; SSEC plan; visual inspection weekly |
+| Yard stormwater runoff | Sediment, hydrocarbons | Discharge to receiving waters | Significant (POEO/EP Act licensing) | Capture and treatment; Erosion and Sediment Control Plan (ESCP); visual inspection weekly |
 | Office printing | Paper/cartridge consumption | Resource depletion; waste | Not significant (low quantity) | Default duplex; cartridge return scheme |
 
 ---
@@ -563,6 +563,12 @@ Environmental incidents should be classified using the same matrix as WHS
 incidents (most internal classifications do this — see the worked example in
 `company.md` §5, where environment is a consequence dimension in the
 organisation's rating scale).
+
+The table below is a **generic illustrative scale (1–6)**, distinct from the
+`company.md` §5 matrix (which rates Severity Classes 1–5, Negligible to
+Catastrophic). When producing outputs in the company context, classify against
+the `company.md` §5 scale — this table only shows how environmental examples
+map to an escalating internal response.
 
 | Severity | Environmental example | Internal response |
 |---|---|---|
@@ -824,12 +830,13 @@ Controlled Waste NEPM** plus state regulations. Notification to both source and
 destination state EPAs is required; consignment authority numbers must accompany
 the load.
 
-### 9.4 Hazardous Waste Classification — HW Codes
+### 9.4 Hazardous Waste Classification — NEPM Waste Codes
 
-The Movement of Controlled Waste NEPM uses a **HW code** classification (e.g.
-HW A100 — clinical and related wastes; HW K100 — inorganic chemicals containing
-metals). Each tracked waste consignment requires the correct HW code,
-quantity, source and destination details.
+The Movement of Controlled Waste NEPM classifies controlled wastes using
+single-letter-prefixed **waste codes** (e.g. R100 — clinical and related
+wastes; D220 — lead compounds; K110 — grease trap waste, from the
+putrescible/organic K group). Each tracked waste consignment requires the
+correct waste code, quantity, source and destination details.
 
 ### 9.5 Asbestos Waste
 
@@ -993,7 +1000,7 @@ advice before producing definitive guidance.
 
 | Jurisdiction | Primary Act | Operational mechanism |
 |---|---|---|
-| **NSW** | National Parks and Wildlife Act 1974 (Part 6) | **Aboriginal Heritage Impact Permit (AHIP)** required to harm Aboriginal objects; due diligence per NSW OEH Code of Practice |
+| **NSW** | National Parks and Wildlife Act 1974 (Part 6) | **Aboriginal Heritage Impact Permit (AHIP)** required to harm Aboriginal objects; due diligence per the Due Diligence Code of Practice for the Protection of Aboriginal Objects in NSW (2010), administered by Heritage NSW |
 | **VIC** | Aboriginal Heritage Act 2006 | **Cultural Heritage Management Plan (CHMP)** required for high-impact activities in areas of cultural heritage sensitivity; prepared by Heritage Advisor |
 | **QLD** | Aboriginal Cultural Heritage Act 2003 | **Cultural Heritage Duty of Care** (s 23) — duty to take all reasonable and practicable measures to ensure activity does not harm Aboriginal cultural heritage; CH Duty of Care Guidelines |
 | **WA** | Aboriginal Heritage Act 1972 (active again following 2023 repeal of 2021 replacement) | s 18 consent required to use land where Aboriginal site exists |

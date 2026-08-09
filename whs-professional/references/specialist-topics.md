@@ -757,8 +757,8 @@ Disclosures) was issued in 2024 with mandatory phased application:
 | Group 3 | Smaller listed and NGER reporters | 1 July 2027 |
 
 AASB S1 — General Requirements for Disclosure of Sustainability-related Financial
-Information — covers sustainability topics beyond climate but is, at the time of writing,
-not yet mandatory in AU.
+Information — covers sustainability topics beyond climate but is, at the time of writing
+(as at mid-2026), not yet mandatory in AU.
 
 For WHS, the implication is that the architecture of climate disclosure (governance,
 strategy, risk management, metrics and targets) is being extended to broader sustainability
@@ -848,8 +848,8 @@ The WHS practitioner does not need to lead the ESG reporting cycle but should kn
 - The investor and ratings agency engagement calendar
 
 > Cross-reference: load `references/analytics.md` for WHS KPI definitions and calculation
-> methods, and `references/frameworks.md` §11 for board reporting structure that feeds
-> the ESG disclosure cycle.
+> methods, and `references/frameworks.md` §8 (board and ELT safety reporting; governance
+> detail in §15) for the board reporting structure that feeds the ESG disclosure cycle.
 
 ---
 
@@ -883,10 +883,10 @@ The principal insurance arrangements that the WHS function intersects with:
 ### Statutory bans on insuring WHS penalties — the non-negotiable boundary
 
 The most consequential development in WHS insurance is the statutory prohibition of
-insurance and indemnity arrangements for WHS monetary penalties. Following the Boland
-review of the model WHS laws, the model WHS law was amended (Safe Work Australia) in 2022
-to recommend prohibiting these arrangements, and jurisdictions are legislating on their
-own timetables:
+insurance and indemnity arrangements for WHS monetary penalties. The Boland review of
+the model WHS laws (2018) recommended prohibiting these arrangements; Safe Work
+Australia's 2022 amendments to the model WHS Act implemented the recommendation, and
+jurisdictions are legislating on their own timetables:
 
 | Jurisdiction | Provision | Effect |
 |---|---|---|
