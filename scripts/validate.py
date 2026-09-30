@@ -19,6 +19,8 @@ Checks (errors fail the build; warnings are surfaced but do not fail):
   7. Hygiene       — no leftover [verify]/TODO/FIXME or merge-conflict markers
   8. AU English    — common Americanisms (warning only), with an allowlist for
                      official titles, journal/book names, and verbatim quotes
+  9. INDEX ranges  — references/INDEX.md line ranges and section map are
+                     current (scripts/build_index.py --check)
 
 Usage: python3 scripts/validate.py
 Exit code 0 = pass, 1 = one or more errors.
@@ -221,6 +223,21 @@ for p in skill_md_files:
             continue
         ln = t[: mm.start()].count("\n") + 1
         warnings.append(f"{rel(p)}:{ln}: possible US/non-AU spelling {mm.group(0)!r}")
+
+# --- 9. INDEX.md line ranges are current ---------------------------------
+# build_index.py stamps each INDEX.md row with the section's line range and
+# regenerates the section map at its foot; both go stale whenever a
+# reference file changes length, so check they were rebuilt.
+try:
+    import subprocess
+    chk = subprocess.run(
+        [sys.executable, os.path.join(ROOT, "scripts", "build_index.py"), "--check"],
+        capture_output=True, text=True,
+    )
+    if chk.returncode != 0:
+        errors.append("references/INDEX.md: " + (chk.stdout.strip() or "line ranges stale"))
+except OSError as e:  # pragma: no cover
+    warnings.append(f"could not run scripts/build_index.py --check: {e}")
 
 # --- report ---------------------------------------------------------------
 for w in warnings:
