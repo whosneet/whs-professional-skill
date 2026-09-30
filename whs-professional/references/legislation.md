@@ -1434,14 +1434,14 @@ not guarantee no health effect, particularly for substances with no threshold
 | Nitrogen dioxide (NO2) | 3 ppm | 5 ppm | — | Combustion; welding. **Unchanged on 1 Dec 2026** (one of nine deferred chemicals; the proposed lower limit was not agreed) |
 | Ozone (O3) | — | — | 0.1 ppm | Peak limitation; photocopier; welding; arc work |
 | Sulphur dioxide (SO2) | 2 ppm | 5 ppm | — | Combustion; volcanic activity |
-| Hydrogen sulphide (H2S) | 10 ppm | 15 ppm | — | Sewers; gas wells; decomposition |
+| Hydrogen sulphide (H2S) | 10 ppm | 15 ppm | — | Sewers; gas wells; decomposition. Unchanged on 1 Dec 2026 (deferred) |
 | Ammonia (NH3) | 25 ppm | 35 ppm | — | Refrigeration; agriculture; cleaning |
-| Formaldehyde (HCHO) | 1 ppm | 2 ppm | — | Carcinogen (IARC Group 1) — minimise exposure SFAIRP |
+| Formaldehyde (HCHO) | 1 ppm | 2 ppm | — | Carcinogen (IARC Group 1) — minimise exposure SFAIRP. Unchanged on 1 Dec 2026 (deferred) |
 | Isocyanates (TDI, MDI as -NCO) | 0.02 mg/m³ | 0.07 mg/m³ | — | 2-pack paints, polyurethane foam; respiratory sensitiser |
-| Welding fume (not otherwise classified) | 1 mg/m³ | — | — | TWA reduced from 5 mg/m³ in January 2024; IARC Group 1 carcinogen (constituent-specific WES — e.g. manganese, chromium VI — apply in addition) |
+| Welding fume (not otherwise classified) | 1 mg/m³ | — | — | TWA reduced from 5 mg/m³ in January 2024; IARC Group 1 carcinogen (constituent-specific WES — e.g. manganese, chromium VI — apply in addition; from 1 Dec 2026 manganese falls to 0.1 mg/m³ inhalable / 0.02 mg/m³ respirable and chromium VI has no limit as a non-threshold carcinogen — `hazards-specialist.md` §4) |
 | Lead (inorganic, as Pb) | 0.05 mg/m³ | — | — | Health monitoring mandatory for lead risk work under Regs 405–407 |
 | Mercury (inorganic) | 0.025 mg/m³ | — | — | Skin notation — dermal absorption |
-| Respirable crystalline silica (RCS) | 0.05 mg/m³ | — | — | Reduced from 0.1 in 2020; no safe threshold — minimise SFAIRP (cross-ref `hazards.md` §2) |
+| Respirable crystalline silica (RCS) | 0.05 mg/m³ | — | — | Reduced from 0.1 in 2020; no safe threshold — minimise SFAIRP (cross-ref `hazards.md` §2). Unchanged on 1 Dec 2026 (deferred) |
 | Respirable coal dust | 1.5 mg/m³ | — | — | NSW and QLD coal mines both apply 1.5 |
 | Total inhalable dust (nuisance, where no specific WES) | 10 mg/m³ | — | — | Default for unclassified dust |
 | Respirable dust (nuisance, where no specific WES) | 3 mg/m³ | — | — | Default for respirable fraction |
