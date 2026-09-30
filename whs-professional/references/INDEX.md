@@ -11,12 +11,12 @@ psychosocial regulations, rr 55A-55D, Respect@Work, SDA s 47C, positive duty | l
 mandatory training, HSR training, white card, HRWL, supervisor competency | legislation.md | §11 | L1151-1215
 volunteers, unpaid workers | legislation.md | §12 | L1219-1283
 international comparison, ILO, OSHA, UK HSE, EU OSH | legislation.md | §13 | L1287-1383
-WES, WEL, workplace exposure standards, exposure limits, 1 Dec 2026 transition | legislation.md | §14 | L1387-1470
-codes of practice summaries | legislation.md | §15 | L1474-1589
-state detail, VIC OHS Act 2004, jurisdiction variations | legislation.md | §16 | L1593-1782
+WES, WEL, workplace exposure standards, exposure limits, 1 Dec 2026 transition | legislation.md | §14 | L1387-1478
+codes of practice summaries | legislation.md | §15 | L1482-1597
+state detail, VIC OHS Act 2004, jurisdiction variations | legislation.md | §16 | L1601-1792
 enforceable undertakings, EU eligibility, s 216 | legislation.md | §6 | L557-804
 insurance ban, s 272A, indemnity prohibition | specialist-topics.md | §5 | L860-1153
-VIC insurance ban, ss 148A-148B | legislation.md | §16 | L1593-1782
+VIC insurance ban, ss 148A-148B | legislation.md | §16 | L1601-1792
 notifiable incidents, notification triggers, serious injury definition | legislation.md | §5 | L507-553
 PCBU duties, primary duty, key duties in detail | legislation.md | §4 | L446-503
 regulator contacts, who to call, regulator phone numbers | legislation.md | §7 | L808-821
@@ -31,6 +31,14 @@ ICAM variants, TapRoot comparison | investigation.md | §11 | L857-925
 AcciMap | investigation.md | §12 | L929-992
 bowtie worked example | investigation.md | §13 | L996-1085
 legal privilege, LPP management | investigation.md | §14 | L1089-1255
+investigation method selection, which method, ICAM vs Tripod vs HFACS vs STEP | investigation-advanced.md | §1 | L33-88
+OFT codes, organisational factor types, ICAM coding, factor trending | investigation-advanced.md | §2 | L92-269
+workplace fatality, first 24 hours, police, coroner, inquest, compelled interview, s 171, family liaison | investigation-advanced.md | §3 | L273-452
+STEP, sequentially timed events plotting, multi-actor timeline | investigation-advanced.md | §4 | L456-626
+Tripod Beta, basic risk factors, BRF, barrier analysis tree | investigation-advanced.md | §5 | L630-807
+HFACS, human factors analysis and classification, unsafe acts taxonomy | investigation-advanced.md | §6 | L811-986
+investigation quality assurance, QA rubric, peer review, challenge panel, investigator competency, learning review | investigation-advanced.md | §7 | L990-1161
+restorative practice, restorative just culture, apology, second victim, reparation | investigation-advanced.md | §8 | L1165-1349
 
 ## Frameworks & governance
 hierarchy of controls, SFAIRP, risk assessment | frameworks.md | §1-§10 | L28-452
@@ -64,6 +72,15 @@ crane lifts, rigging | hazards.md | §19 | L1307-1405
 demolition | hazards.md | §20 | L1409-1515
 excavation, trench shoring | hazards.md | §21 | L1519-1623
 hot work | hazards.md | §22 | L1627-1720
+lead, lead risk work, blood lead level, removal level, Part 7.2, lead paint, battery recycling | hazards-specialist.md | §2 | L69-258
+diesel particulate matter, DPM, diesel exhaust, elemental carbon, underground diesel | hazards-specialist.md | §3 | L262-445
+welding fume, hexavalent chromium, manganese, on-torch extraction, welding WEL | hazards-specialist.md | §4 | L449-633
+lithium-ion batteries, thermal runaway, e-bike charging, battery storage, Class 9 | hazards-specialist.md | §5 | L637-828
+solar UV, sun protection, skin cancer, UV Index, arc eye | hazards-specialist.md | §6 | L832-1022
+abrasive blasting, blast media, restricted media, blast helmet, breathing air | hazards-specialist.md | §7 | L1026-1195
+formwork, falsework, AS 3610, pre-pour inspection, formwork collapse, back-propping | hazards-specialist.md | §8 | L1199-1378
+occupational diving, diving work, dive plan, dive supervisor, ADAS, decompression illness, Part 4.8 | hazards-specialist.md | §9 | L1382-1570
+Q fever, Q-VAX, zoonoses, leptospirosis, Hendra, brucellosis, lyssavirus, Japanese encephalitis, avian influenza | hazards-specialist.md | §10 | L1574-1765
 
 ## Deliverables & templates
 safety alert, toolbox talk, advisory note, policy, procedure, contractor docs | output-templates.md | §1-§10 | L32-611
@@ -77,6 +94,10 @@ TRIFR, LTIFR, KPIs, dashboards, Power BI, DAX, HiPo intelligence pack | analytic
 SIF, pSIF, serious injury and fatality classification | analytics.md | §1 | L24-127
 severity rate, LTISR, lost days | analytics.md | §1 | L24-127
 EAP utilisation reporting | analytics.md | §6 | L310-351
+confidence interval, Poisson, funnel plot, SPC, u-chart, signal vs noise, small numbers, rate comparison | analytics.md | §9 | L483-612
+exposure normalisation, denominator, hours vs FTE, per 200,000 hours, activity-based rate, standardisation | analytics.md | §10 | L616-737
+predictive analytics, predictive safety ethics, worker monitoring governance, automated decision, surveillance law, Privacy Act | analytics.md | §11 | L741-847
+rate confidence interval, funnel limits, two-rate comparison (deterministic) | ../scripts/rate_confidence.py | run it | L310-351
 frequency rate calculation (deterministic) | ../scripts/frequency_rates.py | run it
 program design, gamification, facilitators, campaigns, engagement | programs.md | all | L1-400
 
@@ -88,10 +109,13 @@ inspections, audits, ISO 19011, permit-to-work, Take 5, SLAM, JSEA | inspections
 STAR, stop think act review, point-of-work check | inspections-audits-permits.md | §5 | L435-489
 landmark case studies: Longford, Texas City, Macondo, Pike River, Dreamworld, Whakaari, Grenfell, Costa Concordia, Ranger, Bhopal, Beirut | case-studies.md | §1-§13 | L28-1244
 everyday case studies: forklift, manual handling, psychosocial, electrical, slip trip, chemical, fatigue | case-studies-everyday.md | all | L1-1283
-mining, maritime, aviation, rail, healthcare biosafety, defence | sector-regimes.md | §2-§7 | L99-1035
-petrochemical, telecoms, agriculture, hospitality, education, retail | sector-regimes.md | §8-§13 | L1110-1366
-HVNL, chain of responsibility, NHVR, load restraint, fatigue hours | sector-regimes.md | §14 | L1402-1419
-cross-sector themes, common regime patterns | sector-regimes.md | §15 | L1549-1572
+AU/NZ landmark case studies: Wittenoom, Montara, Hazelwood, Beaconsfield, Cave Creek, Waterfall | case-studies-anz.md | §2-§7 | L90-963
+first industrial manslaughter prosecutions, Brisbane Auto Recycling, workplace manslaughter convictions | case-studies-anz.md | §8 | L967-1110
+everyday critical-risk case studies: fall through roof, confined space rescue, LOTO failure, yard truck pedestrian, heat illness | case-studies-critical-risk.md | §2-§6 | L98-1064
+mining, maritime, aviation, rail, healthcare biosafety, defence | sector-regimes.md | §2-§7 | L99-1042
+petrochemical, telecoms, agriculture, hospitality, education, retail | sector-regimes.md | §8-§13 | L1117-1373
+HVNL, chain of responsibility, NHVR, load restraint, fatigue hours | sector-regimes.md | §14 | L1409-1426
+cross-sector themes, common regime patterns | sector-regimes.md | §15 | L1556-1579
 first aid, emergency prep, evacuation, lone working, WFH, hybrid, Right to Disconnect | workplace-controls.md | all | L1-1168
 FDV, family and domestic violence | workplace-controls.md | §4 | L820-1113
 BBS, behavioural safety, maturity ladder, Westrum, Hudson, Bradley, culture, climate | capability-culture.md | all | L1-698
@@ -416,9 +440,9 @@ legislation.md | §10 | Inspector Visits & Regulator Attendance | L1040-1147
 legislation.md | §11 | Mandatory WHS Training Requirements | L1151-1215
 legislation.md | §12 | Volunteer and Unpaid Worker Coverage | L1219-1283
 legislation.md | §13 | International Framework References | L1287-1383
-legislation.md | §14 | Workplace Exposure Standards (WES) Reference Table | L1387-1470
-legislation.md | §15 | Codes of Practice — Key Requirements Summary | L1474-1589
-legislation.md | §16 | State and Territory Variations — Deeper Detail | L1593-1782
+legislation.md | §14 | Workplace Exposure Standards (WES) Reference Table | L1387-1478
+legislation.md | §15 | Codes of Practice — Key Requirements Summary | L1482-1597
+legislation.md | §16 | State and Territory Variations — Deeper Detail | L1601-1792
 output-templates.md | §1 | Safety Alert | L32-93
 output-templates.md | §2 | Toolbox Talk | L97-172
 output-templates.md | §3 | WHS Advisory Note | L176-246
@@ -460,69 +484,69 @@ sector-regimes.md | §2 | 5 NT, TAS, VIC — Mining | L270-287
 sector-regimes.md | §2 | 6 Cross-jurisdiction mining principles | L289-306
 sector-regimes.md | §3 | Maritime | L310-314
 sector-regimes.md | §3 | 1 AMSA — Australian Maritime Safety Authority | L316-346
-sector-regimes.md | §3 | 2 OPGGS Act and NOPSEMA — Offshore Petroleum | L348-390
-sector-regimes.md | §3 | 3 State maritime regulators — domestic commercial vessels | L392-408
-sector-regimes.md | §3 | 4 Maritime NZ | L410-437
-sector-regimes.md | §3 | 5 HSWA / WHS Act intersection at port | L439-464
-sector-regimes.md | §3 | 6 Key maritime hazards | L466-481
-sector-regimes.md | §4 | Aviation | L485-490
-sector-regimes.md | §4 | 1 CASA — Civil Aviation Safety Authority | L492-529
-sector-regimes.md | §4 | 2 ATSB — Australian Transport Safety Bureau | L531-556
-sector-regimes.md | §4 | 3 CAA NZ — Civil Aviation Authority New Zealand | L558-583
-sector-regimes.md | §4 | 4 HSWA / WHS Act intersection in aviation | L585-603
-sector-regimes.md | §4 | 5 Key aviation hazards | L605-621
-sector-regimes.md | §5 | Rail | L625-628
-sector-regimes.md | §5 | 1 ONRSR — Office of National Rail Safety Regulator | L630-647
-sector-regimes.md | §5 | 2 Rail Transport Operator (RTO) accreditation | L649-668
-sector-regimes.md | §5 | 3 Safety Management System | L670-692
-sector-regimes.md | §5 | 4 Drug and alcohol — mandatory testing | L694-711
-sector-regimes.md | §5 | 5 Fatigue — RSNL Fatigue Management Standard | L713-727
-sector-regimes.md | §5 | 6 Notifiable occurrences | L729-739
-sector-regimes.md | §5 | 7 ATSB rail investigation | L741-751
-sector-regimes.md | §5 | 8 HSWA / WHS Act intersection | L753-770
-sector-regimes.md | §5 | 9 Key rail hazards | L772-788
-sector-regimes.md | §6 | Healthcare Biosafety and Clinical WHS | L792-797
-sector-regimes.md | §6 | 1 AS/NZS 2243.3:2022 — Microbiological safety and containment | L799-804
-sector-regimes.md | §6 | 2 Physical Containment levels | L806-818
-sector-regimes.md | §6 | 3 Gene Technology Act 2000 and OGTR | L820-841
-sector-regimes.md | §6 | 4 Radiation safety | L843-873
-sector-regimes.md | §6 | 5 Infection control | L875-889
-sector-regimes.md | §6 | 6 Sharps management | L891-904
-sector-regimes.md | §6 | 7 Chemical exposures in healthcare | L906-924
-sector-regimes.md | §6 | 8 Aggression and violence | L926-943
-sector-regimes.md | §6 | 9 HSWA / WHS Act intersection | L945-963
-sector-regimes.md | §6 | 10 Aged care — SIRS and the Aged Care Act 2024 | L965-984
-sector-regimes.md | §7 | Defence | L988-993
-sector-regimes.md | §7 | 1 Statutory framework | L995-1007
-sector-regimes.md | §7 | 2 WHS Act application to Defence | L1009-1035
-sector-regimes.md | §7 | 3 Defence Safety Management System (DSMS) | L1037-1054
-sector-regimes.md | §7 | 4 Explosive Ordnance handling | L1056-1068
-sector-regimes.md | §7 | 5 Security clearance intersection | L1070-1084
-sector-regimes.md | §7 | 6 Defence industry — contractor WHS | L1086-1106
-sector-regimes.md | §8 | Petrochemical and Downstream Operations | L1110-1165
-sector-regimes.md | §9 | Telecommunications | L1169-1202
-sector-regimes.md | §10 | Agriculture and Pastoral | L1206-1237
-sector-regimes.md | §11 | Hospitality | L1241-1277
-sector-regimes.md | §12 | Education | L1281-1321
-sector-regimes.md | §13 | Retail | L1325-1366
-sector-regimes.md | §14 | Road Transport and Heavy Vehicle (HVNL / Chain of Responsibility) | L1370-1376
-sector-regimes.md | §14 | 1 The HVNL and the NHVR | L1378-1388
-sector-regimes.md | §14 | 2 Primary duty — s 26C | L1390-1400
-sector-regimes.md | §14 | 3 Chain of Responsibility parties | L1402-1419
-sector-regimes.md | §14 | 4 Executive due diligence — s 26D | L1421-1430
-sector-regimes.md | §14 | 5 Prohibition on contracts and demands that cause breaches | L1432-1439
-sector-regimes.md | §14 | 6 Fatigue management | L1441-1457
-sector-regimes.md | §14 | 7 Mass, dimension, and loading | L1459-1463
-sector-regimes.md | §14 | 8 Vehicle standards and maintenance | L1465-1472
-sector-regimes.md | §14 | 9 Enforcement | L1474-1482
-sector-regimes.md | §14 | 10 Interface with the WHS Act | L1484-1491
-sector-regimes.md | §14 | 11 Practical CoR program elements | L1493-1508
-sector-regimes.md | §15 | Cross-Sector Themes | L1512-1512
-sector-regimes.md | §15 | 1 Regime selection — the more specific generally prevails | L1514-1526
-sector-regimes.md | §15 | 2 Concurrent duties and the 3Cs | L1528-1547
-sector-regimes.md | §15 | 3 Investigation jurisdiction — ATSB vs WHS regulator | L1549-1572
-sector-regimes.md | §15 | 4 Practical implications for cross-sector practitioners | L1574-1588
-sector-regimes.md | §15 | 5 Output checklist — sector-specific tasks | L1590-1609
+sector-regimes.md | §3 | 2 OPGGS Act and NOPSEMA — Offshore Petroleum | L348-397
+sector-regimes.md | §3 | 3 State maritime regulators — domestic commercial vessels | L399-415
+sector-regimes.md | §3 | 4 Maritime NZ | L417-444
+sector-regimes.md | §3 | 5 HSWA / WHS Act intersection at port | L446-471
+sector-regimes.md | §3 | 6 Key maritime hazards | L473-488
+sector-regimes.md | §4 | Aviation | L492-497
+sector-regimes.md | §4 | 1 CASA — Civil Aviation Safety Authority | L499-536
+sector-regimes.md | §4 | 2 ATSB — Australian Transport Safety Bureau | L538-563
+sector-regimes.md | §4 | 3 CAA NZ — Civil Aviation Authority New Zealand | L565-590
+sector-regimes.md | §4 | 4 HSWA / WHS Act intersection in aviation | L592-610
+sector-regimes.md | §4 | 5 Key aviation hazards | L612-628
+sector-regimes.md | §5 | Rail | L632-635
+sector-regimes.md | §5 | 1 ONRSR — Office of National Rail Safety Regulator | L637-654
+sector-regimes.md | §5 | 2 Rail Transport Operator (RTO) accreditation | L656-675
+sector-regimes.md | §5 | 3 Safety Management System | L677-699
+sector-regimes.md | §5 | 4 Drug and alcohol — mandatory testing | L701-718
+sector-regimes.md | §5 | 5 Fatigue — RSNL Fatigue Management Standard | L720-734
+sector-regimes.md | §5 | 6 Notifiable occurrences | L736-746
+sector-regimes.md | §5 | 7 ATSB rail investigation | L748-758
+sector-regimes.md | §5 | 8 HSWA / WHS Act intersection | L760-777
+sector-regimes.md | §5 | 9 Key rail hazards | L779-795
+sector-regimes.md | §6 | Healthcare Biosafety and Clinical WHS | L799-804
+sector-regimes.md | §6 | 1 AS/NZS 2243.3:2022 — Microbiological safety and containment | L806-811
+sector-regimes.md | §6 | 2 Physical Containment levels | L813-825
+sector-regimes.md | §6 | 3 Gene Technology Act 2000 and OGTR | L827-848
+sector-regimes.md | §6 | 4 Radiation safety | L850-880
+sector-regimes.md | §6 | 5 Infection control | L882-896
+sector-regimes.md | §6 | 6 Sharps management | L898-911
+sector-regimes.md | §6 | 7 Chemical exposures in healthcare | L913-931
+sector-regimes.md | §6 | 8 Aggression and violence | L933-950
+sector-regimes.md | §6 | 9 HSWA / WHS Act intersection | L952-970
+sector-regimes.md | §6 | 10 Aged care — SIRS and the Aged Care Act 2024 | L972-991
+sector-regimes.md | §7 | Defence | L995-1000
+sector-regimes.md | §7 | 1 Statutory framework | L1002-1014
+sector-regimes.md | §7 | 2 WHS Act application to Defence | L1016-1042
+sector-regimes.md | §7 | 3 Defence Safety Management System (DSMS) | L1044-1061
+sector-regimes.md | §7 | 4 Explosive Ordnance handling | L1063-1075
+sector-regimes.md | §7 | 5 Security clearance intersection | L1077-1091
+sector-regimes.md | §7 | 6 Defence industry — contractor WHS | L1093-1113
+sector-regimes.md | §8 | Petrochemical and Downstream Operations | L1117-1172
+sector-regimes.md | §9 | Telecommunications | L1176-1209
+sector-regimes.md | §10 | Agriculture and Pastoral | L1213-1244
+sector-regimes.md | §11 | Hospitality | L1248-1284
+sector-regimes.md | §12 | Education | L1288-1328
+sector-regimes.md | §13 | Retail | L1332-1373
+sector-regimes.md | §14 | Road Transport and Heavy Vehicle (HVNL / Chain of Responsibility) | L1377-1383
+sector-regimes.md | §14 | 1 The HVNL and the NHVR | L1385-1395
+sector-regimes.md | §14 | 2 Primary duty — s 26C | L1397-1407
+sector-regimes.md | §14 | 3 Chain of Responsibility parties | L1409-1426
+sector-regimes.md | §14 | 4 Executive due diligence — s 26D | L1428-1437
+sector-regimes.md | §14 | 5 Prohibition on contracts and demands that cause breaches | L1439-1446
+sector-regimes.md | §14 | 6 Fatigue management | L1448-1464
+sector-regimes.md | §14 | 7 Mass, dimension, and loading | L1466-1470
+sector-regimes.md | §14 | 8 Vehicle standards and maintenance | L1472-1479
+sector-regimes.md | §14 | 9 Enforcement | L1481-1489
+sector-regimes.md | §14 | 10 Interface with the WHS Act | L1491-1498
+sector-regimes.md | §14 | 11 Practical CoR program elements | L1500-1515
+sector-regimes.md | §15 | Cross-Sector Themes | L1519-1519
+sector-regimes.md | §15 | 1 Regime selection — the more specific generally prevails | L1521-1533
+sector-regimes.md | §15 | 2 Concurrent duties and the 3Cs | L1535-1554
+sector-regimes.md | §15 | 3 Investigation jurisdiction — ATSB vs WHS regulator | L1556-1579
+sector-regimes.md | §15 | 4 Practical implications for cross-sector practitioners | L1581-1595
+sector-regimes.md | §15 | 5 Output checklist — sector-specific tasks | L1597-1616
 specialist-topics.md | §1 | Occupational Hygiene Practice | L25-308
 specialist-topics.md | §2 | Workplace Mental Health Programs | L312-494
 specialist-topics.md | §3 | Modern Slavery Act 2018 (Cth) | L498-663
