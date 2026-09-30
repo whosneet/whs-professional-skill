@@ -127,8 +127,9 @@ making decisions affecting the whole or substantial part of the business.
 ### Western Australia
 - Work Health and Safety Act 2020 (WA) — commenced 31 March 2022 (late adopter)
 - Work Health and Safety (General) Regulations 2022 (WA)
-- Regulator: WorkSafe WA, within the Department of Energy, Mines, Industry
-  Regulation and Safety (DEMIRS — renamed from DMIRS in 2023)
+- Regulator: WorkSafe WA, within the Department of Local Government, Industry
+  Regulation and Safety (LGIRS) since 1 July 2025 (DEMIRS was dissolved on
+  30 June 2025 — `sector-regimes.md` §2.3)
 - Mines: WHS (Mines) Regulations 2022 (WA) under the WHS Act 2020 — the former
   Mine Safety and Inspection Act 1994 regime was replaced on commencement (§16)
 - WA harmonised later than other states; practitioners transitioning from 1984 Act
@@ -431,12 +432,14 @@ Workforce Committee 16 June 2026). Its main provisions **commence 1 April
   high-risk sectors) have duties focused on **critical risks** only
 - **ACoP compliance as a safe harbour** — deemed compliance with the relevant
   duty, a material change from the current evidentiary status under s 226
-- A statutory **critical risk** concept; clarified officer due diligence,
-  land-use and notification provisions; consequential GRWM amendments
+- A statutory **critical risk** concept; a recast overlapping-duties provision
+  (s 34); clarified officer due diligence, land-use and notification
+  provisions; consequential GRWM amendments
 
 **Current law applies until commencement.** Until 1 April 2027, advise on the
-existing HSWA provisions; flag the incoming changes where transition planning
-is relevant (position as at August 2026 — verify status before relying).
+existing HSWA provisions (including the current s 34); flag the incoming
+changes where transition planning is relevant (position as at October 2026 —
+verify status before relying).
 
 ---
 
@@ -512,14 +515,28 @@ prompt regulator notification. PCBUs should respond constructively, not adversar
 - Medical treatment within 48 hours of exposure to substance
 - Any serious infection (including occupational zoonosis)
 
-**Dangerous incident** (even if no injury) includes:
-- Uncontrolled escape of substance/fire/explosion
-- Collapse, overturning, failure of any plant/structure
-- Fall or release from height of plant/object
-- Collapse or failure of excavation
-- Uncontrolled release of pressurised substance
-- Accidental contact with electricity causing injury potential
-- Exposure to biological, chemical, or radiological substance creating health risk
+**Dangerous incident** (s 37; even if no injury) — an incident that exposes a
+person to a serious risk to health or safety from an immediate or imminent
+exposure to:
+- Uncontrolled escape, spillage or leakage of a substance; uncontrolled
+  implosion, explosion or fire; uncontrolled escape of gas, steam or a
+  pressurised substance
+- Electric shock
+- Fall or release from a height of any plant, substance or thing
+- Collapse, overturning, failure or malfunction of, or damage to, **plant that
+  must be authorised (registered) under the regulations** only (s 37(g)) —
+  e.g. an unexpected start-up of unregistered plant is not a s 37 incident,
+  but remains a HiPo
+- Collapse or partial collapse of a structure
+- Collapse or failure of an excavation or its shoring
+- Inrush of water, mud or gas, or interruption of the main ventilation, in
+  workings, an underground excavation or a tunnel
+- Any other event prescribed by the regulations
+
+**Mines and sector regimes add their own triggers.** QLD coal mines, mines
+and quarries notify under CMSHA / MQSHA (serious accidents and high
+potential incidents), not WHS Act s 38; NSW and WA mine regulations
+prescribe additional incidents (`sector-regimes.md` §2).
 
 **Duty to notify**: immediately after becoming aware, by the fastest possible
 means (s 38) — in practice, phone. Written notification (using the regulator's
@@ -584,6 +601,11 @@ in the relevant jurisdiction's Act.**
 - Acceptance is discretionary; the regulator **publishes** accepted undertakings
   (with reasons). Contravening an accepted undertaking is itself an offence, and
   prosecution of the original matter can follow withdrawal or material breach
+- **VIC** (outside Part 11): WorkSafe may accept an enforceable undertaking
+  under **OHS Act 2004 s 16**; separately, after a finding of guilt a court may
+  adjourn the proceeding for up to 2 years on a **health and safety
+  undertaking** (s 137), discharging the offender on compliance (WorkSafe
+  Health and Safety Undertakings Policy, June 2026; as at October 2026)
 
 ### Limitation periods (AU — s 232 model Act)
 
@@ -597,6 +619,14 @@ For **Category 1**, proceedings may be brought after these periods where fresh
 evidence is discovered and the court is satisfied it could not reasonably have
 been discovered within the limitation period. Industrial manslaughter offences
 generally carry **no limitation period**.
+
+- **VIC**: OHS Act 2004 s 132 sets its own periods; a workplace manslaughter
+  proceeding "may be brought at any time" (s 132(3))
+- **NZ**: HSWA s 146 — 12 months after the matter first became known, or ought
+  reasonably to have become known, to the regulator; the District Court may
+  extend this by up to 12 months on an application made within that period
+  (s 147); a separate period runs from a coroner's certificate of findings
+  that discloses an offence. Keep legal holds until every process has closed
 
 ### Sentencing — beyond the fine
 
@@ -637,7 +667,7 @@ alternative.
 | Jurisdiction | Offence and commencement | Max penalty (corporate) | Max penalty (individual) |
 |---|---|---|---|
 | Commonwealth | s 30A WHS Act 2011 (Cth), inserted by the Closing Loopholes Act 2023 — in force 1 July 2024 | $18M | 25 years |
-| QLD | s 34C WHS Act 2011 (QLD) — in force 2017 (first under a WHS Act; the ACT's Crimes Act offence, 2004, was first overall) | 100,000 penalty units (~$17.3M at the penalty unit of $172.70 from 1 July 2026; PU indexed — see `assets/penalty_units.json`) | 20 years |
+| QLD | s 34C WHS Act 2011 (QLD) — in force 2017 (first under a WHS Act; the ACT's Crimes Act offence, 2004, was first overall) | 100,000 penalty units = **$10M** (WHS Act (Qld) offences use a fixed $100 unit under Penalties and Sentences Act 1992 (Qld) s 5(1)(d), not the general indexed unit — see `assets/penalty_units.json` `QLD_WHS`) | 20 years |
 | VIC | Workplace manslaughter — OHS Act 2004 s 39G (Part 5A) — in force 1 July 2020 | 100,000 penalty units (~$20.9M at the FY2026–27 unit of $209.10; indexed — see `assets/penalty_units.json`) | 25 years |
 | ACT | WHS Act 2011 (ACT) — offence held by the Crimes Act 1900 (ACT) from 2004, relocated into the WHS Act by 2021 amendment | $16.5M (indexed) | 20 years |
 | NT | s 34B WHS (NUL) Act — in force 1 February 2020 | Penalty-unit based (~$11.4M at the 2024–25 NT unit — NT unit not re-verified; check `assets/penalty_units.json` and the current provision) | Life imprisonment |
@@ -651,10 +681,14 @@ Key features that are broadly consistent across jurisdictions:
 - Can be committed by act **or** failure to act
 - Applies to PCBUs and officers (not workers in their capacity as workers)
 - **Fault elements differ by jurisdiction** — check the precise element before
-  advising: NSW and VIC require **gross negligence**; QLD applies a (criminal)
-  **negligence** standard; WA requires **knowledge** that the conduct is likely
-  to cause death or serious harm and **disregard** of that likelihood; the
-  Commonwealth offence is satisfied by **recklessness or negligence**
+  advising: NSW requires **gross negligence**; VIC requires **negligence**
+  meaning a great falling short of the reasonable standard of care with a high
+  risk of death or serious injury or illness (s 39E); QLD applies a (criminal)
+  **negligence** standard; SA covers **recklessness or gross negligence**; the
+  Commonwealth, ACT, NT and Tasmanian offences are satisfied by **recklessness
+  or negligence**; only WA requires **knowledge** that the conduct is likely
+  to cause death or serious harm and **disregard** of that likelihood. Outside
+  WA, never brief a board that only reckless conduct is caught
 - Causation between the breach and the death must be proven
 - Category 1 may be available as a statutory alternative if industrial manslaughter
   is not made out
@@ -1018,7 +1052,7 @@ with the regulator.
 | Enter without warrant | s 163 | Workplaces, places suspected to be workplaces, vehicles used in connection with work |
 | Inspect, examine, observe | s 165 | Documents, plant, substances, work areas; photograph and record |
 | Require production of documents | s 171 | Records, registers, plans, risk assessments, training records |
-| Require answers to questions | s 171 | Persons present; right to silence applies (see below) |
+| Require answers to questions | s 171 | Persons present; **no right to silence** — the privilege against self-incrimination is abrogated, with direct-use immunity for individuals only (s 172; see below). Exceptions: SA's s 172 and VIC's OHS Act 2004 s 154 keep the privilege for individuals (not for documents in VIC, nor for bodies corporate) |
 | Seize and remove items | s 175 | Evidence of contravention; receipt must be issued |
 | Issue improvement / prohibition / non-disturbance notices | s 191, s 195, s 198 | On-the-spot enforcement |
 | Reasonable assistance | s 188 | PCBU must provide; refusal is an offence |
@@ -1049,8 +1083,11 @@ Two distinct compulsory powers are routinely conflated:
   channel.
 - **s 171 — inspector's powers on entry.** An inspector who has entered a
   workplace may require the production of documents and answers to questions
-  (exercisable during the entry and for a period — 30 days — afterwards). This is
-  the power being exercised during and immediately after a site visit.
+  during the entry. The 2022 model amendments added s 171(2A): within 30 days
+  after entry, written notice to produce documents, give written answers or
+  attend an interview, without re-entering (adopted in, e.g., the Cth and QLD
+  Acts; check the local Act). This is the power being exercised during and
+  immediately after a site visit.
 
 **Self-incrimination — s 172.** The privilege against self-incrimination is
 abrogated for these powers. The statutory trade-off for **individuals** is
@@ -1338,7 +1375,8 @@ provide context.
   an AU/NZ PCBU still owe the duty
 - Reporting frameworks (TRIFR, LTIFR) are similar across English-speaking
   jurisdictions but recordability criteria differ (US OSHA recordkeeping has
-  specific rules; AU follows AS 1885.1)
+  specific rules; AU convention follows AS 1885.1-1990, superseded 22 May
+  2025 by AS/NZS ISO 45004:2024, which sets no recording rules)
 - Multinational rollouts of WHS standards must reconcile AU/NZ SFAIRP with US
   prescriptive standards — the more rigorous prevails as the working standard
 - Industrial manslaughter exposure for AU/NZ operations should be specifically
@@ -1359,8 +1397,16 @@ not guarantee no health effect, particularly for substances with no threshold
 > **WES → WEL transition**: from **1 December 2026** the WES framework is
 > replaced by **Workplace Exposure Limits (WEL)** under Safe Work Australia's
 > revised framework, and many limit values change on transition (e.g. carbon
-> monoxide TWA drops from 30 ppm to 20 ppm; several others including nitrogen
-> dioxide also change). The values in the table below are the **current WES**.
+> monoxide TWA drops from 30 ppm to 20 ppm, and manganese falls to 0.1 mg/m³
+> inhalable and 0.02 mg/m³ respirable). Limits for nine deferred chemicals —
+> benzene, chlorine, copper, formaldehyde, hydrogen cyanide, hydrogen
+> sulphide, **nitrogen dioxide**, RCS and titanium dioxide — do **not** change
+> on 1 December 2026: WHS ministers reached no majority on new values (SWA,
+> 24 June 2026). In Victoria, WorkSafe proposed (August 2026) deferring the WEL
+> for 15 substances, including diesel particulate, manganese fume and nitric
+> oxide, to 1 December 2029 — check whether the deferral was made before
+> relying on either date there. The values in the table below are the
+> **current WES**.
 > Until 30 November 2026 the WES list remains the enforceable benchmark; from
 > 1 December 2026 verify the WEL value against the SWA WEL list for **every**
 > substance — do not assume the WES figure carries over. For any control set
@@ -1385,27 +1431,27 @@ not guarantee no health effect, particularly for substances with no threshold
 | Substance | TWA (8-hr) | STEL (15-min) | Peak | Notes |
 |---|---|---|---|---|
 | Carbon monoxide (CO) | 30 ppm | — | 200 ppm | Combustion; vehicle exhaust. **Incoming WEL: TWA reduced to 20 ppm from 1 Dec 2026** — design controls against 20 ppm now |
-| Nitrogen dioxide (NO2) | 3 ppm | 5 ppm | — | Combustion; welding |
+| Nitrogen dioxide (NO2) | 3 ppm | 5 ppm | — | Combustion; welding. **Unchanged on 1 Dec 2026** (one of nine deferred chemicals; the proposed lower limit was not agreed) |
 | Ozone (O3) | — | — | 0.1 ppm | Peak limitation; photocopier; welding; arc work |
 | Sulphur dioxide (SO2) | 2 ppm | 5 ppm | — | Combustion; volcanic activity |
-| Hydrogen sulphide (H2S) | 10 ppm | 15 ppm | — | Sewers; gas wells; decomposition |
+| Hydrogen sulphide (H2S) | 10 ppm | 15 ppm | — | Sewers; gas wells; decomposition. Unchanged on 1 Dec 2026 (deferred) |
 | Ammonia (NH3) | 25 ppm | 35 ppm | — | Refrigeration; agriculture; cleaning |
-| Formaldehyde (HCHO) | 1 ppm | 2 ppm | — | Carcinogen (IARC Group 1) — keep exposure ALARP |
+| Formaldehyde (HCHO) | 1 ppm | 2 ppm | — | Carcinogen (IARC Group 1) — minimise exposure SFAIRP. Unchanged on 1 Dec 2026 (deferred) |
 | Isocyanates (TDI, MDI as -NCO) | 0.02 mg/m³ | 0.07 mg/m³ | — | 2-pack paints, polyurethane foam; respiratory sensitiser |
-| Welding fume (not otherwise classified) | 1 mg/m³ | — | — | TWA reduced from 5 mg/m³ in January 2024; IARC Group 1 carcinogen (constituent-specific WES — e.g. manganese, chromium VI — apply in addition) |
+| Welding fume (not otherwise classified) | 1 mg/m³ | — | — | TWA reduced from 5 mg/m³ in January 2024; IARC Group 1 carcinogen (constituent-specific WES — e.g. manganese, chromium VI — apply in addition; from 1 Dec 2026 manganese falls to 0.1 mg/m³ inhalable / 0.02 mg/m³ respirable and chromium VI has no limit as a non-threshold carcinogen — `hazards-specialist.md` §4) |
 | Lead (inorganic, as Pb) | 0.05 mg/m³ | — | — | Health monitoring mandatory for lead risk work under Regs 405–407 |
 | Mercury (inorganic) | 0.025 mg/m³ | — | — | Skin notation — dermal absorption |
-| Respirable crystalline silica (RCS) | 0.05 mg/m³ | — | — | Reduced from 0.1 in 2020; no safe threshold — minimise SFAIRP (cross-ref `hazards.md` §2) |
+| Respirable crystalline silica (RCS) | 0.05 mg/m³ | — | — | Reduced from 0.1 in 2020; no safe threshold — minimise SFAIRP (cross-ref `hazards.md` §2). Unchanged on 1 Dec 2026 (deferred) |
 | Respirable coal dust | 1.5 mg/m³ | — | — | NSW and QLD coal mines both apply 1.5 |
 | Total inhalable dust (nuisance, where no specific WES) | 10 mg/m³ | — | — | Default for unclassified dust |
 | Respirable dust (nuisance, where no specific WES) | 3 mg/m³ | — | — | Default for respirable fraction |
 | Asbestos (all forms, fibres/mL) | 0.1 fibres/mL | — | — | Membrane filter method; banned substance — manage existing only |
-| Benzene | 1 ppm | — | — | Cat 1A carcinogen — ALARP |
+| Benzene | 1 ppm | — | — | Cat 1A carcinogen — minimise exposure SFAIRP |
 | Toluene | 50 ppm | 150 ppm | — | Solvent |
 | Xylene (isomers) | 80 ppm | 150 ppm | — | Solvent; skin notation |
 | Acetone | 500 ppm | 1000 ppm | — | Solvent |
 | Methyl ethyl ketone (MEK) | 150 ppm | 300 ppm | — | Solvent |
-| Diesel particulate matter (as elemental carbon) | No national WES (a WEL of 0.01 mg/m³ EC applies from 1 December 2026) | — | — | AIOH guideline 0.1 mg/m³ EC, action level 0.05 (underground mining focus); IARC Group 1 carcinogen |
+| Diesel particulate matter (as elemental carbon) | No national WES (a WEL of 0.01 mg/m³ EC applies from 1 December 2026; VIC deferral to 2029 proposed August 2026) | — | — | AIOH guideline 0.1 mg/m³ EC, action level 0.05 (underground mining focus); IARC Group 1 carcinogen |
 
 ### Adjustments for non-standard work patterns
 The standard WES assumes 8-hour day, 5-day week. For extended shifts (10-, 12-,
@@ -1419,7 +1465,7 @@ in mining, healthcare, and emergency services where 12-hour shifts are routine.
 - **Sen** — respiratory or skin sensitiser; exposure may cause sensitisation
   even at low levels
 - **Cat 1A / 1B** — GHS carcinogenicity classifications (IARC uses a separate
-  scheme — Group 1 / 2A / 2B); keep exposure ALARP
+  scheme — Group 1 / 2A / 2B); minimise exposure SFAIRP
 
 ### Practical implications
 - WES is a ceiling, not a target — design controls to achieve well below WES
@@ -1683,9 +1729,9 @@ considerations:
 - **Mining regulation**: WHS (Mines) Regulations 2022 sit under the WHS Act
   2020; previously the Mine Safety and Inspection Act 1994 regime —
   significant structural change for mining-services contractors
-- **DEMIRS** (Department of Energy, Mines, Industry Regulation and Safety —
-  renamed from DMIRS in 2023) houses WorkSafe WA; covers WHS, mining, and
-  petroleum/geothermal
+- **LGIRS** (Department of Local Government, Industry Regulation and Safety)
+  houses WorkSafe WA from 1 July 2025, covering WHS including mine safety;
+  DEMIRS was dissolved on 30 June 2025 (`sector-regimes.md` §2.3)
 - **Industrial Manslaughter** (s 30A WHS Act 2020): a **single offence** —
   fault element is engaging in conduct **knowing** it is likely to cause death
   or serious harm and in **disregard** of that likelihood; maxima 20 years
@@ -1697,8 +1743,10 @@ considerations:
 Aligned with model law. Notable variations:
 - **Industrial Manslaughter** (s 34C, in force 2017) — first under a WHS Act
   (the ACT's 2004 Crimes Act offence was first overall); 100,000 penalty units
-  body corporate (~$17.3M at the $172.70 penalty unit from 1 July 2026;
-  indexed — see `assets/penalty_units.json`) / 20 years individual
+  body corporate = **$10M** (WHS Act (Qld) offences use a fixed $100 unit,
+  Penalties and Sentences Act 1992 (Qld) s 5(1)(d), not the general indexed
+  unit — see `assets/penalty_units.json` `QLD_WHS`) / 20 years individual.
+  CMSHA / MQSHA offences use the general indexed unit
 - **Coal mining and quarrying** under separate regimes (Coal Mining Safety
   and Health Act 1999; Mining and Quarrying Safety and Health Act 1999) —
   cross-ref `sector-regimes.md` §2

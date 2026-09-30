@@ -107,21 +107,49 @@ the target — controls should minimise exposure so far as is reasonably practic
 From 1 September 2024, model WHS Regulations introduced stronger requirements for
 **all crystalline silica work**, not only engineered stone:
 
-- **Crystalline silica process (CSP)**: any process that may generate RCS dust at
-  a workplace involving material containing ≥1% crystalline silica
-- **High-Risk Crystalline Silica Work (HRCSW)**: crystalline silica process that
-  may generate RCS at concentrations that exceed the WES, or where uncontrolled
-  exposure could occur
+- **Crystalline silica substance (CSS)**: material containing at least 1%
+  crystalline silica, w/w (model Reg 529A). **Processing** means using power
+  tools or mechanical plant to crush, cut, grind, trim, sand, polish or drill
+  it; roadheader excavation, quarrying, mechanical screening or tunnelling
+  in a CSS; and any process reasonably likely to expose a person to RCS
+  during the manufacture or handling of a CSS, such as sweeping settled dust
+- **Controlled processing** (model Regs 529B–529C): all CSS processing needs
+  at least one of isolation, a fully enclosed cabin with high-efficiency air
+  filtration, wet dust suppression, on-tool extraction or LEV, plus RPE worn
+  by anyone still at risk of exposure
+- **High-Risk Crystalline Silica Work (HRCSW)**: processing assessed before it
+  starts as reasonably likely to result in a risk to health (model Reg 529CA).
+  RPE and administrative controls are ignored in that assessment, and the
+  Reg 529B(1)(b) engineering measures cannot be relied on to find the work
+  not high risk (Reg 529CA(3)); if unsure, treat the processing as high risk
 
 For HRCSW, the PCBU must:
-- Prepare a written **Silica Risk Control Plan** before work commences
-- Provide health monitoring to workers who carry out the work
-- Provide crystalline silica training — a course that is nationally accredited or
-  approved by the WHS regulator (model Reg 529CD); keep training records for 5 years
-- Conduct air monitoring to confirm controls are effective
+- Prepare a written **Silica Risk Control Plan** before work commences (model
+  Reg 529CB); where the processing is also high risk construction work, a
+  SWMS that meets Reg 529CB(2) can serve as the plan (Reg 529CB(3))
+- Provide health monitoring for the workers doing the HRCSW in accordance
+  with Division 6 of Part 7.1 (model Reg 529CE(c)); SWA reads Reg 368's
+  significant-risk test into that, so HRCSW status alone is not the trigger
+  and the PCBU must determine whether each HRCSW worker is at significant
+  risk (Reg 368, Sch 14)
+- Provide crystalline silica training — a course that is nationally
+  accredited or approved by the WHS regulator (model Reg 529CD); keep the
+  training record while the worker does the work and for 5 years after they
+  leave the PCBU
+- Undertake air monitoring for RCS in accordance with model Reg 50 (model
+  Reg 529CE(a)). Reg 50 requires it where the PCBU is not certain on
+  reasonable grounds whether exposure exceeds the WES, or where monitoring is
+  needed to determine whether there is a risk to health; SWA reads that
+  trigger into Reg 529CE, while WorkSafe WA presents air monitoring as
+  required for all high-risk processing (as at October 2026). Results above
+  the WES go to the regulator as soon as reasonably practicable and within
+  14 days of receiving them (Reg 529CE(b))
 - Review (and as necessary revise) the plan whenever the silica processes or the
   relevant control measures change — the model regulations tie review to
   control-measure revision, not a fixed periodic cycle
+- **NSW**: register each worker on the SafeWork NSW **Silica Worker Register**
+  within 28 days of starting high-risk processing, for work on or after
+  1 October 2025 (WHS Regulation 2025 (NSW), as at October 2026)
 
 ### Materials containing crystalline silica
 Common materials in FM and refurbishment contracts:
@@ -144,10 +172,17 @@ Isolation controls (separating people from the hazard) sit in the same minimisat
 tier as substitution and engineering controls under model WHS Reg 36(3).
 
 ### Health monitoring
-Required where workers are carrying out HRCSW, or where exposure may exceed the WES.
-Includes baseline and ongoing chest imaging (typically low-dose HRCT or ILO-classified
-chest X-ray), respiratory function testing, occupational history. Frequency depends
-on exposure profile. Results must be provided to the worker.
+Required where there is a significant risk to a worker's health from exposure to
+crystalline silica (model Reg 368, Sch 14). Model Reg 529CE(c) separately
+requires health monitoring for workers carrying out HRCSW in accordance with
+Division 6 of Part 7.1, which SWA and SafeWork NSW read as importing the same
+significant-risk test for ongoing high-risk processing; exposure above the
+WES is evidence of the risk, not the legal trigger. Includes baseline and
+ongoing chest imaging (typically low-dose HRCT or ILO-classified chest
+X-ray), respiratory function testing, occupational history. Frequency depends
+on exposure profile. Results must be provided to the worker. Keep health
+monitoring reports for at least 30 years (model Reg 378) and air-monitoring
+results for 30 years (model Reg 50).
 
 ### Silicosis presumptive provisions
 Several workers compensation schemes (QLD, NSW, VIC) have presumptive silicosis
@@ -180,7 +215,8 @@ buildings constructed before 2004.
 - **Licensed removal** required for friable asbestos (Class A licence) and for
   >10 m² of non-friable asbestos (Class B licence)
 - Workers in asbestos-related work require **health monitoring** (regs 435–444
-  model Regs)
+  model Regs); reports are kept for 40 years (reg 444), against 30 years for
+  hazardous-chemical and air-monitoring records (regs 378 and 50)
 - **Notifiable work**: all licensed asbestos removal work — Class A and Class B —
   must be notified to the regulator at least 5 days before commencing (reg 466)
 - **Clearance inspections**: Class A (friable) removal requires clearance inspection
@@ -323,8 +359,17 @@ recent use. Manage policy expectations accordingly.
 ## 6. Working in Heat
 
 ### Regulatory basis
-No prescribed heat exposure limit in the WHS Regulations — managed under the
-general SFAIRP duty. Guidance is provided in:
+No prescribed heat exposure limit or stop-work temperature in the model WHS
+Regulations — managed under the general SFAIRP duty and model Reg 40(f)
+(workers in extremes of heat or cold must be able to work without risk, SFAIRP).
+Guidance is provided in:
+- ACT approved **Managing the Risks Associated with Extreme Temperatures Code
+  of Practice** (NI2025-607, in force from 14 November 2025). For building and
+  construction, the agreed stop-work threshold should consider forecasts above
+  37 °C; at 35–37 °C, where heat stress is still likely despite controls,
+  workers move to an area not affected by heat or to an air-conditioned site
+  shed. The code classes rescheduling work to a cooler time or place as
+  elimination (as at October 2026)
 - Safe Work Australia **Guide on Managing the Risks of Working in Heat** (current
   SWA guide — check the SWA site for the latest edition)
 - WorkSafe state guidance materials (NSW, QLD, NT all maintain practical guides)
@@ -1074,8 +1119,8 @@ machinery and mobile plant.
 ### Guard types
 | Guard type | Use case |
 |---|---|
-| Fixed | Permanent, requires tool to remove; for hazards always present |
-| Interlocked | Stops machine when guard opens; for tasks requiring access (set-up, cleaning) |
+| Fixed | Permanently fixed barrier where access is not needed during operation, maintenance or cleaning (model Reg 208(2)(a)); a barrier removable only with tools where that is not reasonably practicable (Reg 208(2)(c)) |
+| Interlocked | Where access is needed during operation, maintenance or cleaning: allows access only while the area presents no risk and prevents it at any other time (Reg 208(2)(b)); use guard locking where parts run down after stop |
 | Adjustable | Repositionable by operator within fixed limits; for varying workpiece sizes |
 | Self-adjusting | Moves with the workpiece (e.g., circular saw guard) |
 | Perimeter (cell) | Fence around a hazard zone; access via interlocked gate |
@@ -1672,7 +1717,7 @@ Required for hot work outside dedicated welding bays in:
 | Hazard | Control |
 |---|---|
 | **UV radiation** | Helmet with filter shade appropriate to the welding current (AS/NZS 1338.1); barriers to protect adjacent workers ("arc eye") |
-| **Welding fume** | Local exhaust ventilation (LEV); welding fume is an IARC Group 1 carcinogen — the WES for **welding fume (not otherwise classified)** was reduced from 5 to 1 mg/m³ in January 2024; individual constituents (e.g. manganese, hexavalent chromium) carry their own, lower exposure standards; respiratory protection where LEV inadequate |
+| **Welding fume** | Local exhaust ventilation (LEV); welding fume is an IARC Group 1 carcinogen — the WES for **welding fume (not otherwise classified)** was reduced from 5 to 1 mg/m³ in January 2024; each constituent must also meet its own limit (to 30 November 2026: hexavalent chromium 0.05 mg/m³, manganese 1 mg/m³, the same as fume); respiratory protection where LEV inadequate |
 | **Spatter and slag** | Fire-resistant clothing; gauntlets; eye protection; spatter screens around the work; clear debris from below |
 | **Confined space welding** | LEV + atmospheric monitoring (LEL, O2, fume); standby; rescue plan; cross-ref §11 |
 | **Electric shock (electric arc welding)** | Isolation; RCD where required; voltage reduction devices on stick welders; cross-ref §10 |
@@ -1680,8 +1725,13 @@ Required for hot work outside dedicated welding bays in:
 | **Hot work on closed vessels** | Pre-purge with inert gas; never weld on full or recently-emptied flammable container; specialist methodology |
 
 > **WES → WEL transition**: from **1 December 2026** the WES framework is replaced by
-> **Workplace Exposure Limits (WEL)** — confirm welding fume and constituent limits
-> against the SWA WEL list for work performed from that date.
+> **Workplace Exposure Limits (WEL)**. Welding fume stays at 1 mg/m³, but
+> manganese falls to 0.1 mg/m³ inhalable and 0.02 mg/m³ respirable: fume over
+> about 2% manganese can pass on fume and fail on Mn, so sample both
+> fractions and analyse for Mn. Hexavalent chromium loses its limit: it is
+> listed as a non-threshold genotoxic carcinogen (WEL list Appendix B), so
+> exposure must be minimised so far as is reasonably practicable rather than
+> held under 0.05 mg/m³. Constituent table: `hazards-specialist.md` §4.
 
 ### Fire watch duties
 

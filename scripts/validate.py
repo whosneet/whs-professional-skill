@@ -19,6 +19,8 @@ Checks (errors fail the build; warnings are surfaced but do not fail):
   7. Hygiene       — no leftover [verify]/TODO/FIXME or merge-conflict markers
   8. AU English    — common Americanisms (warning only), with an allowlist for
                      official titles, journal/book names, and verbatim quotes
+  9. INDEX ranges  — references/INDEX.md line ranges and section map are
+                     current (scripts/build_index.py --check)
 
 Usage: python3 scripts/validate.py
 Exit code 0 = pass, 1 = one or more errors.
@@ -173,6 +175,23 @@ must_not = [
     (r"revised away from immediate horizontal recovery", "inverted suspension-trauma positioning advice"),
     (r"client must appoint the PC", "Reg 293: commissioning PCBU is the PC by default"),
     (r"WA retains journey claims", "WA excludes ordinary commute journey claims"),
+    # v1.9.0 currency audit (1 Oct 2026) — corrected errors that must never reappear
+    (r"right to silence applies", "model WHS Act s 172 abrogates the privilege (direct-use immunity only)"),
+    (r"(?:s 34C|QLD|Qld)[^\n]{0,120}(?:17\.3M|\$172\.70)", "WHS Act (Qld) offences use a fixed $100 penalty unit (PSA 1992 s 5(1)(d)); s 34C maximum is $10M"),
+    (r"including nitrogen\s+dioxide also change", "NO2 is unchanged on 1 Dec 2026 (one of the nine deferred chemicals)"),
+    (r"[Cc]ollapse, overturning, failure of any plant", "s 37(g) covers only plant that must be authorised"),
+    (r"now-withdrawn\) AS 1885|AS 1885\.1[^\n]{0,20}(?:is now withdrawn|\(withdrawn\))", "AS 1885.1-1990 is superseded by AS/NZS ISO 45004:2024, not withdrawn"),
+    (r"NSW and VIC require \*{0,2}gross negligence", "VIC s 39E is negligence (great falling short), not gross negligence"),
+    (r"keep exposure ALARP|carcinogen — ALARP", "AU WHS duty is SFAIRP, not ALARP"),
+    (r"statutory test offshore is ALARP", "OPGGS Sch 3 cl 9 is 'all reasonably practicable steps'; ALARP is the safety-case acceptance test"),
+    (r"WorkSafe WA, within the Department of Energy", "DEMIRS dissolved 30 Jun 2025; WorkSafe WA sits in LGIRS"),
+    (r"may generate RCS at concentrations that exceed", "wrong HRCSW definition; reg 529CA is 'reasonably likely to result in a risk to health'"),
+    (r"Crystalline silica process \(CSP\)", "not a model-law term; the terms are CSS and processing (reg 529A)"),
+    (r"constituents[^\n]{0,40}manganese[^\n]{0,40}lower exposure standards", "manganese WES equals the fume limit until 30 Nov 2026"),
+    (r"completed on time \| Investigation rigour", "on-time completion measures throughput, not rigour"),
+    (r"Stops machine when guard opens", "misstates the reg 208(2)(b) interlock wording"),
+    (r"Substitution \| Reschedul", "rescheduling is never substitution (ACT heat code: elimination; UV: administrative)"),
+    (r"travel restraint[^\n]{0,80}(ranks third|79\(3\)\(c\))", "travel restraint is work positioning, reg 79(3)(b)"),
 ]
 for p in skill_md_files:
     t = read(p)
@@ -221,6 +240,21 @@ for p in skill_md_files:
             continue
         ln = t[: mm.start()].count("\n") + 1
         warnings.append(f"{rel(p)}:{ln}: possible US/non-AU spelling {mm.group(0)!r}")
+
+# --- 9. INDEX.md line ranges are current ---------------------------------
+# build_index.py stamps each INDEX.md row with the section's line range and
+# regenerates the section map at its foot; both go stale whenever a
+# reference file changes length, so check they were rebuilt.
+try:
+    import subprocess
+    chk = subprocess.run(
+        [sys.executable, os.path.join(ROOT, "scripts", "build_index.py"), "--check"],
+        capture_output=True, text=True,
+    )
+    if chk.returncode != 0:
+        errors.append("references/INDEX.md: " + (chk.stdout.strip() or "line ranges stale"))
+except OSError as e:  # pragma: no cover
+    warnings.append(f"could not run scripts/build_index.py --check: {e}")
 
 # --- report ---------------------------------------------------------------
 for w in warnings:

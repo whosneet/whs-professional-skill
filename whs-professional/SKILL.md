@@ -1,16 +1,18 @@
 ---
 name: whs-professional
-version: 1.8.0
+version: 1.9.0
 description: >
-  Expert WHS/OHS professional for Australia and New Zealand. Use when a task
-  involves WHS/OHS incident investigation (ICAM, 5-Why); legislative or
-  regulatory advice; hazard and risk management (silica, asbestos, heat,
-  psychosocial, Respect@Work positive duty); safety documents (alerts, toolbox
-  talks, advice notes, board papers); an inspector or regulator on site;
-  industrial manslaughter or officer due diligence; workers compensation and
-  return to work; or WHS analytics, governance, and program design. Covers the
-  WHS Act 2011, HSWA 2015 (NZ), state regulations, ISO 45001, and HVNL Chain
-  of Responsibility. Hybrid asks like 'write a toolbox talk', 'investigate a
+  Expert WHS/OHS professional for Australia and New Zealand. Use for incident
+  investigation (ICAM, 5-Why, Tripod, HFACS) and workplace fatalities;
+  legislative or regulatory advice; hazard and risk management (silica,
+  asbestos, heat, psychosocial, lead, welding fume, lithium-ion batteries,
+  diving, zoonoses); safety documents (alerts, toolbox talks, advice notes,
+  board papers); an inspector or regulator on site; industrial manslaughter
+  or officer due diligence; workers compensation and return to work; WHS
+  analytics (TRIFR, confidence intervals, funnel plots), governance, program
+  design; AU/NZ case studies for board papers and training. Covers the WHS
+  Act 2011, HSWA 2015 (NZ), state regulations, ISO 45001, HVNL Chain of
+  Responsibility. Hybrid asks like 'write a toolbox talk', 'investigate a
   near miss', 'inspector is on site', 'draft a board paper on industrial
   manslaughter', 'adapt this skill to my company'. Load before any WHS task
   needing current AU/NZ regulatory state or organisation-specific context.
@@ -72,10 +74,12 @@ spans multiple rows, load all relevant files. When unsure which file covers a
 topic, check `references/INDEX.md` first — it is a compact keyword index.
 
 **Load sections, not whole files.** The larger reference files run 60–110 KB;
-each carries a numbered ToC. Grep `INDEX.md` (or the file's ToC) for the §
-you need and read that section — via offset/limit reads in Claude Code, or
-grep/sed in the code-execution sandbox on claude.ai, Claude Desktop, and
-Cowork — rather than pulling a whole file into context.
+each carries a numbered ToC. Grep `INDEX.md` for the topic or file: every row
+ends with the section's line range (`L909-992`), and the section map at its
+foot lists every section of every file with its range. Read just that range
+— `offset`/`limit` in Claude Code, `sed -n '909,992p'` in the code-execution
+sandbox on claude.ai, Claude Desktop, and Cowork — rather than pulling a
+whole file into context.
 
 | File | Load when the task involves | Key sections |
 |---|---|---|
@@ -83,16 +87,20 @@ Cowork — rather than pulling a whole file into context.
 | `adaptation-interview.md` | **Adapting/configuring the skill to an organisation or client**: "adapt this skill to my company", populate or update `company.md`, first-time setup, creating a client profile (multi-tenant) — run the guided ten-step interview | all |
 | `legislation.md` | Legislative or regulatory advice; duties; notices; **industrial manslaughter / officer due diligence** (§6, incl. operational toolkit); **inspector on site** (§10); **NZ / HSWA / WorkSafe NZ / ACC** (§3); **psychosocial regs & Respect@Work positive duty** (§9); training requirements by jurisdiction (§11); volunteers (§12); international comparison — ILO/OSHA/HSE/EU (§13); **WES→WEL table, transition 1 Dec 2026** (§14); Codes of Practice summaries (§15); **state-by-state detail incl. VIC OHS Act 2004** (§16) | §3, §6, §9–§16 |
 | `investigation.md` | Incident investigation: ICAM, 5-Why, contributing-factors taxonomy, cognitive biases (severity-based investigation triggers live in `company.md` §5); **PEEPO question bank** (§8); **PEACE / cognitive interviewing, statement admissibility** (§9–§10); ICAM variants, AcciMap, bowtie worked example, legal privilege (§11–§14) | §1–§14 |
+| `investigation-advanced.md` | Advanced investigation: method selection table (§1); **ICAM organisational factor type (OFT) codes and trending** (§2); **workplace fatality — first 24 hours, police, coroner, compelled interviews, family liaison** (§3); STEP (§4), Tripod Beta (§5), HFACS (§6); investigation QA — rubric, peer review, sign-off, action verification, investigator competency (§7); restorative practice and apologies after harm (§8). Load alongside `investigation.md` for any serious event | §1–§8 |
 | `frameworks.md` | Risk assessment, SFAIRP, hierarchy of controls; ISO 45001 / management systems / gap analysis (clause map §3); **Safety II / HOP / Forge Works** (§4–§6, §11); **named safety-science thinkers & citations** (§12); WHS in M&A and due diligence incl. sector overlays (§13); psychosocial control frameworks (§14); **governance & assurance, audit programs, board reporting** (§8, §15) | §3–§6, §11–§15 |
 | `hazards.md` | Engineered stone & RCS (§1–§2); asbestos (§3); **construction — PC, WHSMP, HRCW, SWMS** (§4, §8); D&A (§5); heat/WBGT (§6); MHF (§7); height, electrical/LOTO, confined space, mobile plant, hazardous chemicals, noise, vibration, plant, manual tasks, fatigue (§9–§18); **high-risk activity playbooks — crane lifts, demolition, excavation, hot work** (§19–§22) | §1–§22 |
+| `hazards-specialist.md` | Specialist hazards with their own regime: **lead and lead risk work, blood lead levels** (§2); diesel particulate matter (§3); **welding fume, Cr(VI), manganese, 1 Dec 2026 WEL changes** (§4); lithium-ion batteries, thermal runaway, charging, Class 9 transport (§5); solar and artificial UV (§6); abrasive blasting (§7); formwork and falsework (§8); **occupational diving** (§9); Q fever and zoonoses, vaccination programs (§10) | §1–§10 |
 | `output-templates.md` | Producing a deliverable: safety alert, toolbox talk, advisory note, policy/procedure, contractor WHS docs; strategic/governance suite — risk register, bowtie, WHS strategy, RACI, annual plan, officer briefing, site walk, annual report, AHRC evidence map, PTW, claim review, hazard report, regulator notification script (§11–§23) | §1–§23 |
-| `analytics.md` | WHS metrics, KPIs, TRIFR/LTIFR calculation, dashboards, Power BI patterns, HiPo intelligence pack structure | all |
+| `analytics.md` | WHS metrics, KPIs, TRIFR/LTIFR calculation, dashboards, Power BI patterns, HiPo intelligence pack structure (§1–§8); **confidence intervals, funnel plots, SPC — is a rate movement signal or noise** (§9); exposure-based normalisation and denominators (§10); predictive analytics ethics, privacy and surveillance law, monitoring governance (§11) | §1–§11 |
 | `programs.md` | Zero Harm program design, campaigns, gamification, facilitator frameworks, sustained-campaign architecture, engagement measurement | all |
 | `environment.md` | EHS/environmental: EPA notification, ISO 14001, dangerous goods, spills, contamination, waste, emissions, biodiversity, heritage, climate-WHS | all |
 | `compensation-rtw.md` | Workers compensation (AU schemes + NZ ACC), claim lifecycle, premiums, IMEs, suitable employment, RTW coordinator, psychological injury claims, presumptive provisions | all |
 | `inspections-audits-permits.md` | Workplace inspections; WHS audits (ISO 19011/45001); permit-to-work; pre-task tools (Take 5, SLAM, STAR, JSEA) | all |
 | `case-studies.md` | Landmark cases for board papers, training, alerts: Longford, Texas City, Macondo, Pike River, Dreamworld, Whakaari, Grenfell, Costa Concordia, Ranger Uranium, Bhopal, Beirut Port; citation and use guidance §13 | §1–§13 |
+| `case-studies-anz.md` | AU/NZ landmark cases: Wittenoom (§2), Montara (§3), Hazelwood (§4), Beaconsfield (§5), Cave Creek (§6), Waterfall (§7), **the first industrial manslaughter prosecutions, status dated** (§8) | §1–§8 |
 | `case-studies-everyday.md` | Everyday incidents for training and ICAM calibration: forklift, manual handling, psychosocial, electrical, slip/trip, chemical, fatigue | all |
+| `case-studies-critical-risk.md` | Everyday critical-risk worked examples (Cases 8–12): fall through fragile roof, confined space and would-be rescuer, isolation/LOTO failure, yard truck/pedestrian, exertional heat illness — same ICAM layout as `case-studies-everyday.md` | all |
 | `sector-regimes.md` | Sector regimes alongside/outside the WHS Act: regime selection §1; mining, maritime, aviation, rail, healthcare biosafety, defence (§2–§7); petrochemical, telecoms, agriculture, hospitality, education, retail (§8–§13); **road transport / HVNL Chain of Responsibility, NHVR, fatigue hours, load restraint** (§14); cross-sector themes §15 | §1–§15 |
 | `workplace-controls.md` | First aid, emergency preparedness/evacuation, lone/remote working, WFH & hybrid, Right to Disconnect, FDV | all |
 | `capability-culture.md` | Behavioural-based safety (with critiques), maturity frameworks (Westrum/Hudson, Bradley, IOGP), culture vs climate measurement | all |
@@ -327,6 +335,10 @@ year); and tell a story — data without so-what analysis adds noise.
 > `scripts/frequency_rates.py` for TRIFR / LTIFR / MTIFR / RWIFR / AIFR /
 > severity rate and rolling 12-month series anchored to the last closed period — deterministic
 > arithmetic, consistent rounding, no transposition errors in board packs.
+> Before calling a rate movement or a site comparison a "trend" or "worst
+> performer", run `scripts/rate_confidence.py` (exact confidence interval,
+> two-rate comparison, funnel limits) — at typical counts most movement is
+> noise (`references/analytics.md` §9).
 > Load `references/analytics.md` for KPI definitions, the HiPo intelligence
 > pack structure, dashboard design, and Power BI patterns; load
 > `references/company.md` for system names.
@@ -371,6 +383,7 @@ register, not a post-project exercise.
 | Resource | Use for |
 |---|---|
 | `scripts/frequency_rates.py` | TRIFR/LTIFR/MTIFR/RWIFR/AIFR/severity rate calculation; rolling 12-month series anchored to last closed period. Run it — do not calculate rates in-context. |
+| `scripts/rate_confidence.py` | Exact Poisson confidence interval for a rate (`ci`), two-rate comparison with exact test (`compare`), funnel-plot limits for units (`funnel`). Run it before reporting a rate change or ranking sites; `--self-test` checks it against published values. |
 | `assets/penalty_units.json` | Penalty unit values by jurisdiction with effective dates and sources. Look up, multiply, cite the effective date. Re-verify entries whose `verified_as_at` is >6 months old or whose `value` is null. |
 
 > **If code execution is unavailable** (e.g. claude.ai with the analysis tool
@@ -396,6 +409,6 @@ Before finalising any output, confirm:
 - [ ] Plain English for frontline content; technical precision for regulatory/governance
 - [ ] Australian English spelling checked
 - [ ] No safety clichés or filler phrases
-- [ ] For analytics tasks: rates computed via `scripts/frequency_rates.py`; trend data included, not just point-in-time
+- [ ] For analytics tasks: rates computed via `scripts/frequency_rates.py`; uncertainty and comparisons via `scripts/rate_confidence.py`; trend data included, not just point-in-time
 - [ ] For program design: theory of change articulated, not just activity list
 - [ ] For governance tasks: accountability and authority clearly defined, not just process

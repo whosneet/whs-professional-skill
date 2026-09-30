@@ -31,7 +31,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **HSR** | Health and Safety Representative — elected worker representative with statutory powers. |
 | **HSC** | Health and Safety Committee — joint worker/management consultative body. |
 | **SFAIRP** | So Far As Is Reasonably Practicable — the operative AU/NZ WHS duty standard. |
-| **ALARP** | As Low As Reasonably Practicable — UK / petroleum sector standard; not the AU/NZ standard. |
+| **ALARP** | As Low As Reasonably Practicable — UK / petroleum sector standard; not the general AU/NZ WHS test (SFAIRP). In AU it is the acceptance test for offshore petroleum safety cases, while the offshore operator's duty itself is "all reasonably practicable steps" (OPGGS Act Sch 3 cl 9; `sector-regimes.md` §3). |
 | **Duty of Care** | The legal obligation to take reasonable care to avoid causing harm. |
 | **3Cs** | Consult, Cooperate, Coordinate — the duty among multiple PCBUs sharing a workplace. |
 
@@ -45,6 +45,10 @@ Load this file when the user is new to WHS or asks what a term means.
 | **Category 2 offence** | Failure to comply with a health and safety duty that exposes a person to risk of death or serious injury/illness (s 32) — no fault element required. |
 | **Category 3 offence** | Failure to comply with a health and safety duty, without exposure to risk of death or serious harm (s 33). |
 | **EU** | Enforceable Undertaking — legally binding undertaking under model WHS Act s 216, accepted by the regulator as an alternative to prosecution; not available for Category 1 or industrial manslaughter offences. |
+| **Industrial manslaughter** | Discrete statutory offence where a duty holder's criminally culpable breach of a health and safety duty causes a death (workplace manslaughter in VIC). Provisions in legislation.md §6; prosecutions to date in case-studies-anz.md §8. |
+| **Non-disturbance notice** | Inspector's notice requiring a site to be preserved for up to 7 days per notice, renewable by further notices (model WHS Act ss 198–201). |
+| **Use immunity / derivative use immunity** | Use immunity bars a compelled answer from being used against the individual who gave it (model WHS Act s 172(2)); derivative use immunity also covers evidence obtained from the answer (QLD and ACT only). Neither protects a body corporate. |
+| **OWHSP** | Office of the Work Health and Safety Prosecutor (QLD) — independent statutory office that conducts Queensland WHS prosecutions, including industrial manslaughter. |
 
 ---
 
@@ -92,6 +96,18 @@ Load this file when the user is new to WHS or asks what a term means.
 | **PEEPO** | People, Environment, Equipment, Procedures, Organisation — ICAM information-gathering domains. |
 | **PIIN** | Preliminary Internal Incident Notification — a structured early notification used in many organisations. |
 | **Just Culture** | Framework distinguishing blameless error from at-risk behaviour from reckless conduct (Reason; Marx; Dekker). |
+| **Restorative just culture** | Dekker's approach to accountability after harm: who is hurt, what do they need, and whose obligation is it to meet that need — in contrast to retributive just culture, which classifies the act and applies a proportionate sanction (Reason; Marx). |
+| **Substitution test** | Would a comparable peer in the same situation plausibly have acted the same way? From Reason's culpability decision tree; a "yes" points to the system rather than the individual. |
+| **Second victim** | A worker traumatised by involvement in an event that harmed someone else (Wu, 2000). |
+| **Reportable death** | A death a Coroners Act requires to be reported to police or a coroner — violent, unnatural or accident-related deaths, so almost every workplace fatality (investigation-advanced.md §3). |
+| **OFT** | Organisational Factor Type — two-letter ICAM code (e.g. MC, RM, OL) classifying each organisational factor for trend analysis; lists differ between training providers (investigation-advanced.md §2). |
+| **BRF** | Basic Risk Factor — one of the eleven Tripod latent-failure categories used to code underlying causes; eight correspond to ICAM OFTs. |
+| **Tripod Beta** | Shell-lineage, barrier-based incident analysis method that models an incident as agent–object–event trios and traces each failed, missing or inadequate barrier to its underlying causes. |
+| **STEP** | Sequentially Timed Events Plotting — multilinear sequencing method (Hendrick and Benner, 1987) that plots one-actor-one-action events on an actor-by-time worksheet. |
+| **HFACS** | Human Factors Analysis and Classification System — Shappell and Wiegmann's Reason-based taxonomy that codes established findings into 19 categories across four tiers (unsafe acts, preconditions, unsafe supervision, organisational influences); it gathers no evidence. |
+| **WYLFIWYF** | What-You-Look-For-Is-What-You-Find — the accident model built into an investigation method decides which causes it can find (Lundberg, Rollenhagen and Hollnagel, 2009). |
+| **Inter-rater reliability** | The degree to which different investigators assign the same code to the same finding; measured with Cohen's kappa (two coders) or Fleiss' kappa (three or more), not percent agreement alone. |
+| **RCA2** | Root Cause Analysis and Actions — National Patient Safety Foundation (2015) guidance that grades corrective actions as stronger, intermediate or weaker by their likelihood of sustained system change. |
 
 ---
 
@@ -99,7 +115,7 @@ Load this file when the user is new to WHS or asks what a term means.
 
 | Term | Meaning |
 |---|---|
-| **TRIFR** | Total Recordable Injury Frequency Rate — (Fatalities + LTIs + RWIs + MTIs) ÷ hours worked × 1,000,000. RWI (restricted work injury) is a US OSHA-origin recordability concept adopted here as a documented organisational convention; under the (now-withdrawn) AS 1885.1 the AU convention was TRIFR = Fatality + LTI + MTI. |
+| **TRIFR** | Total Recordable Injury Frequency Rate — (Fatalities + LTIs + RWIs + MTIs) ÷ hours worked × 1,000,000. RWI (restricted work injury) is a US OSHA-origin recordability concept adopted here as a documented organisational convention; under the (now-superseded) AS 1885.1 the AU convention was TRIFR = Fatality + LTI + MTI. |
 | **LTIFR** | Lost Time Injury Frequency Rate — LTIs ÷ hours worked × 1,000,000. |
 | **MTIFR** | Medical Treatment Injury Frequency Rate — MTIs ÷ hours worked × 1,000,000. |
 | **RWIFR** | Restricted Work Injury Frequency Rate — RWIs ÷ hours worked × 1,000,000. |
@@ -110,6 +126,20 @@ Load this file when the user is new to WHS or asks what a term means.
 | **Lagging Indicator** | Outcome metric measuring what has already occurred (TRIFR, LTIFR). |
 | **SIF** | Serious Injury or Fatality — actual serious-outcome event; SIF-focused measurement weights severity potential rather than raw injury counts. |
 | **pSIF** | Potential Serious Injury or Fatality — event or exposure that could credibly have produced a SIF outcome; pSIF rate is a severity-weighted leading-edge metric. |
+| **TRIR** | Total Recordable Incident Rate — US OSHA/BLS convention: recordable cases × 200,000 ÷ hours worked; one-fifth of the per-million-hours TRIFR where the recordable set matches. |
+| **Incidence rate** | In Safe Work Australia and Stats NZ usage, injuries or claims per number of workers (e.g. per 1,000 employees), not per hours worked; in US OSHA/BLS usage, the hours-based rate per 200,000 hours — confirm which a source means. |
+| **CI** | Confidence Interval — the range of underlying rates consistent with an observed count, reported at 95% beside any frequency rate built on a small count; calculate it with `scripts/rate_confidence.py` (analytics.md §9). |
+| **Poisson distribution** | Statistical model for counts of rare, independent events over a known exposure, in which the variance equals the mean — the basis for injury-rate confidence intervals. |
+| **Rate ratio** | One frequency rate divided by another, reported with its confidence interval when comparing two periods or units. |
+| **Funnel plot** | Chart of each unit's rate against its exposure hours, with 95% and 99.8% control limits that narrow as hours grow — used instead of a league table (Spiegelhalter). |
+| **Overdispersion** | More variation between units or periods than the Poisson model predicts; estimated across every unit from winsorised z-scores and handled by wider limits or stratification. |
+| **SPC** | Statistical Process Control — charting a measure over time against limits derived from its own variation, to separate routine (common-cause) variation, which carries no signal, from genuine signals. |
+| **u-chart / XmR chart** | SPC charts. A u-chart plots a rate per unit of exposure where hours vary between periods; an XmR (individuals and moving range) chart sets limits at the mean ± 2.66 × the average moving range. |
+| **Activity-based denominator** | A count of the hazardous activity itself (kilometres driven, lifts, confined space entries) used in place of hours worked to normalise critical-risk events (analytics.md §10). |
+| **Direct / indirect standardisation** | Adjusting rates for work mix. Direct applies a unit's stratum rates to a common reference mix of hours; indirect compares observed events with those expected at group stratum rates, reported as observed ÷ expected. |
+| **Simpson's paradox** | A trend present in every stratum that reverses in the combined total because the mix between strata changed. |
+| **PPV** | Positive Predictive Value — the share of a predictive model's flags that turn out to be true events; driven by the outcome's base rate as much as by the model (analytics.md §11). |
+| **Label bias** | Error introduced when a model's training outcome (reported events) differs systematically from the thing of interest (harm) — the model learns who reports. |
 
 ---
 
@@ -174,7 +204,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **EPBC Act** | Environment Protection and Biodiversity Conservation Act 1999 (Cth) — matters of national environmental significance; controlled actions. |
 | **NGER** | National Greenhouse and Energy Reporting (Act 2007) — Scope 1 and 2 emissions reporting (Scope 3 is not mandated under NGER). |
 | **NPI** | National Pollutant Inventory — annual public-domain reporting of substance emissions. |
-| **NEPM** | National Environment Protection Measure — Council-set environmental standard (e.g., ASC NEPM for contamination). |
+| **NEPM** | National Environment Protection Measure — Council-set environmental standard (e.g., ASC NEPM for contamination; the Ambient Air Quality NEPM for national ambient air standards). |
 | **EPA** | Environment Protection Authority (varies by state — NSW, VIC, SA, TAS, ACT, NT have EPAs; QLD uses DETSI (formerly DES, renamed November 2024); WA uses DWER). |
 | **GED** | General Environmental Duty — overarching duty in VIC, QLD, SA, NT environmental Acts to take reasonably practicable measures to avoid harm. |
 | **EPL** | Environment Protection Licence — issued by state EPA for scheduled premises or activities. |
@@ -269,6 +299,24 @@ hazard list.
 | **HVNL** | Heavy Vehicle National Law — national law for heavy vehicles over 4.5 t (administered by the NHVR); imposes a primary duty on Chain of Responsibility parties and prescribes fatigue/work-rest requirements. |
 | **CoR** | Chain of Responsibility — HVNL concept making every party with influence over heavy vehicle transport (consignor, packer, loader, scheduler, operator, consignee) a duty holder. |
 | **NHVR** | National Heavy Vehicle Regulator — administers the HVNL (all states and territories except WA and the NT). |
+| **BLL** | Blood lead level — concentration of lead in whole blood, in µg/dL or µmol/L. |
+| **Lead risk work** | Work in a lead process likely to cause a BLL above 5 µg/dL (female of reproductive capacity) or 20 µg/dL (any other worker) — model WHS Reg 394; triggers health monitoring and removal duties. |
+| **Removal level** | BLL at or above which a worker must be removed from lead risk work — 10 µg/dL (female of reproductive capacity) or 30 µg/dL (any other worker), model WHS Reg 415. |
+| **DPM** | Diesel Particulate Matter — the soot fraction of diesel exhaust (IARC Group 1), measured as elemental carbon (EC); WEL 0.01 mg/m³ as respirable EC from 1 December 2026 (hazards-specialist.md §3). |
+| **NTGC** | Non-Threshold Genotoxic Carcinogen — WEL-list category with no numeric exposure limit from 1 December 2026 (e.g. hexavalent chromium, Cr(VI)); eliminate, substitute or minimise SFAIRP. |
+| **OTO** | WEL-list notation for an ototoxic substance (e.g. manganese, cadmium, lead, carbon monoxide), where exposure alongside noise raises the risk of hearing loss. |
+| **Thermal runaway** | Self-sustaining, self-heating failure of a battery cell that releases flammable and toxic gas and can spread cell to cell; smothering does not stop it. |
+| **Dead-man control** | Fast-acting, self-actuating cut-off at an abrasive blasting nozzle that stops flow when the operator lets go; never taped, tied or modified. |
+| **Formwork / falsework** | Formwork is the form face plus the framing and bracing that contain and shape wet concrete until it is self-supporting; falsework is the temporary structure that carries the permanent structure, materials, plant and people until the permanent works can carry themselves. |
+| **Limited diving** | Diving within the model WHS Regs reg 5 limits: no deeper than 30 m, no decompression stop, no mechanical or buoyancy lifting device, no overhead obstruction, no surface-powered plant, and no more than 28 days' diving in any 6 months. |
+| **Zoonosis** | Infection transmitted from animals to people; the listed occupational zoonoses (Q fever, anthrax, leptospirosis, brucellosis, Hendra virus, avian influenza, psittacosis) are notifiable serious illnesses under model WHS Reg 699(b). |
+| **Q-VAX** | The Q fever vaccine registered in Australia, given once after negative serology and skin testing. |
+| **Fragile roof** | Roof surface that will not support a person — fibreglass (GRP) or polycarbonate rooflights, asbestos cement, corroded metal; "a surface through which a person could fall" (model WHS Reg 78(2)(d)). |
+| **Total (travel) restraint** | Harness system that physically stops a person reaching a position where they could fall — a work positioning system (model WHS Reg 79(3)(b)), not fall arrest; Reg 80 rescue procedures come with fall arrest. |
+| **Standby person** | Trained person in the vicinity of a confined space who monitors conditions and the entrants and initiates emergency procedures from outside, without entering (model WHS Regs 69, 74). |
+| **Bump test** | Brief functional check that exposes a gas detector to a known gas to confirm its sensors and alarms respond. |
+| **Try-start** | Attempting to start isolated plant from its normal controls, once stored energy is controlled, to prove the isolation holds before work begins. |
+| **Exertional heat stroke** | Heat stroke brought on by physical work in a fit person — core temperature above 40 °C with confusion or collapse, often while still sweating; cool on site and call 000 at the same time. |
 
 ---
 
@@ -287,6 +335,9 @@ hazard list.
 | **MNZ** | Maritime New Zealand — maritime safety regulator. |
 | **CAA NZ** | Civil Aviation Authority of New Zealand. |
 | **GRWM Regs** | Health and Safety at Work (General Risk and Workplace Management) Regulations 2016 (NZ). |
+| **HSE Act** | Health and Safety in Employment Act 1992 (NZ) — predecessor to HSWA 2015, in force 1 April 1993 to 3 April 2016. |
+| **Crown organisation** | Government department or other Crown body that can be prosecuted in its own name under the Crown Organisations (Criminal Liability) Act 2002 (NZ), enacted after Cave Creek; can be a PCBU under HSWA. |
+| **Particular hazardous work** | NZ work that must be notified to WorkSafe at least 24 hours before it starts (Health and Safety in Employment Regulations 1995 reg 26) — including construction work with a fall risk of 5 m or more, and construction diving. |
 | **TAIC** | Transport Accident Investigation Commission (NZ) — investigates aviation, rail, maritime. |
 | **Pike River** | Pike River Coal Mine disaster (19 November 2010, 29 deaths) — drove HSWA reform. |
 
@@ -295,7 +346,8 @@ hazard list.
 ## Case Studies (Named Accidents)
 
 Common reference points in safety literature, board papers, and training. See
-`references/case-studies.md` for full treatment.
+`references/case-studies.md` (and `references/case-studies-anz.md` for AU/NZ
+landmark cases) for full treatment.
 
 | Term | Meaning |
 |---|---|
@@ -306,6 +358,7 @@ Common reference points in safety literature, board papers, and training. See
 | **Dreamworld** | Thunder River Rapids Ride incident, 25 October 2016, Gold Coast — 4 deaths. Coronial inquest 2018–2020; $3.6M fine 2020. |
 | **Whakaari / White Island** | Volcanic eruption, 9 December 2019, NZ — 22 deaths. WorkSafe NZ prosecutions 2020–2023; landmark case on catastrophic-but-low-probability hazard. |
 | **Grenfell** | Grenfell Tower fire, 14 June 2017, London — 72 deaths. Inquiry Phase 2 report 2024; drove AU/NZ combustible cladding remediation. |
+| **Wittenoom** | Crocidolite (blue asbestos) mine and town in the Pilbara, WA, operated by CSR subsidiary Australian Blue Asbestos 1943–1966 — the reference case for long-latency disease and parent-company liability (case-studies-anz.md §2). |
 
 ---
 
@@ -330,6 +383,10 @@ See `references/sector-regimes.md` for full coverage.
 | **CMSHR** | Coal Mining Safety and Health Regulation 2017 (QLD). |
 | **MQSHR** | Mining and Quarrying Safety and Health Regulation 2017 (QLD). |
 | **WHS (MPS) Act** | Work Health and Safety (Mines and Petroleum Sites) Act 2013 (NSW). |
+| **CMSHA** | Coal Mining Safety and Health Act 1999 (QLD) — the coal-mining regime outside the WHS Act (Qld), with its own industrial manslaughter offence (s 48C); its offences use the general indexed QLD penalty unit, not the fixed WHS Act unit. |
+| **TARP** | Trigger Action Response Plan — pre-set triggers with a mandatory response at each level (e.g. withdraw, inspect, escalate); used for mine ground control and diesel emissions management. |
+| **WOMP** | Well Operations Management Plan — the offshore titleholder's plan, accepted by NOPSEMA, showing how well-integrity risks are reduced to ALARP over the life of a well (case-studies-anz.md §3). |
+| **SPAD** | Signal Passed At Danger — rail safety event category. |
 | **PC1–PC4** | Physical Containment levels (AS/NZS 2243.3) — laboratory biocontainment from PC1 (basic) to PC4 (Ebola-class; the principal AU PC4/BSL-4 facility is CSIRO's Australian Centre for Disease Preparedness (ACDP, formerly the Australian Animal Health Laboratory / AAHL), Geelong). |
 | **OGTR** | Office of the Gene Technology Regulator — under Gene Technology Act 2000 (Cth). |
 | **AS/NZS 2243.3** | Safety in laboratories Part 3: Microbiological safety and containment (2022). |
@@ -450,6 +507,11 @@ See `references/specialist-topics.md` §1 and `references/legislation.md` §14.
 | **BEI** | Biological Exposure Index — measurement of substance in worker's biological samples. |
 | **TLV** | Threshold Limit Value — ACGIH (US) exposure recommendation; international default where no AU WES. |
 | **MDHS** | Methods for the Determination of Hazardous Substances (UK HSE). |
+| **SEG** | Similar Exposure Group — workers with the same exposure profile, sampled as one population. |
+| **IARC** | International Agency for Research on Cancer — WHO agency whose Monographs classify carcinogens (Group 1 = carcinogenic to humans; welding fume, diesel engine exhaust and solar UV are Group 1). |
+| **LEV** | Local Exhaust Ventilation — captures a contaminant at or near its source and ducts it away (e.g. on-torch extraction for welding fume). |
+| **RPE** | Respiratory Protective Equipment — selected, used and maintained under AS/NZS 1715 and conforming to AS/NZS 1716. |
+| **PAPR** | Powered Air-Purifying Respirator — battery-powered unit blowing filtered air into a helmet, hood or facepiece; supplies no oxygen and, like every air-purifying filter, gives no protection against carbon monoxide. |
 | **CISM** | Critical Incident Stress Management — structured intervention post-traumatic event. |
 | **MHFA** | Mental Health First Aid — accredited 2-day course; community and workplace variants. |
 
@@ -568,7 +630,7 @@ appears repeatedly, the canonical entry is here.
 | **AS/NZS 1680** | Interior and workplace lighting |
 | **AS/NZS 1715** | Selection, use and maintenance of respiratory protective equipment |
 | **AS/NZS 1716** | Respiratory protective devices |
-| **AS 1885.1** | Workplace injury and disease recording — the legacy AU recordability standard (withdrawn) |
+| **AS 1885.1** | Workplace injury and disease recording — the legacy AU recordability standard (AS 1885.1-1990; superseded 22 May 2025 by AS/NZS ISO 45004:2024, which is performance-evaluation guidance, not a recording standard, so the 1885.1 rate definitions survive as convention) |
 | **AS/NZS 1891** (series) | Industrial fall-arrest systems and devices |
 | **AS/NZS 1940** | Storage and handling of flammable and combustible liquids |
 | **AS/NZS 2243.3** | Safety in laboratories — Microbiological safety and containment (PC1–PC4) |

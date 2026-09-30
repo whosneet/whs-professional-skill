@@ -10,6 +10,111 @@ currency updates, and small additions).
 
 ---
 
+## [1.9.0] — 2026-10-01
+
+Roadmap volume one, a currency audit, and targeted loading. Four of the
+README roadmap items (case study expansion, hazard chapters, investigation
+depth, analytics depth) are delivered as 32 new sections across four new
+reference files and analytics.md; every section was researched against
+primary sources as at 1 October 2026, then independently fact-checked
+(record lens and practitioner lens) and revised before assembly. The
+fact-checks also surfaced errors in the existing corpus, fixed below.
+
+### Added — reference files
+- `hazards-specialist.md` — lead and lead risk work (Part 7.2 removal and
+  return levels, the 2026 SWA consultation), diesel particulate matter,
+  welding fume (the 1 December 2026 WEL changes for manganese, Cr(VI) and
+  nickel), lithium-ion batteries, solar and artificial UV, abrasive
+  blasting, formwork and falsework, occupational diving, Q fever and
+  zoonoses. `hazards.md` stays as it was (it sits near the size limit)
+- `investigation-advanced.md` — method-selection table; ICAM organisational
+  factor type codes and trending; fatality response for the first 24 hours
+  (police, coroner, compelled interviews under s 171, family liaison, legal
+  holds); STEP; Tripod Beta; HFACS; investigation quality assurance
+  (rubric, peer review, sign-off, action verification, investigator
+  competency); restorative practice and apologies after harm
+- `case-studies-anz.md` — Wittenoom, Montara, Hazelwood, Beaconsfield,
+  Cave Creek, Waterfall, and the first industrial manslaughter
+  prosecutions in each jurisdiction (every status row dated)
+- `case-studies-critical-risk.md` — Cases 8–12 in the everyday worked-
+  example format: fall through a fragile roof, confined space entry and
+  would-be rescuer, isolation failure on a conveyor, yard truck and
+  pedestrian, exertional heat illness in a new starter
+
+### Added — analytics and scripts
+- `analytics.md` §9–§11: exact Poisson confidence intervals, funnel plots
+  and SPC for injury rates (signal vs noise language for boards);
+  exposure-based normalisation and denominators; predictive analytics
+  ethics and governance (Privacy Act automated-decision transparency,
+  surveillance Acts, consultation)
+- `scripts/rate_confidence.py` — exact (Garwood) confidence interval for a
+  rate, two-rate comparison with exact test, funnel-plot limits; standard
+  library only; `--self-test` checks 209 values against published tables
+- `scripts/build_index.py` — stamps every `INDEX.md` row with its section's
+  line range and generates a section map of every file, so one grep gives
+  an exact offset/limit read; `validate.py` fails if the ranges are stale
+
+### Fixed — currency audit of existing files (as at 1 October 2026)
+- Queensland WHS Act offences use the fixed $100 penalty unit (Penalties
+  and Sentences Act 1992 (Qld) s 5(1)(d)); the s 34C industrial
+  manslaughter maximum is $10M, not $17.3M. `penalty_units.json` gains a
+  `QLD_WHS` entry and a rule to check for Act-specific units first
+- Inspector questioning (s 171): no right to silence under the model Act —
+  the privilege is abrogated with direct-use immunity for individuals; SA
+  and VIC keep it. The s 171(2A) 30-day written-notice power is a 2022
+  model amendment adopted jurisdiction by jurisdiction
+- WEL transition (`legislation.md` §14): NO2 does not change on 1 December
+  2026 (one of nine deferred chemicals); CO and manganese are the worked
+  examples; Victoria's August 2026 proposal to defer 15 substances to 2029
+  recorded; carcinogen guidance says SFAIRP, not ALARP
+- Dangerous incident list restated as the full s 37(a)–(l) text — (g)
+  covers only plant that must be authorised; mine regimes notify under
+  their own Acts
+- Industrial manslaughter fault elements corrected jurisdiction by
+  jurisdiction (VIC s 39E negligence, QLD criminal negligence, SA
+  recklessness or gross negligence, WA knowledge and disregard); VIC and NZ
+  limitation periods added; VIC enforceable undertakings (OHS Act s 16 and
+  s 137 court undertakings) added
+- NZ HSWA Amendment Act 2026 recast of s 34 (overlapping duties) recorded;
+  WorkSafe WA re-homed in LGIRS (DEMIRS dissolved 30 June 2025); VIC
+  general environmental duty maxima moved to the 2026–27 unit; offshore
+  duty standard stated as "all reasonably practicable steps" with ALARP as
+  NOPSEMA's safety-case test; AS 1885.1-1990 described as superseded by
+  AS/NZS ISO 45004:2024 (not withdrawn) in every file
+- `hazards.md` §2 rewritten to the crystalline silica regime as enacted:
+  CSS and "processing" defined (reg 529A), controlled processing
+  (regs 529B–529C), the reg 529CA high-risk test assessed ignoring RPE,
+  silica risk control plans (reg 529CB), exceedance notice to the
+  regulator within 14 days (reg 529CE(b)), the NSW Silica Worker Register;
+  health monitoring stated as the reg 529CE(c) duty for HRCSW workers read
+  with the reg 368 significant-risk test; record retention periods added
+  (regs 50, 378, 444)
+- `hazards.md`: ACT extreme temperatures code (NI2025-607, in force
+  14 November 2025) and model reg 40(f) added to §6; §16 guard rows
+  restated to the reg 208(2) wording; §22 manganese limits corrected
+  (equal to the fume limit today, 0.1 inhalable / 0.02 respirable from
+  1 December 2026)
+- `frameworks.md`: SFAIRP exceptions stated for Queensland mines
+  (acceptable level of risk, CMSHA s 29 / MQSHA s 26) and offshore
+  facilities; on-time investigation completion relabelled as throughput,
+  not rigour; Victoria's derivative officer liability noted in §13
+- Regression guards for each corrected error added to `scripts/validate.py`
+
+### Changed
+- `SKILL.md` routes to the four new files and `rate_confidence.py`; the
+  section-loading note now points at the `INDEX.md` line ranges; the
+  description names the new triggers (fatalities, specialist hazards,
+  confidence intervals, AU/NZ case studies)
+- `INDEX.md` keyword rows for every new section
+
+### Not delivered this release
+- The remaining roadmap items (sector deepening v3, compensation depth,
+  additional templates, specialist topics v2, D&I v2, AI and WHS,
+  continuous improvement, procurement v2, multi-tenant selector) were
+  scoped but not written; they stay on the README roadmap
+
+---
+
 ## [1.8.0] — 2026-08-09
 
 Accuracy and optimisation release. Actions the 8 August 2026 full-corpus

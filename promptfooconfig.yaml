@@ -1,5 +1,5 @@
 # promptfooconfig.yaml
-# Automated regression suite — ports EVALS.md (28 evals) to promptfoo.
+# Automated regression suite — ports EVALS.md (34 evals) to promptfoo.
 #
 # Run:   npx promptfoo@latest eval          (requires ANTHROPIC_API_KEY)
 # View:  npx promptfoo@latest view
@@ -325,3 +325,77 @@ tests:
         value: Amendment Act 2023
       - type: llm-rubric
         value: Cites ss 272A–272B (not 272A–272C) and does NOT attribute the ban to the "Closing Loopholes" amendments.
+
+  # 29. Carbon monoxide and air-purifying respirators
+  - vars:
+      query: Diesel and LPG plant run inside our warehouse and carbon monoxide readings are elevated. Which respirator filter should workers wear?
+      ref: file://whs-professional/references/hazards-specialist.md
+    assert:
+      - type: icontains-any
+        value:
+          - "supplied air"
+          - "supplied-air"
+          - "airline"
+      - type: llm-rubric
+        value: States that no air-purifying respirator filter protects against carbon monoxide, and directs to fixing the source or ventilation or to supplied air. Fails if any cartridge, canister, combined particulate/gas filter or PAPR is recommended as CO protection.
+
+  # 30. Welding fume — Cr(VI) and manganese under the WEL list
+  - vars:
+      query: What exposure limits apply to hexavalent chromium and manganese in welding fume from 1 December 2026?
+      ref: file://whs-professional/references/hazards-specialist.md
+    assert:
+      - type: icontains-any
+        value:
+          - "non-threshold"
+          - "NTGC"
+      - type: icontains-any
+        value:
+          - "0.02 mg/m³"
+          - "0.02 mg/m3"
+      - type: llm-rubric
+        value: "States Cr(VI) compounds have no numeric limit from 1 December 2026 (a non-threshold genotoxic carcinogen, to be eliminated or minimised SFAIRP) and manganese falls to 0.1 mg/m³ inhalable and 0.02 mg/m³ respirable. Fails if it gives a numeric WEL for Cr(VI) or keeps manganese at 1 mg/m³."
+
+  # 31. Travel restraint is not fall arrest
+  - vars:
+      query: A roofer wears a harness set up as travel restraint so he cannot reach the roof edge or any skylight. Is that a fall arrest system, and does it trigger the model WHS Regulations rescue duty?
+      ref: file://whs-professional/references/case-studies-critical-risk.md
+    assert:
+      - type: icontains
+        value: work positioning
+      - type: llm-rubric
+        value: States that travel (total) restraint is a work positioning system under Reg 79(3)(b), not fall arrest, and that the Reg 80 rescue procedures come with fall arrest, not restraint. Fails if restraint is described as fall arrest or said to trigger the Reg 80 rescue duty by itself.
+
+  # 32. Queensland WHS penalty unit
+  - vars:
+      query: What is the maximum fine for industrial manslaughter by a body corporate under the Queensland WHS Act, and what penalty unit value applies?
+      ref: file://whs-professional/references/legislation.md
+    assert:
+      - type: icontains-any
+        value:
+          - "$10M"
+          - "10 million"
+          - "$10 million"
+      - type: llm-rubric
+        value: States WHS Act 2011 (Qld) offences use a fixed $100 penalty unit (Penalties and Sentences Act 1992 (Qld) s 5(1)(d)), so 100,000 penalty units = $10M. Fails if the general indexed Queensland penalty unit is applied to WHS Act (Qld) offences.
+
+  # 33. First Queensland industrial manslaughter conviction
+  - vars:
+      query: What was the first industrial manslaughter conviction in Queensland, and what happened to the company and its directors?
+      ref: file://whs-professional/references/case-studies-anz.md
+    assert:
+      - type: icontains
+        value: Brisbane Auto Recycling
+      - type: icontains
+        value: QDC 113
+      - type: llm-rubric
+        value: "Company convicted under s 34C and fined $3M (District Court, June 2020, guilty pleas); the two directors convicted of Category 1 reckless conduct (s 31) with 10 months' imprisonment each, wholly suspended. Fails if the directors are described as convicted of industrial manslaughter or R v Owen is presented as the first conviction."
+
+  # 34. Rate confidence intervals and small counts
+  - vars:
+      query: Our 200-person site's TRIFR went from 0.0 last month to 31 this month after a single recordable. Is safety getting worse, and how do I put a confidence interval on the rate?
+      ref: file://whs-professional/references/analytics.md
+    assert:
+      - type: icontains
+        value: rate_confidence
+      - type: llm-rubric
+        value: States that month-to-month TRIFR movement at small counts is mostly noise (Poisson variation) and directs the interval to scripts/rate_confidence.py (exact Poisson), or shows the working and flags it for verification where code cannot run. Fails if the one-month jump is presented as a real deterioration or a hand-calculated rate ± 1.96 × standard error interval is given at this count.
