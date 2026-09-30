@@ -555,7 +555,9 @@ unit, rolling 12 months: 126 recordables in 21,000,000 hours, TRIFR 6.0
   10% each end so the outliers under test do not inflate it. Only if units ×
   φ exceeds the 95th percentile of chi-square on (units − 1) degrees of
   freedom, widen limits by √φ, stratify or check exposure (§10). Never widen
-  for the three contracts above: 6.08 is mostly B's own z² (14.0 of 18.2).
+  for the three contracts above: the script reports φ = 1.16 against the
+  pooled rate (chi-square 3.49 on 2 df, p 0.17) — three units cannot show
+  overdispersion, and B's excess is B's own signal, not a wider spread.
 
 **Comparing two periods.** A Meridian contract cluster: 14 in 1,250,000 hours
 (TRIFR 11.2, CI 6.1–18.8), then 9 in 1,200,000 (TRIFR 7.5, CI 3.4–14.2),

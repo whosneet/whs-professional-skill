@@ -4,22 +4,22 @@ Compact keyword → file → section lookup. Grep this file first when unsure wh
 a topic lives. Format: `keywords | file | section`. One topic per line.
 
 ## Legislation & regulation
-industrial manslaughter, officer due diligence, prosecutions, Category 1 | legislation.md | §6 | L540-770
-inspector visit, regulator on site, notices, improvement notice, prohibition notice | legislation.md | §10 | L1006-1110
-NZ, HSWA, WorkSafe NZ, ACC, WEPR, Pike River context, geothermal | legislation.md | §3 | L156-202
-psychosocial regulations, rr 55A-55D, Respect@Work, SDA s 47C, positive duty | legislation.md | §9 | L850-1002
-mandatory training, HSR training, white card, HRWL, supervisor competency | legislation.md | §11 | L1114-1178
-volunteers, unpaid workers | legislation.md | §12 | L1182-1246
-international comparison, ILO, OSHA, UK HSE, EU OSH | legislation.md | §13 | L1250-1345
-WES, WEL, workplace exposure standards, exposure limits, 1 Dec 2026 transition | legislation.md | §14 | L1349-1432
-codes of practice summaries | legislation.md | §15 | L1436-1551
-state detail, VIC OHS Act 2004, jurisdiction variations | legislation.md | §16 | L1555-1744
-enforceable undertakings, EU eligibility, s 216 | legislation.md | §6 | L540-770
+industrial manslaughter, officer due diligence, prosecutions, Category 1 | legislation.md | §6 | L557-804
+inspector visit, regulator on site, notices, improvement notice, prohibition notice | legislation.md | §10 | L1040-1147
+NZ, HSWA, WorkSafe NZ, ACC, WEPR, Pike River context, geothermal | legislation.md | §3 | L157-203
+psychosocial regulations, rr 55A-55D, Respect@Work, SDA s 47C, positive duty | legislation.md | §9 | L884-1036
+mandatory training, HSR training, white card, HRWL, supervisor competency | legislation.md | §11 | L1151-1215
+volunteers, unpaid workers | legislation.md | §12 | L1219-1283
+international comparison, ILO, OSHA, UK HSE, EU OSH | legislation.md | §13 | L1287-1383
+WES, WEL, workplace exposure standards, exposure limits, 1 Dec 2026 transition | legislation.md | §14 | L1387-1470
+codes of practice summaries | legislation.md | §15 | L1474-1589
+state detail, VIC OHS Act 2004, jurisdiction variations | legislation.md | §16 | L1593-1782
+enforceable undertakings, EU eligibility, s 216 | legislation.md | §6 | L557-804
 insurance ban, s 272A, indemnity prohibition | specialist-topics.md | §5 | L860-1153
-VIC insurance ban, ss 148A-148B | legislation.md | §16 | L1555-1744
-notifiable incidents, notification triggers, serious injury definition | legislation.md | §5 | L504-536
-PCBU duties, primary duty, key duties in detail | legislation.md | §4 | L443-500
-regulator contacts, who to call, regulator phone numbers | legislation.md | §7 | L774-787
+VIC insurance ban, ss 148A-148B | legislation.md | §16 | L1593-1782
+notifiable incidents, notification triggers, serious injury definition | legislation.md | §5 | L507-553
+PCBU duties, primary duty, key duties in detail | legislation.md | §4 | L446-503
+regulator contacts, who to call, regulator phone numbers | legislation.md | §7 | L808-821
 
 ## Investigation
 ICAM, 5-Why, contributing factors taxonomy, cognitive biases | investigation.md | §1-§7 | L27-527
@@ -73,7 +73,7 @@ SWMS template | output-templates.md | §7 | L446-475
 worked realised outputs, calibration examples | ../examples/ | all
 
 ## Analytics & programs
-TRIFR, LTIFR, KPIs, dashboards, Power BI, DAX, HiPo intelligence pack | analytics.md | all | L1-845
+TRIFR, LTIFR, KPIs, dashboards, Power BI, DAX, HiPo intelligence pack | analytics.md | all | L1-847
 SIF, pSIF, serious injury and fatality classification | analytics.md | §1 | L24-127
 severity rate, LTISR, lost days | analytics.md | §1 | L24-127
 EAP utilisation reporting | analytics.md | §6 | L310-351
@@ -124,9 +124,9 @@ analytics.md | §5 | Leading Indicator Design | L273-306
 analytics.md | §6 | EAP Utilisation Reporting | L310-351
 analytics.md | §7 | Board & ELT Intelligence Pack | L355-395
 analytics.md | §8 | Power BI Patterns for WHS | L399-479
-analytics.md | §9 | Statistical Treatment of Rates — Confidence Intervals, Funnel Plots and SPC | L483-610
-analytics.md | §10 | Exposure-Based Normalisation | L614-735
-analytics.md | §11 | Predictive Analytics — Ethics and Governance | L739-845
+analytics.md | §9 | Statistical Treatment of Rates — Confidence Intervals, Funnel Plots and SPC | L483-612
+analytics.md | §10 | Exposure-Based Normalisation | L616-737
+analytics.md | §11 | Predictive Analytics — Ethics and Governance | L741-847
 capability-culture.md | §1 | Behavioural-Based Safety (BBS) | L27-247
 capability-culture.md | §2 | Maturity Assessment Frameworks | L251-421
 capability-culture.md | §3 | Safety Culture vs Safety Climate; Measurement | L425-648
@@ -394,31 +394,31 @@ investigation.md | §12 | AcciMap Methodology | L929-992
 investigation.md | §13 | Bowtie Worked Example | L996-1085
 investigation.md | §14 | Legal Privilege Management During Investigation | L1089-1255
 legislation.md | §1 | Model WHS Law | L25-80
-legislation.md | §2 | State & Territory Variations | L84-152
-legislation.md | §3 | New Zealand — HSWA 2015 | L156-202
-legislation.md | §3 | 1 ACC scheme — interaction with HSWA | L204-237
-legislation.md | §3 | 2 Worker Engagement, Participation and Representation (WEPR) Regulations 2016 | L239-272
-legislation.md | §3 | 3 Key Approved Codes of Practice (ACoPs) | L274-295
-legislation.md | §3 | 4 NZ high-fatality sectors and WorkSafe NZ focus areas | L297-308
-legislation.md | §3 | 5 Adventure activities and specialist regimes | L310-324
-legislation.md | §3 | 6 Geothermal and natural hazard context | L326-346
-legislation.md | §3 | 7 Pike River and HSWA reform context | L348-365
-legislation.md | §3 | 8 NZ industrial manslaughter status | L367-391
-legislation.md | §3 | 9 WorkSafe NZ enforcement and penalty levels | L393-421
-legislation.md | §3 | 10 HSWA reform — Amendment Act passed; commences 1 April 2027 | L423-439
-legislation.md | §4 | Key Duties in Detail | L443-500
-legislation.md | §5 | Notifiable Incidents | L504-536
-legislation.md | §6 | Enforcement & Penalties | L540-770
-legislation.md | §7 | Regulators & Contacts | L774-787
-legislation.md | §8 | Codes of Practice & Guidance | L791-846
-legislation.md | §9 | Psychosocial Hazards — Regulatory Framework | L850-1002
-legislation.md | §10 | Inspector Visits & Regulator Attendance | L1006-1110
-legislation.md | §11 | Mandatory WHS Training Requirements | L1114-1178
-legislation.md | §12 | Volunteer and Unpaid Worker Coverage | L1182-1246
-legislation.md | §13 | International Framework References | L1250-1345
-legislation.md | §14 | Workplace Exposure Standards (WES) Reference Table | L1349-1432
-legislation.md | §15 | Codes of Practice — Key Requirements Summary | L1436-1551
-legislation.md | §16 | State and Territory Variations — Deeper Detail | L1555-1744
+legislation.md | §2 | State & Territory Variations | L84-153
+legislation.md | §3 | New Zealand — HSWA 2015 | L157-203
+legislation.md | §3 | 1 ACC scheme — interaction with HSWA | L205-238
+legislation.md | §3 | 2 Worker Engagement, Participation and Representation (WEPR) Regulations 2016 | L240-273
+legislation.md | §3 | 3 Key Approved Codes of Practice (ACoPs) | L275-296
+legislation.md | §3 | 4 NZ high-fatality sectors and WorkSafe NZ focus areas | L298-309
+legislation.md | §3 | 5 Adventure activities and specialist regimes | L311-325
+legislation.md | §3 | 6 Geothermal and natural hazard context | L327-347
+legislation.md | §3 | 7 Pike River and HSWA reform context | L349-366
+legislation.md | §3 | 8 NZ industrial manslaughter status | L368-392
+legislation.md | §3 | 9 WorkSafe NZ enforcement and penalty levels | L394-422
+legislation.md | §3 | 10 HSWA reform — Amendment Act passed; commences 1 April 2027 | L424-442
+legislation.md | §4 | Key Duties in Detail | L446-503
+legislation.md | §5 | Notifiable Incidents | L507-553
+legislation.md | §6 | Enforcement & Penalties | L557-804
+legislation.md | §7 | Regulators & Contacts | L808-821
+legislation.md | §8 | Codes of Practice & Guidance | L825-880
+legislation.md | §9 | Psychosocial Hazards — Regulatory Framework | L884-1036
+legislation.md | §10 | Inspector Visits & Regulator Attendance | L1040-1147
+legislation.md | §11 | Mandatory WHS Training Requirements | L1151-1215
+legislation.md | §12 | Volunteer and Unpaid Worker Coverage | L1219-1283
+legislation.md | §13 | International Framework References | L1287-1383
+legislation.md | §14 | Workplace Exposure Standards (WES) Reference Table | L1387-1470
+legislation.md | §15 | Codes of Practice — Key Requirements Summary | L1474-1589
+legislation.md | §16 | State and Territory Variations — Deeper Detail | L1593-1782
 output-templates.md | §1 | Safety Alert | L32-93
 output-templates.md | §2 | Toolbox Talk | L97-172
 output-templates.md | §3 | WHS Advisory Note | L176-246
