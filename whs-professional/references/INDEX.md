@@ -126,7 +126,7 @@ procurement, tenders, supplier evaluation, contractor performance | whs-procurem
 contractor prequalification, prequalification platforms | whs-procurement.md | §2 | L129-263
 modern slavery due diligence, supplier human rights | whs-procurement.md | §4 | L396-498
 whistleblower, Part 9.4AAA, PIDA, public interest disclosure | whistleblower.md | all | L1-364
-acronyms, terminology, definitions | glossary.md | all | L1-609
+acronyms, terminology, definitions | glossary.md | all | L1-671
 organisation config, risk matrix, severity, HiPo threshold, document codes, named programs | company.md | all | L1-478
 adapt the skill, set up for my company, configure organisation, populate company.md, client profile, guided setup interview | adaptation-interview.md | all | L1-204
 penalty unit values by jurisdiction | ../assets/penalty_units.json | lookup
@@ -318,34 +318,34 @@ frameworks.md | §14 | Psychosocial Risk Controls | L890-971
 frameworks.md | §15 | Governance and Assurance Frameworks | L975-1075
 glossary.md | - | Acts, Regulations & Bodies | L8-21
 glossary.md | - | Duties & Standards | L25-36
-glossary.md | - | Enforcement & Offences | L40-47
-glossary.md | - | Risk & Controls | L51-72
-glossary.md | - | Incidents & Investigation | L76-94
-glossary.md | - | Metrics | L98-112
-glossary.md | - | Theory & Frameworks | L116-128
-glossary.md | - | Industry / Organisational | L132-147
-glossary.md | - | Document Types (commonly seen in WHS document numbering) | L151-163
-glossary.md | - | Environment (EHS) | L167-188
-glossary.md | - | Workers Compensation & RTW | L192-214
-glossary.md | - | Audit, Inspection & Permits | L218-236
-glossary.md | - | Psychosocial | L240-250
-glossary.md | - | Hazard-Specific | L254-271
-glossary.md | - | NZ-Specific | L275-291
-glossary.md | - | Case Studies (Named Accidents) | L295-308
-glossary.md | - | Sector Regimes | L312-341
-glossary.md | - | Workplace Controls | L345-365
-glossary.md | - | Capability and Culture | L369-385
-glossary.md | - | Training Codes | L389-400
-glossary.md | - | International / Comparative | L404-418
-glossary.md | - | Mergers, Acquisitions and Transactions | L422-432
-glossary.md | - | Occupational Hygiene | L436-454
-glossary.md | - | Modern Slavery, ESG and Reporting | L458-474
-glossary.md | - | Insurance | L478-489
-glossary.md | - | Whistleblower | L493-504
-glossary.md | - | Indigenous / Cultural Heritage | L508-520
-glossary.md | - | Disability and Accessibility | L524-537
-glossary.md | - | Strategy, Function, Crisis | L541-552
-glossary.md | - | AS/NZS Standards Index | L556-609
+glossary.md | - | Enforcement & Offences | L40-51
+glossary.md | - | Risk & Controls | L55-76
+glossary.md | - | Incidents & Investigation | L80-110
+glossary.md | - | Metrics | L114-142
+glossary.md | - | Theory & Frameworks | L146-158
+glossary.md | - | Industry / Organisational | L162-177
+glossary.md | - | Document Types (commonly seen in WHS document numbering) | L181-193
+glossary.md | - | Environment (EHS) | L197-218
+glossary.md | - | Workers Compensation & RTW | L222-244
+glossary.md | - | Audit, Inspection & Permits | L248-266
+glossary.md | - | Psychosocial | L270-280
+glossary.md | - | Hazard-Specific | L284-319
+glossary.md | - | NZ-Specific | L323-342
+glossary.md | - | Case Studies (Named Accidents) | L346-361
+glossary.md | - | Sector Regimes | L365-398
+glossary.md | - | Workplace Controls | L402-422
+glossary.md | - | Capability and Culture | L426-442
+glossary.md | - | Training Codes | L446-457
+glossary.md | - | International / Comparative | L461-475
+glossary.md | - | Mergers, Acquisitions and Transactions | L479-489
+glossary.md | - | Occupational Hygiene | L493-516
+glossary.md | - | Modern Slavery, ESG and Reporting | L520-536
+glossary.md | - | Insurance | L540-551
+glossary.md | - | Whistleblower | L555-566
+glossary.md | - | Indigenous / Cultural Heritage | L570-582
+glossary.md | - | Disability and Accessibility | L586-599
+glossary.md | - | Strategy, Function, Crisis | L603-614
+glossary.md | - | AS/NZS Standards Index | L618-671
 hazards-specialist.md | §1 | Scope and Relationship to hazards.md | L27-65
 hazards-specialist.md | §2 | Lead and Lead Risk Work | L69-258
 hazards-specialist.md | §3 | Diesel Particulate Matter | L262-445

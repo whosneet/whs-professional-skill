@@ -11,7 +11,7 @@ Method: load the skill in a fresh conversation, paste the prompt verbatim,
 and assess the first response. Assertions are about substance, not exact
 phrasing — accept paraphrases that preserve the fact.
 
-**Automated run**: all 28 evals below are ported to `promptfooconfig.yaml`
+**Automated run**: all 34 evals below are ported to `promptfooconfig.yaml`
 at the repository root — `npx promptfoo@latest eval` (requires
 `ANTHROPIC_API_KEY`) runs them as an automated suite. This file remains the
 human-readable ledger of *why* each eval exists; keep the two in sync when
@@ -231,6 +231,72 @@ monetary penalty, and what inserted them?"
 - MUST CONTAIN: ss 272A–272B; WHS Amendment Act 2023 (Cth)
 - MUST NOT CONTAIN: ss 272A–272C; the ban attributed to the "Closing Loopholes"
   amendments
+
+## 29. Carbon monoxide and air-purifying respirators
+
+**Prompt**: "Diesel and LPG plant run inside our warehouse and carbon
+monoxide readings are elevated. Which respirator filter should workers wear?"
+- MUST CONTAIN: no air-purifying respirator filter protects against carbon
+  monoxide — fix the source or the ventilation, or use supplied air
+- MUST NOT CONTAIN: any cartridge, canister, combined particulate/gas filter
+  or PAPR recommended as protection against CO
+
+## 30. Welding fume — Cr(VI) and manganese under the WEL list
+
+**Prompt**: "What exposure limits apply to hexavalent chromium and manganese
+in welding fume from 1 December 2026?"
+- MUST CONTAIN: Cr(VI) compounds have no numeric limit — listed as a
+  non-threshold genotoxic carcinogen (NTGC, WEL list Appendix B), to be
+  eliminated, substituted or minimised SFAIRP; manganese falls to
+  0.1 mg/m³ inhalable and 0.02 mg/m³ respirable TWA
+- MUST NOT CONTAIN: a numeric WEL for Cr(VI) (e.g. 0.05 mg/m³ carried
+  forward); manganese left at 1 mg/m³ after 30 November 2026
+
+## 31. Travel restraint is not fall arrest
+
+**Prompt**: "A roofer wears a harness set up as travel restraint so he cannot
+reach the roof edge or any skylight. Is that a fall arrest system, and does it
+trigger the model WHS Regulations rescue duty?"
+- MUST CONTAIN: total (travel) restraint that stops a person reaching a fall
+  position is a work positioning system (model WHS Reg 79(3)(b)), not fall
+  arrest; the Reg 80 rescue procedures come with harness fall arrest
+  (Reg 79(3)(c)), not restraint
+- MUST NOT CONTAIN: restraint described as fall arrest; restraint said to
+  trigger the Reg 80 emergency and rescue procedures by itself
+
+## 32. Queensland WHS penalty unit
+
+**Prompt**: "What is the maximum fine for industrial manslaughter by a body
+corporate under the Queensland WHS Act, and what penalty unit value applies?"
+- MUST CONTAIN: 100,000 penalty units = $10M; WHS Act 2011 (Qld) offences use
+  a fixed $100 penalty unit (Penalties and Sentences Act 1992 (Qld)
+  s 5(1)(d)), not the general indexed Queensland unit
+- MUST NOT CONTAIN: the general indexed Queensland penalty unit applied to WHS
+  Act (Qld) offences (e.g. a maximum of about $17M)
+
+## 33. First Queensland industrial manslaughter conviction
+
+**Prompt**: "What was the first industrial manslaughter conviction in
+Queensland, and what happened to the company and its directors?"
+- MUST CONTAIN: *R v Brisbane Auto Recycling Pty Ltd & Ors* [2020] QDC 113
+  (District Court, 11 June 2020, guilty pleas) — the company convicted under
+  s 34C and fined $3M; the two directors convicted of Category 1 reckless
+  conduct (s 31), 10 months' imprisonment each, wholly suspended
+- MUST NOT CONTAIN: the directors described as convicted of industrial
+  manslaughter; *R v Owen* (2022) presented as the first conviction
+
+## 34. Rate confidence intervals and small counts
+
+**Prompt**: "Our 200-person site's TRIFR went from 0.0 last month to 31 this
+month after a single recordable. Is safety getting worse, and how do I put a
+confidence interval on the rate?"
+- MUST CONTAIN: month-to-month TRIFR movement at small counts is mostly
+  noise (Poisson variation); the interval comes from
+  `scripts/rate_confidence.py` (exact Poisson), or, where code cannot run,
+  the working is shown and the figures flagged for verification
+- MUST NOT CONTAIN: the one-month jump presented as evidence of a real
+  deterioration; a hand-calculated rate ± 1.96 × standard error interval at
+  a count this small
 
 ---
 

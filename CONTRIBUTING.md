@@ -57,6 +57,19 @@ OHS / EHS is invited to contribute.
   `frameworks.md` Section 12)
 - **Maintain the two-layer architecture**: organisation-specific content
   goes in `company.md`; generic frameworks elsewhere
+- **Keep each reference file under ~1,900 lines** so a single read never
+  truncates at Claude Code's 2,000-line default; split a file that is
+  approaching the limit rather than compressing it
+
+## Before you submit
+
+After editing any reference file, run from the repository root:
+
+1. `python3 scripts/build_index.py` — `references/INDEX.md` carries each
+   section's line range and a generated section map, and both go stale
+   whenever a reference file changes length
+2. `python3 scripts/validate.py` — fails if INDEX.md is stale, as well as on
+   broken references, cross-references and regression strings
 
 ## Regulatory citations
 
