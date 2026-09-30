@@ -519,39 +519,16 @@ This skill is not endorsed by or affiliated with Forge Works.
 ## Roadmap
 
 These topics are not currently covered (or only lightly covered) and represent
-opportunities for community contribution. v1.9.0 closed four items (struck
-through below); the remaining open items were scoped for v1.9.0 but not
-delivered, and stay open:
+opportunities for community contribution. Delivered items move to the
+"Recently added" sections below; the open items here were scoped for v1.9.0
+but not delivered:
 
-- ~~**Case study expansion**~~ — ✓ closed in v1.9.0: Wittenoom asbestos,
-  Montara blowout (2009), Hazelwood mine fire (2014), Beaconsfield rockfall
-  (2006), Cave Creek platform collapse (1995, NZ), Waterfall rail accident
-  (2003), and the first industrial-manslaughter prosecutions
-  (`references/case-studies-anz.md`); plus everyday cases: fall through a
-  fragile roof, confined space entry and the would-be rescuer, LOTO failure,
-  yard truck/pedestrian interface, heat illness
-  (`references/case-studies-critical-risk.md`)
 - **Sector deepening v3** — forestry, waste and recycling, electrical
   supply / utilities, renewables (including battery energy storage
   systems), commercial fishing, security, emergency services
-- ~~**Hazard chapters**~~ — ✓ closed in v1.9.0: lead (model WHS
-  Regulations Part 7.2, the reduced blood lead levels and the 2026 SWA
-  consultation),
-  diesel particulate matter, welding fume depth, lithium-ion batteries, UV /
-  solar exposure, abrasive blasting, formwork and falsework, occupational
-  diving, Q fever and zoonoses (`references/hazards-specialist.md`)
-- ~~**Investigation depth**~~ — ✓ closed in v1.9.0: ICAM organisational
-  factor type (OFT) codes, fatality first-24-hours / police / coroner
-  protocol, STEP / Tripod / HFACS methodologies, investigation quality
-  assurance, restorative practice after harm
-  (`references/investigation-advanced.md`)
 - **Compensation depth** — self-insurance licensing, cross-border
   state-of-connection rules, death benefits, NSW Dust Diseases scheme,
   Seacare
-- ~~**Analytics depth**~~ — ✓ closed in v1.9.0: predictive analytics
-  ethics, confidence intervals and funnel plots for rate comparison,
-  exposure-based normalisation (`references/analytics.md` §9–§11;
-  `scripts/rate_confidence.py`)
 - **Additional templates** — induction checklist, HSC committee charter,
   audit report, management review agenda, emergency response plan,
   training needs analysis matrix
@@ -573,30 +550,35 @@ delivered, and stay open:
   documented path is now the Claude Project knowledge pattern (see
   `ADAPTING.md` — closed in v1.6.0); an in-package file mechanism remains
   open for contribution
-- ~~**Utility scripts**~~ — ✓ closed in v1.6.0: `scripts/frequency_rates.py`
-  (frequency rate calculator) and `assets/penalty_units.json` (penalty unit
-  lookup); `scripts/rate_confidence.py` (rate confidence intervals and
-  funnel limits) followed in v1.9.0; further calculators welcome
+- **Further calculators** — `scripts/frequency_rates.py` (v1.6.0) and
+  `scripts/rate_confidence.py` (v1.9.0) exist; other deterministic helpers
+  welcome
 
 ### Recently added (v1.9.0 — October 2026)
 
 v1.9.0 is a content-depth release that closes four roadmap items:
 
-- ✓ **Four new reference files** — `references/hazards-specialist.md`
-  (lead, diesel particulate matter, welding fume, lithium-ion batteries,
-  solar UV, abrasive blasting, formwork and falsework, occupational diving,
-  Q fever and zoonoses); `references/investigation-advanced.md` (ICAM OFT
-  codes, the fatality first 24 hours with police and coroner, STEP, Tripod
-  Beta, HFACS, investigation quality assurance, restorative practice after
-  harm); `references/case-studies-anz.md` (Wittenoom, Montara, Hazelwood,
-  Beaconsfield, Cave Creek, Waterfall, and the first industrial
-  manslaughter prosecutions); `references/case-studies-critical-risk.md`
-  (fall through a fragile roof, confined space and the would-be rescuer,
-  LOTO failure on a conveyor, yard truck / pedestrian interface, exertional
-  heat illness)
-- ✓ **Analytics depth** — `analytics.md` §9–§11: confidence intervals,
-  funnel plots and SPC for rates; exposure-based normalisation; predictive
-  analytics ethics and governance. New calculator
+- ✓ **Case study expansion** — Wittenoom asbestos, Montara blowout (2009),
+  Hazelwood mine fire (2014), Beaconsfield rockfall (2006), Cave Creek
+  platform collapse (1995, NZ), Waterfall rail accident (2003), and the
+  first industrial-manslaughter prosecutions
+  (`references/case-studies-anz.md`); plus everyday critical-risk cases:
+  fall through a fragile roof, confined space entry and the would-be
+  rescuer, LOTO failure on a conveyor, yard truck / pedestrian interface,
+  exertional heat illness (`references/case-studies-critical-risk.md`)
+- ✓ **Hazard chapters** — lead (model WHS Regulations Part 7.2, the reduced
+  blood lead levels and the 2026 SWA consultation), diesel particulate
+  matter, welding fume depth (including the 1 December 2026 WEL changes),
+  lithium-ion batteries, UV / solar exposure, abrasive blasting, formwork
+  and falsework, occupational diving, Q fever and zoonoses
+  (`references/hazards-specialist.md`)
+- ✓ **Investigation depth** — ICAM organisational factor type (OFT) codes,
+  fatality first-24-hours / police / coroner protocol, STEP / Tripod Beta /
+  HFACS methodologies, investigation quality assurance, restorative
+  practice after harm (`references/investigation-advanced.md`)
+- ✓ **Analytics depth** — confidence intervals and funnel plots for rate
+  comparison, exposure-based normalisation, predictive analytics ethics
+  (`references/analytics.md` §9–§11). New calculator
   `scripts/rate_confidence.py` (exact Poisson intervals, two-rate
   comparison, funnel-plot limits; `--self-test`)
 - ✓ **Section-targeted loading** — `references/INDEX.md` rows now carry
