@@ -52,26 +52,26 @@ board reporting, board papers, ELT reporting | frameworks.md | §8, §15 | L332-
 
 ## Hazards
 engineered stone, ban dates | hazards.md | §1 | L36-90
-RCS, silica, silicosis | hazards.md | §2 | L94-155
-asbestos, AMP, register, removal | hazards.md | §3 | L159-201
-construction, principal contractor, WHSMP, HRCW, SWMS | hazards.md | §4, §8 | L205-266, L423-458
-drug and alcohol, D&A testing | hazards.md | §5 | L270-319
-heat stress, WBGT, acclimatisation | hazards.md | §6 | L323-383
-major hazard facilities, safety case | hazards.md | §7 | L387-419
-working at height | hazards.md | §9 | L462-555
-electrical, LOTO, isolation | hazards.md | §10 | L559-637
-confined space | hazards.md | §11 | L641-718
-mobile plant | hazards.md | §12 | L722-800
-hazardous chemicals | hazards.md | §13 | L804-905
-noise | hazards.md | §14 | L909-989
-vibration | hazards.md | §15 | L993-1057
-plant safety | hazards.md | §16 | L1061-1139
-manual tasks, manual handling | hazards.md | §17 | L1143-1217
-fatigue | hazards.md | §18 | L1221-1303
-crane lifts, rigging | hazards.md | §19 | L1307-1405
-demolition | hazards.md | §20 | L1409-1515
-excavation, trench shoring | hazards.md | §21 | L1519-1623
-hot work | hazards.md | §22 | L1627-1720
+RCS, silica, silicosis | hazards.md | §2 | L94-175
+asbestos, AMP, register, removal | hazards.md | §3 | L179-222
+construction, principal contractor, WHSMP, HRCW, SWMS | hazards.md | §4, §8 | L226-287, L453-488
+drug and alcohol, D&A testing | hazards.md | §5 | L291-340
+heat stress, WBGT, acclimatisation | hazards.md | §6 | L344-413
+major hazard facilities, safety case | hazards.md | §7 | L417-449
+working at height | hazards.md | §9 | L492-585
+electrical, LOTO, isolation | hazards.md | §10 | L589-667
+confined space | hazards.md | §11 | L671-748
+mobile plant | hazards.md | §12 | L752-830
+hazardous chemicals | hazards.md | §13 | L834-935
+noise | hazards.md | §14 | L939-1019
+vibration | hazards.md | §15 | L1023-1087
+plant safety | hazards.md | §16 | L1091-1169
+manual tasks, manual handling | hazards.md | §17 | L1173-1247
+fatigue | hazards.md | §18 | L1251-1333
+crane lifts, rigging | hazards.md | §19 | L1337-1435
+demolition | hazards.md | §20 | L1439-1545
+excavation, trench shoring | hazards.md | §21 | L1549-1653
+hot work | hazards.md | §22 | L1657-1752
 lead, lead risk work, blood lead level, removal level, Part 7.2, lead paint, battery recycling | hazards-specialist.md | §2 | L69-258
 diesel particulate matter, DPM, diesel exhaust, elemental carbon, underground diesel | hazards-specialist.md | §3 | L262-445
 welding fume, hexavalent chromium, manganese, on-torch extraction, welding WEL | hazards-specialist.md | §4 | L449-633
@@ -357,27 +357,27 @@ hazards-specialist.md | §8 | Formwork and Falsework | L1199-1378
 hazards-specialist.md | §9 | Occupational Diving | L1382-1570
 hazards-specialist.md | §10 | Q Fever and Zoonoses | L1574-1765
 hazards.md | §1 | Engineered Stone Prohibition | L36-90
-hazards.md | §2 | Respirable Crystalline Silica | L94-155
-hazards.md | §3 | Asbestos Management Summary | L159-201
-hazards.md | §4 | Construction WHS | L205-266
-hazards.md | §5 | Drug and Alcohol Testing | L270-319
-hazards.md | §6 | Working in Heat | L323-383
-hazards.md | §7 | Major Hazard Facilities | L387-419
-hazards.md | §8 | High-Risk Construction Work Categories | L423-458
-hazards.md | §9 | Working at Height | L462-555
-hazards.md | §10 | Electrical Safety, Isolation and LOTO | L559-637
-hazards.md | §11 | Confined Space Entry | L641-718
-hazards.md | §12 | Mobile Plant and Pedestrian Interface | L722-800
-hazards.md | §13 | Hazardous Chemicals — Operational Detail | L804-905
-hazards.md | §14 | Noise | L909-989
-hazards.md | §15 | Hand-Arm and Whole-Body Vibration | L993-1057
-hazards.md | §16 | Plant Safety and Machine Guarding | L1061-1139
-hazards.md | §17 | Manual Tasks and Ergonomics | L1143-1217
-hazards.md | §18 | Fatigue and Fitness for Work | L1221-1303
-hazards.md | §19 | Crane Lifts and Rigging | L1307-1405
-hazards.md | §20 | Demolition | L1409-1515
-hazards.md | §21 | Excavation and Trench Shoring | L1519-1623
-hazards.md | §22 | Hot Work | L1627-1720
+hazards.md | §2 | Respirable Crystalline Silica | L94-175
+hazards.md | §3 | Asbestos Management Summary | L179-222
+hazards.md | §4 | Construction WHS | L226-287
+hazards.md | §5 | Drug and Alcohol Testing | L291-340
+hazards.md | §6 | Working in Heat | L344-413
+hazards.md | §7 | Major Hazard Facilities | L417-449
+hazards.md | §8 | High-Risk Construction Work Categories | L453-488
+hazards.md | §9 | Working at Height | L492-585
+hazards.md | §10 | Electrical Safety, Isolation and LOTO | L589-667
+hazards.md | §11 | Confined Space Entry | L671-748
+hazards.md | §12 | Mobile Plant and Pedestrian Interface | L752-830
+hazards.md | §13 | Hazardous Chemicals — Operational Detail | L834-935
+hazards.md | §14 | Noise | L939-1019
+hazards.md | §15 | Hand-Arm and Whole-Body Vibration | L1023-1087
+hazards.md | §16 | Plant Safety and Machine Guarding | L1091-1169
+hazards.md | §17 | Manual Tasks and Ergonomics | L1173-1247
+hazards.md | §18 | Fatigue and Fitness for Work | L1251-1333
+hazards.md | §19 | Crane Lifts and Rigging | L1337-1435
+hazards.md | §20 | Demolition | L1439-1545
+hazards.md | §21 | Excavation and Trench Shoring | L1549-1653
+hazards.md | §22 | Hot Work | L1657-1752
 inspections-audits-permits.md | §1 | Scope and Key Distinctions | L24-78
 inspections-audits-permits.md | §2 | Workplace Inspection Program Design | L82-164
 inspections-audits-permits.md | §3 | WHS Audit Methodology | L168-306

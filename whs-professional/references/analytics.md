@@ -58,7 +58,7 @@ moving injured workers onto restricted duties to avoid an LTI classification.
 
 > **Provenance note on RWI.** RWI is a US OSHA-origin recordability concept
 > (restricted-work/job-transfer cases under 29 CFR 1904.7) adopted here as a
-> documented organisational convention; under the (now-withdrawn) AS 1885.1
+> documented organisational convention; under the (superseded) AS 1885.1
 > the AU convention was TRIFR = Fatality + LTI + MTI, with AS 1885.1 itself
 > classifying occurrences as lost-time vs no-lost-time rather than defining a
 > distinct "RWI" recordable tier. Counting restricted-duty cases as

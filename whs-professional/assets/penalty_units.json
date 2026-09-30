@@ -5,7 +5,8 @@
       "Apply the value in force at the date the offence was committed, not the sentencing date.",
       "If value is null, or verified_as_at is more than 6 months old, web-verify against the source before use (SKILL.md section 3 hard currency rule).",
       "Some jurisdictions (e.g. WA, SA) prescribe most WHS penalties as dollar amounts rather than penalty units; check the offence provision itself before assuming a penalty-unit calculation applies.",
-      "Several harmonised jurisdictions converted WHS Act penalties from dollar amounts to penalty units via post-2022 amendment Acts - confirm the offence provision's current expression in the consolidated Act."
+      "Several harmonised jurisdictions converted WHS Act penalties from dollar amounts to penalty units via post-2022 amendment Acts - confirm the offence provision's current expression in the consolidated Act.",
+      "Some jurisdictions fix a different unit value for particular Acts. Queensland WHS Act 2011 offences use QLD_WHS ($100, fixed), not the general QLD unit; check for an Act-specific entry before multiplying."
     ]
   },
   "jurisdictions": {
@@ -41,9 +42,16 @@
     "QLD": {
       "value_aud": 172.7,
       "effective_from": "2026-07-01",
-      "indexation": "Indexed annually (default 3.5% unless the Treasurer sets otherwise) under the Penalties and Sentences Act 1992 (Qld) s 5A",
-      "source": "Penalties and Sentences Act 1992 (Qld) s 5A; Qld Department of Local Government",
+      "indexation": "Indexed annually (default 3.5% unless the Treasurer sets otherwise) under the Penalties and Sentences Act 1992 (Qld) s 5A. General unit only: it does NOT apply to the Work Health and Safety Act 2011 (Qld), the Electrical Safety Act 2002 (Qld) or the Safety in Recreational Water Activities Act 2011 (Qld) - use QLD_WHS. It does apply to the Coal Mining Safety and Health Act 1999 and the Mining and Quarrying Safety and Health Act 1999.",
+      "source": "Penalties and Sentences Act 1992 (Qld) ss 5(1)(e), 5A; Qld Department of Local Government",
       "verified_as_at": "2026-07-02"
+    },
+    "QLD_WHS": {
+      "value_aud": 100.0,
+      "effective_from": null,
+      "indexation": "Fixed at $100 - not indexed (Penalties and Sentences Act 1992 (Qld) s 5(1)(d)). Applies to the Work Health and Safety Act 2011 (Qld), the Electrical Safety Act 2002 (Qld), the Safety in Recreational Water Activities Act 2011 (Qld) and infringement notices for offences against them. Example: WHS Act (Qld) s 34C industrial manslaughter, 100,000 penalty units = $10M for a body corporate.",
+      "source": "Penalties and Sentences Act 1992 (Qld) s 5(1)(d), legislation.qld.gov.au current as at 1 October 2026",
+      "verified_as_at": "2026-10-01"
     },
     "WA": {
       "value_aud": null,

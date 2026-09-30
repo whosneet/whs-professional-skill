@@ -277,7 +277,7 @@ recordable injuries (TRI) = Fatality + LTI + RWI + MTI, and
 TRIFR = TRI / hours worked × 1,000,000. RWI (restricted work injury) is
 recordable and is counted in the numerator. RWI is a US OSHA-origin
 recordability concept adopted here as a documented organisational convention;
-under the (now-withdrawn) AS 1885.1 the AU convention was
+under the (superseded) AS 1885.1 the AU convention was
 TRIFR = Fatality + LTI + MTI.
 
 **Statistical inclusion — the Operational Control Rule**: an incident is

@@ -235,9 +235,9 @@ any person engaging in an activity that may give rise to risks of harm to human
 health or the environment. Test mirrors SFAIRP: state of knowledge, likelihood,
 nature and severity of harm, availability and suitability of ways to eliminate
 or reduce, cost. Criminal offence; maximum penalty **10,000 penalty units for a
-body corporate** for a standard breach (~$2.04M at the 2025-26 penalty unit
-value), rising to **20,000 penalty units** for an aggravated (intentional or
-reckless) breach (~$4.07M). The penalty unit value is indexed annually — confirm
+body corporate** for a standard breach (~$2.09M at the 2026–27 penalty unit
+of $209.10), rising to **20,000 penalty units** for an aggravated (intentional
+or reckless) breach (~$4.18M). The penalty unit value is indexed annually — confirm
 the current dollar figure against the Victorian penalty unit rate before citing
 a dollar amount.
 

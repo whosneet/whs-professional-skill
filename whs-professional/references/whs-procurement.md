@@ -315,7 +315,7 @@ and a competitive positioning element (selectively presented).
   project is structurally different from a maintenance contract or a head
   office; tenders sometimes evaluate apples-to-oranges
 - Definition matters — TRIFR calculation differs across organisations
-  (AS 1885.1:1990 is now withdrawn but remains the de facto recordability
+  (AS 1885.1:1990 is superseded but remains the de facto recordability
   basis many organisations still use; Safe Work Australia counting rules are
   the contemporary reference — there is no single current AS equivalent, and
   hours included and recordability criteria vary); state the definition used

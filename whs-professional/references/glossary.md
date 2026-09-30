@@ -31,7 +31,7 @@ Load this file when the user is new to WHS or asks what a term means.
 | **HSR** | Health and Safety Representative — elected worker representative with statutory powers. |
 | **HSC** | Health and Safety Committee — joint worker/management consultative body. |
 | **SFAIRP** | So Far As Is Reasonably Practicable — the operative AU/NZ WHS duty standard. |
-| **ALARP** | As Low As Reasonably Practicable — UK / petroleum sector standard; not the AU/NZ standard. |
+| **ALARP** | As Low As Reasonably Practicable — UK / petroleum sector standard; not the general AU/NZ WHS test (SFAIRP). In AU it is the acceptance test for offshore petroleum safety cases, while the offshore operator's duty itself is "all reasonably practicable steps" (OPGGS Act Sch 3 cl 9; `sector-regimes.md` §3). |
 | **Duty of Care** | The legal obligation to take reasonable care to avoid causing harm. |
 | **3Cs** | Consult, Cooperate, Coordinate — the duty among multiple PCBUs sharing a workplace. |
 
@@ -99,7 +99,7 @@ Load this file when the user is new to WHS or asks what a term means.
 
 | Term | Meaning |
 |---|---|
-| **TRIFR** | Total Recordable Injury Frequency Rate — (Fatalities + LTIs + RWIs + MTIs) ÷ hours worked × 1,000,000. RWI (restricted work injury) is a US OSHA-origin recordability concept adopted here as a documented organisational convention; under the (now-withdrawn) AS 1885.1 the AU convention was TRIFR = Fatality + LTI + MTI. |
+| **TRIFR** | Total Recordable Injury Frequency Rate — (Fatalities + LTIs + RWIs + MTIs) ÷ hours worked × 1,000,000. RWI (restricted work injury) is a US OSHA-origin recordability concept adopted here as a documented organisational convention; under the (now-superseded) AS 1885.1 the AU convention was TRIFR = Fatality + LTI + MTI. |
 | **LTIFR** | Lost Time Injury Frequency Rate — LTIs ÷ hours worked × 1,000,000. |
 | **MTIFR** | Medical Treatment Injury Frequency Rate — MTIs ÷ hours worked × 1,000,000. |
 | **RWIFR** | Restricted Work Injury Frequency Rate — RWIs ÷ hours worked × 1,000,000. |
@@ -568,7 +568,7 @@ appears repeatedly, the canonical entry is here.
 | **AS/NZS 1680** | Interior and workplace lighting |
 | **AS/NZS 1715** | Selection, use and maintenance of respiratory protective equipment |
 | **AS/NZS 1716** | Respiratory protective devices |
-| **AS 1885.1** | Workplace injury and disease recording — the legacy AU recordability standard (withdrawn) |
+| **AS 1885.1** | Workplace injury and disease recording — the legacy AU recordability standard (AS 1885.1-1990; superseded 22 May 2025 by AS/NZS ISO 45004:2024, which is performance-evaluation guidance, not a recording standard, so the 1885.1 rate definitions survive as convention) |
 | **AS/NZS 1891** (series) | Industrial fall-arrest systems and devices |
 | **AS/NZS 1940** | Storage and handling of flammable and combustible liquids |
 | **AS/NZS 2243.3** | Safety in laboratories — Microbiological safety and containment (PC1–PC4) |

@@ -175,6 +175,16 @@ must_not = [
     (r"revised away from immediate horizontal recovery", "inverted suspension-trauma positioning advice"),
     (r"client must appoint the PC", "Reg 293: commissioning PCBU is the PC by default"),
     (r"WA retains journey claims", "WA excludes ordinary commute journey claims"),
+    # v1.9.0 currency audit (1 Oct 2026) — corrected errors that must never reappear
+    (r"right to silence applies", "model WHS Act s 172 abrogates the privilege (direct-use immunity only)"),
+    (r"(?:s 34C|QLD|Qld)[^\n]{0,120}(?:17\.3M|\$172\.70)", "WHS Act (Qld) offences use a fixed $100 penalty unit (PSA 1992 s 5(1)(d)); s 34C maximum is $10M"),
+    (r"including nitrogen\s+dioxide also change", "NO2 is unchanged on 1 Dec 2026 (one of the nine deferred chemicals)"),
+    (r"[Cc]ollapse, overturning, failure of any plant", "s 37(g) covers only plant that must be authorised"),
+    (r"now-withdrawn\) AS 1885|AS 1885\.1[^\n]{0,20}(?:is now withdrawn|\(withdrawn\))", "AS 1885.1-1990 is superseded by AS/NZS ISO 45004:2024, not withdrawn"),
+    (r"NSW and VIC require \*{0,2}gross negligence", "VIC s 39E is negligence (great falling short), not gross negligence"),
+    (r"keep exposure ALARP|carcinogen — ALARP", "AU WHS duty is SFAIRP, not ALARP"),
+    (r"statutory test offshore is ALARP", "OPGGS Sch 3 cl 9 is 'all reasonably practicable steps'; ALARP is the safety-case acceptance test"),
+    (r"WorkSafe WA, within the Department of Energy", "DEMIRS dissolved 30 Jun 2025; WorkSafe WA sits in LGIRS"),
 ]
 for p in skill_md_files:
     t = read(p)

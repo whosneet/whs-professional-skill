@@ -356,8 +356,9 @@ Control inspections verify compliance for vessels in AU ports.
 Authority (NOPSEMA). Established **1 January 2012**, replacing NOPSA, in
 response to the Montara incident (West Atlas blowout, Timor Sea, 21 August
 2009) and the Macondo / Deepwater Horizon disaster (Gulf of Mexico, 20 April
-2010). NOPSEMA absorbed environmental approval and management functions from
-the Department of Industry to become the single offshore petroleum regulator.
+2010). NOPSEMA took over environmental management (acceptance of environment
+plans) from the state and NT Designated Authorities to become the single
+offshore petroleum regulator.
 
 **Scope**: Regulates occupational health and safety, well integrity, and
 environmental management of offshore petroleum operations in
@@ -366,6 +367,12 @@ the National Offshore Petroleum Titles Administrator (NOPTA) — also a
 Commonwealth body — administers petroleum titles in Commonwealth waters.
 Coastal (state) waters are regulated by the relevant state or NT resources
 department under mirror legislation.
+
+**Duty standard** — the operator's general OHS duty is to take **all
+reasonably practicable steps** to ensure the facility, and work on it, is
+safe and without risk to health (OPGGS Act Sch 3 cl 9(1)); that is the
+offence provision. ALARP is the acceptance test NOPSEMA applies to
+permissioning documents such as the safety case.
 
 **Safety Case regime** — operators of offshore facilities must prepare and
 submit a written Safety Case to NOPSEMA demonstrating that risks to workers
