@@ -251,6 +251,11 @@ follows the same 1–10 structure as the interview.
   PEEPO information-gathering questions and likely contributing factors to test."
 - "Draft an executive summary for an ICAM report on a fatal electrical incident.
   Use the structure in the skill. I'll fill in the details."
+- "A worker died on our Brisbane site an hour ago. Police and the inspector
+  are on their way — what do we do in the next 24 hours, and who talks to
+  whom?"
+- "Code the contributing factors from this ICAM report to OFT codes and tell me
+  what the trend across our last 20 investigations says."
 
 **Legislative & regulatory**
 - "Explain the differences in industrial manslaughter exposure between NSW, QLD,
@@ -268,6 +273,10 @@ follows the same 1–10 structure as the interview.
   summer. Include WBGT thresholds and acclimatisation periods."
 - "Draft a toolbox talk on respirable crystalline silica for construction
   workers. 12 minutes, conversational, frontline language."
+- "Our MIG welders on mild steel measure 0.6 mg/m³ total fume. Are we
+  compliant after 1 December 2026, and what changes for manganese?"
+- "Staff are charging e-bikes in the loading dock. Write the charging and
+  storage rules and the emergency plan additions."
 
 **Risk & frameworks**
 - "Critical control verification approach for working at heights at a remote
@@ -287,6 +296,9 @@ follows the same 1–10 structure as the interview.
   maximum."
 - "Draft DAX patterns for a Power BI WHS dashboard that uses rolling 12-month
   hours anchored to the last closed period."
+- "Site B's TRIFR went from 8.1 to 11.4 this quarter on 44 recordables. Is
+  that a real change? Show the confidence intervals and a funnel plot against
+  our other sites."
 
 **Governance**
 - "WHS Management Plan structure for a $4M construction project (well above
@@ -294,6 +306,8 @@ follows the same 1–10 structure as the interview.
   Include PC duties, HRCW management, SWMS workflow, induction."
 - "Lessons Learnt register design that captures during projects, not just at
   close."
+- "Board paper on what the first industrial manslaughter prosecutions tell us
+  about officer exposure — use the Australian cases, with dates and outcomes."
 
 ---
 
@@ -521,7 +535,8 @@ delivered, and stay open:
   supply / utilities, renewables (including battery energy storage
   systems), commercial fishing, security, emergency services
 - ~~**Hazard chapters**~~ — ✓ closed in v1.9.0: lead (model WHS
-  Regulations Part 7.2, including the 2022 blood lead level reductions),
+  Regulations Part 7.2, the reduced blood lead levels and the 2026 SWA
+  consultation),
   diesel particulate matter, welding fume depth, lithium-ion batteries, UV /
   solar exposure, abrasive blasting, formwork and falsework, occupational
   diving, Q fever and zoonoses (`references/hazards-specialist.md`)
