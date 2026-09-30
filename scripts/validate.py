@@ -185,6 +185,15 @@ must_not = [
     (r"keep exposure ALARP|carcinogen — ALARP", "AU WHS duty is SFAIRP, not ALARP"),
     (r"statutory test offshore is ALARP", "OPGGS Sch 3 cl 9 is 'all reasonably practicable steps'; ALARP is the safety-case acceptance test"),
     (r"WorkSafe WA, within the Department of Energy", "DEMIRS dissolved 30 Jun 2025; WorkSafe WA sits in LGIRS"),
+    (r"health monitoring to workers who carry out the work", "HRCSW does not itself trigger health monitoring; the test is reg 368 significant risk"),
+    (r"Required where workers are carrying out HRCSW", "health-monitoring trigger is reg 368 significant risk, not HRCSW status"),
+    (r"may generate RCS at concentrations that exceed", "wrong HRCSW definition; reg 529CA is 'reasonably likely to result in a risk to health'"),
+    (r"Crystalline silica process \(CSP\)", "not a model-law term; the terms are CSS and processing (reg 529A)"),
+    (r"constituents[^\n]{0,40}manganese[^\n]{0,40}lower exposure standards", "manganese WES equals the fume limit until 30 Nov 2026"),
+    (r"completed on time \| Investigation rigour", "on-time completion measures throughput, not rigour"),
+    (r"Stops machine when guard opens", "misstates the reg 208(2)(b) interlock wording"),
+    (r"Substitution \| Reschedul", "rescheduling is never substitution (ACT heat code: elimination; UV: administrative)"),
+    (r"travel restraint[^\n]{0,80}(ranks third|79\(3\)\(c\))", "travel restraint is work positioning, reg 79(3)(b)"),
 ]
 for p in skill_md_files:
     t = read(p)

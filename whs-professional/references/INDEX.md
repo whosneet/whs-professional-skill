@@ -41,14 +41,14 @@ investigation quality assurance, QA rubric, peer review, challenge panel, invest
 restorative practice, restorative just culture, apology, second victim, reparation | investigation-advanced.md | §8 | L1165-1349
 
 ## Frameworks & governance
-hierarchy of controls, SFAIRP, risk assessment | frameworks.md | §1-§10 | L28-452
-Safety II, HOP, resilience engineering, Forge Works | frameworks.md | §4-§6, §11 | L133-272, L456-535
-named thinkers, Reason, Dekker, Hollnagel, Conklin, Edmondson, Provan, Rasmussen, Hopkins, Weick, Westrum | frameworks.md | §12 | L540-685
-M&A, due diligence, acquisition, integration, sector overlays | frameworks.md | §13 | L689-879
-psychosocial controls, hierarchy for psychosocial | frameworks.md | §14 | L883-964
-governance, assurance, audit program | frameworks.md | §15 | L968-1068
-ISO 45001 clause map | frameworks.md | §3 | L82-129
-board reporting, board papers, ELT reporting | frameworks.md | §8, §15 | L332-377, L968-1068
+hierarchy of controls, SFAIRP, risk assessment | frameworks.md | §1-§10 | L28-457
+Safety II, HOP, resilience engineering, Forge Works | frameworks.md | §4-§6, §11 | L138-277, L461-540
+named thinkers, Reason, Dekker, Hollnagel, Conklin, Edmondson, Provan, Rasmussen, Hopkins, Weick, Westrum | frameworks.md | §12 | L545-690
+M&A, due diligence, acquisition, integration, sector overlays | frameworks.md | §13 | L694-886
+psychosocial controls, hierarchy for psychosocial | frameworks.md | §14 | L890-971
+governance, assurance, audit program | frameworks.md | §15 | L975-1075
+ISO 45001 clause map | frameworks.md | §3 | L87-134
+board reporting, board papers, ELT reporting | frameworks.md | §8, §15 | L337-382, L975-1075
 
 ## Hazards
 engineered stone, ban dates | hazards.md | §1 | L36-90
@@ -301,21 +301,21 @@ environment.md | §12 | 3 Extreme Weather Event Planning | L1094-1109
 environment.md | §12 | 4 Adaptation vs Mitigation | L1111-1123
 environment.md | §13 | Environmental Output Checklist | L1127-1151
 frameworks.md | §1 | Hierarchy of Controls | L28-49
-frameworks.md | §2 | So Far As Is Reasonably Practicable (SFAIRP) | L53-72
-frameworks.md | §3 | ISO 45001:2018 — OH&S Management System | L76-80
-frameworks.md | §3 | 1 Clause Map | L82-129
-frameworks.md | §4 | Safety II and New View Safety | L133-175
-frameworks.md | §5 | Human and Organisational Performance (HOP) | L179-234
-frameworks.md | §6 | Resilience Engineering | L238-272
-frameworks.md | §7 | Critical Risk Management | L276-328
-frameworks.md | §8 | Board and ELT Safety Reporting | L332-377
-frameworks.md | §9 | Leading and Lagging Indicators | L381-411
-frameworks.md | §10 | Worker Engagement and Participation | L415-452
-frameworks.md | §11 | Forge Works Blueprint | L456-535
-frameworks.md | §12 | Safety Science — Named Thinkers | L540-685
-frameworks.md | §13 | WHS in M&A and Due Diligence | L689-879
-frameworks.md | §14 | Psychosocial Risk Controls | L883-964
-frameworks.md | §15 | Governance and Assurance Frameworks | L968-1068
+frameworks.md | §2 | So Far As Is Reasonably Practicable (SFAIRP) | L53-77
+frameworks.md | §3 | ISO 45001:2018 — OH&S Management System | L81-85
+frameworks.md | §3 | 1 Clause Map | L87-134
+frameworks.md | §4 | Safety II and New View Safety | L138-180
+frameworks.md | §5 | Human and Organisational Performance (HOP) | L184-239
+frameworks.md | §6 | Resilience Engineering | L243-277
+frameworks.md | §7 | Critical Risk Management | L281-333
+frameworks.md | §8 | Board and ELT Safety Reporting | L337-382
+frameworks.md | §9 | Leading and Lagging Indicators | L386-416
+frameworks.md | §10 | Worker Engagement and Participation | L420-457
+frameworks.md | §11 | Forge Works Blueprint | L461-540
+frameworks.md | §12 | Safety Science — Named Thinkers | L545-690
+frameworks.md | §13 | WHS in M&A and Due Diligence | L694-886
+frameworks.md | §14 | Psychosocial Risk Controls | L890-971
+frameworks.md | §15 | Governance and Assurance Frameworks | L975-1075
 glossary.md | - | Acts, Regulations & Bodies | L8-21
 glossary.md | - | Duties & Standards | L25-36
 glossary.md | - | Enforcement & Offences | L40-47

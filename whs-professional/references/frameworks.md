@@ -69,7 +69,12 @@ and petroleum/major-hazard practice; the UK statute itself uses 'so far as is
 reasonably practicable').
 SFAIRP requires weighing all factors and applying the best available controls
 unless cost is grossly disproportionate. When advising under AU/NZ WHS frameworks,
-use SFAIRP, not ALARP.
+use SFAIRP, not ALARP. Two AU regimes set a different test: Queensland mines
+need risk at an "acceptable level", within acceptable limits and as low as
+reasonably achievable (CMSHA 1999 (Qld) s 29; MQSHA 1999 (Qld) s 26), and
+NOPSEMA accepts an offshore safety case only if it shows ALARP, though the
+operator's general duty is all reasonably practicable steps (OPGGS Act Sch 3
+cl 9). Write site standards to the governing test (`sector-regimes.md` §2–§3).
 
 ---
 
@@ -397,7 +402,7 @@ Measure inputs, activities, and system health — predictors of future performan
 |---|---|---|
 | Hazard management | Hazard reports per worker per month | Workforce engagement; reporting culture |
 | Hazard management | % hazards closed within due date | System responsiveness |
-| Investigation | % incident investigations completed on time | Investigation rigour |
+| Investigation | % incident investigations completed on time | Investigation throughput, not quality: report beside a quality review (premature closure, `investigation.md` §6) |
 | Investigation | % corrective actions closed on time | Systemic follow-through |
 | Critical risk | CCV completion rate vs plan | Critical control management |
 | Critical risk | % degraded controls escalated | Control failure visibility |
@@ -762,7 +767,9 @@ completion conditions, and post-acquisition integration priorities.
   completion adjustments
 - **Officer due diligence post-acquisition** — incoming officers inherit the
   duty from the date they become officers; pre-acquisition non-compliance is
-  part of the evidentiary picture if a subsequent event occurs
+  part of the evidentiary picture if a subsequent event occurs. Victoria has
+  no officer duty to inherit: officer liability there is derivative (OHS Act
+  2004 (Vic) s 144; `legislation.md` §16)
 
 ### Integration planning
 
