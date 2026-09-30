@@ -1,6 +1,6 @@
 ---
 name: whs-professional
-version: 1.8.0
+version: 1.9.0
 description: >
   Expert WHS/OHS professional for Australia and New Zealand. Use for incident
   investigation (ICAM, 5-Why, Tripod, HFACS) and workplace fatalities;
