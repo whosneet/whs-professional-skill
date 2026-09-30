@@ -110,28 +110,40 @@ From 1 September 2024, model WHS Regulations introduced stronger requirements fo
 - **Crystalline silica substance (CSS)**: material containing at least 1%
   crystalline silica, w/w (model Reg 529A). **Processing** means using power
   tools or mechanical plant to crush, cut, grind, trim, sand, polish or drill
-  it, plus activities such as excavation, quarrying, screening and tunnelling
+  it; roadheader excavation, quarrying, mechanical screening or tunnelling
+  in a CSS; and any process reasonably likely to expose a person to RCS
+  during the manufacture or handling of a CSS, such as sweeping settled dust
 - **Controlled processing** (model Regs 529B–529C): all CSS processing needs
   at least one of isolation, a fully enclosed cabin with high-efficiency air
   filtration, wet dust suppression, on-tool extraction or LEV, plus RPE worn
   by anyone still at risk of exposure
 - **High-Risk Crystalline Silica Work (HRCSW)**: processing assessed before it
   starts as reasonably likely to result in a risk to health (model Reg 529CA).
-  RPE and administrative controls are ignored in that assessment; if unsure,
-  treat the processing as high risk
+  RPE and administrative controls are ignored in that assessment, and the
+  Reg 529B(1)(b) engineering measures cannot be relied on to find the work
+  not high risk (Reg 529CA(3)); if unsure, treat the processing as high risk
 
 For HRCSW, the PCBU must:
 - Prepare a written **Silica Risk Control Plan** before work commences (model
-  Reg 529CB); in construction work a SWMS can serve as the plan
-- Provide health monitoring where there is a significant risk to health from
-  the work (model Reg 368, Sch 14); HRCSW status alone is not the trigger
-- Provide crystalline silica training — a course that is nationally accredited or
-  approved by the WHS regulator (model Reg 529CD); keep training records for 5 years
-- Carry out air monitoring under model Reg 50 where unsure whether exposure
-  exceeds the WES or whether there is a risk to health. Results above the WES
-  go to the regulator as soon as reasonably practicable and within 14 days of
-  receiving them (model Reg 529CE). WA requires air monitoring for all
-  high-risk processing (WorkSafe WA, as at October 2026)
+  Reg 529CB); where the processing is also high risk construction work, a
+  SWMS that meets Reg 529CB(2) can serve as the plan (Reg 529CB(3))
+- Provide health monitoring for the workers doing the HRCSW in accordance
+  with Division 6 of Part 7.1 (model Reg 529CE(c)); SWA reads Reg 368's
+  significant-risk test into that, so HRCSW status alone is not the trigger
+  and the PCBU must determine whether each HRCSW worker is at significant
+  risk (Reg 368, Sch 14)
+- Provide crystalline silica training — a course that is nationally
+  accredited or approved by the WHS regulator (model Reg 529CD); keep the
+  training record while the worker does the work and for 5 years after they
+  leave the PCBU
+- Undertake air monitoring for RCS in accordance with model Reg 50 (model
+  Reg 529CE(a)). Reg 50 requires it where the PCBU is not certain on
+  reasonable grounds whether exposure exceeds the WES, or where monitoring is
+  needed to determine whether there is a risk to health; SWA reads that
+  trigger into Reg 529CE, while WorkSafe WA presents air monitoring as
+  required for all high-risk processing (as at October 2026). Results above
+  the WES go to the regulator as soon as reasonably practicable and within
+  14 days of receiving them (Reg 529CE(b))
 - Review (and as necessary revise) the plan whenever the silica processes or the
   relevant control measures change — the model regulations tie review to
   control-measure revision, not a fixed periodic cycle
@@ -161,13 +173,16 @@ tier as substitution and engineering controls under model WHS Reg 36(3).
 
 ### Health monitoring
 Required where there is a significant risk to a worker's health from exposure to
-crystalline silica (model Reg 368, Sch 14). SafeWork NSW applies that test to
-ongoing high-risk processing; exposure above the WES is evidence of the risk,
-not the legal trigger. Includes baseline and ongoing chest imaging (typically
-low-dose HRCT or ILO-classified chest X-ray), respiratory function testing,
-occupational history. Frequency depends on exposure profile. Results must be
-provided to the worker. Keep health monitoring reports for at least 30 years
-(model Reg 378) and air-monitoring results for 30 years (model Reg 50).
+crystalline silica (model Reg 368, Sch 14). Model Reg 529CE(c) separately
+requires health monitoring for workers carrying out HRCSW in accordance with
+Division 6 of Part 7.1, which SWA and SafeWork NSW read as importing the same
+significant-risk test for ongoing high-risk processing; exposure above the
+WES is evidence of the risk, not the legal trigger. Includes baseline and
+ongoing chest imaging (typically low-dose HRCT or ILO-classified chest
+X-ray), respiratory function testing, occupational history. Frequency depends
+on exposure profile. Results must be provided to the worker. Keep health
+monitoring reports for at least 30 years (model Reg 378) and air-monitoring
+results for 30 years (model Reg 50).
 
 ### Silicosis presumptive provisions
 Several workers compensation schemes (QLD, NSW, VIC) have presumptive silicosis
@@ -1713,7 +1728,10 @@ Required for hot work outside dedicated welding bays in:
 > **Workplace Exposure Limits (WEL)**. Welding fume stays at 1 mg/m³, but
 > manganese falls to 0.1 mg/m³ inhalable and 0.02 mg/m³ respirable: fume over
 > about 2% manganese can pass on fume and fail on Mn, so sample both
-> fractions and analyse for Mn. Constituent table: `hazards-specialist.md` §4.
+> fractions and analyse for Mn. Hexavalent chromium loses its limit: it is
+> listed as a non-threshold genotoxic carcinogen (WEL list Appendix B), so
+> exposure must be minimised so far as is reasonably practicable rather than
+> held under 0.05 mg/m³. Constituent table: `hazards-specialist.md` §4.
 
 ### Fire watch duties
 

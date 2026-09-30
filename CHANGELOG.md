@@ -85,9 +85,9 @@ fact-checks also surfaced errors in the existing corpus, fixed below.
   CSS and "processing" defined (reg 529A), controlled processing
   (regs 529B–529C), the reg 529CA high-risk test assessed ignoring RPE,
   silica risk control plans (reg 529CB), exceedance notice to the
-  regulator within 14 days (reg 529CE), the NSW Silica Worker Register;
-  health monitoring re-anchored to the reg 368 significant-risk trigger
-  (HRCSW status alone does not trigger it); record retention periods added
+  regulator within 14 days (reg 529CE(b)), the NSW Silica Worker Register;
+  health monitoring stated as the reg 529CE(c) duty for HRCSW workers read
+  with the reg 368 significant-risk test; record retention periods added
   (regs 50, 378, 444)
 - `hazards.md`: ACT extreme temperatures code (NI2025-607, in force
   14 November 2025) and model reg 40(f) added to §6; §16 guard rows

@@ -52,26 +52,26 @@ board reporting, board papers, ELT reporting | frameworks.md | §8, §15 | L337-
 
 ## Hazards
 engineered stone, ban dates | hazards.md | §1 | L36-90
-RCS, silica, silicosis | hazards.md | §2 | L94-175
-asbestos, AMP, register, removal | hazards.md | §3 | L179-222
-construction, principal contractor, WHSMP, HRCW, SWMS | hazards.md | §4, §8 | L226-287, L453-488
-drug and alcohol, D&A testing | hazards.md | §5 | L291-340
-heat stress, WBGT, acclimatisation | hazards.md | §6 | L344-413
-major hazard facilities, safety case | hazards.md | §7 | L417-449
-working at height | hazards.md | §9 | L492-585
-electrical, LOTO, isolation | hazards.md | §10 | L589-667
-confined space | hazards.md | §11 | L671-748
-mobile plant | hazards.md | §12 | L752-830
-hazardous chemicals | hazards.md | §13 | L834-935
-noise | hazards.md | §14 | L939-1019
-vibration | hazards.md | §15 | L1023-1087
-plant safety | hazards.md | §16 | L1091-1169
-manual tasks, manual handling | hazards.md | §17 | L1173-1247
-fatigue | hazards.md | §18 | L1251-1333
-crane lifts, rigging | hazards.md | §19 | L1337-1435
-demolition | hazards.md | §20 | L1439-1545
-excavation, trench shoring | hazards.md | §21 | L1549-1653
-hot work | hazards.md | §22 | L1657-1752
+RCS, silica, silicosis | hazards.md | §2 | L94-190
+asbestos, AMP, register, removal | hazards.md | §3 | L194-237
+construction, principal contractor, WHSMP, HRCW, SWMS | hazards.md | §4, §8 | L241-302, L468-503
+drug and alcohol, D&A testing | hazards.md | §5 | L306-355
+heat stress, WBGT, acclimatisation | hazards.md | §6 | L359-428
+major hazard facilities, safety case | hazards.md | §7 | L432-464
+working at height | hazards.md | §9 | L507-600
+electrical, LOTO, isolation | hazards.md | §10 | L604-682
+confined space | hazards.md | §11 | L686-763
+mobile plant | hazards.md | §12 | L767-845
+hazardous chemicals | hazards.md | §13 | L849-950
+noise | hazards.md | §14 | L954-1034
+vibration | hazards.md | §15 | L1038-1102
+plant safety | hazards.md | §16 | L1106-1184
+manual tasks, manual handling | hazards.md | §17 | L1188-1262
+fatigue | hazards.md | §18 | L1266-1348
+crane lifts, rigging | hazards.md | §19 | L1352-1450
+demolition | hazards.md | §20 | L1454-1560
+excavation, trench shoring | hazards.md | §21 | L1564-1668
+hot work | hazards.md | §22 | L1672-1770
 lead, lead risk work, blood lead level, removal level, Part 7.2, lead paint, battery recycling | hazards-specialist.md | §2 | L69-258
 diesel particulate matter, DPM, diesel exhaust, elemental carbon, underground diesel | hazards-specialist.md | §3 | L262-445
 welding fume, hexavalent chromium, manganese, on-torch extraction, welding WEL | hazards-specialist.md | §4 | L449-633
@@ -80,7 +80,7 @@ solar UV, sun protection, skin cancer, UV Index, arc eye | hazards-specialist.md
 abrasive blasting, blast media, restricted media, blast helmet, breathing air | hazards-specialist.md | §7 | L1026-1195
 formwork, falsework, AS 3610, pre-pour inspection, formwork collapse, back-propping | hazards-specialist.md | §8 | L1199-1378
 occupational diving, diving work, dive plan, dive supervisor, ADAS, decompression illness, Part 4.8 | hazards-specialist.md | §9 | L1382-1570
-Q fever, Q-VAX, zoonoses, leptospirosis, Hendra, brucellosis, lyssavirus, Japanese encephalitis, avian influenza | hazards-specialist.md | §10 | L1574-1765
+Q fever, Q-VAX, zoonoses, leptospirosis, Hendra, brucellosis, lyssavirus, Japanese encephalitis, avian influenza | hazards-specialist.md | §10 | L1574-1766
 
 ## Deliverables & templates
 safety alert, toolbox talk, advisory note, policy, procedure, contractor docs | output-templates.md | §1-§10 | L32-611
@@ -110,7 +110,7 @@ STAR, stop think act review, point-of-work check | inspections-audits-permits.md
 landmark case studies: Longford, Texas City, Macondo, Pike River, Dreamworld, Whakaari, Grenfell, Costa Concordia, Ranger, Bhopal, Beirut | case-studies.md | §1-§13 | L28-1244
 everyday case studies: forklift, manual handling, psychosocial, electrical, slip trip, chemical, fatigue | case-studies-everyday.md | all | L1-1283
 AU/NZ landmark case studies: Wittenoom, Montara, Hazelwood, Beaconsfield, Cave Creek, Waterfall | case-studies-anz.md | §2-§7 | L90-963
-first industrial manslaughter prosecutions, Brisbane Auto Recycling, workplace manslaughter convictions | case-studies-anz.md | §8 | L967-1110
+first industrial manslaughter prosecutions, Brisbane Auto Recycling, workplace manslaughter convictions | case-studies-anz.md | §8 | L967-1113
 everyday critical-risk case studies: fall through roof, confined space rescue, LOTO failure, yard truck pedestrian, heat illness | case-studies-critical-risk.md | §2-§6 | L98-1064
 mining, maritime, aviation, rail, healthcare biosafety, defence | sector-regimes.md | §2-§7 | L99-1042
 petrochemical, telecoms, agriculture, hospitality, education, retail | sector-regimes.md | §8-§13 | L1117-1373
@@ -162,8 +162,8 @@ case-studies-anz.md | §4 | Hazelwood Mine Fire (February–March 2014) | L386-5
 case-studies-anz.md | §5 | Beaconsfield Gold Mine Rockfall (25 April 2006) | L535-681
 case-studies-anz.md | §6 | Cave Creek Platform Collapse (28 April 1995, NZ) | L685-832
 case-studies-anz.md | §7 | Waterfall Rail Accident (31 January 2003) | L836-963
-case-studies-anz.md | §8 | The First Industrial Manslaughter Prosecutions | L967-1110
-case-studies-anz.md | §9 | Cross-Case Themes | L1114-1152
+case-studies-anz.md | §8 | The First Industrial Manslaughter Prosecutions | L967-1113
+case-studies-anz.md | §9 | Cross-Case Themes | L1117-1155
 case-studies-critical-risk.md | §1 | How These Cases Are Built | L47-94
 case-studies-critical-risk.md | §2 | Case 8 — Fall Through Fragile Roof | L98-288
 case-studies-critical-risk.md | §3 | Case 9 — Confined Space Entry and Would-Be Rescuer | L292-476
@@ -355,29 +355,29 @@ hazards-specialist.md | §6 | Solar UV Radiation | L832-1022
 hazards-specialist.md | §7 | Abrasive Blasting | L1026-1195
 hazards-specialist.md | §8 | Formwork and Falsework | L1199-1378
 hazards-specialist.md | §9 | Occupational Diving | L1382-1570
-hazards-specialist.md | §10 | Q Fever and Zoonoses | L1574-1765
+hazards-specialist.md | §10 | Q Fever and Zoonoses | L1574-1766
 hazards.md | §1 | Engineered Stone Prohibition | L36-90
-hazards.md | §2 | Respirable Crystalline Silica | L94-175
-hazards.md | §3 | Asbestos Management Summary | L179-222
-hazards.md | §4 | Construction WHS | L226-287
-hazards.md | §5 | Drug and Alcohol Testing | L291-340
-hazards.md | §6 | Working in Heat | L344-413
-hazards.md | §7 | Major Hazard Facilities | L417-449
-hazards.md | §8 | High-Risk Construction Work Categories | L453-488
-hazards.md | §9 | Working at Height | L492-585
-hazards.md | §10 | Electrical Safety, Isolation and LOTO | L589-667
-hazards.md | §11 | Confined Space Entry | L671-748
-hazards.md | §12 | Mobile Plant and Pedestrian Interface | L752-830
-hazards.md | §13 | Hazardous Chemicals — Operational Detail | L834-935
-hazards.md | §14 | Noise | L939-1019
-hazards.md | §15 | Hand-Arm and Whole-Body Vibration | L1023-1087
-hazards.md | §16 | Plant Safety and Machine Guarding | L1091-1169
-hazards.md | §17 | Manual Tasks and Ergonomics | L1173-1247
-hazards.md | §18 | Fatigue and Fitness for Work | L1251-1333
-hazards.md | §19 | Crane Lifts and Rigging | L1337-1435
-hazards.md | §20 | Demolition | L1439-1545
-hazards.md | §21 | Excavation and Trench Shoring | L1549-1653
-hazards.md | §22 | Hot Work | L1657-1752
+hazards.md | §2 | Respirable Crystalline Silica | L94-190
+hazards.md | §3 | Asbestos Management Summary | L194-237
+hazards.md | §4 | Construction WHS | L241-302
+hazards.md | §5 | Drug and Alcohol Testing | L306-355
+hazards.md | §6 | Working in Heat | L359-428
+hazards.md | §7 | Major Hazard Facilities | L432-464
+hazards.md | §8 | High-Risk Construction Work Categories | L468-503
+hazards.md | §9 | Working at Height | L507-600
+hazards.md | §10 | Electrical Safety, Isolation and LOTO | L604-682
+hazards.md | §11 | Confined Space Entry | L686-763
+hazards.md | §12 | Mobile Plant and Pedestrian Interface | L767-845
+hazards.md | §13 | Hazardous Chemicals — Operational Detail | L849-950
+hazards.md | §14 | Noise | L954-1034
+hazards.md | §15 | Hand-Arm and Whole-Body Vibration | L1038-1102
+hazards.md | §16 | Plant Safety and Machine Guarding | L1106-1184
+hazards.md | §17 | Manual Tasks and Ergonomics | L1188-1262
+hazards.md | §18 | Fatigue and Fitness for Work | L1266-1348
+hazards.md | §19 | Crane Lifts and Rigging | L1352-1450
+hazards.md | §20 | Demolition | L1454-1560
+hazards.md | §21 | Excavation and Trench Shoring | L1564-1668
+hazards.md | §22 | Hot Work | L1672-1770
 inspections-audits-permits.md | §1 | Scope and Key Distinctions | L24-78
 inspections-audits-permits.md | §2 | Workplace Inspection Program Design | L82-164
 inspections-audits-permits.md | §3 | WHS Audit Methodology | L168-306

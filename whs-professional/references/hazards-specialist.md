@@ -155,8 +155,8 @@ removal in NSW in 2022 but not in Queensland or under Comcare.
 | VIC | OHS Amendment Regulations 2018 (S.R. No. 71/2018); two-year deferral in OHS Regs regs 193(2), 199(1A) | 5 June 2020 |
 | ACT | WHS Amendment Regulation 2020 (No 1) (SL2020-27) | 3 August 2020 |
 | TAS | WHS Amendment Regulations 2019 (S.R. 2019, No. 9); carried into the WHS Regulations 2022 | 1 January 2021 |
-| NSW | WHS Regulation 2017 amended 1 July 2019; now WHS Regulation 2025 ss 394–417 | In force before 2022 |
-| SA | WHS Regulations 2012 (SA) | In force before 2022 |
+| NSW | WHS Regulation 2017 amended from 1 July 2019 with a two-year transitional period; now WHS Regulation 2025 (commenced 22 August 2025) ss 394–417 | 1 July 2021 |
+| SA | WHS (Blood Lead Removal Levels) Variation Regulations 2019 (SA), varying the WHS Regulations 2012 (SA) | In force before 2022 |
 | NT | SL No. 22 of 2019; transitional period to 30 June 2021 (reg 394A) | 1 July 2021 |
 | WA | WHS (General) Regulations 2022, from commencement | 31 March 2022 |
 | QLD | WHS Amendment Regulation 2022 (SL 2022 No. 161) Pt 3 | 1 July 2023 |
@@ -1693,8 +1693,9 @@ Program design points:
 | **Japanese encephalitis** | Mosquito-borne; pigs amplify the virus; detected in mainland piggeries from 2022 | JE vaccine for those at highest risk — state programs fund defined groups (as at December 2025); mosquito control, repellent, long sleeves |
 
 ### Avian influenza H5 — status as at September 2026
-H5N1 (clade 2.3.4.4b) was first confirmed on mainland Australia on 20 June
-2026 in wild birds in WA, after detections on Heard Island from October
+H5N1 (clade 2.3.4.4b) was first confirmed on mainland Australia in June
+2026 — a migratory brown skua found on 14 June at Cape Le Grand, WA, and
+notified to WOAH on 20 June — after detections on Heard Island from October
 2025. As at 7 September 2026 Wildlife Health Australia recorded it in wild
 birds in all six states and in a small number of marine and terrestrial
 mammals, with no detection in poultry or the agricultural system. No locally
