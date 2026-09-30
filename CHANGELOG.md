@@ -81,6 +81,23 @@ fact-checks also surfaced errors in the existing corpus, fixed below.
   duty standard stated as "all reasonably practicable steps" with ALARP as
   NOPSEMA's safety-case test; AS 1885.1-1990 described as superseded by
   AS/NZS ISO 45004:2024 (not withdrawn) in every file
+- `hazards.md` §2 rewritten to the crystalline silica regime as enacted:
+  CSS and "processing" defined (reg 529A), controlled processing
+  (regs 529B–529C), the reg 529CA high-risk test assessed ignoring RPE,
+  silica risk control plans (reg 529CB), exceedance notice to the
+  regulator within 14 days (reg 529CE), the NSW Silica Worker Register;
+  health monitoring re-anchored to the reg 368 significant-risk trigger
+  (HRCSW status alone does not trigger it); record retention periods added
+  (regs 50, 378, 444)
+- `hazards.md`: ACT extreme temperatures code (NI2025-607, in force
+  14 November 2025) and model reg 40(f) added to §6; §16 guard rows
+  restated to the reg 208(2) wording; §22 manganese limits corrected
+  (equal to the fume limit today, 0.1 inhalable / 0.02 respirable from
+  1 December 2026)
+- `frameworks.md`: SFAIRP exceptions stated for Queensland mines
+  (acceptable level of risk, CMSHA s 29 / MQSHA s 26) and offshore
+  facilities; on-time investigation completion relabelled as throughput,
+  not rigour; Victoria's derivative officer liability noted in §13
 - Regression guards for each corrected error added to `scripts/validate.py`
 
 ### Changed
